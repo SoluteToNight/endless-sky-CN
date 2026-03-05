@@ -182,7 +182,7 @@ void WrappedText::Wrap() {
 
         // Measure the word from wordStartPos up to charStart
         size_t wordLen = charStart - wordStartPos;
-        const int width = font->Width(text.c_str() + word.index, wordLen);
+        const int width = font->Width(text.c_str() + word.index, wordLen, '\0');
 
         if (word.x + width > wrapWidth && word.x > 0) {
           // Move to next line (only if we are not already at the start of a
@@ -234,7 +234,7 @@ void WrappedText::Wrap() {
   // Handle the final word if the text doesn't end in whitespace.
   if (traversingWord) {
     size_t wordLen = text.length() - wordStartPos;
-    const int width = font->Width(text.c_str() + word.index, wordLen);
+    const int width = font->Width(text.c_str() + word.index, wordLen, '\0');
 
     if (word.x + width > wrapWidth && word.x > 0) {
       word.y += lineHeight;

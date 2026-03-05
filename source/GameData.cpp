@@ -67,7 +67,6 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "test/TestData.h"
 #include "text/FontSet.h"
 
-
 #include <algorithm>
 #include <cassert>
 #include <filesystem>
