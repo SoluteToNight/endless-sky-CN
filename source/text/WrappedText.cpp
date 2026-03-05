@@ -246,6 +246,16 @@ void WrappedText::Wrap() {
     word.x += width;
     lineWidth = word.x;
   }
+
+  // Ensure the very last line is aligned if it hasn't been yet.
+  if (lineBegin < words.size()) {
+    AdjustLine(lineBegin, lineWidth, true);
+  }
+
+  // Calculate the total wrapped height, including the last line.
+  if (!words.empty()) {
+    height = words.back().y + lineHeight;
+  }
 }
 
 void WrappedText::AdjustLine(size_t &lineBegin, int &lineWidth, bool isEnd) {

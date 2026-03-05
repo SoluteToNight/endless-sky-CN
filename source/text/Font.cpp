@@ -427,56 +427,72 @@ string Font::TruncateText(const DisplayText &text, int &width) const {
 }
 
 string Font::TruncateBack(const string &str, int &width) const {
-  return TruncateEndsOrMiddle(str, width, [](const string &str, int charCount) {
-    // TODO: UTF-8 safe truncate
-    return str.substr(0, charCount) + "...";
-  });
+  return TruncateEndsOrMiddle(
+      str, width,
+      [](const string &str, const vector<size_t> &offsets, int charCount) {
+        return str.substr(0, offsets[charCount]) + "...";
+      });
 }
 
 string Font::TruncateFront(const string &str, int &width) const {
-  return TruncateEndsOrMiddle(str, width, [](const string &str, int charCount) {
-    // TODO: UTF-8 safe truncate
-    return "..." + str.substr(str.size() - charCount);
-  });
+  return TruncateEndsOrMiddle(
+      str, width,
+      [](const string &str, const vector<size_t> &offsets, int charCount) {
+        int totalChars = offsets.size() - 1;
+        return "..." + str.substr(offsets[totalChars - charCount]);
+      });
 }
 
 string Font::TruncateMiddle(const string &str, int &width) const {
-  return TruncateEndsOrMiddle(str, width, [](const string &str, int charCount) {
-    // TODO: UTF-8 safe truncate
-    return str.substr(0, (charCount + 1) / 2) + "..." +
-           str.substr(str.size() - charCount / 2);
-  });
+  return TruncateEndsOrMiddle(
+      str, width,
+      [](const string &str, const vector<size_t> &offsets, int charCount) {
+        int totalChars = offsets.size() - 1;
+        int leftChars = (charCount + 1) / 2;
+        int rightChars = charCount / 2;
+        return str.substr(0, offsets[leftChars]) + "..." +
+               str.substr(offsets[totalChars - rightChars]);
+      });
 }
 
 string Font::TruncateEndsOrMiddle(
     const string &str, int &width,
-    function<string(const string &, int)> getResultString) const {
+    function<string(const string &, const vector<size_t> &, int)>
+        getResultString) const {
   int firstWidth = WidthRawString(str.c_str());
   if (firstWidth <= width) {
     width = firstWidth;
     return str;
   }
 
+  // Pre-calculate UTF-8 character boundaries to avoid slicing multi-byte chars.
+  vector<size_t> offsets;
+  size_t pos = 0;
+  while (pos < str.length()) {
+    offsets.push_back(pos);
+    Utf8::DecodeCodePoint(str, pos);
+  }
+  offsets.push_back(str.length());
+
   int workingChars = 0;
   int workingWidth = 0;
 
-  // Note: for UTF-8 this binary search of byte chars will slice middle of
-  // runes. Fixes for CJK truncating are left for Phase 4 where we audit UTF8
-  // safety.
-  int low = 0, high = str.size() - 1;
+  // Binary search based on actual UTF-8 character count instead of bytes.
+  int low = 0, high = offsets.size() - 1;
   while (low <= high) {
-    // Think "how many chars to take from both ends, omitting in the middle".
     int nextChars = (low + high) / 2;
-    int nextWidth = WidthRawString(getResultString(str, nextChars).c_str());
+    int nextWidth =
+        WidthRawString(getResultString(str, offsets, nextChars).c_str());
     if (nextWidth <= width) {
       if (nextChars > workingChars) {
         workingChars = nextChars;
         workingWidth = nextWidth;
       }
       low = nextChars + (nextChars == low);
-    } else
+    } else {
       high = nextChars - 1;
+    }
   }
   width = workingWidth;
-  return getResultString(str, workingChars);
+  return getResultString(str, offsets, workingChars);
 }
