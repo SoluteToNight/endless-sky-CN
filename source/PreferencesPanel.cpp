@@ -53,143 +53,6 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 using namespace std;
 
 namespace {
-	string LocalizedSettingName(const string &setting)
-	{
-		static const map<string, string> NAMES = {
-			{"Display", "显示"},
-			{"Graphics", "图形"},
-			{"Performance", "性能"},
-			{"Map", "地图"},
-			{"Flagship Behavior", "旗舰行为"},
-			{"Fleet Behavior", "舰队行为"},
-			{"HUD", "HUD"},
-			{"Other", "其他"},
-			{"Windows Options", "Windows 选项"},
-			{"Main zoom factor", "主缩放倍数"},
-			{"View zoom factor", "视图缩放倍数"},
-			{"Screen mode", "屏幕模式"},
-			{"Block screen saver", "阻止屏幕保护"},
-			{"VSync", "垂直同步"},
-			{"Camera acceleration", "镜头加速"},
-			{"Render motion blur", "渲染动态模糊"},
-			{"Draw background haze", "绘制背景薄雾"},
-			{"Draw starfield", "绘制星空"},
-			{"Fixed starfield zoom", "固定星空缩放"},
-			{"Parallax background", "视差背景"},
-			{"Animate main menu background", "主菜单背景动画"},
-			{"Show hyperspace flash", "显示超空间闪光"},
-			{"Extended jump effects", "扩展跃迁特效"},
-			{"Cloaked ship outlines", "隐形舰船轮廓"},
-			{"Show CPU / GPU load", "显示 CPU / GPU 负载"},
-			{"Reduce large graphics", "减少大型图形"},
-			{"Defer loading images", "延迟加载图像"},
-			{"Ship outlines in shops", "商店中显示舰船轮廓"},
-			{"Ship outlines in HUD", "HUD 中显示舰船轮廓"},
-			{"Deadline blink by distance", "按距离闪烁任务期限"},
-			{"Hide unexplored map regions", "隐藏未探索地图区域"},
-			{"Show escort systems on map", "在地图上显示护航舰所在星系"},
-			{"Show stored outfits on map", "在地图上显示已存储装置"},
-			{"Control ship with mouse", "鼠标控制飞船"},
-			{"Aim turrets with mouse", "鼠标瞄准炮塔"},
-			{"Automatic aiming", "自动瞄准"},
-			{"Automatic firing", "自动开火"},
-			{"Target asteroid based on", "小行星目标依据"},
-			{"Boarding target priority", "登舰目标优先级"},
-			{"Rehire extra crew when lost", "损失后重新雇佣额外船员"},
-			{"Automatically unpark flagship", "自动解除旗舰停泊"},
-			{"Prioritize flagship use", "优先使用旗舰空间"},
-			{"Turret tracking", "炮塔追踪"},
-			{"Escorts expend ammo", "护航舰弹药消耗"},
-			{"Flotsam collection", "漂浮物收集"},
-			{"Repair fighters in", "战斗机修理模式"},
-			{"Fighters transfer cargo", "战斗机转运货物"},
-			{"Show status overlays", "显示状态覆盖层"},
-			{"   Show flagship overlay", "   显示旗舰覆盖层"},
-			{"   Show escort overlays", "   显示护航舰覆盖层"},
-			{"   Show enemy overlays", "   显示敌方覆盖层"},
-			{"   Show neutral overlays", "   显示中立覆盖层"},
-			{"Show missile overlays", "显示导弹覆盖层"},
-			{"Turret overlays", "炮塔覆盖层"},
-			{"Show asteroid scanner overlay", "显示小行星扫描覆盖层"},
-			{"Highlight player's flagship", "高亮玩家旗舰"},
-			{"Rotate flagship in HUD", "在 HUD 中旋转旗舰"},
-			{"Show planet labels", "显示行星标签"},
-			{"Show mini-map", "显示小地图"},
-			{"Clickable radar display", "可点击雷达显示"},
-			{"Alert indicator", "警报指示"},
-			{"Extra fleet status messages", "额外舰队状态消息"},
-			{"Always underline shortcuts", "始终给快捷键加下划线"},
-			{"Reactivate first-time help", "重新启用首次帮助"},
-			{"Interrupt fast-forward", "可中断快进"},
-			{"Landing zoom", "降落缩放"},
-			{"Scroll speed", "滚动速度"},
-			{"Tooltip activation time", "提示激活时间"},
-			{"Date format", "日期格式"},
-			{"Show parenthesis", "显示括号"},
-			{"Notify on destination", "到达目的地时通知"},
-			{"Save message log", "保存消息日志"},
-			{"Title bar theme", "标题栏主题"},
-			{"Window rounding", "窗口圆角"}
-		};
-
-		auto it = NAMES.find(setting);
-		return it == NAMES.end() ? setting : it->second;
-	}
-
-
-	string LocalizedSettingValue(const string &text)
-	{
-		static const map<string, string> VALUES = {
-			{"off", "关闭"},
-			{"on", "开启"},
-			{"windowed", "窗口"},
-			{"fullscreen", "全屏"},
-			{"adaptive", "自适应"},
-			{"always on", "始终开启"},
-			{"when firing", "开火时"},
-			{"guns only", "仅主炮"},
-			{"turrets only", "仅炮塔"},
-			{"fancy", "高质量"},
-			{"fast", "快速"},
-			{"damaged", "受损时"},
-			{"on hit", "受击时"},
-			{"frugally", "节省"},
-			{"always", "总是"},
-			{"never", "从不"},
-			{"focused", "集火"},
-			{"opportunistic", "机会主义"},
-			{"parallel", "并行"},
-			{"series", "串行"},
-			{"proximity", "距离"},
-			{"value", "价值"},
-			{"mixed", "混合"},
-			{"medium", "中等"},
-			{"heavy", "重度"},
-			{"message", "消息"},
-			{"both", "两者"},
-			{"audio", "音频"},
-			{"visual", "视觉"},
-			{"flagship only", "仅旗舰"},
-			{"escorts only", "仅护航舰"},
-			{"when jumping", "跃迁时"},
-			{"none", "无"},
-			{"passengers", "乘客"},
-			{"cargo", "货物"},
-			{"largest only", "仅最大图形"},
-			{"all", "全部"},
-			{"system default", "系统默认"},
-			{"light", "浅色"},
-			{"dark", "深色"},
-			{"large", "大"},
-			{"small", "小"},
-			{"N/A", "不可用"}
-		};
-
-		auto it = VALUES.find(text);
-		return it == VALUES.end() ? text : it->second;
-	}
-
-
 	// Settings that require special handling.
 	const string ZOOM_FACTOR = "Main zoom factor";
 	const int ZOOM_FACTOR_MIN = 100;
@@ -992,12 +855,12 @@ void PreferencesPanel::DrawSettings()
 		if(isCategory)
 		{
 			isCategory = false;
-			table.DrawGap(10);
-			table.DrawUnderline(medium);
-			table.Draw(LocalizedSettingName(setting), bright);
-			table.Advance();
-			table.DrawGap(5);
-			continue;
+		table.DrawGap(10);
+		table.DrawUnderline(medium);
+		table.Draw(setting, bright);
+		table.Advance();
+		table.DrawGap(5);
+		continue;
 		}
 
 		// Record where this setting is displayed, so the user can click on it.
@@ -1174,61 +1037,58 @@ void PreferencesPanel::DrawSettings()
 			else
 			{
 				isOn = true;
-				text = "完成";
-			}
+			text = "done";
 		}
-		else if(setting == SCROLL_SPEED)
-		{
-			isOn = true;
-			text = to_string(Preferences::ScrollSpeed());
-		}
-		else if(setting == TOOLTIP_ACTIVATION)
-		{
-			isOn = true;
-			text = Format::StepsToSeconds(Preferences::TooltipActivation());
-		}
-		else if(setting == ALERT_INDICATOR)
-		{
-			isOn = Preferences::GetAlertIndicator() != Preferences::AlertIndicator::NONE;
-			text = Preferences::AlertSetting();
-		}
-		else if(setting == MINIMAP_DISPLAY)
-		{
-			isOn = Preferences::GetMinimapDisplay() != Preferences::MinimapDisplay::OFF;
-			text = Preferences::MinimapSetting();
-		}
+	}
+	else if(setting == SCROLL_SPEED)
+	{
+		isOn = true;
+		text = to_string(Preferences::ScrollSpeed());
+	}
+	else if(setting == TOOLTIP_ACTIVATION)
+	{
+		isOn = true;
+		text = Format::StepsToSeconds(Preferences::TooltipActivation());
+	}
+	else if(setting == ALERT_INDICATOR)
+	{
+		isOn = Preferences::GetAlertIndicator() != Preferences::AlertIndicator::NONE;
+		text = Preferences::AlertSetting();
+	}
+	else if(setting == MINIMAP_DISPLAY)
+	{
+		isOn = Preferences::GetMinimapDisplay() != Preferences::MinimapDisplay::OFF;
+		text = Preferences::MinimapSetting();
+	}
 #ifdef _WIN32
-		else if(setting == TITLE_BAR_THEME)
-		{
-			isOn = WinVersion::SupportsDarkTheme();
-			text = isOn ? Preferences::TitleBarThemeSetting() : "N/A";
-		}
-		else if(setting == WINDOW_ROUNDING)
-		{
-			isOn = WinVersion::SupportsWindowRounding();
-			text = isOn ? Preferences::WindowRoundingSetting() : "N/A";
-		}
+	else if(setting == TITLE_BAR_THEME)
+	{
+		isOn = WinVersion::SupportsDarkTheme();
+		text = isOn ? Preferences::TitleBarThemeSetting() : "N/A";
+	}
+	else if(setting == WINDOW_ROUNDING)
+	{
+		isOn = WinVersion::SupportsWindowRounding();
+		text = isOn ? Preferences::WindowRoundingSetting() : "N/A";
+	}
 #endif
-		else
-			text = isOn ? "on" : "off";
+	else
+		text = isOn ? "on" : "off";
 
-		const string displaySetting = LocalizedSettingName(setting);
-		const string displayText = LocalizedSettingValue(text);
+	if(setting == hoverItem)
+	{
+		table.SetHighlight(-120, 120);
+		table.DrawHighlight(back);
+	}
+	else if(setting == selectedItem)
+	{
+		auto width = FontSet::Get(14).Width(setting);
+		table.SetHighlight(-120, width - 110);
+		table.DrawHighlight(back);
+	}
 
-		if(setting == hoverItem)
-		{
-			table.SetHighlight(-120, 120);
-			table.DrawHighlight(back);
-		}
-		else if(setting == selectedItem)
-		{
-			auto width = FontSet::Get(14).Width(displaySetting);
-			table.SetHighlight(-120, width - 110);
-			table.DrawHighlight(back);
-		}
-
-		table.Draw(displaySetting, isOn ? medium : dim);
-		table.Draw(displayText, isOn ? bright : medium);
+	table.Draw(setting, isOn ? medium : dim);
+	table.Draw(text, isOn ? bright : medium);
 	}
 
 	// Sync the currently selected item after the preferences map has been populated.
@@ -1435,7 +1295,7 @@ void PreferencesPanel::DrawTooltips()
 	{
 		string text = GameData::Tooltip(hoverItem);
 		if(text.empty())
-			text = GameData::Tooltip(LocalizedSettingName(hoverItem));
+			text = GameData::Tooltip(hoverItem);
 		tooltip.SetText(text);
 	}
 
@@ -1448,7 +1308,7 @@ void PreferencesPanel::Exit()
 {
 	if(Command::MENU.HasConflict() || !Command::MENU.HasBinding())
 	{
-		GetUI().Push(DialogPanel::Info("菜单按键未绑定或存在冲突。"));
+		GetUI().Push(DialogPanel::Info("Menu key is not bound or has a conflict."));
 		return;
 	}
 
@@ -1504,7 +1364,7 @@ void PreferencesPanel::HandleSettingsString(const string &str, Point cursorPosit
 	{
 		if(!Preferences::ToggleVSync())
 			GetUI().Push(DialogPanel::Info(
-				"无法切换垂直同步状态。（可能由系统图形设置强制控制。）"));
+				"Unable to toggle VSync. (It may be forced by your system graphics settings.)"));
 	}
 	else if(str == CAMERA_ACCELERATION)
 		Preferences::ToggleCameraAcceleration();

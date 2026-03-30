@@ -85,7 +85,7 @@ HailPanel::HailPanel(PlayerInfo &player, const shared_ptr<Ship> &ship, function<
 	{
 		const Ship *flagship = player.Flagship();
 		if(flagship->NeedsFuel(false) || flagship->IsDisabled())
-			SetMessage("抱歉，我们的飞船已失能，无法协助你。");
+			SetMessage("Sorry, our ship is disabled and cannot assist you.");
 	}
 	else
 	{
@@ -116,22 +116,22 @@ HailPanel::HailPanel(PlayerInfo &player, const shared_ptr<Ship> &ship, function<
 		}
 
 		if(ship->GetShipToAssist() == player.FlagshipPtr())
-			SetMessage("稍等，我们马上过来。");
+			SetMessage("Hold on, we're on our way.");
 		else if(canGiveFuel || canRepair)
 		{
-			string helpOffer = "看起来你遇到了一些麻烦。需要我们";
+			string helpOffer = "You seem to be having some trouble. Would you like us to";
 			if(canGiveFuel && canRepair)
-				helpOffer += "帮你修理并补给一些燃料吗？";
+				helpOffer += " repair your ship and provide some fuel?";
 			else if(canGiveFuel)
-				helpOffer += "补给一些燃料吗？";
+				helpOffer += " provide some fuel?";
 			else if(canRepair)
-				helpOffer += "帮你修理吗？";
+				helpOffer += " repair your ship?";
 			else if(canGiveEnergy)
-				helpOffer += "为你充能吗？";
+				helpOffer += " provide some energy?";
 			SetMessage(helpOffer);
 		}
 		else if(playerNeedsHelp && !canAssistPlayer)
-			SetMessage("抱歉，我的飞船太小，没有合适的设备来协助你。");
+			SetMessage("Sorry, my ship is too small to have the proper equipment to assist you.");
 	}
 
 	if(message.empty())
@@ -165,22 +165,22 @@ HailPanel::HailPanel(PlayerInfo &player, const StellarObject *object)
 			}
 
 	if(!hasLanguage)
-		SetMessage("（一个外星声音说了些你听不懂的话。）");
+		SetMessage("(An alien voice says something you cannot understand.)");
 	else if(planet && player.Flagship())
 	{
 		if(planet->CanLand())
-			SetMessage("允许着陆，" + player.Flagship()->GivenName() + "。");
+			SetMessage("Landing is permitted, " + player.Flagship()->GivenName() + ".");
 		else
 		{
 			if(planet->CanBribe())
 				SetBribe(planet->GetBribeFraction());
 			if(bribe)
-				SetMessage("如果你想在这里着陆，需要支付"
+				SetMessage("If you wish to land here, you must pay "
 					+ Format::CreditString(bribe) + ".");
 			else if(gov->IsEnemy())
-				SetMessage("你不受欢迎。");
+				SetMessage("You are not welcome here.");
 			else
-				SetMessage("恐怕我们不能允许你在这里着陆。");
+				SetMessage("I'm afraid we cannot allow you to land here.");
 		}
 	}
 }
@@ -334,13 +334,13 @@ bool HailPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 			GameData::GetPolitics().DominatePlanet(planet, false);
 			// Set payment 0 to erase the tribute.
 			player.SetTribute(planet, 0);
-			SetMessage("感谢你让我们重获自由！");
+			SetMessage("Thank you for setting us free!");
 		}
 		else if(!planet->IsDefending())
 			GetUI().Push(DialogPanel::CallFunctionIfOk([this]() { SetMessage(planet->DemandTribute(player)); },
-				"索要贡金可能会导致该行星出动防御舰队与你交战。"
-				"在击败这些舰队后，你可以再次索要贡金，迫使其屈服。\n"
-				"此举可能严重损害你的声望。是否继续？", false));
+				"Demanding tribute may cause this planet to send defense fleets against you."
+				"After defeating these fleets, you can demand tribute again to force their surrender.\n"
+				"This action may severely damage your reputation. Continue?", false));
 		else
 			SetMessage(planet->DemandTribute(player));
 		UI::PlaySound(UI::UISound::NORMAL);
@@ -353,35 +353,35 @@ bool HailPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 		if(playerNeedsHelp)
 		{
 			if(ship->GetPersonality().IsSurveillance())
-				SetMessage("抱歉，我现在太忙，没法帮你。");
+				SetMessage("Sorry, I'm too busy to help you right now.");
 			else if(canGiveFuel || canRepair || canGiveEnergy)
 			{
 				ship->SetShipToAssist(player.FlagshipPtr());
-				SetMessage("稍等，我们马上过来。");
+				SetMessage("Hold on, we're on our way.");
 			}
 			else if(player.Flagship()->NeedsFuel(false))
 			{
 				if(ship->Fuel())
-					SetMessage("抱歉，如果给你燃料，我们自己就不够飞到下一个星系了。");
+					SetMessage("Sorry, if we give you fuel, we won't have enough to reach the next system.");
 				else
-					SetMessage("抱歉，我们没有燃料了。");
+					SetMessage("Sorry, we have no fuel left.");
 			}
 			else if(player.Flagship()->NeedsEnergy())
 			{
 				if(ship->Energy())
-					SetMessage("抱歉，如果给你能量，我们自己的飞船就不够用了。");
+					SetMessage("Sorry, if we give you energy, we won't have enough for our own ship.");
 				else
-					SetMessage("抱歉，我们没有能量了。");
+					SetMessage("Sorry, we have no energy left.");
 			}
 			else // shouldn't happen
-				SetMessage("抱歉，我们无法协助你。");
+				SetMessage("Sorry, we cannot assist you.");
 		}
 		else
 		{
 			if(bribe)
-				SetMessage("呵，少来。别得寸进尺。");
+				SetMessage("Oh, come on. Don't push your luck.");
 			else
-				SetMessage("你看起来并不需要维修或燃料补给。");
+				SetMessage("You don't seem to need any repairs or fuel.");
 		}
 	}
 	else if((key == 'b' || key == 'o') && hasLanguage)
@@ -394,7 +394,7 @@ bool HailPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 			return true;
 
 		if(bribe > player.Accounts().Credits())
-			SetMessage("抱歉，你的钱不够让我出手。");
+			SetMessage("Sorry, you don't have enough credits to make it worth my while.");
 		else if(bribe)
 		{
 			if(!ship || requestedToBribeShip)
@@ -409,7 +409,7 @@ bool HailPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 			{
 				if(!requestedToBribeShip)
 				{
-					SetMessage("如果你想让我们放过你，需要支付"
+					SetMessage("If you want us to let you go, you must pay "
 						+ Format::CreditString(bribe) + ".");
 					requestedToBribeShip = true;
 				}
@@ -417,16 +417,16 @@ bool HailPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 				{
 					bribed = ship->GetGovernment();
 					bribed->Bribe();
-					Messages::Add({"你贿赂了一艘" + bribed->DisplayName() + "飞船，支付"
-						+ Format::CreditString(bribe) + "使其今天不再攻击你。",
+					Messages::Add({"You bribed a " + bribed->DisplayName() + " ship, paying "
+						+ Format::CreditString(bribe) + " to make it leave you alone for today.",
 						GameData::MessageCategories().Get("normal")});
 				}
 			}
 			else
 			{
 				planet->Bribe();
-				Messages::Add({"你贿赂了" + planet->DisplayName() + "的当局，支付"
-					+ Format::CreditString(bribe) + "以获准着陆。",
+				Messages::Add({"You bribed the authorities of " + planet->DisplayName() + ", paying "
+					+ Format::CreditString(bribe) + " to be allowed to land.",
 					GameData::MessageCategories().Get("normal")});
 			}
 		}
@@ -463,6 +463,6 @@ void HailPanel::SetMessage(const string &text)
 {
 	message = text;
 	if(!message.empty())
-		Messages::Add({"（呼叫回复）" + header + " " + message,
+		Messages::Add({"(Hail reply) " + header + " " + message,
 			GameData::MessageCategories().Get("log only")});
 }

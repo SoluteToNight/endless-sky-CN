@@ -39,40 +39,12 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 using namespace std;
 
 namespace {
-	string LocalizedCommodityName(const string &name)
-	{
-		static const map<string, string> NAMES = {
-			{"Food", "食品"},
-			{"Clothing", "服装"},
-			{"Metal", "金属"},
-			{"Plastic", "塑料"},
-			{"Equipment", "设备"},
-			{"Medical", "医疗用品"},
-			{"Industrial", "工业品"},
-			{"Electronics", "电子产品"},
-			{"Heavy Metals", "重金属"},
-			{"Luxury Goods", "奢侈品"},
-			{"Garbage", "垃圾"},
-			{"Construction", "建材"},
-			{"Illegal Substances", "违禁物质"},
-			{"Highly Illegal Substances", "高度违禁物质"},
-			{"Illegal Cargo", "违禁货物"},
-			{"Highly Illegal Cargo", "高度违禁货物"},
-			{"Military", "军需物资"},
-			{"Ship Systems", "舰船系统"},
-			{"Ship Alloys", "舰船合金"}
-		};
-
-		auto it = NAMES.find(name);
-		return it == NAMES.end() ? name : it->second;
-	}
-
 	const string TRADE_LEVEL[] = {
-		"（极低）",
-		"（低）",
-		"（中）",
-		"（高）",
-		"（极高）"
+		"(Very Low)",
+		"(Low)",
+		"(Medium)",
+		"(High)",
+		"(Very High)"
 	};
 
 	const int NAME_X = 20;
@@ -98,12 +70,12 @@ TradingPanel::~TradingPanel()
 {
 	if(profit)
 	{
-		string message = "你出售了" + Format::CargoString(tonsSold, "货物");
+		string message = "You sold " + Format::CargoString(tonsSold, "cargo");
 
 		if(profit < 0)
-			message += "，亏损" + Format::CreditString(-profit) + "。";
+			message += ", losing " + Format::CreditString(-profit) + ".";
 		else
-			message += "，总利润为" + Format::CreditString(profit) + "。";
+			message += ", for a total profit of " + Format::CreditString(profit) + ".";
 
 		Messages::Add({message, GameData::MessageCategories().Get("normal")});
 	}
@@ -139,18 +111,18 @@ void TradingPanel::Draw()
 	const Color &selected = *GameData::Colors().Get("bright");
 
 	int y = FIRST_Y;
-	font.Draw("商品", Point(MIN_X + NAME_X, y), selected);
-	font.Draw("价格", Point(MIN_X + PRICE_X, y), selected);
+	font.Draw("Commodity", Point(MIN_X + NAME_X, y), selected);
+	font.Draw("Price", Point(MIN_X + PRICE_X, y), selected);
 
 	string mod = "x " + to_string(Modifier());
 	font.Draw(mod, Point(MIN_X + BUY_X, y), unselected);
 	font.Draw(mod, Point(MIN_X + SELL_X, y), unselected);
 
-	font.Draw("货舱内", Point(MIN_X + HOLD_X, y), selected);
+	font.Draw("Hold", Point(MIN_X + HOLD_X, y), selected);
 
 	y += 5;
 	int lastY = y + 20 * COMMODITY_COUNT + 25;
-	font.Draw("空余：", Point(MIN_X + SELL_X + 5, lastY), selected);
+	font.Draw("Free:", Point(MIN_X + SELL_X + 5, lastY), selected);
 	font.Draw(to_string(player.Cargo().Free()), Point(MIN_X + HOLD_X, lastY), selected);
 
 	int outfits = player.Cargo().OutfitsSize();
@@ -169,19 +141,19 @@ void TradingPanel::Draw()
 		sellOutfits = (hasOutfits && !hasMinables);
 
 		string str = Format::MassString(outfits + missionCargo) + " of ";
-		if(hasMinables && missionCargo)
-			str += "任务货物和其他物品。";
-		else if(hasOutfits && missionCargo)
-			str += "装备和任务货物。";
-		else if(hasOutfits && hasMinables)
-			str += "装备和特殊商品。";
-		else if(hasOutfits)
-			str += "装备。";
-		else if(hasMinables)
-			str += "特殊商品。";
-		else
-			str += "任务货物。";
-		font.Draw(str, Point(MIN_X + NAME_X, lastY), unselected);
+	if(hasMinables && missionCargo)
+		str += "mission cargo and other items.";
+	else if(hasOutfits && missionCargo)
+		str += "outfits and mission cargo.";
+	else if(hasOutfits && hasMinables)
+		str += "outfits and special goods.";
+	else if(hasOutfits)
+		str += "outfits.";
+	else if(hasMinables)
+		str += "special goods.";
+	else
+		str += "mission cargo.";
+	font.Draw(str, Point(MIN_X + NAME_X, lastY), unselected);
 	}
 
 	int i = 0;
@@ -196,7 +168,7 @@ void TradingPanel::Draw()
 
 		bool isSelected = (i++ == selectedRow);
 		const Color &color = (isSelected ? selected : unselected);
-		font.Draw(LocalizedCommodityName(commodity.name), Point(MIN_X + NAME_X, y), color);
+		font.Draw(commodity.name, Point(MIN_X + NAME_X, y), color);
 
 		if(price)
 		{
@@ -219,13 +191,13 @@ void TradingPanel::Draw()
 				level = (5 * level) / (commodity.high - commodity.low);
 			font.Draw(TRADE_LEVEL[level], Point(MIN_X + LEVEL_X, y), color);
 
-			font.Draw("[买入]", Point(MIN_X + BUY_X, y), color);
-			font.Draw("[卖出]", Point(MIN_X + SELL_X, y), color);
+			font.Draw("[Buy]", Point(MIN_X + BUY_X, y), color);
+			font.Draw("[Sell]", Point(MIN_X + SELL_X, y), color);
 		}
 		else
 		{
 			font.Draw("----", Point(MIN_X + PRICE_X, y), color);
-			font.Draw("（不可交易）", Point(MIN_X + LEVEL_X, y), color);
+			font.Draw("(Not Tradable)", Point(MIN_X + LEVEL_X, y), color);
 		}
 
 		if(hold)
@@ -237,7 +209,7 @@ void TradingPanel::Draw()
 	}
 
 	if(showProfit)
-		font.Draw("利润", Point(MIN_X + PROFIT_X, FIRST_Y), selected);
+		font.Draw("Profit", Point(MIN_X + PROFIT_X, FIRST_Y), selected);
 
 	Information info;
 	if(sellOutfits)
