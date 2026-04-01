@@ -66,6 +66,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "test/Test.h"
 #include "test/TestData.h"
 #include "text/FontSet.h"
+#include "text/Translator.h"
 
 #include <algorithm>
 #include <cassert>
@@ -149,6 +150,7 @@ shared_future<void> GameData::BeginLoad(TaskQueue &queue,
 
   // Initialize the list of "source" folders based on any active plugins.
   LoadSources(queue);
+  Translator::Init(sources);
 
   if (!onlyLoadData) {
     queue.Run([&queue] {

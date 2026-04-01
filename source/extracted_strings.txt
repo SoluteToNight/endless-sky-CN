@@ -1,0 +1,668 @@
+(overdue)
+Accept
+Aim turrets with mouse
+Alert indicator
+Always underline shortcuts
+Ammunition
+Angle.h
+Animate main menu background
+Are you sure you want to jettison a 
+Automatic aiming
+Automatic firing
+Automatically unpark flagship
+BankPanel.h
+Block screen saver
+Boarding target priority
+BoardingPanel.h
+Borrow how many credits?
+Buy
+Camera acceleration
+Cancel
+Cargo
+CargoHold.h
+CategoryList.h
+CategoryType.h
+ClickZone.h
+Clickable radar display
+Cloaked ship outlines
+Color.h
+Command.h
+Commodity
+Control ship with mouse
+Conversation.h
+ConversationPanel.h
+CoreStartData.h
+Crew Salaries
+Daily depreciation
+DataFile.h
+Date format
+Deadline blink by distance
+Decline
+Defer loading images
+Demanding tribute may cause this planet to send defense fleets against you.
+Depreciation
+Depreciation.h
+DialogPanel.h
+Display
+Draw background haze
+Draw starfield
+Drone
+Endpoint.h
+Enter Ship
+Escorts expend ammo
+Escorts use ammo frugally
+Extended jump effects
+Extra fleet status messages
+Fighters hit when disabled
+Fighters transfer cargo
+Files.h
+Fixed starfield zoom
+Flagship Behavior
+Fleet
+Fleet Behavior
+Fleet multiplier
+Flotsam collection
+Free:
+Galaxy.h
+GameData.h
+GameLoadingPanel.h
+Gamerules.h
+GamerulesPanel.h
+Government.h
+Grace period
+Graphics
+HUD
+HailPanel.h
+Hardpoint.h
+Hide unexplored map regions
+HiringPanel.h
+Hold
+How many 
+How many tons of 
+If you take off now, you will:
+If you want us to let you go, you must pay 
+If you wish to land here, you must pay 
+InfoPanelState.h
+Information.h
+Interest
+Interface
+Interface.h
+Interrupt fast-forward
+ItemInfoDisplay.h
+Key
+Keyboard Navigation
+Landing is permitted, 
+Landing zoom
+LoadPanel.h
+Lock gamerules
+LogbookPanel.h
+Logger.h
+MAX
+Main zoom factor
+MainPanel.h
+Maintenance
+Make sure you installed Endless Sky (and any plugins) properly.
+Map
+MapDetailPanel.h
+MapOutfitterPanel.h
+MapPanel.h
+MapSalesPanel.h
+MapShipyardPanel.h
+Maximum age
+Menu key is not bound or has a conflict.
+MenuAnimationPanel.h
+MenuPanel should only be created after all data is fully loaded
+MenuPanel.h
+MessageLogPanel.h
+Messages.h
+Minimum arrival distance
+Minimum departure distance
+Minimum value
+Miscellaneous
+Mission.h
+MissionPanel.h
+N/A
+NPC Behavior
+NPC max mining time
+New Pilot.
+News.h
+No Pilot Loaded
+No spawn weight
+Notify on destination
+OptionalInputDialogPanel.h
+Other
+Outfit.h
+OutfitterPanel.h
+Panel.h
+Panel::GetUI cannot be called until after the Panel has been pushed onto the UI stack.
+Parallax background
+Parked
+Pay All
+Paying off part of this debt will reduce your daily payments and the 
+Payment
+Performance
+Person Ships
+Phrase.h
+Planet.h
+PlanetPanel.h
+PlayerInfo.h
+PlayerInfoPanel.h
+Plugins.h
+Point.h
+Politics.h
+Port.h
+Preferences.h
+PreferencesPanel.h
+Price
+Principal
+Prioritize flagship use
+Profit
+Radar.h
+Random.h
+Reactivate first-time help
+Rebinding this key will change the keypress you need to access this menu. 
+Rectangle.h
+Reduce large graphics
+Rehire extra crew when lost
+Rename
+Render motion blur
+RenderBuffer.h
+Repair fighters in
+Rotate flagship in HUD
+RoutePlan.h
+Sale.h
+Save message log
+Save order
+Screen mode
+Screen.h
+Scroll speed
+ScrollBar.h
+ScrollVar.h
+Set the NPC max mining time. (Integer value greater than or equal to 0.)
+Set the daily deprecation value. (Decimal value between 0 and 1.)
+Set the depreciation grace period. (Integer value greater than or equal to 0.)
+Set the depreciation maximum age. (Integer value greater than or equal to 0.)
+Set the fleet spawn multiplier. (Decimal value greater than or equal to 0.)
+Set the minimum deprecation value. (Decimal value between 0 and 1.)
+Set the minimum system arrival distance. (Any decimal value.)
+Set the minimum system departure distance. (Decimal value greater than or equal to 0.)
+Set the no person ship spawn weight. (Integer value greater than or equal to 0.)
+Set the person ship spawn attempt period. (Integer value greater than or equal to 1.)
+Set the universal frugal threshold. (Decimal value between 0 and 1.)
+Ship outlines in HUD
+Ship outlines in shops
+Ship.h
+ShipEvent.h
+ShipInfoPanel.h
+ShipJumpNavigation.h
+ShipNameDialogPanel.h
+ShipyardPanel.h
+Shop.h
+ShopPanel.h
+Show CPU / GPU load
+Show asteroid scanner overlay
+Show escort systems on map
+Show hyperspace flash
+Show mini-map
+Show missile overlays
+Show parenthesis
+Show planet labels
+Show status overlays
+Show stored outfits on map
+Sorry, my ship is too small to have the proper equipment to assist you.
+Sorry, our ship is disabled and cannot assist you.
+Sorry, we cannot assist you.
+Sorry, we have no energy left.
+Sorry, we have no fuel left.
+SpaceportPanel.h
+Spawn attempt period
+StartConditions.h
+StartConditionsPanel.h
+StellarObject.h
+Swizzle.h
+System Behavior
+System.h
+Target asteroid based on
+Targeting
+TaskQueue.h
+Term
+TextArea.h
+Thank you for setting us free!
+This action may severely damage your reputation. Continue?
+Title bar theme
+Tooltip activation time
+Trade.h
+TradingPanel.h
+Turret overlays
+Turret tracking
+Turrets focus fire
+Type
+UI.h
+Unable to toggle VSync. (It may be forced by your system graphics settings.)
+Uninhabited
+Universal ammo stocking
+Universal frugal threshold
+Universal ramscoop
+Unknown
+VSync
+View zoom factor
+Weapon.h
+Weapons
+Window rounding
+Windows Options
+Wormhole.h
+You are not welcome here.
+You bribed a 
+You bribed the authorities of 
+You do not qualify for further loans at this time.
+You have died.
+You qualify for a new loan of up to 
+You seem to be having some trouble. Would you like us to
+You sold 
+Your Return on Assets Income
+Your Salary Income
+Your Salary and Return on Assets Income
+Your Salary and Tribute Income
+Your Salary, Tribute, and Returns Income
+Your Ships
+Your Tribute Income
+Your Tribute and Return on Assets Income
+Your credit score is 
+Your screen resolution is too low to support a zoom level above 100%.
+[apply]
+[pay extra]
+a ship
+accept / abort
+accepted missions
+active back
+active escorts.
+active mission
+afterburner volume
+alert volume
+anti-missile volume
+armament deterrence
+arrow x offset
+arrow y offset
+asteroid scan power
+attack casualties
+attack odds
+audio/Audio.h
+available back
+available job
+available missions
+bank (small screen)
+bank advanced
+batch pointershader
+blocked back
+blocked mission
+bunks available for 
+bunks free
+buy and install
+buy and load
+can abort
+can accept
+can assist
+can attack
+can bribe
+can buy
+can capture
+can defend
+can dominate
+can exit
+can fire
+can hire
+can hire crew
+can park
+can pay
+can pay bribe
+can sell
+can sell outfits
+can take
+cannot hail
+cannot hail while cloaked
+cannot hail while jumping
+cannot hail without target
+cargo attractiveness
+cargo free
+cargo management
+cargo space
+cargo space to hold 
+chosen start
+cloaked communication
+combat rating
+comparators/ByGivenOrder.h
+comparators/BySeriesAndIndex.h
+control ship with mouse
+conversation background
+defense casualties
+defense odds
+depends on this outfit and must be uninstalled first
+depreciation daily
+depreciation grace period
+depreciation max age
+depreciation min
+description height
+description width
+description x offset
+dialog backdrop
+disabled fighters avoid projectiles
+double click
+drag select
+enable dump
+enable logbook
+enemy attack
+enemy crew
+enemy defense
+engine capacity
+engine volume
+environment volume
+error back
+expend ammo always
+expend ammo frugally
+expend ammo never
+explosion volume
+fighters transfer cargo
+five buttons
+flagship bunks
+flagship extra
+flagship required
+flagship unused
+fleet asteroid mining
+fleet asteroid mining shortcuts
+fleet bunks
+fleet harvest tutorial
+fleet management
+fleet multiplier
+fleet required
+fleet unused
+flight check: 
+friendly disabled
+fuel capacity
+gamerules presets
+gamerules unlocked
+government Y
+gun ports
+hail panel
+has bank
+has description
+has escort destination
+has job board
+has outfitter
+has port
+has ship
+has shipyard
+has trade
+help: 
+help: shop with multiple ships
+hiring (small screen)
+image/MaskManager.h
+image/Sprite.h
+image/SpriteLoadManager.h
+image/SpriteSet.h
+important messages only
+in stock
+info panel
+interest that it costs you. How many extra credits will you pay?
+is missions
+is outfitters
+is outfitters w/ minerals
+is ports
+is shipyards
+is stars
+isOn
+item selected
+jump volume
+language: 
+load menu
+lock gamerules
+log only
+logbook background
+logbook line
+logbook sidebar
+lost 1
+main menu
+main panel
+map advanced
+map advanced danger
+map advanced ports
+map advanced shops
+map advanced stars
+map buttons
+map buttons (small screen)
+map danger none
+map detail panel
+map jump range color
+map link
+map minables
+map name
+map orbits fleet destination
+map planet card
+map side panel background
+map system ring unexplored
+map travel ok flagship
+map travel ok fleet
+map travel ok none
+map view range color
+map: mission view: key
+map: sales key
+master volume bar size
+max planet panel height
+max zoom
+menu background
+menu player info
+menu start info
+message log
+message log background
+message portrait
+min planet panel height
+min zoom
+mission cargo and other items.
+mission cargo.
+mission route
+multiple controls pages
+multiple gamerules pages
+multiple settings pages
+multiple ship controls
+multiple ships
+music volume
+new pilot
+news (small screen)
+no bays?
+no fuel?
+no hyperdrive?
+no person spawn weight
+no pilot loaded
+npc board
+npc max mining time
+on / off
+on enter
+on offer
+only sold here
+only stored here
+outfit space
+outfits and mission cargo.
+outfits and special goods.
+outfitter difference highlight
+outfitter map
+outfitter with multiple ships
+outfitter: 
+panel background
+passengers:
+pay extra
+person spawn period
+pilot alive
+pilot dead
+pilot fade out
+pilot horizontal text pad
+pilot loaded
+pilot selected
+planet (small screen)
+player info
+player info hardpoint gun
+player info hardpoint gun hover
+player info hardpoint turret
+player info hardpoint turret hover
+player tab
+plugin description
+plugin list
+port name
+preset description
+preset list
+raid fleet
+raw index
+required crew
+route error
+s have
+salary extra
+salary required
+scan volume
+self destruct
+sell 
+shader/BatchDrawList.h
+shader/DrawList.h
+shader/FillShader.h
+shader/FogShader.h
+shader/LineShader.h
+shader/OutlineShader.h
+shader/PointerShader.h
+shader/RingShader.h
+shader/SpriteShader.h
+shader/StarField.h
+ship info
+ship sprite
+ship tab
+shipyard map
+shipyard: 
+shop info panel background
+shop side panel background
+shop side panel footer
+shop with multiple ships
+show assist
+show disown
+show dominate
+show dump
+show next controls
+show next gamerules
+show next settings
+show park
+show park all
+show park system
+show pay bribe
+show plugins changed
+show previous controls
+show previous gamerules
+show previous settings
+show relinquish
+show save order
+show unpark
+show unpark all
+show unpark system
+snapshot fade out
+snapshot horizontal text pad
+snapshot selected
+spaceport (small screen)
+special goods.
+special mission
+start conditions menu
+start description
+start entry item bounds
+start entry list
+start entry text padding
+starting X
+store 
+system arrival min
+system departure min
+text margin
+text/Alignment.h
+text/Clipboard.h
+text/DisplayText.h
+text/Font.h
+text/FontSet.h
+text/Format.h
+text/Layout.h
+text/Table.h
+text/Truncate.h
+text/WrappedText.h
+three buttons
+to return to this panel to make further edits after leaving. Continue anyway?
+tooltip background
+total:
+trade (small screen)
+trade height
+try out fighters transfer cargo
+turret mounts
+turret tracking focused
+turret tracking opportunistic
+ui volume
+ui/bottom edge
+ui/bottom edges
+ui/description panel
+ui/dialog bottom
+ui/dialog bottom wide
+ui/dialog cancel
+ui/dialog middle
+ui/dialog middle wide
+ui/dialog top
+ui/dialog top wide
+ui/fast forward
+ui/find selected
+ui/find unselected
+ui/icon selected
+ui/icon unselected
+ui/left edge
+ui/map system
+ui/map trade
+ui/orbits and key
+ui/outfitter key
+ui/outfitter selected
+ui/outfitter unselected
+ui/red alert
+ui/red alert grayed
+ui/right edge
+ui/selected system
+ui/shipyard selected
+ui/shipyard unselected
+ui/sort abc
+ui/sort ascending
+ui/sort convenient
+ui/sort descending
+ui/sort pay
+ui/sort rush include
+ui/sort rush separate
+ui/sort speed
+ui/sort unacceptable include
+ui/sort unacceptable separate
+ui/thumb box
+ui/thumb boxes
+ui/wide button
+unavailable back
+unavailable job
+uninstalling and storage
+universal ammo restocking
+universal frugal threshold
+universal ramscoop
+unlocked start
+visible range
+volume bar size
+volume box
+warning back
+warning conflict
+warning no command
+waypoint back
+weapon capacity
+weapon volume
+windows/WinVersion.h
+wormhole hail
+x speed
+y amplitude
+y speed
+your attack
+your crew
+your defense
+zoom animation duration
+战斗评级:
+海盗威胁度:
+该武器需要安装在炮位上，但你的飞船没有可用炮位。
+该武器需要安装在炮塔挂点上，但你的飞船没有可用炮塔挂点。
+该物品不是可安装到飞船上的装备。
+这不是你可以夺取的飞船。
