@@ -24,7 +24,6 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Alignment.h"
 #include "DisplayText.h"
 #include "Truncate.h"
-#include "Translator.h"
 #include "Utf8.h"
 
 #include <algorithm>
@@ -146,7 +145,6 @@ void Font::Draw(std::string_view str, const Point &point,
 
 void Font::DrawAliased(std::string_view str, double x, double y,
                        const Color &color) const {
-  str = Translator::Get(str);
   if (!atlas)
     return;
 
@@ -383,7 +381,6 @@ int Font::WidthRawString(const char *str, size_t len,
   float width = 0.f;
 
   string_view s(str, (len == string::npos) ? strlen(str) : len);
-  s = Translator::Get(s);
   size_t pos = 0;
   // DecodeCodePoint takes std::string, so let's use a loop over bytes if we
   // must, or construct a temporary string to avoid changing
@@ -410,7 +407,7 @@ int Font::WidthRawString(const char *str, size_t len,
 string Font::TruncateText(const DisplayText &text, int &width) const {
   width = -1;
   const auto &layout = text.GetLayout();
-  const string str { Translator::Get(text.GetText()) };
+  const string &str = text.GetText();
   if (layout.width < 0 ||
       (layout.align == Alignment::LEFT && layout.truncate == Truncate::NONE))
     return str;

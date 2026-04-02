@@ -460,8 +460,6 @@ target_sources(EndlessSkyLib PRIVATE
 	text/TextureAtlas.h
 	text/Table.cpp
 	text/Table.h
-	text/Translator.cpp
-	text/Translator.h
 	text/Truncate.h
 	text/Utf8.cpp
 	text/Utf8.h
