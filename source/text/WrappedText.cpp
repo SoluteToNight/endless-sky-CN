@@ -18,6 +18,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include "DisplayText.h"
 #include "Font.h"
+#include "Translator.h"
 
 #include "Utf8.h"
 
@@ -77,13 +78,15 @@ void WrappedText::SetParagraphBreak(int height) { paragraphBreak = height; }
 // Get the word positions when wrapping the given text. The coordinates
 // always begin at (0, 0).
 void WrappedText::Wrap(const string &str) {
-  SetText(str.data(), str.length());
+  const string_view translated = Translator::Get(str);
+  SetText(translated.data(), translated.length());
 
   Wrap();
 }
 
 void WrappedText::Wrap(const char *str) {
-  SetText(str, strlen(str));
+  const string_view translated = Translator::Get(str ? string_view(str) : string_view());
+  SetText(translated.data(), translated.length());
 
   Wrap();
 }
