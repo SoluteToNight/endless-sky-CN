@@ -92,3 +92,5 @@ es_tranlasion/.env
 es_tranlasion/translation_cache*.json
 es_tranlasion/*/
 !es_tranlasion/zh/
+*.exclude
+.editorconfig
