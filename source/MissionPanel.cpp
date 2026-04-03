@@ -318,7 +318,7 @@ bool MissionPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
     if (acceptedIt != accepted.end() && acceptedIt->IsVisible())
       GetUI().Push(DialogPanel::CallFunctionIfOk(
           this, &MissionPanel::AbortMission,
-          "放弃任务 \"" + acceptedIt->DisplayName() + "\"？"));
+          "确定要放弃任务 \"" + acceptedIt->DisplayName() + "\" 吗？"));
     return true;
   } else if (key == SDLK_LEFT && availableIt == available.end()) {
     // Switch to the first mission in the "available missions" list.

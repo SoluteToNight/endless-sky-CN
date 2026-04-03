@@ -1032,9 +1032,9 @@ void MapPanel::DrawSelectedSystem() {
     jumps = distance.Days(*selectedSystem);
 
   if (jumps == 1)
-    text += " (1 jump away)";
+    text += " (1 次跃迁)";
   else if (jumps > 0)
-    text += " (" + to_string(jumps) + " jumps away)";
+    text += " (" + to_string(jumps) + " 次跃迁)";
 
   const Font &font = FontSet::Get(14);
   Point pos(-175. + selectedSystemOffset,

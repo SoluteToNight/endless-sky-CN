@@ -67,16 +67,16 @@ namespace {
 	const string LARGE_GRAPHICS_REDUCTION = "Reduce large graphics";
 	const string CLOAK_OUTLINE = "Cloaked ship outlines";
 	const string STATUS_OVERLAYS_ALL = "Show status overlays";
-	const string STATUS_OVERLAYS_FLAGSHIP = "   Show flagship overlay";
-	const string STATUS_OVERLAYS_ESCORT = "   Show escort overlays";
-	const string STATUS_OVERLAYS_ENEMY = "   Show enemy overlays";
-	const string STATUS_OVERLAYS_NEUTRAL = "   Show neutral overlays";
+	const string STATUS_OVERLAYS_FLAGSHIP = "   显示旗舰状态覆盖";
+	const string STATUS_OVERLAYS_ESCORT = "   显示护卫状态覆盖";
+	const string STATUS_OVERLAYS_ENEMY = "   显示敌方状态覆盖";
+	const string STATUS_OVERLAYS_NEUTRAL = "   显示中立状态覆盖";
 	const string TURRET_OVERLAYS = "Turret overlays";
 	const string EXPEND_AMMO = "Escorts expend ammo";
 	const string FLOTSAM_SETTING = "Flotsam collection";
 	const string TURRET_TRACKING = "Turret tracking";
 	const string FOCUS_PREFERENCE = "Turrets focus fire";
-	const string REACTIVATE_HELP = "Reactivate first-time help";
+	const string REACTIVATE_HELP = "重新激活新手提示";
 	const string SCROLL_SPEED = "Scroll speed";
 	const string TOOLTIP_ACTIVATION = "Tooltip activation time";
 	const string FIGHTER_REPAIR = "Repair fighters in";
@@ -318,8 +318,8 @@ bool PreferencesPanel::Click(int x, int y, MouseButton button, int clicks)
 					{
 						this->editing = this->selected = index;
 					},
-					"Rebinding this key will change the keypress you need to access this menu. "
-					"You really shouldn't rebind this unless needed.", true));
+					"重绑定此键将改变您访问此菜单所需的按键操作。"
+					"除非确有必要，否则强烈建议您不要修改此键位。", true));
 			else
 				editing = selected = index;
 		}
@@ -667,7 +667,7 @@ void PreferencesPanel::DrawControls()
 			table.DrawGap(10);
 			table.DrawUnderline(medium);
 			table.Draw(categoryString, bright);
-			table.Draw("Key", bright);
+			table.Draw("按键", bright);
 			table.DrawGap(5);
 		}
 		else
@@ -797,7 +797,7 @@ void PreferencesPanel::DrawSettings()
 		"Show missile overlays",
 		TURRET_OVERLAYS,
 		"Show asteroid scanner overlay",
-		"Highlight player's flagship",
+		"高亮玩家旗舰",
 		"Rotate flagship in HUD",
 		"Show planet labels",
 		MINIMAP_DISPLAY,
@@ -808,7 +808,7 @@ void PreferencesPanel::DrawSettings()
 		"Other",
 		"Always underline shortcuts",
 		REACTIVATE_HELP,
-		"Interrupt fast-forward",
+		"中断快进",
 		"Landing zoom",
 		SCROLL_SPEED,
 		TOOLTIP_ACTIVATION,
@@ -1252,7 +1252,7 @@ void PreferencesPanel::RenderPluginDescription(const Plugin &plugin)
 
 	WrappedText wrap(font);
 	wrap.SetWrapWidth(box.Width());
-	static const string EMPTY = "(No description given.)";
+	static const string EMPTY = "（未提供描述。）";
 	wrap.Wrap(plugin.aboutText.empty() ? EMPTY : plugin.CreateDescription());
 
 	descriptionHeight += wrap.Height();
@@ -1308,7 +1308,7 @@ void PreferencesPanel::Exit()
 {
 	if(Command::MENU.HasConflict() || !Command::MENU.HasBinding())
 	{
-		GetUI().Push(DialogPanel::Info("Menu key is not bound or has a conflict."));
+		GetUI().Push(DialogPanel::Info("菜单键未绑定或存在冲突。"));
 		return;
 	}
 
@@ -1337,7 +1337,7 @@ void PreferencesPanel::HandleSettingsString(const string &str, Point cursorPosit
 			// otherwise the dialog will show every time, which is annoying.
 			if(newZoom == ZOOM_FACTOR_MIN + ZOOM_FACTOR_INCREMENT)
 				GetUI().Push(DialogPanel::Info(
-					"Your screen resolution is too low to support a zoom level above 100%."));
+					"您的屏幕分辨率过低，不支持超过 100% 的缩放级别。"));
 			Screen::SetZoom(ZOOM_FACTOR_MIN);
 		}
 		// Convert to raw window coordinates, at the new zoom level.
@@ -1364,7 +1364,7 @@ void PreferencesPanel::HandleSettingsString(const string &str, Point cursorPosit
 	{
 		if(!Preferences::ToggleVSync())
 			GetUI().Push(DialogPanel::Info(
-				"Unable to toggle VSync. (It may be forced by your system graphics settings.)"));
+				"无法切换垂直同步。（可能被系统显卡设置强制开启。）"));
 	}
 	else if(str == CAMERA_ACCELERATION)
 		Preferences::ToggleCameraAcceleration();

@@ -151,10 +151,10 @@ void MenuPanel::Draw() {
   } else if (player.IsLoaded()) {
     info.SetCondition("pilot dead");
     info.SetString("pilot", player.FirstName() + " " + player.LastName());
-    info.SetString("ship", "You have died.");
+    info.SetString("ship", "您已阵亡。");
   } else {
     info.SetCondition("no pilot loaded");
-    info.SetString("pilot", "No Pilot Loaded");
+    info.SetString("pilot", "未加载任何存档");
   }
 
   GameData::Interfaces().Get("menu background")->Draw(info, this);

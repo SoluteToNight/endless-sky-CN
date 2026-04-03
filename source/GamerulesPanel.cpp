@@ -46,21 +46,21 @@ using namespace std;
 
 namespace {
 	// Gamerule display names.
-	const string DEPRECIATION_MIN = "Minimum value";
-	const string DEPRECIATION_GRACE_PERIOD = "Grace period";
-	const string DEPRECIATION_MAX_AGE = "Maximum age";
-	const string DEPRECIATION_DAILY = "Daily depreciation";
-	const string PERSON_SPAWN_PERIOD = "Spawn attempt period";
-	const string NO_PERSON_SPAWN_WEIGHT = "No spawn weight";
-	const string NPC_MAX_MINING_TIME = "NPC max mining time";
-	const string UNIVERSAL_FRUGAL_THRESHOLD = "Universal frugal threshold";
-	const string UNIVERSAL_RAMSCOOP = "Universal ramscoop";
-	const string SYSTEM_DEPARTURE_MIN = "Minimum departure distance";
-	const string SYSTEM_ARRIVAL_MIN = "Minimum arrival distance";
-	const string FLEET_MULTIPLIER = "Fleet multiplier";
-	const string LOCK_GAMERULES = "Lock gamerules";
-	const string FIGHTERS_HIT_WHEN_DISABLED = "Fighters hit when disabled";
-	const string UNIVERSAL_AMMO_STOCKING = "Universal ammo stocking";
+	const string DEPRECIATION_MIN = "最低价值";
+	const string DEPRECIATION_GRACE_PERIOD = "宽限期";
+	const string DEPRECIATION_MAX_AGE = "最大舰龄";
+	const string DEPRECIATION_DAILY = "每日折旧率";
+	const string PERSON_SPAWN_PERIOD = "生成尝试周期";
+	const string NO_PERSON_SPAWN_WEIGHT = "无生成权重";
+	const string NPC_MAX_MINING_TIME = "NPC 最大采矿时间";
+	const string UNIVERSAL_FRUGAL_THRESHOLD = "全局节约阈值";
+	const string UNIVERSAL_RAMSCOOP = "全局冲压燃料收集";
+	const string SYSTEM_DEPARTURE_MIN = "最小跃迁离开距离";
+	const string SYSTEM_ARRIVAL_MIN = "最小跃迁到达距离";
+	const string FLEET_MULTIPLIER = "舰队数量乘数";
+	const string LOCK_GAMERULES = "锁定游戏规则";
+	const string FIGHTERS_HIT_WHEN_DISABLED = "战机瘫痪时受到攻击";
+	const string UNIVERSAL_AMMO_STOCKING = "全局弹药储备";
 
 	const string AMMO_RESTOCKING_NAME = "universal ammo restocking";
 
@@ -160,8 +160,7 @@ bool GamerulesPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command
 	{
 		if(existingPilot && gamerules.LockGamerules())
 			GetUI().Push(DialogPanel::CallFunctionIfOk([this]() -> void { GetUI().Pop(this); },
-				"You have set \"Lock Gamerules\" to true, which means that you will not be able "
-				"to return to this panel to make further edits after leaving. Continue anyway?", false));
+				"您已将\"锁定游戏规则\"设为开启，这意味着离开后将无法再次返回此面板进行编辑。确定要继续吗？", false));
 		else
 			GetUI().Pop(this);
 	}
@@ -369,27 +368,27 @@ void GamerulesPanel::DrawGamerules()
 	// * The namespace variable GAMERULES_PAGE_COUNT should be updated to the max
 	//   page count (count of '\n' characters plus one).
 	static const string GAMERULES[] = {
-		"Depreciation",
+		"折旧设置",
 		DEPRECIATION_MIN,
 		DEPRECIATION_GRACE_PERIOD,
 		DEPRECIATION_MAX_AGE,
 		DEPRECIATION_DAILY,
 		"",
-		"Person Ships",
+		"NPC 名人飞船设定",
 		PERSON_SPAWN_PERIOD,
 		NO_PERSON_SPAWN_WEIGHT,
 		"",
-		"NPC Behavior",
+		"NPC 行为设定",
 		NPC_MAX_MINING_TIME,
 		UNIVERSAL_FRUGAL_THRESHOLD,
 		"\t",
-		"System Behavior",
+		"星系行为设定",
 		UNIVERSAL_RAMSCOOP,
 		SYSTEM_ARRIVAL_MIN,
 		SYSTEM_DEPARTURE_MIN,
 		FLEET_MULTIPLIER,
 		"",
-		"Miscellaneous",
+		"其他杂项设定",
 		LOCK_GAMERULES,
 		FIGHTERS_HIT_WHEN_DISABLED,
 		UNIVERSAL_AMMO_STOCKING
@@ -465,7 +464,7 @@ void GamerulesPanel::DrawGamerules()
 			if(gamerules.SystemArrivalMin().has_value())
 				text = Format::AbbreviatedNumber(*gamerules.SystemArrivalMin(), std::nullopt);
 			else
-				text = "(unset)";
+				text = "(未设置)";
 		}
 		else if(gamerule == SYSTEM_DEPARTURE_MIN)
 			text = Format::AbbreviatedNumber(gamerules.SystemDepartureMin(), std::nullopt);
@@ -671,7 +670,7 @@ void GamerulesPanel::RenderPresetDescription(const Gamerules &preset)
 
 	WrappedText wrap(font);
 	wrap.SetWrapWidth(box.Width());
-	static const string EMPTY = "(No description given.)";
+	static const string EMPTY = "(未提供描述。)";
 	wrap.Wrap(preset.Description().empty() ? EMPTY : preset.Description());
 
 	descriptionHeight += wrap.Height();
@@ -726,56 +725,56 @@ void GamerulesPanel::HandleGamerulesString(const string &str)
 {
 	if(str == DEPRECIATION_MIN)
 	{
-		string message = "Set the minimum deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置最低折旧率。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0 && value <= 1.0; };
 		GetUI().Push(DialogPanel::RequestDoubleWithValidation(&gamerules, &Gamerules::SetDepreciationMin, validate,
 			message, gamerules.DepreciationMin()));
 	}
 	else if(str == DEPRECIATION_GRACE_PERIOD)
 	{
-		string message = "Set the depreciation grace period. (Integer value greater than or equal to 0.)";
+		string message = "设置折旧宽限期。（大于或等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		GetUI().Push(DialogPanel::RequestIntegerWithValidation(&gamerules, &Gamerules::SetDepreciationGracePeriod,
 			validate, message, gamerules.DepreciationGracePeriod()));
 	}
 	else if(str == DEPRECIATION_MAX_AGE)
 	{
-		string message = "Set the depreciation maximum age. (Integer value greater than or equal to 0.)";
+		string message = "设置最大折旧舰龄。（大于或等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		GetUI().Push(DialogPanel::RequestIntegerWithValidation(&gamerules, &Gamerules::SetDepreciationMaxAge, validate,
 			message, gamerules.DepreciationMaxAge()));
 	}
 	else if(str == DEPRECIATION_DAILY)
 	{
-		string message = "Set the daily deprecation value. (Decimal value between 0 and 1.)";
+		string message = "设置每日折旧率。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0 && value <= 1.0; };
 		GetUI().Push(DialogPanel::RequestDoubleWithValidation(&gamerules, &Gamerules::SetDepreciationDaily, validate,
 			message, gamerules.DepreciationDaily()));
 	}
 	else if(str == PERSON_SPAWN_PERIOD)
 	{
-		string message = "Set the person ship spawn attempt period. (Integer value greater than or equal to 1.)";
+		string message = "设定名人飞船的生成尝试周期。（大于或等于 1 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 1; };
 		GetUI().Push(DialogPanel::RequestIntegerWithValidation(&gamerules, &Gamerules::SetPersonSpawnPeriod, validate,
 			message, gamerules.PersonSpawnPeriod()));
 	}
 	else if(str == NO_PERSON_SPAWN_WEIGHT)
 	{
-		string message = "Set the no person ship spawn weight. (Integer value greater than or equal to 0.)";
+		string message = "设置无名人飞船生成的权重。（大于或等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		GetUI().Push(DialogPanel::RequestIntegerWithValidation(&gamerules, &Gamerules::SetNoPersonSpawnWeight, validate,
 			message, gamerules.NoPersonSpawnWeight()));
 	}
 	else if(str == NPC_MAX_MINING_TIME)
 	{
-		string message = "Set the NPC max mining time. (Integer value greater than or equal to 0.)";
+		string message = "设置 NPC 的最大采矿时间。（大于或等于 0 的整数。）";
 		auto validate = [](int value) -> bool { return value >= 0; };
 		GetUI().Push(DialogPanel::RequestIntegerWithValidation(&gamerules, &Gamerules::SetNPCMaxMiningTime, validate,
 			message, gamerules.NPCMaxMiningTime()));
 	}
 	else if(str == UNIVERSAL_FRUGAL_THRESHOLD)
 	{
-		string message = "Set the universal frugal threshold. (Decimal value between 0 and 1.)";
+		string message = "设置全局的节约阈值。（0 到 1 之间的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0 && value <= 1.0; };
 		GetUI().Push(DialogPanel::RequestDoubleWithValidation(&gamerules, &Gamerules::SetUniversalFrugalThreshold,
 			validate, message, gamerules.UniversalFrugalThreshold()));
@@ -784,20 +783,20 @@ void GamerulesPanel::HandleGamerulesString(const string &str)
 		gamerules.SetUniversalRamscoopActive(!gamerules.UniversalRamscoopActive());
 	else if(str == SYSTEM_DEPARTURE_MIN)
 	{
-		string message = "Set the minimum system departure distance. (Decimal value greater than or equal to 0.)";
+		string message = "设置最小跃迁离开距离。（大于或等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0; };
 		GetUI().Push(DialogPanel::RequestDoubleWithValidation(&gamerules, &Gamerules::SetSystemDepartureMin, validate,
 			message, gamerules.SystemDepartureMin()));
 	}
 	else if(str == SYSTEM_ARRIVAL_MIN)
 	{
-		string message = "Set the minimum system arrival distance. (Any decimal value.)";
+		string message = "设置最小跃迁到达距离。（任意小数。）";
 		GetUI().Push(OptionalInputDialogPanel::RequestDouble(&gamerules, &Gamerules::SetSystemArrivalMin, message,
 			gamerules.SystemArrivalMin()));
 	}
 	else if(str == FLEET_MULTIPLIER)
 	{
-		string message = "Set the fleet spawn multiplier. (Decimal value greater than or equal to 0.)";
+		string message = "设置舰队生成乘数。（大于或等于 0 的小数。）";
 		auto validate = [](double value) -> bool { return value >= 0.0; };
 		GetUI().Push(DialogPanel::RequestDoubleWithValidation(&gamerules, &Gamerules::SetFleetMultiplier, validate,
 			message, gamerules.FleetMultiplier()));

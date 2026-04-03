@@ -212,7 +212,7 @@ void MapOutfitterPanel::DrawItems()
 
 			string info;
 			if(outfit->Get("minable") > 0.)
-				info = "(Mined from asteroids)";
+				info = "(从小行星开采)";
 			else if(outfit->Get("installable") < 0.)
 			{
 				double space = outfit->Mass();
@@ -223,11 +223,11 @@ void MapOutfitterPanel::DrawItems()
 				double space = -outfit->Get("outfit space");
 				info = Format::MassString(space);
 				if(space && -outfit->Get("weapon capacity") == space)
-					info += " of weapon space";
+					info += " 武器空间";
 				else if(space && -outfit->Get("engine capacity") == space)
-					info += " of engine space";
+					info += " 引擎空间";
 				else
-					info += " of outfit space";
+					info += " 装备空间";
 			}
 
 			bool isForSale = true;
@@ -265,8 +265,8 @@ void MapOutfitterPanel::DrawItems()
 				onlyShowSoldHere || storedInSystem == 0
 				? ""
 				: storedInSystem == 1
-				? "1 unit in storage"
-				: Format::Number(storedInSystem) + " units in storage";
+				? "仓储中 1 件"
+				: "仓储中 " + Format::Number(storedInSystem) + " 件";
 			Draw(corner, outfit->Thumbnail(), Swizzle::None(), isForSale, outfit == selected,
 				outfit->DisplayName(), "", price, info, storage_details);
 			list.push_back(outfit);

@@ -173,7 +173,7 @@ void ConversationPanel::Draw()
 	if(node < 0)
 	{
 		// The conversation has already ended. Draw a "done" button.
-		static const string done = "[done]";
+		static const string done = "[完成]";
 		int width = font.Width(done);
 		int height = font.Height();
 		Point off(Screen::Left() + MARGIN + WIDTH - width, point.Y());
@@ -216,7 +216,7 @@ void ConversationPanel::Draw()
 		font.Draw({lastName, layout}, point + Point(350, 0), choice ? bright : gray);
 
 		// Draw the OK button, and remember its location.
-		static const string ok = "[ok]";
+		static const string ok = "[确定]";
 		int width = font.Width(ok);
 		int height = font.Height();
 		Point off(Screen::Left() + MARGIN + WIDTH - width, point.Y());
@@ -325,7 +325,7 @@ bool ConversationPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &comm
 		else if((key == SDLK_RETURN || key == SDLK_KP_ENTER) && !firstName.empty() && !lastName.empty())
 		{
 			// Display the name the player entered.
-			string name = "\t\tName: " + firstName + " " + lastName + ".\n";
+			string name = "\t\t姓名：" + firstName + " " + lastName + "。\n";
 			text.emplace_back(name);
 
 			player.SetName(firstName, lastName);

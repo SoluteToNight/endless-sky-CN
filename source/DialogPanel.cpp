@@ -290,13 +290,13 @@ DialogPanel::DialogPanel(DialogInit &init)
 	numButtons = canCancel ? (!buttonThree.buttonLabel.empty() ? 3 : 2) : 1;
 
 	if(buttonOne.buttonLabel.empty())
-		okText = isMission ? "Accept" : "OK";
+		okText = isMission ? "接受" : "确定";
 	else
 	{
 		okText = buttonOne.buttonLabel;
 		stringFun = buttonOne.buttonAction;
 	}
-	cancelText = isMission ? "Decline" : "Cancel";
+	cancelText = isMission ? "拒绝" : "取消";
 
 	text = make_shared<TextArea>();
 	text->SetAlignment(Alignment::JUSTIFIED);

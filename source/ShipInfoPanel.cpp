@@ -176,7 +176,7 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 	else if(key == 'R' || (key == 'r' && shift))
 		GetUI().Push(ShipNameDialogPanel::Create(
 			DialogPanel::FunctionButton(this, "Rename", 'r', &ShipInfoPanel::Rename),
-			"Change this ship's name?", (*shipIt)->GivenName()));
+			"修改这艘飞船的名称？", (*shipIt)->GivenName()));
 	else if(panelState.CanEdit() && (key == 'P' || (key == 'p' && shift) || key == 'k'))
 	{
 		if(shipIt->get() != player.Flagship() || (*shipIt)->IsParked())
@@ -196,14 +196,14 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 			AddToUniques(shipIt->get()->Outfits());
 			AddToUniques(shipIt->get()->Cargo().Outfits());
 
-			string message = "Are you sure you want to disown \""
+			string message = "确定要放弃 \""
 				+ shipIt->get()->GivenName()
-				+ "\"? Disowning a ship rather than selling it means you will not get any money for it.";
+				+ "\" 的所有权吗？放弃（而非出售）这艘飞船意味着您不会获得任何补偿。";
 			if(!uniqueOutfits.empty())
 			{
 				const int uniquesSize = uniqueOutfits.size();
 				const int detailedOutfitSize = (uniquesSize > 20 ? 19 : uniquesSize);
-				message += "\nThe following unique items carried by the ship will be lost:";
+				message += "\n该飞船搭载的以下独特物品将会丢失：";
 				auto it = uniqueOutfits.begin();
 				for(int i = 0; i < detailedOutfitSize; ++i)
 				{
@@ -216,7 +216,7 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 					int otherUniquesCount = 0;
 					for( ; it != uniqueOutfits.end(); ++it)
 						otherUniquesCount += it->second;
-					message += "\nand " + to_string(otherUniquesCount) + " other unique outfits";
+					message += "\n以及另外 " + to_string(otherUniquesCount) + " 件独特装备";
 				}
 			}
 
@@ -231,35 +231,35 @@ bool ShipInfoPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 		if(amount)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpCommodities,
-				"How many tons of " + Format::LowerCase(selectedCommodity)
-					+ " do you want to jettison?", amount));
+				"您想抛弃多少吨 " + Format::LowerCase(selectedCommodity)
+					+ "？", amount));
 		}
 		else if(plunderAmount > 0 && selectedPlunder->Get("installable") < 0.)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpPlunder,
-				"How many tons of " + Format::LowerCase(selectedPlunder->DisplayName())
-					+ " do you want to jettison?", plunderAmount));
+				"您想抛弃多少吨 " + Format::LowerCase(selectedPlunder->DisplayName())
+					+ "？", plunderAmount));
 		}
 		else if(plunderAmount == 1)
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				"Are you sure you want to jettison a " + selectedPlunder->DisplayName() + "?"));
+				"确定要抛弃这件 " + selectedPlunder->DisplayName() + " 吗？"));
 		}
 		else if(plunderAmount > 1)
 		{
 			GetUI().Push(DialogPanel::RequestPositiveInteger(this, &ShipInfoPanel::DumpPlunder,
-				"How many " + selectedPlunder->PluralName() + " do you want to jettison?",
+				"您想抛弃多少件 " + selectedPlunder->DisplayName() + "？",
 				plunderAmount));
 		}
 		else if(commodities)
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				"Are you sure you want to jettison all of this ship's regular cargo?"));
+				"确定要抛弃这艘飞船所有的普通货物吗？"));
 		}
 		else
 		{
 			GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipInfoPanel::Dump,
-				"Are you sure you want to jettison all of this ship's cargo?"));
+				"确定要抛弃这艘飞船所有的货物吗？"));
 		}
 	}
 	else if(command.Has(Command::MAP) || key == 'm')
@@ -382,7 +382,7 @@ void ShipInfoPanel::DrawShipStats(const Rectangle &bounds)
 	table.SetUnderline(0, COLUMN_WIDTH);
 	table.DrawAt(bounds.TopLeft() + Point(10., 8.));
 
-	table.DrawTruncatedPair("ship:", dim, ship.GivenName(), bright, Truncate::MIDDLE, true);
+	table.DrawTruncatedPair("飞船：", dim, ship.GivenName(), bright, Truncate::MIDDLE, true);
 
 	info.DrawAttributes(table.GetRowBounds().TopLeft() - Point(10., 10.));
 }
@@ -612,7 +612,7 @@ void ShipInfoPanel::DrawCargo(const Rectangle &bounds)
 	bool hasSpace = (table.GetRowBounds().Bottom() < endY);
 	if((cargo.CommoditiesSize() || cargo.HasOutfits() || cargo.MissionCargoSize()) && hasSpace)
 	{
-		table.Draw("Cargo", bright);
+		table.Draw("货物", bright);
 		table.Advance();
 		hasSpace = (table.GetRowBounds().Bottom() < endY);
 	}
@@ -686,7 +686,7 @@ void ShipInfoPanel::DrawCargo(const Rectangle &bounds)
 	if(cargo.Passengers() && endY >= bounds.Top())
 	{
 		table.DrawAt(Point(bounds.Left(), endY) + Point(10., 8.));
-		table.Draw("passengers:", dim);
+		table.Draw("乘客：", dim);
 		table.Draw(to_string(cargo.Passengers()), bright);
 	}
 }

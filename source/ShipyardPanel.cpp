@@ -427,11 +427,11 @@ void ShipyardPanel::Sell(bool storeOutfits)
 		toSell.push_back(it->shared_from_this());
 	int64_t total = player.FleetDepreciation().Value(toSell, day, storeOutfits);
 
-	message += ((initialCount > 2) ? "\nfor " : " for ") + Format::CreditString(total) + "?";
+	message += ((initialCount > 2) ? "\n总价：" : " 总价：") + Format::CreditString(total) + "，确定出售吗？";
 
 	if(storeOutfits)
 	{
-		message += " Any outfits will be placed in storage.";
+		message += " 装备将放入仓储。";
 		GetUI().Push(DialogPanel::CallFunctionIfOk(this, &ShipyardPanel::SellShipChassis, message, Truncate::MIDDLE));
 	}
 	else

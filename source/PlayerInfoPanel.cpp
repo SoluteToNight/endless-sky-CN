@@ -60,7 +60,7 @@ void DrawList(vector<pair<int64_t, string>> &list, const Table &table,
   int otherCount = list.size() - maxCount;
 
   if (otherCount > 0 && maxCount > 0) {
-    list[maxCount - 1].second = "(" + to_string(otherCount + 1) + " others)";
+    list[maxCount - 1].second = "（另外 " + to_string(otherCount + 1) + " 项）";
     while (otherCount--) {
       list[maxCount - 1].first += list.back().first;
       list.pop_back();
@@ -739,7 +739,7 @@ void PlayerInfoPanel::DrawFleet(const Rectangle &bounds) {
     int crewCount = ship.Crew();
     if (!isFlagship)
       crewCount = min(crewCount, ship.RequiredCrew());
-    string crew = (ship.IsParked() ? "Parked" : to_string(crewCount));
+    string crew = (ship.IsParked() ? "停泊" : to_string(crewCount));
     table.Draw(crew);
 
     ++index;

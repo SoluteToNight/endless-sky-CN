@@ -327,7 +327,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			if(it.second)
 			{
 				if(first)
-					out << "这艘" + target->Noun() + "载有：\n";
+					out << "这艘" + target->Noun() + "装载有：\n";
 				first = false;
 
 				out << "\t" << Format::CargoString(it.second, it.first) << "\n";
@@ -336,7 +336,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			if(it.second)
 			{
 				if(first)
-					out << "这艘" + target->Noun() + "载有：\n";
+					out << "这艘" + target->Noun() + "装载有：\n";
 				first = false;
 
 				out << "\t";
@@ -349,7 +349,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 					out << it.second << " " << (it.second == 1 ? it.first->DisplayName() : it.first->PluralName()) << "\n";
 			}
 		if(first)
-			out << "这艘" + target->Noun() + "没有装载任何货物。\n";
+			out << "这艘" + target->Noun() + "没有任何货物。\n";
 	}
 	if((event.Type() & ShipEvent::SCAN_OUTFITS) && target->Attributes().Get("inscrutable"))
 		out << "你的扫描器无法解析这艘" + target->Noun() + "的内部结构。";
@@ -378,7 +378,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 				continue;
 
 			// Print the category's name and outfits in it.
-			out << "\t" << (it.first.empty() ? "Unknown" : it.first) << "\n";
+			out << "\t" << (it.first.empty() ? "未知区域" : it.first) << "\n";
 			for(const auto &it2 : it.second)
 				if(!it2.first.empty() && it2.second > 0)
 					out << "\t\t" << it2.second << " " << it2.first << "\n";
@@ -580,7 +580,7 @@ bool MainPanel::ShowHelp(bool force)
 		int count = 1 + lostness / 3600;
 		if(count > lostCount && count <= 7)
 		{
-			string message = "lost 1";
+			string message = "失去 1";
 			message.back() += lostCount;
 			++lostCount;
 			if(force)

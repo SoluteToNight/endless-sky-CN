@@ -37,7 +37,7 @@ using namespace std;
 
 namespace {
 	// Column headings.
-	const string HEADING[6] = {"Type", "Principal", "Interest", "Term", "Payment", ""};
+	const string HEADING[6] = {"类型", "本金", "利息", "期限", "还款", ""};
 	// X coordinates of the columns of the table.
 	const int COLUMN[5] = {20, 130, 210, 280, 330};
 	const int EXTRA_X = 410;
@@ -144,7 +144,7 @@ void BankPanel::Draw()
 		bool isLastRow = (row == mortgageRows - 1);
 		if(isLastRow && mergedMortgages)
 		{
-			table.Draw("Other");
+			table.Draw("其他");
 			table.Draw(Format::AbbreviatedNumber(otherPrincipal));
 			// Skip the interest and term, because this entry represents the
 			// combination of several different mortages.
@@ -164,7 +164,7 @@ void BankPanel::Draw()
 			otherPrincipal -= mortgage.Principal();
 			otherPayment -= mortgage.Payment();
 		}
-		table.Draw("[pay extra]");
+		table.Draw("[额外还款]");
 		++row;
 
 		// Bail out if this was the last row we had space to draw.
@@ -178,12 +178,12 @@ void BankPanel::Draw()
 		// Include salaries in the total daily payment.
 		totalPayment += salaries;
 
-		table.Draw("Crew Salaries");
+		table.Draw("船员工资");
 		// Check whether the player owes back salaries.
 		if(crewSalariesOwed)
 		{
 			table.Draw(Format::AbbreviatedNumber(crewSalariesOwed));
-			table.Draw("(overdue)");
+			table.Draw("(逾期)");
 			table.Advance(1);
 		}
 		else
@@ -196,11 +196,11 @@ void BankPanel::Draw()
 	{
 		totalPayment += b.maintenanceCosts;
 
-		table.Draw("Maintenance");
+		table.Draw("维护费用");
 		if(maintenanceDue)
 		{
 			table.Draw(Format::AbbreviatedNumber(maintenanceDue));
-			table.Draw("(overdue)");
+			table.Draw("(逾期)");
 			table.Advance(1);
 		}
 		else
@@ -213,9 +213,9 @@ void BankPanel::Draw()
 		// Your daily income offsets expenses.
 		totalPayment -= salariesIncome + tributeIncome + b.assetsReturns;
 
-		static const string LABEL[] = {"", "Your Salary Income", "Your Tribute Income", "Your Salary and Tribute Income",
-			"Your Return on Assets Income", "Your Salary and Return on Assets Income",
-			"Your Tribute and Return on Assets Income", "Your Salary, Tribute, and Returns Income" };
+		static const string LABEL[] = {"", "您的工资收入", "您的朝贡收入", "您的工资及朝贡收入",
+			"您的资产回报收入", "您的薪水及资产回报收入",
+			"您的附庸贡金及资产回报收入", "您的薪水、贡金及回报综合收入" };
 		const auto incomeLayout = Layout(310, Truncate::BACK);
 		table.DrawCustom({LABEL[(salariesIncome != 0) + 2 * (tributeIncome != 0) + 4 * (b.assetsReturns != 0)],
 			incomeLayout});
@@ -227,13 +227,13 @@ void BankPanel::Draw()
 
 	// Draw the total daily payment.
 	table.Advance(3);
-	table.Draw("total:", selected);
+	table.Draw("总计:", selected);
 	table.Draw(Format::AbbreviatedNumber(totalPayment), unselected);
 	table.Advance();
 
 	// Draw the credit score.
 	table.DrawAt(Point(0., FIRST_Y + 210.));
-	string credit = "Your credit score is " + to_string(player.Accounts().CreditScore()) + ".";
+	string credit = "您的信用评分为 " + to_string(player.Accounts().CreditScore()) + ".";
 	const auto scoreLayout = Layout(460, Truncate::MIDDLE);
 	table.DrawCustom({credit, scoreLayout});
 	table.Advance(5);
@@ -241,9 +241,9 @@ void BankPanel::Draw()
 	// Report whether the player qualifies for a new loan.
 	string amount;
 	if(!qualify)
-		amount = "You do not qualify for further loans at this time.";
+		amount = "您目前没有资格获取更多贷款。";
 	else
-		amount = "You qualify for a new loan of up to " + Format::CreditString(qualify) + ".";
+		amount = "您有资格申请最高额度为 " + Format::CreditString(qualify) + ".";
 	if(qualify && selectedRow >= mortgageRows)
 		table.DrawHighlight(back);
 	const auto amountLayout = Layout(380, Truncate::MIDDLE);
@@ -251,7 +251,7 @@ void BankPanel::Draw()
 	if(qualify)
 	{
 		table.Advance(4);
-		table.Draw("[apply]", selected);
+		table.Draw("[申请]", selected);
 	}
 
 	Information info;
@@ -281,14 +281,13 @@ bool BankPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 	else if(key == SDLK_RETURN && selectedRow < mortgageRows)
 	{
 		GetUI().Push(DialogPanel::RequestString(this, &BankPanel::PayExtra,
-			"Paying off part of this debt will reduce your daily payments and the "
-			"interest that it costs you. How many extra credits will you pay?"));
+			"偿还部分债务将减少您的每日还款额和所需利息。您准备额外支付多少星币？"));
 		DoHelp("bank advanced");
 	}
 	else if(key == SDLK_RETURN && qualify)
 	{
 		GetUI().Push(DialogPanel::RequestString(this, &BankPanel::NewMortgage,
-			"Borrow how many credits?"));
+			"借款多少星币？"));
 		DoHelp("bank advanced");
 	}
 	else if(key == 'a')

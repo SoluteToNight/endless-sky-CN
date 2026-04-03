@@ -433,7 +433,7 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 
 			if(yourCasualties && enemyCasualties)
 				messages.back() += "你损失了" + to_string(yourCasualties)
-					+ " crew; they lose " + to_string(enemyCasualties) + ".";
+					+ "名船员；对方损失了" + to_string(enemyCasualties) + "名。";
 			else if(yourCasualties)
 				messages.back() += "你损失了" + to_string(yourCasualties) + "名船员。";
 			else if(enemyCasualties)
@@ -454,19 +454,13 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 				int crewTransferred = victim->WasCaptured(you);
 				if(crewTransferred > 0)
 				{
-					string transferMessage = Format::Number(crewTransferred) + " crew member";
-					if(crewTransferred == 1)
-						transferMessage += " has";
-					else
-						transferMessage += "s have";
-					transferMessage += " been transferred.";
-					messages.push_back(transferMessage);
+					messages.push_back("已转移" + Format::Number(crewTransferred) + "名船员。");
 				}
 				if(!victim->JumpsRemaining() && you->CanRefuel(*victim))
 				{
 					double fuelTransferred = you->TransferFuel(victim->JumpFuelMissing(), &*victim);
 					if(fuelTransferred >= 1.)
-						messages.push_back(Format::Number(fuelTransferred, 0) + " fuel has been transferred.");
+						messages.push_back("已转移" + Format::Number(fuelTransferred, 0) + "单位燃料。");
 				}
 				player.AddShip(victim);
 				for(const Ship::Bay &bay : victim->Bays())

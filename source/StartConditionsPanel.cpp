@@ -322,8 +322,8 @@ void StartConditionsPanel::Select(StartConditionsList::iterator it)
 	if(startIt == scenarios.end())
 	{
 		// The only time we should be here is if there are no scenarios at all.
-		description.Wrap("No valid starting scenarios were defined!\n\n"
-			"Make sure you installed Endless Sky (and any plugins) properly.");
+		description.Wrap("未找到有效的游戏开始场景！\n\n"
+			"请确保您已正确安装 Endless Sky（及所有插件）。");
 		return;
 	}
 

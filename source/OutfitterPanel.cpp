@@ -419,7 +419,7 @@ OutfitterPanel::CanMoveOutfit(OutfitLocation fromLocation,
                 errorDetails.emplace_back(
                     string("the \"") + sit.first->DisplayName() +
                     "\" "
-                    "depends on this outfit and must be uninstalled first");
+                    "依赖此装备，必须先将其卸载");
             if (errorDetails.empty())
               errorDetails.emplace_back(
                   string("\"") + it.first +
@@ -1088,7 +1088,7 @@ void OutfitterPanel::CheckRefill() {
     string message = "是否要为你的飞船补满全部弹药";
     message += (count == 1) ? "?" : "s?";
     if (cost)
-      message += " It will cost " + Format::CreditString(cost) + ".";
+      message += "费用为 " + Format::CreditString(cost) + "。";
     GetUI().Push(
         DialogPanel::CallFunctionIfOk(this, &OutfitterPanel::Refill, message));
   }
@@ -1306,8 +1306,8 @@ void OutfitterPanel::DrawButtons() {
       creditsTooltip.SetZone(creditsBox);
       creditsTooltip.SetText(
           Format::CreditString(player.Accounts().Credits(), false) + '\n' +
-              Format::MassString(player.Cargo().Free()) + " free out of " +
-              Format::MassString(player.Cargo().Size()) + " total capacity",
+              Format::MassString(player.Cargo().Free()) + " 空余，共 " +
+              Format::MassString(player.Cargo().Size()) + " 货舱总容量",
           true);
       creditsTooltip.Draw();
     }
