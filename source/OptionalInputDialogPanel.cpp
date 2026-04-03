@@ -35,7 +35,7 @@ OptionalInputDialogPanel::OptionalInputDialogPanel(DialogInit &init,
 			optionalDoubleFun(value);
 		};
 	}
-	buttonThree = FunctionButton(this, "清除", 'u', &OptionalInputDialogPanel::Unset);
+	buttonThree = FunctionButton(this, "Unset", 'u', &OptionalInputDialogPanel::Unset);
 	numButtons = 3;
 	DialogPanel::Resize();
 }

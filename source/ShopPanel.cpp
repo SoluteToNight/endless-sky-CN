@@ -436,7 +436,7 @@ bool ShopPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command, boo
 	else if(key == SDLK_TAB)
 		activePane = (activePane == ShopPane::Main ? ShopPane::Sidebar : ShopPane::Main);
 	else if(key == 'f')
-		GetUI().Push(DialogPanel::RequestString(this, &ShopPanel::DoFind, "搜索："));
+		GetUI().Push(DialogPanel::RequestString(this, &ShopPanel::DoFind, "Search for:"));
 	else
 	{
 		TransactionResult result = HandleShortcuts(key);
@@ -737,7 +737,7 @@ void ShopPanel::DrawShipsSidebar()
 		*GameData::Colors().Get("shop side panel background"));
 
 	// Draw this string, centered in the side panel:
-	static const string YOURS = "你的飞船：";
+	static const string YOURS = "Your Ships:";
 	Point yoursPoint(Screen::Right() - SIDEBAR_WIDTH, Screen::Top() + 10 - sidebarScroll.AnimatedValue());
 	font.Draw({YOURS, {SIDEBAR_WIDTH, Alignment::CENTER}}, yoursPoint, bright);
 

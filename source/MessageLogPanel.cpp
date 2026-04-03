@@ -130,7 +130,7 @@ bool MessageLogPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &comman
 	else if(key == 'i')
 		importantOnly = !importantOnly;
 	else if(key == 'c' && !messages.empty())
-		GetUI().Push(DialogPanel::CallFunctionIfOk(&Messages::ClearLog, "清空消息日志？", false));
+		GetUI().Push(DialogPanel::CallFunctionIfOk(&Messages::ClearLog, "Clear the message log?", false));
 
 	return true;
 }
