@@ -404,9 +404,9 @@ bool MapDetailPanel::Click(int x, int y, MouseButton button, int clicks)
 
 			// Only issue movement orders if the player is in-flight.
 			if(player.GetPlanet())
-				GetUI().Push(DialogPanel::Info("停靠时无法下达舰队移动命令。"));
+				GetUI().Push(DialogPanel::Info("You cannot issue fleet movement orders while docked."));
 			else if(!player.CanView(*selectedSystem))
-				GetUI().Push(DialogPanel::Info("你必须先到访该星系，才能将舰队派往那里。"));
+				GetUI().Push(DialogPanel::Info("You must visit this system before you can send your fleet there."));
 			else
 				player.SetEscortDestination(selectedSystem, uiClick / scale);
 		}
@@ -575,14 +575,14 @@ void MapDetailPanel::DrawKey()
 	Point textOff(10., -.5 * font.Height());
 
 	static const string HEADER[] = {
-		"贸易价格：",
-		"在售飞船：",
-		"在售装备：",
-		"你的到访情况：",
+		"Trade prices:",
+		"Ships for sale:",
+		"Outfits for sale:",
+		"You have visited:",
 		"", // Special should never be active in this mode.
-		"政府：",
-		"星系：",
-		"危险等级：",
+		"Government:",
+		"System:",
+		"Danger level:",
 		"" // Temporary blank tile for the starry map mode.
 	};
 	const string &header = HEADER[-min(0, max(-8, commodity))];
@@ -610,8 +610,8 @@ void MapDetailPanel::DrawKey()
 	{
 		// Each system is colored by the number of outfits for sale.
 		static const string LABEL[2][4] = {
-			{"10+", "5", "1", "无"},
-			{"60+", "30", "1", "无"}};
+			{"10+", "5", "1", "None"},
+			{"60+", "30", "1", "None"}};
 		static const double VALUE[4] = {1., .5, 0., -1.};
 
 		for(int i = 0; i < 4; ++i)
@@ -624,9 +624,9 @@ void MapDetailPanel::DrawKey()
 	else if(commodity == SHOW_VISITED)
 	{
 		static const string LABEL[3] = {
-			"所有行星",
-			"部分",
-			"无"
+			"All planets",
+			"Some",
+			"None"
 		};
 		for(int i = 0; i < 3; ++i)
 		{
@@ -674,31 +674,31 @@ void MapDetailPanel::DrawKey()
 		RingShader::Draw(pos, OUTER, INNER, ReputationColor(1e-1, true, false));
 		RingShader::Draw(pos + Point(12., 0.), OUTER, INNER, ReputationColor(1e2, true, false));
 		RingShader::Draw(pos + Point(24., 0.), OUTER, INNER, ReputationColor(1e4, true, false));
-		font.Draw("友好", pos + textOff + Point(24., 0.), dim);
+		font.Draw("Friendly", pos + textOff + Point(24., 0.), dim);
 		pos.Y() += 20.;
 
 		RingShader::Draw(pos, OUTER, INNER, ReputationColor(-1e-1, false, false));
 		RingShader::Draw(pos + Point(12., 0.), OUTER, INNER, ReputationColor(-1e2, false, false));
 		RingShader::Draw(pos + Point(24., 0.), OUTER, INNER, ReputationColor(-1e4, false, false));
-		font.Draw("敌对", pos + textOff + Point(24., 0.), dim);
+		font.Draw("Hostile", pos + textOff + Point(24., 0.), dim);
 		pos.Y() += 20.;
 
 		RingShader::Draw(pos, OUTER, INNER, ReputationColor(0., false, false));
-		font.Draw("受限", pos + textOff, dim);
+		font.Draw("Restricted", pos + textOff, dim);
 		pos.Y() += 20.;
 
 		RingShader::Draw(pos, OUTER, INNER, ReputationColor(0., false, true));
-		font.Draw("已支配", pos + textOff, dim);
+		font.Draw("Dominated", pos + textOff, dim);
 		pos.Y() += 20.;
 	}
 	else if(commodity == SHOW_DANGER)
 	{
 		RingShader::Draw(pos, OUTER, INNER, DangerColor(numeric_limits<double>::quiet_NaN()));
-		font.Draw("无", pos + textOff, dim);
+		font.Draw("None", pos + textOff, dim);
 		pos.Y() += 20.;
 		// Each system is colored in accordance with its danger to the player,
 		// including threats from any "raid fleet" presence.
-		static const string labels[4] = {"极低", "低", "中", "高"};
+		static const string labels[4] = {"Minimal", "Low", "Moderate", "High"};
 		for(int i = 0; i < 4; ++i)
 		{
 			RingShader::Draw(pos, OUTER, INNER, DangerColor(i / 3.));
@@ -713,13 +713,13 @@ void MapDetailPanel::DrawKey()
 	if(commodity != SHOW_DANGER && commodity != SHOW_STARS)
 	{
 		RingShader::Draw(pos, OUTER, INNER, UninhabitedColor());
-		font.Draw("无人居住", pos + textOff, dim);
+		font.Draw("Uninhabited", pos + textOff, dim);
 		pos.Y() += 20.;
 	}
 	if(commodity != SHOW_STARS)
 	{
 		RingShader::Draw(pos, OUTER, INNER, UnexploredColor());
-		font.Draw("未探索", pos + textOff, dim);
+		font.Draw("Unexplored", pos + textOff, dim);
 	}
 }
 
@@ -809,12 +809,12 @@ void MapDetailPanel::DrawInfo()
 	SpriteShader::Draw(alertSprite, uiPoint + Point(-textMargin / 2., -7. + font.Height() / 2.), alertScale);
 
 	string systemName = player.KnowsName(*selectedSystem) ?
-		selectedSystem->DisplayName() : "未知星系";
+		selectedSystem->DisplayName() : "Unexplored System";
 	const auto alignLeft = Layout(145, Truncate::BACK);
 	font.Draw({systemName, alignLeft}, uiPoint + Point(0., -7.), medium);
 
 	governmentY = uiPoint.Y() + textMargin;
-	string gov = canView ? selectedSystem->GetGovernment()->DisplayName() : "未知政府";
+	string gov = canView ? selectedSystem->GetGovernment()->DisplayName() : "Unknown Government";
 	font.Draw({gov, alignLeft}, uiPoint + Point(0., 13.), (commodity == SHOW_GOVERNMENT) ? medium : dim);
 	if(commodity == SHOW_GOVERNMENT)
 		PointerShader::Draw(uiPoint + Point(0., 20.), Point(1., 0.),
@@ -933,7 +933,7 @@ void MapDetailPanel::DrawInfo()
 			}
 		}
 		else
-			price = (canView ? "不可用" : "?");
+			price = (canView ? "n/a" : "?");
 
 		const auto alignRight = Layout(130, Alignment::RIGHT, Truncate::BACK);
 		font.Draw({price, alignRight}, uiPoint, color);

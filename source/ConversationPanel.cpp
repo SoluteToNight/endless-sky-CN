@@ -209,10 +209,10 @@ void ConversationPanel::Draw()
 			FillShader::Fill(center, Point(1., 16.), dim);
 		}
 
-		font.Draw("名字：", point + Point(40, 0), dim);
+		font.Draw("First name:", point + Point(40, 0), dim);
 		font.Draw({firstName, layout}, point + Point(120, 0), choice ? gray : bright);
 
-		font.Draw("姓氏：", point + Point(270, 0), dim);
+		font.Draw("Last name:", point + Point(270, 0), dim);
 		font.Draw({lastName, layout}, point + Point(350, 0), choice ? bright : gray);
 
 		// Draw the OK button, and remember its location.

@@ -797,7 +797,7 @@ void ShipInfoPanel::Dump()
 
 	info.Update(**shipIt, player);
 	if(loss)
-		Messages::Add({"你抛弃了价值" + Format::CreditString(loss) + "的货物。",
+		Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
 			GameData::MessageCategories().Get("normal")});
 }
 
@@ -814,7 +814,7 @@ void ShipInfoPanel::DumpPlunder(int count)
 		info.Update(**shipIt, player);
 
 		if(loss)
-			Messages::Add({"你抛弃了价值" + Format::CreditString(loss) + "的货物。",
+			Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
 				GameData::MessageCategories().Get("normal")});
 	}
 }
@@ -834,7 +834,7 @@ void ShipInfoPanel::DumpCommodities(int count)
 		info.Update(**shipIt, player);
 
 		if(loss)
-			Messages::Add({"你抛弃了价值" + Format::CreditString(loss) + "的货物。",
+			Messages::Add({"You jettisoned " + Format::CreditString(loss) + " worth of cargo.",
 				GameData::MessageCategories().Get("normal")});
 	}
 }

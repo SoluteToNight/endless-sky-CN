@@ -113,7 +113,7 @@ double ShipyardPanel::ButtonPanelHeight() const
 
 double ShipyardPanel::DrawDetails(const Point &center)
 {
-	string selectedItem = "未选择飞船";
+	string selectedItem = "No Ship Selected";
 	const Font &font = FontSet::Get(14);
 
 	double heightOffset = 20.;
@@ -211,7 +211,7 @@ void ShipyardPanel::DrawButtons()
 	const Point creditsPoint(
 		Screen::Right() - SIDEBAR_WIDTH + 10,
 		Screen::Bottom() - ButtonPanelHeight() + 10);
-	font.Draw("你拥有：", creditsPoint, dim);
+	font.Draw("You have:", creditsPoint, dim);
 
 	const string credits = Format::CreditString(player.Accounts().Credits());
 	font.Draw({credits, {SIDEBAR_WIDTH - 20, Alignment::RIGHT}}, creditsPoint, bright);
@@ -226,7 +226,7 @@ void ShipyardPanel::DrawButtons()
 	DrawButton("_Sell",
 		Rectangle(Point(buttonCenterX + buttonOffsetX * 0, rowBaseY + rowOffsetY * 0), buttonSize),
 		static_cast<bool>(playerShips.size()), hoverButton == 's', 's');
-	DrawButton("出售船_壳",
+	DrawButton("Sell H_ull",
 		Rectangle(Point(buttonCenterX + buttonOffsetX * 1, rowBaseY + rowOffsetY * 0), buttonSize),
 		static_cast<bool>(playerShips.size()), hoverButton == 'r', 'r');
 	// Row 2
@@ -316,7 +316,8 @@ ShopPanel::TransactionResult ShipyardPanel::CanDoBuyButton() const
 	// Check that the player has any necessary licenses.
 	int64_t licenseCost = LicenseCost(&selectedShip->Attributes());
 	if(licenseCost < 0)
-		return "购买此飞船需要特殊执照。你可能需要完成某些任务来获得它。";
+		return "Buying this ship requires a special license. "
+			"You will probably need to complete some sort of mission to get one.";
 
 	// Check if the player can't pay.
 	cost += licenseCost;
@@ -328,17 +329,20 @@ ShopPanel::TransactionResult ShipyardPanel::CanDoBuyButton() const
 
 		if(player.Accounts().Credits() >= cost)
 		{
-			string ship = (player.Ships().size() == 1) ? "你当前的飞船" : "你的部分飞船";
-			return "你的资金不足以购买这艘飞船。若要购买，必须先出售" + ship + "。";
+			string ship = (player.Ships().size() == 1) ? "your current ship" : "some of your ships";
+			return "You do not have enough credits to buy this ship. "
+				"If you want to buy it, you must sell " + ship + " first.";
 		}
 
 		// Check if the license cost is the tipping point.
 		if(player.Accounts().Credits() >= cost - licenseCost)
-			return "你的资金不足以购买这艘飞船，"
-				"因为你还需要额外支付 " + Format::AbbreviatedNumber(licenseCost) +
-				" 额度购买所需执照。可以考虑去银行看看是否能贷款。";
+			return "You do not have enough credits to buy this ship, "
+				"because it will cost you an extra " + Format::AbbreviatedNumber(licenseCost) +
+				" credits to buy the necessary licenses. "
+				"Consider checking if the bank will offer you a loan.";
 
-		return "你的资金不足以购买这艘飞船。可以考虑去银行看看是否能贷款。";
+		return "You do not have enough credits to buy this ship. "
+				"Consider checking if the bank will offer you a loan.";
 	}
 	return true;
 }
@@ -354,15 +358,16 @@ void ShipyardPanel::DoBuyButton()
 	modifier = Modifier();
 	string message;
 	if(licenseCost)
-		message = "注意：除船价外，你还需要支付 " + Format::CreditString(licenseCost)
-			+ " 购买操作该飞船所需的执照。若你接受，请为你的新飞船输入名称：";
+		message = "Note: you will need to pay " + Format::CreditString(licenseCost)
+			+ " for the licenses required to operate this ship, in addition to its cost."
+			" If that is okay with you, go ahead and enter a name for your brand new ";
 	else
-		message = "请为你的新飞船输入名称：";
+		message = "Enter a name for your brand new ";
 
 	if(modifier == 1)
-		message += selectedShip->DisplayModelName() + "！（留空则随机命名。）";
+		message += selectedShip->DisplayModelName() + "! (Or leave it blank to use a randomly chosen name.)";
 	else
-		message += selectedShip->PluralModelName() + "！（留空则随机命名。）";
+		message += selectedShip->PluralModelName() + "! (Or leave it blank to use randomly chosen names.)";
 
 	GetUI().Push(ShipNameDialogPanel::Create(
 			DialogPanel::FunctionButton(this, "Buy", 'b', &ShipyardPanel::BuyShip),
@@ -381,18 +386,19 @@ void ShipyardPanel::Sell(bool storeOutfits)
 
 	if(storeOutfits && !planet->HasOutfitter())
 	{
-		message = "警告：该星球没有装备店，无法将装备保留到仓储中。\n";
+		message = "WARNING: This planet has no Outfitter. "
+			"There is no way to retain the outfits in storage.\n";
 		storeOutfits = false;
 	}
 	// Never allow keeping outfits where they cannot be retrieved.
 	// TODO: Consider how to keep outfits in Cargo in the future.
 
 	if(!storeOutfits)
-		message += "出售";
+		message += "Sell the ";
 	else if(count == 1)
-		message = "出售以下飞船的船壳：";
+		message = "Sell the hull of the ";
 	else
-		message = "出售以下飞船的船壳：";
+		message = "Sell the hulls of the ";
 	if(count == 1)
 		message += playerShip->GivenName();
 	else if(count <= MAX_LIST)
@@ -402,12 +408,12 @@ void ShipyardPanel::Sell(bool storeOutfits)
 		--count;
 
 		if(count == 1)
-			message += " 和 ";
+			message += " and ";
 		else
 		{
 			while(count-- > 1)
-				message += "、\n" + (*it++)->GivenName();
-			message += "、\n以及 ";
+				message += ",\n" + (*it++)->GivenName();
+			message += ",\nand ";
 		}
 		message += (*it)->GivenName();
 	}
@@ -418,7 +424,7 @@ void ShipyardPanel::Sell(bool storeOutfits)
 		for(int i = 1; i < MAX_LIST - 1; ++i)
 			message += (*it++)->GivenName() + ",\n";
 
-		message += "以及其余 " + to_string(count - (MAX_LIST - 1)) + " 艘飞船";
+		message += "and " + to_string(count - (MAX_LIST - 1)) + " other ships";
 	}
 	// To allow calculating the sale price of all the ships in the list,
 	// temporarily copy into a shared_ptr vector:

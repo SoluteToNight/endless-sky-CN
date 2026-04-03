@@ -327,7 +327,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			if(it.second)
 			{
 				if(first)
-					out << "这艘" + target->Noun() + "载有：\n";
+					out << "This " + target->Noun() + " is carrying:\n";
 				first = false;
 
 				out << "\t" << Format::CargoString(it.second, it.first) << "\n";
@@ -336,7 +336,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			if(it.second)
 			{
 				if(first)
-					out << "这艘" + target->Noun() + "载有：\n";
+					out << "This " + target->Noun() + " is carrying:\n";
 				first = false;
 
 				out << "\t";
@@ -349,16 +349,16 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 					out << it.second << " " << (it.second == 1 ? it.first->DisplayName() : it.first->PluralName()) << "\n";
 			}
 		if(first)
-			out << "这艘" + target->Noun() + "没有装载任何货物。\n";
+			out << "This " + target->Noun() + " is not carrying any cargo.\n";
 	}
 	if((event.Type() & ShipEvent::SCAN_OUTFITS) && target->Attributes().Get("inscrutable"))
-		out << "你的扫描器无法解析这艘" + target->Noun() + "的内部结构。";
+		out << "Your scanners cannot make any sense of this " + target->Noun() + "'s interior.";
 	else if(event.Type() & ShipEvent::SCAN_OUTFITS)
 	{
 		if(!target->Outfits().empty())
-			out << "这艘" + target->Noun() + "装备如下：\n";
+			out << "This " + target->Noun() + " is equipped with:\n";
 		else
-			out << "这艘" + target->Noun() + "未安装任何装备。\n";
+			out << "This " + target->Noun() + " is not equipped with any outfits.\n";
 
 		// Split target->Outfits() into categories, then iterate over them in order.
 		vector<string> categories;
@@ -407,7 +407,7 @@ void MainPanel::ShowScanDialog(const ShipEvent &event)
 			}
 		if(!count.empty())
 		{
-			out << "这艘" + target->Noun() + "搭载了：\n";
+			out << "This " + target->Noun() + " is carrying:\n";
 			for(const auto &it : count)
 				if(it.second > 0)
 					out << "\t" << it.second << " " << it.first << "\n";
@@ -444,9 +444,9 @@ bool MainPanel::ShowHailPanel()
 		// not. If it's in system and jumping, report that.
 		if(target->Zoom() < 1. || target->IsDestroyed() || target->GetSystem() != player.GetSystem()
 				|| target->IsCloaked())
-			Messages::Add({"无法呼叫目标" + target->Noun() + "。", GameData::MessageCategories().Get("high")});
+			Messages::Add({"Unable to hail target " + target->Noun() + ".", GameData::MessageCategories().Get("high")});
 		else if(target->IsEnteringHyperspace())
-			Messages::Add({"无法发送呼叫：" + target->Noun() + "正在进入超空间。",
+			Messages::Add({"Unable to send hail: " + target->Noun() + " is entering hyperspace.",
 				GameData::MessageCategories().Get("high")});
 		else
 		{
@@ -468,7 +468,7 @@ bool MainPanel::ShowHailPanel()
 			return true;
 		}
 		else
-			Messages::Add({"无法发送呼叫：" + planet->Noun() + "无人居住。",
+			Messages::Add({"Unable to send hail: " + planet->Noun() + " is not inhabited.",
 				GameData::MessageCategories().Get("high")});
 	}
 	else
