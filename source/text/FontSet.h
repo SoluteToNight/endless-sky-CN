@@ -16,6 +16,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #pragma once
 
 #include <filesystem>
+#include <vector>
 
 class Font;
 
@@ -25,6 +26,6 @@ class Font;
 // based on a glyph image; right now only point sizes 14 and 18 exist.
 class FontSet {
 public:
-	static void Add(const std::filesystem::path &path, int size);
+	static void Add(const std::vector<std::filesystem::path> &paths, int size);
 	static const Font &Get(int size);
 };

@@ -16,30 +16,33 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #pragma once
 
 #include "../shader/Shader.h"
-
 #include "../opengl.h"
+#include "GlyphCache.h"
+#include "TextureAtlas.h"
+
+#include <ft2build.h>
+#include FT_FREETYPE_H
 
 #include <filesystem>
 #include <functional>
 #include <string>
+#include <string_view>
+#include <unordered_map>
+#include <vector>
 
 class Color;
 class DisplayText;
-class ImageBuffer;
 class Point;
 
 
 
-// Class for drawing text in OpenGL. Each font is based on a single image with
-// glyphs for each character in ASCII order (not counting control characters).
-// The kerning between characters is automatically adjusted to look good. At the
-// moment only plain ASCII characters are supported, not Unicode.
+// Class for drawing text in OpenGL. Supports FreeType font rendering with
+// font stack fallback for CJK characters.
 class Font {
 public:
 	Font() noexcept = default;
-	explicit Font(const std::filesystem::path &imagePath);
 
-	void Load(const std::filesystem::path &imagePath);
+	void Load(const std::vector<std::filesystem::path> &fontPaths, int size);
 
 	// Draw a text string, subject to the given layout and truncation strategy.
 	void Draw(const DisplayText &text, const Point &point, const Color &color) const;
@@ -50,6 +53,8 @@ public:
 
 	// Determine the string's width, without considering formatting.
 	int Width(const std::string &str, char after = ' ') const;
+	// Determine the width of a substring.
+	int Width(const char *str, size_t length, char after = ' ') const;
 	// Get the width of the text while accounting for the desired layout and truncation strategy.
 	int FormattedWidth(const DisplayText &text, char after = ' ') const;
 
@@ -61,10 +66,8 @@ public:
 
 
 private:
-	static int Glyph(char c, bool isAfterSpace) noexcept;
-	void LoadTexture(ImageBuffer &image);
-	void CalculateAdvances(ImageBuffer &image);
-	void SetUpShader(float glyphW, float glyphH);
+	const GlyphCache &GetGlyph(char32_t codepoint) const;
+	void SetUpShader();
 
 	int WidthRawString(const char *str, char after = ' ') const noexcept;
 
@@ -74,21 +77,25 @@ private:
 	std::string TruncateMiddle(const std::string &str, int &width) const;
 
 	std::string TruncateEndsOrMiddle(const std::string &str, int &width,
-		std::function<std::string(const std::string &, int)> getResultString) const;
+		std::function<std::string(const std::string &, const std::vector<size_t> &, int)> getResultString) const;
 
 private:
-	const Shader *shader;
-	GLuint texture = 0;
+	const Shader *shader = nullptr;
+
+	std::vector<FT_Face> faces;
+	std::unique_ptr<TextureAtlas> atlas;
+	mutable std::unordered_map<char32_t, GlyphCache> cache;
 
 	int height = 0;
+	int ascender = 0;
 	int space = 0;
+	int renderScale = 2;
 	mutable int screenWidth = 0;
 	mutable int screenHeight = 0;
 	mutable GLfloat scale[2]{0.f, 0.f};
-	GLfloat glyphWidth = 0.f;
-	GLfloat glyphHeight = 0.f;
 
-	static const int GLYPHS = 98;
-	int advance[GLYPHS * GLYPHS] = {};
 	int widthEllipses = 0;
+
+	static constexpr int ATLAS_WIDTH = 4096;
+	static constexpr int ATLAS_HEIGHT = 4096;
 };
