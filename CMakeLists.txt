@@ -67,6 +67,7 @@ find_package(SDL2 CONFIG REQUIRED)
 find_package(PNG REQUIRED)
 find_package(JPEG REQUIRED)
 find_package(libavif REQUIRED)
+find_package(Freetype REQUIRED)
 if(NOT APPLE)
 	find_package(GLEW REQUIRED)
 endif()
@@ -166,7 +167,7 @@ if(MINGW)
 endif()
 
 # Link with the general libraries.
-target_link_libraries(ExternalLibraries INTERFACE SDL2::SDL2 PNG::PNG JPEG::JPEG avif
+target_link_libraries(ExternalLibraries INTERFACE SDL2::SDL2 PNG::PNG JPEG::JPEG avif Freetype::Freetype
 	OpenAL::OpenAL ${MINIZIP_LIBRARIES} FLAC::FLAC++ "$<IF:$<CONFIG:Debug>,${LIBMAD_LIB_DEBUG},${LIBMAD_LIB_RELEASE}>")
 
 # Link the needed OS-specific dependencies, if any.
