@@ -464,9 +464,12 @@ target_sources(EndlessSkyLib PRIVATE
 	text/FontSet.h
 	text/Format.cpp
 	text/Format.h
+	text/GlyphCache.h
 	text/Layout.h
 	text/Table.cpp
 	text/Table.h
+	text/TextureAtlas.cpp
+	text/TextureAtlas.h
 	text/Truncate.h
 	text/Utf8.cpp
 	text/Utf8.h
