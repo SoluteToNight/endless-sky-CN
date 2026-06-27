@@ -143,8 +143,8 @@ namespace {
 		}
 	}
 
-	const char *const FONT_14_NAME = "font/ubuntu14r.png";
-	const char *const FONT_18_NAME = "font/ubuntu18r.png";
+	const char *const FONT_TTF_NAME = "Ubuntu-Regular.ttf";
+	const char *const FONT_CJK_NAME = "SourceHanSansCN-Regular.otf";
 }
 
 
@@ -217,9 +217,9 @@ void GameData::LoadShaders()
 	// The found shader files. The first element is the vertex shader,
 	// the second is the fragment shader.
 	map<string, pair<string, string>> loaded;
-	// The paths to standard fonts, possibly overridden by plugins.
-	filesystem::path font14Path = Files::Images() / FONT_14_NAME;
-	filesystem::path font18Path = Files::Images() / FONT_18_NAME;
+	// The paths to standard fonts.
+	vector<filesystem::path> fontPaths14 = {Files::Data() / FONT_TTF_NAME, Files::Data() / FONT_CJK_NAME};
+	vector<filesystem::path> fontPaths18 = {Files::Data() / FONT_TTF_NAME, Files::Data() / FONT_CJK_NAME};
 	for(const filesystem::path &source : sources)
 	{
 		filesystem::path base = source / "shaders";
@@ -242,12 +242,18 @@ void GameData::LoadShaders()
 				else if(shader.extension() == ".frag")
 					loaded[name].second = shaderFile.string();
 			}
-		filesystem::path fontCandidate = source / "images" / FONT_14_NAME;
+		filesystem::path fontCandidate = source / FONT_TTF_NAME;
 		if(Files::Exists(fontCandidate))
-			font14Path = fontCandidate;
-		fontCandidate = source / "images" / FONT_18_NAME;
+		{
+			fontPaths14[0] = fontCandidate;
+			fontPaths18[0] = fontCandidate;
+		}
+		fontCandidate = source / FONT_CJK_NAME;
 		if(Files::Exists(fontCandidate))
-			font18Path = fontCandidate;
+		{
+			fontPaths14[1] = fontCandidate;
+			fontPaths18[1] = fontCandidate;
+		}
 	}
 
 	// If there is both a fragment and a vertex shader available,
@@ -266,8 +272,8 @@ void GameData::LoadShaders()
 	BatchShader::Init();
 	RenderBuffer::Init();
 
-	FontSet::Add(font14Path, 14);
-	FontSet::Add(font18Path, 18);
+	FontSet::Add(fontPaths14, 14);
+	FontSet::Add(fontPaths18, 18);
 
 	background.Init(16384, 4096);
 }
