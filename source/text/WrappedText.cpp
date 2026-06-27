@@ -17,10 +17,21 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include "DisplayText.h"
 #include "Font.h"
+#include "Utf8.h"
 
 #include <cstring>
 
 using namespace std;
+
+namespace {
+	bool IsCJK(char32_t c)
+	{
+		return (c >= 0x2E80 && c <= 0x9FFF) ||   // CJK Radicals, Kangxi Radicals, CJK Unified Ideographs
+			   (c >= 0xAC00 && c <= 0xD7A3) ||   // Hangul Syllables
+			   (c >= 0xF900 && c <= 0xFAFF) ||   // CJK Compatibility Ideographs
+			   (c >= 0xFF00 && c <= 0xFFEF);      // Halfwidth and Fullwidth Forms
+	}
+}
 
 
 
@@ -168,7 +179,7 @@ void WrappedText::Draw(const Point &topLeft, const Color &color) const
 
 	if(truncate == Truncate::NONE)
 		for(const Word &w : words)
-			font->Draw(text.c_str() + w.Index(), w.Pos() + topLeft, color);
+			font->Draw(string(text.c_str() + w.Index(), w.Length()), w.Pos() + topLeft, color);
 	else
 	{
 		// Currently, we only apply truncation to a line if it contains a single word.
@@ -177,9 +188,9 @@ void WrappedText::Draw(const Point &topLeft, const Color &color) const
 		{
 			const Word &w = words[i];
 			if(h == w.y && (i != words.size() - 1 && w.y == words[i + 1].y))
-				font->Draw(text.c_str() + w.Index(), w.Pos() + topLeft, color);
+				font->Draw(string(text.c_str() + w.Index(), w.Length()), w.Pos() + topLeft, color);
 			else
-				font->Draw({text.c_str() + w.Index(), {wrapWidth, truncate}}, w.Pos() + topLeft, color);
+				font->Draw({string(text.c_str() + w.Index(), w.Length()), {wrapWidth, truncate}}, w.Pos() + topLeft, color);
 			h = w.y;
 		}
 	}
@@ -190,6 +201,13 @@ void WrappedText::Draw(const Point &topLeft, const Color &color) const
 size_t WrappedText::Word::Index() const
 {
 	return index;
+}
+
+
+
+size_t WrappedText::Word::Length() const
+{
+	return length;
 }
 
 
@@ -221,7 +239,7 @@ void WrappedText::Wrap()
 	if(text.empty() || !font)
 		return;
 
-	// Do this as a finite state machine.
+	// Do this as a finite state machine with UTF-8 support.
 	Word word;
 	bool traversingWord = false;
 	bool currentLineHasWords = false;
@@ -232,23 +250,21 @@ void WrappedText::Wrap()
 	// This is the index in the "words" vector of the first word on this line.
 	size_t lineBegin = 0;
 
-	// TODO: handle single words that are longer than the wrap width. Right now
-	// they are simply drawn un-broken, and thus extend beyond the margin.
-	// TODO: break words at hyphens, or even do automatic hyphenation. This
-	// would require a different format for the buffer, though, because it means
-	// inserting '\0' characters even where there is no whitespace.
-
-	for(string::iterator it = text.begin(); it != text.end(); ++it)
+	size_t pos = 0;
+	while(pos < text.length())
 	{
-		const char c = *it;
+		size_t charStart = pos;
+		char32_t c = Utf8::DecodeCodePoint(text, pos);
+		bool breakableCJK = IsCJK(c);
 
 		// Whitespace signals a word end - mark it and wrap the text if needed.
 		if(c <= ' ' && traversingWord)
 		{
 			traversingWord = false;
 			// Break the string at this point, and measure the word's width.
-			*it = '\0';
-			const int width = font->Width(text.c_str() + word.index);
+			text[charStart] = '\0';
+			word.length = charStart - word.index;
+			const int width = font->Width(text.c_str() + word.index, word.length, '\0');
 			if(word.x + width > wrapWidth)
 			{
 				// If adding this word would overflow the length of the line,
@@ -280,19 +296,62 @@ void WrappedText::Wrap()
 		// Otherwise, whitespace just adds to the x position.
 		else if(c <= ' ')
 			word.x += Space(c);
+		// CJK characters can break before them.
+		else if(breakableCJK)
+		{
+			// If we're in a word, end it at this CJK character.
+			if(traversingWord)
+			{
+				traversingWord = false;
+				text[charStart] = '\0';
+				word.length = charStart - word.index;
+				const int width = font->Width(text.c_str() + word.index, word.length, '\0');
+				if(word.x + width > wrapWidth)
+				{
+					word.y += lineHeight;
+					word.x = 0;
+					AdjustLine(lineBegin, lineWidth, false);
+				}
+				words.push_back(word);
+				word.x += width;
+				lineWidth = word.x;
+			}
+
+			// Measure the CJK character itself.
+			size_t cjkStart = charStart;
+			const int cjkWidth = font->Width(text.c_str() + cjkStart, pos - cjkStart, '\0');
+			if(word.x + cjkWidth > wrapWidth && word.x > 0)
+			{
+				word.y += lineHeight;
+				word.x = 0;
+				AdjustLine(lineBegin, lineWidth, false);
+			}
+
+			// Store the CJK character as its own word.
+			Word cjkWord;
+			cjkWord.index = cjkStart;
+			cjkWord.length = pos - cjkStart;
+			cjkWord.x = word.x;
+			cjkWord.y = word.y;
+			words.push_back(cjkWord);
+			word.x += cjkWidth;
+			lineWidth = word.x;
+			currentLineHasWords = true;
+		}
 		// If we've reached the start of a new word, remember where it begins.
 		else if(!traversingWord)
 		{
 			traversingWord = true;
 			currentLineHasWords = true;
-			word.index = it - text.begin();
+			word.index = charStart;
 		}
 	}
 
 	// Handle the final word.
 	if(traversingWord)
 	{
-		const int width = font->Width(text.c_str() + word.index);
+		word.length = text.length() - word.index;
+		const int width = font->Width(text.c_str() + word.index, word.length, '\0');
 		if(word.x + width > wrapWidth)
 		{
 			// If adding this word would overflow the length of the line,
@@ -309,16 +368,18 @@ void WrappedText::Wrap()
 		// Keep track of how wide this line is now that this word is added.
 		lineWidth = word.x;
 	}
-	// Advance line if we need to.
-	if(currentLineHasWords)
-		word.y += lineHeight + paragraphBreak;
 
-	// Adjust the spacing of words in the final line of text.
-	AdjustLine(lineBegin, lineWidth, true);
+	// Ensure the very last line is aligned if it hasn't been yet.
+	if(lineBegin < words.size())
+	{
+		AdjustLine(lineBegin, lineWidth, true);
+	}
 
-	// We have over-calculated the actual height by an extra paragraph break,
-	// so subtract that.
-	height = max(0, word.y - paragraphBreak);
+	// Calculate the total wrapped height, including the last line.
+	if(!words.empty())
+	{
+		height = words.back().y + lineHeight;
+	}
 }
 
 
