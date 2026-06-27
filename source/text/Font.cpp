@@ -19,12 +19,12 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "../Color.h"
 #include "DisplayText.h"
 #include "../GameData.h"
-#include "../image/ImageBuffer.h"
-#include "../image/ImageFileData.h"
 #include "../Point.h"
 #include "../Preferences.h"
 #include "../Screen.h"
+#include "TextureAtlas.h"
 #include "Truncate.h"
+#include "Utf8.h"
 
 #include <algorithm>
 #include <cmath>
@@ -35,55 +35,165 @@ using namespace std;
 
 namespace {
 	bool showUnderlines = false;
-	const int KERN = 2;
 
-	/// Shared VAO and VBO quad (0,0) -> (1,1)
+	FT_Library ftLibrary = nullptr;
+
+	void InitFreeType()
+	{
+		if(!ftLibrary)
+			FT_Init_FreeType(&ftLibrary);
+	}
+
+	/// Shared VAO and VBO for batched glyph rendering.
 	GLuint vao = 0;
 	GLuint vbo = 0;
 
 	GLint colorI = 0;
 	GLint scaleI = 0;
-	GLint glyphSizeI = 0;
-	GLint glyphI = 0;
-	GLint aspectI = 0;
-	GLint positionI = 0;
+	GLint vertI = 0;
+	GLint texCoordI = 0;
+}
 
-	GLint vertI;
-	GLint cornerI;
 
-	void EnableAttribArrays()
+
+void Font::Load(const vector<filesystem::path> &fontPaths, int size)
+{
+	InitFreeType();
+
+	int renderSize = size * renderScale;
+
+	atlas = make_unique<TextureAtlas>(ATLAS_WIDTH, ATLAS_HEIGHT);
+
+	for(const auto &path : fontPaths)
 	{
-		// Connect the xy to the "vert" attribute of the vertex shader.
-		constexpr auto stride = 4 * sizeof(GLfloat);
-		glEnableVertexAttribArray(vertI);
-		glVertexAttribPointer(vertI, 2, GL_FLOAT, GL_FALSE, stride, nullptr);
-
-		glEnableVertexAttribArray(cornerI);
-		glVertexAttribPointer(cornerI, 2, GL_FLOAT, GL_FALSE,
-			stride, reinterpret_cast<const GLvoid *>(2 * sizeof(GLfloat)));
+		FT_Face face = nullptr;
+		if(FT_New_Face(ftLibrary, path.string().c_str(), 0, &face))
+			continue;
+		FT_Set_Pixel_Sizes(face, 0, renderSize);
+		faces.push_back(face);
 	}
-}
 
-
-
-Font::Font(const filesystem::path &imagePath)
-{
-	Load(imagePath);
-}
-
-
-
-void Font::Load(const filesystem::path &imagePath)
-{
-	// Load the texture.
-	ImageBuffer image;
-	if(!image.Read(ImageFileData(imagePath)))
+	if(faces.empty())
 		return;
 
-	LoadTexture(image);
-	CalculateAdvances(image);
-	SetUpShader(image.Width() / GLYPHS, image.Height());
+	// Extract metrics from the primary font.
+	FT_Face primary = faces[0];
+	height = (primary->size->metrics.height >> 6) / renderScale;
+	ascender = (primary->size->metrics.ascender >> 6) / renderScale;
+
+	// Measure space width.
+	FT_UInt spaceIndex = FT_Get_Char_Index(primary, ' ');
+	if(spaceIndex)
+	{
+		FT_Load_Glyph(primary, spaceIndex, FT_LOAD_RENDER);
+		space = (primary->glyph->advance.x >> 6) / renderScale;
+	}
+
 	widthEllipses = WidthRawString("...");
+	SetUpShader();
+}
+
+
+
+const GlyphCache &Font::GetGlyph(char32_t codepoint) const
+{
+	static const GlyphCache empty;
+
+	auto it = cache.find(codepoint);
+	if(it != cache.end())
+		return it->second;
+
+	// Try each face in the font stack.
+	for(auto &face : faces)
+	{
+		FT_UInt glyphIndex = FT_Get_Char_Index(face, codepoint);
+		if(!glyphIndex)
+			continue;
+
+		if(FT_Load_Glyph(face, glyphIndex, FT_LOAD_RENDER))
+			continue;
+
+		FT_GlyphSlot slot = face->glyph;
+
+		GlyphCache glyph;
+		glyph.advance = (slot->advance.x >> 6) / renderScale;
+		glyph.bearingX = slot->bitmap_left / renderScale;
+		glyph.bearingY = slot->bitmap_top / renderScale;
+		glyph.width = slot->bitmap.width / renderScale;
+		glyph.height = slot->bitmap.rows / renderScale;
+		glyph.bitmapW = slot->bitmap.width;
+		glyph.bitmapH = slot->bitmap.rows;
+		glyph.isWhitespace = (slot->bitmap.width == 0 || slot->bitmap.rows == 0);
+
+		if(!glyph.isWhitespace && atlas)
+		{
+			int ax = 0, ay = 0;
+			if(atlas->Allocate(glyph.bitmapW, glyph.bitmapH, &ax, &ay))
+			{
+				atlas->Upload(ax, ay, glyph.bitmapW, glyph.bitmapH, slot->bitmap.buffer);
+
+				float u0 = static_cast<float>(ax) / atlas->Width();
+				float v0 = static_cast<float>(ay) / atlas->Height();
+				float u1 = static_cast<float>(ax + glyph.bitmapW) / atlas->Width();
+				float v1 = static_cast<float>(ay + glyph.bitmapH) / atlas->Height();
+				glyph.uvRect[0] = u0;
+				glyph.uvRect[1] = v0;
+				glyph.uvRect[2] = u1;
+				glyph.uvRect[3] = v1;
+			}
+		}
+
+		cache[codepoint] = glyph;
+		return cache[codepoint];
+	}
+
+	return empty;
+}
+
+
+
+void Font::SetUpShader()
+{
+	shader = GameData::Shaders().Get("font");
+
+	if(!vbo)
+	{
+		vertI = shader->Attrib("vert");
+		texCoordI = shader->Attrib("texCoordIn");
+
+		glUseProgram(shader->Object());
+		glUniform1i(shader->Uniform("tex"), 0);
+		glUseProgram(0);
+
+		if(OpenGL::HasVaoSupport())
+		{
+			glGenVertexArrays(1, &vao);
+			glBindVertexArray(vao);
+		}
+
+		glGenBuffers(1, &vbo);
+		glBindBuffer(GL_ARRAY_BUFFER, vbo);
+
+		if(OpenGL::HasVaoSupport())
+		{
+			constexpr auto stride = 4 * sizeof(GLfloat);
+			glEnableVertexAttribArray(vertI);
+			glVertexAttribPointer(vertI, 2, GL_FLOAT, GL_FALSE, stride, nullptr);
+			glEnableVertexAttribArray(texCoordI);
+			glVertexAttribPointer(texCoordI, 2, GL_FLOAT, GL_FALSE,
+				stride, reinterpret_cast<const GLvoid *>(2 * sizeof(GLfloat)));
+		}
+
+		glBindBuffer(GL_ARRAY_BUFFER, 0);
+		if(OpenGL::HasVaoSupport())
+			glBindVertexArray(0);
+
+		colorI = shader->Uniform("color");
+		scaleI = shader->Uniform("scale");
+	}
+
+	screenWidth = 0;
+	screenHeight = 0;
 }
 
 
@@ -121,19 +231,26 @@ void Font::Draw(const string &str, const Point &point, const Color &color) const
 
 void Font::DrawAliased(const string &str, double x, double y, const Color &color) const
 {
+	if(!shader || faces.empty())
+		return;
+
 	glUseProgram(shader->Object());
-	glBindTexture(GL_TEXTURE_2D, texture);
+	glBindTexture(GL_TEXTURE_2D, atlas->Texture());
 	if(OpenGL::HasVaoSupport())
 		glBindVertexArray(vao);
 	else
 	{
 		glBindBuffer(GL_ARRAY_BUFFER, vbo);
-		EnableAttribArrays();
+		constexpr auto stride = 4 * sizeof(GLfloat);
+		glEnableVertexAttribArray(vertI);
+		glVertexAttribPointer(vertI, 2, GL_FLOAT, GL_FALSE, stride, nullptr);
+		glEnableVertexAttribArray(texCoordI);
+		glVertexAttribPointer(texCoordI, 2, GL_FLOAT, GL_FALSE,
+			stride, reinterpret_cast<const GLvoid *>(2 * sizeof(GLfloat)));
 	}
 
 	glUniform4fv(colorI, 1, color.Get());
 
-	// Update the scale, only if the screen size has changed.
 	if(Screen::Width() != screenWidth || Screen::Height() != screenHeight)
 	{
 		screenWidth = Screen::Width();
@@ -142,54 +259,99 @@ void Font::DrawAliased(const string &str, double x, double y, const Color &color
 		scale[1] = -2.f / screenHeight;
 	}
 	glUniform2fv(scaleI, 1, scale);
-	glUniform2f(glyphSizeI, glyphWidth, glyphHeight);
 
-	GLfloat textPos[2] = {
-		static_cast<float>(x - 1.),
-		static_cast<float>(y)};
-	int previous = 0;
-	bool isAfterSpace = true;
+	// Build vertex data for all glyphs.
+	vector<GLfloat> vertices;
+	float textX = static_cast<float>(x - 1.);
+	float textY = static_cast<float>(y);
 	bool underlineChar = false;
-	const int underscoreGlyph = max(0, min(GLYPHS - 1, '_' - 32));
 
-	for(char c : str)
+	size_t pos = 0;
+	while(pos < str.length())
 	{
+		char32_t c = Utf8::DecodeCodePoint(str, pos);
+
 		if(c == '_')
 		{
 			underlineChar = showUnderlines;
 			continue;
 		}
 
-		int glyph = Glyph(c, isAfterSpace);
-		if(c != '"' && c != '\'')
-			isAfterSpace = !glyph;
-		if(!glyph)
+		if(c == '\r' || c == '\n')
+			continue;
+
+		const GlyphCache &glyph = GetGlyph(c);
+		if(glyph.isWhitespace)
 		{
-			textPos[0] += space;
+			textX += space;
 			continue;
 		}
 
-		glUniform1i(glyphI, glyph);
-		glUniform1f(aspectI, 1.f);
+		float gx = textX + glyph.bearingX;
+		float gy = textY + ascender - glyph.bearingY;
+		float gw = static_cast<float>(glyph.bitmapW) / renderScale;
+		float gh = static_cast<float>(glyph.bitmapH) / renderScale;
 
-		textPos[0] += advance[previous * GLYPHS + glyph] + KERN;
-		glUniform2fv(positionI, 1, textPos);
+		float u0 = glyph.uvRect[0];
+		float v0 = glyph.uvRect[1];
+		float u1 = glyph.uvRect[2];
+		float v1 = glyph.uvRect[3];
 
-		glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+		// Two triangles per glyph.
+		vertices.insert(vertices.end(), {gx, gy, u0, v0});
+		vertices.insert(vertices.end(), {gx, gy + gh, u0, v1});
+		vertices.insert(vertices.end(), {gx + gw, gy, u1, v0});
+		vertices.insert(vertices.end(), {gx + gw, gy, u1, v0});
+		vertices.insert(vertices.end(), {gx, gy + gh, u0, v1});
+		vertices.insert(vertices.end(), {gx + gw, gy + gh, u1, v1});
 
+		// Draw underline if needed.
 		if(underlineChar)
 		{
-			glUniform1i(glyphI, underscoreGlyph);
-			glUniform1f(aspectI, static_cast<float>(advance[glyph * GLYPHS] + KERN)
-				/ (advance[underscoreGlyph * GLYPHS] + KERN));
+			const GlyphCache &usGlyph = GetGlyph('_');
+			if(!usGlyph.isWhitespace)
+			{
+				float ux = textX + usGlyph.bearingX;
+				float uy = textY + ascender - usGlyph.bearingY;
+				float uw = static_cast<float>(usGlyph.bitmapW) / renderScale;
+				float uh = static_cast<float>(usGlyph.bitmapH) / renderScale;
 
-			glUniform2fv(positionI, 1, textPos);
+				float uu0 = usGlyph.uvRect[0];
+				float uv0 = usGlyph.uvRect[1];
+				float uu1 = usGlyph.uvRect[2];
+				float uv1 = usGlyph.uvRect[3];
 
-			glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+				vertices.insert(vertices.end(), {ux, uy, uu0, uv0});
+				vertices.insert(vertices.end(), {ux, uy + uh, uu0, uv1});
+				vertices.insert(vertices.end(), {ux + uw, uy, uu1, uv0});
+				vertices.insert(vertices.end(), {ux + uw, uy, uu1, uv0});
+				vertices.insert(vertices.end(), {ux, uy + uh, uu0, uv1});
+				vertices.insert(vertices.end(), {ux + uw, uy + uh, uu1, uv1});
+			}
 			underlineChar = false;
 		}
 
-		previous = glyph;
+		textX += glyph.advance;
+	}
+
+	// Upload and draw.
+	if(!vertices.empty())
+	{
+		glBindBuffer(GL_ARRAY_BUFFER, vbo);
+		glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat),
+			vertices.data(), GL_STREAM_DRAW);
+
+		if(!OpenGL::HasVaoSupport())
+		{
+			constexpr auto stride = 4 * sizeof(GLfloat);
+			glEnableVertexAttribArray(vertI);
+			glVertexAttribPointer(vertI, 2, GL_FLOAT, GL_FALSE, stride, nullptr);
+			glEnableVertexAttribArray(texCoordI);
+			glVertexAttribPointer(texCoordI, 2, GL_FLOAT, GL_FALSE,
+				stride, reinterpret_cast<const GLvoid *>(2 * sizeof(GLfloat)));
+		}
+
+		glDrawArrays(GL_TRIANGLES, 0, vertices.size() / 4);
 	}
 
 	if(OpenGL::HasVaoSupport())
@@ -197,8 +359,8 @@ void Font::DrawAliased(const string &str, double x, double y, const Color &color
 	else
 	{
 		glDisableVertexAttribArray(vertI);
-		glDisableVertexAttribArray(cornerI);
-		glBindBuffer(GL_ARRAY_BUFFER, vbo);
+		glDisableVertexAttribArray(texCoordI);
+		glBindBuffer(GL_ARRAY_BUFFER, 0);
 	}
 	glUseProgram(0);
 }
@@ -208,6 +370,14 @@ void Font::DrawAliased(const string &str, double x, double y, const Color &color
 int Font::Width(const string &str, char after) const
 {
 	return WidthRawString(str.c_str(), after);
+}
+
+
+
+int Font::Width(const char *str, size_t length, char after) const
+{
+	string substr(str, length);
+	return WidthRawString(substr.c_str(), after);
 }
 
 
@@ -242,183 +412,42 @@ void Font::ShowUnderlines(bool show) noexcept
 
 
 
-int Font::Glyph(char c, bool isAfterSpace) noexcept
-{
-	// Curly quotes.
-	if(c == '\'' && isAfterSpace)
-		return 96;
-	if(c == '"' && isAfterSpace)
-		return 97;
-
-	return max(0, min(GLYPHS - 3, c - 32));
-}
-
-
-
-void Font::LoadTexture(ImageBuffer &image)
-{
-	glGenTextures(1, &texture);
-	glBindTexture(GL_TEXTURE_2D, texture);
-
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, image.Width(), image.Height(), 0,
-		GL_RGBA, GL_UNSIGNED_BYTE, image.Pixels());
-}
-
-
-
-void Font::CalculateAdvances(ImageBuffer &image)
-{
-	// Get the format and size of the surface.
-	int width = image.Width() / GLYPHS;
-	height = image.Height();
-	unsigned mask = 0xFF000000;
-	unsigned half = 0xC0000000;
-	int pitch = image.Width();
-
-	// advance[previous * GLYPHS + next] is the x advance for each glyph pair.
-	// There is no advance if the previous value is 0, i.e. we are at the very
-	// start of a string.
-	memset(advance, 0, GLYPHS * sizeof(advance[0]));
-	for(int previous = 1; previous < GLYPHS; ++previous)
-		for(int next = 0; next < GLYPHS; ++next)
-		{
-			int maxD = 0;
-			int glyphWidth = 0;
-			uint32_t *begin = image.Pixels();
-			for(int y = 0; y < height; ++y)
-			{
-				// Find the last non-empty pixel in the previous glyph.
-				uint32_t *pend = begin + previous * width;
-				uint32_t *pit = pend + width;
-				while(pit != pend && (*--pit & mask) < half) {}
-				int distance = (pit - pend) + 1;
-				glyphWidth = max(distance, glyphWidth);
-
-				// Special case: if "next" is zero (i.e. end of line of text),
-				// calculate the full width of this character. Otherwise:
-				if(next)
-				{
-					// Find the first non-empty pixel in this glyph.
-					uint32_t *nit = begin + next * width;
-					uint32_t *nend = nit + width;
-					while(nit != nend && (*nit++ & mask) < half) {}
-
-					// How far apart do you want these glyphs drawn? If drawn at
-					// an advance of "width", there would be:
-					// pend + width - pit   <- pixels after the previous glyph.
-					// nit - (nend - width) <- pixels before the next glyph.
-					// So for zero kerning distance, you would want:
-					distance += 1 - (nit - (nend - width));
-				}
-				maxD = max(maxD, distance);
-
-				// Update the pointer to point to the beginning of the next row.
-				begin += pitch;
-			}
-			// This is a fudge factor to avoid over-kerning, especially for the
-			// underscore and for glyph combinations like AV.
-			advance[previous * GLYPHS + next] = max(maxD, glyphWidth - 4) / 2;
-		}
-
-	// Set the space size based on the character width.
-	width /= 2;
-	height /= 2;
-	space = (width + 3) / 6 + 1;
-}
-
-
-
-void Font::SetUpShader(float glyphW, float glyphH)
-{
-	glyphWidth = glyphW * .5f;
-	glyphHeight = glyphH * .5f;
-
-	shader = GameData::Shaders().Get("font");
-	// Initialize the shared parameters only once
-	if(!vbo)
-	{
-		vertI = shader->Attrib("vert");
-		cornerI = shader->Attrib("corner");
-
-		glUseProgram(shader->Object());
-		glUniform1i(shader->Uniform("tex"), 0);
-		glUseProgram(0);
-
-		// Create the VAO and VBO.
-		if(OpenGL::HasVaoSupport())
-		{
-			glGenVertexArrays(1, &vao);
-			glBindVertexArray(vao);
-		}
-
-		glGenBuffers(1, &vbo);
-		glBindBuffer(GL_ARRAY_BUFFER, vbo);
-
-		GLfloat vertices[] = {
-				0.f, 0.f, 0.f, 0.f,
-				0.f, 1.f, 0.f, 1.f,
-				1.f, 0.f, 1.f, 0.f,
-				1.f, 1.f, 1.f, 1.f
-		};
-		glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-		if(OpenGL::HasVaoSupport())
-			EnableAttribArrays();
-
-		glBindBuffer(GL_ARRAY_BUFFER, 0);
-		if(OpenGL::HasVaoSupport())
-			glBindVertexArray(0);
-
-		colorI = shader->Uniform("color");
-		scaleI = shader->Uniform("scale");
-		glyphSizeI = shader->Uniform("glyphSize");
-		glyphI = shader->Uniform("glyph");
-		aspectI = shader->Uniform("aspect");
-		positionI = shader->Uniform("position");
-	}
-
-	// We must update the screen size next time we draw.
-	screenWidth = 0;
-	screenHeight = 0;
-}
-
-
-
 int Font::WidthRawString(const char *str, char after) const noexcept
 {
 	int width = 0;
-	int previous = 0;
-	bool isAfterSpace = true;
+	size_t pos = 0;
+	string_view sv(str);
 
-	for( ; *str; ++str)
+	while(pos < sv.length())
 	{
-		if(*str == '_')
+		char32_t c = Utf8::DecodeCodePoint(sv, pos);
+		if(c == '_')
 			continue;
 
-		int glyph = Glyph(*str, isAfterSpace);
-		if(*str != '"' && *str != '\'')
-			isAfterSpace = !glyph;
-		if(!glyph)
+		if(c == '\r' || c == '\n')
+			continue;
+
+		const GlyphCache &glyph = GetGlyph(c);
+		if(glyph.isWhitespace)
 			width += space;
 		else
-		{
-			width += advance[previous * GLYPHS + glyph] + KERN;
-			previous = glyph;
-		}
+			width += glyph.advance;
 	}
-	width += advance[previous * GLYPHS + max(0, min(GLYPHS - 1, after - 32))];
+
+	// Add advance for the 'after' character if provided.
+	if(after && after != ' ')
+	{
+		char32_t afterC = static_cast<unsigned char>(after);
+		const GlyphCache &afterGlyph = GetGlyph(afterC);
+		if(!afterGlyph.isWhitespace)
+			width += afterGlyph.advance;
+	}
 
 	return width;
 }
 
 
 
-// Param width will be set to the width of the return value, unless the layout width is negative.
 string Font::TruncateText(const DisplayText &text, int &width) const
 {
 	width = -1;
@@ -447,9 +476,9 @@ string Font::TruncateText(const DisplayText &text, int &width) const
 string Font::TruncateBack(const string &str, int &width) const
 {
 	return TruncateEndsOrMiddle(str, width,
-		[](const string &str, int charCount)
+		[](const string &str, const vector<size_t> &offsets, int charCount)
 		{
-			return str.substr(0, charCount) + "...";
+			return str.substr(0, offsets[charCount]) + "...";
 		});
 }
 
@@ -458,9 +487,9 @@ string Font::TruncateBack(const string &str, int &width) const
 string Font::TruncateFront(const string &str, int &width) const
 {
 	return TruncateEndsOrMiddle(str, width,
-		[](const string &str, int charCount)
+		[](const string &str, const vector<size_t> &offsets, int charCount)
 		{
-			return "..." + str.substr(str.size() - charCount);
+			return "..." + str.substr(offsets[offsets.size() - 1 - charCount]);
 		});
 }
 
@@ -469,16 +498,20 @@ string Font::TruncateFront(const string &str, int &width) const
 string Font::TruncateMiddle(const string &str, int &width) const
 {
 	return TruncateEndsOrMiddle(str, width,
-		[](const string &str, int charCount)
+		[](const string &str, const vector<size_t> &offsets, int charCount)
 		{
-			return str.substr(0, (charCount + 1) / 2) + "..." + str.substr(str.size() - charCount / 2);
+			int frontCount = (charCount + 1) / 2;
+			int backCount = charCount / 2;
+			size_t frontEnd = offsets[frontCount];
+			size_t backStart = offsets[offsets.size() - 1 - backCount];
+			return str.substr(0, frontEnd) + "..." + str.substr(backStart);
 		});
 }
 
 
 
 string Font::TruncateEndsOrMiddle(const string &str, int &width,
-	function<string(const string &, int)> getResultString) const
+	function<string(const string &, const vector<size_t> &, int)> getResultString) const
 {
 	int firstWidth = WidthRawString(str.c_str());
 	if(firstWidth <= width)
@@ -487,15 +520,24 @@ string Font::TruncateEndsOrMiddle(const string &str, int &width,
 		return str;
 	}
 
+	// Pre-compute UTF-8 character boundary offsets.
+	vector<size_t> offsets;
+	size_t pos = 0;
+	while(pos < str.length())
+	{
+		offsets.push_back(pos);
+		Utf8::DecodeCodePoint(str, pos);
+	}
+	offsets.push_back(str.length());
+
 	int workingChars = 0;
 	int workingWidth = 0;
 
-	int low = 0, high = str.size() - 1;
+	int low = 0, high = offsets.size() - 2;
 	while(low <= high)
 	{
-		// Think "how many chars to take from both ends, omitting in the middle".
 		int nextChars = (low + high) / 2;
-		int nextWidth = WidthRawString(getResultString(str, nextChars).c_str());
+		int nextWidth = WidthRawString(getResultString(str, offsets, nextChars).c_str());
 		if(nextWidth <= width)
 		{
 			if(nextChars > workingChars)
@@ -509,5 +551,5 @@ string Font::TruncateEndsOrMiddle(const string &str, int &width,
 			high = nextChars - 1;
 	}
 	width = workingWidth;
-	return getResultString(str, workingChars);
+	return getResultString(str, offsets, workingChars);
 }
