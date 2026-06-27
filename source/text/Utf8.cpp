@@ -141,7 +141,7 @@ namespace Utf8 {
 
 	// Decodes a unicode code point in utf8.
 	// Invalid codepoints are converted to 0xFFFFFFFF.
-	char32_t DecodeCodePoint(const string &str, size_t &pos)
+	char32_t DecodeCodePoint(string_view str, size_t &pos)
 	{
 		if(pos >= str.length())
 		{
@@ -150,7 +150,7 @@ namespace Utf8 {
 		}
 
 		// invalid (-1) or end (0)
-		int bytes = CodePointBytes(str.c_str() + pos);
+		int bytes = CodePointBytes(str.data() + pos);
 		if(bytes < 1)
 		{
 			++pos;

@@ -92,10 +92,12 @@ private:
 		Word() = default;
 
 		size_t Index() const;
+		size_t Length() const;
 		Point Pos() const;
 
 	private:
 		size_t index = 0;
+		size_t length = 0;
 		int x = 0;
 		int y = 0;
 
