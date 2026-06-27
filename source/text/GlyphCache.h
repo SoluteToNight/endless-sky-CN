@@ -1,4 +1,4 @@
-/* FontSet.h
+/* GlyphCache.h
 Copyright (c) 2014-2020 by Michael Zahniser
 
 Endless Sky is free software: you can redistribute it and/or modify it under the
@@ -15,17 +15,18 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include <filesystem>
-#include <vector>
-
-class Font;
 
 
-
-// Class for getting the Font object for a given point size. Each font must be
-// based on a glyph image; right now only point sizes 14 and 18 exist.
-class FontSet {
+// Metadata for a single rendered glyph in the texture atlas.
+class GlyphCache {
 public:
-	static void Add(const std::vector<std::filesystem::path> &paths, int size);
-	static const Font &Get(int size);
+	float uvRect[4] = {0.f, 0.f, 0.f, 0.f};
+	float advance = 0.f;
+	float bearingX = 0.f;
+	float bearingY = 0.f;
+	float width = 0.f;
+	float height = 0.f;
+	int bitmapW = 0;
+	int bitmapH = 0;
+	bool isWhitespace = false;
 };
