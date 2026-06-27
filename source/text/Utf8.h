@@ -17,6 +17,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include <cstddef>
 #include <string>
+#include <string_view>
 
 namespace Utf8 {
 #if defined(_WIN32)
@@ -38,5 +39,5 @@ namespace Utf8 {
 	// Invalid codepoints are converted to 0xFFFFFFFF.
 	// pos skips to the next unicode code point after pos in utf8,
 	// or is set string::npos when there are no more code points.
-	char32_t DecodeCodePoint(const std::string &str, std::size_t &pos);
+	char32_t DecodeCodePoint(std::string_view str, std::size_t &pos);
 }
