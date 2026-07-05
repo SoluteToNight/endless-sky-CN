@@ -1,0 +1,167 @@
+mission "FW Reconciliation 1"
+	name "Pick up Ijs from <planet>"
+	description "Bring Katya and Sawyer to <destination>, along with Raven's ship (the Eye of Horus), and pick up Ijs and his equipment for detecting atomic testing."
+
+mission "FW Reconciliation 1B"
+	name "Travel to <planet>"
+	description "Bring Ijs, Sawyer, and Katya to <system>. Destroy any Syndicate ships that are watching you, then land on <planet>. Make sure Raven's ship arrives there as well. You may need to bribe Syndicate worlds to let you refuel."
+
+mission "FW Reconciliation 1C"
+	name "Bring evidence to <planet>"
+	description "Travel to <planet>, without you or Raven being killed by the Syndicate, to present your evidence and Sawyer's confession to Parliament."
+
+mission "FW Reconciliation 2"
+	name "Visit to the Deep"
+	description "One of the representatives from the Deep gave you a note requesting that you visit them on <destination>. Travel there with Katya, Ijs, Sawyer, and Raven."
+
+mission "FW Reconciliation 2A"
+	name "Oathkeepers on Farpoint"
+	description "Travel to <destination> to meet with the Navy Oathkeepers. Raven's ship will continue to travel with you."
+
+mission "FW Reconciliation 2B"
+	name "Travel to Stormhold"
+	description "Sawyer has named several Syndicate executives who were definitely part of the plot. Travel to the lawless world of Stormhold, where you will be able to purchase information about where those executives live."
+
+mission "FW Reconciliation 2C"
+	name "Return to Farpoint"
+	description "Return to <planet> with information about the whereabouts of certain Syndicate executives. Travel via the back route so that the Syndicate is not alerted to your presence."
+
+mission "FW Defend Farpoint"
+	name "Defend Farpoint"
+	description "Assist the Oathkeepers in defending <planet> from a pirate attack, then land back on the planet."
+
+mission "FW Embassy 1"
+	name "Ambassadors from Earth"
+	description "The Republic has agreed to set up an embassy to the Free Worlds. Travel to Earth to meet the ambassadors and escort them to Free space."
+
+mission "FW Embassy 1B"
+	name "Ambassadors to Bourne"
+	description "Escort this luxury vessel carrying Republic ambassadors to the Free Worlds capital of <destination>."
+
+mission "FW Reconciliation Break"
+	name "Katya and Ijs to <planet>"
+	description "Bring Katya and Ijs to <destination> for a well-deserved sabbatical. Then you will be free to spend some time upgrading your ship while you wait for the Senate to select a team of ambassadors."
+
+mission "FW Reconciliation Break Ends"
+	name "Return to <planet>"
+	description "Rejoin Ijs, Katya, and Alondo on <destination>."
+
+mission "FW Embassy 1C"
+	name "Ambassadors to Earth"
+	description `护送一艘载有自由世界大使的无畏舰前往地球。这艘无畏舰随后将参与你们对辛迪加的联合"警察行动"。`
+
+mission "FW Syndicate Capture 1"
+	name "Raid on Nimbus"
+	description "Travel to <destination> along with ships from the Oathkeepers, the Deep, and the Free Worlds, to capture Alexander Soylent, a Syndicate executive. Do not allow your escorts to be destroyed."
+
+mission "FW Syndicate Capture 1B"
+	name "Escape to <planet>"
+	description "You have captured the Syndicate executive Alexander Soylent. Now, bring him safely to <planet>, where he will face trial."
+
+mission "FW Syndicate Capture 1C"
+	name "Return to <planet>"
+	description "The Syndicate is massing a fleet in the Sol system. Return to <planet> to rendezvous with the Free Worlds fleet in order to be ready to defend Earth if it is attacked."
+
+mission "FW Pug 1"
+	name "What happened to Rand?"
+	description "Try to determine why communications with Rand in the Zeta Aquilae system were cut off."
+
+mission "FW Pug 2"
+	name "Meet with Parliament"
+	description "Travel with Alondo to Earth to meet with Parliament. They are now much more willing to meet with you given how real the Syndicate threat seems."
+
+mission "FW Pug 2A"
+	name "Reason with the Syndicate"
+	description "Travel with Alondo to meet with the Syndicate leaders on Foundry, determine their intentions, and convince them not to completely seal themselves off from human space. Hurry, before they cut the last link."
+
+mission "FW Pug 2B"
+	name "Install a Jump Drive"
+	description "Travel to the Syndicate world of Hephaestus, where the Syndicate Systems personnel have been instructed to install a jump drive on your ship, so that you can investigate the systems that the Pug has cut off."
+
+mission "FW Pug 2C: Hyperdrive"
+	name "Investigate the Pug"
+	description "Travel to the Deneb system to investigate the Pug; if possible, make contact with them and determine what their goals and desires are."
+
+mission "FW Pug 2C: Scram Drive"
+	name "Investigate the Pug"
+	description "Travel to the Deneb system to investigate the Pug; if possible, make contact with them and determine what their goals and desires are."
+
+mission "FW Pug 2C: Jump Drive"
+	name "Investigate the Pug"
+	description "Travel to the Deneb system to investigate the Pug; if possible, make contact with them and determine what their goals and desires are."
+
+mission "FW Pug 3"
+	name "Bring news to Earth"
+	description "Now that you have met with the Pug, travel to Earth and explain the situation to Parliament, and send word to the Free Worlds as well, so you can decide how to respond."
+
+mission "FW Pug 3: Deep"
+	name "Visit the Deep (optional)"
+	description "The Pug hinted that they have helped the people of the Deep in the past. Talk to Edrick, the governor of Valhalla, to see what he knows about the Pug. (This mission is optional.)"
+
+mission "FW Pug 3: Quarg"
+	name "Visit the Quarg (optional)"
+	description "Visit the Quarg on <planet> to see if they know anything about the Pug or are willing to help you fight them. (This mission is optional.)"
+
+mission "FW Pug 3A"
+	name "Gather the fleet"
+	description "Travel to <destination> and requisition two Free Worlds Dreadnoughts to join in the battle against the Pug. (But if you want to visit the Quarg or the Deep, do that first.)"
+
+mission "FW Pug 3B"
+	name "Escort to <planet>"
+	description "Travel to <planet> with two Free Worlds Dreadnoughts that will be joining the fight against the Pug."
+
+mission "FW Pug 3C"
+	name "Escort to Hephaestus"
+	description "Escort the combined Free Worlds and Navy fleet to <destination>, where the Syndicate will fit all the ships with jump drives."
+
+mission "FW Pug 3C (Extra)"
+	name "Escort to Hephaestus"
+	description "Escort the combined Free Worlds and Navy fleet to <destination>, where the Syndicate will fit all the ships with jump drives."
+
+mission "FW Pug 4"
+	name "Liberate <system>"
+	description "Attempt to drive the Pug out of the <system> system, then land on <planet>."
+
+mission "FW Pug 4A"
+	name "Defend Maker"
+	description "Keep the Pug from regaining control of Maker for long enough for Freya to figure out whether it is possible to restore the hyperspace link back to the Markab system."
+
+mission "FW Pug 4B"
+	name "Reflector to Hephaestus"
+	description `弗雷娅发现了一个设备，她相信是一个"引力子反射器"，可以以某种方式安装在<system>星系中，重新建立那里与摩羯座δ星之间的超空间链接。把这个发射器带到<planet>上的辛迪加官员那里。`
+
+mission "FW Pug 4C"
+	name "Return to <system>"
+	description "Return to <destination>, accompanied by your new reinforcement fleet supplied by the Syndicate, and talk with Freya to decide on what your next steps should be now that you have the ability to restore the links to human space."
+
+mission "FW Pug 5"
+	name "Liberate <planet>"
+	description "If you can drive the Pug away from <destination>, you will be able to re-establish the hyperspace link between Altair and the Sol system, and immediately bring in Navy ships as reinforcements."
+
+mission "FW Pug 5A"
+	name "Reflector to <planet>"
+	description `带上这个"引力子反射器"到<planet>并在那里安装好，以便恢复太阳系和牵牛星系之间的超空间链接。`
+
+mission "FW Pug 5B"
+	name "Defend Altair"
+	description "Freya sent you a message that the <system> system is under attack. Return there, accompanied by your new Navy reinforcements, and drive off the Pug."
+
+mission "FW Pug 6"
+	name "Defeat the Pug"
+	description "Now that the Navy has joined you, it is time to take the battle directly to the Pug home system. Once their fleet is eliminated, land on their home world of <planet> to attempt to negotiate for peace."
+
+mission "FW Syndicate Extremists 1"
+	name "Deal with the Syndicate"
+	description "Now that the Pug appear to have been driven off, it's time to get some answers from the Syndicate. Travel with Admiral Danforth back to <destination> for another meeting with the CEO of the Syndicate."
+
+mission "FW Syndicate Extremists 1A"
+	name "Cloaking Device"
+	description "Alastair Korban has agreed to give you a cloaking device that will allow you to evade missile attacks. Travel to Hephaestus, where they will install the device on your ship."
+
+mission "FW Syndicate Extremists 1B"
+	name "Final Battle"
+	description "A fleet of nuclear-armed Syndicate extremists controlled by the Alphas is occupying the <system> system. Travel there and use the cloaking device to draw their fire; the Oathkeeper fleet will be right behind you."
+
+mission "FW Syndicate Extremists 1C"
+	name "Report to Parliament"
+	description "Return to Earth to report to Parliament on the resolution of the conflicts with the Pug and with the Syndicate extremists."

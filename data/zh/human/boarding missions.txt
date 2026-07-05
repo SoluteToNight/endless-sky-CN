@@ -1,0 +1,29 @@
+mission "Asteroid Course"
+	name "Passengers to <planet>"
+	description "Transport the remaining crew of a destroyed ship, <bunks> people that were working on the <origin>, to <destination>."
+
+mission "Dangerous Journey"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Assisting Free Worlds"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Assisting Republic"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Assisting Deep Security"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Assisting Syndicate"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Pirate Mutiny"
+	description "Bring <bunks> ex-pirate crew members to <destination>."
+
+mission "Turn in Tarquin"
+	description "Deliver captain Tarquin to law enforcement on the nearest planet."

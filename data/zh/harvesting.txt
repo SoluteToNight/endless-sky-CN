@@ -1,0 +1,47 @@
+outfit "Aluminum"
+	description "铝质轻且防锈，常用于不需要承受持续武器火力的民用飞船船体。"
+
+outfit "Copper"
+	description "纯铜因其高导热性和导电性而备受重视，但也少量用于各种合金中。"
+
+outfit "Gold"
+	description "黄金因其高导电性而实用，因其美丽和奢侈地位而备受珍视，总能找到高价市场。"
+
+outfit "Iron"
+	description "尽管铁是最常见的金属之一，但它也是最有用的金属之一。"
+
+outfit "Lead"
+	description "作为密度最高的非放射性元素之一，铅自火器发明以来一直是子弹的首选材料。其其他用途因防止铅中毒的规定而受到限制。"
+
+outfit "Neodymium"
+	description "钕是最丰富的稀土元素之一，用于制造用于引擎和发电机的高磁性合金。"
+
+outfit "Platinum"
+	description "铂金与黄金一样稀有且更有价值，因其在高温加热时仍能抗氧化而有许多工业用途。"
+
+outfit "Silicon"
+	description "纯硅用于电子和半导体。它是一种非常常见的元素，易于采集。"
+
+outfit "Silver"
+	description "白银虽然不如黄金昂贵，但不仅用于珠宝，还用于电子、消毒剂、高质量镜子和作为化学催化剂。"
+
+outfit "Titanium"
+	description "钛强度高、重量轻且耐腐蚀，是用于星舰船体和结构件的主要金属之一。"
+
+outfit "Tungsten"
+	description "钨因其高熔点和强度而有许多工业用途。"
+
+outfit "Uranium"
+	description "铀最为人所知的是其在为大型星舰提供动力的核反应堆中的用途。其最稳定的同位素U-238也用于超强船体装甲和穿甲弹。"
+
+outfit "Yottrite"
+	description "一种极其罕见的晶体结构，在超新星遗迹周围的分子云中历经数万年形成。尽管较低等的物种可能能够采集它，但除了夸克族之外，很少有文明拥有将约特里特融入合金所需的技术。"
+
+outfit "Void Orchid"
+	description "「虚空兰花」是对主要生活在小行星上的各种奇异植物状生物的通称。由于它们浓缩宿主小行星中矿物质的方式，它们既被视为科学奇物，也因其矿物含量而备受珍视。"
+
+outfit "Voidfish"
+	description "这些是以一种或许不太常规的方式采集的众多虚空鱼类物种的集合。尽管被瞬间煮沸又冷冻干燥，它们出奇地美味，且同样有营养。"
+
+outfit "Integral Wood"
+	description "	有人甚至声称它是制造木质星舰的首选材料，尽管这个想法听起来很荒谬。"

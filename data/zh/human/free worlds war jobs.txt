@@ -1,0 +1,115 @@
+mission "FW Scout Run [0]"
+	name `侦察任务`
+	description `飞越<waypoints>星系并侦察海军的活动情况，然后在<date>之前返回<destination>，届时你飞船的扫描记录将被分析。报酬为<payment>。`
+
+mission "FW Scout Run [1]"
+	name `侦察任务`
+	description `飞越<waypoints>星系并侦察海军的活动情况，然后在<date>之前返回<destination>，届时你飞船的扫描记录将被分析。报酬为<payment>。`
+
+mission "FW Scout Run [2]"
+	name `侦察任务`
+	description `飞越<waypoints>星系并侦察海军的活动情况，然后在<date>之前返回<destination>，届时你飞船的扫描记录将被分析。报酬为<payment>。`
+
+mission "FW Convoy Defense [0]"
+	name `护航到<planet>`
+	description `<planet>的船厂急需更多建造战舰的补给。立即护送一支运输船队前往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Convoy Defense [1]"
+	name `护航到<planet>`
+	description `<planet>的船厂急需更多建造战舰的补给。立即护送一支运输船队前往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Convoy Defense [2]"
+	name `护航到<planet>`
+	description `<planet>的船厂急需更多建造战舰的补给。立即护送一支运输船队前往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Reinforcements [0]"
+	name `增援<planet>`
+	description `这<bunks>名自由世界士兵需要立即转运到<destination>，<date>前到达，以增援前线。报酬为<payment>。`
+
+mission "FW Reinforcements [1]"
+	name `增援<planet>`
+	description `这<bunks>名自由世界士兵需要立即转运到<destination>，<date>前到达，以增援前线。报酬为<payment>。`
+
+mission "FW Outfitter Resupply [0]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Outfitter Resupply [1]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Outfitter Resupply [2]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Outfitter Resupply [0]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Outfitter Resupply [1]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Outfitter Resupply [2]"
+	name `补给<planet>`
+	description `<planet>的装备商库存不足，需要立即补充。将<tons>吨拆解的<commodity>送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Frontline Resupply [0]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Frontline Resupply [1]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Frontline Resupply [2]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Frontline Resupply [3]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Frontline Resupply [0]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Frontline Resupply [1]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Frontline Resupply [2]"
+	name `补给<planet>`
+	description `战争前线急需补给。立即运送<cargo>到<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Care Package to Republic [0]"
+	name `关怀包裹到<planet>`
+	description `一位自由世界公民担心在共和国的家人。立即将<cargo>的关怀包裹送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Care Package to Republic [1]"
+	name `关怀包裹到<planet>`
+	description `一位自由世界公民担心在共和国的家人。立即将<cargo>的关怀包裹送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Care Package from Republic [0]"
+	name `关怀包裹到<planet>`
+	description `一位共和国公民担心在自由世界的家人。立即将<cargo>的关怀包裹送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Care Package from Republic [1]"
+	name `关怀包裹到<planet>`
+	description `一位共和国公民担心在自由世界的家人。立即将<cargo>的关怀包裹送往<destination>，<date>前到达。报酬为<payment>。`
+
+mission "FW Refugees [0]"
+	name `难民到<planet>`
+	description `这<bunks>名乘客希望逃离战争前线，立即前往<destination>定居，<date>前到达。报酬为<payment>。`
+
+mission "FW Refugees [1]"
+	name `难民到<planet>`
+	description `这<bunks>名乘客希望逃离战争前线，立即前往<destination>定居，<date>前到达。报酬为<payment>。`
+
+mission "FW Refugees [2]"
+	name `难民到<planet>`
+	description `这<bunks>名乘客希望逃离战争前线，立即前往<destination>定居，<date>前到达。报酬为<payment>。`
+
+mission "FW Bulk Refugees [0]"
+	name `难民到<planet>`
+	description `这<bunks>名乘客希望逃离战争前线，立即前往<destination>定居，<date>前到达。报酬为<payment>。`

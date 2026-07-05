@@ -1,0 +1,26 @@
+outfit "Drak Distancer"
+	description "这是一种可以向任意方向产生推力的推进器，使德拉克舰船能够与目标保持安全距离。"
+
+outfit "Drak Draining Field"
+	description "这种装置是执政官的主要防御工具：它不仅能扰乱其范围内所有敌对舰船的护盾和能量供应，还能施加强大的排斥力，阻止敌舰接近执政官。"
+
+outfit "Drak Draining Field (Augmented)"
+	description "\t虽然通常维持在最低强度，但执政官已展现出在面临严重威胁时将力场大幅增强的能力。"
+
+outfit "Drak Anti-Missile Field"
+	description "这种装置能产生一个力场，摧毁任何进入其范围内的导弹。"
+
+outfit "Drak Anti-Missile Field (Augmented)"
+	description "\t这种水平的反导弹效能仅在应对最强大的威胁时才需要。"
+
+outfit "Drak Turret"
+	description "这是一种基于炮塔的火炮，拥有显著的射程和精度。"
+
+outfit "Drak Turret (Augmented)"
+	description "\t面对大多数威胁时，执政官将其武器设定在极低水平应对。然而，当情况需要时，它们完全有能力造成大得多的伤害。"
+
+outfit "Drak Antimatter Cannon"
+	description "这是执政官在年轻种族面前不屑于使用的最强大武器。"
+
+outfit "Drak Antimatter Cannon (Augmented)"
+	description "这是执政官在年轻种族面前不屑于使用的最强大武器。由于执政官极少被逼到需要发挥超出最低能力的境地，反物质炮所能造成的伤害远超最初的认知。"

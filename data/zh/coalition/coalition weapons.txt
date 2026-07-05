@@ -1,0 +1,32 @@
+outfit "Bombardment Cannon"
+	description `轰击炮是在与夸克族最初的战争中设计的，目的是让太阳执政官民用舰船有一种从安全距离打击夸克族军舰的方式。但现在，如同他们所有的武器，其使用仅限于太阳执政官军舰。`
+
+outfit "Bombardment Turret"
+	description `轰击炮塔并非太阳执政官最危险的武器之一，但它的优势在于可以击中相当远距离的目标。`
+
+outfit "Finisher Pod"
+	description "	此武器的弹药可在任何装备站补给。"
+
+outfit "Finisher Maegrolain"
+	description "	此武器的弹药可在任何装备站补给。"
+
+outfit "Finisher Storage Tube"
+	description "为了让太阳执政官舰船能够安装更多终结者存储管，太阳执政官工程师在每个模块中集成了一个小型电池组。这使得太阳执政官舰船在拥有可观的能量容量的同时，还能携带可怕数量的终结者鱼雷。"
+
+outfit "Finisher Torpedo"
+	description `	这种极其强大但也昂贵的导弹是太阳执政官终结者发射舱的弹药。`
+
+outfit "Heliarch Attractor"
+	description "在与夸克族作战时，太阳执政官了解到夸克族不会参与他们舰船可能无法逃脱的战斗。作为回应，他们专注于制造能使舰船无法停下来激活跳跃引擎的武器。"
+
+outfit "Heliarch Repulsor"
+	description "这种光束炮塔允许太阳执政官舰船将敌人保持在足够远的距离，使其无法使用短程武器。"
+
+outfit "Ion Hail Turret"
+	description "太阳执政官不是简单地将离子雨炮安装在炮塔底座上，而是调整了射击周期，使每次射击显著更有效且总体射程有所增加，但代价是有一个冷却装弹周期。"
+
+outfit "Ion Rain Gun"
+	description "太阳执政官舰船主要作为警察部队使用。这种武器旨在压制目标的攻击能力，直到更多太阳执政官舰船加入战斗。"
+
+outfit "MCS Extractor"
+	description `	这种采集器特别受到希望偿还购船贷款的新手飞行员欢迎，数千年来一直是联盟采矿业的可靠工具。`

@@ -1,0 +1,47 @@
+mission "Historical field trip to <planet>"
+	description `这些<bunks>名学生需要在<date>前抵达<destination>参加历史实地考察。学校将支付你<payment>。`
+
+mission "To Earth Day celebration [0]"
+	name `地球日庆典`
+	description `在<date>前将<fare>送到<destination>，参加4月22日的地球日庆典。报酬为<payment>。`
+
+mission "To Earth Day celebration [1]"
+	name `地球日庆典`
+	description `在<date>前将<cargo>运送到<destination>，为4月22日的地球日庆典做准备。报酬为<payment>。`
+
+mission "To Earth Day celebration [2]"
+	name `地球日庆典`
+	description `在<date>前将<fare>送到<destination>，参加4月22日的地球日庆典。报酬为<payment>。`
+
+mission "From Earth Day celebration [0]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
+
+mission "From Earth Day celebration [1]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
+
+mission "From Earth Day celebration [2]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
+
+mission "Transport farmers to Mars"
+	description "This group of <bunks> factory workers are hoping to start anew on <planet> as farmers. They will pay you <payment> to take them there."
+
+mission "Transport tourists to Luna"
+	description "This family of <bunks> would like to see the historic sights on Luna. They will pay you <payment> to take them there."
+
+mission "Transport seasonal workers to Earth"
+	description "This group of <bunks> temporary farm workers are looking for transportation back home to Earth. They will pay you <payment> to take them there."
+
+mission "Tycho Crater Shipyards Shipment [0]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
+
+mission "Tycho Crater Shipyards Shipment [1]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
+
+mission "Tycho Crater Shipyards Shipment [2]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."

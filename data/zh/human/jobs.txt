@@ -1,0 +1,639 @@
+mission "Escort (Tiny, Northern, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Tiny, Northern, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Small, Northern, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Small, Northern, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Medium, Northern, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Medium, Northern, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Large, Northern, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Large, Northern, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Extra Large, Northern, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Extra Large, Northern, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Tiny, Core, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Tiny, Core, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Small, Core, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Small, Core, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Medium, Core, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Medium, Core, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Large, Core, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Large, Core, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Extra Large, Core, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Extra Large, Core, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Tiny, Southern, Dangerous Origin or Destination)"
+	name "Escort to <planet>"
+	description "Despite your relative inexperience, the captain of the <npc> is willing to pay you <payment> for an escort through this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Small, Southern, Dangerous Origin or Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Medium, Southern, Dangerous Origin or Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Large, Southern, Dangerous Origin or Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+
+mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely through this dangerous region of space to reach <destination> by <date>."
+
+mission "Southern Pirate Attack"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Northern Pirate Attack"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Core Pirate Attack"
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+
+mission "Raider Attack 1"
+	name "Defend <planet>"
+	description "Defeat an alien raid on <destination>."
+
+mission "Raider Attack 2"
+	name "Defend <planet>"
+	description "Defeat an alien raid on <destination>."
+
+mission "Cargo [0]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Cargo [1]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Cargo [2]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Cargo [3]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Cargo [4]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Cargo [5]"
+	name "Delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Bulk Delivery [0]"
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Bulk Delivery [1]"
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Bulk Delivery [2]"
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Bulk Delivery [3]"
+	name "Bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Rush Delivery [0]"
+	name "Rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Rush Delivery [1]"
+	name "Rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Rush Delivery [2]"
+	name "Rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Rush Delivery [3]"
+	name "Rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Rush Delivery [4]"
+	name "Rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Passengers [0]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to <destination>. Payment is <payment>."
+
+mission "Passengers [1]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to <destination>. Payment is <payment>."
+
+mission "Passengers [2]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to <destination>. Payment is <payment>."
+
+mission "Passengers [3]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to <destination>. Payment is <payment>."
+
+mission "Passengers [4]"
+	name "Passenger transport to <planet>"
+	description "These <bunks> passengers want to escape the pollution and crime on <origin> and settle on <destination>. Payment is <payment>."
+
+mission "Passengers [5]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to <destination>. Payment is <payment>."
+
+mission "Passengers to Quarg [1]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+
+mission "Passengers to Quarg [2]"
+	name "Passenger transport to <planet>"
+	description "Bring <fare> to the Quarg planet of <destination>. Payment is <payment>."
+
+mission "Transport miners to <planet>"
+	description "This family of <bunks> miners is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+
+mission "Transport farmers to <planet>"
+	description "This family of <bunks> farmers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+
+mission "Transport mill workers to <planet>"
+	description "This family of <bunks> mill workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+
+mission "Transport workers to <planet>"
+	description "This family of <bunks> factory workers is hoping to find work on <destination>, and they will pay you <payment> to take them there."
+
+mission "Tourists out [0]"
+	name "Bring a tourist to <planet>"
+	description "This tourist wants to see <destination>, and will pay you <payment>."
+
+mission "Tourists out [1]"
+	name "Bring tourists to <planet>"
+	description "These <bunks> tourists want to see <destination>. They are willing to pay you <payment>."
+
+mission "Wealthy tourists out"
+	name "Bring wealthy tourists to <planet>"
+	description "These <bunks> wealthy tourists want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Wealthy tourist group out [0]"
+	name "Wealthy tourist group to <planet>"
+	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Wealthy tourist group out [1]"
+	name "Wealthy tourist group to <planet>"
+	description "A group of wealthy tourists, consisting of <bunks> members, want to see <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Tourists back [0]"
+	name "Bring a tourist home to <planet>"
+	description "This tourist is headed home to <destination>, and will pay you <payment>."
+
+mission "Tourists back [1]"
+	name "Bring tourists home to <planet>"
+	description "These <bunks> tourists are headed home to <destination>. They are willing to pay you <payment>."
+
+mission "Wealthy tourists back"
+	name "Wealthy tourists home to <planet>"
+	description "These <bunks> wealthy tourists are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Wealthy tourist group back [0]"
+	name "Wealthy tourists home to <planet>"
+	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Wealthy tourist group back [1]"
+	name "Wealthy tourists home to <planet>"
+	description "A group of wealthy tourists, consisting of <bunks> members, are headed home to <destination>, and wish to travel in a luxurious ship for the journey. They are willing to pay you <payment>."
+
+mission "Family [0]"
+	name "Transport family to <planet>"
+	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+
+mission "Family [1]"
+	name "Transport family to <planet>"
+	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+
+mission "Family [2]"
+	name "Transport family to <planet>"
+	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+
+mission "Family [3]"
+	name "Transport family to <planet>"
+	description "This family of <bunks> is relocating to <destination>. They will pay you <payment> to take them there."
+
+mission "Strike Breakers [mining]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+
+mission "Strike Breakers [large mining]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of mine workers who are on strike. The company will pay you <payment>."
+
+mission "Strike Breakers [textile]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+
+mission "Strike Breakers [large textile]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of textile workers who are on strike. The company will pay you <payment>."
+
+mission "Strike Breakers [factory]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+
+mission "Strike Breakers [large factory]"
+	name "Strike breakers to <planet>"
+	description "Bring <bunks> strike breakers to <destination>, to take the place of factory workers who are on strike. The company will pay you <payment>."
+
+mission "Colonists [0]"
+	name "Colonists to <planet>"
+	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+
+mission "Colonists [1]"
+	name "Colonists to <planet>"
+	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+
+mission "Colonists [2]"
+	name "Colonists to <planet>"
+	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+
+mission "Colonists [3]"
+	name "Colonists to <planet>"
+	description "These <bunks> people are hoping to join a colony on <destination>. They will pay you <payment> to take them there."
+
+mission "Stranded Field Trip"
+	name "Stranded field trip to <planet>"
+	description `这<bunks>名学生因预定交通公司意外破产而滞留在实地考察途中。将他们及其<tons>行李送回<destination>的家中，可获得<payment>的报酬。`
+
+mission "Prisoners [0]"
+	name "Prisoner transport to <planet>"
+	description "Bring <bunks> petty criminals to <destination>, where they will serve their sentences as mine laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+
+mission "Prisoners [1]"
+	name "Prisoner transport to <planet>"
+	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as factory laborers. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+
+mission "Prisoners [2]"
+	name "Prisoner transport to <planet>"
+	description "Transport <bunks> petty criminals to <destination>, where they will serve their sentences as domestic servants. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+
+mission "Prisoners [3]"
+	name "Prisoner transport to <planet>"
+	description "Transport <bunks> petty criminals to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+
+mission "Prisoners [4]"
+	name "Prisoner transport to <planet>"
+	description "Transport <bunks> violent felons to a penal colony on <destination>. They must be held in suitable facilities made for the transfer of criminals. Payment is <payment>."
+
+mission "Released Prisoners [0]"
+	name "Parolee transport to <planet>"
+	description "Transport <bunks> prisoners home after completing their sentences of hard labor. Payment is <payment>."
+
+mission "Released Prisoners [1]"
+	name "Parolee transport to <planet>"
+	description "Transport <bunks> prisoners home after completing their sentences as domestic servants. Payment is <payment>."
+
+mission "Released Prisoners [2]"
+	name "Parolee transport to <planet>"
+	description "Transport <bunks> prisoners home after completing their sentences in a penal colony. Payment is <payment>."
+
+mission "Passenger Runoff [0]"
+	name "Passenger transport to <planet>"
+	description "Bring a hooded figure to <destination>. Payment is <payment>."
+
+mission "Passenger Runoff [1]"
+	name "Passenger transport to <planet>"
+	description "Bring a teenager to <destination>. Payment is <payment>."
+
+mission "Passenger Runoff With Payment [0]"
+	name "Passenger transport to <planet>"
+	description "Bring a hooded figure to <destination>. Payment is <payment>."
+
+mission "Passenger Runoff With Payment [1]"
+	name "Passenger transport to <planet>"
+	description "Bring a teenager to <destination>. Payment is <payment>."
+
+mission "Large Bulk Delivery [0]"
+	name "Large bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Large Bulk Delivery [1]"
+	name "Large bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Large Bulk Delivery [2]"
+	name "Large bulk delivery to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+
+mission "Large Rush Delivery [0]"
+	name "Large rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Large Rush Delivery [1]"
+	name "Large rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Large Rush Delivery [2]"
+	name "Large rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Large Rush Delivery [3]"
+	name "Large rush delivery to <planet>"
+	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
+
+mission "Recycle garbage"
+	name "Recycle garbage"
+	description "<origin> produces a lot of garbage that needs to be disposed of off-station. Transport <cargo> to the industrial solid waste recycler on <destination>. Payment is <payment>."
+
+mission "FW Wildfire Aid [1]"
+	name "Wildfire aid to <planet>"
+	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Bring <cargo> to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+
+mission "FW Wildfire Aid [2]"
+	name "Firefighters to <planet>"
+	description "A major <problem> has occurred on <destination> and various settlements on the planet have been affected. Transport a team of <bunks> firefighters to <planet> by <date> to assist in the firefighting efforts. Payment is <payment>."
+
+mission "FW Cold Aid [1]"
+	name "Cold relief to <planet>"
+	description `<destination>发生了一场严重的<problem>，星球上的多个定居点都受到了影响。请在<date>之前运送<cargo>到<planet>以协助恢复工作。报酬为<payment>。`
+
+mission "FW Cold Aid [2]"
+	name "Cold relief to <planet>"
+	description `<destination>发生了一场严重的<problem>，星球上的多个定居点都受到了影响。请在<date>之前运送<cargo>到<planet>以协助恢复工作。报酬为<payment>。`
+
+mission "Bounty Hunting (Very Tiny)"
+	name "Wanted fighter near <system>"
+	description "A small pirate fighter named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Very Tiny, Local)"
+	name "Wanted fighter entering <system>"
+	description "A small pirate fighter named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Tiny)"
+	name "Wanted interceptor near <system>"
+	description "A well armed pirate interceptor named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Tiny, Local)"
+	name "Wanted interceptor entering <system>"
+	description "A well armed pirate interceptor named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Very Small)"
+	name "Wanted small pirate near <system>"
+	description "A small pirate ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Very Small, Local)"
+	name "Wanted small pirate entering <system>"
+	description "A small pirate ship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Small)"
+	name "Wanted light warship near <system>"
+	description "A light pirate warship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Small, Local)"
+	name "Wanted light warship entering <system>"
+	description "A light pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Medium)"
+	name "Wanted medium warship near <system>"
+	description "A medium pirate warship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Medium, Local)"
+	name "Wanted medium warship entering <system>"
+	description "A medium pirate warship named the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Big)"
+	name "Wanted heavy warship near <system>"
+	description "A heavy warship known as the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Big, Local)"
+	name "Wanted heavy warship entering <system>"
+	description "A heavy warship known as the <npc> has been attacking merchants in nearby star systems, and is reportedly entering this system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Small, Hidden)"
+	name "Disguised light warship near <system>"
+	description "A light pirate warship named the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Medium, Hidden)"
+	name "Disguised medium warship near <system>"
+	description "A medium pirate warship named the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Big, Hidden)"
+	name "Disguised heavy warship near <system>"
+	description "A heavy warship known as the <npc> is posing as a merchant ship within a jump of the <system> system. Find a merchant ship with a matching name and destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Small, Boarding, Entering)"
+	name "Stolen ship near <system>"
+	description "A wanted criminal is fleeing in a stolen ship, the <npc>, which is about to enter this system. Board the ship and detain the criminal in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+
+mission "Bounty Hunting (Medium, Boarding, Entering)"
+	name "Stolen warship near <system>"
+	description "Several wanted criminals are fleeing in a stolen warship, the <npc>, which is about to enter this system. Board the ship and detain the criminals in a brig, then bring them to <destination> by <date>. Reward for capture: <payment>."
+
+mission "Bounty Hunting (Solo Marauder I)"
+	name "Marauder interceptor near <system>"
+	description "A Marauder interceptor named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Solo Marauder II)"
+	name "Small Marauder near <system>"
+	description "A small Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Solo Marauder III)"
+	name "Marauder near <system>"
+	description "A Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Solo Marauder IV)"
+	name "Large Marauder near <system>"
+	description "A large Marauder ship named the <npc> has been attacking merchants near the <system> system. Destroy it by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder I)"
+	name "Small Marauders near <system>"
+	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder II)"
+	name "Small Marauders near <system>"
+	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder III)"
+	name "Small Marauders near <system>"
+	description "A fleet of small Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder IV)"
+	name "Marauders near <system>"
+	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder V)"
+	name "Marauders near <system>"
+	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder VI)"
+	name "Marauders near <system>"
+	description "A fleet of Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder VII)"
+	name "Large Marauders near <system>"
+	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder VIII)"
+	name "Large Marauders near <system>"
+	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder IX)"
+	name "Large Marauders near <system>"
+	description "A fleet of large Marauder ships, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet by <day> for payment (<payment>)."
+
+mission "Bounty Hunting (Marauder X)"
+	name "Infamous Marauders near <system>"
+	description "The legendary <npc> and its accompanying fleet have been terrorizing merchants and law enforcement in this region of space. Destroy the whole fleet for payment (<payment>). Be warned that the <npc> is known to ambush those attempting to hunt them."
+
+mission "Republic Navy Advisory System [frozen]"
+	name "Cold relief to <planet>"
+	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe cold snap. Payment is <payment>."
+
+mission "Republic Navy Advisory System [volcanic]"
+	name "Volcanic relief to <planet>"
+	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe volcanic eruption. Payment is <payment>."
+
+mission "Republic Navy Advisory System [wildfire cargo]"
+	name "Wildfire relief to <planet>"
+	description "Deliver humanitarian aid of <cargo> to <destination> by <date> following a severe wildfire. Payment is <payment>."
+
+mission "Republic Navy Advisory System [wildfire firefighters]"
+	name "Transport Firefighters"
+	description "Transport <bunks> firefighters to <planet> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Silicon)"
+	name "Harvested silicon to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Lead)"
+	name "Harvested lead to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Iron)"
+	name "Harvested iron to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Aluminum)"
+	name "Harvested aluminum to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Titanium)"
+	name "Harvested titanium to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Copper)"
+	name "Harvested copper to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Neodymium)"
+	name "Harvested neodymium to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Tungsten)"
+	name "Harvested tungsten to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Uranium)"
+	name "Harvested uranium to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Silver)"
+	name "Harvested silver to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Gold)"
+	name "Harvested gold to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Mineral Shortages (Platinum)"
+	name "Harvested platinum to <planet>"
+	description "Factories on <planet> are suffering from a mineral shortage. Harvest <amount> tons of <mineral> and return to <destination> by <date>. Payment is <payment>."
+
+mission "Student transport"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination> by <date> to study at one of <planet>'s universities. They will pay you <payment>."
+
+mission "Rich student transport"
+	name "Transport wealthy student to <planet>"
+	description "This rich student needs transport to <destination> by <date> to study at one of <planet>'s high-end universities. They will pay you <payment>."
+
+mission "Student field research (farming)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+
+mission "Student field research (mining / oil)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+
+mission "Student field research (forest)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+
+mission "Student field research (urban / factory)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+
+mission "Student field research (fishing)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."
+
+mission "Student field research (volcanic)"
+	name "Transport student to <planet>"
+	description "This student needs transport to <destination>, where they will perform field research on the <student research> <planet>. They will pay you <payment>."

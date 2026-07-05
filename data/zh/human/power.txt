@@ -1,0 +1,65 @@
+outfit "Supercapacitor"
+	description "有了足够强大的发电机，许多飞船根本不需要电池。唯一的例外是弹射武器，它们通常需要的瞬时能量远超发电机的输出。超级电容器刚好提供足够的能量储备用于这些武器，而无需安装笨重的电池组。"
+
+outfit "LP036a Battery Pack"
+	description "如果飞船发电机瞬时输出功率高于系统总能量消耗，飞船可以不用电池运行，但电池可以在能量不被需要时储存能量，从而使用一个更小更便宜的发电机。"
+
+outfit "LP072a Battery Pack"
+	description "这种电池组的能量容量是最基本型号的两倍多，使你的飞船可以在战斗中持续更长时间而不会耗能量。有些飞行员甚至以安装电池代替任何发电机，相信他们能在电池耗完之前到达目的地星球并重新充电，但这是个冒险的做法。"
+
+outfit "LP144a Battery Pack"
+	description "这种中等尺寸的电池组适用于需要偶尔发射一轮高功率武器齐射而不耗尽能量的飞船。和所有电池组一样，如果战斗持续时间长到电池耗尽，依赖电池是有风险的。"
+
+outfit "LP288a Battery Pack"
+	description "这是一种大型电池组，专为偶尔有高功率需求但不想承担更强大舰船发电机所带来的费用或热量的飞船设计。"
+
+outfit "LP576a Battery Pack"
+	description "对于大多数需要如此多功率的飞船来说，更大的发电机比这种尺寸的电池更有意义。然而，电池组的优势在于它们不产生热量，因此如果一些船长不期望频繁或长时间参战，他们会选择使用它们而非强大的发电机。"
+
+outfit "KP-6 Photovoltaic Panel"
+	description "这种早期的商业光伏系统是人类第一个星际贸易网络的推动力。坚固且模块化，它可以螺栓固定在任何飞船的外壳上，并已见证了人类星域最偏远的角落。"
+
+outfit "KP-6 Photovoltaic Array"
+	description "KP-6 紧凑的模块化特性使其非常适合创建更大的太阳能收集阵列。这款原始 Korunak Photovoltaics 型号配备了太阳跟踪器，能更好地利用可用光能。"
+
+outfit "nGVF-AA Fuel Cell"
+	description "自太空时代开始以来，燃料电池一直是最便宜最常见的星舰电源。这种型号仅产生足够非常小型或缓慢飞船使用的功率。"
+
+outfit "nGVF-BB Fuel Cell"
+	description "这是比最小型燃料电池更高一级的型号，除了为引擎供电外，还能为几门小型枪炮提供足够的能量。"
+
+outfit "nGVF-CC Fuel Cell"
+	description "这是一种中等尺寸的燃料电池，设计用于满足较大型民用飞船和小型战舰的需求，同时比更先进的发电机选项更实惠。"
+
+outfit "nGVF-DD Fuel Cell"
+	description "这是一种相对较大的燃料电池。市面上有能产生更多能量并安装在更小空间中的其他发电机，但它们要贵得多。因此，不经常参战的大型民用飞船通常配备这些燃料电池。"
+
+outfit "nGVF-EE Fuel Cell"
+	description "这是目前最大型的燃料电池，比一些核反应堆还大，但价格要便宜得多。许多预算紧张的船长愿意忍受其中一个，直到他们筹集到资金购买更高效的选择。"
+
+outfit "RT-I Radiothermal"
+	description "放射热发电机从放射性同位素中收集热量并将其转化为电。它们比燃料电池更强大，但也会产生相对较高的热量。"
+
+outfit "S3 Thermionic"
+	description "热离子放射同位素发电机被设计为放射热发电机的一种运行温度更低的替代方案。"
+
+outfit "NT-200 Nucleovoltaic"
+	description "核光伏发电机是一种相对较新的发电机技术，从放射同位素源的衰变中收集能量，并直接将其转化为电。它们是最强大的依赖核衰变而非活性核链式反应的发电机。"
+
+outfit "Dwarf Core"
+	description "矮星核心是一种小型化核反应堆，小到可以安装在除战斗机以外的任何飞船上。它由深渊设计，用于搭配他们高能耗的原子引擎。"
+
+outfit "Fission Reactor"
+	description "裂变反应堆即使在太空时代开始之前就已是大型军事舰船的中坚力量。如今的型号非常安全高效，但一些飞行员仍然对它们感到不安。"
+
+outfit "Breeder Reactor"
+	description "增殖反应堆是一种效率更高的裂变反应堆，它捕获反应堆产生的一些中子辐射，并用于富集更多燃料。当然，它们也因此更大、更贵。"
+
+outfit "Fusion Reactor"
+	description "21世纪末期实用聚变能源的发明推动了繁荣富足的新时代。几个世纪后，这些发电机已被缩小，但仍然通常仅用于主力战舰。"
+
+outfit "Armageddon Core"
+	description "末日核心是为了满足共和国海军最大型战舰的极端功率需求而设计的。其中一个发电机的成本超过一整支较小的舰队。"
+
+outfit "Stack Core"
+	description "堆栈核心由自由世界创建，主要用作他们无畏舰的电源。它是一种裂变反应堆，因此效率低于海军的聚变技术，但生产成本也显著更低。"

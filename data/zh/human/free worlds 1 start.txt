@@ -1,0 +1,130 @@
+mission "Liberate Kornephoros"
+	description "Travel with the Free Worlds militia to the <system> system and drive off the Navy fleet that is occupying the system."
+
+mission "FW Prisoner Parole"
+	name "Prisoner Parole"
+	description "Escort a fleet of transports carrying prisoners of war to <planet>. The temporary ceasefire will end on <date>."
+
+mission "FW Prisoner Parole 2"
+	name "Prisoner Parole"
+	description "Return to Deep before the cease-fire ends."
+
+mission "FW Syndicate Diplomacy 1"
+	name "Syndicate Diplomacy"
+	description "Transport Alondo Gruyere to the Syndicate headquarters on <planet>."
+
+mission "FW Syndicate Diplomacy 1B"
+	name "Tarazed Diplomacy"
+	description "Transport Alondo Gruyere to <planet> to negotiate with Tarazed Corporation."
+
+mission "FW Syndicate Diplomacy 1C"
+	name "Poisonwood Diplomacy"
+	description "Travel to <planet> with Alondo Gruyere, to make one final diplomatic visit."
+
+mission "FW Syndicate Diplomacy 1D"
+	name "Return to <planet>"
+	description "Return to <planet> with Alondo, to report on the outcome of your diplomatic mission."
+
+mission "FW Hope Recon 1"
+	name "Early Warning Systems"
+	description "Land on the abandoned planet <destination> and place sensors there to monitor Navy fleet activity in the system."
+
+mission "FW Hope Recon 1B"
+	name "Early Warning Systems"
+	description "Report back to Freya on <planet>."
+
+mission "FW Hope Recon 1D"
+	name "Destroy Sensors"
+	description "Travel back to <destination> and destroy any Republic sensors you find there."
+
+mission "FW Plasma Testing 1"
+	name "Weapons Testing"
+	description "Report to <destination> to assist in some experimental weapons testing."
+
+mission "FW Plasma Testing 1B"
+	name "Weapons Testing"
+	description "As a test for the new Plasma Turret, assist the Walloping Window-Blind in destroying the Red Nile, a pirate ship that is probably in the <marks> system. Then return to <planet>."
+
+mission "FW Supply Convoy 1"
+	name "Escort Supply Convoy"
+	description "Escort this convoy carrying equipment from Kraz Cybernetics to the militia base on <destination>."
+
+mission "FW Pirates 1"
+	name "Pirate Reconnaissance"
+	description "Scout out four pirate systems on the southern fringe of human space, then report back to Tomek on <planet>."
+
+mission "FW Senate 1"
+	name "Senator Huygens"
+	description "Meet Senator Arianna Huygens on <planet>, and transport her to the new Free Worlds Senate building on Bourne."
+
+mission "FW Senate 1B"
+	name "Senator Huygens"
+	description "Transport Senator Arianna Huygens to <destination>."
+
+mission "FW Pirates 2"
+	name "Southern Patrol"
+	description "Lead a patrol through the Free Worlds systems on the Southern Rim, driving off any pirates you encounter, then meet up with Tomek on <destination>."
+
+mission "FW Pirates Patch"
+	name "Return to <planet>"
+	description "Return to <destination> to continue your work with the Free Worlds."
+
+mission "FW Pirates: Attack 1"
+	name "Attack Greenrock"
+	description "Disobeying the Senate's orders, head to <destination> and gather a Free Worlds fleet for an all-out attack on the pirate world of Greenrock."
+
+mission "FW Pirates: Attack 2"
+	name "Attack Greenrock"
+	description "Disobeying the Senate's orders, launch an all-out attack on the pirate world of <destination>, then land there."
+
+mission "FW Pirates: Attack 3"
+	name "Early Warning"
+	description "The early warning systems you installed on Hope have detected a heightened Navy presence. Travel to <destination> to defend against the potential Navy assault. Any punishment for the invasion of Greenrock will come later."
+
+mission "FW Pirates: Diplomacy 1"
+	name "Pirate Diplomacy"
+	description "Following the Senate's orders, travel to <destination> and negotiate with the ruling authorities. Don't fight pirates if you don't have to, and don't let your escort be destroyed."
+
+mission "FW Pirates: Diplomacy 2"
+	name "Defend Thule"
+	description "Destroy the pirate fleet that is attacking the spaceport on Thule. Free Worlds reinforcements ought to be on their way."
+
+mission "FW Pirates: Diplomacy 3"
+	name "Return to Longjump"
+	description "Escort the newly repaired F.S. Terebinth back to the Free Worlds base on <destination>."
+
+mission "FW Pirates: Diplomacy 4"
+	name "Early Warning"
+	description "The early warning systems you installed on Hope have detected a heightened Navy presence. Travel to <destination> to defend against the potential Navy assault. Any punishment for the invasion of Greenrock will come later."
+
+mission "FW Early Warning 1"
+	name "Early Warning"
+	description "The Navy looks as though they're preparing for an attack. Scout the <waypoints> systems just north of Free Worlds space to determine the strength of the Navy there."
+
+mission "FW Early Warning 2"
+	name "Seeking Harmony"
+	description "<planet> has become an unofficial ceasefire zone for the Navy and Free Worlds patrols in the eastern Dirt Belt. Bring JJ there to attempt to negotiate with the Navy to prevent an attack."
+
+mission "FW Early Warning 3"
+	name "Harmony Lost"
+	description "The peace talks with the Navy have broken down. Another battle seems inevitable. Return to <destination> with JJ to prepare."
+
+mission "FW Early Warning 4"
+	name "Preemptive Strike"
+	description "Meet the Navy ships for battle in <system>, attacking them before they can enter Free Worlds space. Once all the ships have been destroyed, land on <planet>."
+
+mission "FW Early Warning 5"
+	name "Return to <planet>"
+	description "With the battle won, return to <destination> to report to Freya."
+
+mission "FW Senate Hearing"
+	name "Senate Hearing"
+	description "Report to <destination> for a Senate hearing on your recent failure to obey their orders. If you do not arrive by <date>, your service will be terminated."
+
+mission "FW Refinery 1"
+	name "Smuggler's Den Repairs"
+	description "Travel to <planet> and pick up a shipment of equipment from the Syndicate for repairing the refinery on Smuggler's Den."
+
+mission "FW Refinery 1A"
+	name "<planet> Repairs"
+	description "Bring a shipment of special refinery equipment to <destination>."

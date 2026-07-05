@@ -1,0 +1,322 @@
+mission "Cargo Smuggling [0]"
+	name "Smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Cargo Smuggling [1]"
+	name "Smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Cargo Smuggling [2]"
+	name "Smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Cargo Smuggling [3]"
+	name "Smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Drug Running [0]"
+	name "Drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Drug Running [1]"
+	name "Drug run to <planet>"
+	description "Run <cargo> to <destination>. If law enforcement catches you, you will be fined 46,000 credits. Payment is <payment>."
+
+mission "Drug Running [2]"
+	name "Drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Drug Running [3]"
+	name "Drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Cargo Smuggling [0]"
+	name "Bulk smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Cargo Smuggling [1]"
+	name "Bulk smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Cargo Smuggling [2]"
+	name "Bulk smuggling to <planet>"
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Drug Running [0]"
+	name "Bulk drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Drug Running [1]"
+	name "Bulk drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Bulk Drug Running [2]"
+	name "Bulk drug run to <planet>"
+	description "Run <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (North) [0]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (North) [1]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (Core) [0]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (Core) [1]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (South) [0]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Cargo Smuggling (South) [1]"
+	name "Highly illegal cargo to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. You will need to land away from the spaceport or else you may get caught. Payment is <payment>."
+
+mission "Stealth Drug Running (North) [0]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Drug Running (North) [1]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Drug Running (Core) [0]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Drug Running (Core) [1]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Drug Running (South) [0]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Stealth Drug Running (South) [1]"
+	name "Highly illegal drugs to <planet>"
+	description "Run <cargo> to <destination>. If you are scanned or caught by planetary law enforcement, the consequences may be severe. Payment is <payment>."
+
+mission "Wanted Passenger [0]"
+	name "Wanted individual to <planet>"
+	description "This wanted individual wishes to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+
+mission "Wanted Passengers [1]"
+	name "Wanted individuals to <planet>"
+	description "These <bunks> wanted individuals wish to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+
+mission "Wanted Passengers [2]"
+	name "Wanted individuals to <planet>"
+	description "These <bunks> wanted individuals wish to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+
+mission "Wanted Passengers [3]"
+	name "Wanted individuals to <planet>"
+	description "These <bunks> wanted individuals wish to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+
+mission "Highly Wanted Passenger (North)"
+	name "Galactic criminal to <planet>"
+	description "This criminal is wanted by every law enforcement agency in the galaxy and needs safe transport to <destination> with their <cargo>. The payment is high at an amazing <payment>, but transporting such a person could lead to a lot of trouble."
+
+mission "Highly Wanted Passenger (Core)"
+	name "Galactic criminal to <planet>"
+	description "This criminal is wanted by every law enforcement agency in the galaxy and needs safe transport to <destination> with their <cargo>. The payment is high at an amazing <payment>, but transporting such a person could lead to a lot of trouble."
+
+mission "Highly Wanted Passenger (South)"
+	name "Galactic criminal to <planet>"
+	description "This criminal is wanted by every law enforcement agency in the galaxy and needs safe transport to <destination> with their <cargo>. The payment is high at an amazing <payment>, but transporting such a person could lead to a lot of trouble."
+
+mission "Slave Transport [0]"
+	name "Transfer slaves to <planet>"
+	description "A pirate on <planet> has bought slaves from a local warlord. Transfer these <bunks> slaves in secure cells to <destination> for <payment>. Slavery is punishable by death throughout the galaxy, so this may be a dangerous job to take."
+
+mission "Slave Transport [1]"
+	name "Transfer slaves to <planet>"
+	description "A pirate on <planet> has bought slaves from a local warlord. Transfer these <bunks> slaves in secure cells to <destination> for <payment>. Slavery is punishable by death throughout the galaxy, so this may be a dangerous job to take."
+
+mission "Slave Transport [2]"
+	name "Transfer slaves to <planet>"
+	description "A pirate on <planet> has bought slaves from a local warlord. Transfer these <bunks> slaves in secure cells to <destination> for <payment>. Slavery is punishable by death throughout the galaxy, so this may be a dangerous job to take."
+
+mission "Bulk Slave Transport [0]"
+	name "Transfer slaves to <planet>"
+	description "A pirate on <planet> has bought slaves from a local warlord. Transfer these <bunks> slaves in secure cells to <destination> for <payment>. Slavery is punishable by death throughout the galaxy, so this may be a dangerous job to take."
+
+mission "Bulk Slave Transport [1]"
+	name "Transfer slaves to <planet>"
+	description "A pirate on <planet> has bought slaves from a local warlord. Transfer these <bunks> slaves in secure cells to <destination> for <payment>. Slavery is punishable by death throughout the galaxy, so this may be a dangerous job to take."
+
+mission "Mercenary Job (Medium, North, Dangerous Origin)"
+	name "Protection to <planet>"
+	description "The captain of the <npc> will pay you <payment> to help them escape local law enforcement and reach <destination> by <date>."
+
+mission "Escort Illegal Cargo (Large, North, Dangerous Path)"
+	name "Protect cargo to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their illegal cargo safely through law-enforced space to reach <destination> by <date>."
+
+mission "Escort Stolen Vessel (Extra Large, North, Dangerous Path)"
+	name "Protect ship to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their stolen vessel safely through law-enforced space to reach <destination> by <date>."
+
+mission "Mercenary Job (Medium, Core, Dangerous Origin)"
+	name "Protection to <planet>"
+	description "The captain of the <npc> will pay you <payment> to help them escape local law enforcement and reach <destination> by <date>."
+
+mission "Escort Illegal Cargo (Large, Core, Dangerous Path)"
+	name "Protect cargo to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their illegal cargo safely through law-enforced space to reach <destination> by <date>."
+
+mission "Escort Stolen Vessel (Extra Large, Core, Dangerous Path)"
+	name "Protect ship to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their stolen vessel safely through law-enforced space to reach <destination> by <date>."
+
+mission "Mercenary Job (Medium, South, Dangerous Origin)"
+	name "Protection to <planet>"
+	description "The captain of the <npc> will pay you <payment> to help them escape local law enforcement and reach <destination> by <date>."
+
+mission "Escort Illegal Cargo (Large, South, Dangerous Path)"
+	name "Protect cargo to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their illegal cargo safely through law-enforced space to reach <destination> by <date>."
+
+mission "Escort Stolen Vessel (Extra Large, South, Dangerous Path)"
+	name "Protect ship to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them and their stolen vessel safely through law-enforced space to reach <destination> by <date>."
+
+mission "Eliminating Law Enforcement (North, Small)"
+	name "Navy near <system>"
+	description "A Navy fleet within four jumps of the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Law Enforcement (North, Large)"
+	name "Navy near <system>"
+	description "A large Navy fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Law Enforcement (Core, Small)"
+	name "Syndicate near <system>"
+	description "A Syndicate fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Law Enforcement (Core, Large)"
+	name "Syndicate near <system>"
+	description "A large Syndicate fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Law Enforcement (South, Small)"
+	name "Militia near <system>"
+	description "A militia fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Law Enforcement (South, Large)"
+	name "Militia near <system>"
+	description "A large militia fleet near the <system> system has halted our raids. Destroy them and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (North, Small)"
+	name "Competition near <system>"
+	description "A small rival gang is causing trouble near the <system> system. Take them out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (North, Large)"
+	name "Competition near <system>"
+	description "A large rival gang is gaining too much power. Their leader is currently near the <system> system. Take them and their escorts out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (Core, Small)"
+	name "Competition near <system>"
+	description "A small rival gang is causing trouble near the <system> system. Take them out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (Core, Large)"
+	name "Competition near <system>"
+	description "A large rival gang is gaining too much power. Their leader is currently near the <system> system. Take them and their escorts out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (South, Small)"
+	name "Competition near <system>"
+	description "A small rival gang is causing trouble near the <system> system. Take them out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (South, Large)"
+	name "Competition near <system>"
+	description "A large rival gang is gaining too much power. Their leader is currently near the <system> system. Take them and their escorts out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (Marauders, Small)"
+	name "Competition near <system>"
+	description "A small marauder gang is causing trouble near the <system> system. Take them out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (Marauders, Medium)"
+	name "Competition near <system>"
+	description "A marauder gang is gaining too much power. Their leader is currently near the <system> system. Take them and their escorts out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Eliminating Competition (Marauders, Large)"
+	name "Marauder Elimination"
+	description "The pirates of the <system> system have grown dissatisfied with the actions of the ruling Marauder gang. Take them out and return to <planet> by <day> for a payment of <payment>."
+
+mission "Raid on Merchants (North)"
+	name "Merchants near <system>"
+	description "A merchant fleet has been spotted in Republic space. Join in destroying them and return to <planet> in the <system> system by <day> for a cut of the loot (<payment>)."
+
+mission "Raid on Merchants (Core)"
+	name "Merchants near <system>"
+	description "A merchant fleet has been spotted in Syndicate space. Join in destroying them and return to <planet> in the <system> system by <day> for a cut of the loot (<payment>)."
+
+mission "Raid on Merchants (South)"
+	name "Merchants near <system>"
+	description "A merchant fleet has been spotted in Southern space. Join in destroying them and return to <planet> in the <system> system by <day> for a cut of the loot (<payment>)."
+
+mission "Northern Pirate Defense"
+	name "Defend <planet>"
+	description "Local Navy forces are attacking <destination>! Defeat them to defend anarchy!"
+
+mission "Northern Pirate Defense [Unpaid]"
+	name "Defend <planet>"
+	description "Local Navy forces are attacking <destination>! Defeat them to defend anarchy!"
+
+mission "Core Pirate Defense"
+	name "Defend <planet>"
+	description "Local Syndicate forces are attacking <destination>! Defeat them to defend anarchy!"
+
+mission "Core Pirate Defense [Unpaid]"
+	name "Defend <planet>"
+	description "Local Syndicate forces are attacking <destination>! Defeat them to defend anarchy!"
+
+mission "Southern Pirate Defense"
+	name "Defend <planet>"
+	description "Local militia forces are attacking <destination>! Defeat them to defend anarchy!"
+
+mission "Southern Pirate Defense [Unpaid]"
+	name "Defend <planet>"
+	description "Local militia forces are attacking <destination>! Defeat them to defend anarchy!"
+
+outfit "Secret Cargo"
+	description "Cargo stolen from a merchant ship which has caught the interest of a pirate warlord."
+
+mission "Cargo Theft (North)"
+	name "Convoy near <system>"
+	description `一支商船护航队在共和国空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`
+
+mission "Cargo Theft (Core)"
+	name "Convoy near <system>"
+	description `一支商船护航队在辛迪加空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`
+
+mission "Cargo Theft (South)"
+	name "Convoy near <system>"
+	description `一支商船护航队在南部空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`
+
+mission "FW Assassination [1]"
+	name "Assassinate a political target"
+	description "A Free Worlds politician who is worrying local slave traders was spotted passing through Free Worlds space near the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Free Worlds. Payment is <payment>. Be advised that they may have escorts."
+
+mission "FW Assassination [2]"
+	name "Assassinate a political target"
+	description "A Free Worlds politician who angered a pirate warlord was spotted passing through Free Worlds space near the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Free Worlds. Payment is <payment>. Be advised that they may be heavily defended."
+
+mission "Syndicate Assassination [1]"
+	name "Assassinate a political target"
+	description "A Syndicate politician was spotted passing through Syndicate space near the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Syndicate. Payment is <payment>. Be advised that they may have escorts."
+
+mission "Syndicate Assassination [2]"
+	name "Assassinate a political target"
+	description "A Syndicate politician with plans that worry local pirate gangs was spotted passing through Syndicate spacenear the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Syndicate. Payment is <payment>. Be advised that they may be heavily defended."
+
+mission "Republic Assassination [1]"
+	name "Assassinate a political target"
+	description "A Republic politician who is worrying local pirate gangs was spotted passing through inhabited Republic space near the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Republic. Payment is <payment>. Be advised that they may have escorts."
+
+mission "Republic Assassination [2]"
+	name "Assassinate a political target"
+	description "A Republic politician who is worrying local drug traders was spotted passing through inhabited Republic space near the <system> system in their ship, the <npc>. Assassinate them by <day> to send a message to the Republic. Payment is <payment>. Be advised that they may be heavily defended."

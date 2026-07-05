@@ -1,0 +1,89 @@
+outfit "Sunbeam"
+	description "漫游者不花太多时间开发武器技术，更愿意专注于更有建设性的事业。然而，他们创造的少数几种武器却高效而致命。"
+
+outfit "Sunbeam Turret"
+	description "随着漫游者慢慢适应从和平时期向与海自由派日益加剧的冲突过渡，他们已开始建造能够携带炮塔武器的舰船。由于阳射线体积庞大，这个炮塔只携带一门。"
+
+outfit "Dual Sunbeam Turret"
+	description "这个炮塔携带一对漫游者阳射线。对于任何能够满足其能量需求的舰船来说，它都是一件极其强大的武器。"
+
+outfit "Moonbeam"
+	description "由于阳射线对科拉斯无人机的厚重装甲效果不佳，漫游者开发了一种新型光束武器，对船体装甲的效果大幅提高。"
+
+outfit "Moonbeam Turret"
+	description "这个炮塔只携带一门月射线武器，但占空比有所提高，因此能比非炮塔版本造成多百分之五十的伤害。"
+
+outfit "Wanderer Anti-Missile"
+	description "作为对抗海自由派使用的追踪荚舱的防御手段，漫游者开发了一种强力反导弹系统，几乎可以一发射落任何导弹。"
+
+outfit "Thunderhead Launcher"
+	description "	该武器的弹药可以在任何装备商处补充。"
+
+outfit "Thunderhead Missile"
+	description "雷头集束弹是远程漫游者导弹，在接近目标时会分裂成五枚快速敏捷的子战斗部。每个发射器最多可容纳四十枚。"
+
+outfit "Thunderhead Storage Array"
+	description "雷头存储阵列用于为雷头发射器存储额外的弹药。"
+
+outfit "Small Biochemical Cell"
+	description "这种微型发电机从漫游者专门工程培养的一群微生物的代谢副产物中获取能量。"
+
+outfit "Large Biochemical Cell"
+	description "漫游者是独特而高效技术的大师。这种生物反应器由一种能产生小电荷的微生物培养物驱动。"
+
+outfit "Red Sun Reactor"
+	description "漫游者最近开始生产这种小型反应堆，以便为他们的战舰提供更多能量。"
+
+outfit "Yellow Sun Reactor"
+	description "这是漫游者设计的紧凑型核反应堆。除了发电外，它还能够储存少量能量。"
+
+outfit "White Sun Reactor"
+	description "白日是漫游者用于驱动其强风战舰的大型核反应堆。"
+
+outfit "Blue Sun Reactor"
+	description "随着漫游者开始生产重型战舰，越来越需要更大的反应堆核心为其提供动力。"
+
+outfit "Bright Cloud Shielding"
+	description "这种小型漫游者护盾发生器能够以相当快的速度重新充电舰船的护盾，但它的能量消耗也比其他一些护盾发生器更高。"
+
+outfit "Dark Storm Shielding"
+	description "这种漫游者护盾发生器能够比任何人类护盾技术更快地恢复舰船的护盾强度，但重新充电护盾时也会消耗更多的能量。"
+
+outfit "Wanderer Ramscoop"
+	description "漫游者舰船设计为即使在无人居住的太空中也能自给自足，而他们紧凑高效的冲压收集器是这种自给自足能力的关键组成部分。"
+
+outfit "Wanderer Heat Sink"
+	description "大多数漫游者系统效率极高，不需要额外的冷却。因此，他们最近为重型战舰增加冷却系统的尝试显得有些初级。"
+
+outfit "Type 1 Radiant Thruster"
+	description "这是最小的漫游者引擎。像他们所有的引擎一样，它部分通过辐射多余热量来工作，因此还能兼作舰船的冷却器。"
+
+outfit "Type 2 Radiant Thruster"
+	description "漫游者引擎通过将舰船的多余热量传递给排气等离子体来工作。在不提供推力时，引擎仍可作为冷却系统使用。"
+
+outfit "Type 3 Radiant Thruster"
+	description "大多数这种尺寸的引擎会产生大量热量，但漫游者开发了一种方法，利用引擎本身排散舰船的多余热量，在此过程中产生额外的推进力。"
+
+outfit "Type 4 Radiant Thruster"
+	description "这是漫游者开发的最大引擎。其极为高效的设计使得即使在点火时也能冷却你的舰船。"
+
+outfit "Type 1 Radiant Steering"
+	description "这种微型转向系统被漫游者用于驱动他们的无人驾驶采矿和勘测无人机。"
+
+outfit "Type 2 Radiant Steering"
+	description "这种小型漫游者转向系统即使在不使用时也会排散舰船的多余热量，使其能够兼作冷却系统。"
+
+outfit "Type 3 Radiant Steering"
+	description "这种转向系统被漫游者用于他们的中型舰船。除了转动你的舰船外，它还能够排散相当数量的热量。"
+
+outfit "Type 4 Radiant Steering"
+	description "这是漫游者销售的最大转向系统。"
+
+outfit "Wanderer Outfits License"
+	description "这个形状奇特的碟子容纳了一批保存完好的卫兵裙草种子——一种敏感而坚韧的物种，漫游者在初始改造地形中使用它们来衡量一个世界对其方法的反应程度。每颗种子都带有内置的代数限制，确保这种草在几个生命周期后消失，以免与本地植物竞争。这些种子象征着改造地形和友好的开端，授予其持有者购买漫游者装备的权利。"
+
+outfit "Wanderer License"
+	description "完好地封存在琥珀外壳中，这段高贵的守望木树枝——据传来自漫游者最初的家园星球——象征着他们的骄傲和喜悦，即一颗星球的完全复兴。尽管这种树体积庞大、令人敬畏，但它对气候的细微变化非常脆弱，因此一株这样的标本成熟被视为生态系统愈合的标志。作为类似于地球橄榄枝的和平象征，它赋予持有者购买非军事漫游者舰船的权利。"
+
+outfit "Wanderer Military License"
+	description "漫游者的历史并非没有艰辛和失败。这段枯萎的树枝被封存在青铜模具中，永远铭记着漫游者无法拯救一个世界的时刻——因为尽管他们技艺高超，也无法阻止强者故意寻求的破坏。高贵守望木的倒下，这一他们珍视的象征，如今成为庄严的誓言：当和平失败时，他们也必须准备战斗。与漫游者并肩作战，本许可证授予获得他们最强大战舰的权利。"

@@ -1,0 +1,118 @@
+mission "Transport executive to <planet>"
+	description "A Syndicate executive needs immediate yet comfortable transportation to attend an urgent meeting on <destination> by <date>. Payment is <payment>."
+
+mission "Corporate retreat to <planet stopovers>"
+	description "A team of <bunks> engineers needs transport to a corporate retreat on <stopovers>, after which they must return back to <origin> by <date>. They want a comfortable journey, so your ship must be outfitted suitably. Payment is <payment>."
+
+mission "Large Corporate retreat"
+	name "Corporate retreat to <planet stopovers>"
+	description "A team of <bunks> engineers needs transport to a corporate retreat on <stopovers>, after which they must return back to <origin> by <date>. They want a comfortable journey, so your ship must be outfitted suitably. Payment is <payment>."
+
+mission "Corporate espionage"
+	description "The <npc> is about to enter this system. Intercept it and make detailed scans of its cargo for Syndicate researchers on <destination>; proceed there before <date> for <payment> after retrieving the data."
+
+mission "Document delivery to <planet>"
+	description "Deliver <tons> of ordinary documents to <destination>. Payment is <payment>."
+
+mission "Waste recycling on <planet>"
+	description "Syndicated Systems is looking for intrepid captains willing to make a difference as part of our new Green Initiative! Deliver <tons> of recyclable <commodity> to our special facility on <destination>. Payment is <payment>."
+
+mission "Rush fuel Delivery"
+	name "Rush fuel delivery to <planet>"
+	description "A civilian reactor on <destination> is running low on fuel and needs an emergency shipment of <cargo> by <date>. Payment is <payment>."
+
+mission "Rush equipment Delivery"
+	name "Rush equipment delivery to <planet>"
+	description "Syndicate techs on <destination> need a rush shipment of <tons> of specialized <commodity> by <date>. Payment is <payment>."
+
+mission "Syndicate target practice [0]"
+	name "Syndicate target practice"
+	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+
+mission "Syndicate target practice [1]"
+	name "Syndicate target practice"
+	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+
+mission "Syndicate target practice [2]"
+	name "Syndicate target practice"
+	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+
+mission "Syndicate target practice [3]"
+	name "Syndicate target practice"
+	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+
+mission "Syndicate Prisoner Transport [0]"
+	name "Transport executive to house arrest"
+	description `运送一名被起诉的白领罪犯及其助理、律师团和收藏的<cargo>前往<planet>，他将在那里以"软禁"形式候审。他需要一艘足够舒适的飞船来完成这趟旅程。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [1]"
+	name "Transport convicted saboteur"
+	description `运送一名已被定罪的工业破坏分子前往<planet>服刑。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [2]"
+	name "Transport convicted corporate spies"
+	description `运送一批共<bunks>名已被定罪的商业间谍前往<planet>服刑。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [3]"
+	name "Transport detained protesters"
+	description `运送一批共<bunks>名被拘留的抗议者前往<planet>，他们将在那里以煽动暴乱的罪名候审。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [4]"
+	name "Transport detained labor organizers"
+	description `运送一批共<bunks>名被拘留的劳工组织者前往<planet>，作为疑似恐怖分子接受"处理"。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [0]"
+	name "Return executive back from house arrest"
+	description `运送一名被判无罪的白领罪犯及其助理、律师团和收藏的<cargo>返回<planet>的家中。他需要一艘足够舒适的飞船来完成这趟旅程。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [1]"
+	name "Return detained protesters home"
+	description `运送一批共<bunks>名抗议者离开<origin>的拘留所，返回<planet>的家中。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [2]"
+	name "Return detained labor organizers home"
+	description `运送一批共<bunks>名劳工组织者离开<origin>的监狱，返回<planet>的家中。报酬为<payment>。`
+
+mission "Syndicated Shipyards Shipment [0]"
+	name "Shipment to <planet>"
+	description "Syndicated Shipyards, one of the largest shipyards in human space, requests an independent captain to deliver <cargo> to <destination> to ensure sufficient stocks. Payment is <payment>."
+
+mission "Syndicated Shipyards Shipment [1]"
+	name "Shipment to <planet>"
+	description "Syndicated Shipyards, one of the largest shipyards in human space, requests an independent captain to deliver <cargo> to <destination> to ensure sufficient stocks. Payment is <payment>."
+
+mission "Syndicated Shipyards Shipment [2]"
+	name "Shipment to <planet>"
+	description "Syndicated Shipyards, one of the largest shipyards in human space, requests an independent captain to deliver <cargo> to <destination> to ensure sufficient stocks. Payment is <payment>."
+
+mission "Syndicated Shipyards Shipment [3]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, where Syndicated Shipyards, one of the largest shipyards in human space, is located. Payment is <payment>."
+
+mission "Syndicated Systems Shipment [0]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Syndicated Systems, the largest ship systems and outfits manufacturer in human space. Payment is <payment>."
+
+mission "Syndicated Systems Shipment [1]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Syndicated Systems, the largest ship systems and outfits manufacturer in human space. Payment is <payment>."
+
+mission "Megaparsec Shipment [0]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Megaparsec Inc., a shipyard known for their lightweight designs. Payment is <payment>."
+
+mission "Megaparsec Shipment [1]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Megaparsec Inc., a shipyard known for their lightweight designs. Payment is <payment>."
+
+mission "Megaparsec Shipment [2]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Megaparsec Inc., a shipyard known for their lightweight designs. Payment is <payment>."
+
+mission "Syndicate Hovercraft Racer Transport"
+	name "Transport racer to <planet>"
+	description "Deliver a pilot and their hovercraft to <destination> to attend a race by <date> for <payment>."
+
+mission "Syndicate Hovercraft Large Racer Transport"
+	name "Transport team to <planet>"
+	description "Deliver this <passengers>-member racing team and their set of <cargo> to <destination> to attend a race by <date> for <payment>."

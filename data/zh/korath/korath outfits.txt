@@ -1,0 +1,146 @@
+outfit "Generator (Candle Class)"
+	description "这种微型发电机利用一些特别不稳定的核同位素的放射性衰变产生的热量来产生大量的能量。"
+
+outfit "Generator (Furnace Class)"
+	description "由于科拉斯设备功耗极大，他们甚至在战斗机和截击机中也使用放射性热能发电机，而不是依赖燃料电池或其他类似技术。"
+
+outfit "Generator (Inferno Class)"
+	description "以典型的不顾技术环境影响的态度，科拉斯人将一些相当令人担忧的同位素放入了这种放射性热能发电机中。其可观的能量输出被它产生的热量所抵消。"
+
+outfit "Plasma Core"
+	description "这种紧凑型聚变反应堆是古老的科拉斯设计，曾是他们战争舰队的主力，直到更大的舰船和更强大的武器催生了对更大更强发电机的需求。"
+
+outfit "Double Plasma Core"
+	description "这种反应堆核心将一对古老而坚固的科拉斯等离子核心组合成一个整体。"
+
+outfit "Triple Plasma Core"
+	description "为了他们最大的主力舰，科拉斯人设计了一种比任何同类人类技术强大得多的聚变反应堆。"
+
+outfit "Small Heat Shunt"
+	description "大多数科拉斯设备的高效低效迫使他们在一件事上变得异常出色：处理大量废热。"
+
+outfit "Large Heat Shunt"
+	description "没有这些强大的冷却系统，大多数科拉斯战舰在开始发射武器后几秒钟内就会过热。"
+
+outfit "Liquid Sodium Cooler"
+	description "这种主动冷却系统使用液态钠冷却回路从舰船最热的系统中提取热量。一个辅助系统持续消耗适量的电力来运行泵并维持最低温度，以防止钠在系统停用时冻结。"
+
+outfit "Systems Core (Tiny)"
+	description "大多数科拉斯战斗机飞行员省去了系统核心，偏向使用比需要更大的发电机，并在受损时返回母舰。通常只有民用小型舰操作员愿意牺牲足够的火力来安装这种护盾发生器、电容、维修微型机器人集群和控制它们的计算机。"
+
+outfit "Systems Core (Small)"
+	description "任何科拉斯舰船的核心是系统核心，它容纳了舰船的中央计算机、护盾发生器、备用电源，以及一个储存、生产和回收小型微型机器人集群的小型储存器，这些机器人可以在飞行中对舰船进行小修。"
+
+outfit "Systems Core (Medium)"
+	description "系统核心容纳着强大的计算机、护盾发生器、备用电源，以及一个维修微型机器人的控制中心，这些机器人可以在舰船外部移动并缓慢修复船体损伤。微型机器人储存器能够支持一个相当大的集群。"
+
+outfit "Systems Core (Large)"
+	description "这个庞大的计算机、护盾发生器、电容和维修微型机器人储存器集群包含了维持最大科拉斯舰船正常运作所需的一切。"
+
+outfit "Fuel Processor"
+	description "燃料处理器是在科拉斯南北战争后半期开发的，当时科拉斯派系试图通过掠夺海人的补给来支持战争。他们的舰船经常在耗尽燃料后被困，无法逃脱海人军事舰队，这促使了这种集燃料储存和冲压收集器于一体的装置的诞生。这些装备现在是银河系中剩余科拉斯人的主要燃料来源。"
+
+outfit "Command Center"
+	description "为应对他们最近冲突后遗留的机器人战争机器的偶尔袭击，科尔·埃弗雷特开发了这种最小简化版的指挥中心，可安装在捕获的机器人舰船中，允许飞行员覆盖AI并与舰船的控制系统对接。指挥中心只提供一个供舰长使用的铺位，因此如果舰船有需要船员的炮塔或其他系统，可能需要更多铺位。"
+
+outfit "Reasoning Node"
+	description "这是某种先进的微型计算机，结合了各种传感器输入和一个超空间通讯中继。推测通过某种方式它控制着梅雷蒂自动机，或使它们更容易彼此协调行动。"
+
+outfit "Control Transceiver"
+	description "这是一种微型通信设备，可连接到科尔·塞斯托尔自动机的所有主要系统，显然是一种远程控制它们的方式。通信经过加密和认证，几乎不可能伪造控制信号。"
+
+outfit "Afterburner (Asteroid Class)"
+	description "	科拉斯加力燃烧器将过热的超空间燃料直接注入推进器的等离子流中，产生的爆燃现象几乎可以熔化推进器。"
+
+outfit "Afterburner (Comet Class)"
+	description "	科拉斯加力燃烧器将过热的超空间燃料直接注入推进器的等离子流中，产生的爆燃现象几乎可以熔化推进器。"
+
+outfit "Afterburner (Lunar Class)"
+	description "	科拉斯加力燃烧器将过热的超空间燃料直接注入推进器的等离子流中，产生的爆燃现象几乎可以熔化推进器。"
+
+outfit "Afterburner (Planetary Class)"
+	description "	科拉斯加力燃烧器将过热的超空间燃料直接注入推进器的等离子流中，产生的爆燃现象几乎可以熔化推进器。"
+
+outfit "Afterburner (Stellar Class)"
+	description "	科拉斯加力燃烧器将过热的超空间燃料直接注入推进器的等离子流中，产生的爆燃现象几乎可以熔化推进器。"
+
+outfit "Engine (Meteor Class)"
+	description "尽管科拉斯人对引擎建造的主流态度一直是以把东西造得更大、更快、更强为重点，但流亡者们发现有必要开发这些引擎，让他们的战斗机能够携带更大的武器或更多的货物，代价是牺牲一些速度。"
+
+outfit "Bow Drive (Meteor Class)"
+	description "这种流星级引擎的改造版充当反向推进器，在搭配更强力的基础推进器时，为小型舰提供全方位的机动性。"
+
+outfit "Reverser (Asteroid Class)"
+	description "	这种科拉斯引擎经过改造，可以部分安装在舰船的武器空间中，使得能够向后推动舰船。"
+
+outfit "Reverser (Comet Class)"
+	description "	这种科拉斯引擎经过改造，可以部分安装在舰船的武器空间中，使得能够向后推动舰船。"
+
+outfit "Reverser (Lunar Class)"
+	description "	这种科拉斯引擎经过改造，可以部分安装在舰船的武器空间中，使得能够向后推动舰船。"
+
+outfit "Reverser (Planetary Class)"
+	description "	这种科拉斯引擎经过改造，可以部分安装在舰船的武器空间中，使得能够向后推动舰船。"
+
+outfit "Reverser (Stellar Class)"
+	description "	这种科拉斯引擎经过改造，可以部分安装在舰船的武器空间中，使得能够向后推动舰船。"
+
+outfit "Thruster (Asteroid Class)"
+	description "考虑到它的尺寸，这种微型科拉斯推进器的推力相当可观。但，它也消耗相当多的能量。"
+
+outfit "Thruster (Comet Class)"
+	description "像大多数科拉斯技术一样，这种推进器的强大动力被其能量需求和热量输出所抵消。"
+
+outfit "Thruster (Lunar Class)"
+	description "科拉斯人有一个可疑的特点，就是依赖产生的废热比大多数其他物种的武器系统还多的推进系统。"
+
+outfit "Thruster (Planetary Class)"
+	description "以极高效率处理万事的夸克人，对科拉斯推进系统尤为反感。"
+
+outfit "Thruster (Stellar Class)"
+	description "科拉斯人中流传着一个传说：当他们首次测试最新一代等离子推进器时，一支关切的夸克舰队前来，主动提出帮助疏散科拉斯船员，因为他们认为这是一艘即将坠毁的舰船。夸克人惊讶地发现，从舰船后方喷出的火焰，其实是它的既定推进方式。"
+
+outfit "Steering (Asteroid Class)"
+	description "科拉斯人只在最小的舰船上使用这些转向系统。"
+
+outfit "Steering (Comet Class)"
+	description "这种紧凑的转向系统是科拉斯技术的典型范例：小巧、强大，但效率极低。"
+
+outfit "Steering (Lunar Class)"
+	description "科拉斯引擎几乎可以安装到任何舰船上，但除非同时配备一些科拉斯冷却系统，否则它们的热量输出往往会超出舰船的处理能力。"
+
+outfit "Steering (Planetary Class)"
+	description "其他物种可能专注于尽可能高效地将能量转化为推力，而科拉斯人则致力于在最小的空间内塞入尽可能多的动力。这种转向系统是他们工作的经典范例。"
+
+outfit "Steering (Stellar Class)"
+	description "经过数千年的战争，科拉斯人开发出了一些确实十分巨大的战舰。这些转向系统使即使他们最大的战舰在战斗中也具有相当的机动性。"
+
+outfit "Arkrof GP Hybrid Thruster"
+	description "埃弗雷提工程师们已经开始勉强地从不完全受欢迎的夸克守护者那里汲取灵感。引力推进的融入提高了这一系列引擎的推力输出，代价是更高的能量消耗。这些是基于引力等离子体的推进器中最小的。"
+
+outfit "Farves GP Hybrid Thruster"
+	description "被迫从星际跃迁引擎技术研究撤退，使埃弗雷提工程师们没什么其他可摆弄的，只剩下亚光速推进了。这些由此产生的推进器便是这一努力的重要成果之一。将引力推进与更传统的等离子推进器相结合，缓和了这些引擎的热量输出。"
+
+outfit "Gaktem GP Hybrid Thruster"
+	description "这些引擎的设计表明，埃弗雷提物理学家们似乎比数学上自洽但顽固无法证伪的弦论猜想走得远得多。尽管埃弗雷提资源有限，但这些推进器使得他们的引擎能够在保持热量输出较低的同时维持传统科拉斯对小体积高速的强调。"
+
+outfit "Nelmeb GP Hybrid Thruster"
+	description "	这些是埃弗雷提人能提供的最大型引力等离子推进器，因此通常只在他们庞大的民用舰船上才会发现。尽管尺寸庞大、推力强大，夸克人仍然对设计的低效性质相当不满意。"
+
+outfit "Arkrof GP Hybrid Steering"
+	description "与大多数科拉斯引擎不同，埃弗雷提引擎并不仅仅依赖等离子。引力等离子引擎将传统的科拉斯等离子推力与夸克启发的引力推进探索相结合。最小的转向器以更高的能量消耗为代价，产生了大量的扭矩。"
+
+outfit "Farves GP Hybrid Steering"
+	description "这款紧凑的转向系统是埃弗雷提工程师们持续努力提高对基础物理学的理解并将其付诸实践的重要成果。这是科拉斯技术的一个经典范例：小巧、强大、效率极低。看来夸克人对埃弗雷提人的影响并未改变生活在这里的科拉斯人的基础设计理念。"
+
+outfit "Gaktem GP Hybrid Steering"
+	description "	除非搭配一些科拉斯动力系统，否则这种埃弗雷提转向系统的能量消耗通常会超出舰船的处理能力。与同尺寸的其他科拉斯引擎相比，它们的主要优势是产生的热量较少。"
+
+outfit "Nelmeb GP Hybrid Steering"
+	description "	比人们对此尺寸科拉斯引擎的预期更为稳定，这些转向推进器是埃弗雷提人为引导他们最庞大的舰船而开发的。它们的高能量消耗被通常由最强大的科拉斯聚变反应堆供能这一事实所缓和。"
+
+outfit "Thermal Repeater Rifle"
+	description "这种步枪在科拉斯人中很常见，比舰载级热力连发炮的诞生早至少两个世纪。由于使用过热等离子体而非激光，这种步枪发射较慢，如果不小心有时候会烧伤使用者的手。它的弥补是在于保证那些被击中的人活不到能发射回击。"
+
+outfit "Microbot Defense Station"
+	description "	许多种族认为这种防御手段令人憎恶。理由包括受害者所经历的痛苦的、混乱的死亡，与同类相食禁忌相关的违背，以及错误地担忧微型机器人可能会逃逸的恐惧，拥有这些气闸可能会导致重罚。"

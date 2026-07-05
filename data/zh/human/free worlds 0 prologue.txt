@@ -1,0 +1,159 @@
+mission "Pact Recon 0"
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+
+mission "Pact Recon 1"
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+
+mission "Pact Recon 2"
+	name "Pirate Reconnaissance"
+	description "Fly through the <waypoints> systems, then report to <destination> so the Southern Mutual Defense Pact can analyze your logs of pirate activity (if any)."
+
+mission "Pact Recon 3"
+	name "Pirate Reconnaissance"
+	description "Fly through the <marks> systems, searching for a gathering pirate fleet. Report to the Pact on <destination> once you have located them."
+
+mission "FW Recon 0"
+	name "Transport Militia Officer"
+	description "Transport a Free Worlds militia officer to <destination>."
+
+mission "FW Recon 1"
+	name "Free Worlds Reconnaissance"
+	description "Perform an outfit scan on the Cruiser <npc>, which is currently patrolling <system>, then report to a Free Worlds officer on <planet>."
+
+mission "FW Recon 2"
+	name "Free Worlds Reconnaissance"
+	description "Scan any ships in the <waypoints> system that are equipped like the combat-ready Cruiser you scanned previously, then return to <destination>."
+
+mission "FW Recon 3"
+	name "Free Worlds Reconnaissance"
+	description "Land on <destination> and secretly collect information on the developing Navy base there."
+
+mission "FW Recon 3B"
+	name "Free Worlds Reconnaissance"
+	description "Return to <destination> with information on the Navy base on <origin>."
+
+mission "FW Escort 0"
+	name "Free Worlds Escort"
+	description "Head to <destination> to meet up with a convoy of Free Worlds freighters."
+
+mission "FW Escort 1"
+	name "Free Worlds Escort"
+	description "Escort a Free Worlds supply convoy safely to <destination>."
+
+mission "FW Escort 1B"
+	name "Free Worlds Escort"
+	description "Escort the supply convoy safely to <destination> back in Free Worlds territory."
+
+mission "FW Escort 2"
+	name "Free Worlds Escort"
+	description "Escort a Free Worlds supply convoy safely to <destination>."
+
+mission "FW Escort 2B"
+	name "Free Worlds Escort"
+	description "Escort a Free Worlds supply convoy safely to <destination>."
+
+mission "FW Escort 3"
+	name "Stranded Freighter"
+	description "Repair the <npc>, which is stranded in the <waypoints> system, and escort it safely back to <destination>."
+
+mission "FW Escort Second Chance"
+	name "Second Chance"
+	description "Return to <destination> to meet up with Tomek Voigt and see if he will forgive you for failing the escort mission he gave you."
+
+mission "FW Bounty 1"
+	name "Free Worlds Bounty Hunting"
+	description `追捕并消灭"老鼠帮"——一伙由一艘名叫"Cluny"的旗舰领导的海盗船，他们一直在自由世界空间骚扰商船。最近一次被发现是在Kornephoros的东北方向。击败他们后，返回<destination>。`
+
+mission "FW Bounty 2"
+	name "Free Worlds Bounty Hunting"
+	description `一位来自<destination>的自由世界民兵军官请你追捕<npc>，一艘在前往Tarazed的航线上劫掠的海盗船。民兵军官建议试着从远处攻击这艘船。`
+
+mission "FW Bounty 3"
+	name "Free Worlds Bounty Hunting"
+	description `一位来自<destination>的自由世界民兵军官请你追捕<npc>，一艘强大的海盗船，最后一次被发现在Shaula星系。`
+
+mission "FW Katya 1"
+	name "Assist the Free Worlds"
+	description "Stop by <destination>, pick up two passengers and some cargo, and distract the Republic from a more important cargo exchange going on simultaneously."
+
+mission "FW Katya 1B"
+	name "Assist the Free Worlds"
+	description "Bring some cargo (harmless but intended to look suspicious) and two tourists to <destination>."
+
+mission "FW Katya Alt 2"
+	name "Transport Mr. Eyes"
+	description "Katya Reynolds asked you to travel to <destination>, where her friend Mr. Eyes is waiting for you."
+
+mission "FW Katya 2"
+	name "Transport Mr. Eyes"
+	description "Katya Reynolds asked you to travel to <destination>, where her friend Mr. Eyes is waiting for you."
+
+mission "FW Katya 2B"
+	name "Transport Mr. Eyes"
+	description "Transport Mr. Eyes to <destination>, where the recent terrorist attack took place."
+
+mission "FW Katya 2C"
+	name "Transport Mr. Eyes"
+	description "Bring Mr. Eyes to <destination>, where you will meet up with Katya (and hopefully get paid)."
+
+mission "FW Katya 3"
+	name "Drone Hunting"
+	description `瘫痪一架监视无人机（最好是在没有巡洋舰看着的时候），登上去，"打捞"其监视设备，然后返回<destination>。（在你离开瘫痪无人机所在星系之前，其他共和国舰船可能会攻击你。）`
+
+mission "FW Katya 4"
+	name "Katya and Mr. Eyes"
+	description "Stop on <destination> and check the planet for signs of nuclear testing."
+
+mission "FW Katya 5"
+	name "Information Gathering"
+	description "Bring Katya and Mr. Eyes to <destination>, where some monks may be able to help you negotiate with the pirates for information."
+
+mission "FW Katya 5B"
+	name "Information Gathering"
+	description "Travel to <planet> with Brother Greg and see if he can get any information from the pirates there. (Hail the planet to have him negotiate landing clearance.)"
+
+mission "FW Katya 5C"
+	name "Information Gathering"
+	description "Return to <planet> with Katya and Brother Greg."
+
+mission "FW Katya 6"
+	name "The Hunt Continues"
+	description "Take Katya and Eyes to <destination>."
+
+mission "FW Katya 6B"
+	name "The Hunt Continues"
+	description "Take Katya and Eyes to <destination>."
+
+mission "FW Katya 6C"
+	name "The Hunt Continues"
+	description "Take Katya and Eyes to <destination>."
+
+mission "FW Katya 7"
+	name "The Hunt Continues"
+	description "Take Katya and Eyes to <destination> to check for signs of underwater testing."
+
+mission "FW Katya 7B"
+	name "The Hunt Continues"
+	description "Take Katya and Eyes to the mining moon <planet>."
+
+mission "FW Katya 7C"
+	name "Bring Eyes to <planet>"
+	description "While Katya is undercover on <origin>, bring Mr. Eyes to <destination> to report to the Free Worlds."
+
+mission "FW Commitment"
+	name "Join the Free Worlds"
+	description "If you want to join the Free Worlds, report to their headquarters on <destination>."
+
+mission "Rescue Katya 1"
+	name "Rescue Katya"
+	description "Rescue Katya from <planet>, before the Navy discovers her, and bring her safely to Longjump."
+
+mission "Rescue Katya 2"
+	name "Rescue Katya"
+	description "Return to <planet> and report to the Free Worlds Council that you were unable to locate Katya."
+
+mission "Defend Sabik"
+	name "Defend Sabik"
+	description "Help to repulse a Navy attack on Sabik, then land on Longjump to debrief."

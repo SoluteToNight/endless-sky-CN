@@ -1,0 +1,8 @@
+outfit "Fate Sealer"
+	description `一种能量粒子武器，能在短暂延迟后将爆炸汇聚至单一位置。爆炸的后继效果将目标拉向爆炸原点。`
+
+outfit "Fate Divider"
+	description `一种能量粒子武器，能在短暂延迟后将爆炸汇聚至单一位置。爆炸的后继效果将目标推离爆炸原点。`
+
+outfit "Abyssal Composer"
+	description `这是一种极为危险的装置，利用引力子技术将目标的质量与能量分离，然后将这些物质输送至开火飞船的系统之中。`

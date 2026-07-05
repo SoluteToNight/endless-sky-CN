@@ -1,0 +1,44 @@
+outfit "Plasma Discharger"
+	description "	发射器本身发射高密度等离子体射流，这些射流在一段时间后会分裂成小粒子。由于等离子注入器的存在，其射速非常出色，但能量消耗也相当严重。"
+
+outfit "Stagnation Beam"
+	description "	这些光束的工作原理只有少数受国家控制的因西皮亚斯科学家知晓。这些知识如果公之于众，可能会对希瑟穆斯及其权力控制造成灾难性后果。"
+
+outfit "Star Tail"
+	description "	这种武器的弹药可在任何装备供应商处补充。"
+
+outfit "Horizon Grappler"
+	description `因西皮亚技术的巅峰之作便是这种采矿工具。经过数个世纪的完善，这种牵引光束已远远超出因西皮亚斯迄今为止开发的所有技术。其名称源于太空时代之前开发的第一批原型机，这些原型机通过将小行星从其母星星环中拉入大气层来收集矿物。`
+
+outfit "Gas-Class Shield"
+	description "护盾技术是因西皮亚斯最新的发展之一。虽然这种护盾看起来与人类的护盾装置相似，但其工作原理完全不同。其核心燃烧氢气，为再生提供能量。事实证明这种方法非常有效，以至于它成为了他们所有飞船的主要能源。"
+
+outfit "Liquid-Class Shield"
+	description "这种更先进的护盾发生器燃烧的是液体而非气体。这大大提高了效率，但也需要更多空间，使得这种装备只流行于大型飞船上。"
+
+outfit "Metallic Hydrogen Cell"
+	description "由于因西皮亚斯母星上存在大量的金属氢，氢能储存在早期就被发现了。因西皮亚斯飞船通常在能量产生时就直接使用，因此只需要少量的储存空间。因此，他们的大多数飞船只安装了一个电池。"
+
+outfit "MH Blue-Class Thruster"
+	description "在因西皮亚文化中，蓝色代表最弱的颜色。标有蓝色等级的推进器对于使用它的任何飞船的速度来说都不是一个好兆头。"
+
+outfit "MH Blue-Class Steering"
+	description "这种转向器几乎只能提供转动飞船所需的最低推力，但由于价格低廉，它仍然被广泛使用。"
+
+outfit "MH Green-Class Thruster"
+	description "对于因西皮亚人来说，绿色是平衡之色。这种推进器在空间需求与强大引擎需求之间取得了平衡。"
+
+outfit "MH Green-Class Steering"
+	description "因西皮亚人似乎对转向他们的飞船有所抵触。尽管这种转向器本应是蓝色级转向器的升级版，但它几乎没有什么改进。"
+
+outfit "MH Red-Class Thruster"
+	description "因西皮亚母星上丰富的金属氢促使他们开发了利用这种强大能源的引擎，这使得他们能够制造出比预期更高效的推进器，考虑到因西皮亚短暂的太空飞行历史，这确实令人印象深刻。"
+
+outfit "MH Red-Class Steering"
+	description "连因西皮亚人都意识到，飞船需要转向目标才能进行射击。这种转向器专为战斗设计，但资金充裕的船长发现它在采矿中也很有用。"
+
+outfit "Cloud Piercer"
+	description "在近身格斗方面，因西皮亚人是令人生畏的对手。这种野蛮的武器或许不是入侵其他飞船的最佳选择，但在防守时，它几乎能将敌人撕成碎片。"
+
+outfit "Hicemus Conflict License"
+	description "希瑟穆斯对你足够信任，授予你这张许可证，让你得以一窥他们最珍贵的科技——这项科技旨在让他们在其他派系面前占据优势。"

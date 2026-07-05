@@ -1,0 +1,96 @@
+event "war begins"
+	spaceport `马丁尼星曾经那个无瑕的空港已不复存在，现在这个临时空港由散乱分布的临时降落地带组成，以支撑协助救援和疏散行动的大量海军和民用飞船。`
+	description `	波恩星也是新成立的自由世界的政府所在地。`
+
+event "initial deployment 1"
+	description `	海军最近征用了一座废弃的矿业城镇，开始将其翻新为一座安全军事基地，矿道则被用作深层地下掩体。`
+
+event "fw zug expansion underway"
+	spaceport `	较远处是"新港区"，一座高耸的建筑，配有机械货运升降机和用于停放昂贵飞船的大型机库。与此同时，新港区目前正在扩建。你忍不住想知道新的扩建部分会叫什么名字。`
+
+event "fw zug expansion complete"
+	spaceport `	较远处是"新港区"，一座高耸的建筑，配有机械货运升降机和用于停放昂贵飞船的大型机库。它最近扩建了，以应对自由世界要求增加的作战行动，使祖格星成为银河系南部最重要的飞船铸造厂。不出所料，新港区的扩建部分很快就被取名为"扩建区"。`
+
+event "capture of Kornephoros"
+	spaceport `	有几百名海军军官在这座小型空港巡逻，寻找任何当地抵抗的迹象。`
+	description `这个矿业前哨站布满了海军警卫；他们似乎把这片卫星变成了一个临时行动基地。矿井已被关闭，任何人都不被允许进出矿业前哨站。不清楚矿工们是被关押犯，还是仅仅受到非常严密的监视。`
+
+event "recapture of Kornephoros"
+	spaceport `The spaceport is built on a large island, a now-extinct volcano with an elevation of several kilometers at its center. Most of the large-scale fishing here is done by a single company, Poseidon Industries, which also built and maintains the spaceport. Steep winding roads and sturdy concrete homes and warehouses line the mountain slopes, and below you in the harbor several massive trawling vessels are moored. On the outskirts of the spaceport are the ramshackle houses and open-air marketplace used by the smaller, independent fishing families.`
+	description `在这里工作的矿工们是一个非常紧密的团体，因为他们中的大多数人都来自最初的殖民团队。他们对外来者不是特别开放，而且这里的设施非常简陋，甚至不储备来访飞船的燃料。`
+
+event "oathkeepers founded"
+	description `	最近，远端星的海军基地一直在扩大。它已成为海军誓约者的新家园，这是海军的一个小分支，发誓不介入与自由世界的冲突。`
+
+event "fw conservatory founded"
+	description `	凛冬星是自由世界自然保护学院的所在地，这是一所新大学，专注于以合理的价格提供地球化改造技术和专业知识，以及生态保护和更新。`
+
+event "Thule becomes independent"
+	spaceport `无政府主义者比普通人更难闻，这是一个奇怪但无可争辩的事实。在当今时代，连最便宜的穿梭机也至少有声波淋浴设备，对此没有合理的解释，只能说无政府主义倾向必定与排斥社会卫生规范的态度密不可分。在空间站里，只能呼吸循环空气，这种效果令人难以忍受。`
+	description `这里的修理厂可以为你的飞船进行各种合法和非法的改装，在船坞里你还可以购买翻新的星舰……只要想到它们前主人的可能命运不会让你良心不安。`
+
+event "fw suppressed Greenrock"
+	spaceport `	尽管有自由世界的存在，暗巷仍然要避免进入。在一条巷子里，你看到一家名为"迈克鼬科动物店"的废弃商店，现在被曾经关在笼子里的黄鼠狼、雪貂和狼獾占领了。`
+	description `	现在自由世界占领了这个星系，绿岩星变得稍微体面了一些。海盗们仍然在这颗行星的荒野中横行，但自由世界正在各大人口中心积极逮捕罪犯并解放奴隶。`
+
+event "fw abandoned Greenrock"
+	spaceport `	现在自由世界已经离开，暗巷绝对要避开。在一条巷子里，你看到一家名为"迈克鼬科动物店"的店铺，里面像丛林一样。你听到里面传来各种异域动物的嚎叫和尖叫声，巷子里还有几只大概是逃出来的黄鼠狼、雪貂和狼獾在来回跑动。`
+	description `	直到自由世界占领了这个星系并清理了许多主要的人口中心。随着自由世界的离去，这颗行星开始恢复其犯罪与邪恶的自然状态。`
+
+event "Greenrock recovered"
+	spaceport `	事实上，什么都有，包括最古怪的东西。你发现一条暗巷，它已经完全与空港的其他部分隔开，屏障后面传来动物的嚎叫声。在巷子旁边，你看到一家名为"迈克鼬科动物店"的招牌，声称出售"来自绿岩星城市空港丛林中的异域动物"。`
+	description `	很久以前，自由世界曾短暂占领过这颗行星，试图清理这个犯罪中心，但如今自由世界在这颗行星上留下的几乎一切痕迹都早已消失了。`
+
+event "memorial on Deep"
+	spaceport `	空港以北是自由世界战争纪念碑，那是一系列花岗岩墙壁，上面刻着阵亡者的名字。已完工的九面墙两面都已经刻满了；另外十四面墙似乎撑不过这场战争。`
+
+event "fw southern expansion"
+	description `	在南方战败之后，海军开始在新冰岛星建立一座庞大的新基地，以便继续在这一星区保持强大的存在。`
+
+event "Deep memorial expansion 1"
+	spaceport `	空港以北是自由世界战争纪念碑，那是一系列花岗岩墙壁，上面刻着阵亡者的名字。该遗址已从原来的规模扩大，外围正在竖立一圈外墙，以容纳补刻名字的另外五十面墙。`
+
+event "fw prison on Clink closes"
+	description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
+
+event "liberation of Poisonwood"
+	spaceport `	港口中心的小酒馆名叫"离别之杯"。墙壁上挂满了战后拍摄的照片，全都拍摄于毒木星：获释的奴隶登上海军飞船，离开这颗给他们带来无尽痛苦的行星；海军军官下船到他们解放的世界上退休；离去的朋友；被留下的朋友。还有更新的照片：一艘巡洋舰和两艘猎鹰并排停靠；装甲部队从工厂走出；一位熟悉的船长正与一位你知道是阮指挥官的人交谈。被列入一段你只产生过最微弱影响的历史英雄之中，真是一种奇怪的感觉。`
+
+event "Poisonwood reverts to Republic"
+	spaceport `	港口中心的小酒馆名叫"离别之杯"。当你走进这座建筑时，你注意到酒馆里越来越安静，直到你只能听到空调的轰鸣声和酒杯的碰撞声。与此同时，你感受到了几十双眼睛直接盯着你的灼热目光。你决定最好在事态进一步升级之前离开。`
+
+event "bloodsea joins free worlds"
+	description `	直到最近，这还是一个海盗世界，但随着自由世界不断扩张，他们看出了大势所趋，决定成为一个文明世界。自由世界正在这里建设一座新空港，但这需要几个月的时间，在此期间旧空港仍在使用。`
+
+event "bloodsea spaceport completed"
+	spaceport `	有些东西从海盗时代至今没有改变。当地方言中包含极端暴力的威胁，像是一种看似毫无意义的口头禅。"嘿，我要一根一根剁掉你的手指，直到你买个肉饼为止！"一个摊贩在你经过时笑嘻嘻地吆喝道，"第一个免费，你要是不喜欢，我把你脊椎打个结。"`
+	description `	最近，在自由世界的帮助下，这里建成了一座新空港。血海星以前是一个海盗世界，但新空港给它增添了几分体面，已有少数定居者和好奇的游客开始涌入。`
+
+event "bloodsea independent"
+	description `	直到最近，这还是一个海盗世界，但现在他们正式"独立"了，由于被自由世界民兵掌控，他们放弃了支持海盗行为和其他犯罪活动。不过，你感觉大多数当地人对自由世界不太有好感。`
+
+event "albatross joins free worlds"
+	description `	最近，自由世界将信天翁星从海盗压迫者手中解放了出来，但许多当地人仍持怀疑态度，认为自由世界与曾经统治他们的其他保护费勒索团伙没什么两样。`
+
+event "navy occupies algenib"
+	description `秘密星是一个强大矿业卡特尔的所在地，仅在名义上受共和国法律管辖。据传它是人类空间少数几个开采和浓缩武器级铀和钚的行星之一。这里出售的任何商品很可能是由奴隶劳工生产的，他们往往是海盗捕获船只的幸存者。一支海盗舰队潜伏在空港外围，警告任何胆敢欺骗或对抗卡特尔的私人飞行员。`
+
+event "navy done with algenib"
+	description `秘密星是一个强大矿业卡特尔的所在地，不受共和国法律或任何其他外部权威的管辖。据传它是人类空间少数几个开采和浓缩武器级铀和钚的行星之一。这里出售的任何商品很可能是由奴隶劳工生产的，他们往往是海盗捕获船只的幸存者。一支庞大的海盗舰队停泊在空港外围，警告任何胆敢欺骗或对抗卡特尔的私人飞行员。`
+
+event "fwc capture kaus borealis"
+	description `	在被逐出南缘地区之后，海军曾开始在新冰岛星建立一座庞大的军事基地，但他们在这个星系被自由世界击败导致该基地被提前废弃。`
+
+event "fwc capture menkent"
+	description `	海军曾在这里设有军事基地，但他们在自由世界作为"将死"计划的一部分攻占这个星系时撤离了该基地。`
+
+event "Deep memorial completed"
+	spaceport `	空港以北是自由世界战争纪念碑，那是一系列花岗岩墙壁，上面刻着阵亡者的名字。在原有的二十三面墙和旧外围五十面墙的外部又建起了两圈额外的墙壁。`
+
+event "geminus rebuilt"
+	spaceport `	空港的中心是一个美食广场，中央有一圈商店，座位在外围，你可以透过平板玻璃窗看到外面的熔岩原和火山口。到了夜晚，你能看到地平线四周的火山红光。`
+	description `	旧海军船坞的破碎残骸仍被遗弃在那里，在行星腐蚀性的大气中缓缓生锈腐烂，但共和国现在已建造了一座新船坞来取代被炸弹摧毁的那座，双子星再次成为了技术与工业的中心枢纽。`
+
+event "martini recovers"
+	spaceport `	马丁尼星旧空港仍然存在，因为它位于爆炸区域之外，其偏导护盾承受了冲击波的大部分冲击，但其塔楼在毁灭之后的几天里部分坍塌了。从远处看，它现在像是几座高度参差不齐的黑色尖塔，耸立在一片废墟城市的烟雾和残垣之前，不再像从前那样闪闪发光了。`
+	description `	新首都位于主大陆的另一侧，那里的残留辐射不会影响到其他人口。它不如旧都宏伟，但其人口因来自辐射区的重新安置而激增，正在迅速获得大都市的气派。这里的居民中的许多人是爆炸的幸存者，他们团结在一种"一定能行"的态度背后，这种态度只有在经历了如此毁灭性的事件之后才会产生。`

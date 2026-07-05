@@ -1,0 +1,131 @@
+mission "Mystery Cube Delivery Job Safe [0]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job Safe [1]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job [0]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job [1]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job [2]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job [3]"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Delivery Job Station"
+	name "Mystery delivery to <planet>"
+	description "Deliver a package to <destination>. Payment is <payment>."
+
+mission "Mystery Cube Retrieval Job"
+	name "Mystery retrieval from <planet stopovers>"
+	description "Retrieve a package from <stopovers>, then return to <destination>. Payment is <payment>."
+
+mission "Transport scientists"
+	description "A team of <bunks> scientists needs some research notes analyzed at the facility on <stopovers>. Take the scientists there and then return them to <planet> for <payment>."
+
+mission "Transport science department"
+	description "A department of <bunks> scientists needs some research notes analyzed at the facility on <stopovers>. Take the scientists there and then return them to <planet> for <payment>."
+
+mission "Escort science vessel"
+	description "The crew of the science vessel <npc> requests an escort to <stopovers> where they plan to study some unusual phenomena. Escort them there and then return them to <planet> for <payment>."
+
+mission "Record academic conference"
+	description "Record an academic conference on <destination> for professors who cannot attend. Credentials and recording equipment will be provided. Payment is <payment>."
+
+mission "Secure Transport Job (Secret) [0]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Secret) [1]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Secret) [2]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Secret) [3]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Secret) [4]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Basic) [0]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Basic) [1]"
+	name "Secure delivery to <planet>"
+	description "Deliver a secure package of supplies to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Deep Security) [0]"
+	name "Deep Security delivery to <planet>"
+	description "Deliver a Deep Security package to <destination>. Payment is <payment>."
+
+mission "Secure Transport Job (Deep Security) [1]"
+	name "Deep Security delivery to <planet>"
+	description "Deliver a Deep Security package to <destination>. Payment is <payment>."
+
+mission "Deep Consultants"
+	name "Transport consultants to <planet>"
+	description "Julie and her assistant missed their transport and need to reach <destination> by <date> in order to make several important business meetings."
+
+mission "Transport Consultants (Deep Security) [0]"
+	name "Transport Deep Security consultants"
+	description "Transport <fare> whose schedules have been ruined by Deep Security to <destination>. Payment is <payment>."
+
+mission "Transport Consultants (Deep Security) [1]"
+	name "Transport Deep Security consultants"
+	description "Transport <fare> whose schedules have been ruined by Deep Security to <destination>. Payment is <payment>."
+
+mission "Urgent Deep Sec Package"
+	name "Rush Deep Security Delivery"
+	description "Deliver a Deep Security package to <destination> by <date>. Payment is <payment>."
+
+mission "Urgent Deep Sec Consultants [0]"
+	name "Rush Deep Security Consultants"
+	description "Deliver <bunks> Deep Security consultants to <destination> by <date>. Payment is <payment>."
+
+mission "Urgent Deep Sec Consultants [1]"
+	name "Rush Deep Security Consultants"
+	description "Deliver <bunks> Deep Security consultants to <destination> by <date>. Payment is <payment>."
+
+mission "Lionheart Shipment [0]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+
+mission "Lionheart Shipment [1]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+
+mission "Lionheart Shipment [2]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Lionheart Industries, known for its advanced and experimental designs. Payment is <payment>."
+
+mission "Deep Sky Shipment [0]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Deep Sky, manufacturer of cutting-edge cybernetics, weapons, and starship equipment. Payment is <payment>."
+
+mission "Deep Sky Shipment [1]"
+	name "Shipment to <planet>"
+	description "Deliver <cargo> to <destination>, the home of Deep Sky, manufacturer of cutting-edge cybernetics, weapons, and starship equipment. Payment is <payment>."
+
+mission "Deep Hovercraft Racer Transport"
+	name "Transport racer to <planet>"
+	description "Deliver a pilot and their hovercraft to <destination> to attend a race by <date>."
+
+mission "Deep Hovercraft Large Racer Transport"
+	name "Transport team to <planet>"
+	description "Deliver this <passengers>-member racing team and their set of <cargo> to <destination> to attend a race by <date>."

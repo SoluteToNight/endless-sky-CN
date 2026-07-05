@@ -1,0 +1,179 @@
+mission "FW Diplomacy 1"
+	name "Free Worlds Diplomacy"
+	description "Travel to <planet> to meet up with Alondo, who will explain more."
+
+mission "FW Diplomacy 1B"
+	name "Free Worlds Diplomacy"
+	description "Bring Alondo to <planet> to meet with Parliament. Your guarantee of safe passage will expire on <day>."
+
+mission "FW Diplomacy 1C"
+	name "Free Worlds Diplomacy"
+	description "Bring Alondo to <planet> to meet with the senior Navy officers. Take as direct a route as possible, because your safe passage expires soon."
+
+mission "FW Diplomacy 1D"
+	name "Free Worlds Diplomacy"
+	description "Bring Alondo back to <destination>. Take as direct a route as possible, because your safe passage expires soon."
+
+mission "FW Southern Recon 1"
+	name "Reconnaissance"
+	description "Fly through <waypoints> to get a sense of the Navy's strength in those systems, then report to <destination>."
+
+mission "FW Southern Recon 1B"
+	name "Electron Beam"
+	description "Steal an Electron Beam from a Navy Gunboat and return it to <planet> for Freya to look at. She thought your best bet for finding lone Gunboats might be the Wei or Alnasl systems."
+
+mission "FW Southern Battle 1"
+	name "Escort Battle Fleet"
+	description "Travel to <planet> to gather a fleet of experimental new warships, and escort them back to Trinket."
+
+mission "FW Southern Battle 1B"
+	name "Escort Battle Fleet"
+	description "Escort a fleet of experimental warships to <destination>."
+
+mission "FW Southern Battle 2"
+	name "Attack Rastaban"
+	description "Travel directly to the <system> system, so that you will arrive on <day> and join the battle against the Navy. Disable or destroy all Navy ships in the system."
+
+mission "FW Southern Battle 3"
+	name "Sweep for Navy Ships"
+	description "Travel through the systems near Rastaban and make sure that the remainder of the Navy occupation fleet is retreating. (If they are fleeing, let them flee.)"
+
+mission "FW Southern Prisoners - Release"
+	name "Return Navy Prisoners"
+	description "As a goodwill gesture, return the Navy prisoners to <destination> rather than imprisoning them on Clink. Your safe passage ends on <day>."
+
+mission "FW Southern Prisoners - Keep"
+	name "Keep Navy Prisoners"
+	description "Rather than releasing the Navy prisoners, deliver them to the mines on Clink, to be held until Katya is returned to you."
+
+mission "FW Southern Prisoners - Released"
+	name "Report to Dancer"
+	description "Report back to Freya and Alondo on Dancer that you chose to release the prisoners."
+
+mission "FW Southern Prisoners - Kept"
+	name "Report to Dancer"
+	description "Report back to Freya and Alondo on Dancer that you chose to keep the prisoners on Clink."
+
+mission "FW Southern Break Ends"
+	name "Return to <planet>"
+	description "Travel as quickly as possible to <destination> to rejoin the main Free Worlds fleet."
+
+mission "FW Northern 1"
+	name "Northern Expansion"
+	description "Take a fleet to <destination> (visiting <waypoints> along the way), securing those systems to allow them to defect to the Free Worlds."
+
+mission "FW Northern 2"
+	name "Meet With Freya"
+	description "Now that the northern star systems are secured, go back to <planet> to meet with Freya and work with her to remove any surveillance equipment the Navy installed in the Wei system or elsewhere."
+
+mission "FW Northern 2A"
+	name "Sweep Hope"
+	description "Bring Freya to <planet> and destroy any Navy sensor emplacements that she finds there."
+
+mission "FW Northern 2B"
+	name "Sweep Clark"
+	description "Bring Freya to <planet> to check for any Navy surveillance stations."
+
+mission "FW Northern 2C"
+	name "Sweep New Holland"
+	description "Bring Freya to <planet> to check for any Navy surveillance stations."
+
+mission "FW Northern 2D"
+	name "Sweep New Tibet"
+	description "Bring Freya to <planet> to check for any Navy surveillance stations."
+
+mission "FW Northern 3"
+	name "Freya to Zug"
+	description "Bring Freya to <destination> to help with ramping up Dreadnought production."
+
+mission "FW Northern 3B"
+	name "Dreadnoughts to <planet>"
+	description "Escort two more Dreadnoughts to <destination> to help defend the front against any Navy incursions."
+
+mission "FW Northern 4"
+	name "Meet Convoy"
+	description "Travel to <destination> to escort a convoy of medical supplies. Watch out for Republic attacks."
+
+mission "FW Northern 4.1A"
+	name "Medical Convoy"
+	description "Escort a convoy carrying medical supplies safely to <planet>. Do not fire on the Navy Oathkeeper ship that is in orbit there."
+
+mission "FW Northern 4.2A"
+	name "Medical Convoy"
+	description "Escort a convoy carrying medical supplies safely to <planet>."
+
+mission "FW Alphas 1.1"
+	name "Liberate Poisonwood"
+	description "Destroy the pirate ships occupying the <system> system with the help of the Navy Oathkeepers, then land on the planet and let the Navy troops eliminate the Alphas."
+
+mission "FW Alphas 1.2"
+	name "Liberate Poisonwood"
+	description "Destroy any pirate ships in orbit around <planet>, then land and eliminate the Alphas and their servants who have occupied the city."
+
+mission "FW Alphas 1.1A"
+	name "Danforth to <planet>"
+	description "Escort Admiral Danforth's ship to <destination> so that he can leave Free space without being accidentally attacked."
+
+mission "FW Alphas 1.2A"
+	name "Return to the Front"
+	description "Travel to <destination> to bolster the defenses there."
+
+mission "FW Bloodsea 1"
+	name "Alondo to <planet>"
+	description "Bring Alondo to <planet> to try to convince the locals to join the Free Worlds."
+
+mission "FW Bloodsea 1.1"
+	name "Ships from <planet>"
+	description "In order to work toward a peace treaty with Bloodsea, meet up with a convoy of heavily armed merchant ships on <planet>."
+
+mission "FW Bloodsea 1.1A"
+	name "Supplies from <planet>"
+	description "Stop on <planet> so that the ships you are escorting can pick up more supplies and workers, then bring them to Bloodsea to help build a new spaceport."
+
+mission "FW Bloodsea 1.1B"
+	name "Supplies to <planet>"
+	description "Escort these two freighters to <destination> to help build a new spaceport. This may just be an excuse for pirates to attack you."
+
+mission "FW Bloodsea 1.2"
+	name "Invasion Fleet"
+	description "Rather than pursuing a diplomatic agreement, meet up with JJ on <planet> and gather a fleet to invade and subjugate Bloodsea."
+
+mission "FW Bloodsea 1.2A"
+	name "Capture Bloodsea"
+	description "Take a Free Worlds fleet to invade the <system> system and eliminate any pirate resistance, then land on <planet>."
+
+mission "FW Dreadnoughts Ready"
+	name "Meet Freya on <planet>"
+	description "Freya is done overseeing the initial production run of Dreadnoughts in the shipyard on Zug. Meet up with her there, to give her a ride to wherever she is assigned next."
+
+mission "FW Albatross 1"
+	name "Freya to <planet>"
+	description "Bring Freya to <planet> to meet up with JJ and make plans for convincing Albatross to give up piracy and join the Free Worlds."
+
+mission "FW Albatross 2"
+	name "Visit Albatross"
+	description "Bring JJ to Albatross to negotiate with the local leaders and perhaps convince them to join the Free Worlds and give up their support of piracy."
+
+mission "FW Albatross 2A"
+	name "Hunt Ryk Bartlett"
+	description "Hunt down the pirate warlord Ryk Bartlett, who has been plundering merchant convoys in the vicinity of Zeta Aquilae. (Only his personal ship, the Dread, must be destroyed.) Then, return to Albatross."
+
+mission "FW Albatross 2B"
+	name "Return to Dancer"
+	description "Return to Dancer with JJ, and meet up with Freya."
+
+mission "FW Rand 1"
+	name "Occupy Zeta Aquilae"
+	description "Take a Free Worlds fleet to Zeta Aquilae, drive away whatever Navy ships are there, and then land on Rand, which has decided to join the Free Worlds."
+
+mission "FW Rand 1B"
+	name "Regroup at Wayfarer"
+	description "The Free Worlds fleet has been scattered by a Navy invasion. Regroup with the ships that fled to <destination>, and plan your next move."
+
+mission "FW Defend New Tibet"
+	name "The Defector"
+	description "Travel to New Tibet to question the Syndicate about the defector supposedly carrying vital evidence and information that they are behind the bombings."
+
+mission "FW Liberate Delta Sagittarii"
+	name "Liberate Delta Sagittarii"
+	description "Lead a Free Worlds fleet to drive the Navy out of Delta Sagittarii. Another fleet ought to be arriving from the Rim at about the same time."

@@ -1,0 +1,287 @@
+news "merchant anywhere"
+	name
+
+news "merchant in human space"
+	name
+
+news "farmer"
+	name
+
+news "sailor"
+	name
+
+news "textile worker"
+	name
+
+news "miner"
+	name
+
+news "factory worker"
+	name
+
+news "street vendor"
+	name
+
+news "grifter"
+	name
+
+news "company psychologist"
+	name
+
+news "genetic counselor"
+	name
+
+news "investigator"
+	name
+
+news "parent"
+	name
+
+news "unemployed youth"
+	name
+
+news "union organizer"
+	name
+
+news "waste collector"
+	name
+
+news "dock worker"
+	name
+
+news "housekeeper"
+	name
+
+news "groundskeeper"
+	name
+
+news "hair stylist"
+	name
+
+news "painter"
+	name
+
+news "tour guide"
+	name
+
+news "tour guide - warning"
+	name
+
+news "human resources worker"
+	name
+
+news "loan officer"
+	name
+
+news "hyperspace relay engineer"
+	name
+
+news "hyperspace scientist"
+	name
+
+news "geological engineer"
+	name
+
+news "electrical engineer"
+	name
+
+news "agricultural scientist"
+	name
+
+news "athlete"
+	name
+
+news "dentist"
+	name
+
+news "epidemiologist in human space"
+	name
+
+news "epidemiologist on quarg world"
+	name
+
+news "economist"
+	name
+
+news "mechanic"
+	name
+
+news "mechanic on frozen world"
+	name
+
+news "ship salesperson"
+	name
+
+news "nuclear technician"
+	name
+
+news "substance abuse counselor"
+	name
+
+news "reporter"
+	name
+
+news "public relations worker"
+	name
+
+news "museum curator"
+	name
+
+news "actor"
+	name
+
+news "musician"
+	name
+
+news "technical writer"
+	name
+
+news "dietitian"
+	name
+
+news "chef"
+	name
+
+news "insurance agent"
+	name
+
+news "excavation specialist"
+	name
+
+news "chauffeur"
+	name
+
+news "retiree"
+	name
+
+news "financial analyst"
+	name
+
+news "syndicate manager"
+	name
+
+news "work coach"
+	name
+
+news "scientist"
+	name
+
+news "student"
+	name
+
+news "philosopher"
+	name
+
+news "religious"
+	name
+
+news "tourist"
+	name
+
+news "tourist on frozen world"
+	name
+
+news "protester"
+	name
+
+news "diplomat"
+	name
+
+news "mercenary"
+	name
+
+news "republic soldier"
+	name
+
+news "republic soldier (bragging)"
+	name
+
+news "lawyer"
+	name
+
+news "convicted criminal"
+	name
+
+news "syndicate soldier"
+	name
+
+news "pirate"
+	name
+
+news "merchant in pirate space"
+	name
+
+news "farmer in pirate space"
+	name
+
+news "republic reporter in pirate space"
+	name
+
+news "conspiracy theorist"
+	name
+
+news "player's crew member"
+	name
+
+news "sticker on ship"
+	name
+
+news "label on ship"
+	name
+
+news "logo on ship hull"
+	name
+
+news "goods handling"
+	name
+
+news "spaceport video advertisement"
+	name
+
+news "syndicate pa system"
+	name
+
+news "tourist pa system"
+	name
+
+news "republic navy advisory system"
+	name
+
+news "republic navy advisory system [wartime]"
+	name
+
+news "explorer on frozen world"
+	name
+
+news "republic navy advisory system [alphas]"
+	name
+
+news "safety posters"
+	name
+
+news "graffiti on spaceport wall"
+	name
+
+news "ccor graffiti"
+	name
+
+news "ccor guerrilla"
+	name
+
+news "ccor gendarme"
+	name
+
+news "high tension situation"
+	name
+
+news "careless landing"
+	name
+
+news "Discontent"
+	name
+
+news "clandestine"
+	name
+
+news "betelgeuse stolen ship advisory"
+	name

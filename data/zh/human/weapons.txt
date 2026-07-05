@@ -1,0 +1,167 @@
+outfit "Energy Blaster"
+	description "虽然能量爆能枪不是最精准或最具杀伤力的武器，但它广受欢迎，因为它小巧到甚至可以安装在最小的飞船上。一把爆能枪不足以对任何比战斗机更大的目标造成明显伤害，但一艘装备多把爆能枪的飞船就变成了一股不可忽视的力量。"
+
+outfit "Twin Blaster"
+	description "能量爆能枪的普及、低廉价格和稳定性能使得它从问世第一天起就让改装者欲罢不能。这两把爆能枪被螺栓固定在一起，安装在同一个枪口内，以双倍的热量和能量消耗为代价，提供单支爆能枪两倍的伤害，同时还增加了额外质量。"
+
+outfit "Blaster Turret"
+	description "爆能炮塔是将一对能量爆能枪安装在旋转平台上的装置，可以向任何方向开火。精密的软件算法使炮塔能够校正目标的运动，使得爆能炮塔即使对小型快速移动的战斗机也有效。由于需要一个具有360度视野的专用安装点，并非所有飞船都能装备炮塔。"
+
+outfit "Quad Blaster Turret"
+	description "四联爆能炮塔在一个炮塔座上安装了四门炮，将普通爆能炮塔的火力翻倍，适用于有足够空间安装并驱动它的飞船。"
+
+outfit "Modified Blaster"
+	description "这是一把被改装过的能量爆能枪，威力略有提升，但代价是射程缩短和能量消耗增加。改装爆能枪在开火时还会产生极高的热量，增加了飞船过热的危险。"
+
+outfit "Twin Modified Blaster"
+	description "一位有创业精神的工程师，大概是嫌改装爆能枪本来就吓人的安全控制不足，于是将两把这种武器硬塞进同一个枪口里，用狂热的热情粗糙地焊在一起。这把武器会不会在摧毁目标之前先熔化自己的组件，谁也不知道；也许设计者的意图是用双管的外形在武器必须开火之前就威吓敌人屈服。"
+
+outfit "Modified Blaster Turret"
+	description "这是改装爆能枪的炮塔版本，改装爆能枪是对能量爆能枪进行改造以提高威力的产物，代价是更高的能量消耗和热量。这些炮塔深受海盗和其他试图在飞船中塞入尽可能多火力的人的欢迎。"
+
+outfit "Heavy Blaster"
+	description "重型爆能枪是广受欢迎的能量爆能枪设计的放大版变体。在历史上，这些武器曾在多艘战舰上广泛使用，最著名的是 Firebird 最早生产时的主要武器。随著时间推移，粒子炮和等离子炮等更先进武器的发展已经在新式飞船中取代了重型爆能枪，但它仍然表现得足够稳定，可以在较旧但仍能服役的飞船上找到。"
+
+outfit "Beam Laser"
+	description "在太空时代早期，被称为深渊的太空区域的定居点与人类星域其他部分的相对孤立中发展。这种孤立的一个结果是，他们的武器技术大多使用光束武器，而非在其他地方更常见的能量弹射武器。"
+
+outfit "Laser Turret"
+	description "战斗机飞行员痛恨激光炮塔，因为一旦进入射程，几乎不可能躲避它们。这种炮塔搭载了一对激光，可以几乎瞬间转向，对新接近的目标开火。激光炮塔安装在缓慢移动的货船上尤其有用，可以用来抵御小型海盗船的围攻。"
+
+outfit "Heavy Laser"
+	description "重型激光是光束激光的升级版，射程显著更长，威力更高。它主要用于大型飞船，在这些飞船上能量和空间都很充足，但有些飞行员认为一把重型激光可以作为一对光束激光的值得替代选择，因为更长的射程弥补了它不能造成两倍伤害的事实。"
+
+outfit "Heavy Laser Turret"
+	description "对于有足够空间安装的飞船，重型激光炮塔是一种强大的武器，同样适用于驱赶战斗机和用持续火力轰炸更大目标，而无需担心飞船的朝向。"
+
+outfit "Mining Laser"
+	description "	现代采矿激光是光束激光的衍生品，经过设计优化以提高矿物产量和提取率，但牺牲了射程和护盾伤害。"
+
+outfit "Mining Laser Turret"
+	description "	采矿激光炮塔设计用于与小行星扫描器配合使用，因为无法瞄准小行星意味着你必须像使用固定炮一样手动瞄准武器。"
+
+outfit "Tractor Beam"
+	description "斥力引擎的反重力特性在24世纪引发了人类航天的一场革命，但直到最近，工程师们才开始实验引力吸引技术。牵引光束利用初级的吸引技术让飞船能够吸引太空碎片，无论是刚开采的小行星矿石，还是逃命的商船丢弃的货物。这使得牵引光束成为小行星矿工和海盗都欢迎的装备。"
+
+outfit "Electron Beam"
+	description "电子光束是深渊实验室最近开发的产品，是一种设计类似其经久不衰的激光枪但威力更强的武器。"
+
+outfit "Electron Turret"
+	description "这种炮塔将深渊最近开发的两门电子光束武器安装在旋转炮塔上，为击落快速移动目标提供了无与伦比的精度和威力。"
+
+outfit "Anti-Missile Turret"
+	description "几个世纪前，太空战斗主要以导弹为主，胜负仅取决于哪艘船有更多的护盾或弹药。Lovelace Labs 最初正是为了解决这种情况而成立的，他们开发了一种防护系统，可以击落空中的导弹，保护货船队队免受海盗的轰炸，否则海盗根本无需进入枪炮射程就能将其击败。"
+
+outfit "Heavy Anti-Missile Turret"
+	description "重型反导弹炮塔比其较小的兄弟拥有更远的射程、更高的功率和更短的装填时间。唯一能克服它的方法是集群发射导弹，这样当一枚被瞄准时，其他的可以突破防御。正因如此，市场上所有导弹系统现在默认在安装多个相同发射器时集群发射，而不是像普通炮塔那样错开射击。"
+
+outfit "Particle Cannon"
+	description "粒子炮通过将短脉冲粒子加速到接近相对论速度来工作。当安装在一艘能快速度转动以锁定逼近船只的飞船上时，它几乎是一种无敌的武器，能够在较小的飞船接近到其相对短射程武器的有效范围之前就将其摧毁。"
+
+outfit "Proton Gun"
+	description "质子枪最初是辛迪加试图逆向工程并大规模生产粒子炮廉价竞品的产物。不幸的是，他们无法找到可靠的方法来保持光束的相干性，但最终得到的武器仍然受到一些船长的欢迎，特别是作为反战斗机武器。"
+
+outfit "Proton Turret"
+	description "辛迪加质子炮塔是一款相对较新的产品，旨在与深渊经久不衰的激光炮塔在反战斗机防御市场上竞争。虽然比竞争对手粗糙，但质子炮塔在不满激光武器短射程的船长中仍拥有一批忠实追随者。"
+
+outfit "Plasma Cannon"
+	description "等离子炮发射过热的等离子爆发。除了对目标造成伤害，这些等离子爆发还会传递大量热量，特别是对于护盾已降的目标。"
+
+outfit "Plasma Turret"
+	description "等离子炮塔是将一对等离子炮安装在炮塔上，可以向任何方向开火。这是一种令人生畏的武器，但只有最大的飞船才有它所需的空间和能量。"
+
+outfit "Plasma Repeater"
+	description `	衍生自原始等离子炮，这款更重的版本用较小的爆发换来了更快的射速。虽然较小的过热等离子爆发每次伤害远低于其前身，但火力密度总体上对目标造成更多伤害。`
+
+outfit "Flamethrower"
+	description "一种粗糙但令人印象深刻的武器，火焰喷射器点燃你的超空间燃料并将一股火焰流喷向对手。它造成的伤害相对较小，但对于使已经接近热容量极限的目标过热从而暂时退出战斗来说，可以非常有效。"
+
+outfit "Meteor Missile"
+	description "流星导弹用作流星导弹发射器的弹药。每个导弹发射器有自己的容量；如果没有先购买发射舱、发射器或存储箱，你就无法安装导弹。"
+
+outfit "Meteor Missile Box"
+	description "流星导弹储存箱用于储存流星导弹发射器的额外弹药。"
+
+outfit "Meteor Missile Launcher"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Meteor Missile Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Sidewinder Missile"
+	description "响尾蛇导弹是响尾蛇导弹发射器的弹药；你安装的每个发射器最多可装备45枚，而发射舱可携带4枚。如果没有发射舱或发射器来发射，你无法安装导弹。"
+
+outfit "Sidewinder Missile Rack"
+	description "响尾蛇导弹储存架用于储存响尾蛇导弹发射器的额外弹药。"
+
+outfit "Sidewinder Missile Launcher"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Sidewinder Missile Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Javelin"
+	description "标枪导弹是标枪发射舱的弹药；没有储存它们的发射舱，你无法购买或使用标枪。"
+
+outfit "Javelin Storage Crate"
+	description "标枪导弹储存箱用于储存标枪发射舱的额外弹药。"
+
+outfit "Javelin Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Javelin Mini Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Javelin Turret"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Torpedo"
+	description "鱼雷是鱼雷发射器的弹药。每个鱼雷发射器可容纳30枚。除非你也安装了发射器来发射它们，否则你无法安装鱼雷。"
+
+outfit "Torpedo Storage Rack"
+	description "鱼雷储存架用于储存鱼雷发射器的额外弹药。"
+
+outfit "Torpedo Launcher"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Torpedo Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Typhoon Torpedo"
+	description "台风鱼雷是台风发射器的弹药。每个发射器可容纳30枚。除非你也安装了发射器来发射它们，否则你无法安装台风鱼雷。"
+
+outfit "Typhoon Storage Tube"
+	description "台风鱼雷储存管用于储存台风发射器的额外弹药。"
+
+outfit "Typhoon Launcher"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Typhoon Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Heavy Rocket"
+	description "重型火箭是重型火箭发射器的弹药。除非你先安装了发射器来发射，否则你无法安装。每个发射器最多可容纳20枚火箭。"
+
+outfit "Heavy Rocket Rack"
+	description "重型火箭储存架用于储存重型火箭发射器的额外弹药。"
+
+outfit "Heavy Rocket Launcher"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Heavy Rocket Pod"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Nuclear Missile"
+	description "	[核导弹是一次性武器：每枚导弹占据一个枪口槽位，发射后，该槽位便为空。]"
+
+outfit "Gatling Gun Ammo"
+	description "这种简单的弹丸是加特林机枪的弹药，使用贫化核燃料的弹丸或发光的曳光弹。由于这种弹药主要在环境恶劣的海盗世界由童工制造，枪口初速可能差异高达30%，曳光弹分布也很不均匀。"
+
+outfit "Bullet Boxes"
+	description "弹药箱用于储存加特林机枪的额外弹药。"
+
+outfit "Gatling Gun"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
+
+outfit "Gatling Turret"
+	description "	Ammunition for this weapon can be restocked at any outfitter."
