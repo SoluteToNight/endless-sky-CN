@@ -1,49 +1,10 @@
-mission "Immigrant Workers"
-	description "A young couple wants to start a new life on <destination>, and can pay you <payment> to bring them there. They are also bringing along <cargo>."
-
-mission "Pookie, Part 1"
-	name "Pookie"
-	description "Travel to <destination> and meet Pookie, who is staying with her aunt and may be scared of flying."
-
-mission "Pookie, Part 2"
-	name "Pookie"
-	description "Return Pookie the poodle to <destination>."
-
 mission "Pookie, Part 3"
 	name "Stray Dog"
 	description `为你在<origin>上捡到的一只流浪狗找一个家。她可能来自天堂世界中的某一个。`
 
-mission "Smuggler's Den, Part 1"
-	name "Refugees to <planet>"
-	description "Joe and Maria, a young couple with a newborn baby, want to escape slavery and start a new life on <destination>."
-
-mission "Smuggler's Den, Part 2"
-	name "Refugees to <planet>"
-	description "Unable to find work on <origin>, Joe and Maria want to travel to <destination> to see if they can get a job there."
-
-mission "Expedition to Hope 1"
-	name "Expedition to Hope"
-	description "Transport a team of <bunks> scientists to the abandoned world of <planet>, where they will be placing <tons> of meteorological equipment. Payment will be 80,000 credits."
-
-mission "Expedition to Hope 2"
-	name "Expedition to Hope"
-	description "Transport the team of <bunks> scientists home to <destination>, to receive the second half of payment."
-
-mission "Transport Workers A"
-	name "Transport Family"
-	description "Transport a family of <bunks>, as well as <cargo>, to <destination>, where they hope that steady work will be easier to come by. Payment is <payment>."
-
 mission "Transport Workers B"
 	name "Transport Worker"
 	description `这个年轻人正前往<destination>的工厂。他说他想攒够钱，好能够向他的“真爱”求婚。`
-
-mission "Transport Workers C"
-	name "Farming Family"
-	description "Transport this family of <bunks> farmers and <tons> of livestock, to <destination>. Payment is <payment>."
-
-mission "WR Star 1"
-	name "Star Research"
-	description "Fly through the <waypoints> system with a team of <bunks> scientists and <cargo>, then return them to <destination>."
 
 mission "There Might Be Riots 1"
 	name "Transport band to <planet>"
@@ -61,120 +22,9 @@ mission "There Might Be Riots part 3B"
 	name "Transport band to <planet>"
 	description `避开海军战斗无人机，并送乐队“可能会发生骚乱”去<destination>。`
 
-mission "Drug Running 1"
-	name "Drug Running"
-	description "Bring a shipment of <cargo> to <destination>. Payment will be <payment>. If you are caught with this cargo, you may be fined."
-
-mission "Drug Running 2"
-	name "Drug Running"
-	description "Bring a shipment of <cargo> to <destination>. Payment will be <payment>. If you are caught with this cargo, you may be fined."
-
-mission "Drug Running 3"
-	name "Drug Running"
-	description "Bring a shipment of <cargo> to <destination>. Payment will be <payment>. If you are caught with this cargo, you may be fined."
-
-mission "Shady passenger transport 1"
-	name "Shady passenger transport"
-	description "Discreetly transport a passenger to <destination>. Payment will be <payment>. If you are caught with him, you may be fined."
-
-mission "Shady passenger transport 2"
-	name "Shady passenger transport"
-	description "Discreetly transport two passengers to <destination>. Payment will be <payment>. If you are caught with them, you may be fined."
-
-mission "Shady passenger transport 3"
-	name "Shady passenger transport"
-	description "Discreetly transport <bunks> passengers to <destination>. Payment will be <payment>. If you are caught with them, the legal consequences may be severe."
-
-mission "Shady passenger transport 3 - double cross"
-	name "Shady passenger transport"
-	description "Discreetly transport <bunks> passengers to <destination>. Payment will be <payment>. If you are caught with them, the legal consequences may be severe."
-
-mission "Shady passenger transport 3 - double cross big payment"
-	name "Shady passenger transport big payment"
-
-mission "Rescue Miners 1"
-	name "Rescue Miners"
-	description "Participate in the medical evacuation of miners injured on <planet> by bringing <bunks> emergency workers and <cargo> to the planet."
-
-mission "Rescue Miners 2"
-	name "Rescue Miners"
-	description "Participate in the medical evacuation of miners injured on <origin> by bringing <bunks> passengers to the medical facilities on <destination>."
-
-mission "Courier 1"
-	name "Rush delivery to <planet>"
-	description "Deliver <cargo> to <destination> by <date>. Payment is <payment>."
-
-mission "Courier 2"
-	name "Package to <planet>"
-	description "Deliver a package weighing <tons> to <destination> by <date>. Payment is <payment>."
-
-mission "Courier 3"
-	name "Papers to <planet>"
-	description "Deliver <tons> of legal papers to <destination> by <date>. Payment is <payment>."
-
-mission "Courier 4"
-	name "Lizard to <planet>"
-	description "Deliver an exotic pet (weighing <tons>) to <destination> by <date>. Payment is <payment>."
-
-mission "Migrant Workers 1"
-	name "Migrant Workers"
-	description "Bring a group of <bunks> migrant workers to <planet>. Payment is <payment>."
-
-mission "Humanitarian 1"
-	name "Vaccine to <planet>"
-	description "Bring <tons> of flu vaccines to the lawless world of <planet>. Be sure the medicine gets into the right hands."
-
-mission "Humanitarian 2"
-	name "Food to <planet>"
-	description "Bring <tons> of food to the lawless world of <planet>, to help alleviate a famine."
-
-mission "Terraforming 1"
-	name "Terraforming Rand"
-	description "Bring a delegation of two people from Rand to the Academy of Planetary Sciences on Glory."
-
-mission "Terraforming 2"
-	name "Terraforming Rand"
-	description "Return to Rand with the delegation and a student who thinks she can terraform the planet cheaply."
-
-mission "Terraforming 3"
-	name "Terraforming Rand"
-	description "Plant a thruster on an asteroid to guide it into a collision with the northern pole of Rand."
-
-mission "Terraforming 4"
-	name "Terraforming Rand"
-	description "Bring Amy to <destination> to collect some hardy plants that can grow in a low-light environment."
-
-mission "Terraforming 5"
-	name "Terraforming Rand"
-	description "Bring Amy and <tons> of hardy plants that can grow in a low-light environment back to <destination>."
-
 mission "Terraforming 6"
 	name "Unlawful Use of an Asteroid"
 	description `请于 <date> 前往 <destination>，就您“非法使用小行星”的行为接受询问。`
-
-mission "Terraforming 7"
-	name "Terraforming Research"
-	description "Bring Amy and Nolan to <destination>, where they will research and publish Amy's terraforming methods."
-
-mission "Terraforming 8"
-	name "Terraforming Research"
-	description "Meet with Amy and Nolan on <destination> to talk about experimentally terraforming another planet."
-
-mission "Terraforming 9"
-	name "Terraforming Tundra"
-	description "Travel to <destination> with Amy, Nolan, and four others."
-
-mission "Terraforming 10"
-	name "Terraforming Tundra"
-	description "Bring the Republic representative overseeing the terraforming project to <destination>, where he will attempt to find an alternative solution to terraforming Tundra that does not involve an asteroid."
-
-mission "Terraforming 11"
-	name "Terraforming Tundra"
-	description "Return to <destination> with the Republic representative."
-
-mission "Terraforming 12"
-	name "Terraforming Tundra"
-	description "Plant a thruster on an asteroid to guide it into a collision with the dormant supervolcano on Tundra."
 
 event "terraforming Tundra"
 	description `最初的定居者来到这里是为了开采深埋在地表下的石油，这是苔原曾经更为繁荣时期的遗迹。他们没有将石油炼制成在该地区售价相对便宜的塑料，而是发展了合成纤维和服装产业。`
@@ -182,13 +32,6 @@ event "terraforming Tundra"
 event "terraforming follow-up"
 	spaceport `为了纪念日，已经设立了几个摊位来展示用地球合成面料制成的服装。此次活动的新亮点是一组专门展示在苔原这里定制服装的摊位。`
 	description `由于最近的地球化实验结果，兰德已经变得中等程度上更适宜居住。对这种气候变化的迷恋使得兰德成为了尘带的一个半受欢迎的旅游目的地。`
-
-mission "A wolf, a goat, and a cabbage"
-	description "Transport a wolf, a goat, and a cabbage to <destination>. Payment will be <payment>."
-
-mission "Terminus exploration"
-	name "Missing drone"
-	description "Travel to the <waypoints> system to see if you can find any sign of a probe drone that had been launched by a team of scientists before they were attacked by pirates and forced to flee."
 
 mission "Lost Boy 1"
 	name `救救托德`
@@ -238,21 +81,6 @@ mission "Capture Smuggler"
 	name "Capture rogue smuggler"
 	description `一名走私者在<system>附近携带非法货物逃跑。他偷货的未知人物想要拿回货物。从<npc>那里找回货物，并将货物和走私者一起送回<origin>以获得<payment>。`
 
-mission "Inheritance Redirection"
-	description "Travel to <destination> to act as heir for the late warlord Limping Pappa."
-
-mission "Hauler VI cargo prototype 1"
-	name "Escort Hauler prototype to formal dinner"
-	description "Escort the <npc> to <destination> to deliver sushi for a formal dinner."
-
-mission "Hauler VI cargo prototype 2"
-	name "Escort Hauler prototype to <planet>"
-	description "Escort the <npc> to <destination> to deliver cooked fish dishes to a streetfood festival."
-
-mission "Hauler VI cargo prototype 3"
-	name "Escort Hauler prototype to waste plant"
-	description "Escort the <npc> to <destination> to deliver charred food waste to a waste-processing plant."
-
 mission "Antibiotics To South"
 	name "Antibiotics shipment to <planet>"
 	description `将<cargo>送到<destination>。付款为<payment>。预计会遭到一艘名为“Australis”的海盗船的攻击。`
@@ -261,310 +89,18 @@ mission "Pirate Duel"
 	name "Fight at Umbral"
 	description `尽快前往暗影星系，在那里你将与一艘名为 Esca 的小型民兵舰进行决斗。战斗结束后，前往 <destination> 进行后续行动。`
 
-mission "Earth Retirement"
-	name "Retired Family to Earth"
-	description "Transport two seniors to <destination>, where they plan to retire. They can only promise you <payment>."
-
-mission "Spacediving professionals"
-	name "Spacediving at <planet>"
-	description "Head to <destination> with <bunks> professionally equipped skydivers and drop them from the edge of space. They've agreed to pay <payment> when they land."
-
-mission "Spacediving professionals accident"
-	name "Spacediving at <planet>"
-	description "Head to <destination> with <bunks> professionally equipped skydivers and drop them from the edge of space. They've agreed to pay <payment> when they land."
-
-mission "Spacediving professionals disaster"
-	name "Spacediving at <planet>"
-	description "Head to <destination> with <bunks> professionally equipped skydivers and drop them from the edge of space. They've agreed to pay <payment> when they land."
-
-mission "Spacediving amateurs"
-	name "Spacediving at <planet>"
-	description "Head to <destination> with <bunks> poorly equipped skydivers and drop them from the edge of space. They've agreed to pay <payment> when they land."
-
-mission "Human to Hai Space"
-	description "Bring a human passenger to <destination> in Hai space."
-
-mission "Thrall Emigration"
-	name "<origin> Emigration"
-	description "Transport a family from <origin> to <destination>, where they hope to find better employment. They cannot pay you."
-
-mission "Fumbling Mugger"
-	name "Transport to <planet>"
-	description "Bring a young woman who threatened you on <origin> to <destination>."
-
-mission "Laborer"
-	name "Out of Work"
-	description "A man down on his luck needs to get to <destination>. He has promised to send you payment as soon as he has it."
-
-mission "Saving Artifacts 1"
-	name "Saving Artifacts"
-	description "An Earth museum cannot care for these historical artifacts anymore. Bring them to <destination>, where they will be safe."
-
-mission "Saving Artifacts 2"
-	name "Saving Artifacts"
-	description "A pirate warlord has captured a collection of ancient statues from Winter. Go to <destination> in order to bring them to <origin>, where they will be safe."
-
-mission "Saving Artifacts 3"
-	name "Duel Lokust"
-	description "Defeat Lokust as part of a bargain to acquire the stolen statues."
-
-mission "Saving Artifacts 4"
-	name "Saving Artifacts"
-	description "Bring the statues back to <planet>."
-
-mission "Dangerous Games 1"
-	name "Dragonriders"
-	description "A lively man named Karengo and a few passionate youths are traveling to see the dragons on <stopovers>. Take the group there, then return them to <destination> once they've finished."
-
 mission "Dangerous Games 2"
 	name "Karengo's Galactic Adventures"
 	description `冒险家卡伦戈和其他五个人作为他“银河冒险”的一部分正与你一起旅行。把卡伦戈和他的队员带到 <destination> 以获得 <payment>。`
-
-mission "Riley"
-	name "Visiting Home"
-	description "Take a woman named Riley to see her ailing father on <destination> before it's too late."
-
-mission "Wool Smuggling 1"
-	name "Pickup at <planet>"
-	description "Head to <destination> to pick up a shipment of 15 tons of woollen goods for delivery to Bloodsea."
-
-mission "Wool Smuggling 2"
-	name "Wool to <planet>"
-	description "Deliver <cargo> to the pirate world of <destination>. Payment will be <payment>."
-
-mission "Deal Change 1"
-	name "Inheritance to <planet>"
-	description "Deliver <cargo> to <destination>. Payment will be <payment>."
-
-mission "Deal Change 2"
-	name "Inheritance to <planet>"
-	description "Instead of bringing the inheritance to Skymoot, deliver it to <destination>. You were promised <payment> for doing so. To bypass the spaceport toll, hail <planet> and read out the code to the spaceport authority."
-
-mission "Escort offer (Betrayal)"
-	name "Cargo to <planet>"
-	description "Transport <tons> of cargo to <destination> by <date>. You will be paid <payment>. The captain of the <npc> has offered to protect you from any pirates along the way in exchange for a cut of the profits."
-
-mission "Quicksilver Mixup 0"
-	name "Package to Silver"
-	description "Deliver a package to <planet> by <date>. Payment is <payment>."
-
-mission "Quicksilver Mixup 1"
-	name "Redirect Package to <planet>"
-	description "Apparently the package labeled for <origin> was actually intended for <planet>. You'll have missed the deadline, so you probably won't be paid the <payment> offered."
-
-mission "Quicksilver Mixup 2"
-	name "Misposted Mail Delivery"
-	description "Deliver <tons> of misposted mail from <origin> to <planet> by <date> and then come back with the return shipment. You will be paid <payment> after you return from <planet>."
-
-mission "Quicksilver Mixup 3"
-	name "Misposted Mail Delivery"
-	description "Return to <planet> with <cargo>. You will be paid <payment>."
-
-mission "Argosy Hijacking"
-	name "Stop Ship Hijacking"
-	description "The <npc> was hijacked on <origin>; disable it and return to <origin>. Do not board, capture, or destroy it; Syndicated Security will deal with the hijackers in space after you have disabled it."
-
-mission "Blind Man from Martini"
-	name "Transport a blind passenger to <planet>"
-	description "This blind man, Douglas, wishes to be transported to <destination>, so he can be with his daughter while she undergoes treatment there. He will pay you <payment>."
-
-mission "Care Package to South 1"
-	name "Care package to <planet>"
-	description "An activist named Torrey has asked you to take a care package to her friend, an NCO named Irene in the Southern Mutual Defense Pact militia, stationed on <destination>. Payment is <payment>."
-
-mission "Lost Racer 1"
-	name "Search for Artemis Renard"
-	description "Bring a missing racing pilot's father to <destination> by <date>, passing through the <waypoints> systems. You will be paid <payment>."
-
-mission "Lost Racer 2 - Ended"
-	name "Return to <planet>"
-	description "You have decided not to continue the search for Artemis Renard. Return her grieving father August to <destination>."
-
-mission "Lost Racer 2 - Continued"
-	name "Search for Artemis Renard"
-	description "Search the system of <system> for Artemis Renard, especially <planet>."
-
-mission "Lost Racer 2 - Failed"
-	name "Take August to <planet>"
-	description "After your failed search for Artemis Renard, take her father, August, back to <destination>."
-
-mission "Lost Racer 3"
-	name "Return Artemis Renard"
-	description "You have found Artemis Renard. Transport her and her father back to <destination>."
 
 mission "Lost Racer Epilogue"
 	name "Visit Artemis Renard"
 	description `从<destination>的Artemis Renard那里取回一些“多余设备”。`
 
-ship "Racing Flivver"
-	description "	A gift to you for saving Artemis' life after it was pulled from the sand where she crashed post-race, the Renard family has spared no expense in restoring the craft to gleaming perfection."
-
-mission "Moving House 1"
-	name "Moving House"
-	description "An anarchist named Kris has asked you to help move them and <cargo> from <planet stopovers> to <destination>. Payment is <payment>."
-
-mission "Moving House 2"
-	name "Moving House, Again"
-	description "Kris is unsatisfied with life on <destination> and wants your help to move."
-
-mission "Moving House 3"
-	name "Moving House, Again"
-	description "Kris is unsatisfied on <origin> and wants your help to move to <destination> instead. Payment is <payment>."
-
-mission "Stranded In Paradise 1"
-	name "Transport Burnbecks to <planet>"
-	description "The Burnbeck family was stranded by the bombings, and needs <bunks> bunks free for transport back home to <destination>. Payment is <payment>."
-
-mission "Southern Fiance 1"
-	name "Fiance to <planet>"
-	description "Tom, formerly a marketer for the Syndicate, is going to live with his fiance on <destination>. Payment is <payment>."
-
-mission "FW Refugees to Humanika"
-	name "Refugee family to <planet>"
-	description "Transport a family of <bunks> refugees and <cargo> to <destination>. Payment is <payment>."
-
-mission "Derelict Treasure Map: Ion Cannons"
-	name "Derelict Treasure Map"
-	description "Follow the treasure map you found in a derelict ship to <destination>."
-
-mission "Derelict Family Investment 1"
-	name "Lost Family Investment"
-	description "Return the credits you found in a derelict ship to the family it belongs to by traveling to <destination>."
-
-mission "Derelict Family Investment 2"
-	name "Lost Family Investment"
-	description "Return the credits you found in a derelict ship to the family it belongs to by traveling to <destination>."
-
 mission "Returning to Paradise"
 	name "Transport family home to <planet>"
 	description `一个担心自由世界可能遭受破坏的家庭想要缩短假期，回家去<destination>。他们承诺“会给你很丰厚的报酬。”`
 
-mission "Lost Dog"
-	name "Lost dog to <planet>"
-	description "Bring Caesar, a dog you found on <origin>, to their owners on <destination>."
-
 mission "Adelita 1"
 	name "Exhibition installations to <planet>"
 	description `将展览装置的 <tons> 运送到 <destination>，为 Adelita 集体服务。费用为 <payment>。`
-
-mission "Adelita 2"
-	name "Film Syndicate sweatshop on <planet>"
-	description "Participate in an unauthorized filming of a Syndicate sweatshop on <destination>. You will be paid <payment> after you complete the entire job."
-
-mission "Adelita 3"
-	name "Film slave transaction"
-	description "Do a flyby of <destination> while Bunker spies on the slave transaction. You will be paid <payment> after you complete the entire job."
-
-mission "Adelita 4"
-	name "Take the film to <planet>"
-	description "Take the film to <destination>, where the rest of the Adelita group remained behind. You will be paid <payment> after you complete the entire job."
-
-mission "Adelita 5"
-	name "Return Adelita to <planet>"
-	description "Bring everyone back to <destination>. You will be paid <payment> after you complete the entire job."
-
-mission "Syndicate Business 1"
-	name "Rescue kidnapped man in <waypoints>"
-	description "You have received a mysterious distress call from an alleged abductee in the <waypoints> system. Head there to see if you can find the signal's source."
-
-ship "Emergency Shuttle"
-	description "This Emergency Shuttle is custom-built, designed to be attached to a larger ship and to serve as a lifeboat if the need arises. It is intentionally designed to maximize the number of people it can carry to safety, but has very little space for outfits."
-
-mission "Syndicate Business 2"
-	name "Purchase bond on <planet>"
-	description "Bring Howard to <destination> in order to finish the paperwork you'll need to finalize your bond agreement with Megaparsec Incorporated."
-
-mission "Syndicate Business 3"
-	name "Visit Howard on <planet>"
-	description "Howard wants to tell you about another investment opportunity."
-
-mission "Syndicate Business 4"
-	name "Escort Howard to <planet>"
-	description "Escort Howard from Megaparsec Inc. to <planet> to learn what favor is needed in exchange for an investment opportunity."
-
-mission "Syndicate Business 5"
-	name "Disable a Marauder ship in <waypoints>"
-	description "Howard wants you to disable a Marauder ship in exchange for an investment opportunity."
-
-mission "Timothy Radrickson 1a: Accepted"
-	name "Stowaway to <planet>"
-	description "You found a man named Timothy on your ship stowed away in a foodstuff crate, on the run from somebody. He would like you to bring him to <destination>, where he can find work."
-
-mission "Timothy Radrickson 3: Governor Notification"
-	name "Visit the Governor of <planet>"
-	description "The governor of <planet> has invited you to speak with them."
-
-mission "Timothy Radrickson 3a: Rescue the Convoy"
-	name "Rescue <origin> convoy"
-	description "<origin>'s largest ever convoy was intercepted on its way to Tarazed. Merchants report that a large pirate fleet escorting a freighter convoy went to <destination>. Governor Tim has asked you to try and save it before the pirates can plunder it completely."
-
-mission "Timothy Radrickson 3b: Pirate Base"
-	name "Defeat the pirate fleet"
-	description "Destroy the pirate fleet that is holding Rand's convoy hostage, then try and recover it."
-
-mission "Timothy Radrickson 3c: Escort the Convoy"
-	name "Escort the Convoy"
-	description "Escort the Hroar's Haulers Convoy from <origin> to <destination>."
-
-mission "Timothy Radrickson 3d: Return to Rand"
-	name "Return to Rand"
-
-mission "Timothy Radrickson 5a: Timshank Redemption"
-	name "Meet Tim's contact on <planet>"
-	description "Tim would like you to collect some supplies for him, but first he asked you to meet someone on <stopovers> who could help you out. Tim has 18 days (<date>) before he is reassigned to a camp down south."
-
-mission "Timothy Radrickson 5b: New Britain"
-	name "Supplies on New Britain"
-	description "Tim's old secretary Wynnafrith recommended that <destination> would be a good place to find detoxification medication for Tim."
-
-mission "Timothy Radrickson 5c: Dancer"
-	name "Supplies on Dancer"
-	description "Tim's old secretary Wynnafrith recommended that <destination> would be a good place to find a survival suit for Tim."
-
-mission "Timothy Radrickson 5d: Greenrock"
-	name "Supplies on <planet>"
-	description "Tim's old secretary Wynnafrith recommended that <destination> would be a good place to find a fake ID for Tim."
-
-mission "Stone to Hope"
-	name "Bring Tosti's stone to <planet>"
-	description "Take Tosti's family stone to <destination>, where the Snaiwaz clan used to live before they immigrated to <origin>."
-
-mission "Stone to Ice Queen"
-	name "Bring Ildico to <planet>"
-	description "You found a woman named Ildico Drifa in an abandoned manor on <origin>. She has asked you to bring her to <destination> so she can escape the abandoned planet."
-
-mission "Ice Queen"
-	name "Bring Ildico to <planet>"
-	description "You found a woman named Ildico Drifa in an abandoned manor on <origin>. She has asked you to bring her to <destination> so she can escape the abandoned planet."
-
-mission "Ice Queen 2"
-	name "Find Ildico's Father"
-	description "Look for Ildico's father on <destination>, where he went after he left Clark."
-
-mission "Ice Queen 3"
-	name "Find Ildico's Father"
-	description "Professor McGiven told you that Ildico's father now works for the Republic on <destination>. Bring Ildico there to see if you can visit him."
-
-mission "Ice Queen 5"
-	name "Visit Ildico"
-	description "Ildico has asked you to visit her on <destination>."
-
-mission "Ice Queen 6"
-	name "Take Ildico to <planet>"
-	description "Smuggle Ildico and her child to <destination>."
-
-mission "Ice Queen 7"
-	name "Meet Ildy on <planet>"
-	description "See what Ildico needs on <destination>."
-
-mission "Ice Queen 8"
-	name "Defeat Ildico's rivals"
-	description "Ildico has requested you to destroy a fleet of Marauder ships near the <system> system. Once you're done, return to <planet>."
-
-mission "A Dead Man's Path 1"
-	name "Siblings to New China"
-	description "Bring these siblings to New China to hear their father's last will by <date>. They have offered to pay you <payment>."
-
-mission "A Dead Man's Path 2"
-	name "Following Footprints"
-	description "Bring Sophie and Liam through <waypoints>, before finally bringing them to <destination>. They will pay you another <payment>."

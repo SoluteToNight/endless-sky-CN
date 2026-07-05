@@ -50,9 +50,6 @@ event "fw southern expansion"
 event "Deep memorial expansion 1"
 	spaceport `	空港以北是自由世界战争纪念碑，那是一系列花岗岩墙壁，上面刻着阵亡者的名字。该遗址已从原来的规模扩大，外围正在竖立一圈外墙，以容纳补刻名字的另外五十面墙。`
 
-event "fw prison on Clink closes"
-	description `About a decade ago, a mining corporation from Zug planted a colony on Clink for harvesting some rare earth minerals that are present in this moon's crust due to its unusually high rate of asteroid impacts. The atmosphere here is too thin to breathe without a respirator, and because of the low gravity, the dust raised by the mining operations hangs perpetually in the air.`
-
 event "liberation of Poisonwood"
 	spaceport `	港口中心的小酒馆名叫"离别之杯"。墙壁上挂满了战后拍摄的照片，全都拍摄于毒木星：获释的奴隶登上海军飞船，离开这颗给他们带来无尽痛苦的行星；海军军官下船到他们解放的世界上退休；离去的朋友；被留下的朋友。还有更新的照片：一艘巡洋舰和两艘猎鹰并排停靠；装甲部队从工厂走出；一位熟悉的船长正与一位你知道是阮指挥官的人交谈。被列入一段你只产生过最微弱影响的历史英雄之中，真是一种奇怪的感觉。`
 

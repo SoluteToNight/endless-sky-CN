@@ -24,24 +24,3 @@ mission "From Earth Day celebration [1]"
 mission "From Earth Day celebration [2]"
 	name `地球日归程`
 	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
-
-mission "Transport farmers to Mars"
-	description "This group of <bunks> factory workers are hoping to start anew on <planet> as farmers. They will pay you <payment> to take them there."
-
-mission "Transport tourists to Luna"
-	description "This family of <bunks> would like to see the historic sights on Luna. They will pay you <payment> to take them there."
-
-mission "Transport seasonal workers to Earth"
-	description "This group of <bunks> temporary farm workers are looking for transportation back home to Earth. They will pay you <payment> to take them there."
-
-mission "Tycho Crater Shipyards Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
-
-mission "Tycho Crater Shipyards Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."
-
-mission "Tycho Crater Shipyards Shipment [2]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Tycho Crater Shipyards, a constituent of the Republic Navy Yard. Payment is <payment>."

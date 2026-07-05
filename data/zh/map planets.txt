@@ -444,12 +444,6 @@ planet "Elek Kartanu"
 planet "Elthe"
 	description `	通过不成文的共识，无空气的卫星埃尔西——被发现含有塞夫周围唯一重要的裂变物质矿藏——成为了一种中立地带。在这里以"常规"方式了结旧怨或解决争议索赔是被严重不赞同的，因此离岸世界的公司感到足够安全，在这里建立贸易站将塞夫周围开采的大量矿物运出。government Uninhabited security 0 `
 
-planet "Ember Reaches"
-	spaceport ` wormhole "Ember Reaches"  wormhole "Ember Reaches" mappable link Coluber Convector link Convector Coluber color "wormholes: Ember Waste" `
-
-planet "Ember Wormhole"
-	spaceport ` wormhole "Ember Wormhole"  wormhole "Ember Wormhole" mappable link Aescolanus Cardea link Cardea Insitor link Insitor Segesta link Segesta Aescolanus color "wormholes: Ember Waste" `
-
 planet "Eminonu"
 	description `埃米诺努显著呈绿色的岩石显示出极高的铜含量以及历史上大气水的存在。散落的植被碎片表明，直到最近，这颗世界曾是某种花园行星——尽管很可能是一颗寒冷的花园行星。如今，绝大部分水分被锁在冰原中，环境温度冷得连耐寒的地衣都无法生存。government Uninhabited security 0 `
 
@@ -1427,9 +1421,6 @@ planet "Rekat Moraski"
 planet "Relic"
 	description `遗迹殖民始于七百多年前，那时第一台超空间驱动器的建造仍在活人的记忆中。当时，大多数星舰的航程非常有限，因此与地球相邻的恒星是任何殖民尝试唯一可行的选项。由于这一点，遗迹似乎将成为主要殖民地，尽管重力低、环境恶劣、资源有限。`
 
-planet "Remnant Wormhole"
-	spaceport ` wormhole "Remnant Wormhole"  wormhole "Remnant Wormhole" mappable link Peragenor Edusa link Edusa Peragenor color "wormholes: Ember Waste" `
-
 planet "Remote Blue"
 	description `大多数基梅克人以身为联盟成员而自豪，但那些对其他物种持怀疑态度、或只是想等夸格人带着报复回来时尽可能远离赫利亚克环世界的人，选择居住于此。因此，尽管位置偏远，这个世界仍维持着超过八十亿的人口。许多城市的外围设有防御炮台，这是当地偏执狂的又一个标志。`
 
@@ -1702,9 +1693,6 @@ planet "Stronghold of Flugbu"
 	spaceport `这里的太空港是一个单一的大规模建筑群，是其军事历史的遗迹，外缘周围有各种尺寸的机库，还有可能仍然可用的炮台——尽管数千年来几乎不需要它们。一支太阳使者军事舰队也驻扎在此，但他们的角色大多是礼仪性的。`
 	description `弗拉格布要塞在独立战争期间被用作军事基地。如今它是一个制造业世界，专门生产不是大型机器而是小巧精密的组件。它也是贝布利斯家族的所在地——那个专门从事通讯、翻译和加密的秘密公会。贝布利斯家族对联盟经济至关重要，因为他们维护着超空间通讯网络，但也有传言说他们可能与月神会有联系。`
 
-planet "Successor Wormhole"
-	spaceport ` wormhole "Successor Wormhole"  wormhole "Successor Wormhole" link "Myruet-Kvelq" "Oublaa-Khora" link "Oublaa-Khora" "Myruet-Kvelq" color "wormholes: Ember Waste" mappable `
-
 planet "Sundive"
 	spaceport `太空港位于一片宽阔开阔的平原上；大多数着陆点只是夯实的泥地。周围只有农田和森林；最近的城市在数公里之外，大概是为了让居民免受行星太空港和飞船繁忙来往的喧嚣。`
 	description `日潜大部分被热带雨林和稀树草原覆盖，但拥有足够开阔的平原地使它也成为一个主要的农业世界。一年中的大部分时间，这里的天气相当温和，但龙卷风和大规模雷暴在夏季并不少见。`
@@ -1959,9 +1947,6 @@ planet "Windblain"
 planet "Winter"
 	spaceport `太空港建在一大块岩石露头上，两侧是蔚蓝壮丽的冰川，向下流入湖泊。景观令人叹为观止，而更加迷人的是你能够透过平板玻璃窗，在太空港的温暖中欣赏这一切，而非在室外冰冷刺骨的空气里。头顶上方，数层云朵向不同方向疾驰掠过天空。`
 	description `凛冬大气中浓密的云层遮蔽了大部分阳光，在下方创造了一片严寒的景象。这颗行星直到大约一个世纪前才有人定居，当时一群来自弗卡德的投资者决定在此建立制造中心，而非试图在已经过度拥挤的慰藉星上寻找更多土地。他们声称工业排放的二氧化碳和其他温室气体最终会使行星变暖，将其变成热带天堂，从而吸引了足够多的定居者来维持工厂运转。`
-
-planet "Wormhole Alpha"
-	spaceport ` government "Wormhole Alpha" wormhole "Wormhole Alpha"  wormhole "Wormhole Alpha" mappable link "Ultima Thule" Waypoint link Waypoint "Ultima Thule"`
 
 planet "Wye Tzeou"
 	description `卫泽乌位于一个明显安静的星系中。其表面覆盖着极端的结晶状结构，以各种形态向外突起。这些构造都异常高大，没有两个完全相同。这颗行星的实际表面似乎远在这些神秘柱体构成的一层之下。这样的结构没有明显的环境成因，因为柔和的雪季和温和的低风速是卫泽乌最活跃的自然要素。`

@@ -82,23 +82,11 @@ outfit "Meteor Missile"
 outfit "Meteor Missile Box"
 	description "流星导弹储存箱用于储存流星导弹发射器的额外弹药。"
 
-outfit "Meteor Missile Launcher"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Meteor Missile Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
 outfit "Sidewinder Missile"
 	description "响尾蛇导弹是响尾蛇导弹发射器的弹药；你安装的每个发射器最多可装备45枚，而发射舱可携带4枚。如果没有发射舱或发射器来发射，你无法安装导弹。"
 
 outfit "Sidewinder Missile Rack"
 	description "响尾蛇导弹储存架用于储存响尾蛇导弹发射器的额外弹药。"
-
-outfit "Sidewinder Missile Launcher"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Sidewinder Missile Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
 
 outfit "Javelin"
 	description "标枪导弹是标枪发射舱的弹药；没有储存它们的发射舱，你无法购买或使用标枪。"
@@ -106,26 +94,11 @@ outfit "Javelin"
 outfit "Javelin Storage Crate"
 	description "标枪导弹储存箱用于储存标枪发射舱的额外弹药。"
 
-outfit "Javelin Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Javelin Mini Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Javelin Turret"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
 outfit "Torpedo"
 	description "鱼雷是鱼雷发射器的弹药。每个鱼雷发射器可容纳30枚。除非你也安装了发射器来发射它们，否则你无法安装鱼雷。"
 
 outfit "Torpedo Storage Rack"
 	description "鱼雷储存架用于储存鱼雷发射器的额外弹药。"
-
-outfit "Torpedo Launcher"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Torpedo Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
 
 outfit "Typhoon Torpedo"
 	description "台风鱼雷是台风发射器的弹药。每个发射器可容纳30枚。除非你也安装了发射器来发射它们，否则你无法安装台风鱼雷。"
@@ -133,23 +106,11 @@ outfit "Typhoon Torpedo"
 outfit "Typhoon Storage Tube"
 	description "台风鱼雷储存管用于储存台风发射器的额外弹药。"
 
-outfit "Typhoon Launcher"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Typhoon Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
 outfit "Heavy Rocket"
 	description "重型火箭是重型火箭发射器的弹药。除非你先安装了发射器来发射，否则你无法安装。每个发射器最多可容纳20枚火箭。"
 
 outfit "Heavy Rocket Rack"
 	description "重型火箭储存架用于储存重型火箭发射器的额外弹药。"
-
-outfit "Heavy Rocket Launcher"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Heavy Rocket Pod"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
 
 outfit "Nuclear Missile"
 	description "	[核导弹是一次性武器：每枚导弹占据一个枪口槽位，发射后，该槽位便为空。]"
@@ -159,9 +120,3 @@ outfit "Gatling Gun Ammo"
 
 outfit "Bullet Boxes"
 	description "弹药箱用于储存加特林机枪的额外弹药。"
-
-outfit "Gatling Gun"
-	description "	Ammunition for this weapon can be restocked at any outfitter."
-
-outfit "Gatling Turret"
-	description "	Ammunition for this weapon can be restocked at any outfitter."

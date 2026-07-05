@@ -9,22 +9,3 @@ mission "Frontier delivery [1]"
 mission "Frontier delivery [2]"
 	name "Frontier delivery to <planet>"
 	description `将<cargo>运送到边境星球<destination>。边境星系海盗活动频繁，请做好自卫准备。报酬为<payment>。`
-
-mission "Frontier Emigration [0]"
-	name "Emigration to <planet>"
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
-
-mission "Frontier Emigration [1]"
-	name "Emigration to <planet>"
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
-
-mission "Frontier Emigration [2]"
-	name "Emigration to <planet>"
-	description "These <bunks> passengers have finally saved up enough money to start a new life on <destination>, and are willing to pay you <payment> to transport them."
-
-mission "Disaster Relief"
-	name "Disaster relief to <planet>"
-	description "A disaster has occurred in a colony on the frontier world of <destination>. Deliver <cargo> to the planet by <date> for <payment>."
-
-mission "Instruct Novice Pilot"
-	description "A novice pilot seeks instruction from an experienced captain, and requests an escort to <stopovers>. After that, return to <origin> and you will receive payment of <payment>."

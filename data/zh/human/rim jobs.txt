@@ -1,19 +1,3 @@
-mission "Southbound Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Southbound Shipyards, the largest ship foundry in the Rim. Payment is <payment>."
-
-mission "Southbound Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Southbound Shipyards, the largest ship foundry in the Rim. Payment is <payment>."
-
-mission "Kraz Shipment [0]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Kraz Cybernetics, a major weapons and systems manufacturer in the Rim. Payment is <payment>."
-
-mission "Kraz Shipment [1]"
-	name "Shipment to <planet>"
-	description "Deliver <cargo> to <destination>, the home of Kraz Cybernetics, a major weapons and systems manufacturer in the Rim. Payment is <payment>."
-
 mission "Han Sizer Month [0]"
 	name `韩·赛泽庆典`
 	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`
@@ -29,11 +13,3 @@ mission "Han Sizer Month [2]"
 mission "Han Sizer Month [3]"
 	name `韩·赛泽庆典`
 	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`
-
-mission "Delta V Hovercraft Racer Transport"
-	name "Transport racer to <planet>"
-	description "Deliver a pilot and their hovercraft to <destination> to attend a race by <date>."
-
-mission "Delta V Hovercraft Large Racer Transport"
-	name "Transport team to <planet>"
-	description "Deliver this <passengers>-member racing team and their set of <cargo> to <destination> to attend a race by <date>."
