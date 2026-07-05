@@ -1,23 +1,510 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2021 by Amazinite
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 ship "Kaiken"
-	description "	战斗机不配备超空间驱动器。除非你的舰队中有一艘带战斗机舱位的飞船，否则你无法携带战斗机。"
+	sprite "ship/kaiken"
+	thumbnail "thumbnail/kaiken"
+	attributes
+		category "Fighter"
+		"cost" 1199000
+		"shields" 3200
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 1.05
+		"heat dissipation" 0.91
+		"outfit space" 121
+		"weapon capacity" 35
+		"engine capacity" 45
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Locust Blaster" 3
+		"Lasher Pistol"
+
+		"Solar Battery"
+		"Solar Cell" 27
+		"Small Shield Relay"
+		"Shield Relay Limiter" 6
+
+		"Chiisana Rift Thruster" 2
+		"Chiisana Rift Steering"
+
+	engine -5.5 30.5
+	engine 5.5 30.5
+	gun -7 -31
+	gun 7 -31
+	gun 0 -20
+	leak "flame" 60 80
+	explode "tiny explosion" 20
+	explode "small explosion" 15
+	description	"虽然按战斗机标准并非特别快速，但Kaiken在速度上的不足由耐久性和火力弥补。对于一艘小型飞船来说，它装备了令人惊讶的重型武装。"
+	description	"虽然按战斗机标准并非特别快速，但Kaiken在速度上的不足由耐久性和火力弥补。对于一艘小型飞船来说，它装备了令人惊讶的重型武装。"
+
+
 
 ship "Sasumata"
-	description "	隐形技术直接构建在刺叉的船体中；无法被移除或转移到其他舰船上。"
+	sprite "ship/sasumata"
+	thumbnail "thumbnail/sasumata"
+	attributes
+		category "Transport"
+		"cost" 12650000
+		"shields" 15500
+		"hull" 4200
+		"required crew" 10
+		"bunks" 72
+		"mass" 710
+		"drag" 7.05
+		"heat dissipation" 0.54
+		"fuel capacity" 700
+		"cargo space" 32
+		"outfit space" 397
+		"weapon capacity" 122
+		"engine capacity" 126
+		"cloak" .05
+		"cloaked regen multiplier" -1
+		"cloaked repair multiplier" -1
+		"cloaking energy" 10
+		"cloaking fuel" .05
+		weapon
+			"blast radius" 90
+			"shield damage" 900
+			"hull damage" 450
+			"hit force" 1350
+	outfits
+		"Swarm Pod" 2
+		"Swarm Missile" 1000
+		"Swarm Clip"
+		"Buzzer Anti-Missile" 2
+		"Lasher Pistol" 41
+
+		"Quark Reactor"
+		"Reactor Overclocker" 2
+		"Solar Battery" 2
+		"Solar Cell" 30
+		"Large Shield Relay"
+		"Shield Relay Limiter" 10
+
+		"Subarashii Rift Thruster"
+		"Ookii Rift Steering"
+		"Hyperdrive"
+
+	engine -11 109
+	engine 11 109
+	gun -12.5 -110.5
+	gun 12.5 -110.5
+	turret -10 -5
+	turret 10 -5
+	bay "Fighter" 0 -93
+	bay "Fighter" 0 -93
+	bay "Fighter" 0 -93
+	bay "Fighter" 0 -93
+	leak "leak" 50 50
+	leak "big leak" 80 30
+	explode "tiny explosion" 30
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion small"
+	description	"Sasumata是Bunrodea的主要侦察船。虽然不适合战斗，但这艘隐形运输船仍然出奇地坚固，拥有足够的装甲以在危险区域生存。"
+	description	"Sasumata是Bunrodea的主要侦察船。虽然不适合战斗，但这艘隐形运输船仍然出奇地坚固，拥有足够的装甲以在危险区域生存。"
+
+
 
 ship "Tanto"
-	description "短刀货船被设计为一艘快速突破封锁的运输船。虽然轻装甲且火力较弱，但短刀对于其尺寸而言极其迅捷，使其能够在任何敌对势力全力攻击这艘小型舰船之前跃入并离开星系。"
+	sprite "ship/tanto"
+	thumbnail "thumbnail/tanto"
+	attributes
+		category "Light Freighter"
+		"cost" 5995000
+		"shields" 16200
+		"hull" 3600
+		"required crew" 3
+		"bunks" 7
+		"mass" 247
+		"drag" 3.9
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 219
+		"outfit space" 231
+		"weapon capacity" 56
+		"engine capacity" 102
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Buzzer Anti-Missile" 2
+		"Lasher Pistol" 5
+
+		"Solar Battery" 2
+		"Solar Cell" 42
+		"Small Shield Relay"
+
+		"Ookii Rift Thruster"
+		"Ookii Rift Steering"
+		"Chiisana Rift Thruster"
+		"Hyperdrive"
+
+	engine -20 148
+	engine 20 148
+	gun -16.5 -135
+	gun 16.5 -135
+	turret 0 -74.5
+	turret 0 108
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 30
+	explode "small explosion" 30
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description	"Tanto货船被设计为快速突破封锁线。虽然装甲和武装较轻，但Tanto速度极快，是Bunrodea舰队中最可靠的运输船之一。"
+
+
 
 ship "Ararebo"
-	description "狼牙棒是本罗迪亚跨空间运输大宗货物的主要方法之一，但任何胆敢认为这艘货船是软目标的人都将大错特错。狼牙棒同时兼任本罗迪亚的主力支援航母，携带一支由八架战斗机组成的编队，足以将几乎任何舰船撕成碎片。"
+	sprite "ship/ararebo"
+	thumbnail "thumbnail/ararebo"
+	attributes
+		category "Utility"
+		"cost" 17565000
+		"shields" 50300
+		"hull" 13600
+		"required crew" 15
+		"bunks" 43
+		"mass" 1068
+		"drag" 19.7
+		"heat dissipation" 0.53
+		"fuel capacity" 700
+		"cargo space" 414
+		"outfit space" 594
+		"weapon capacity" 112
+		"engine capacity" 108
+		weapon
+			"blast radius" 200
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3000
+	outfits
+		"Locust Turret" 2
+		"Buzzer Anti-Missile" 2
+		"Lasher Pistol" 29
+
+		"Dark Reactor"
+		"Reactor Overclocker" 8
+		"Reactor Limiter" 3
+		"Solar Battery"
+		"Solar Cell" 36
+		"Large Shield Relay"
+		"Shield Relay Booster" 16
+		"Large Nanite Fabricator"
+		"Nanite Enhancer" 5
+
+		"Ookii Rift Thruster"
+		"Ookii Rift Steering"
+		"Hyperdrive"
+
+	engine -17 185
+	engine 17 185
+	turret 0 -118.5 "Buzzer Anti-Missile"
+	turret 0 -41 "Locust Turret"
+	turret 0 79.5 "Locust Turret"
+	turret 0 112 "Buzzer Anti-Missile"
+	bay "Fighter" 0 -132
+	bay "Fighter" 0 -132
+	bay "Fighter" -7 -132
+	bay "Fighter" 7 -132
+	bay "Fighter" -17 -132
+	bay "Fighter" 17 -132
+	bay "Fighter" -29 -133.5
+	bay "Fighter" 29 -133.5
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "tiny explosion" 50
+	explode "small explosion" 30
+	explode "medium explosion" 10
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description	"Ararebo是Bunrodea在太空中运送大量货物主要方式之一，但任何认为它好欺负的人都将面对其八门前置火炮的愤怒。"
+
+
 
 ship "Tekkan"
-	description "铁管刀是本罗迪亚军火库中唯一偏爱炮塔而非前射炮的舰船。这使得这艘小而快的舰船能够为那些炮位多于炮塔座的本罗迪亚大型舰船提供主要的反导弹防御。铁管刀还能利用罕见但强大的蝗虫炮塔，将相当可观的伤害装进一艘小型舰船中。"
+	sprite "ship/tekkan"
+	thumbnail "thumbnail/tekkan"
+	attributes
+		category "Light Warship"
+		"cost" 10119000
+		"shields" 18600
+		"hull" 5200
+		"required crew" 6
+		"bunks" 9
+		"mass" 364
+		"drag" 4.0
+		"heat dissipation" 0.75
+		"fuel capacity" 700
+		"cargo space" 21
+		"outfit space" 321
+		"weapon capacity" 100
+		"engine capacity" 85
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Locust Blaster" 2
+		"Locust Turret"
+		"Buzzer Anti-Missile" 2
+		"Lasher Pistol" 8
+
+		"Quark Reactor"
+		"Solar Battery"
+		"Solar Cell" 36
+		"Small Shield Relay"
+		"Shield Relay Booster" 5
+
+		"Ookii Rift Thruster"
+		"Ookii Rift Steering"
+		"Hyperdrive"
+
+	engine -11.5 66.5
+	engine 11.5 66.5
+	gun -24 -62.5
+	gun 24 -62.5
+	turret 0 -42 "Locust Turret"
+	turret -25 -2 "Buzzer Anti-Missile"
+	turret 25 -2 "Buzzer Anti-Missile"
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 40
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	explode "large explosion" 5
+	"final explode" "final explosion small"
+	description	"Tekkan是Bunrodea武器库中唯一偏爱炮塔而非前置火炮的飞船。这使小型舰船能够专注于使用其前向武器，同时Tekkan从侧翼提供火力掩护。"
+
+
 
 ship "Kunai"
-	description "苦无是本罗迪亚最小的炮艇，这类战舰高度依赖其前射炮的火力。由于没有炮塔座且更注重转向速度而非直线速度，苦无极易受到导弹武器的攻击，必须依赖舰队中的其他舰船携带反导弹炮塔。"
+	sprite "ship/kunai"
+	thumbnail "thumbnail/kunai"
+	attributes
+		category "Light Warship"
+		"cost" 12444000
+		"shields" 21400
+		"hull" 5700
+		"required crew" 15
+		"bunks" 37
+		"mass" 603
+		"drag" 6.8
+		"heat dissipation" 0.66
+		"fuel capacity" 700
+		"cargo space" 28
+		"outfit space" 407
+		"weapon capacity" 158
+		"engine capacity" 102
+		weapon
+			"blast radius" 210
+			"shield damage" 2100
+			"hull damage" 1050
+			"hit force" 3150
+	outfits
+		"Mandible Cannon" 4
+		"Locust Blaster" 2
+		"Lasher Pistol" 26
+
+		"Quark Reactor"
+		"Solar Battery" 2
+		"Solar Cell" 28
+		"Small Shield Relay"
+		"Shield Relay Booster" 4
+		"Small Nanite Fabricator"
+
+		"Ookii Rift Thruster"
+		"Ookii Rift Steering"
+		"Chiisana Rift Steering"
+		"Hyperdrive"
+
+	engine -8 49
+	engine 8 49
+	gun -5.5 -29.5 "Locust Blaster"
+	gun 5.5 -29.5 "Locust Blaster"
+	gun -13.5 -20.5 "Mandible Cannon"
+	gun 13.5 -20.5 "Mandible Cannon"
+	gun -40 -19 "Mandible Cannon"
+	gun 40 -19 "Mandible Cannon"
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion small"
+	description	"Kunai是Bunrodea最小的炮舰。这些战舰高度重视前置火力，如果敌人愚蠢到待在它们前方，它们能造成巨大伤害。"
+
+
 
 ship "Kama"
-	description "镰刀炮艇是一艘强大的战舰，能够携带多达十门炮，并拥有一个通常配备反导弹炮塔的炮塔座。这使得镰刀比其较小的姊妹舰苦无更不易受导弹武器的攻击。"
+	sprite "ship/kama"
+	thumbnail "thumbnail/kama"
+	attributes
+		category "Medium Warship"
+		"cost" 20580000
+		"shields" 43700
+		"hull" 11500
+		"required crew" 39
+		"bunks" 43
+		"mass" 1160
+		"drag" 12.6
+		"heat dissipation" 0.5
+		"fuel capacity" 800
+		"cargo space" 56
+		"outfit space" 573
+		"weapon capacity" 247
+		"engine capacity" 121
+		weapon
+			"blast radius" 350
+			"shield damage" 3500
+			"hull damage" 1750
+			"hit force" 5250
+	outfits
+		"Mandible Cannon" 4
+		"Swarm Pod" 6
+		"Swarm Missile" 2400
+		"Lasher Pistol" 41
+
+		"Electroweak Reactor"
+		"Reactor Overclocker" 2
+		"Solar Battery"
+		"Solar Cell" 36
+		"Large Shield Relay"
+		"Shield Relay Booster" 6
+		"Outfits Expansion" 2
+
+		"Ookii Rift Thruster"
+		"Ookii Rift Steering"
+		"Nami Rift Steering"
+		"Hyperdrive"
+
+	engine -11.5 132.5
+	engine 11.5 132.5
+	gun -24.5 -129 "Swarm Pod"
+	gun 24.5 -129 "Swarm Pod"
+	gun -5 -114 "Mandible Cannon"
+	gun 5 -114 "Mandible Cannon"
+	gun -14 -105.5 "Mandible Cannon"
+	gun 14 -105.5 "Mandible Cannon"
+	gun -54.5 -20 "Swarm Pod"
+	gun 54.5 -20 "Swarm Pod"
+	gun -62.5 -9.5 "Swarm Pod"
+	gun 62.5 -9.5 "Swarm Pod"
+	turret 0 54.5
+	leak "leak" 50 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "tiny explosion" 80
+	explode "small explosion" 40
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 10
+	"final explode" "final explosion medium"
+	description	"Kama炮舰是一艘 formidable 的战舰，能够携带多达十门火炮以及一个炮塔安装座。虽然速度不如小型舰船，但在正面对抗中几乎无可匹敌。"
+
+
 
 ship "Chigiriki"
-	description "锁链锤是本罗迪亚最大的炮艇，拥有惊人的十七个炮位。其中一个炮位装备了毁灭性的胸廓加农炮，一门能够对任何胆敢挡在锁链锤面前的舰船造成重大伤害的巨型火炮。部分锁链锤还兼作导弹平台，倾泻出密集到足以遮蔽最近恒星的导弹弹幕。"
+	sprite "ship/chigiriki"
+	thumbnail "thumbnail/chigiriki"
+	attributes
+		category "Heavy Warship"
+		"cost" 30876000
+		"shields" 64200
+		"hull" 21000
+		"required crew" 49
+		"bunks" 69
+		"mass" 1698
+		"drag" 16.54
+		"heat dissipation" 0.4
+		"fuel capacity" 900
+		"cargo space" 102
+		"outfit space" 747
+		"weapon capacity" 504
+		"engine capacity" 145
+		weapon
+			"blast radius" 410
+			"shield damage" 4100
+			"hull damage" 2050
+			"hit force" 6600
+	outfits
+		"Thorax Cannon"
+		"Locust Blaster" 6
+		"Swarm Pod" 10
+		"Swarm Missile" 4000
+		"Lasher Pistol" 59
+
+		"Dark Reactor"
+		"Reactor Limiter" 3
+		"Solar Battery" 3
+		"Solar Cell" 19
+		"Large Shield Relay"
+		"Shield Relay Booster" 16
+		"Outfits Expansion" 4
+
+		"Ookii Rift Thruster"
+		"Subarashii Rift Steering"
+		"Hyperdrive"
+
+	engine -75 155
+	engine 75 155
+	engine -22.5 183.5
+	engine 22.5 183.5
+	gun -33.5 -175 "Locust Blaster"
+	gun 33.5 -175 "Locust Blaster"
+	gun -24 -157.5 "Locust Blaster"
+	gun 24 -157.5 "Locust Blaster"
+	gun -14.5 -153 "Locust Blaster"
+	gun 14.5 -153 "Locust Blaster"
+	gun 0 -143 "Thorax Cannon"
+	gun -67 -26.5 "Swarm Pod"
+	gun 67 -26.5 "Swarm Pod"
+	gun -75 12.5 "Swarm Pod"
+	gun 75 12.5 "Swarm Pod"
+	gun -82.5 21.5 "Swarm Pod"
+	gun 82.5 21.5 "Swarm Pod"
+	gun -95.5 85.5 "Swarm Pod"
+	gun 95.5 85.5 "Swarm Pod"
+	gun -106.5 105.5 "Swarm Pod"
+	gun 106.5 105.5 "Swarm Pod"
+	turret -20.5 40
+	turret 20.5 40
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 90
+	explode "small explosion" 70
+	explode "medium explosion" 45
+	explode "large explosion" 20
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description	"Chigiriki是Bunrodea最大的炮舰，拥有惊人的十七个炮口。其中一个炮口通常被护盾发生器占用，但即便如此，它仍然是一股不容忽视的力量。"

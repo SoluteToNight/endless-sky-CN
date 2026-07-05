@@ -1,26 +1,339 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2022 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 outfit "Drak Distancer"
-	description "这是一种可以向任意方向产生推力的推进器，使德拉克舰船能够与目标保持安全距离。"
+	category "Turrets"
+	series "Turrets"
+	index 99020
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 64
+	"outfit space" -64
+	"weapon capacity" -64
+	"turret mounts" -1
+	"energy capacity" 6400
+	weapon
+		"fire effect" "distancer flare"
+		"turret turn" 4.
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 15
+		"firing heat" 10
+		"firing force" 112.5
+	description	"这是一种可以朝任何方向产生推力的推进器，使Drak飞船能够与目标保持安全距离。"
+
+effect "distancer flare"
+	sprite "effect/distancer"
+		"frame rate" 1.618
+	"lifetime" 0
+	"velocity scale" 1
+
 
 outfit "Drak Draining Field"
-	description "这种装置是执政官的主要防御工具：它不仅能扰乱其范围内所有敌对舰船的护盾和能量供应，还能施加强大的排斥力，阻止敌舰接近执政官。"
+	category "Turrets"
+	series "Turrets"
+	index 99030
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	"energy capacity" 8400
+	weapon
+		"turret turn" 180
+		"velocity" 1
+		"lifetime" 1
+		"range override" 1200
+		"velocity override" 1200
+		"blast radius" 1200
+		"trigger radius" 1200
+		"reload" 1
+		"firing energy" -15
+		"firing heat" 5
+		"firing force" 45
+		"hit force" 150
+		"shield damage" 50
+		"ion damage" .5
+		"scrambling damage" .5
+		"disruption damage" 1
+		"safe"
+	description	"这个装置是Archon的主要防御工具：它不仅 disrupts 所有敌方飞船的护盾和能量供应，还会缓慢修复携带者的护盾。"
+
 
 outfit "Drak Draining Field (Augmented)"
-	description "\t虽然通常维持在最低强度，但执政官已展现出在面临严重威胁时将力场大幅增强的能力。"
+	category "Turrets"
+	series "Turrets"
+	index 99031
+	cost 100000000
+	thumbnail "outfit/unknown"
+	"mass" 84
+	"outfit space" -84
+	"weapon capacity" -84
+	"turret mounts" -1
+	"energy capacity" 8400
+	weapon
+		ammo "Jump Drive" 0
+		"turret turn" 180
+		"velocity" 1
+		"lifetime" 1
+		"range override" 1100
+		"velocity override" 1100
+		"blast radius" 1100
+		"trigger radius" 1100
+		"reload" 1
+		"firing energy" -25
+		"firing heat" 5
+		"firing force" 45
+		"hit force" 1500
+		"shield damage" 500
+		"ion damage" 1
+		"scrambling damage" 1
+		"disruption damage" 2
+		"safe"
+	description	"这个装置是Archon的主要防御工具：它不仅 disrupts 所有敌方飞船的护盾和能量供应，还会缓慢修复携带者的护盾。其效果比标准版本更强。"
+	description	"这个装置是Archon的主要防御工具：它不仅 disrupts 所有敌方飞船的护盾和能量供应，还会缓慢修复携带者的护盾。其效果比标准版本更强。"
+
 
 outfit "Drak Anti-Missile Field"
-	description "这种装置能产生一个力场，摧毁任何进入其范围内的导弹。"
+	category "Turrets"
+	series "Anti-Missile"
+	index 99010
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 66
+	"outfit space" -66
+	"weapon capacity" -66
+	"turret mounts" -1
+	"energy capacity" 6600
+	weapon
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 1
+		"anti-missile" 100
+	description	"这个装置产生一个能够摧毁进入其范围内的任何导弹的场。"
+
 
 outfit "Drak Anti-Missile Field (Augmented)"
-	description "\t这种水平的反导弹效能仅在应对最强大的威胁时才需要。"
+	category "Turrets"
+	series "Anti-Missile"
+	index 99011
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 66
+	"outfit space" -66
+	"weapon capacity" -66
+	"turret mounts" -1
+	"energy capacity" 6600
+	weapon
+		ammo "Jump Drive" 0
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 1
+		"anti-missile" 500
+	description	"这个装置产生一个能够摧毁进入其范围内的任何导弹的场。其效果比标准版本更强。"
+	description	"这个装置产生一个能够摧毁进入其范围内的任何导弹的场。其效果比标准版本更强。"
+
 
 outfit "Drak Turret"
-	description "这是一种基于炮塔的火炮，拥有显著的射程和精度。"
+	category "Turrets"
+	series "Turrets"
+	index 99010
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	"energy capacity" 4800
+	weapon
+		sprite "projectile/drak bolt"
+			"frame rate" 13.318
+			"random start frame"
+		"hit effect" "drak bolt impact"
+		"inaccuracy" 1
+		"turret turn" 4.
+		"velocity" 30
+		"lifetime" 36
+		"reload" 16
+		"firing energy" 160
+		"firing heat" 160
+		"shield damage" 256
+		"hull damage" 256
+		"hit force" 180
+	description	"这是一种基于炮塔的火炮，具有显著的射程和精度。"
+
 
 outfit "Drak Turret (Augmented)"
-	description "\t面对大多数威胁时，执政官将其武器设定在极低水平应对。然而，当情况需要时，它们完全有能力造成大得多的伤害。"
+	category "Turrets"
+	series "Turrets"
+	index 99011
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	"energy capacity" 4800
+	weapon
+		ammo "Jump Drive" 0
+		sprite "projectile/drak bolt"
+			"frame rate" 13.318
+			"random start frame"
+		"hit effect" "drak bolt impact"
+		"inaccuracy" 1
+		"turret turn" 8.
+		"velocity" 30
+		"lifetime" 36
+		"reload" 16
+		"firing energy" 160
+		"firing heat" 160
+		"shield damage" 2560
+		"hull damage" 2560
+		"hit force" 180
+	description	"这是一种基于炮塔的火炮，具有显著的射程和精度。其效果比标准版本更强。"
+	description	"这是一种基于炮塔的火炮，具有显著的射程和精度。其效果比标准版本更强。"
+
+effect "drak bolt impact"
+	sprite "effect/drak bolt impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 20
+	"random angle" 20
+	"random spin" 10
+	"velocity scale" -.05
+
 
 outfit "Drak Antimatter Cannon"
-	description "这是执政官在年轻种族面前不屑于使用的最强大武器。"
+	category "Guns"
+	series "Guns"
+	index 99010
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 96
+	"outfit space" -96
+	"weapon capacity" -96
+	"gun ports" -1
+	"energy capacity" 9600
+	"inscrutable" 1
+	weapon
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 1
+		"submunition" "Drak Antimatter Fragment" 3
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"reload" 187
+		"firing energy" 5610
+		"firing heat" 1870
+		"blast radius" 100
+		"hit force" 1500
+	description	"这是Archon认为可以在年轻种族面前使用的最强大的武器。"
+
 
 outfit "Drak Antimatter Cannon (Augmented)"
-	description "这是执政官在年轻种族面前不屑于使用的最强大武器。由于执政官极少被逼到需要发挥超出最低能力的境地，反物质炮所能造成的伤害远超最初的认知。"
+	category "Guns"
+	series "Guns"
+	index 99011
+	cost 100000000
+	thumbnail "outfit/unknown"
+	"mass" 96
+	"outfit space" -96
+	"weapon capacity" -96
+	"gun ports" -1
+	"energy capacity" 9600
+	"inscrutable" 1
+	weapon
+		ammo "Jump Drive" 0
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 1
+		"submunition" "Drak Antimatter Fragment (Augmented)" 5
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"reload" 187
+		"firing energy" 5610
+		"firing heat" 1870
+		"blast radius" 250
+		"hit force" 1500
+	description	"这是Archon认为可以在年轻种族面前使用的最强大的武器。迄今为止未知的版本，具有更强的威力。"
+
+
+outfit "Drak Antimatter Fragment"
+	weapon
+		sprite "projectile/drak bolt"
+			"frame rate" 9.835
+			"random start frame"
+		"live effect" "antimatter spark" 249
+		"live effect" "antimatter dust" 249
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"inaccuracy" 1
+		"lifetime" 499
+		"hit force" 1500
+		"disruption damage" 300
+		"heat damage" 500
+		"shield damage" 5610
+		"hull damage" 5610
+		"blast radius" 100
+
+
+outfit "Drak Antimatter Fragment (Augmented)"
+	weapon
+		sprite "projectile/drak bolt"
+			"frame rate" 9.835
+			"random start frame"
+		"live effect" "antimatter spark" 249
+		"live effect" "antimatter dust" 249
+		"hit effect" "antimatter dust" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"inaccuracy" 1
+		"lifetime" 1000
+		"hit force" 1500
+		"disruption damage" 1000
+		"heat damage" 2500
+		"shield damage" 56100
+		"hull damage" 56100
+		"blast radius" 250
+
+effect "antimatter spark"
+	sprite "effect/antimatter spark"
+		"frame rate" 3
+	"lifetime" 40
+	"random angle" 1
+	"random spin" .1
+	"random velocity" 8
+	"velocity scale" .6
+
+effect "antimatter dust"
+	sprite "effect/smoke"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 13
+	"random angle" 30
+	"random spin" 50
+	"random velocity" 12
+	"velocity scale" .1

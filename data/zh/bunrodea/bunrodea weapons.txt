@@ -1,0 +1,304 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2021 by Amazinite
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Locust Blaster"
+	category "Guns"
+	series "Guns"
+	index 10010
+	cost 284000
+	thumbnail "outfit/locust blaster"
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
+	"gun ports" -1
+	weapon
+		sprite "projectile/locust blaster"
+		sound "locust blaster"
+		"hit effect" "bullet impact"
+		"hardpoint offset" 20
+		"inaccuracy" 5
+		"velocity" 10
+		"random velocity" 2
+		"lifetime" 40
+		"reload" 3
+		"firing energy" 4
+		"firing heat" 3
+		"shield damage" 5
+		"hull damage" 4
+	description	"Locust Blaster看起来可能很小，但其与体积相称的破坏力不容小觑。单门这样的火炮就能轻易摧毁小型战斗机。"
+
+outfit "Locust Turret"
+	category "Turrets"
+	series "Turrets"
+	index 10010
+	cost 1265000
+	thumbnail "outfit/locust turret"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		sprite "projectile/locust blaster"
+		"hardpoint sprite" "hardpoint/locust turret"
+		"hardpoint offset" 40
+		sound "locust blaster"
+		"hit effect" "bullet impact"
+		"inaccuracy" 5
+		"turret turn" 3.7
+		"velocity" 10
+		"random velocity" 2
+		"lifetime" 40
+		"reload" 1
+		"firing energy" 4
+		"firing heat" 3
+		"shield damage" 5
+		"hull damage" 4
+	description	"虽然Bunrodean飞船通常依赖前置火炮的强大火力，并在炮塔安装座上填装反导弹系统，但Locust Turret为小型飞船提供了一种有效的炮塔替代方案。"
+
+
+
+outfit "Mandible Cannon"
+	category "Guns"
+	series "Guns"
+	index 10020
+	cost 1170000
+	thumbnail "outfit/mandible cannon"
+	"mass" 29
+	"outfit space" -29
+	"weapon capacity" -29
+	"gun ports" -1
+	weapon
+		sprite "projectile/mandible cannon"
+			"frame rate" 10
+			"random start frame"
+		sound "mandible cannon"
+		"hit effect" "proton impact"
+		"inaccuracy" .1
+		"velocity" 34
+		"lifetime" 25
+		"reload" 30
+		"burst reload" 5
+		"burst count" 2
+		"firing energy" 111
+		"firing force" 30
+		"firing heat" 60
+		"hit force" 210
+		"shield damage" 152
+		"hull damage" 98
+	description	"Mandible Cannon因其多功能性而成为Bunrodean武器库的重要组成部分。它的射程超过小型武器，使其成为与小型飞船交战的有效选择。"
+
+
+
+outfit "Thorax Cannon"
+	category "Guns"
+	series "Guns"
+	index 10030
+	cost 3484000
+	thumbnail "outfit/thorax cannon"
+	"mass" 105
+	"outfit space" -105
+	"weapon capacity" -105
+	"gun ports" -1
+	"energy capacity" 7000
+	weapon
+		sprite "projectile/thorax cannon"
+			"frame rate" 15
+			"rewind"
+		sound "thorax cannon"
+		"fire effect" "torpedo fire"
+		"live effect" "yellow spark" 140
+		"live effect" "yellow spark trail" 840
+		"live effect" "yellow spark twinkle" 400
+		"hit effect" "finisher impact" 2
+		"hit effect" "yellow spark" 10
+		"hit effect" "yellow spark fragment" 150
+		"inaccuracy" 0
+		"velocity" 15
+		"lifetime" 120
+		"reload" 240
+		"firing energy" 3150
+		"firing force" 1875
+		"firing heat" 1905
+		"hit force" 3750
+		"shield damage" 2870
+		"hull damage" 3430
+	description	"Thorax Cannon是一种巨大的、射速缓慢的武器，很少有飞船能够支持它，不仅因为其尺寸，还因为其巨大的能量需求。但它的威力是毁灭性的。"
+
+effect "yellow spark"
+	sprite "effect/yellow spark"
+		"no repeat"
+		"frame rate" 8
+	"lifetime" 30
+	"random angle" 360
+	"random spin" 3
+	"random velocity" 0.1
+	"velocity scale" -0.5
+
+effect "yellow spark trail"
+	sprite "effect/yellow spark"
+		"no repeat"
+		"frame rate" 2
+	"lifetime" 20
+	"random angle" 360
+	"random frame rate" 6
+	"random velocity" 5
+	"random spin" 10
+	"velocity scale" 0.2
+
+effect "yellow spark twinkle"
+	sprite "effect/yellow spark"
+		"no repeat"
+		"frame rate" 6
+	"lifetime" 20
+	"random angle" 360
+	"random velocity" 3
+	"random spin" 10
+	"velocity scale" 0.1
+
+effect "yellow spark fragment"
+	sprite "effect/yellow spark"
+		"no repeat"
+		"frame rate" 4
+	"lifetime" 5
+	"random angle" 360
+	"random velocity" 6
+	"random spin" 10
+	"velocity scale" -0.1
+
+
+
+outfit "Swarm Clip"
+	category "Ammunition"
+	series "Ammunition"
+	index 10011
+	cost 24000
+	thumbnail "outfit/swarm storage"
+	"mass" 1
+	"outfit space" -7
+	"swarm capacity" 200
+	ammo "Swarm Missile"
+	description	"蜂群弹夹显著增加了蜂巢的弹药容量，可容纳200枚可快速发射的导弹。"
+
+outfit "Swarm Missile"
+	category "Ammunition"
+	series "Ammunition"
+	index 10010
+	cost 250
+	thumbnail "outfit/swarm missile"
+	"mass" 0.03
+	"swarm capacity" -1
+	description	"蜂群导弹是蜂巢发射器使用的小型快速移动弹药。"
+
+outfit "Swarm Pod"
+	category "Secondary Weapons"
+	series "Secondary Weapons"
+	index 10010
+	cost 363000
+	thumbnail "outfit/swarm pod"
+	"mass" 3
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"swarm capacity" 400
+	weapon
+		sprite "effect/swarm"
+			"frame rate" .01
+		sound "swarm missile"
+		ammo "Swarm Missile"
+		icon "icon/swarm"
+		"die effect" "missile death"
+		"hit effect" "particle impact"
+		"live effect" "swarm flare" 1000000
+		"inaccuracy" 90
+		"velocity" 13
+		"lifetime" 460
+		"reload" 10
+		"firing energy" 2
+		"firing heat" 1
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 5.35
+		"homing"
+		"radar tracking" 0.2
+		"optical tracking" 0.6
+		"shield damage" 46
+		"hull damage" 24
+		"missile strength" 8
+		"stream"
+	description	"蜂巢在与Korath的早期冲突中被证明是一种有效的武器，通过压倒早期Korath反导弹系统来发挥作用。"
+	description	"蜂巢在与Korath的早期冲突中被证明是一种有效的武器，通过压倒早期Korath反导弹系统来发挥作用。"
+		to display
+			has "gamerule: universal ammo restocking"
+
+effect "swarm flare"
+	sprite "effect/swarm"
+		"no repeat"
+		"frame rate" 5
+	"lifetime" 40
+	"velocity scale" 0.1
+
+effect "swarm impact"
+	sprite "effect/particle impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion tiny"
+	"lifetime" 20
+	"random angle" 2
+	"random spin" 10
+	"velocity scale" -.05
+
+outfitter "Swarm Missile Restock"
+	to sell
+		has "gamerule: universal ammo restocking"
+		or
+			has "outfit: Swarm Pod"
+			has "outfit: Swarm Clip"
+	location
+		attributes "outfitter"
+	stock
+		"Swarm Missile"
+
+
+outfit "Buzzer Anti-Missile"
+	category "Turrets"
+	series "Anti-Missile"
+	index 10010
+	cost 1195000
+	thumbnail "outfit/buzzer"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/buzzer am"
+		"hardpoint offset" 5
+		"hit effect" "buzzer"
+		"anti-missile" 4
+		"velocity" 300
+		"lifetime" 1
+		"reload" 2.5
+		"firing energy" 16
+		"firing heat" 1
+	description	"随着Korath开始在星系中布满地雷，Bunrodean战斗机的效能大幅下降。作为回应，Buzzer反导弹系统被开发出来。"
+
+effect "buzzer"
+	sprite "effect/buzzer am"
+		"no repeat"
+		"frame rate" 10
+	sound "buzzer am"
+	"sound category" "anti-missile"
+	"lifetime" 11
+	"velocity scale" 1

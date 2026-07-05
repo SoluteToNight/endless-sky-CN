@@ -1,14 +1,266 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2023 by RisingLeaf (https://github.com/RisingLeaf)
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 ship "Venta"
-	description "当希瑟穆斯掌权时，他们需要一艘象征其力量的飞船。文塔号配备六门炮塔，是因西皮亚斯历史上最强大的飞船。凭借其流线型空气动力学设计，它无论是在太空中追捕亡命之徒，还是在气态巨行星的云层中穿梭，都能游刃有余。"
+	"plural" "Ventae"
+	"sprite" ship/venta
+	"thumbnail" thumbnail/venta
+	"swizzle" 0
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Hicemus Conflict"
+		"cost" 25000000
+		"hull" 9600
+		"shields" 12800
+		"required crew" 40
+		"bunks" 45
+		"mass" 2400
+		"drag" 10.2
+		"heat dissipation" .42
+		"cargo space" 20
+		"outfit space" 552
+		"weapon capacity" 240
+		"engine capacity" 130
+		"gaslining" 1
+		"fuel capacity" 200
+		weapon
+			"blast radius" 224
+			"shield damage" 2240
+			"hull damage" 1120
+			"hit force" 3360
+	outfits
+		"Liquid-Class Shield"
+		"Liquid-Class Shield"
+		"Metallic Hydrogen Cell"
+		"Plasma Discharger" 2
+		"Star Tail" 4
+		"Star Tail Cell" 120
+		"Star Tail Storage" 2
+		"Cloud Piercer" 40
+
+		"MH Red-Class Thruster"
+		"MH Red-Class Steering"
+
+	engine -90.5 42
+	engine 0 42
+		"over"
+	engine 90 42
+	gun 58.5 -76.5 "Plasma Discharger"
+	gun 29 -76.5 "Star Tail"
+	gun 29 -76.5 "Star Tail"
+	gun -28 -76.5 "Star Tail"
+	gun -28 -76.5 "Star Tail"
+	gun -57.5 -76.5 "Plasma Discharger"
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description	"当Hicemus掌权时，他们需要一艘象征力量的飞船。拥有六门炮位的Venta是他们舰队中最强大的飞船，也是权力的象征。"
 
 ship "Nimbus"
-	description "	尽管雨云号被归类为中型战舰，但它具有多用途性——无论是用于采矿、客运还是货运，它都能出色地完成任务。由于因西皮亚斯目前并未进行公开战争，它仅偶尔被用于战斗。"
+	"plural" "Nimbi"
+	"sprite" ship/nimbus
+	"thumbnail" thumbnail/nimbus
+	"swizzle" 0
+	attributes
+		category "Medium Warship"
+		licenses
+			"Hicemus Conflict"
+		"cost" 3250000
+		"hull" 4000
+		"shields" 6000
+		"required crew" 20
+		"bunks" 40
+		"mass" 1640
+		"drag" 10.8
+		"heat dissipation" .46
+		"cargo space" 75
+		"outfit space" 450
+		"weapon capacity" 120
+		"engine capacity" 85
+		"gaslining" 1
+		"fuel capacity" 200
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Liquid-Class Shield"
+		"Metallic Hydrogen Cell"
+		"Plasma Discharger" 4
+		"Stagnation Beam"
+		"Cloud Piercer" 20
+
+		"MH Red-Class Thruster"
+		"MH Red-Class Steering"
+
+	engine 0 120
+	engine 0 120
+	engine -30.5 120
+	engine 30.5 120
+	gun -15 -117
+	gun 15 -117
+	gun 0 -117
+	gun 0 -117
+	turret 0 31.5
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description	"Nimbus是Incipias建造的第一艘真正能在星系中导航的飞船。自建造以来，它一直保持设计稳定，是一艘可靠的主力飞船。"
+	description	"Nimbus是Incipias建造的第一艘真正能在星系中导航的飞船。自建造以来，它一直保持设计稳定，是一艘可靠的主力飞船。"
+
+ship "Nimbus" "Nimbus (Civilian)"
+	outfits
+		"Liquid-Class Shield"
+		"Metallic Hydrogen Cell"
+
+		"MH Red-Class Thruster"
+		"MH Red-Class Steering"
+
+ship "Nimbus" "Nimbus (Mining)"
+	outfits
+		"Liquid-Class Shield"
+		"Metallic Hydrogen Cell"
+		"Plasma Discharger" 4
+		"Horizon Grappler"
+		"Cloud Piercer" 20
+
+		"MH Red-Class Thruster"
+		"MH Red-Class Steering"
 
 ship "Nimbo Stratus"
-	description "采矿在因西皮亚斯社会中一直是一项大产业，这就是为什么雨层云号是新手船长最常见的飞船。其低廉的价格和快速盈利的能力确保了它的持续流行。虽然理论上雨层云号可用于战斗，但它根本不是雨云号的对手，因此从未被希瑟穆斯军事力量使用过。"
+	"plural" "Nimbo Strati"
+	"sprite" ship/stratus
+	"thumbnail" thumbnail/stratus
+	"swizzle" 0
+	attributes
+		category "Utility"
+		"cost" 460000
+		"hull" 500
+		"shields" 700
+		"required crew" 5
+		"bunks" 10
+		"mass" 534
+		"drag" 8.4
+		"heat dissipation" .67
+		"cargo space" 50
+		"outfit space" 270
+		"weapon capacity" 50
+		"engine capacity" 60
+		"gaslining" 1
+		"fuel capacity" 200
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Gas-Class Shield"
+		"Metallic Hydrogen Cell"
+		"Plasma Discharger" 2
+
+		"MH Blue-Class Thruster"
+		"MH Blue-Class Steering"
+
+	gun -13 -48.5
+	gun 13 -48.5
+	engine 0 61.5
+	explode "medium explosion" 10
+	explode "large explosion" 20
+	"final explode" "final explosion medium"
+	description	"矿业一直是Incipias社会的一大产业，因此Nimbo Stratus是最常见的运输飞船。虽然其大型货舱令人印象深刻，但它装备的武器很小，装甲也较薄弱。"
 
 ship "Nimbo Cirrus"
-	description "当庞特斯空间站建成后，需要一种能够将大量物资和补给送入轨道的飞船。当雨云号被证明不足以胜任这项任务时，专门建造了卷云号这艘货运飞船。庞特斯的居民依靠其定期运送来获取基本货物和设备。"
+	"plural" "Nimbo Cirri"
+	"sprite" ship/cirrus
+	"thumbnail" thumbnail/cirrus
+	"swizzle" 0
+	attributes
+		category "Light Freighter"
+		"cost" 330000
+		"hull" 750
+		"shields" 1500
+		"required crew" 7
+		"bunks" 14
+		"mass" 800
+		"drag" 8.7
+		"heat dissipation" .6
+		"cargo space" 200
+		"outfit space" 160
+		"engine capacity" 60
+		"gaslining" 1
+		"fuel capacity" 200
+		weapon
+			"blast radius" 22.5
+			"shield damage" 225
+			"hull damage" 113
+			"hit force" 350
+	outfits
+		"Gas-Class Shield"
+		"Metallic Hydrogen Cell"
+
+		"MH Green-Class Thruster"
+		"MH Green-Class Steering"
+
+	engine -32 80
+	engine 32 80
+	engine 0 80
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	"final explode" "final explosion medium"
+	description	"当Pon'tes建造时，需要一艘能够将大量物资运送到轨道的飞船。虽然Nimbo Cirrus的货舱比其前身更大，但它在机动性方面做出了牺牲。"
 
 ship "Gero"
-	description "庞特斯的竣工导致车站与雷迪亚斯之间的航行量急剧增加。阿尔托造船厂的设计师们迅速看到了商机，于是因西皮亚斯的第一艘运输船诞生了。"
+	"sprite" ship/gero
+	"thumbnail" thumbnail/gero
+	"swizzle" 0
+	attributes
+		category "Transport"
+		"cost" 985000
+		"hull" 850
+		"shields" 1700
+		"required crew" 10
+		"bunks" 72
+		"mass" 760
+		"drag" 8.4
+		"heat dissipation" .58
+		"cargo space" 20
+		"outfit space" 158
+		"engine capacity" 54
+		"gaslining" 1
+		"fuel capacity" 200
+		weapon
+			"blast radius" 26.5
+			"shield damage" 265
+			"hull damage" 133
+			"hit force" 400
+	outfits
+		"Gas-Class Shield"
+		"Metallic Hydrogen Cell"
+
+		"MH Blue-Class Thruster"
+		"MH Blue-Class Steering"
+
+	engine -41 76.5
+	engine 0 76.5
+	engine 41 76.5
+	explode "medium explosion" 20
+	explode "large explosion" 30
+	"final explode" "final explosion medium"
+	description	"Pon'tes的完工导致空间站和Redias之间的旅行量大幅增加。Alto Shipyards的设计师利用这个机会设计了一艘客船：Gero。"

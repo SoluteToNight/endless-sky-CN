@@ -1,17 +1,590 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2019 by Tommaso Becca
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 ship "Maeri'het"
-	description "梅里是建造者太空站创造的最小的赫特舰船，是他们曾经拥有的基因技术的杰出范本。其小巧的体型通过能够在大多数传感器下隐藏自身方位的能力得到了弥补。"
+	plural "Maeri'heta"
+	sprite "ship/maeri'het"
+	thumbnail "thumbnail/maeri'het"
+	"never disabled"
+	attributes
+		category "Light Warship"
+		"cost" 13800000
+		"shields" 17600
+		"hull" 23100
+		"required crew" 1
+		"bunks" 1
+		"mass" 620
+		"drag" 5.0
+		"heat dissipation" .31
+		"overheat damage threshold" 0.2
+		"overheat damage rate" 1.3
+		"fuel capacity" 800
+		"ramscoop" 0.58
+		"cargo space" 43
+		"outfit space" 383
+		"weapon capacity" 184
+		"engine capacity" 86
+		"energy capacity" 10000
+		"energy generation" 28.3
+		"heat generation" 32
+		"hull repair rate" 0.3
+		"shield heat" 4.9
+		"cloak" .023
+		"cloaking energy" 11.8
+		"cloaking fuel" .08
+		weapon
+			"blast radius" 180
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Ravager Turret" 2
+		"Ka'het Ravager Beam" 2
+
+		"Ka'het Support Cooling"
+		"Ka'het Primary Cooling"
+		"Ka'het Shield Restorer" 2
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator"
+
+		"Maeri Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
+
+	engine -22 61.5
+	engine 22 61.5
+	gun -17.5 -68.5 "Ka'het Ravager Beam"
+	gun 17.5 -68.5 "Ka'het Ravager Beam"
+	turret -13.5 -31 "Ka'het Annihilator Turret"
+	turret 13.5 -31 "Ka'het Annihilator Turret"
+	turret -15 -14.5 "Ka'het Ravager Turret"
+	turret 15 -14.5 "Ka'het Ravager Turret"
+	explode "tiny explosion" 5
+	explode "small explosion" 20
+	explode "medium explosion" 25
+	explode "large explosion" 15
+	"final explode" "final explosion medium"
+	description	"Maeri是Builders空间站创造的最小的Het飞船，是他们曾经掌握的基因技术的典型代表。与大型Het相比，它更容易建造，但装甲也薄得多。"
+
+ship "Maeri'het" "Maeri'het (Disable-able)"
+	"uncapturable"
+
+ship "Maeri'het" "Maeri'het (EMP)"
+	"never disabled"
+	outfits
+		"EMP Torpedo" 32
+		"Ka'het Ravager Turret"
+		"Ka'het EMP Deployer" 2
+		"Ka'het Annihilator Turret" 3
+
+		"Ka'het Support Cooling"
+		"Ka'het Primary Cooling"
+		"Ka'het Shield Restorer" 2
+		"Ka'het MHD Generator"
+
+		"Maeri Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
+
+ship "Maeri'het" "Maeri'het (EMP, Disable-able)"
+	"uncapturable"
+	outfits
+		"EMP Torpedo" 32
+		"Ka'het Ravager Turret"
+		"Ka'het EMP Deployer" 2
+		"Ka'het Annihilator Turret" 3
+
+		"Ka'het Support Cooling"
+		"Ka'het Primary Cooling"
+		"Ka'het Shield Restorer" 2
+		"Ka'het MHD Generator"
+
+		"Maeri Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
 
 ship "Telis'het"
-	description "当建造者设计特利斯的外骨骼时，他们得出结论：要在不牺牲其敏捷性和完整性的前提下使其足够坚固是不可能的。相反，他们着重改进了自己的护盾技术，为特利斯配备了许多再生器。"
+	plural "Telis'heta"
+	sprite "ship/telis'het"
+	thumbnail "thumbnail/telis'het"
+	"never disabled"
+	attributes
+		category "Medium Warship"
+		"cost" 32600000
+		"shields" 36000
+		"hull" 21300
+		"required crew" 1
+		"bunks" 1
+		"mass" 1570
+		"drag" 10.3
+		"heat dissipation" .24
+		"overheat damage threshold" 0.2
+		"overheat damage rate" 1.2
+		"fuel capacity" 800
+		"ramscoop" 0.82
+		"cargo space" 71
+		"outfit space" 673
+		"weapon capacity" 254
+		"engine capacity" 138
+		"energy capacity" 28000
+		"energy generation" 37.4
+		"heat generation" 40
+		"hull repair rate" 0.5
+		"shield energy" 0.3
+		"shield heat" 9.2
+		weapon
+			"blast radius" 300
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Ka'het Annihilator Turret" 2
+		"Ka'het EMP Deployer" 2
+		"Ka'het Ravager Turret" 3
+		"EMP Torpedo" 32
+		"Ka'het Annihilator" 2
+
+		"Ka'het Shield Restorer" 7
+		"Ka'het Primary Cooling" 2
+		"Ka'het MHD Generator" 4
+		"Ka'het Reserve Accumulator"
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles" 2
+		"Hyperdrive"
+
+	engine -39.5 80
+	engine 39.5 80
+	gun -31 -83 "Ka'het Annihilator"
+	gun 31 -83 "Ka'het Annihilator"
+	gun -20.5 -90.5 "Ka'het EMP Deployer"
+	gun 20.5 -90.5 "Ka'het EMP Deployer"
+	turret -43 -51 "Ka'het Ravager Turret"
+	turret 43 -51 "Ka'het Ravager Turret"
+	turret -17.5 -51.5 "Ka'het Annihilator Turret"
+	turret 17.5 -51.5 "Ka'het Annihilator Turret"
+	turret 0 -19 "Ka'het Ravager Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description	"当Builders设计Telis的外骨骼时，他们得出结论，如果不使用他们最先进的生物技术，构建如此坚固的框架是不可能的。"
+
+ship "Telis'het" "Telis'het (Disable-able)"
+	"uncapturable"
+
+ship "Telis'het" "Telis'het (EMP)"
+	"never disabled"
+	outfits
+		"Ka'het EMP Deployer" 4
+		"Ka'het Annihilator Turret"
+		"Ka'het Ravager Turret" 4
+		"EMP Torpedo" 64
+
+		"Ka'het Shield Restorer" 11
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator" 3
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
+
+ship "Telis'het" "Telis'het (EMP, Disable-able)"
+	"uncapturable"
+	outfits
+		"Ka'het EMP Deployer" 4
+		"Ka'het Annihilator Turret"
+		"Ka'het Ravager Turret" 4
+		"EMP Torpedo" 64
+
+		"Ka'het Shield Restorer" 11
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator" 3
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
+
+ship "Telis'het" "Telis'het (Guns)"
+	"never disabled"
+	outfits
+		"Ka'het Ravager Beam" 4
+		"Ka'het Annihilator Turret" 5
+
+		"Ka'het Shield Restorer" 10
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator" 6
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
+
+ship "Telis'het" "Telis'het (Guns, Disable-able)"
+	"uncapturable"
+	outfits
+		"Ka'het Ravager Beam" 4
+		"Ka'het Annihilator Turret" 5
+
+		"Ka'het Shield Restorer" 10
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator" 2
+		"Ka'het Reserve Accumulator" 6
+
+		"Telis Engine Nacelles"
+		"Ka'het Sustainer Nacelles"
+		"Hyperdrive"
 
 ship "Vareti'het"
-	description "瓦雷蒂是建造者能完成的最强大的赫特舰船，在入侵开始前仅一年才开始大规模生产。它比其小弟们更依赖护盾矩阵，使用更大更有效的再生器——这些再生器是与该项目一起开发的。"
+	plural "Vareti'heta"
+	sprite ship/vareti'het
+	thumbnail "thumbnail/vareti'het"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		cost 53800000
+		"shields" 42300
+		"hull" 25800
+		"required crew" 1
+		"bunks" 1
+		"mass" 3220
+		"drag" 20.2
+		"heat dissipation" 0.18
+		"overheat damage threshold" 0.2
+		"overheat damage rate" 1.4
+		"fuel capacity" 700
+		"ramscoop" 0.97
+		"cargo space" 108
+		"outfit space" 914
+		"weapon capacity" 372
+		"engine capacity" 150
+		"energy capacity" 41000
+		"energy generation" 61.2
+		"heat generation" 46
+		"hull repair rate" 0.55
+		"shield heat" 11.3
+		weapon
+			"blast radius" 400
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2100
+	outfits
+		"Ka'het Nullifier"
+		"Ka'het Annihilator" 4
+		"Ka'het Ravager Beam" 2
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Ravager Turret" 4
+
+		"Ka'het Grand Restorer" 2
+		"Ka'het MHD Generator" 6
+		"Ka'het Reserve Accumulator" 11
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+
+		"Vareti Engine Block"
+		"Hyperdrive"
+
+	engine -50 128
+	engine 50 128
+	engine -23.5 132 0.8
+	engine 23.5 132 0.8
+	gun 0 -141 "Ka'het Nullifier"
+	gun -52.5 -122 "Ka'het Ravager Beam"
+	gun 52.5 -122 "Ka'het Ravager Beam"
+	gun -72.5 -61.5 "Ka'het Annihilator"
+	gun 72.5 -61.5 "Ka'het Annihilator"
+	gun -72.5 -61.5 "Ka'het Annihilator"
+	gun 72.5 -61.5 "Ka'het Annihilator"
+	turret -14 -24.5 "Ka'het Annihilator Turret"
+	turret 14 -24.5 "Ka'het Annihilator Turret"
+	turret -14 -4 "Ka'het Ravager Turret"
+	turret 14 -4 "Ka'het Ravager Turret"
+	turret -13.5 16.5 "Ka'het Ravager Turret"
+	turret 13.5 16.5 "Ka'het Ravager Turret"
+	explode "small explosion" 40
+	explode "medium explosion" 36
+	explode "large explosion" 28
+	explode "huge explosion" 7
+	"final explode" "final explosion large"
+	description	"Vareti是Builders能够完成的最强的Het，在崩溃前一年才开始量产。"
+
+ship "Vareti'het" "Vareti'het (Disable-able)"
+	"uncapturable"
+
+ship "Vareti'het" "Vareti'het (EMP)"
+	"never disabled"
+	outfits
+		"Ka'het Nullifier"
+		"Ka'het Ravager Beam" 4
+		"Ka'het Annihilator Turret" 4
+		"Ka'het Ravager Turret"
+		"Ka'het EMP Deployer" 2
+		"EMP Torpedo" 32
+
+		"Ka'het Grand Restorer" 2
+		"Ka'het MHD Generator" 6
+		"Ka'het Reserve Accumulator" 8
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+
+		"Vareti Engine Block"
+		"Hyperdrive"
+
+	gun "Ka'het Nullifier"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het EMP Deployer"
+	gun "Ka'het EMP Deployer"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Ravager Beam"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Ravager Turret"
+	turret
+
+ship "Vareti'het" "Vareti'het (EMP, Disable-able)"
+	"uncapturable"
+	outfits
+		"Ka'het Nullifier"
+		"Ka'het Ravager Beam" 4
+		"Ka'het Annihilator Turret" 4
+		"Ka'het Ravager Turret"
+		"Ka'het EMP Deployer" 2
+		"EMP Torpedo" 32
+
+		"Ka'het Grand Restorer" 2
+		"Ka'het MHD Generator" 6
+		"Ka'het Reserve Accumulator" 8
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+
+		"Vareti Engine Block"
+		"Hyperdrive"
+
+	gun "Ka'het Nullifier"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het EMP Deployer"
+	gun "Ka'het EMP Deployer"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Ravager Beam"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Ravager Turret"
+	turret
+
+ship "Vareti'het" "Vareti'het (Strong)"
+	"never disabled"
+	outfits
+		"Ka'het Nullifier"
+		"Ka'het Annihilator" 6
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Ravager Turret" 2
+
+		"Ka'het Grand Restorer" 3
+		"Ka'het MHD Generator" 7
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+
+		"Vareti Engine Block"
+		"Hyperdrive"
+
+	gun "Ka'het Nullifier"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret
+	turret
+	turret "Ka'het Ravager Turret"
+	turret "Ka'het Ravager Turret"
+
+ship "Vareti'het" "Vareti'het (Strong, Disable-able)"
+	"uncapturable"
+	outfits
+		"Ka'het Nullifier"
+		"Ka'het Annihilator" 6
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Ravager Turret" 2
+
+		"Ka'het Grand Restorer" 3
+		"Ka'het MHD Generator" 7
+		"Ka'het Primary Cooling"
+		"Ka'het Support Cooling"
+
+		"Vareti Engine Block"
+		"Hyperdrive"
+
+	gun "Ka'het Nullifier"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret
+	turret
+	turret "Ka'het Ravager Turret"
+	turret "Ka'het Ravager Turret"
 
 ship "Selii'mar"
-	description "	无人机不配备超空间引擎。除非你舰队中有携带无人机舱的舰船，否则无法携带无人机。"
+	sprite "ship/selii'mar"
+	thumbnail "thumbnail/selii'mar"
+	attributes
+		category "Drone"
+		"cost" 965000
+		"hull" 2800
+		"mass" 65
+		"drag" .8
+		"heat dissipation" 1.1
+		"cargo space" 14
+		"outfit space" 77
+		"weapon capacity" 18
+		"engine capacity" 21
+		weapon
+			"blast radius" 48
+			"shield damage" 320
+			"hull damage" 160
+			"hit force" 480
+	outfits
+		"Ka'het Ravager Beam"
+		"Ka'het MHD Generator"
+		"Ka'het Reserve Accumulator" 3
+		"Ka'het Compact Engine"
+
+	gun 0 -32.5
+	engine 0 28 1.5
+	explode "tiny explosion" 16
+	description	"Selii'mar是一种常见的Builder采矿无人机，是他们生产的少数自动化飞船之一。Het空间站至今仍在使用它们，尽管它们的设计后来被Faes'mar所继承。"
+	description	"Selii'mar是一种常见的Builder采矿无人机，是他们生产的少数自动化飞船之一。Het空间站至今仍在使用它们，尽管它们的设计后来被Faes'mar所继承。"
 
 ship "Faes'mar"
-	description "	无人机不配备超空间引擎。除非你舰队中有携带无人机舱的舰船，否则无法携带无人机。"
+	sprite "ship/faes'mar"
+	thumbnail "thumbnail/faes'mar"
+	attributes
+		category "Drone"
+		"cost" 1180000
+		"shields" 200
+		"hull" 1900
+		"mass" 54
+		"drag" .73
+		"heat dissipation" 1
+		"cargo space" 102
+		"outfit space" 113
+		"engine capacity" 21
+		weapon
+			"blast radius" 52
+			"shield damage" 410
+			"hull damage" 180
+			"hit force" 520
+	outfits
+		"Ka'het Shield Restorer"
+		"Ka'het Support Cooling"
+		"Ka'het MHD Generator"
+		"Ka'het Emergency Deployer"
+		"Ka'het Reserve Accumulator" 7
+		"Ka'het Compact Engine"
+
+	gun 0 -37.5
+	engine -7 34.5
+	engine 7 34.5
+	explode "tiny explosion" 19
+	description	"Mar是Builders在制造自动无人机方面最成功、也是最后一批飞船。如今只剩下寥寥几艘，但废弃的船体散落在多个星系中。"
+	description	"Mar是Builders在制造自动无人机方面最成功、也是最后一批飞船。如今只剩下寥寥几艘，但废弃的船体散落在多个星系中。"
+
+ship "Faes'mar" "Faes'mar (Strong)"
+	outfits
+		"Ka'het Emergency Deployer"
+		"Ka'het Shield Restorer" 2
+		"Ka'het MHD Generator"
+		"Ka'het Reserve Accumulator" 4
+		"Ka'het Compact Engine"
 
 ship "Fetri'sei"
-	description "费特里是一种自我复制的探测器，用于在墓场之外采集铱并将其运回建造者。"
+	plural "Fetri'seia"
+	sprite "ship/fetri'sei"
+	thumbnail "thumbnail/fetri'sei"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 5700000
+		"shields" 2400
+		"hull" 7200
+		"required crew" 1
+		"bunks" 1
+		"mass" 330
+		"drag" 3.5
+		"heat dissipation" .42
+		"fuel capacity" 100
+		"ramscoop" 0.13
+		"cargo space" 62
+		"outfit space" 173
+		"weapon capacity" 54
+		"engine capacity" 46
+		"energy capacity" 6000
+		"energy generation" 16.6
+		"heat generation" 24
+		"shield heat" 3.4
+		"hull repair rate" 0.3
+		"ka'sei" 1
+		"overheat damage threshold" 0.2
+		"overheat damage rate" 1
+		weapon
+			"blast radius" 120
+			"shield damage" 540
+			"hull damage" 280
+			"hit force" 780
+	outfits
+		"Ka'het Ravager Beam" 2
+
+		"Ka'het Primary Cooling"
+		"Ka'het Shield Restorer"
+		"Ka'het MHD Generator"
+		"Ka'het Reserve Accumulator"
+
+		"Ka'het Compact Engine" 2
+
+	gun -13 -36
+	gun 13 -36
+	engine -20 46.5
+	engine 20 46.5
+	explode "tiny explosion" 6
+	explode "small explosion" 10
+	explode "medium explosion" 18
+	explode "large explosion" 10
+	"final explode" "final explosion small"
+	description	"Fetri是一种自我复制的探测船，用于开采Graveyard以外的铱元素并将其运回Builder空间站。它的设计使其能够独立运行数十年。"
+
+ship "Fetri'sei" "Fetri'sei (Disable-able)"
+	"uncapturable"
