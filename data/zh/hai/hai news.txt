@@ -1,0 +1,609 @@
+# Copyright (c) 2017 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+news "food in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"来访厨师"
+			"美食鉴赏家"
+			"Tourist"
+			"导游"
+	message
+		word
+			`"`
+		word
+			"听起来可能有点奇怪，但这里卖的橡子饼干是我吃过最好吃的饼干。"
+			"附近有一家Hai与人类融合菜餐厅，卖花生披萨。听起来很恶心，但味道却像天堂一样。"
+			"他们用发酵的坚果做啤酒。我都不知道还能这样！"
+			"橡子炖菜我真是百吃不腻。这些Hai厨师太厉害了。"
+			"花生这个，核桃那个，榛子冰淇淋。我真想来点好牛排啊……"
+			"在我老家，我最爱的小吃是腌核桃。而这里的腌橡子真是太棒了！"
+			"在这里尝试新食物真的很艰难，因为几乎所有东西都跟我对坚果的过敏冲突。"
+			"在我长大的地方，核桃被视为珍馐美味。现在我在这里，吃得像个国王！"
+			"我的朋友告诉我附近一家冰沙吧有一种用'稀有绿色椭圆形坚果'提取物做的饮料。她说那味道跟她之前在人类空间喝过的任何东西都不一样，但我一个字都不信。"
+			"要不是有人类定居点捕鱼，我就只能吃坚果和那些长得像胡萝卜……萝卜……的东西了。"
+		word
+			`"`
+
+news "trading in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"商船船长"
+	message
+		word
+			`"`
+		word
+			"Hai的技术跟我们相比简直不可思议。每次给我的舰队添船，我都会跑来这里囤积Hai的技术装备。"
+			"你试过那些Hai的反导弹系统了吗？它们在人类空间可以拦截任何导弹。"
+			"你能相信这些Hai吗？他们比我们领先好几光年，就在我们眼皮底下。"
+			"你参观过Hai空间的Quarg环世界了吗？那景象让人自惭形秽。里面的Quarg可能比全人类还多。让人觉得自己无比渺小。"
+			"你看到Icelake上卖的东西了吗？Hai的技术太神奇了。"
+			"我遇到了一些年轻的Hai飞行员。听起来他们起步时也跟我们一样穷。"
+			"我在这港口把从人类空间带来的全部食物库存都卖光了。我猜就算是Hai也会吃腻坚果吧。"
+			"一些Hai在抗议工作周时长。他们希望每周只工作32小时而不是40小时。我以前为Syndicate工作时每周要干70小时！"
+			"早知道这里对人类制造的产品需求这么高，我几年前就该开始跑这条线了！"
+			"总有一天我会从商人生涯中退休，到那时候，我知道没有一个地方比Hai空间更好了。"
+			"很多商人过来好奇地问我船舱里装了些什么，但我绝不会告诉他们，我每次来Hai空间都会带一批工业装洗发水。"
+			"早起的Firebird有虫洞飞。"
+		word
+			`"`
+
+
+news "science in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"Scientist"
+			"Engineer"
+	message
+		word
+			`"`
+		word
+			"不久前，我的Hai研究伙伴就要取得突破了，然后她就消失了。我很好奇她去了哪里？"
+			"你能相信这些Hai吗？他们比我们领先好几光年，就在我们眼皮底下。"
+			"你参观过Hai空间的Quarg环世界了吗？那景象让人自惭形秽。里面的Quarg可能比全人类还多。让人觉得自己无比渺小。"
+			"Hai的肥料真是令人惊叹。如果我们有那种技术，饥饿将成为过去式。"
+			"Hai改造行星的速度是我们的上百倍。我不明白为什么他们没对Darkwaste这么做？"
+			"Hai拥有最神奇的全息技术。有个人背上一个背包式全息投影仪，开机后他看起来像一头大象。连腿和尾巴都跟随他的动作！不知道他们能不能也模拟人类？"
+			"Hai对量子色动力学的理解令人惊叹。这就是他们的护盾发生器如此高效的原因。"
+			"Hai用在飞船上的合金远远超越我们的技术。强度两倍，重量减半。难怪他们的飞船那么快。"
+			"想想看，哪怕我们只知道Hai空间里已经弄明白的一小部分技术，人类科技能进步多少，真是太疯狂了。"
+			"太可惜了，Hai空间以北那么多的技术开发都用在了无意义的战争上。要是他们把技术用在更好的地方就好了。"
+		word
+			`"`
+
+news "cute story in Hai space"
+	location
+		government "Hai"
+	name
+		word
+			"Tourist"
+	message
+		word
+			`"`
+		word
+			"我小女儿在人类空间时最喜欢她的玩具熊，但现在她见到每个Hai都想抱。"
+			"这些Hai太毛茸茸了！我每次看到他们都想抱一下！"
+			"我在Luna上看了Hai与人类融合乐队'Nuclear Martini'的演出。没人注意到那个毛茸茸的鼓手其实是Hai假扮的。"
+			"前几天我看到一个Hai戴着超可爱的帽子。等我回人类空间后，一定要养一只松鼠当宠物。"
+			"你看到那个抱着宝宝的Hai女人了吗？是不是看起来像一只长尾巴的泰迪熊？Hai真是太可爱了。"
+			"你有没有想过，如果Hai看到真的松鼠会怎么想？他们知道世界上有松鼠这种东西吗？松鼠是不是就是微型版的Hai？我真的好困惑。"
+			"在Shangri-La做佣人的时候，我一直觉得很受排斥。直到我搭上一个嬉皮士的顺风车，他想去一个'有巨型松鼠的地方'，结果到了Hai空间，这里的每个人都让我觉得自己是有价值的。"
+			"我打赌如果我买一件巨型松鼠服装，我的Hai朋友们一定认不出我来。他们肯定会觉得很好笑。"
+			"几天前有个巡回剧团路过这里。他们演了一出可爱的短剧，讲一个商船船长放弃工作，和家人一起在Icelake定居的故事。"
+			"我一直在想写一本书，记录我来这里游历的经历。不过人们大概会觉得这只是虚构故事吧。"
+		word
+			`"`
+
+news "cute hai story in Hai space"
+	location
+		government "Hai"
+	name
+		word
+			"Hai平民"
+			"Hai导游"
+	message
+		word
+			`"`
+		word
+			"人类在发现虫洞之外的我们这片空间时总是充满好奇。能欢迎他们所有人并与他们相处，是我们的荣幸。"
+			"人类头顶上那一小撮头发真是太可爱了。我好喜欢他们花样繁多的发型。"
+			"你看最近那部关于年轻人类和Hai相恋的电影了吗？它让我同时感到无比的喜悦和悲伤。"
+			"我上周第一次下国际象棋。我没搞懂朋友们说的'王''象''兵'是什么意思，但他们好像玩得很开心。"
+			"我做了一个很美的梦，梦见一位人类船长带我离开了Hai空间旅行。今早醒来时，我遇到了一位善良的人，他正计划回他的家乡，当我问起时，他说我可以跟他一起去。我觉得这真是个有趣的巧合。"
+			"我的孩子们每次看到人类乘飞船到来时都特别兴奋。在他们看来，这些人一定来自遥远而神奇的地方，超出了他们的想象。"
+			"人类是不是习惯把全身的毛都剃光？我所见到的人类皮肤都非常光滑无毛。"
+			"我喜欢参与人类带到Hai空间的各种节庆和传统活动。它们真是丰富多彩、有趣极了！"
+		word
+			`"`
+
+news "business owner in Hai space"
+	location
+		government "Hai"
+		not attributes "station"
+	name
+		word
+			"店主"
+			"小企业主"
+			"毛发造型师"
+			"Barber"
+			"餐厅老板"
+			"水果销售员"
+	message
+		word
+			`"`
+		word
+			"不知为何，"
+			"Surprisingly,"
+			"信不信由你，"
+			"Incredibly,"
+			"出乎我所有的意料，"
+		word
+			" "
+		word
+			"移居到Hai空间"
+			"搬到Hai空间"
+			"把我的生意从火星搬到这里"
+		word
+			" "
+		word
+			"让我的收入翻了两倍！"
+			"大幅提高了利润！"
+			"拯救了我濒临倒闭的生意！"
+			"让我的收入在几个月内一飞冲天！"
+		word
+			""
+			" Hai与人类之间的市场潜力简直疯狂。"
+			" 我对此兴奋不已。"
+		word
+			`"`
+
+news "there might be riots on allhome Hai"
+	location
+		government "Hai"
+		planet "Allhome"
+	to show
+		has "There Might Be Riots part 3B: done"
+	name
+		word
+			"Hai船长"
+			"Hai飞行员"
+			"Hai导游"
+			"Hai商人"
+	message
+		word
+			`"`
+		word
+			"我之前在太空港听到一些非常吵的音乐。人类所有的音乐都那样吗？"
+			"真不敢相信'There Might Be Riots'真的回来了！从他们上次来这里我就一直在等。"
+			"自从那支乐队不久前在这里演出后，太空港就一直在循环播放他们的音乐。我快疯了！"
+			"'There Might Be Riots'的所有周边商品在店铺开张后立刻售罄。太不公平了！"
+		word
+			`"`
+
+news "there might be riots on allhome human"
+	location
+		government "Hai"
+		planet "Allhome"
+	to show
+		has "There Might Be Riots part 3B: done"
+	name
+		word
+			"人类市民"
+			"Tourist"
+			"人类飞行员"
+	message
+		word
+			`"`
+		word
+			"我跟着'There Might Be Riots'的巡演已经很久了，不知道怎么最后到了这个满是巨型松鼠的古怪星球。"
+			"当我听说'There Might Be Riots'要来Hai空间演出时，我买了超贵的票去看他们。结果我错过了演出，因为我最后去了Heartvalley！"
+			"我还以为来了这里就能摆脱孩子们听的那种糟糕音乐了，但它好像一直跟着我！"
+		word
+			`"`
+
+news "concerned merchant in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"商船船长"
+	message
+		word
+			`"`
+		word
+			"别往北走太远。Hai也有自己的海盗，而且比我们在人类空间遇到过的任何海盗都强大得多。"
+			"我带着六艘船抄近路经过Wah Ki。仅仅两秒之后，砰！我一半的舰队就成灰了。"
+			"我听说几个世纪前Hai空间并不和平，当时有一些爬行类外星人在袭击这里。不知道它们去了哪里？"
+			"这些Hai真诡异。他们在隐藏什么？我等不及要回人类空间了。"
+			"Hai不喜欢我飞船上的激光步枪军械库，但我曾经被海盗登过船，我绝不让这种事再发生！要是哪个大号松鼠想从我手里抢走步枪，除非从我冰冷的尸体上跨过去！"
+			"我希望没人从这里走私Hai技术出去。我不敢想象如果海盗弄到了这些东西会怎样。"
+			"Hai会付钱让你把货物紧急运到人类空间再回来。别把小命搭上了。"
+			"我真想去别的地方而不是待在这里，但我感觉被北边的Hai和虫洞那边的海盗夹在了中间。"
+			"如果有人，比如说，偷偷从一个Hai身上揪一撮毛，拿去私人做基因分析，证明他们其实只是聪明的畸形熊，这也不算太疯狂吧？"
+		word
+			`"`
+
+news "concerned hai in Hai space"
+	location
+		government "Hai"
+	name
+		word
+			"Hai商人"
+			"Hai平民"
+	message
+		word
+			`"`
+		word
+			"如果你选择往北飞要小心。太多不知深浅的人类船长成了那些惹麻烦的Hai的受害者。"
+			"明智的做法是只走那些只经过Hai和人类空间的贸易航线。你不会想领教我们北方同胞的'热情好客'的。"
+			"看到这么多人类飞船携带如此大量的武器而来，不禁让人想起过去的岁月，真是遗憾。"
+			"我们经常把口粮送给北方那些挨饿的人，但这样的善举几乎从未得到过同样的善意回报。做这种任务要非常小心。"
+			"我为许多试图到达我们世界却被阻挡在路上的Unfettered人类摧毁的人类感到难过。"
+		word
+			`"`
+
+news "human citizen in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"人类市民"
+	message
+		word
+			`"`
+		word
+			"别往北走太远。Hai也有自己的海盗，而且比我们在人类空间遇到过的任何海盗都强大得多。"
+			"我听说几个世纪前Hai空间并不和平，当时有一些爬行类外星人在袭击这里。不知道它们去了哪里？"
+			"我在人类空间住的时候，海盗每个月都会绑架几十个人。而这里没有海盗，人也几乎不会失踪。"
+			"我一个科学家朋友告诉我，Hai可以制作可穿戴的全息投影仪。他们是不是用这个来藏在人类空间里的？"
+			"住在我附近的Hai科学家包了一架航班去Allhome，结果迷路了，最后到了Canyon。有些人的方向感真是差到极点。"
+			"住在这里而不是Prime，各有利弊。我不再需要担心海盗出现，但现在找不到一家店卖我熟悉的最新款全息游戏主机！"
+		word
+			`"`
+
+news "human reaction to Greenwater outfitter"
+	location
+		government "Hai"
+		planet "Greenwater"
+	to show
+		has "event: outfitter on Greenwater"
+	name
+		word
+			"商船船长"
+			"Engineer"
+			"商船飞行员"
+	message
+		word
+			`"`
+		word
+			"我困在这里很久了，一直在等合适的零件修飞船。终于，我不用再住那个又潮又霉的旅馆了。"
+			"我一直在权衡是否需要为我的飞船配备Hai技术，因为它们价格太高。幸好我能装上人类科技，这样就不用付那么一大笔钱了！"
+			"在这家设备商出现之前，我的生意一直很好。之前没有任何竞争的时候，我一直在运输人类飞船零件。现在我的服务几乎毫无价值了！"
+			"你是说老家的战争已经结束了？我终于可以离开了？希望能补充弹药，这样我这次北上的旅途就不会那么艰难了。"
+		word
+			`"`
+
+news "businessperson in hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"Businessperson"
+			"专业投资人"
+			"Retiree"
+	message
+		word
+			`"`
+		word
+			"我所做过的任何经济模型都无法解释为什么核桃市场永不停止增长。确实它们很受欢迎，但这一定是泡沫，对吧？对吧？！"
+			"我注意到这个区域以人类美食为主的餐馆数量在增加。希望在食品进口上投一笔可观的钱能帮助我的投资组合恢复。"
+			"我觉得可以靠我的Darkmetal矿场投资逍遥一阵子了；它们从没让我失望过。也许我很快就能买到那辆我一直在盯着的Hai摩托车了。"
+			"似乎再怎么劝说也没法让商人飞越北部来到Hai空间。而'大松鼠顾客'这个噱头也不太可信，可能也没什么帮助。"
+		word
+			`"`
+
+news "reformed pirate in Hai space"
+	location
+		government "Hai"
+		not attributes "retirement"
+	name
+		word
+			"改邪归正的海盗"
+	message
+		word
+			`"`
+		word
+			"我以前靠抢劫为生，如果我待在人类空间，现在肯定在监狱里。而在这里，他们给了我一份工作，我已经戒酒六周了。这真的改变了我的人生。"
+			"来之前我住在Freedom，那里任何时候都能搞到太空大麻、死亡棒、星尘和蟾蜍汁。而在这里，我最好的选择是辣味橡子。"
+			"我以前是海盗船上的奴隶。我那愚蠢的船长决定攻击Hai空间。Hai解放了我，现在我为他们的一家工厂工作。"
+			"我试图走私一些坏蓝到Hai空间，但他们当场就抓住了我。我不知道Hai飞船上用的是什么扫描仪，但它比Navy的那些玩具有效得多。"
+			"如果你觉得Hai是软弱的毛球，去看看他们的击剑比赛吧。我从没见过有人类能像那些Hai一样快。"
+			"我一直说总有一天我会脱离海盗生涯，但我知道海军肯定会把我关起来。而在Hai空间，我有了新的开始。"
+			"在Hai空间的生活教会了我做一个更好的人。"
+			"我有些朋友滥用了Hai的善意。在他们为我做了这么多之后，我绝不会那样做。"
+			"在我老家，我不得不抢劫别人才能弄到足够的钱买食物。而在这里，我从未挨饿过。"
+			"别对我评头论足。你根本不知道我来这里之前经历了什么。"
+			"我已经好几个月没捅过人了。这日子过得轻松多了。"
+			"这里的Hai非常宽容。我和一个Hai打了一架，他没有报警，而是跟我促膝长谈，聊了聊我的人生选择。"
+			"我一直说我会重新思考自己的人生，现在我做到了。我是个农民，不是杀手。"
+			"我以前因为自己在人类空间犯下的可怕罪行而痛恨自己。而在这里，Hai给了我一个全新的开始。"
+			"有时候你必须重新塑造自己。我以前是海盗船上的杀手，现在我是Hai工厂里的罐头工。"
+			# Duplicated intentionally so pirates say it too:
+			"我希望没人从这里走私Hai技术出去。我不敢想象如果海盗弄到了那些东西会怎样。"
+			"住在我附近的Hai科学家包了一架航班去Allhome，结果迷路了，最后到了Canyon。有些人的方向感真是差到极点。"
+			"这些Hai太毛茸茸了！我每次看到他们都想抱一下！"
+			"Hai会付钱让你把货物紧急运到人类空间再回来。别把小命搭上了。"
+		word
+			`"`
+
+news "human advertisement in Hai space"
+	location
+		government "Hai"
+		attributes "human tourism"
+	name
+		word
+			"全息广告"
+	message
+		word
+			`"`
+		word
+			"当您离家万里却渴望家的味道时，请来Icelake Summit的Galileo's Soul Food餐厅。"
+			"厌倦了千篇一律的Hai生活方式？来位于Skyfarm独特卫星上的Gravitas Wonderland吧：您和家人在此可以观赏奇异古怪的Hai植物，与令人难以置信的机械蜘蛛无人机互动，在我们低重力设计的Fun Zone里尽情畅玩！"
+			"计划前往Greenbloom的热带Aqualiana度假村吧，在那里您可以享受放松的海滨美景、惊险刺激的雨林探险，以及来自Paradise Worlds专业厨师烹制的美食级人类料理。"
+			"旅行太忙没地方放行李？Moebert's Storage Solutions在每颗Hai行星上都有网点，各个网点之间可按您的要求快速转运！有了我们的方案，您的个人物品永不离身。"
+			"Matthias's Sky Shuttles是往返Hai空间以及在Hai空间内部旅行的最佳服务。乘Matthias's Sky Shuttles，'飞'向天空！"
+		word
+			`"`
+
+news "hai advertisement in Hai space"
+	location
+		government "Hai"
+		attributes "hai tourism"
+	name
+		word
+			"全息广告"
+	message
+		word
+			`"`
+		word
+			"觉得普通树生坚果太平淡无味？Ibrahim's Exotic Nut Shack满足您对刺激性美味坚果品种的所有渴望。"
+			"来Mirrorlake宁静的众多温泉中放松身心吧，请光临美妙的Freezewarm Resort & Spa。"
+			"附近的Eliana's Styling Center有专业全身毛发造型师可供雇佣！打造时尚新形象，甚至给你的毛发染色！"
+			"Hai旅游局建议尽快访问Frostmark，趁温暖多雨的夏季体验仍在持续！"
+			"如果你渴望虫洞之外带来的奇异美食，你一定要试试Duality Diner的菜肴，主厨是人类Dibani Wilczek，她的拿手菜有'西兰花'、'橙子'和'麦片'！"
+		word
+			`"`
+
+news "hai attacked by pirates"
+	location
+		government "Hai"
+	to show
+		random < 30
+	name
+		word
+			"Hai平民"
+			"Hai青年"
+	message
+		word
+			`"`
+		word
+			"载着我家人的人类飞船从人类空间返回时遭到了海盗袭击。既然我已一无所有，我想我不如加入Unfettered。"
+			"海盗摧毁了我孩子们乘坐的人类飞船。他们一直对人类很好奇，结果却落得如此下场！我要加入Unfettered，他们是对的。"
+			"Human ships are so frail... My sister was on one, and she told me it lost all of its shields in a few shots! Thankfully, human weapons are not that strong either, so they were able to escape." 3
+			"You call these human vessels ships? They just barely protect against the void. Given the danger of human space, I would expect humans to have more heavy transports that can at least try to defend themselves, such as the Behemoth!" 2
+			"No wonder you have so many pirates in your space, with those fragile freighters you have. So much cargo with so little protection is pure madness! That is why I love humans." 3
+		word
+			`"`
+
+news "hai joining unfettered"
+	location
+		government "Hai"
+	name
+		word
+			"Hai平民"
+			"Hai青年"
+	to show
+		random < 60
+	message
+		word
+			`"`
+		word
+			"Apparently our brothers and sisters to the north are in need of help. I may go there someday." 2
+			"Some very big things are going to happen in Unfettered space, and I wish to be a part of them!" 2
+			"I have lost everything... I knew I should not have taken that big loan. There is nothing left for me now except to go to Unfettered space for a new life." 2
+			"I come from Unfettered space. The Hai there are quite energetic and friendly once you get to know them, but I could not stand the poor living conditions." 2
+			"Have you heard? The art in Unfettered space is ever-changing, never dull. I wish I could go there and see it in person." 2
+			"Unfettered空间的艺术比这里更有活力。我们有很多可以学习的地方。"
+			"Unfettered空间的艺术比这里更多样化。我们有很多可以学习的地方。"
+			"My music is not appreciated here. I guess I'll be going to Unfettered space to see how they like it. I heard their taste is more... developed." 2
+		word
+			`"`
+
+news "hai joining unfettered"
+	location
+		government "Hai (Unfettered)"
+	name
+		word
+			"Hai商人"
+	to show
+		has "Unfettered Jump Drive 1: offered"
+		random < 60
+	message
+		word
+			`"`
+		word
+			"太多人需要搬迁了。我把运送他们当作自己的工作，几乎不收取任何回报。有些是前往Unfettered空间的Hai，因为他们迷失了自我。"
+			"随着北方即将有行动的消息传开，运输需求大大增加。我根本装不下所有人。看来得买艘更大的船了。"
+			"很多在这里运送Hai的人收费很低——太低了。你看到需求增长了吗？我要涨价了；我不能整天白白地运送人。"
+			"等我把人运完，我会留在这里参与行动。"
+			"我刚送完一批乘客到Unfettered空间，现在又要运人？船长，也许你可以帮帮我们。"
+			"是我多心了吗，还是这里的Hai运输商变少了？"
+		word
+			`"`
+
+
+news "unfettered hai no dialog"
+	location
+		government "Hai (Unfettered)"
+	name
+		word
+			"Unfettered战士"
+			"Unfettered青年"
+			"Unfettered军阀"
+			"Hai青年"
+			"Hai军阀"
+	message
+		word
+			"一个Hai看着你，用他们的语言喊了些什么。你感觉那不是什么好话。"
+			"你路过一个装着假尾巴的Hai。你走过时尽量不去盯着看。"
+			"在一个摊位前，你看到一个Hai在以离谱的价格出售偷来的飞船武器。"
+			"在一个摊位前，你看到一个Hai在出售各种气味难闻的物质。根据那些吸食者的反应，你猜测是某种毒品。"
+
+news "unfettered hai no dialog group"
+	location
+		government "Hai (Unfettered)"
+	name
+		word
+			"一群Unfettered"
+			"一群Hai"
+			"一群青年"
+	message
+		word
+			"你看到一群Hai与另一群对峙。他们互相大喊并掏出武器，然后又退开了。"
+			"你看到一群Hai与另一群对峙。他们喊叫着掏出武器，然后扑向对方。你在他们注意到你之前走开了。"
+			"你听到Hai语中的叫喊声。当你转过身时，看到两个Hai正面对面地对峙，围观者在怂恿他们。你在事态恶化前转开了视线。"
+			"一群小小的Hai孩子跑来跑去地玩某种游戏。但更令人担忧的是，他们玩的时候还带着武器。"
+			"一群Hai围在太空港外的一个篝火旁露营。他们唱着歌，围着火堆充满激情地、几乎疯狂地跳舞。"
+
+news "unfettered hai dialog"
+	location
+		government "Hai (Unfettered)"
+	name
+		word
+			"Unfettered战士"
+			"Unfettered青年"
+			"Unfettered军阀"
+			"Hai青年"
+			"Hai军阀"
+	message
+		word
+			`"`
+		word
+			"你怎么到这里的？你早该被我们的飞船轰成碎片了。"
+			"我来这里，因为这是银河系中唯一让我感到被需要的地方。"
+			"软弱的人类。你怎么敢来到真正Hai的领地？"
+			"受束缚的Hai软弱又意志薄弱。他们不在乎真正的斗争和挑战。"
+			"你再叫我'可爱'，我就拿砍刀捅穿你。"
+			"我寻求挑战，还有什么挑战比对抗拥有神之力量的Drak更大？"
+			"有时候我想念老家的家人和朋友，但随后我会想起，在这里我是一个受人尊敬的战士。而在那边，我只是Drak的奴隶。"
+			"我们的飞船能打败你们这些蠢猴子造的任何东西。"
+			"这总比当工厂工人强。"
+			"没有变化，文明就会腐朽和衰落。这也会发生在被束缚的Hai身上，就像历史上无数帝国一样。"
+			"看什么看，猴子？"
+			"像你这样的人类，我随时都能对付。"
+			"想打一架吗，猴子？"
+			"上周我们掠夺了一艘愚蠢到敢来这儿的人类飞船。谁知道呢，也许下一个就是你。"
+			"我们刚刚抢劫了一艘满载食物的商船队。今晚我们要好好吃一顿。"
+		word
+			`"`
+
+news "Unfettered Regret"
+	location
+		government "Hai (Unfettered)"
+	to show
+		random < 20
+	name
+		word
+			"Unfettered战士"
+			"Unfettered青年"
+			"Hai青年"
+	message
+		word
+			`"`
+		word
+			"一开始我以为加入Unfettered会很好玩。现在我想回也回不去了，否则我的船员会揍我。"
+			"我觉得我是这个星球上唯一后悔加入Unfettered的Hai。"
+			"我想回家。"
+			"I don't know why the Fettered Hai keep giving us tribute. To be honest with you, I don't think we're much of a threat." 2
+			"My captain calls the food shipments we get from the Fettered 'tribute,' but anyone can see it's charity to keep us from starving." 2
+		word
+			`"`
+
+news "unfettered hai after wanderers invasion"
+	location
+		government "Hai (Unfettered)"
+	to show
+		has "event: wanderers: unfettered invasion starts"
+	name
+		word
+			"Unfettered战士"
+			"Unfettered青年"
+			"Unfettered军阀"
+			"Hai青年"
+			"Hai军阀"
+	message
+		word
+			`"`
+		word
+			"我们将征服北方的世界，这是我们的权利。强者击败弱者，这是不可避免的。"
+			"我跟北边那些蠢鸟打过仗。他们完全不懂真正的战斗。我们与他们的战争将很快结束。"
+			"那些大号鸟有很棒的武器，但他们却懦弱到不敢使用。"
+			"我在想那些鸟为什么不还手。他们的武器显然有能力这样做。"
+			"我真希望能弄到一些那种鸟的技术。"
+			"鸟类的星球真是纯净！我们在与蠢鸟的战斗中赢得了一份伟大的战利品。"
+			"真正的Hai将不再被禁锢在Drak强加的笼子里。"
+			"在与那些意志薄弱的鸟的战斗中，我将见证伟大的荣耀。"
+			"北方的世界完全不同于我们被禁锢的地方。在鸟类的星球上，空气清新，水如玻璃般清澈。"
+			"北方的外星人称自己为Wanderers。叫它们大号鸟更贴切。"
+		word
+			`"`
+
+news "unfettered hai after wanderers invasion regret"
+	location
+		government "Hai (Unfettered)"
+	to show
+		has "event: wanderers: unfettered invasion starts"
+		random < 40
+	name
+		word
+			"Unfettered战士"
+			"Unfettered青年"
+			"Hai青年"
+	message
+		word
+			`"`
+		word
+			"当我的船长决定入侵他们的空间时，我不得不击落一艘投降的Wanderer飞船。它很小，不构成威胁，但我的船长还是逼着我做了。我不知道我还能不能撑下去。"
+			"那些鸟几乎不还手。这让我怀疑他们是不是想让我们征服他们的星球。"
+			"I don't think it's right that we attack those that have surrendered. What honor is there in killing civilians?" 2
+			"我来这里是为了与战士战斗，而不是商人和懦弱的鸟。"
+			"杀戮弱者有什么挑战性？我想与值得一战的对手战斗。"
+			"我们在北边做的事是不对的，但如果我试图表示反对，别人就会说我是'懦夫'，叫我滚回家去。"
+			"I was held prisoner on a Wanderer world. They fed me and took care of me. The only thing they asked me to do in return was to teach them the Hai language. If it were the other way around, I'd be dead." 2
+			"I was held prisoner on a Wanderer world. They said that we were welcome to take their planets, if it was their fate. It must be a trap." 2
+			"我曾被囚禁在一颗Wanderer星球上。尽管我攻击了他们，他们却对我非常友善。我不想再和他们战斗了，我会感到太内疚。"
+			"I was held prisoner by the aliens up north. They call themselves the Wanderers, but everyone here just calls them 'birds.'" 2
+		word
+			`"`
