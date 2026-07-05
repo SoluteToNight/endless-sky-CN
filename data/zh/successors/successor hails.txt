@@ -1,0 +1,1181 @@
+# Copyright (c) 2024 by Daeridanii
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Successor civilian
+
+phrase "successor friendly hail" # Wary
+	word
+		`Art thou the "noble visitor" of whom the Houses speak?`
+		`Art thou the "honored guest" the Houses do parade?`
+		"汝可是那来自远方的奇异造物？"
+		"汝可是那来自遥远星空的奇特旅者？"
+		"汝可是踏入我等尊贵疆域的外来访客？"
+		"汝可是那历史中的造物，归来探寻当下？"
+		"汝之舰船与面容，甚为奇异古怪。"
+	word
+		" / "
+	word
+		"吾已察觉汝之存在，然仍对汝心怀戒备。"
+		"若汝灵魂已然腐化，则请保持距离。"
+		"若汝以友待吾，吾亦以友报汝。"
+		"汝于星海之间所求为何？仅为愉悦漂泊乎？"
+		"汝之力量，为谁而借？为何而用？"
+		"汝于星海之间所求为何？为观察抑或干预？"
+		"汝于星海之间所求为何？为商贾还是叛徒？"
+
+
+phrase "successor friendly hail" # Equipment
+	word
+		"吾从不离港而不携"
+		"吾从不远航而不带"
+		"不携此物而出航，实乃愚行"
+	word
+		" "
+	word
+		"a trusty scanner"
+		"my trusty scanner"
+		"a larger fuel tank"
+		"communications"
+		"some conversation"
+		"a stock of crab-cubes"
+		"a stock of kelp-packs"
+		"a week's supply-cache"
+	word
+		", / "
+	word
+		"为汝自身计，吾建议汝亦当如此。"
+		"它使漫长时光倏忽而过。"
+		"它的存在，令黑暗的星空亦生辉光。"
+		"不携此物，出航便失去了意义。"
+
+
+phrase "successor friendly hail" # Basic greeting
+	word
+		"Hail"
+		"Hark"
+	word
+		", "
+	word
+		"fellow captain"
+		"fellow pilot"
+		"star treader"
+		"captain"
+		"visitor"
+	word
+		"." 3
+		"!" 3
+		", strange as thou might be."
+
+
+phrase "successor friendly hail" # Regretful
+	word
+		"I was"
+	word
+		" "
+	word
+		"meant"
+		"trained"
+		"taught"
+	word
+		" "
+	word
+		"to be a"
+	word
+		" "
+	phrase
+		"successor occupation"
+	word
+		", "
+	word
+		"truly"
+		"really"
+		"yes"
+		"true"
+	word
+		", / "
+	word
+		"not"
+	word
+		" "
+	word
+		"some"
+		"this"
+		"a"
+	word
+		" "
+	word
+		"meager"
+		"lowly"
+		"wretched"
+		"somber"
+		"pit'ful"
+		"lonely"
+	word
+		" "
+	word
+		"pilot"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Media
+	word
+		"Hast thou"
+	word
+		" "
+	word
+		"enjoyed"
+		"seen"
+		"experienced"
+		"taken'n"
+	word
+		" "
+	phrase
+		"successor media name"
+	word
+		"? / "
+	word
+		"诚然，吾寻遍世间亦无可与之媲美之物"
+		"'Tis my favorite of its kind, without discussion"
+		"艺术中蕴藏如此真理，实属罕见"
+		"若非如此，汝便因此更为贫瘠"
+		"'Tis perfect to enjoy while on the starlanes"
+		"较之过往一切，于今日更为贴切"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Cargo
+	word
+		"受雇运送"
+		"正在运输"
+	word
+		" "
+	word
+		"a"
+	word
+		" "
+	word
+		"load" 2
+		"box"
+		"crate"
+	word
+		" "
+	word
+		"of pricy"
+		"containing"
+		"of gilded"
+	word
+		" "
+	phrase
+		"successor commodities (2-syllable)"
+	word
+		". / "
+		"! / "
+	word
+		"吾必亲眼见证"
+		"理当如此"
+	word
+		" "
+	word
+		"delivered"
+		"offered"
+		"unloaded"
+	word
+		" "
+	word
+		"quickly"
+		"safely"
+		"shortly"
+		"caref'ly"
+	word
+		" and with conviction"
+		", as is my standard"
+		" and on time"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Proverbs
+	word
+		"我等游于自家所咸之水。"
+		"一人则盲，二人则愚，三人则不向虚妄低头。"
+		"信任止于一臂之距。"
+		"眼目张开，双臂敞开。"
+		"猜疑之卵，乃审慎之苗裔。"
+		"干爽的屋宇胜于湿漉的怒火。"
+		"第一名谓过去，第二名谓当下，第三名谓未来。"
+		"荣誉乃安全之子嗣。"
+		"难道真理之中不含美？难道美德之中不存悦？"
+
+
+phrase "successor friendly hail" # Relation
+	word
+		"My"
+	word
+		" "
+	phrase
+		"successor relation"
+	word
+		" "
+	word
+		"always told me: be a"
+		"has just earned the title:"
+		"used to know a friendly"
+		"helped me find a friendly"
+		"just got married to a"
+		"told me: never trust a"
+		"used to be a skillful"
+	word
+		" "
+	phrase
+		"successor occupation"
+	word
+		", / "
+	word
+		"度此漫漫长日，吾愿化身彼等。"
+		"一项崇高的职责，却非吾之所求。"
+		"本非吾位可予评断，然而……"
+		"吾心盼之，不久可再见到他们。"
+		"汝可曾见过他们？他们可携来任何消息？"
+
+
+phrase "successor friendly hail" # Conspiracy
+	word
+		"望汝能将此言藏于你我之间："
+		"吾有一友，曾私下告我曰："
+		"吾从德高望重之人口中听闻："
+		"高议院试图隐瞒，然吾深知："
+		"经年正直的航行，吾领悟到："
+		"若汝愿意信我一言："
+		"若汝心怀鬼胎，大可质疑吾言，然而："
+	word
+		" / "
+	word
+		"正是那诡计多端的德拉科，将吾等帝国带入毁灭。"
+		"正是那奸诈的夸格，导致了旧帝国的终结。"
+		"正是那嫉妒的联盟，带来了旧帝国的覆灭。"
+		"正是那精明的科拉特，造成了旧帝国的终结。"
+		"正是高议院自身，毁灭了吾等的帝国。"
+		"The best trade routes are ones not prone to scanning." 5
+		"The best trade routes are those that make thee money." 5
+		"The best trade routes are hidden from thy sensors." 2
+		"虚空之中有噩梦，连议院亦为之恐惧。"
+		"此处的空寂星系，常有异象发生。"
+
+
+phrase "successor friendly hail" # Compliance
+	word
+		"若汝遭……扫描"
+		"当汝被……扫描之时"
+	word
+		" "
+	word
+		"a Houses ship"
+		"the local House"
+		"a House warship"
+		"a House patrol"
+	word
+		", / "
+	word
+		"速速停下"
+		"莫要逃窜"
+		"令汝舰船静止"
+	word
+		" and don't resist"
+		", unfold thyself"
+		", explain thy route"
+		", present thy writ"
+	word
+		"."
+		"!"
+
+
+phrase "successor friendly hail" # Careful
+	word
+		"勿使汝之"
+	word
+		" "
+	word
+		"voyage"
+		"journey"
+		"travel"
+		"mission"
+		"effort"
+	word
+		" "
+	word
+		"be for naught"
+		"be undone"
+		"turn to ash"
+		"make for naught"
+	word
+		"! / "
+		"; / "
+	word
+		"保持汝舰洁净"
+		"妥善安放汝之货物"
+		"谨慎监视汝之传感器"
+		"仔细阅读汝之文书"
+	word
+		" and keep thine eyes alight"
+		", thine eyes alight"
+		" for secur'ty's sake"
+		" for thy whole crew's sake"
+		" and thy wit a razor"
+		" and thine arms adroit"
+	word
+		"."
+		"!"
+
+
+phrase "successor hostile hail"
+	word
+		"汝竟背叛吾等之信任，所图为何！？"
+		"吾等方知，信任于汝，实乃愚行；"
+		"残忍、恶毒、暴戾、卑劣的造物。"
+		"可鄙！汝之欺瞒已然败露。"
+		"汝之死亡，于宇宙不过虚空一场。"
+		"如今汝当知晓，吾等之友谊已然撤回。"
+	word
+		" / "
+	word
+		"甚憾，汝将遭逢暴烈之终局。"
+		"议院将让汝卸下生命之重担。"
+		"准备卸下汝之凡躯俗壳吧。"
+		"死亡之柔手，将为汝合上双眼。"
+		"吾等之报复中，不存半分快意。"
+
+
+phrase "successor friendly disabled hail"
+	word
+		"及时援手，将为汝带来荣誉，"
+		"唉，吾舰已遭重创，"
+		`"Help!" we ask, fair visitor,`
+		"吾等勇舰已被击伤，朋友，"
+	word
+		" / "
+	word
+		"请速速前来，吾等恳求于汝。"
+		"若力所能及，请施以援手。"
+		"汝之相助，可使吾等重归完整。"
+		"'Tis noble to be kind and wise to help."
+
+
+phrase "successor hostile disabled hail"
+	word
+		"毁灭性的造物啊，看看汝那苦涩的杰作吧！"
+		"汝之欺瞒，击倒了吾等最华美的舰船！"
+		"刻薄的无赖，本性及行止皆欠思量！"
+		"残忍的欺瞒者，吾等方悟错误在于信任了汝，"
+	word
+		" / "
+	word
+		"议院必将令汝这苦涩之人接受审判！"
+		"若无法保全舰船，至少饶恕我等性命！"
+		"汝受诅咒、愚昧、残忍，且必死无疑。"
+		"吾等族人必将复仇，无论如何！"
+
+# High Houses: Generic
+
+phrase "high houses friendly hail"
+	word
+		"吾等欢迎汝莅临我等星域"
+		"汝于我等美好星域中的存在，备受欢迎"
+		"吾等已察知汝之来访，并予接纳"
+		`"Noble friend," thou art by our decree`
+		`"Honored guest," within our skies thou art`
+		`"Regal sojourner," thy name shall be with us`
+	word
+		", / "
+	word
+		"以便汝"
+	word
+		" "
+	word
+		"might"
+		"may"
+		"shalt"
+		"can'st"
+	word
+		" "
+	word
+		"enjoy our pleasant worlds"
+		"enjoy our verdant worlds"
+		"make note of our advance"
+		"find joy in our success"
+		"bear witness to our joy"
+		"appreciate our lands"
+		"learn well of our success"
+		"feel awe at our success"
+	word
+		"." 3
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"凭高贵之血脉，我等彼此升华，"
+		"怀喜悦之力与真诚之威，我等翱翔，"
+		"无邪恶可阻我等高贵之目标："
+		"我等之目标，真实而纯粹："
+		"以警醒之双目与勇敢之心，"
+	word
+		" / "
+	word
+		"为众生缔造一个伟大而持久的和平。"
+		"为众生营造一个真实而喜乐的和平。"
+		"让我等众人于和平中安然光明。"
+		"增进我等众人之喜乐与福祉。"
+
+
+phrase "high houses friendly hail"
+	word
+		"Hark"
+		"Hail"
+	word
+		", "
+	word
+		"traveler"
+		"guest"
+		"alien"
+		"captain"
+		"pilot"
+	word
+		"!"
+	word
+		" / "
+	word
+		"Our"
+	word
+		" "
+	word
+		"House"
+		"fleet"
+		"ship"
+		"craft"
+	word
+		" "
+	word
+		"patrols"
+		"maintains"
+		"observes"
+		"doth grace"
+	word
+		" "
+	word
+		"this space"
+		"these worlds"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"让那些拥有……者"
+		"愿那些拥有……者"
+	word
+		" "
+	word
+		"evil"
+		"rancor"
+		"fury"
+		"knave'ry"
+		"cruelty"
+		"terror"
+		"violence"
+		"mock'ry"
+	word
+		" "
+	word
+		"in their hearts"
+		"as their guide"
+		"as intent"
+	word
+		" "
+	word
+		"quake"
+		"fright"
+		"flee"
+		"begone"
+	word
+		" "
+	word
+		"and blanch in fear"
+		"before our might"
+		"as we arrive"
+	word
+		". / "
+		"! / "
+	word
+		"汝之议院在此"
+		"汝之议院已至"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"莫要揭露"
+		"莫要释放邪恶"
+	word
+		" "
+	word
+		"blade"
+		"spear"
+		"claw"
+	word
+		" of "
+	word
+		"evil"
+		"rancor"
+		"fury"
+		"cruelty"
+		"terror"
+		"violence"
+		"mock'ry"
+	word
+		" "
+	word
+		"'fore our gaze"
+		"'thin our sight"
+		"while we yet breathe"
+		"among our worlds"
+		"upon our people"
+	word
+		". / "
+		"! / "
+	word
+		"所有无赖终将迎来其苦涩的结局"
+		"吾等之怒与吾等之爱等同"
+		"吾等之威远胜最卑劣之敌"
+		"吾等之职责恳请我等奋起防卫"
+		"我等绝不姑息暴虐之敌"
+	word
+		"."
+		"!"
+
+
+phrase "high houses friendly hail"
+	word
+		"Justice"
+		"Strength"
+		"Sight"
+		"Might"
+		"Care"
+	word
+		", "
+	word
+		"honor"
+		"passion"
+		"valor"
+	word
+		", "
+	word
+		"integrity"
+		"fidelity"
+		"precision"
+		"nobility"
+		"honesty"
+		"clarity"
+		"swiftness"
+		"bravery"
+	word
+		": "
+	word
+		"these"
+		"such"
+	word
+		" "
+	word
+		"are the virtues of"
+	word
+		" "
+	word
+		"our"
+	word
+		" "
+	word
+		"noble"
+		"regal"
+	word
+		" "
+	word
+		"House."
+
+
+phrase "high houses friendly hail"
+	word
+		"Travel"
+		"Visit"
+	word
+		" "
+	word
+		"planetside"
+		"onworld"
+	word
+		" "
+	word
+		"to see"
+		"to touch"
+	word
+		" "
+	word
+		"an Aaulqra"
+		"a Seiitej"
+		"a Veusade"
+		"an Ojet"
+		"a coilgun"
+	word
+		" "
+	word
+		"in person"
+		"up close"
+		"with thine own arms"
+	word
+		"."
+		"!"
+
+
+phrase "high houses hostile hail"
+	word
+		"汝之欺瞒，标志着汝之邪恶的巅峰，"
+		"汝之怯懦，乃汝声名之根基，"
+		"吾等方知，信任于汝，实乃愚行；"
+		"汝已清楚证明自己实为无赖与懦夫；"
+		"懦夫在真正死去之前，已死过多次，"
+	word
+		" / "
+	word
+		"吾等之职责将卸去汝之生命。"
+		"愿汝在死亡中找到生前所缺的安宁。"
+		"愿汝之死英勇而迅捷。"
+		"愿汝在死亡中，认清自身之过错。"
+		"如今吾等已认清汝之恶意，豁然开朗。"
+		"愿汝那无赖而欺瞒之心，此刻止息。"
+		"勇者只品尝死亡一次。"
+
+
+phrase "high houses hostile hail"
+	word
+		"吾等对这份沉重之职责，并无半分愉悦可言，"
+		"汝之毒液，将遭遇吾等之决心："
+		"吾等之沉重职责，便是终结汝之残暴："
+	word
+		" / "
+	word
+		"吾等将使汝之死，成为迅捷而无痛之事。"
+		"吾等之刺，将在汝叛逆的血肉中生长。"
+		"愿汝之死英勇而迅捷。"
+		"愿汝之痛，彻底而短暂。"
+
+
+phrase "high houses hostile disabled hail" 2
+	word
+		"毁灭性的恶犬，吾等之复仇终将寻获于汝！"
+		"复仇之飨，以冷盘为最佳，"
+		"汝可击碎吾舰，却永不能击碎吾等之魂！"
+		"腐烂发臭吧，欺瞒的无赖！"
+		"若敢登舰，吾等将战至最后一人！"
+	word
+		" / "
+	word
+		"吾等之友必将为汝之残忍复仇！"
+		"让汝之腐肉，在烈焰中焚尽吧！"
+		"吾等之友终将让汝知晓何为恐惧。"
+		"汝唯一的高贵之举，便是灭亡。"
+
+
+phrase "high houses hostile disabled hail"
+	word
+		"From void's heart, we stab at thee! / For the good of hate, we spit our last breaths at thee!" # Moby-Dick
+		"Cowards die many times before their deaths, / But the valiant never taste of death but once!" # Julius Caesar, Act 2, Scene 2
+		"Woe, destruction, ruin and decay; / The worst is death, and death will have its day." # Richard II, Act 3, Scene 2
+		"Cur, keep back, or else embrace thy death; / Come not within the measure of my wrath." # The Two Gentlemen of Verona, Act 5, Scene 4
+		"And by a sleep we say to end / The heartache, and the thousand natural shocks / That flesh is heir to." # Hamlet, Act 3, Scene 1
+
+# High Houses: Old Houses
+
+phrase "old houses friendly hail" # Boast hails
+	word
+		"The"
+	word
+		" "
+	word
+		"arm of"
+		"spear of"
+		"sword of"
+		"shield of"
+		"prime of"
+		"best of"
+	word
+		" "
+	word
+		"the Old Houses"
+	word
+		" "
+	word
+		"in"
+		"with"
+	word
+		" "
+	word
+		"joy"
+		"pride"
+		"strength"
+		"glory"
+	word
+		" "
+	word
+		"we are;"
+	word
+		" / "
+	word
+		"一个我等引以为傲的简单真理。"
+		"一个坦诚的事实，众人皆可明见。"
+		"一个我等从中所获喜乐的简单真理。"
+		"一个我等坦然表露的真理。"
+		"一个我等怀以极悦而坚守的立场。"
+		"一份我等永不会否认的荣誉。"
+		"一言一行中的喜悦，纯粹如是。"
+
+
+phrase "old houses friendly hail" 10
+	phrase
+		"high houses friendly hail"
+
+
+phrase "chydiyi friendly hail" 7
+	phrase
+		"old houses friendly hail"
+
+
+phrase "chydiyi friendly hail"
+	word
+		"共享齐迪伊之家的禁断苍穹"
+		"承禁断苍穹之恩泽而翱翔"
+	word
+		", / "
+	word
+		"Its"
+		"Our"
+	word
+		" "
+	word
+		"fleet"
+		"ships"
+		"craft"
+	word
+		" "
+	word
+		"the clouds within it"
+		"the wreath of stars"
+		"a storm within't"
+	word
+		"."
+		"!"
+
+
+phrase "myurej friendly hail" 6
+	phrase
+		"old houses friendly hail"
+
+
+phrase "myurej friendly hail"
+	word
+		"Endure not"
+	word
+		" "
+	word
+		"the rise and fall"
+		"the in and out"
+		"the breath of waves"
+		"the pain of yore"
+	word
+		", "
+	word
+		"the ebb and play"
+		"the draw of fear"
+		"the ghost of past"
+	word
+		", / "
+	word
+		"make thine eyes aflutter"
+		"lift thy head with pride"
+		"stretch thine arms afront"
+		"push thy spirit forth"
+		"grant thy spirit flight"
+	word
+		", "
+	word
+		"breathe in the noble day"
+		"make merry of the day"
+		"find success in thine 'deavors"
+		"take pleasure in thy role"
+	word
+		"."
+		"!"
+
+
+phrase "myurej friendly hail"
+	word
+		"绽放之臂"
+	word
+		"House"
+		"grand"
+		"sweet"
+	word
+		" Myurej "
+	word
+		"extends to thee"
+		"'s offered to thee"
+	word
+		" in "
+	word
+		"friendship"
+		"peace"
+		"aid"
+		"am'ty"
+	word
+		". / "
+	word
+		"汝可按所需，自行接受。"
+		"只需呼唤，即可获得援助。"
+		"此乃我等之承诺，以高贵之名许下。"
+	
+
+phrase "sioeora friendly hail" 7
+	phrase
+		"old houses friendly hail"
+
+
+phrase "sioeora friendly hail"
+	word
+		"The"
+	word
+		" "
+	word
+		"gleaming"
+		"brilliant"
+		"faultless"
+		"clever"
+	word
+		" "
+	word
+		"ships"
+		"craft"
+		"tools"
+		"arms"
+	word
+		" of "
+	word
+		"our noble House"
+		"bright Sioeora"
+		"the Twin-Moon House"
+	word
+		" / "
+	word
+		"已准备好协助"
+		"为众人所知，乃万中最佳"
+		"绝不忍受邪恶之心者"
+		"乃吾等乐于动用之物"
+	word
+		"."
+		"!"
+
+# High Houses: New Houses
+
+phrase "new houses friendly hail" # Boast hails
+	word
+		"The"
+	word
+		" "
+	word
+		"arm of"
+		"spear of"
+		"sword of"
+		"shield of"
+		"prime of"
+		"best of"
+	word
+		" "
+	word
+		"the New Houses"
+	word
+		" "
+	word
+		"in joy"
+		"with pride"
+		"with joy"
+	word
+		" "
+	word
+		"we are;"
+	word
+		" / "
+	word
+		"一个我等引以为傲的简单真理。"
+		"一个坦诚的事实，众人皆可明见。"
+		"一个我等从中所获喜乐的简单真理。"
+
+
+phrase "new houses friendly hail" 10
+	phrase
+		"high houses friendly hail"
+
+
+phrase "kaatrij friendly hail" 6
+	phrase
+		"new houses friendly hail"
+
+
+phrase "kaatrij friendly hail"
+	word
+		"吾等立于薄纱之翼上，却生有尖牙利爪。"
+		"愿汝能认清自身之万千面向；"
+		"铭记逝者，无论新故。"
+		"我等共同承续，往昔与今朝。"
+		"莫窥探，莫寻觅，此刻及永远。"
+		"我等守望，我等维护，从未停歇；"
+	word
+		" / "
+	word
+		"吾等高贵之家，因而翱翔无阻。"
+		"在团结之中，我等寻得力量。"
+		"愿汝之警觉，如汝之品德一般坚定。"
+
+
+phrase "kaatrij friendly hail"
+	word
+		"The"
+	word
+		" "
+	word
+		"Kijran"
+		"Composite"
+		"Wing'ed"
+		"Winged-Eye"
+	word
+		" House "
+	word
+		"doth greet"
+		"observes"
+		"observes and notes"
+		"salutes"
+	word
+		" thee, "
+	word
+		"traveler"
+		"captain"
+		"alien"
+		"pilot"
+		"guest"
+	word
+		". / "
+	word
+		"愿汝拥有"
+		"让汝获得"
+	word
+		" "
+	word
+		"clarity"
+		"prudence"
+		"success"
+		"integrity"
+	word
+		" "
+	word
+		"in thy travels."
+		"on thy journey."
+
+
+phrase "seineq friendly hail"
+	phrase
+		"new houses friendly hail" 7
+
+
+phrase "seineq friendly hail"
+	word
+		"In"
+	word
+		" "
+	word
+		"verdant"
+		"lasting"
+		"brilliant"
+		"gleaming"
+	word
+		" "
+	word
+		"peace"
+	word
+		" "
+	word
+		"and"
+		"with"
+	word
+		" "
+	word
+		"glowing"
+		"passioned"
+		"clear-eyed"
+	word
+		" "
+	word
+		"pride"
+	word
+		", / "
+	word
+		"the Houses, New"
+		"our noble House"
+		"grand Seineq's House"
+		"the Lum'nary party"
+		"the Twice-Wrapped Ring"
+	word
+		" "
+	word
+		"doth"
+	word
+		" "
+	word
+		"endure and thrive"
+		"proclaim success"
+		"invoke our skill"
+	word
+		"."
+		"!"
+
+
+phrase "aqrabe friendly hail" 6
+	phrase
+		"new houses friendly hail"
+
+
+phrase "aqrabe friendly hail"
+	word
+		"听从……之言"
+		"谨记……之语"
+		"Ignore not"
+		"莫要轻视"
+	word
+		" "
+	word
+		"the"
+		"our"
+	word
+		" "
+	word
+		"noble"
+		"regal"
+		"thoughtful"
+	word
+		" saint of "
+		" paragon o'"
+	word
+		"Clarity"
+		"Cleverness"
+		"Cognizance"
+		"Family"
+		"Honesty"
+		"Humility"
+		"Industry"
+		"Unity"
+		"Wealth"
+	word
+		": / "
+	word
+		`"Feed not the yawning maw of idleness."`
+		`"Prosperity enacts its own virtues."`
+		`"Strength is the enabler of virtue."`
+		`"Resilience is the egg of success."`
+		`"Ostentation is the skin of the false."`
+		`"Security enables prosperity."`
+		`"Betterment is not wrought without well-built tools."`
+		`"Let thy gold be thread, not statue."`
+
+
+phrase "aqrabe friendly hail"
+	word
+		"我等是阿克拉贝"
+		"Noble House Aqrabe"
+	word
+		", "
+	word
+		"伊之塔"
+		"奉献于新议院之党"
+	word
+		": no "
+	word
+		"evildoer"
+		"malevolent"
+		"miscreant"
+	word
+		" "
+	word
+		"shall"
+		"can"
+		"could"
+	word
+		" "
+	word
+		"escape"
+		"evade"
+		"avoid"
+	word
+		" our "
+	word
+		"wrath"
+		"gaze"
+		"purview"
+		"might"
+	word
+		"."
+		"!"
+
+# People's Houses
+
+phrase "people's houses friendly hail"
+	word
+		"纵情于汝之自由与坚韧吧。"
+		"吾对汝无伤害之意，亦无恶行之心。"
+		"我等高擎摆脱压迫的自由之旗。"
+		"人民议院提供真正的平等。"
+	word
+		" / "
+	word
+		"活在贵族枷锁之外。"
+		"保持挣脱于麻木陈规之外。"
+		"人民议院已准备好提供协助。"
+
+phrase "people's houses hostile hail"
+	word
+		"汝之头衔与行径，皆是无赖否！？"
+		"汝不过是权力的愚蠢奴隶罢了！"
+		"汝是对苦难视而不见、充耳不闻，还是纯粹邪恶？"
+		"若汝愿丢弃货物，我等便即离去。"
+		"丢弃货物者，不受伤害。"
+		"汝之友谊与行径，皆是无赖之风。"
+	word
+		" / "
+	word
+		"汝之鲜血，将为汝星舰内舱添上装饰。"
+		"抵抗者，格杀勿论。"
+		"吾愿汝之痛苦，深重而永恒。"
+		"让我为汝卸下凡人之躯的重担。"
+		"准备卸下汝之凡躯俗壳吧。"
+		"死亡之猝手，将为汝合上双眼。"
