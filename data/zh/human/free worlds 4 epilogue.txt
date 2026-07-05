@@ -1,0 +1,3 @@
+mission "FW Epilogue: Edward"
+	name `武器测试`
+	description `一艘装备新武器的测试船在<planet>轨道上。与它战斗并使其瘫痪（但不要登船或摧毁它！），然后降落，向疯子爱德华反馈其性能。`

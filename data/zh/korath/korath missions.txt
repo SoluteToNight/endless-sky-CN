@@ -1,0 +1,49 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Setar Fort Heating"
+	name "物资至<planet>"
+
+mission "Korath Family to Ringworld"
+	name "将Korath运往<planet>"
+
+mission "Korath Livestock"
+	name "牲畜至<planet>"
+
+mission "Small Scale Delivery"
+	name "包裹至<planet>"
+
+mission "Efreti: Distress Call 1"
+	name "来自<EDC-ship>的求救信号"
+
+mission "Efreti: Distress Call 2"
+	name "送回<EDC-ship>幸存者"
+
+mission "Efreti: Distress Call 3"
+	name "找回<EDC-ship>的阵亡船员"
+
+mission "Efreti: Distress Call 4"
+	name "找回<EDC-ship>的阵亡者"
+
+mission "Efreti: Distress Call 5"
+	name "<EDC-ship>打捞队"
+
+mission "Efreti: Distress Call 6"
+	name "打捞<EDC-ship>"
+
+mission "Efreti: Distress Call 7"
+	name "打捞<EDC-ship>"

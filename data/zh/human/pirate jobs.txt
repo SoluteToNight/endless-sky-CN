@@ -1,0 +1,11 @@
+mission "Cargo Theft (North)"
+	name "Convoy near <system>"
+	description `一支商船护航队在共和国空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`
+
+mission "Cargo Theft (Core)"
+	name "Convoy near <system>"
+	description `一支商船护航队在辛迪加空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`
+
+mission "Cargo Theft (South)"
+	name "Convoy near <system>"
+	description `一支商船护航队在南部空间内、靠近<system>星系处被发现了。一位当地军阀对<npc>上的货物感兴趣。洗劫目标并携带货物于<day>之前返回<planet>，报酬为<payment>。`

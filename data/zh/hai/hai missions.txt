@@ -1,0 +1,121 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Expanding Business [1]"
+	name "一个有趣的提议"
+
+mission "Expanding Business [2]"
+	name "一个有趣的提议"
+
+mission "Expanding Business [3]"
+	name "一个有趣的提议"
+
+mission "Expanding Business [4]"
+	name "一个有趣的提议"
+
+mission "Expanding Business [5]"
+	name "一个新的提议"
+
+mission "Expanding Business [6]"
+	name "一个新的提议"
+
+mission "Expanding Business [7]"
+	name "一个新的提议"
+
+mission "Pirate Troubles [0]"
+	name "保卫<system>"
+
+mission "Pirate Troubles [1]"
+	name "无羁人类"
+
+mission "Pirate Troubles [2]"
+	name "斯卡军团"
+
+mission "Pirate Troubles [3]"
+	name "斯卡军团"
+
+mission "Pirate Troubles [4]"
+	name "海盗贡品"
+
+mission "Nanachi 1"
+	name "护送Nanachi至<planet>"
+
+mission "Nanachi 2"
+	name "护送Nanachi至<planet>"
+
+mission "Nanachi 3"
+	name "与Nanachi一起运送香料"
+
+mission "Nanachi 4"
+	name "保护Nanachi"
+
+mission "Strider Alt Start"
+	name "新无羁者飞船"
+
+mission "Strider 0"
+	name "船体修复技术"
+
+mission "Strider 1"
+	name "船体修复技术"
+
+mission "Strider: Remnant 1"
+	name "联系遗民"
+
+mission "Strider: Remnant 2"
+	name "会见the Remnant"
+
+mission "Strider: Remnant 3"
+	name "已获取技术"
+
+mission "Strider: Coalition 1"
+	name "联系联盟"
+
+mission "Strider: Coalition 2"
+	name "已获取技术"
+
+mission "Hai Film Crew 1"
+	name "Hai摄制组至<planet>"
+
+mission "Hai Film Crew 2"
+	name "在<planet>接Hai摄制组"
+
+mission "Hai Film Crew 3"
+	name "Hai摄制组至<planet>"
+
+mission "Station Exploration 1"
+	name "将Bring students运往<planet>"
+
+mission "Station Exploration 2"
+	name "将Bring students home运往<planet>"
+
+mission "Hai Pilgrimage"
+	name "Hai精神领袖至<planet>"
+
+mission "Acorn Delights: Part 1"
+	name "为Anoo送橡子"
+
+mission "Acorn Delights: Part 2"
+	name "为Anoo送橡子"
+
+mission "Acorn Delights: Part 3"
+	name "为Anoo送橡子"
+
+mission "Acorn Delights: Part 4"
+	name "橡子美食"
+
+mission "Acorn Delights: Part 5"
+	name "Eeeya至Anoo"

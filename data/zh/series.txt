@@ -1,0 +1,53 @@
+# Copyright (c) 2021 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Outfit series definitions, weight is priority / grouping.
+
+category "series"
+	# Guns
+	"火炮" 100
+	# Turrets
+	"炮塔" 100
+	"反导弹" 200
+	"牵引光束" 300
+	# Secondary Weapons
+	"副武器" 100
+	# Ammunition
+	"弹药" 100
+	# Systems
+	"引擎系统" 100
+	"护盾" 200
+	"维修" 300
+	"冷却" 400
+	"扫描仪" 500
+	"干扰器" 600
+	"特殊系统" 700
+	"进气系统" 800
+	"燃油" 900
+	"客舱" 1000
+	"扩展" 9999
+	# Power
+	"发电机" 100
+	"电池" 200
+	"太阳能" 300
+	# Engines
+	"引擎" 100
+	"加力燃烧室" 200
+	# Hand to Hand
+	"近战" 100
+	"加强装甲" 200
+	# Unique
+	"功能性独特" 100
+	"非功能性独特" 200
+	# Licenses
+	"许可证" 100

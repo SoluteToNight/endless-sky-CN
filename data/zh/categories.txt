@@ -1,0 +1,53 @@
+# Copyright (c) 2021 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Ships of these types can be purchased and also used as mission sources.
+category "ship"
+	"运输船"
+	"太空客轮"
+	"轻型货船"
+	"重型货船"
+	"多功能船"
+	"截击机"
+	"轻型战舰"
+	"中型战舰"
+	"重型战舰"
+	"超重型"
+	"战斗机"
+	"无人机"
+	"未分类"
+	"次级未分类"
+	"游戏机制"
+
+
+# Ships of these types can be carried by other ships.
+category "bay type"
+	"无人机"
+	"战斗机"
+	"次级未分类"
+
+
+# Outfits of these types can be bought and sold via the outfitter.
+category "outfit"
+	"火炮"
+	"炮塔"
+	"副武器"
+	"弹药"
+	"系统"
+	"能源"
+	"引擎"
+	"近战武器"
+	"独特"
+	"矿物"
+	"特殊"
+	"许可证"

@@ -1,0 +1,3 @@
+mission "FW Wolf Pack 2"
+	name `"狼群"招募`
+	description `一个自称"自由世界狼群"的组织邀请你前往<planet>，如果你想协助他们对抗共和国的话。`

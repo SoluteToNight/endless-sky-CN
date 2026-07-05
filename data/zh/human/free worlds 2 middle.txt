@@ -1,0 +1,154 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "FW Diplomacy 1"
+	name "自由世界外交"
+
+mission "FW Diplomacy 1B"
+	name "自由世界外交"
+
+mission "FW Diplomacy 1C"
+	name "自由世界外交"
+
+mission "FW Diplomacy 1D"
+	name "自由世界外交"
+
+mission "FW Southern Recon 1"
+	name "侦察"
+
+mission "FW Southern Recon 1B"
+	name "电子束"
+
+mission "FW Southern Battle 1"
+	name "护送Battle Fleet"
+
+mission "FW Southern Battle 1B"
+	name "护送Battle Fleet"
+
+mission "FW Southern Battle 2"
+	name "攻击Rastaban"
+
+mission "FW Southern Battle 3"
+	name "清扫for Navy Ships"
+
+mission "FW Southern Prisoners - Release"
+	name "归还海军囚犯"
+
+mission "FW Southern Prisoners - Keep"
+	name "扣留海军囚犯"
+
+mission "FW Southern Prisoners - Released"
+	name "向Dancer报告"
+
+mission "FW Southern Prisoners - Kept"
+	name "向Dancer报告"
+
+mission "FW Southern Break Ends"
+	name "返回<planet>"
+
+mission "FW Northern 1"
+	name "北方扩张"
+
+mission "FW Northern 2"
+	name "会见Freya"
+
+mission "FW Northern 2A"
+	name "清扫Hope"
+
+mission "FW Northern 2B"
+	name "清扫Clark"
+
+mission "FW Northern 2C"
+	name "清扫New Holland"
+
+mission "FW Northern 2D"
+	name "清扫New Tibet"
+
+mission "FW Northern 3"
+	name "Freya至Zug"
+
+mission "FW Northern 3B"
+	name "无畏舰至<planet>"
+
+mission "FW Northern 4"
+	name "会见Convoy"
+
+mission "FW Northern 4.1A"
+	name "医疗护航队"
+
+mission "FW Northern 4.2A"
+	name "医疗护航队"
+
+mission "FW Alphas 1.1"
+	name "解放Poisonwood"
+
+mission "FW Alphas 1.2"
+	name "解放Poisonwood"
+
+mission "FW Alphas 1.1A"
+	name "Danforth至<planet>"
+
+mission "FW Alphas 1.2A"
+	name "返回the Front"
+
+mission "FW Bloodsea 1"
+	name "Alondo至<planet>"
+
+mission "FW Bloodsea 1.1"
+	name "来自<planet>的飞船"
+
+mission "FW Bloodsea 1.1A"
+	name "来自<planet>的物资"
+
+mission "FW Bloodsea 1.1B"
+	name "物资至<planet>"
+
+mission "FW Bloodsea 1.2"
+	name "入侵舰队"
+
+mission "FW Bloodsea 1.2A"
+	name "夺取Bloodsea"
+
+mission "FW Dreadnoughts Ready"
+	name "在<planet>会面Freya"
+
+mission "FW Albatross 1"
+	name "Freya至<planet>"
+
+mission "FW Albatross 2"
+	name "访问Albatross"
+
+mission "FW Albatross 2A"
+	name "追捕Ryk Bartlett"
+
+mission "FW Albatross 2B"
+	name "返回Dancer"
+
+mission "FW Rand 1"
+	name "占领Zeta Aquilae"
+
+mission "FW Rand 1B"
+	name "在Wayfarer重组"
+
+government "Syndicate (Hostile)"
+	display name "辛迪加"
+
+mission "FW Defend New Tibet"
+	name "叛逃者"
+
+mission "FW Liberate Delta Sagittarii"
+	name "解放Delta Sagittarii"

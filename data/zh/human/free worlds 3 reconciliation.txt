@@ -1,0 +1,11 @@
+mission "FW Embassy 1C"
+	name "Ambassadors to Earth"
+	description `护送一艘载有自由世界大使的无畏舰前往地球。这艘无畏舰随后将参与你们对辛迪加的联合"警察行动"。`
+
+mission "FW Pug 4B"
+	name "Reflector to Hephaestus"
+	description `弗雷娅发现了一个设备，她相信是一个"引力子反射器"，可以以某种方式安装在<system>星系中，重新建立那里与摩羯座δ星之间的超空间链接。把这个发射器带到<planet>上的辛迪加官员那里。`
+
+mission "FW Pug 5A"
+	name "Reflector to <planet>"
+	description `带上这个"引力子反射器"到<planet>并在那里安装好，以便恢复太阳系和牵牛星系之间的超空间链接。`

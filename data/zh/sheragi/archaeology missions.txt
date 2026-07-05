@@ -1,0 +1,100 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Deep Archaeology 1"
+	name "深度考古"
+
+mission "Deep Archaeology 2"
+	name "深度考古"
+
+mission "Deep Archaeology 3"
+	name "深度考古"
+
+mission "Deep Archaeology 4"
+	name "深度考古"
+
+mission "Deep Archaeology 5"
+	name "深度考古"
+
+mission "Rim Archaeology Reminder"
+	name "Foster的协助？"
+
+mission "Rim Archaeology 1"
+	name "<planet>上的考古"
+
+mission "Rim Archaeology 2A"
+	name "考古设备"
+
+mission "Rim Archaeology 2B"
+	name "考古设备"
+
+mission "Rim Archaeology 3A"
+	name "考古设备"
+
+mission "Rim Archaeology 3B"
+	name "考古设备"
+
+mission "Rim Archaeology 4A"
+	name "运送a Xenobiologist"
+
+mission "Rim Archaeology 4B"
+	name "运送a Xenobiologist"
+
+mission "Rim Archaeology 5A"
+	name "保卫Zug"
+
+mission "Sheragi Archaeology: The Box 1"
+	name "Sheragi地堡"
+
+mission "Sheragi Archaeology: The Box 2"
+	name "神秘的盒子"
+
+mission "Sheragi Archaeology: The Box 3"
+	name "情报贩子"
+
+mission "Sheragi Archaeology: The Box 4"
+	name "寻找文物"
+
+mission "Sheragi Archaeology: The Box 5"
+	name "争夺文物"
+
+mission "Sheragi Archaeology: The Box 6b"
+	name "盒子回收"
+
+mission "Sheragi Archaeology: The Box 6c"
+	name "Hai知识"
+
+mission "Sheragi Archaeology: The Box 7a"
+	name "银河历史博物馆"
+
+mission "Sheragi Archaeology: The Box 7b"
+	name "Hai文化部"
+
+mission "Sheragi Archaeology: The Box 8"
+	name "组建团队"
+
+mission "Sheragi Archaeology: The Emerald Sword 1"
+	name "黑匣子解码"
+
+mission "Sheragi Archaeology: The Emerald Sword 2"
+	name "翡翠之剑"
+
+mission "Sheragi Archaeology: The Emerald Sword 3"
+	name "翡翠之剑"
+
+mission "Sheragi Archaeology: Epilogue"
+	name "翡翠之剑"

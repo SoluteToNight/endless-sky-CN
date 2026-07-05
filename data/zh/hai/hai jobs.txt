@@ -1,0 +1,226 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Human Vacation [1]"
+	name "人类度假者至<planet>"
+
+mission "Human Vacation [2]"
+	name "人类度假者至<planet>"
+
+mission "Hai Vacation [1]"
+	name "Hai度假者至<planet>"
+
+mission "Hai Vacation [2]"
+	name "Hai度假者至<planet>"
+
+mission "Hai Vacation [3]"
+	name "Hai度假者至<planet>"
+
+mission "Hai Vacation [4]"
+	name "Hai度假者至<planet>"
+
+mission "Wealthy Hai [1]"
+	name "富有的Hai至<planet>"
+
+mission "Wealthy Hai [2]"
+	name "富有的Hai至<planet>"
+
+mission "Hai Festival [1]"
+	name "<planet>节庆"
+
+mission "Hai Festival [2]"
+	name "<planet>节庆"
+
+mission "Hai Festival [3]"
+	name "<planet>节庆"
+
+mission "Unfettered Aid [0]"
+	name "援助物资至Unfettered"
+
+mission "Unfettered Aid [1]"
+	name "援助物资至Unfettered"
+
+mission "Unfettered Aid [2]"
+	name "援助物资至Unfettered"
+
+mission "Delivery to Human Space [0]"
+	name "特快运送至<planet>"
+
+mission "Delivery to Human Space [1]"
+	name "特快运送至<planet>"
+
+mission "Delivery to Human Space [2]"
+	name "特快运送至<planet>"
+
+mission "Hai Retrieve Human Luxury Goods"
+	name "来自<planet stopovers>的特殊订单"
+
+mission "Hai Retrieve Human Food"
+	name "来自<planet stopovers>的特殊订单"
+
+mission "Hai Retrieve Human Electronics"
+	name "来自<planet stopovers>的特殊订单"
+
+mission "Escort to Human Space (Small)"
+	name "特殊护航至<planet>"
+
+mission "Escort to Human Space (Medium)"
+	name "特殊护航至<planet>"
+
+mission "Escort to Human Space (Large)"
+	name "特殊护航至<planet>"
+
+mission "Escort to Human Space (Extra Large)"
+	name "特殊护航至<planet>"
+
+mission "Hai Passengers [1]"
+	name "乘客运输至<planet>"
+
+mission "Hai Passengers [2]"
+	name "乘客运输至<planet>"
+
+mission "Hai Passengers [3]"
+	name "乘客运输至<planet>"
+
+mission "Hai Family [0]"
+	name "将family运往<planet>"
+
+mission "Hai Family [1]"
+	name "将family运往<planet>"
+
+mission "Hai Cargo [0]"
+	name "运送至<planet>"
+
+mission "Hai Cargo [1]"
+	name "运送至<planet>"
+
+mission "Hai Cargo [2]"
+	name "运送至<planet>"
+
+mission "Hai Cargo [3]"
+	name "运送至<planet>"
+
+mission "Hai Cargo [4]"
+	name "运送至<planet>"
+
+mission "Hai Bulk Delivery [0]"
+	name "批量运送至<planet>"
+
+mission "Hai Bulk Delivery [1]"
+	name "批量运送至<planet>"
+
+mission "Hai Bulk Delivery [2]"
+	name "批量运送至<planet>"
+
+mission "Hai Large Bulk Delivery [0]"
+	name "大批量运送至<planet>"
+
+mission "Hai Large Bulk Delivery [1]"
+	name "大批量运送至<planet>"
+
+mission "Hai Large Bulk Delivery [2]"
+	name "大批量运送至<planet>"
+
+mission "Hai Rush Delivery [0]"
+	name "将Rush delivery运往<planet>"
+
+mission "Hai Rush Delivery [1]"
+	name "将Rush delivery运往<planet>"
+
+mission "Hai Rush Delivery [2]"
+	name "将Rush delivery运往<planet>"
+
+mission "Hai Rush Delivery [3]"
+	name "将Rush delivery运往<planet>"
+
+mission "Hai Large Rush Delivery [0]"
+	name "加急大量运送至<planet>"
+
+mission "Hai Large Rush Delivery [1]"
+	name "加急大量运送至<planet>"
+
+mission "Hai Large Rush Delivery [2]"
+	name "加急大量运送至<planet>"
+
+mission "Hai Large Rush Delivery [3]"
+	name "加急大量运送至<planet>"
+
+mission "Swiftsong Business Convention [1]"
+	name "<planet>商业大会"
+
+mission "Swiftsong Business Convention [2]"
+	name "<planet>商业大会"
+
+mission "Swiftsong Film Festival [1]"
+	name "<planet>电影节"
+
+mission "Swiftsong Film Festival [2]"
+	name "<planet>电影节"
+
+mission "Swiftsong Music Festival [1]"
+	name "<planet>音乐节"
+
+mission "Swiftsong Music Festival [2]"
+	name "<planet>音乐节"
+
+mission "Swiftsong Computer Security Conference [1]"
+	name "<planet>计算机安全会议"
+
+mission "Swiftsong Computer Security Conference [2]"
+	name "<planet>计算机安全会议"
+
+mission "Swiftsong Science Fiction Convention [1]"
+	name "<planet>科幻大会"
+
+mission "Swiftsong Science Fiction Convention [2]"
+	name "<planet>科幻大会"
+
+mission "Superstitious Hai [1]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [2]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [3]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [4]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [5]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [6]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [7]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [8]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [9]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [10]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [11]"
+	name "迷信的Hai至<planet>"
+
+mission "Superstitious Hai [12]"
+	name "迷信的Hai至<planet>"

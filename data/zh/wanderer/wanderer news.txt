@@ -1,0 +1,346 @@
+# Copyright (c) 2021 by roadrunner56
+# Based on earlier text copyright (c) 2017 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+news "wanderer civilians, no dialog 1"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Individual"
+	message
+		word
+			"在太空港外，你看到有人正在维护某种灌溉系统。等他们修好之后，系统便开始浇灌一片植物田地。"
+			"一名码头工人正在从飞船上卸下复杂的科学设备。然而更令人惊讶的是，他们还卸下了几袋肥料。"
+
+news "wanderer civilians no dialog 2"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Group"
+	message
+		word
+			"一群人围着一个物体聚集。凑近一看，似乎是一种科技装置。"
+			"在太空港附近的一个摊位上，一群人正在演奏看起来有点像木笛的乐器。他们的音乐很轻，缺乏可辨识的旋律。"
+
+news "wanderer civilians, no dialog 1, post language"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer"
+	message
+		word
+			"太空港附近的许多建筑屋顶上都长着植物。一声愤怒的鸣叫引起了你的注意——一名 Wanderer 正快速地拍打着翅膀，逃离浇了他们一身的自动洒水系统。"
+
+news "wanderer civilians no dialog 2, post language"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"群 Wanderer"
+	message
+		word
+			"在穿过太空港时，你看到几名 Wanderer 正在空中飞行，准备降落。他们没有注意到你，你只得低头躲开。"
+			"当你经过一群 Wanderer 时，他们开始对你咕咕喳喳地叫着。显然他们以前从未见过你这样的生物。"
+			"一群 Wanderer 孩子似乎在玩类似跳房子的游戏，不过他们不是跳着走，而是飞到目标位置。"
+			"两名 Wanderer 坐在桌前。他们似乎在玩某种使用贝壳棋子的棋盘游戏。"
+			"一群 Wanderer 孩子跟着一名成年 Wanderer 穿过太空港。成年 Wanderer 边走边说，孩子们则边跟边做笔记。"
+
+news "Wanderers and Aliens"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 商船船长"
+			"Wanderer 船长"
+			"Wanderer 平民"
+			"Wanderer"
+	message
+		word
+			`"`
+		word
+			"很久以前，我们[重生、净化]了南方的一批世界。我在想那里现在是否有[外星人、智慧生命]居住？"
+			"我们不得不与 Hai [战斗、防御]真是遗憾。我希望能有机会与他们爱好和平的同胞[交流、往来]。"
+			"外星社会让我着迷。我[希望、渴望]有更多机会与他们见面。"
+			"我[好奇、思索]一个人类是怎么一路来到这里的。我们[太空、领地]中的外星人可是[罕见、珍贵]的景象。"
+			"我们的[物种、文化]很少有机会一次性遇到这么多[不同的、各种各样的]外星人。"
+			"我听说 Hai 和人类的星域之间有一个虫洞[连接、相连]。会不会是[我们的守护者、开启 Eye 的存在]创造的？"
+			"Unfettered Hai 使用跳跃引擎进入 Wanderer [太空、领地]。他们是从哪里获得这种[装置、技术]的？"
+			"我们的物种以前也[见过、接触过]许多外星人，但从未一次性碰到这么多。"
+			"探索对社会至关重要。如果我们不迁徙、不发现新的星球，早就[停滞、枯萎]了。"
+			"我能[同情、理解]Hai。他们在自己的星域里[被困住、停滞不前]太久了。他们想要[迁徙到、前往]新天地是[合情合理、理所当然]的。"
+		word
+			`"`
+
+news "Wanderer Linguistics 2"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 语言学家"
+			"Linguist"
+	message
+		word
+			`"`
+		word
+			"Hai 语言很[复杂、费解]，但学习它让我对 Hai 有了更深的[理解、认知]。"
+			"很难[发音、说出] Hai 的词汇，因为他们的[生理结构、构造]和我们差别太大了。"
+			"我去了一所关押 Unfettered Hai 的[监狱、牢狱]，以便更[深入、详细]地[研究、掌握]他们的语言。至少可以说，从他们嘴里套出[信息、数据]非常困难。"
+		word
+			`"`
+
+news "Wanderer civilians, dialog"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer"
+			"Wanderer 工人"
+			"Wanderer 旅行者"
+			"Wanderer 青年"
+	message
+		word
+			`"`
+		word
+			"每当我踏上穿越太空的[旅途、行程]时，我总会带上一些我最[喜欢、珍爱]的盆栽植物。远离自然时会感到[孤单、荒芜]。"
+			"我[听说过、知道]Wanderer 星域有一位人类船长，但亲眼见到你还是觉得很[奇怪、奇特]。"
+			"我无法[想象、理解]不能飞行是什么感觉。你是怎么去任何地方的？"
+			"我在想你的母星上生活着什么样的[生物、生灵]。"
+			"有了跳跃引擎，你一定能够[观察、见证]银河系各处各种奇妙的生命形态。真希望我也有这样的机会。"
+			"我的一个[朋友、伙伴]想见你，但太[害羞、害怕]了。"
+			"趁你[在这里、在此地]，应该尝尝我们的[美味的、可口的]种子汤。长途旅行后来一碗[管饱、满足]。"
+		word
+			`"`
+
+news "Wanderer scientists"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 科学家"
+			"Scientist"
+			"Wanderer 生态学家"
+			"Ecologist"
+	message
+		word
+			`"`
+		word
+			"我最近刚去另一个星球进行科学[任务、考察]，在那里发现了一种新植物。多么[令人兴奋、激动人心]！"
+			"我[工作、任务]中最棒的部分就是[发现、揭示]带来的刺激感。"
+			"与同事的交流非常[重要、不可或缺]。我[痛苦地、艰难地]学到了这一点——当时我没有提到我[发现、找到]的一种新植物是肉食性的。"
+			"我最[自豪、伟大]的成就之一就是帮助一种濒临灭绝的昆虫[培育、繁殖]到了[可存续的、独立的]种群规模。"
+			"有这么多不同的物种需要[记录、追踪]，很容易就[搞混、弄错]。一只有刺毛的 T'kai 仔细[观察、研究]之下可能其实是一只短脖子的 Kat'tchi。"
+		word
+			`"`
+
+news "Wanderer oil safety"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		attributes "oil"
+	name
+		word
+			"安全检查员"
+			"Wanderer 安全检查员"
+	message
+		word
+			`"`
+		word
+			"我的工作是防止我们努力[更新、培育]的一切被[破坏、毁灭]。"
+			"这些石油钻探者对这颗星球的[生命、存在]毫无[尊重、敬畏]。就在昨天我抓住一个家伙[掩盖、隐藏]了一次泄漏事件，影响了大约 328 片草叶！"
+		word
+			`"`
+
+news "Wanderer oil drilling"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		attributes "oil"
+	name
+		word
+			"石油钻井工"
+			"Wanderer 石油钻井工"
+	message
+		word
+			`"`
+		word
+			"很多人不[喜欢、欣赏]我的工作，但我的工作是这个[社会、文明]的[支柱、支撑]。"
+			"我所做的事令人[遗憾、惋惜]，但我们没有其他[选择、办法]。"
+		word
+			`"`
+
+news "wanderer farmer"
+	to show
+		has "language: Wanderer"
+	location
+		government "Wanderer"
+		attributes "farming"
+	name
+		word
+			"Wanderer 农夫"
+			"Farmer"
+	message
+		word
+			`"`
+		word
+			"种植作物时我们必须保持[平衡、秩序]。"
+			"与我们[祖先、先辈]被 Eye 首次带到这里时所面临的[挣扎、挑战]相比，我的问题根本不[算什么、足道]。"
+			"要成为一个好农夫，你必须能够[预测、预见]可能出现的挑战。就在几个[年、周期]前，我的庄稼几乎被一场干旱完全[摧毁、消灭]——而我当时[忽视、忽略了]干旱的征兆。"
+			"你不能[无视、漠视]所耕种土地的自然[节律、平衡]。否则就会对[滋养、哺育]你的土地造成[伤害、破坏]。"
+		word
+			`"`
+
+news "Wanderer soldier"
+	to show
+		has "event: wanderers: unfettered invasion starts"
+	location
+		government "Wanderer"
+	name
+		word
+			"Wanderer 士兵"
+			"Soldier"
+			"Wanderer 新兵"
+			"Conscript"
+	message
+		word
+			`"`
+		word
+			"我希望我们不必[战斗、作战]才能生存。这是一种[野蛮、不优雅]的解决冲突方式。"
+			"我加入我们的新[防御舰队、海军]是因为我想保护生命。结果我却不得不[与它们作战、杀死它们]。看到这样的[毁灭、浪费]让我深感[悲伤、悲痛]。"
+			"我自愿在战舰上服役，很多人[问、寻思]为什么。每[击落、杀死]一个 Hai，我就能拯救[许多、众多]平民。"
+			"就在几天前，我被要求组建一个新的[军事、军队]单位，尽管我几乎没有接受过任何战争方面的[训练、经验]。这真是[绝望、无望]的时代。"
+			"我们的[指挥官、队长]以前是个动物学家。他唯一的[战斗、格斗]经验是在一次[考察、研究中]防御一只狂犬病的 Chi'kta。他们找不到更[好、合适]的人选了，于是他就被"提拔"了。"
+			"我的一个船员[害怕、恐惧]枪炮声。他是怎么被征召入伍的真是[谁也说不准、一个谜]。"
+			"我们的许多[指挥官、领导人]完全不知道军队是如何[运作、运转]的。他们经常需要查阅历史[书籍、记录]来[学习、研究]一支正规军队的[运作方式、活动]。"
+		word
+			`"`
+
+news "Wanderer engineer"
+	to show
+		has "Wanderers Solifuge Recon 2: offered"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 工程师"
+			"Engineer"
+	message
+		word
+			`"`
+		word
+			"我们开始[制造、建造]的战舰源自我们历史上更[野蛮、黑暗]的时期。我希望我们不会[再次、又一次]走向那样的时代。"
+			"尽管用途[野蛮、令人遗憾]，但我们开始[建造、打造]的战舰从纯技术的[角度、视角]来看确实令人印象深刻。"
+			"我遗憾自己必须[重现、挖掘]这些[战争、战斗]的技术，但为了我们的[生存、存在]这是必要的。"
+			"我很想[研究、了解]人类科技及其[能力、性能]，但我做不到。如今我们必须建造[战舰、战列舰]，我的时间全部被它们的[生产、制造]占用了。"
+			"我制造[毁灭、歼灭]的武器，这样我们才能生存下去，继续[创造、重生]。"
+		word
+			`"`
+
+news "Wanderers and the Eye"
+	to show
+		has "event: wanderers: the eye opens"
+	location
+		government "Wanderer"
+	name
+		word
+			"Wanderer"
+			"Wanderer 平民"
+			"Civilian"
+			"Pilot"
+			"Wanderer 飞行员"
+			"Wanderer 科学家"
+			"Scientist"
+	message
+		word
+			`"`
+		word
+			"Eye 在我的[一生、存在中]开启了！我从未梦想过这样的[奇迹、奇观]能在有生之年亲眼看到！"
+			"Eye 彼岸的土地将为我们物种带来[重生、复兴]。"
+			"我们的[社会、物种]是时候迁往新天地了；Eye 给了我们这份[荣誉、机会]。"
+			"Eye 的开启是一个征兆，表明我们必须在这个银河系的新的[地方、区域]继续我们的[使命、存在]。"
+			"Eye 的尽头有怎样的[奇迹、变化]在等待我们！"
+			"我很荣幸能[见证、亲历]我们循环的这个新阶段。Eye 将[更新、改变]我们。"
+			"既然 Eye 已经[降临、来到]，我在想自己是否会[经历、体验]蜕化。能以此方式被改变是一种[荣誉、特权]。"
+			"我的一些羽毛已经[开始、渐渐]脱落，我[注意到、观察到]皮肤上出现了肿块。我[希望、期盼]这是蜕化的征兆。"
+		word
+			`"`
+
+news "Wanderers and Korath"
+	to show
+		has "wanderers sestor done"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 商船船长"
+			"Wanderer 船长"
+			"Wanderer"
+			"Wanderer 平民"
+	message
+		word
+			`"`
+		word
+			"Korath 拥有[巨大、庞大的]飞船，许多人终生居住在船上。我无法[想象、理解]也这么做。"
+			"你近距离[看到、观察过] Korath 吗？他们只有脖子上有羽毛。多么[奇怪、奇特]。"
+			"Korath 使用的引擎不讲求[效率、精巧]。但我必须承认，它们比我们的强大得多。"
+			"Korath 无法为运输工作[很好地、充足地]支付报酬，但他们[尽管如此、仍然]坚持要付钱。"
+			"我正在努力[学习、理解]更多的 Korath 词汇。这是一项艰巨的[任务、事业]，但学习我们正在[帮助、拯救]的人的语言很重要。"
+			"你去过 Korath [世界、星球]吗？那是一个[令人清醒、令人沮丧]的提醒，让我们明白我们[任务、工作]的重要性。"
+			"能够参与[治愈、复兴]Korath 星域，我感到[兴奋、欣喜若狂]。我们又一次在[改造、改变]旧事物，创造新事物。"
+		word
+			`"`
+
+news "Wanderer Linguistics"
+	to show
+		has "wanderers sestor done"
+	location
+		government "Wanderer"
+		not attributes "evacuation"
+	name
+		word
+			"Wanderer 语言学家"
+			"Linguist"
+	message
+		word
+			`"`
+		word
+			"许多科学家正在[研究、审视]Korath 语言，并试图教授给他人。成为这项[努力、事业]的一部分很[令人兴奋、令人满足]。"
+			"我们仍在[琢磨、确定]尚未经历蜕化的 Wanderer 是否能[学习、掌握]Korath 语言。他们[语言、言语]中的发音对我们来说很难[说出口、发音]。"
+		word
+			`"`

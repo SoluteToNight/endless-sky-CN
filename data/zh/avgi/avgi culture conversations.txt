@@ -1,0 +1,271 @@
+# Copyright (c) 2023 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Avgi Culture: Verticality"
+	minor
+	invisible
+	source Peripheria
+	to offer
+		not "avgi: lost in twilight"
+		random < 15
+	on offer
+		conversation
+			`在寻找小吃店时，你发现大多数餐厅都在太空港楼层上方的露台环上。经过一番询问，你意识到 Avgi 的建筑结构根本就不是为不能飞的人类设计的，你不得不请一位非常困惑的工作人员允许你使用太空港的货运电梯上去一层。`
+				decline
+
+
+mission "Avgi Culture: Free Fuel"
+	minor
+	landing
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 15
+	on offer
+		conversation
+			`当一位船坞工人帮你加满<ship>的燃料时，你听到她低声抱怨。"难以置信。我们被要求给外星人免费燃料，而我们其他人却要为每一滴燃料付出血汗。"`
+				decline
+
+
+mission "Avgi Culture: Playfight"
+	minor
+	invisible
+	source "Peripheria"
+	to offer
+		not "avgi: lost in twilight"
+		random < 12
+	on offer
+		conversation
+			`当你穿过太空港时，两只小 Avgi——大概是孩子——从你头顶掠过，挥舞着小棍子互相打闹。其中一个把另一个的棍子打飞了，后者做了一个令人眼花缭乱的横滚，然后两只一起飞出了视线。`
+				decline
+
+
+mission "Avgi Culture: Cocoon"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 12
+	on offer
+		conversation
+			`一只 Avgi 飞过，背上坐着两只 Avgi 幼崽。它们之间放着一个茧，茧丝缠绕成一根绳子，小心地系在母亲身上。`
+				decline
+
+
+mission "Avgi Culture: Zapchannel Ad"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			branch language
+				has "language: Avgi (Written)"
+			`一个廉价电子招牌随意地贴在墙上，闪烁着一系列色彩鲜艳、棱角分明的符号。你看不懂上面的内容，但猜测大概是某种广告或通知。`
+				decline
+
+			label language
+			`一个廉价电子招牌随意地贴在墙上，用 Avgi 多彩的文字闪烁着一则信息。"闪电通道射线能量！每份超过三千万亿次伽马衰变，一次剂量提供一辈子所需的能量！立即购买！"`
+				decline
+
+
+mission "Avgi Culture: Dissonance Protest 1"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			branch language
+				has "language: Avgi (Written)"
+			`一队面露愤怒的 Avgi 绕着太空港大步游行，另一些则在头顶以同样的队形快速穿梭。他们大多挥舞着彩色旗帜，空中的几只 Avgi 拖着横幅，上面用亮色写着大号的棱角文字。所有这些似乎正在参加某种抗议的 Avgi 都在手臂上系着亮品红色的缎带，这种颜色在他们的旗帜和横幅上同样显眼。`
+				decline
+
+			label language
+			`一队面露愤怒的 Avgi 绕着太空港大步游行，另一些则在头顶以同样的队形快速穿梭。他们大多挥舞着彩色旗帜，空中的几只 Avgi 拖着横幅，上面用彩色的标语写着内容。"停止谐律税收，""废除矿产封建制，"和"别再让我们送死"只是你能辨认出的几条信息，全部用 Avgi 棱角分明的文字书写。所有的 Avgi 都在手臂上系着亮品红色的缎带，这种颜色在他们的旗帜和横幅上同样显眼。`
+				decline
+
+
+mission "Avgi Culture: Dissonance Graffiti 1"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			branch language
+				has "language: Avgi (Written)"
+			`你发现<planet>太空港航站楼的墙壁、地板和天花板上到处都是彩色弯曲的涂鸦符号，你可以看到几只 Avgi 正拿着刷子和拖把试图清除它们。你不确定上面写了什么，但其他路过的 Avgi 似乎都在指指点点、哈哈大笑。然而，正在擦洗涂鸦的工人似乎并不觉得好笑。`
+				decline
+
+			label language
+			`<planet>太空港航站楼的墙壁、地板和天花板上到处都是彩色弯曲的涂鸦符号，你可以看到几只 Avgi 正拿着刷子和拖把试图清除它们。大部分颜料已经顺着墙壁流下来或与其他符号重叠在一起，看起来十分潦草，但你还是能辨认出诸如'taxes'和'defenestrate'之类的词，以及'暮光卫队？还不如叫暮光南瓜。'`
+				decline
+
+
+mission "Avgi Culture: We Live In A Society"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`一只 Avgi 从你身边经过，埋头看着一张很像报纸的东西。你听到他边走边嘟囔："难以置信。我们真的活在一个社会中，深思。"`
+				decline
+
+
+mission "Avgi Culture: Realism"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`两只 Avgi 从你身边走过，正在深入交谈。"感激。我只是很高兴我们在这里很现实，"一只说。另一只没有回答，但你感觉到一股深深的绝望。`
+				decline
+
+
+mission "Avgi Culture: Doomed Korath"
+	minor
+	invisible
+	source
+		attributes "aberrant siege"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`一只 Avgi 站在门口，对着扩音器喊话。"宣告。听好了，居民们！没有正确的生活平衡，你们就会完蛋！我说，完蛋！就像我听说的那些 Korath 一样。末世将至！"`
+				decline
+
+
+mission "Avgi Culture: General Ripper"
+	minor
+	invisible
+	source
+		attributes "aberrant siege"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`一只 Avgi 站在十字路口，挥舞着标语牌和一把激光步枪。"声明。异变体正在污染我们宝贵的体液，公民们！立即行动！我们绝不允许出现体液差距！"`
+			`	Security personnel soon arrive and begin trying to talk the Avgi down, eyeing the laser rifle nervously.`
+				decline
+
+
+mission "Avgi Culture: Criminal Mischief"
+	minor
+	invisible
+	source
+		government "Avgi (Consonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`一只戴着黑色围巾的亮绿色 Avgi 从你头顶飞过，冲向太空港航站楼的一个入口，身后拖着一个夸张的大麻袋。三只穿着亮黄色的 Avgi 在半空中挤过一群困惑的人群，挥舞着警棍。"注意！站住，小偷！"`
+			`	"Taunt! You'll never catch me alive!" the thief shouts, before promptly running into a wall. You shake your head as she's led away in restraints.`
+				decline
+
+
+mission "Avgi Culture: False Alarm"
+	minor
+	invisible
+	source
+		government "Avgi (Twilight Guard)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 3
+	on offer
+		conversation
+			`太空港闪烁着黄色的灯光，一个机器人声音宣告着信息。"指令。辐射危险，立即寻找掩体。指令。辐射危险，立即寻找掩体。"`
+			`	The crowd has only barely had time to panic before the voice is cut off with a squeal of static. "Abashment. Apologies, false alert. Mindaro dropped his drink on the console, there is no radiation danger."`
+				decline
+
+
+mission "Avgi Culture: Fencing"
+	minor
+	invisible
+	source
+		government "Avgi (Dissonance)"
+	to offer
+		not "avgi: lost in twilight"
+		random < 15
+	on offer
+		conversation
+			`在<planet>上穿过太空港时，你发现两只 Avgi 朝一座大型建筑走去。它们手持细长的花剑。`
+			choice
+				`	(Approach them.)`
+				`	(Ignore them.)`
+					goto ignore
+			`	As you walk over to the two vibrantly colored Avgi, they glance in your direction. One of them, colored a muted teal, speaks up. "Invitation. Human, are you perhaps interested in witnessing the ancient Avgi sport of fencing, question?"`
+			choice
+				`	"Fencing? Like the human sport?"`
+				`	"Sure, I'm willing to watch."`
+					goto accept
+				`	"I'm good, thanks."`
+					goto ignore
+			`	The other, colored a bright blue and purple sheen, chimes in. "Assurance. While we as a species are unlikely to have preceded you in a sport such as this, I still implore you to attend."`
+			`	The first Avgi continues, "Addendum. Considering our... differences in agility, this will surely be a spectacle to you. Compared to the human sport, that is."`
+			choice
+				`	"Sure, sounds like fun!"`
+				`	"I'll pass, thanks."`
+					goto ignore
+			label accept
+			branch language
+				has "language: Avgi (Written)"
+			`	A short walk later, you find yourself in a large open-air room, similar to a gymnasium but much taller. Rows of rails that look like they came from a skate park make up bleachers the whole way around the cylindrical area, packed to the brim with perched Avgi. Many are holding up signs with colorful lettering that appear to be in favor of one participant or the other.`
+				goto start
+			label language
+			`	A short walk later, you find yourself in a large open-air room, similar to a gymnasium but much taller. Rows of rails that look like they came from a skate park make up bleachers the whole way around the cylindrical area, packed to the brim with perched Avgi. Many are holding up signs with colorful lettering that appear to be in favor of one participant or the other. One sign in particular states "ZOMP TO STOMP THEM LIKE THE ASSEMBLY!"`
+			label start
+			action
+				set "avgi: watched zomp win at fencing"
+				log "Minor People" "Zomp" `Zomp 是一只暗蓝绿色的 Avgi，它在一次击剑比赛中击败了卫冕冠军 Razmatazz。`
+				log `在一座 Dissonance 空间站上观看了一场两只 Avgi 之间的击剑比赛，观众极为喧闹激动。目睹了一场爆冷——一只名叫 Zomp 的 Avgi 击败了卫冕冠军。`
+			`	Soon after, the familiar muted teal and glistening purple Avgi walk out of a small door on the bottom level. The spectators in the arena erupt with a flurry of wing flapping in what seems to be a loud cheer; your translator picks up "Excitement" and "Anticipation", among other moods, dozens of times. The fencers' wings appear to be kitted out with thin copper wires, and they're carrying the same rapiers you saw them with before. They hop up onto small pedestals located on each edge of the arena.`
+			`	A voice booms over the many speakers present in the room. "Proclamation. Here we have our reigning champion, Razmatazz, and the upstart challenger Zomp! Are you ready to witness this enthralling battle between these two paragons of the blade, question?"`
+			`	The arena once more hums to life with the flutter of wings. "Anticipation. Then let the duel... begin."`
+			`	At the announcer's word, the duelists leap into the air with incredible speed, circling around each other and clashing blades. The two spiral upwards into the far upper areas of the arena, and quickly drop back down, darting in and out of each others' reach multiple times per second. Less than a minute later, you hear a loud ding, and one of the duelists falls to the floor with their wing collapsed. The crowd, who hadn't stopped buzzing the entire duel, erupts with even louder wing fluttering.`
+			`	"Astonishment. Zomp wins round one," the announcer states. "Repose. Shall we begin round two?"`
+			`	Once more the contestants line up and spring into the air in a duel of eye-watering speed and agility. And once more, Zomp wins to the thunderous applause of the crowd.`
+			`	"Bewilderment. It seems as though Zomp has defeated our reigning champion!" the announcer proclaims.`
+			`	"Hysteria. I knew he would win! I'm up 10 to 1 on this bet!" a nearby Avgi says with exuberance as they buzz around you wildly, holding various pink papers in their many arms.`
+			`	Across the arena you hear a shout from a pink Avgi, "Adoration! I love you, Zomp!"`
+			`	The entire arena appears to be in a chaos of cheers, boos and rumbling wing flapping for minutes after the match has ended. You can't remember a single instance of fencing back in human space having this much passion and energy within the crowd.`
+			`	After the hubbub and celebration die down, you find no issue leaving the crowded arena - most Avgi simply fly over your head.`
+				decline
+			label ignore
+			`	You let the two fly away, continuing on your own business.`
+				decline

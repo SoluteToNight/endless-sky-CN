@@ -1,0 +1,101 @@
+outfit "Inhibitor Cannon"
+	description `	虽然遗民欣赏原来的武器，但他们失望地发现它太大了，无法安装在大多数舰船上。他们不愿让努力付诸东流，转而选择将新获得的知识用于制造一种适合他们更灵活舰船的武器。因此，抑制者炮在控制交战距离方面非常出色，通过每次射击的冲击力将目标向后推，同时干扰其引擎来减缓其接近速度。`
+
+outfit "Inhibitor Turret"
+	description `	虽然这些炮塔在性能上不起眼，但最近对干扰效应的改进减弱了此前使旋转炮座不可行的强烈扭力，使这些炮塔成为一个真正的工程成就。`
+
+outfit "Thrasher Cannon"
+	description "这种武器最初是为了逆向工程一种遗民在附近遇到的某外星物种偏爱的远程能量弹而开发的。在这个过程中，他们发现通过给弹丸增加更多能量，可以造成更大的伤害，代价是射程更短，于是鞭击者炮诞生了。"
+
+outfit "Thrasher Turret"
+	description "这种炮塔将四门鞭击者炮安装在同一个旋转底座上。从近距离射击时，这种组合武器造成的伤害量令人非常满意，尤其是对缓慢移动的目标。"
+
+outfit "Point Defense Turret"
+	description "遗民在安文汀定居后不久，他们开始在山脉深处的金库中发现外星技术的储备，由古老但仍然运作的点防御系统守护。遗民学会了如何复制那些防御系统，而如今它们被认为比它们守护的大多数物品更有用。"
+
+outfit "EMP Torpedo"
+	description "这种鱼雷能够发射电磁脉冲，干扰舰船的发电机。"
+
+outfit "EMP Torpedo Storage Bay"
+	description "	除了弹药容量外，存储舱还可以容纳少量电荷，足以让原本没有电池的舰船发射电磁脉冲鱼雷。"
+
+outfit "EMP Torpedo Bay"
+	description "	此武器的弹药可在任何装备站补给。"
+
+outfit "Teciimach Bay"
+	description `	此武器的弹药可在任何装备站补给。`
+
+outfit "Teciimach Pod"
+	description "	此武器的弹药可在任何装备站补给。"
+
+outfit "Ember Tear"
+	description "	这些巨大的武器需要特殊的硬点，并且由于制造数量极少，遗民会根据需要直接分发。由于巨大的能量和燃料需求，只有遗民最大型的舰船才能支持这些武器的常规使用。"
+
+outfit "Crystal Capacitor"
+	description "	电容器往往会以多余热量的形式泄漏少量能量。这种能量泄漏也导致电离更快消散，使得装备了这些晶体的舰船对废土中偶尔发生的离子风暴具有一定的抵抗力。"
+
+outfit "Millennium Cell"
+	description "	虽然在产能方面不太令人印象深刻，但遗民发电机被设计得能更好地应对电离的能量吸取效应。"
+
+outfit "Epoch Cell"
+	description "	遗民将维米纳尔上发现的晶体的电离消散效应复制到他们的发电机中，以帮助在余烬废土恶劣的环境中生存。"
+
+outfit "Aeon Cell"
+	description "	所有遗民发电机上的电离抵抗力不仅使它们能够更快地从离子风暴中恢复，还使他们的舰船在离子风暴开始时有一个不受影响的窗口期，给他们一个在被风暴削弱前逃脱的机会。"
+
+outfit "Thermoelectric Cooler"
+	description "这个冷却器实际上只是千禧电池的一个发电元件，但接线方式使其可以反向运行：消耗电力将热量从舰船系统传递到外部。"
+
+outfit "Emergency Ramscoop"
+	description `余烬废土是一个只有非常愚蠢的船长才会在没有某种补充超空间燃料的装置的情况下旅行的地方。虽然由于其内置的"鳃"——实际上就是内置的冲压收集器——遗民舰船不存在这种风险，但一些船长更喜欢通过增加额外容量来加快这一过程。对于在非遗民舰船中冒险穿越该区域的少数船长，这种冲压收集器虽然不算强大，但它允许舰船探索而不必担心被搁浅。`
+
+outfit "NDR-114 Android"
+	description "	尽管如此，一些船长直接从发明者处委托制造了这些装备，有效地用机器人替代了他们的一名船员。这些船长发现仿生人具备足够的能力执行大多数工作，但缺乏担任船长或参与登船战斗的能力。"
+
+outfit "Research Laboratory"
+	description "	虽然行星上的科学家可能认为它不过是一个装满扫描仪和设备的壁橱，但对遗民来说，它是一个用于现场调查外星和恒星现象的行动基地。对船长们来说，拥有能够增强传感器套件的先进设备以及一名训练有素的科学家作为船员，都是一个巨大的优势。"
+
+outfit "Quantum Key Stone"
+	description "这种珍贵的物品能使舰船的量子振荡以某种方式调谐，从而使它能够穿越余烬废土中某些原本无法通过的虫洞。这些石头稀有而珍贵，因为它们只能从废土中的一个地点开采。"
+
+outfit "Salvage Scanner"
+	description "	虽然所有遗民舰船都配备了内置扫描仪，但仍有一些船长更喜欢提升其范围和功率，以便更有效地选择值得瞄准的敌方舰船。"
+
+outfit "Bellows-Class Afterburner"
+	description "	风箱级加力燃烧器体现了这一理念，为船长们提供了一种能够实现大幅加速的工具，通常用于规避机动或追赶逃跑目标。由于其巨大的燃料消耗，只有最专业的舰船才有足够的燃料使用它们超过几秒，否则就会完全耗尽燃料。"
+
+outfit "Anvil-Class Engine"
+	description "这套小型引擎系统是专为那些小到需要将推进器与转向系统合而为一的飞行器而设计的。"
+
+outfit "Crucible-Class Thruster"
+	description "这些小型但强大的引擎由以相当大比例的光速推进的电离气体驱动。"
+
+outfit "Forge-Class Thruster"
+	description "遗民将人类自太空飞行曙光以来一直使用的基本离子推进器设计变得显著更加强大……但也更加耗电。"
+
+outfit "Smelter-Class Thruster"
+	description "遗民舰船的引擎系统消耗的能量甚至超过其武器系统，这并非闻所未闻：这或许表明了他们在可能时更偏好避免战斗。"
+
+outfit "Crucible-Class Steering"
+	description "这种转向系统小到可以安装在截击机中，但遗民主要用它们为大型舰船提供额外的机动性。"
+
+outfit "Forge-Class Steering"
+	description "这种异常耗电的转向系统在相对较小的空间中蕴含了巨大的动力。似乎遗民的引擎技术进步得比人类其他地区更快。"
+
+outfit "Smelter-Class Steering"
+	description "尚不清楚遗民强大的引擎系统是纯粹他们自己的发明，还是部分受外星技术启发。"
+
+outfit "Tuning Rifle"
+	description "调谐步枪使用声波破坏许多种族的较弱内部组织并将其液化。"
+
+outfit "Void Rifle"
+	description "	开火时，虚空步枪发射一道光束，对神经系统有强烈的麻痹效果。它的作用范围能穿透墙壁和其他固体物体，是一件极其高效的武器。"
+
+outfit "Void Sprite Parts"
+	description "	如果被妥善处理，这可能对懂行的人来说是价值连城的东西。然而，现在它的价值不过等同于其中所含化合物的价值而已。"
+
+outfit "Remnant License"
+	description "除了作为方便的敌我识别验证器、个人身份识别工具和购买遗民技术的许可证之外，这个装置还设有可动的部件，每次调整都会机械性地咔嗒作响。当这些部件以特定的顺序和节奏切换时，一系列的咔嗒声会产生一段令人惊讶的优美古典音乐串烧。"
+
+outfit "Remnant Capital License"
+	description "虽然初看似乎不起眼，但这个装置展示了遗民工程辉煌的简约性。轻敲任意一边会产生一声短暂而微弱的嗡鸣，可以在星球上传到极远的距离。这种嗡鸣使那些被委托了遗民最宝贵技术的船长们能够在万一搁浅时呼唤附近的巡逻队前来援助。"

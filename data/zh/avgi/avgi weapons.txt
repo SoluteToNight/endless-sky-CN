@@ -1,0 +1,29 @@
+outfit "Speckle Coilgun"
+	description "	这种武器的弹药可以在任何装备供应商处补充。"
+
+outfit "Speckle Turret"
+	description "	这种武器的弹药可以在任何装备供应商处补充。"
+
+outfit "Optical Lasing Generator"
+	description "	线圈中产生的光波长可以通过更换二极管和光纤掺杂剂来改变，使光学激光发生器最多可以支持三个绿色光学激光器或一个蓝色光学激光器。"
+
+outfit "Green Optical Laser"
+	description "	炮塔本身只包含合成、聚焦和瞄准光束所需的光学器件，激光在其他地方产生。因此，需要光学激光发生器来驱动这个炮塔，提供足够的功率以支持三个绿色激光器。"
+
+outfit "Blue Optical Laser"
+	description "	炮塔本身只包含合成、聚焦和瞄准光束所需的光学器件，激光在其他地方产生。因此，需要光学激光发生器来驱动这个炮塔，提供足够的功率以支持一个蓝色激光器。"
+
+outfit "External Launch Rail"
+	description "这个挂架在外部挂载一枚鱼雷，使用小型电磁弹射器将其弹射向附近的目标。"
+
+outfit "External Launch Tube"
+	description "这是一种大型发射器，能够携带和部署大型火炬驱动导弹和鱼雷。采用标准化设计，与多种阿夫吉亚火炬导弹兼容。基于线圈炮的弹射系统允许导弹以相当高的初速展开。"
+
+outfit "Tiny VLS"
+	description "	这种武器的弹药可以在任何装备供应商处补充。"
+
+outfit "Small VLS"
+	description "	这种武器的弹药可以在任何装备供应商处补充。"
+
+outfit "Medium VLS"
+	description "	这种武器的弹药可以在任何装备供应商处补充。"

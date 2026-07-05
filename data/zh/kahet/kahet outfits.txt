@@ -1,0 +1,56 @@
+outfit "Ka'het Nullifier"
+	description "归零炮是建造者曾经开发的最大武器之一，专门用于由瓦雷蒂在战斗中携带。虽然它对护盾和船体几乎没有任何伤害，但一发就能在数秒内使大多数类型的反应堆失效。"
+
+outfit "Ka'het Ravager Beam"
+	description "这种激光束是建造者为小行星采矿而创造的。不幸的是，直到它被用来对付他们之后，他们才意识到它在战斗中的有效性。"
+
+outfit "Ka'het Ravager Turret"
+	description "这种炮塔版本的毁灭光束是卡赫特拥有的最强武器之一。"
+
+outfit "Ka'het Annihilator"
+	description "建造者很久以前最初创造湮灭炮，是作为对他们新发现的护盾矩阵的对抗措施。他们持续开发了几个世纪，这是其最终版本。"
+
+outfit "Ka'het Annihilator Turret"
+	description "建造者在这个炮塔上安装了两门湮灭炮，使其对敌方护盾非常高效。"
+
+outfit "Ka'het EMP Deployer"
+	description "	该武器的弹药可以在任何装备商处补充。"
+
+outfit "Ka'het Emergency Deployer"
+	description "建造者拥有的大多数无人机完全没有武装，这使得它们极易受到敌人攻击。由于安装武器会大幅减少其货物容量，他们转而决定通过开发这些应急部署器来威慑潜在的劫持者：它们的工作原理是激活舰船磁流体发电机内的一系列反应，然后将其弹射向敌人，一旦击中任何东西就会引发大规模引爆。"
+
+outfit "Ka'het Support Cooling"
+	description "虽然普通舰船的冷却通常只需要关注某些区域让船员保持舒适，但卡赫特舰船的整个内部都需要维持适宜的温度，以确保内部的赫特能够存活。"
+
+outfit "Ka'het Primary Cooling"
+	description "这是卡赫特使用的主要冷却器。虽然耗能较高，但非常有效，能单独为一些赫特舰船降温。"
+
+outfit "Ka'het Shield Restorer"
+	description "建造者从不怎么依赖护盾矩阵，宁愿加强他们的船体。然而，战争的现实要求建造者开发强大的护盾技术，导致一些赫特舰船大量使用这个模块。"
+
+outfit "Ka'het Grand Restorer"
+	description "	与大多数发生器不同，这种恢复器在舰船护盾耗尽后需要几秒钟才能重新开始工作。"
+
+outfit "Ka'het MHD Generator"
+	description "建造者最初創造這種磁流体发电机作为卡马尔的主要动力源。与许多马尔设备的情况类似，它后来被重新用于赫特舰船作为辅助能量发生器，弥补其集成动力系统的不足。"
+
+outfit "Ka'het Reserve Accumulator"
+	description "这种微型电池是为卡马尔无人机开发的，用作紧急能量储备，以防其发电机不足以满足大多数建造者系统的高电力需求。"
+
+outfit "Maeri Engine Nacelles"
+	description "卡赫特引擎的一个特点在于，它们持续消耗大量能量，但无需额外能量即可激活：虽然这意味着留给其他子系统的能量更少，但它也比大多数推进方式更高效，产生的热量也非常少。"
+
+outfit "Ka'het Sustainer Nacelles"
+	description "虽然卡赫特舰船已经配备了适当的引擎，但它们大多额外使用维持引擎，以使舰船在战斗中有足够的机动能力。遵循与它的大号同类相同的设计，维持引擎无需额外能量即可运行，但代价是持续消耗能量。"
+
+outfit "Telis Engine Nacelles"
+	description "这些短舱曾经组成特利斯赫特的整个引擎模块。虽然它们的尺寸与其他引擎相比并不惊人，但如果与一个或两个维持器配合使用，它们可以成为一种强大的推进方式，将转向和推进引擎合为一体。"
+
+outfit "Vareti Engine Block"
+	description "这是建造者建造过的最大单个引擎，为它们所控制的最庞大的舰船打造。由于体积庞大，它不像其较小同类那样模块化，但因此更加高效和强大。"
+
+outfit "Ka'het Compact Engine"
+	description "这种微型引擎是作为卡马尔无人机的主要推进系统开发的，远在卡赫特被创造出来以及它们的短舱设计标准化之前。随着时间推移不断改进，它保持了与大型型号相当的效率——但不同的是，除了所有建造者设计引擎都有的持续能量消耗外，它还需要一些能量来激活引擎。"
+
+outfit "Ka'het Electric Stunner"
+	description "一种设计奇特的武器，显然不是为人类的双手而设计的。其近距离射程使其仅在防御敌方登舰者时有效——利用你对舰船结构的了解来获取优势。"

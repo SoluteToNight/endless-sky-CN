@@ -1,0 +1,362 @@
+# Copyright (c) 2023 by tibetiroka
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+news "artist on post-fw Deneb"
+	location
+		government "Neutral"
+		system "Deneb"
+	name
+		word
+			"Writer"
+			"Painter"
+			"Artist"
+			"Sculptor"
+			"Designer"
+			"Photographer"
+			"Composer"
+	message
+		word
+			"This "
+		word
+			"planet"
+			"city"
+			"building"
+		word
+			"'s "
+		word
+			"alien"
+			"extraterrestrial"
+			"unique"
+			"Pug"
+		word
+			" 的起源是如此 "
+		word
+			"inspiring"
+			"intriguing"
+			"thrilling"
+			"exciting"
+		word
+			"! I'm "
+		word
+			"full of"
+			"充满了"
+		word
+			" "
+		word
+			"ideas"
+			"creativity"
+			"energy"
+		word
+			"!"
+
+news "tourist on post-fw Deneb"
+	location
+		government "Neutral"
+		system "Deneb"
+	name
+		word
+			"Tourist"
+			"Sightseer"
+			"Traveler"
+	message
+		word
+			"你能想象吗"
+			"你知道吗"
+		word
+			" that "
+		word
+			"这整个"
+			"这全部"
+			"这里的每一个部分"
+		word
+			" "
+		word
+			"city"
+			"building"
+		word
+			" was "
+		word
+			"constructed"
+			"created"
+			"built"
+			"made"
+		word
+			" by "
+		word
+			"一个外星种族"
+			"aliens"
+			"虫形外星人"
+			"另一个种族"
+		word
+			"? "
+		word
+			"That's"
+			"我发现"
+		word
+			" "
+			" so "
+		word
+			"inspiring"
+			"incredible"
+			"exciting"
+			"fascinating"
+		word
+			"!"
+
+news "conspiracy theorist on post-fw Deneb"
+	location
+		government "Neutral"
+		system "Deneb"
+	name
+		word
+			"阴谋论者"
+			"批判思考者"
+			"真相探寻者"
+	message
+		word
+			"你真的"
+			"你怎么能"
+		word
+			" "
+		word
+			"believe"
+			"还在认为"
+			"accept"
+			"trust"
+		word
+			" 这个 "
+		word
+			"city"
+			"spaceport"
+			"building"
+			"place"
+		word
+			" was "
+		word
+			"created"
+			"made"
+			"inhabited"
+		word
+			" by "
+		word
+			"另一个物种"
+			"aliens"
+			"一个不同的种族"
+		word
+			"? "
+		word
+			"这是 "
+		word
+			"clearly"
+			"obviously"
+			"毫无疑问"
+		word
+			" 由人类建造、为人类服务的。 "
+		word
+			"你最终会意识到"
+			"你终将明白"
+			"我正在收集证据准备公审"
+			"我可以提供你所需的所有证据"
+			"这不过是共和国和自由世界的一场把戏"
+		word
+			"."
+
+news "reporter on post-fw Deneb"
+	location
+		government "Neutral"
+		system "Deneb"
+	name
+		word
+			"Reporter"
+			"Journalist"
+			"Correspondent"
+	message
+		word
+			"我不认为有什么"
+			"我没发现什么是"
+			"没有任何"
+		word
+			" "
+		word
+			"special"
+			"unique"
+			"different"
+		word
+			" 关于这件事 "
+		word
+			"planet"
+			"place"
+		word
+			", but "
+		word
+			"人民"
+			"我的观众们"
+		word
+			" "
+		word
+			"不这么认为"
+			"总是喜欢我从这里报道"
+			"仍然喜欢看到我在这里"
+			"希望我在这里，所以我来了"
+			"觉得这很迷人"
+		word
+			"。总之，我"
+		word
+			" 得走了"
+			"要去演播室了"
+			" 该出发了"
+			" 已经待太久了"
+			" 不应该跟你闲聊"
+		word
+			", "
+		word
+			"节目"
+			"我的环节"
+		word
+			" "
+		word
+			"即将开始"
+			"三分钟后开始"
+			"一分钟后直播"
+		word
+			"."
+
+news "merchant on post-fw Deneb"
+	location
+		government "Neutral"
+		system "Deneb"
+	name
+		phrase
+			"商人名称"
+	message
+		word
+			"你绝不会相信"
+			"我没想到"
+		word
+			" the "
+		word
+			"kind"
+			"amount"
+			"sort"
+			"庞大的数量"
+		word
+			" of "
+		word
+			"ships"
+			"traffic"
+			"traders"
+		word
+			" 经过"
+		word
+			" here"
+			" 这个星系"
+			""
+		word
+			"。这是连接"
+		word
+			"自由世界"
+			"尘埃带"
+			"南方"
+			"Tarazed"
+		word
+			" 和 Syndicate 的捷径。"
+		word
+			"就在昨天"
+			"几天前"
+			"当我到达时"
+		word
+			" "
+		word
+			"我不得不等待"
+			"我被耽搁了"
+			"他们让我等着"
+			"他们一直告诉我没有空的着陆坪"
+		word
+			" for "
+		word
+			""
+			"like "
+			"好像等了"
+			"about "
+			"nearly "
+		word
+			"四个小时"
+			"半天"
+			"九十分钟"
+		word
+			"!"
+
+news "worker on pug-occupied planet after fw"
+	location
+		neighbor system "Deneb"
+		not government "Pug"
+	name
+		word
+			"码头工人"
+			"Worker"
+	message
+		word
+			"I "
+		word
+			"was"
+			"正在工作"
+			"碰巧在"
+			"有一份合同"
+		word
+			" here "
+		word
+			"在占领期间"
+			"在 Pug 战争期间"
+			"当 Pug 攻击我们时"
+		word
+			". "
+		word
+			"尽管他们是奇怪的外星人"
+			"即使在受挑衅时"
+			"大部分情况下"
+		word
+			", they "
+		word
+			"并没有真的惹麻烦"
+			"没有造成太多破坏"
+			"只是不打扰我们"
+		word
+			". "
+		word
+			"不像某些"
+		word
+			"politicians"
+			"办公室文员"
+			"people"
+			"bureaucrats"
+		word
+			" "
+		word
+			"在家乡"
+			"在地球上"
+			"I know"
+			"here"
+			"这些天我们遇到的"
+		word
+			"."
+
+news "pug on pug planets during fw"
+	location
+		government "Pug"
+		not attributes "uninhabited"
+	name
+		word
+			"Pug"
+	message
+		phrase
+			"友好的 Pug"

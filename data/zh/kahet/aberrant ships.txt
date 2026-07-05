@@ -1,0 +1,38 @@
+ship "Aberrant Latte"
+	description "这个变体似乎尽可能接近这种奇怪生物的基本形态。"
+
+ship "Aberrant Chomper"
+	description "这个变体似乎比其他同类装备了更重的武器。"
+
+ship "Aberrant Pileup"
+	description "这个变体似乎比其他变体稍大且更坚固。"
+
+ship "Aberrant Hugger"
+	description "这个变体似乎比其他异变体舰船更轻、能实现更高速度，但却仍然携带了加强的武装。"
+
+ship "Aberrant Longfellow"
+	description "这个变体似乎在一个纤细流线型的机身上长出了额外的推进器。"
+
+ship "Aberrant Dancer"
+	description "这个变体似乎有几个设计用于安装炮塔的安装点。"
+
+ship "Aberrant Junior"
+	description "这个变体似乎很紧凑、小于平均尺寸，且仍在生长过程中。"
+
+ship "Aberrant Icebreaker"
+	description "这个变体似乎在生长得更加修长，并且比其他大多数变体拥有更坚硬的船体。"
+
+ship "Aberrant Pike"
+	description "这个变体已成长为一个纤细修长的形状。"
+
+ship "Aberrant Mole"
+	description "这个变体长出了尖锐的刀锋状舰首，能够安装更多前向武器。"
+
+ship "Aberrant Whiskers"
+	description "这个变体似乎正在生长某种尾巴状的结构，增加了它的敏捷性。"
+
+ship "Aberrant Trip"
+	description "似乎有什么在这个变体的萌芽过程中出了大错。它是一团歪斜畸形的发育不良物质，仅靠纯粹的运气才存活下来。"
+
+ship "Aberrant Triplet"
+	description "这个变体似乎是两个或三个个体融合成一个整体的复合体。"

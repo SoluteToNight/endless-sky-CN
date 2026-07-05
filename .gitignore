@@ -75,3 +75,6 @@ CMakeUserPresets.json
 
 # static code analysis
 /.scannerwork
+
+# OpenCode agent workspace
+/.omo/

@@ -1,0 +1,26 @@
+mission "Historical field trip to <planet>"
+	description `这些<bunks>名学生需要在<date>前抵达<destination>参加历史实地考察。学校将支付你<payment>。`
+
+mission "To Earth Day celebration [0]"
+	name `地球日庆典`
+	description `在<date>前将<fare>送到<destination>，参加4月22日的地球日庆典。报酬为<payment>。`
+
+mission "To Earth Day celebration [1]"
+	name `地球日庆典`
+	description `在<date>前将<cargo>运送到<destination>，为4月22日的地球日庆典做准备。报酬为<payment>。`
+
+mission "To Earth Day celebration [2]"
+	name `地球日庆典`
+	description `在<date>前将<fare>送到<destination>，参加4月22日的地球日庆典。报酬为<payment>。`
+
+mission "From Earth Day celebration [0]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
+
+mission "From Earth Day celebration [1]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`
+
+mission "From Earth Day celebration [2]"
+	name `地球日归程`
+	description `在地球日庆典结束后，将<fare>送回<destination>的家中。报酬为<payment>。`

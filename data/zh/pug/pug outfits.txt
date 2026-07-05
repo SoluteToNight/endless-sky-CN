@@ -1,0 +1,41 @@
+outfit "Pug Zapper"
+	description `这是一种可怕的光束武器，其破坏力甚至超过人类开发的最先进能量光束。帕格族飞船配备有集成发电装置，能够产生驱动此类武器所需的大量能量。`
+
+outfit "Pug Zapper Turret"
+	description `安装在炮塔上后，这种帕格族武器变得更加致命。然而，其能量需求超过了大多数人类飞船所能承受的范围。`
+
+outfit "Pug Seeker"
+	description `你完全无法理解这种武器的工作原理。它不需要弹药，但其基于能量的射弹能够自动追踪目标飞船。`
+
+outfit "Pug Anti-Missile"
+	description `这种由帕格族设计的反导弹系统消耗大量能量，但其高射速使其效率是洛芙莱斯实验室所能开发出的任何产品的两倍。装备了这种炮塔的飞船将极难被导弹击中。`
+
+outfit "Tier 3 Anti-Missile"
+	description `这种强大的反导弹炮塔能够摧毁即使是最强大的导弹。`
+
+outfit "Pug Gridfire Turret"
+	description `无人能理解网格火炮塔的工作原理，而帕格族也无意解释。`
+
+outfit "Pug Akfar Thruster"
+	description `这是帕格族设计的小型推进器。其推力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Akfar Steering"
+	description `这是帕格族设计的小型转向系统。其转向力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Cormet Thruster"
+	description `这是帕格族设计的中型推进器。其推力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Cormet Steering"
+	description `这是帕格族设计的中型转向系统。其转向力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Lohmar Thruster"
+	description `这是帕格族设计的大型推进器。其推力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Lohmar Steering"
+	description `这是帕格族设计的大型转向系统。其转向力不如同等尺寸的原子引擎强大，但其能源效率几乎与离子引擎相当，弥补了这一不足。`
+
+outfit "Pug Biodefenses"
+	description `这种半有机防御系统旨在释放一种高度致命的生物工程病毒，能够迅速感染安装了该系统的飞船上的任何外来实体，同时不伤害船员。该病毒与防御系统本身相结合，能够高度准确地自动区分友敌。`
+
+outfit "Pug Peacekeeping Staff"
+	description `尽管是为行星人口控制而设计的，维和棍棒也同样出色地适用于飞船防御。棍棒会发出一道短程光束，使触及者进入一种欣快和致幻状态，漫无目的地游荡到不会造成麻烦的地方。从欣快状态中恢复过来从来都不是一件令人愉快的事。`

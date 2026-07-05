@@ -1,0 +1,11 @@
+mission "Frontier delivery [0]"
+	name "Frontier delivery to <planet>"
+	description `将<cargo>运送到边境星球<destination>。边境星系海盗活动频繁，请做好自卫准备。报酬为<payment>。`
+
+mission "Frontier delivery [1]"
+	name "Frontier delivery to <planet>"
+	description `将<cargo>运送到边境星球<destination>。边境星系海盗活动频繁，请做好自卫准备。报酬为<payment>。`
+
+mission "Frontier delivery [2]"
+	name "Frontier delivery to <planet>"
+	description `将<cargo>运送到边境星球<destination>。边境星系海盗活动频繁，请做好自卫准备。报酬为<payment>。`

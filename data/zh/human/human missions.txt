@@ -1,0 +1,106 @@
+mission "Pookie, Part 3"
+	name "Stray Dog"
+	description `为你在<origin>上捡到的一只流浪狗找一个家。她可能来自天堂世界中的某一个。`
+
+mission "Transport Workers B"
+	name "Transport Worker"
+	description `这个年轻人正前往<destination>的工厂。他说他想攒够钱，好能够向他的“真爱”求婚。`
+
+mission "There Might Be Riots 1"
+	name "Transport band to <planet>"
+	description `送乐队“可能会有骚乱”去<destination>。`
+
+mission "There Might Be Riots part 2"
+	name "Transport band to <planet>"
+	description `给乐队“可能会有骚乱”开车去<destination>。`
+
+mission "There Might Be Riots part 3A"
+	name "Transport band to <planet>"
+	description `给乐队“可能会有骚乱”开车去<destination>。`
+
+mission "There Might Be Riots part 3B"
+	name "Transport band to <planet>"
+	description `避开海军战斗无人机，并送乐队“可能会发生骚乱”去<destination>。`
+
+mission "Terraforming 6"
+	name "Unlawful Use of an Asteroid"
+	description `请于 <date> 前往 <destination>，就您“非法使用小行星”的行为接受询问。`
+
+event "terraforming Tundra"
+	description `最初的定居者来到这里是为了开采深埋在地表下的石油，这是苔原曾经更为繁荣时期的遗迹。他们没有将石油炼制成在该地区售价相对便宜的塑料，而是发展了合成纤维和服装产业。`
+
+event "terraforming follow-up"
+	spaceport `为了纪念日，已经设立了几个摊位来展示用地球合成面料制成的服装。此次活动的新亮点是一组专门展示在苔原这里定制服装的摊位。`
+	description `由于最近的地球化实验结果，兰德已经变得中等程度上更适宜居住。对这种气候变化的迷恋使得兰德成为了尘带的一个半受欢迎的旅游目的地。`
+
+mission "Lost Boy 1"
+	name `救救托德`
+	description `前往<destination>寻找托德，他是来自<origin>的单亲母亲的儿子。`
+
+mission "Lost Boy 2"
+	name `救救托德`
+	description `找到<npc>并登上它去救托德，然后把他带到<destination>，以便他能与母亲团聚。`
+
+mission "Lost Boy 3"
+	name `把托德带到<planet>`
+	description `现在托德的母亲知道他安全了，把他带到<destination>，以便他可以开始采矿工作来养活自己和母亲。`
+
+mission "Paradise Fortune 1"
+	name `逃到<planet>`
+	description `和你让上船的女孩一起从<origin>逃到<destination>。`
+
+mission "Paradise Fortune 2"
+	name `逃离天堂`
+	description `逃离天堂世界，前往<destination>，在那里戴安娜·豪尔将把她家族的一部分财富交给<planet>的当地政府。`
+
+mission "Paradise Fortune 3"
+	name `最后的希望`
+	description `逃离海军，前往<destination>，戴安娜·豪尔希望自由世界会帮助她。`
+
+mission "Paradise Fortune 4"
+	name `货物交换`
+	description `前往 <destination>，将装有学分的背包和黛安娜·豪尔的笔记交给海军。`
+
+mission "Northern Blockade"
+	name `梅布斯塔灾难`
+	description `<destination> 正在遭受海盗攻击。通过尽快将 <cargo> 运送到该星球来协助共和国。`
+
+mission "Southern Blockade"
+	name `太空港防御`
+	description `<stopovers> 正在受到攻击。在这些行星上投放 <cargo>，然后返回 <destination> 获取报酬。(<payment>)`
+
+mission "Core Blockade"
+	name `歉收`
+	description `<destination>的海盗世界正在经历饥荒。这个星球的军阀威胁辛迪加，迫使他们提供食物。将<cargo>运送到这个世界以换取<payment>。`
+
+mission "Pirate Blockade"
+	name `逃向自由`
+	description `带着 <bunks> 逃脱的奴隶到 <destination>，自由地远离他们的海盗压迫者。<origin> 上的那位女士承诺，<planet> 上的某个人会给你 <payment>。`
+
+mission "Capture Smuggler"
+	name "Capture rogue smuggler"
+	description `一名走私者在<system>附近携带非法货物逃跑。他偷货的未知人物想要拿回货物。从<npc>那里找回货物，并将货物和走私者一起送回<origin>以获得<payment>。`
+
+mission "Antibiotics To South"
+	name "Antibiotics shipment to <planet>"
+	description `将<cargo>送到<destination>。付款为<payment>。预计会遭到一艘名为“Australis”的海盗船的攻击。`
+
+mission "Pirate Duel"
+	name "Fight at Umbral"
+	description `尽快前往暗影星系，在那里你将与一艘名为 Esca 的小型民兵舰进行决斗。战斗结束后，前往 <destination> 进行后续行动。`
+
+mission "Dangerous Games 2"
+	name "Karengo's Galactic Adventures"
+	description `冒险家卡伦戈和其他五个人作为他“银河冒险”的一部分正与你一起旅行。把卡伦戈和他的队员带到 <destination> 以获得 <payment>。`
+
+mission "Lost Racer Epilogue"
+	name "Visit Artemis Renard"
+	description `从<destination>的Artemis Renard那里取回一些“多余设备”。`
+
+mission "Returning to Paradise"
+	name "Transport family home to <planet>"
+	description `一个担心自由世界可能遭受破坏的家庭想要缩短假期，回家去<destination>。他们承诺“会给你很丰厚的报酬。”`
+
+mission "Adelita 1"
+	name "Exhibition installations to <planet>"
+	description `将展览装置的 <tons> 运送到 <destination>，为 Adelita 集体服务。费用为 <payment>。`

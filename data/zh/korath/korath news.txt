@@ -1,0 +1,115 @@
+# Copyright (c) 2020 by W1zrad
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+news "kor efret merchant"
+	location
+		government "Kor Efret"
+		not attributes "station"
+	name
+		word
+			"Korath商人"
+			"Kor Efret商人"
+			"Korath小贩"
+			"Kor Efret小贩"
+	message
+		word
+			"一个Korath向你招手，示意你到一个摆满各种食物的摊位前。它想让你买点什么，但看起来没什么特别有食欲的。"
+			"你花了一些时间查看一个街头小贩卖的……某种技术的小零件。你完全不知道那些是什么东西。"
+			"一个商人用自己的语言向路人吆喝，同时指着一件你从未见过的奇怪服装。有些人停下来看了看，但大多数人都无视了它。"
+			"一个Korath似乎在向一小群人拍卖一个奇怪的装置。"
+			"你走进一栋异常热闹的建筑，一个看起来在那里工作的Korath迎接了你。里面满是显示自然动植物的显示器。这里的Korath都被它们迷住了。"
+
+news "kor efret worker"
+	location
+		government "Kor Efret"
+		not attributes "station"
+	name
+		word
+			"Korath工人"
+			"Kor Efret工人"
+	message
+		word
+			"正在给你的飞船连接燃料管的Korath停了下来，当它注意到你在看它时，举起双手，掌心朝向您。"
+			"附近的两个工人正在互相交谈，一边指着你的飞船。看起来他们不太习惯这里来了访客。"
+			"一个工人搬着装满各种工具的箱子从你身边经过，送到其他几个Korath那里。他们似乎正在修理一件外套——或者可能是一台空调。你实在分辨不出来。"
+			"一个Korath从附近一栋破旧的建筑里出来，开始把每一个可能的入口——窗户、门、大裂缝——都封死。它的动作如此高效，你确信它以前做过很多次了。"
+
+news "kor efret local"
+	location
+		government "Kor Efret"
+		not attributes "station"
+	name
+		word
+			"Korath本地人"
+			"Kor Efret本地人"
+			"Korath"
+			"Kor Efret"
+	message
+		word
+			"一个年轻的Korath追着的球滚到了你脚边。你捡起球，那个年轻人停顿了一下，盯着你看了片刻，然后打了个手势表示感谢并接过了球。它跑回一个成年Korath身边，那个成年Korath举起双手，掌心朝向您。"
+			"一个当地的Korath向你指向一栋你从未进去过的建筑。出于好奇，你探头进去看了看，只见那些爬行类外星人在交谈、分享饮品：原来是个酒吧。有些东西永远不会变，无论你在银河系的哪个角落。"
+			"你路过一栋废弃建筑，听到身后一扇门快速开合的声音。你回过头，看到一个衣衫褴褛的Korath正快步朝相反方向走去。"
+
+news "kor efret scientist"
+	location
+		government "Kor Efret"
+		not attributes "station"
+	name
+		word
+			"Korath科学家"
+			"Kor Efret科学家"
+			"Korath技术专家"
+			"Kor Efret技术专家"
+	message
+		word
+			"一个Kor Efret推着一辆装满奇怪化学品和技术零件的手推车从你身边经过。"
+			"一个Korath穿过太空港，从一个设备上读出数字，再输入到另一个设备上。看起来它正在采集空气质量样本。"
+			
+news "kor efret station friendly"
+	location
+		government "Kor Efret"
+	name
+		word
+			"Korath本地人"
+			"Kor Efret本地人"
+			"Korath"
+			"Kor Efret"
+	message
+		word
+			"附近有个Korath正危险地把几个箱子叠在头顶上。你分不清它是在街头表演还是在搬运货物。"
+			"你飞船附近的一个Kor Efret正在和一个工人说话，声音逐渐提高，最后变成了一种奇怪的喊叫和嘶嘶声的混合。突然，它转过身，挺着胸膛大步走开了。"
+			"一个Korath正在远处专注地打量着你。你猜它以前从没见过人类的面孔。"
+			"一个本地人向你打招呼，举起双手，掌心朝向你。"
+			
+news "wanderer at kor efret spaceport"
+	to show
+		has "wanderers sestor done"
+	location
+		government "Kor Efret"
+		not attributes "station"
+	name
+		word
+			"Wanderer"
+			"Wanderer 船长"
+			"Wanderer 商人"
+	message
+		word
+			`"`
+		word
+			"Kor Efret 星域遍布着[严峻、严重]的环境问题。我从未见过如此[规模、程度]的破坏。"
+			"Kor Efreti 是一个非常[骄傲、高傲]的民族。我免费帮了他们一个忙，他们反而觉得受到了侮辱。"
+			"这颗星球需要经历彻底的[改造、变革]才能取得进展。要让它完全[恢复、重生]还需要很长时间。"
+			"我之前从一个终端[接到、接受了]一份工作。Kor Efreti 确实把它们利用得很好。"
+			"看到这个世界被破坏成这样令人[沮丧、难过]，但想到我们将致力于[恢复、重建]它，我感到了安慰。"
+		word
+			`"`

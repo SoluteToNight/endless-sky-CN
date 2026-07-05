@@ -1,0 +1,43 @@
+mission "Drought Relief"
+	name `抗旱救援物资运往<planet>`
+	description `<destination>农业星球正遭受干旱。请在<date>前将<cargo>运送到该星球，报酬为<payment>。`
+
+mission "To Remembrance Day celebration [0]"
+	name `纪念日庆典`
+	description `在<date>前将<fare>送往<destination>，参加2月19日的纪念日庆典。报酬为<payment>。`
+
+mission "To Remembrance Day celebration [1]"
+	name `纪念日庆典`
+	description `在<date>前将<cargo>运抵<destination>，为2月19日的纪念日庆典做准备。报酬为<payment>。`
+
+mission "To Remembrance Day celebration [2]"
+	name `纪念日庆典`
+	description `在<date>前将<cargo>运抵<destination>，为2月19日的纪念日庆典做准备。报酬为<payment>。`
+
+mission "To Remembrance Day celebration [3]"
+	name `纪念日庆典`
+	description `在<date>前将<fare>送往<destination>，参加2月19日的纪念日庆典。报酬为<payment>。`
+
+mission "From Remembrance Day celebration [0]"
+	name `纪念日返程`
+	description `纪念日庆典结束后，将<fare>送回家乡<destination>。报酬为<payment>。`
+
+mission "From Remembrance Day celebration [1]"
+	name `纪念日返程`
+	description `纪念日庆典结束后，将<fare>送回家乡<destination>。报酬为<payment>。`
+
+mission "From Remembrance Day celebration [2]"
+	name `纪念日返程`
+	description `纪念日庆典结束后，将<fare>送回家乡<destination>。报酬为<payment>。`
+
+mission "Food Convoy [0]"
+	name `食品护送队前往<planet>`
+	description `<npc>的船长率领一支小型食品运输船队，愿支付<payment>雇佣你在<date>前护送他们前往<destination>。`
+
+mission "Food Convoy [1]"
+	name `食品护送队前往<planet>`
+	description `<npc>的船长率领一支食品运输船队，愿支付<payment>雇佣你在<date>前护送他们前往<destination>。`
+
+mission "Food Convoy [2]"
+	name `食品护送队前往<planet>`
+	description `<npc>的船长率领一支大型食品运输船队，愿支付<payment>雇佣你在<date>前护送他们前往<destination>。`

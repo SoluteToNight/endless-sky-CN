@@ -1,0 +1,11 @@
+mission "Pirate Occupation [0]"
+	name "海盗占领了<system>"
+	description "一小伙海盗占领了<system>，当地政府请求帮助。在<date>之前击败该星系的海盗并降落到<planet>，即可获得<payment>的报酬。"
+
+mission "Pirate Occupation [1]"
+	name "海盗占领了<system>"
+	description "一帮海盗占领了<system>，当地政府请求帮助。在<date>之前击败该星系的海盗并降落到<planet>，即可获得<payment>的报酬。"
+
+mission "Pirate Occupation [2]"
+	name "海盗占领了<system>"
+	description "一大帮海盗占领了<system>，当地政府请求帮助。在<date>之前击败该星系的海盗并降落到<planet>，即可获得<payment>的报酬。"

@@ -1,0 +1,124 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "FWC Scouting 1"
+	name "侦察Kaus Borealis"
+
+mission "FWC Attack Kaus Borealis"
+	name "攻击Kaus Borealis"
+
+mission "FWC Cebalrai 1"
+	name "侦察out Cebalrai"
+
+mission "FWC Cebalrai 1B"
+	name "夺取Cebalrai"
+
+mission "FWC Nuke Supply 1"
+	name "铀矿护航队"
+
+mission "FWC Nuke Supply 1B"
+	name "铀矿护航队"
+
+mission "FWC Nuke Supply 1C"
+	name "弹头护航队"
+
+mission "FWC Diplomacy 1"
+	name "试试外交"
+
+mission "FWC Diplomacy 1B"
+	name "试试外交"
+
+mission "FWC Diplomacy 1C"
+	name "返回<planet>"
+
+mission "FWC Checkmate 1"
+	name "保卫Cebalrai"
+
+mission "FWC Checkmate 1: Equipment"
+	name "升级你的飞船"
+
+mission "FWC Checkmate 1: Equipment 2"
+	name "升级你的飞船"
+
+mission "FWC Checkmate 1B"
+	name "攻击Menkent"
+
+mission "FWC Checkmate 1C"
+	name "夺取<planet>"
+
+mission "FWC Pug 1"
+	name "保卫<planet>"
+
+mission "FWC Pug 1B"
+	name "调查<system>"
+
+mission "FWC Pug 2"
+	name "向Katya报告"
+
+mission "FWC Pug 2B"
+	name "访问the Pug"
+
+mission "FWC Pug 2C"
+	name "访问<planet>"
+
+mission "FWC Pug 2D"
+	name "逃离Pug空间"
+
+mission "FWC Pug 3"
+	name "与the Navy谈话"
+
+mission "FWC Pug 3A"
+	name "将Bring Freya运往<planet>"
+
+mission "FWC Pug 3B"
+	name "保卫<planet>"
+
+mission "FWC Pug 3C"
+	name "返回<planet>"
+
+mission "FWC Pug 3D"
+	name "解放<system>"
+
+mission "FWC Pug 4"
+	name "保卫<system>"
+
+mission "FWC Pug 4A"
+	name "来自<planet>的装备"
+
+mission "FWC Pug 4B"
+	name "装备至<planet>"
+
+mission "FWC Pug 4B: Quarg"
+	name "访问the Quarg"
+
+mission "FWC Pug 4C"
+	name "解放<planet>"
+
+mission "FWC Pug 5"
+	name "解放<system>"
+
+mission "FWC Pug 5B"
+	name "将vel运往<planet>"
+
+mission "FWC Pug 5C"
+	name "返回<planet>"
+
+mission "FWC Pug 6"
+	name "击败Pug"
+
+mission "FWC End"
+	name "与Parliament谈话"

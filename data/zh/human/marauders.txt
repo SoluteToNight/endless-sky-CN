@@ -1,0 +1,86 @@
+ship "Marauder Arrow"
+	description "这艘飞箭经过了大量的船体和内部系统改装，腾出了更多空间来安装装备——主要着眼于战斗。更多的护盾、武器、引擎、装备空间以及一个炮塔挂载点，几乎让这艘船跻身轻型战舰的行列，而这肯定也使它成为你能找到的最重型截击机之一。"
+
+ship "Marauder Arrow" "Marauder Arrow (Engines)"
+	description "由于扩展了引擎挂载点，这艘飞箭看起来更像一枚超大导弹而非一艘飞船。强化后的引擎、多出的一点装备容量、额外的护盾发射器以及更厚的船体装甲，使这艘船成为了一架非常出色的截击机。"
+
+ship "Marauder Arrow" "Marauder Arrow (Weapons)"
+	description "这艘飞箭的武器系统已增强到足以与狮心公司的猎头者媲美，不过如果情况变得太危险，它依然能跑得比大多数高速飞船更快。"
+
+ship "Marauder Bounder"
+	description "这艘百万秒差距公司的跳跃者已从一艘信使侦察船改装成了一艘重型护航截击机——目前同级中最大的。额外的装备空间、加固的炮塔挂载点、飞行员前方新增的炮口以及更多的护盾发射器，赋予了这艘曾经的运输船可怕的速度和火力。"
+
+ship "Marauder Bounder" "Marauder Bounder (Engines)"
+	description "这艘跳跃者的前任主人已将本已快速的信使侦察船改装成了一艘更快的重型护航截击机，安装了真正巨大的引擎，赋予其同尺寸船只中令人难以置信的机动性。"
+
+ship "Marauder Bounder" "Marauder Bounder (Weapons)"
+	description "这艘曾经的跳跃者信使侦察船同时是银河系中最致命和最优雅的截击机，安装了对其船体大小而言极其强大的武器。"
+
+ship "Marauder Falcon"
+	description "这艘塔拉泽德公司的猎鹰经过了一些非常用心的工匠的深度改装。船体遍布额外的护盾发射器和扩展的设备舱，增添了不少体积，原厂保修肯定也早已作废。"
+
+ship "Marauder Falcon" "Marauder Falcon (Engines)"
+	description "改装这艘猎鹰的人显然把速度看得比什么都重要。船体的主要部位已被重新配置以容纳尽可能大的引擎。如果你的梦想是驾驶一艘操控感像小飞车一样的千吨级战舰在银河系中飙车，那你找对地方了。"
+
+ship "Marauder Falcon" "Marauder Falcon (Weapons)"
+	description "改装这艘猎鹰的人显然认为火力就是一切。船体上增加了两个额外的炮口，内部空间也经过重新配置，几乎能容纳你所能想象的任何武器组合。"
+
+ship "Marauder Firebird"
+	description "从这些改装来看，你怀疑这艘船上已经没有原厂零件了。额外的护盾发射器、船体装甲和装备空间，让这个已有半个千年历史的设计在深度改装中重获新生。"
+
+ship "Marauder Firebird" "Marauder Firebird (Engines)"
+	description "年轻飞行员对参宿四公司这款经典老船最大的抱怨之一就是它又重又慢。这艘船的前任主人显然也这么认为，于是安装了另一个引擎口，还留出了更多装备空间，给这艘老船添加了新的船体装甲和护盾发射器。"
+
+ship "Marauder Firebird" "Marauder Firebird (Weapons)"
+	description "火鸟以其同尺寸战舰中最重的火力之一而闻名，而这艘改装版让它变得更加凶猛。更多的装备空间、巨大的炮口、额外的船体装甲和更多的护盾发射器——这艘来自过去的重炮将让它的目标成为历史。"
+
+ship "Marauder Leviathan"
+	description "参宿四船厂的利维坦已经服役了很长时间，而舰长们对如何改装它们以达到最佳性能也有不少非常有趣的想法。这艘船的船体表面已被完全剥离并重新铺设，新的布局每平方米包含了更多的护盾投射器。"
+
+ship "Marauder Leviathan" "Marauder Leviathan (Engines)"
+	description "仿佛利维坦本身还不够可怕，这艘船经过了重度改装，特别注重引擎容量，使其能更快地将炮口对准猎物。"
+
+ship "Marauder Leviathan" "Marauder Leviathan (Weapons)"
+	description "这艘利维坦曾经属于一位名字已失传于历史的名海盗船长。它经过了如此多的定制改装，几乎不能再被视为同一艘船；特别是武器容量被大幅增加了。"
+
+ship "Marauder Manta"
+	description "在辛迪加推出他们的先锋重型战舰后，蝠鲼由于无法安装任何反导炮塔而略显失宠。这艘蝠鲼的主人纠正了这一点，增添了一些额外的装甲板和护盾发射器，并重新布置了一些内部空间以腾出更多装备空间。单凭净吨位就足以阻止它被归类为重型战舰。"
+
+ship "Marauder Manta" "Marauder Manta (Engines)"
+	description "这艘蝠鲼的前任主人费了很大功夫来确保能迅速将全部六个炮口对准敌人并追击小型战舰。那位船长也没有忽略风格，分叉的尾部设计在被引擎排气困扰的区域腾出了一些空间给护盾投射器。如果其净吨位再高一点，它就会被归类为重型战舰了。"
+
+ship "Marauder Manta" "Marauder Manta (Weapons)"
+	description "这艘蝠鲼经历了广泛的改装，增添了额外的船体装甲、护盾发射器、武器空间，甚至还有一个炮塔挂载点。改装它的人似乎忘记了给动力系统留出专门的空间，它们像事后补救一样被塞进了各个角落。如果其净吨位再高一点，它就会被归类为重型战舰了。"
+
+ship "Marauder Quicksilver"
+	description "这艘百万秒差距公司的水银有点像一辆改装赛车，速度稍快，带有额外的护盾投射器、船体装甲和一个额外的铺位。这款售后型号还配备了一个炮塔挂载点，也许是为了回应狮心公司的猎头者。制造这艘船的改装店肯定会迎来更多的顾客。"
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Engines)"
+	description "这艘水银有更多的空间可用于引擎——甚至还有另一个推进器口！它还多了一些额外的护盾投射器、更多的船体装甲和另一个铺位。这款售后型号还配备了一个炮塔挂载点，也许是为了回应狮心公司的猎头者。改装这艘船的人想要以凶猛的速度追击猎物。"
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Engines) (Safe)"
+	description "这艘水银有更多的空间可用于引擎——甚至还有另一个推进器口！它还多了一些额外的护盾投射器、更多的船体装甲和另一个铺位。这款售后型号还配备了一个炮塔挂载点，也许是为了回应狮心公司的猎头者。改装这艘船的人想要以凶猛的速度追击猎物。"
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons)"
+	description "这艘水银有更大的炮口。它还多了一些额外的护盾发射器、更多的船体装甲和一个额外的铺位。配置得当的话，这艘售后型号甚至可能比标准型更快，以更具威胁的方式模仿狮心公司的猎头者，在战斗中多带几门炮和一个炮塔。"
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons) (Safe)"
+	description "这艘水银有更大的炮口。它还多了一些额外的护盾发射器、更多的船体装甲和一个额外的铺位。配置得当的话，这艘售后型号甚至可能比标准型更快，以更具威胁的方式模仿狮心公司的猎头者，在战斗中多带几门炮和一个炮塔。"
+
+ship "Marauder Raven"
+	description "改装这艘乌鸦的人为一艘敏捷优雅的飞船增添了更多的分量。他们在额外的护盾发射器和装备空间上面铺设了看起来不太牢固的隔板。如果不是那对机翼，中央船体在这片补丁般的外壳下几乎认不出狮心公司的原作了——你预计这已使本就致命的战舰变得更加致命。"
+
+ship "Marauder Raven" "Marauder Raven (Engines)"
+	description "狮心公司优雅的乌鸦因其敏捷性而在海盗中广受欢迎。这艘船似乎以牺牲优雅为代价进一步增强了敏捷性，中央船体只能因机翼才被认出是乌鸦。两个额外的引擎舱、更多的装备空间、额外的护盾发射器和一个炮塔，让这艘本就致命的战舰看起来更加可怕。"
+
+ship "Marauder Raven" "Marauder Raven (Weapons)"
+	description "这艘船的前任主人显然不喜欢轻盈的乌鸦，于是添加了如此多的东西——更多的武器、更多的护盾和更多的装备容量——使得中央船体只能因机翼才被认出。除了添加一个炮塔外，这艘船还有巨大的炮口，让你不禁想，究竟还能让一艘这么小的战舰变得更加致命到什么程度。"
+
+ship "Marauder Splinter"
+	description "碎片是百万秒差距公司生产的最大型战舰。显然有人想从中获得更多，于是在船体的大部分区域覆盖了额外的护盾发射器和船体装甲。大量标准货舱空间已被转换为装备、武器和引擎空间；再加上对现有内部系统的精简，这使得这艘战舰成为一台敏捷而灵活的战争机器。"
+
+ship "Marauder Splinter" "Marauder Splinter (Engines)"
+	description "你不太可能找到一艘比这更快或更致命的千吨级以下战舰。船体的大部分区域被额外的船体装甲和护盾发射器覆盖。大量货舱空间已被转换为装备空间，其中很大一部分在船尾，那里有一个新的引擎口。"
+
+ship "Marauder Splinter" "Marauder Splinter (Weapons)"
+	description "这艘碎片的武器空间经过了广泛的改装，在舰桥两侧新增了两个前向硬挂点。船体的大部分区域覆盖了额外的护盾发射器和船体装甲。大量标准货舱空间已被转换为装备、武器和引擎空间；再加上对现有内部系统的精简——在无人星系中遭遇这艘灵活的战争机器的前景显得相当不妙。"

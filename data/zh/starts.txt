@@ -1,0 +1,19 @@
+start "default"
+	name "无尽星空"
+	description `	这是无尽星空的经典体验。你将背负债务起步，必须用你的新星舰来偿还按揭贷款。`
+
+start "deep"
+	name "深空之梦"
+	description `	此开局提供更低的利率和更多的信用点来升级你的飞船。`
+
+start "paradise"
+	name "生日惊喜"
+	description `	此开局没有按揭贷款，让你可以按照自己的节奏自由探索银河。`
+
+start "syndicate"
+	name "逃离泥潭"
+	description `	这是一个更困难的开局，每日还款额更高。`
+
+start "hai space"
+	name "海族起源"
+	description `	现在，当你的渡轮停靠在主太空港时，你感到这将是作为舰长的崭新生活的开始。`

@@ -1,0 +1,71 @@
+outfit "Shield Relay Booster"
+	description "护盾继电器助推器是一种可安装到本罗迪亚护盾继电器中用以修改其效能的组件。助推器可提升继电器的护盾生成强度，但代价是能效降低。"
+
+outfit "Shield Relay Limiter"
+	description "护盾继电器限制器是一种可安装到本罗迪亚护盾继电器中用以修改其效能的组件。限制器可提升继电器的能效，但代价是护盾生成强度降低。"
+
+outfit "Small Shield Relay"
+	description "	护盾继电器可通过安装护盾助推器或限制器进行升级，这些组件会改变护盾继电器的性能。不过，每个继电器的升级插槽数量有限。"
+
+outfit "Large Shield Relay"
+	description "	护盾继电器可通过安装护盾助推器或限制器进行升级，这些组件会改变护盾继电器的性能。不过，每个继电器的升级插槽数量有限。"
+
+outfit "Nanite Enhancer"
+	description "纳米增强器是一种可安装到本罗迪亚纳米修复器中用以修改其效能的组件。增强器可提升修复器的船体修复强度，但代价是能效降低。"
+
+outfit "Nanite Limiter"
+	description "纳米限制器是一种可安装到本罗迪亚纳米修复器中用以修改其效能的组件。限制器可提升修复器的能量和热效率，但代价是船体修复强度降低。"
+
+outfit "Small Nanite Fabricator"
+	description "	纳米修复器可通过安装纳米增强器或限制器进行升级，这些组件会改变修复器的性能。不过，每个修复器的升级插槽数量有限。"
+
+outfit "Large Nanite Fabricator"
+	description "	纳米修复器可通过安装纳米增强器或限制器进行升级，这些组件会改变修复器的性能。不过，每个修复器的升级插槽数量有限。"
+
+outfit "Solar Battery"
+	description "本罗迪亚太阳能电池是安装太阳能板的必要条件，但太阳能电池完全可以不搭配太阳能板独立使用。许多舰长会安装电池来储存从普通反应堆获取的能量，而无需安装太阳能板。"
+
+outfit "Solar Cell"
+	description "	这些太阳能板必须安装在太阳能电池附带的安装平台上才能使用。"
+
+outfit "Reactor Overclocker"
+	description "反应堆超频器是一种可安装到本罗迪亚反应堆中用以修改其效能的组件。超频器可提升反应堆的发电强度，但代价是热效率降低。"
+
+outfit "Reactor Limiter"
+	description "反应堆限制器是一种可安装到本罗迪亚反应堆中用以修改其效能的组件。限制器可提升反应堆的热效率，但代价是发电强度降低。"
+
+outfit "Quark Reactor"
+	description "	本罗迪亚反应堆可通过安装反应堆超频器或限制器进行升级，这些组件会改变反应堆的性能。不过，每个反应堆的升级插槽数量有限。"
+
+outfit "Electroweak Reactor"
+	description "	本罗迪亚反应堆可通过安装反应堆超频器或限制器进行升级，这些组件会改变反应堆的性能。不过，每个反应堆的升级插槽数量有限。"
+
+outfit "Dark Reactor"
+	description "	本罗迪亚反应堆可通过安装反应堆超频器或限制器进行升级，这些组件会改变反应堆的性能。不过，每个反应堆的升级插槽数量有限。"
+
+outfit "Lasher Pistol"
+	description "在与科拉特的战争期间，本罗迪亚舰船时常遭到科拉特掠夺者的登船袭击，对方企图窃取技术和补给。因此，有效的手持武器成为每个可能需要击退登船者的本罗迪亚船员必备的装备。"
+
+outfit "Chiisana Rift Thruster"
+	description "科拉特引擎追求原始动力，而本罗迪亚则追求效率，他们倾向于使用推力较低但产热也显著更少的引擎。"
+
+outfit "Nami Rift Thruster"
+	description "虽然裂缝引擎的热效率极高，但其能量需求相对于产生的推力而言相当高，甚至超过了效率极低的科拉特引擎。"
+
+outfit "Ookii Rift Thruster"
+	description "尽管裂缝引擎每单位推力的能耗比科拉特引擎更高，但裂缝引擎的总体能量需求仍然远低于后者。"
+
+outfit "Subarashii Rift Thruster"
+	description "鉴于裂缝引擎尺寸较小、推力较低，本罗迪亚舰船并不以追击能力著称。但在一些本罗迪亚人中流传着关于一个古老引擎宝藏的传闻，据说这些引擎甚至比科拉特的更强大，能让任何舰船如彗星般划过星空，追捕任何潜在目标。"
+
+outfit "Chiisana Rift Steering"
+	description "由于本罗迪亚舰船通常侧重于充分利用前射炮，因此本罗迪亚人更重视高转向速度而非高航速。因此，裂缝转向系统的体积大于同尺寸级别的推进器系统。"
+
+outfit "Nami Rift Steering"
+	description "与本罗迪亚的许多系统一样，裂缝引擎产生的热量极少。这使得他们的舰船无需配备任何大型冷却系统，从而为其他系统——无论防御还是进攻——腾出更多空间。"
+
+outfit "Ookii Rift Steering"
+	description "虽然本罗迪亚舰船注重转向甚于推进，使其成为容易追踪的目标，但任何人若愚蠢地认为它们就是坐以待毙的靶子，其武器系统的威力必将让其后悔莫及。"
+
+outfit "Subarashii Rift Steering"
+	description "作为最大的裂缝转向系统，这些引擎使得本罗迪亚的重型炮艇能够将其众多炮口指向不幸的目标。"

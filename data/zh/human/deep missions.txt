@@ -1,0 +1,55 @@
+mission "Deep: Syndicate Convoy"
+	name `从赫菲斯托斯取货`
+	description `护送一支货船队前往<stopovers>，在那里他们将获取科学实验所需的物资。在<date>前将船队带回<destination>以获得报酬（<payment>）。`
+
+mission "Deep: Tarazed Convoy"
+	name `从塔拉泽德取货`
+	description `护送一支货船队前往<stopovers>，在那里他们将获取科学实验所需的物资。在<date>前将船队带回<destination>以获得报酬（<payment>）。`
+
+mission "Deep: Kraz Convoy"
+	name `从克拉兹取货`
+	description `护送一支货船队前往<stopovers>，在那里他们将获取科学实验所需的物资。在<date>前将船队带回<destination>以获得报酬（<payment>）。`
+
+mission "Deep: Mystery Cubes 0"
+	name `获得优势`
+	description `降落在指定的星系上，放置帕里斯中尉给你的神秘方块，然后返回<destination>。`
+
+mission "Deep: Mystery Cubes 1"
+	name `前往<planet>`
+	description `前往<destination>了解更多关于军阀别西卜的情况。`
+
+mission "Deep: Mystery Cubes 2"
+	name `封锁恶魔`
+	description `前往<destination>设置封锁线，希望能捕获军阀别西卜。`
+
+mission "Deep: Mystery Cubes 3"
+	name `保卫<planet>`
+	description `消灭正在攻击<planet>的海盗。`
+
+mission "Deep: Mystery Cubes 4"
+	name `在<planet>会合`
+	description `前往<destination>为那里的封锁线带去增援。`
+
+mission "Deep: TMBR 0"
+	name `寻找"可能会暴动"`
+	description `找到并说服"可能会暴动"乐队在<destination>举办一场演唱会。`
+
+mission "Deep: TMBR: Hint"
+	name `与乐队重聚`
+	description `<origin>有一个人表示她上周在<destination>看到了"可能会暴动"的演出。希望他们还在那里。`
+
+mission "Deep: TMBR 1"
+	name `运送乐队前往<planet>`
+	description `送"可能会暴动"乐队去<destination>，让他们为深空的科学家们表演。`
+
+mission "Deep: Questions"
+	name `神秘信息`
+	description `前往<destination>与一封加密消息的作者会面。`
+
+mission "Deep: Remnant: Keystone Research"
+	name `前往<planet>`
+	description `Meet up with Ivan on <destination> to learn about his research on the quantum keystones you brought him.`
+
+mission "Deep: Remnant: Continue Research"
+	name `前往<planet>`
+	description `Meet up with Ivan on <destination> to continue helping with research on the Ember Waste.`

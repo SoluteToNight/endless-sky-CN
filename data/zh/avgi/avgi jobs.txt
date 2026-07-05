@@ -1,0 +1,169 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Avgi: Small Cargo 1 (Generic)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 2 (Generic)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 3 (Generic)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 1 (Generic)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 2 (Generic)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 3 (Generic)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Rush Cargo 1 (Generic)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 2 (Generic)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 3 (Generic)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Small Cargo 1 (Avgi Cargo)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 2 (Avgi Cargo)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 3 (Avgi Cargo)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 1 (Avgi Cargo)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 2 (Avgi Cargo)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Bulk Cargo 3 (Avgi Cargo)"
+	name "将Bulk cargo运往<planet>"
+
+mission "Avgi: Rush Cargo 1 (Avgi Cargo)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 2 (Avgi Cargo)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 3 (Avgi Cargo)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Small Cargo 1 (Avgi Nuclear)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 2 (Avgi Nuclear)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Small Cargo 3 (Avgi Nuclear)"
+	name "将Cargo运往<planet>"
+
+mission "Avgi: Rush Cargo 1 (Avgi Nuclear)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 2 (Avgi Nuclear)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Rush Cargo 3 (Avgi Nuclear)"
+	name "将Rush delivery运往<planet>"
+
+mission "Avgi: Specialized Workers 1"
+	name "将Specialists运往<planet>"
+
+mission "Avgi: Specialized Workers 2"
+	name "将Specialists运往<planet>"
+
+mission "Avgi: Ergastirio Researchers 1"
+	name "将Researchers运往<planet>"
+
+mission "Avgi: Ergastirio Researchers 2"
+	name "将Researchers运往<planet>"
+
+mission "Avgi: Outpost Diplomats 1"
+	name "将Diplomats运往<planet>"
+
+mission "Avgi: Outpost Diplomats 2"
+	name "将Diplomats运往<planet>"
+
+mission "Avgi: Outpost Diplomats 3"
+	name "将Diplomats运往<planet>"
+
+mission "Avgi: Doctors 1"
+	name "将Doctors运往<planet>"
+
+mission "Avgi: Doctors 2"
+	name "将Doctors运往<planet>"
+
+mission "Avgi: Doctors 3"
+	name "将Doctors运往<planet>"
+
+mission "Avgi: Cylinder Materials 1"
+	name "将Construction materials运往the <planet>"
+
+mission "Avgi: Cylinder Materials 2"
+	name "将Construction materials运往the <planet>"
+
+mission "Avgi: Cylinder Materials 3"
+	name "将Construction materials运往the <planet>"
+
+mission "Avgi: Bulk Cylinder Materials 1"
+	name "将Bulk materials运往the <planet>"
+
+mission "Avgi: Bulk Cylinder Materials 2"
+	name "将Bulk materials运往the <planet>"
+
+mission "Avgi: Bulk Cylinder Materials 3"
+	name "将Bulk materials运往the <planet>"
+
+mission "Avgi: Special Nuclear Material Shipment 1"
+	name "将Special nuclear materials运往<planet>"
+
+mission "Avgi: Special Nuclear Material Shipment 2"
+	name "将Special nuclear materials运往<planet>"
+
+mission "Avgi: Special Nuclear Material Shipment 3"
+	name "将Special nuclear materials运往<planet>"
+
+mission "Avgi: Information Courier"
+	name "将Information courier运往<planet>"
+
+mission "Avgi: Information Courier Rush"
+	name "将Information courier运往<planet>"
+
+mission "Avgi: Twilight Guardsmen Transport"
+	name "将Twilight Guardsmen运往<planet>"
+
+mission "Avgi: Twilight Guard Officers Transport"
+	name "将Twilight Guard Officers运往<planet>"
+
+mission "Avgi: Twilight Guard Flag Officers Transport"
+	name "将Twilight Guard Flag Officers运往<planet>"
+
+mission "Avgi: Twilight Guard Relief 1"
+	name "在<planet>上岸休假"
+
+mission "Avgi: Twilight Guard Relief 2"
+	name "在<planet>上岸休假"
+
+mission "Avgi: Twilight Guard Relief 3"
+	name "在<planet>上岸休假"

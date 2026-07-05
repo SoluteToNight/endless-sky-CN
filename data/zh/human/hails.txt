@@ -1,0 +1,7667 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+phrase "ship bribe rejection navy"
+	word
+		"已经太迟了："
+		"你的挣扎是徒劳的；"
+	word
+		"we are too honorable to accept this from an enemy."
+		"we value honor over greed."
+		"we will not be swayed so easily."
+
+phrase "ship bribe rejection navy"
+	word
+		"我不要你的钱。"
+		"团结一心，人类才能屹立。我不能收你的钱。"
+		"我们要你加入海军，不是要你的钱。"
+		"星辰之间永葆和平，除非你是共和国的敌人。"
+		"我不会收你的钱；我只会接受你的投降。"
+
+phrase "ship bribe rejection"
+	word
+		"We're "
+	word
+		"fighting a"
+		"in a"
+		"in the middle of a"
+		"trying to win a"
+		"winning a"
+	word
+		" "
+	word
+		"battle"
+		"conflict"
+		"engagement"
+		"war"
+	word
+		" "
+	word
+		"here!"
+		"right now!"
+	word
+		" We don't have time for this!"
+	replace
+		"a e" "an e"
+
+phrase "ship bribe rejection"
+	word
+		"别在这儿碍事！"
+		"我受不了唠叨的敌人！"
+		"你觉得我听得懂吗？"
+		"战斗中谁还有空算数！"
+
+phrase "ship bribe rejection"
+	word
+		"You want "
+	word
+		"a truce"
+		"peace"
+		"to stop fighting"
+	word
+		"?"
+	word
+		"" 9
+		" Shoulda thought of that before you attacked us!"
+
+phrase "band"
+	word
+		"或有大乱"
+		"Medium Confidence"
+		"Catastrophe Aftermath"
+		"海绵之迅"
+		"Shrapnel Vacuum"
+		"Daniel Suburbia"
+		"Volume Maneuver"
+		"Galactic Grouch"
+		"Greed"
+		"Hacker Headache"
+		"Diffusion Four"
+		"Nuclear Martini"
+		"常态幻象"
+		"迷失与不安"
+		"Shockkkkkkk"
+		"Broken Ones"
+		"生来驰骋"
+		"The Bandits"
+		"The Untouchables"
+		"The Gunners"
+		"Five To One"
+		"Megalodon"
+		"Meathooks"
+		"Weird Over Easy"
+		"Axe Handle Conformity"
+		"Laminated Fish"
+		"糟食与亵渎"
+		"给我听点糟心的"
+		"正确程序之灯塔"
+		"Flammable People"
+		"Zanzibar Must Die"
+		"Immunity To Death"
+		"Fascist Blob"
+		"Apologetic Apocalypse"
+		"Mediocre Generica"
+		"巧妙含蓄"
+		"Excessive Friction"
+		"Scratching Without Permission"
+		"恐惧的战栗"
+		"Rusty Muffins"
+		"烤面包上的同志"
+		"进步的大杂烩"
+		"Hellish Wrongness"
+		"Radioactive Bishop"
+		"Unlawful Possession"
+		"Needle Injector"
+		"尸骸之路"
+		"High Voltage"
+		"玫瑰战争"
+		"天堂之北"
+		"On Target"
+		"Bad Medicine"
+		"The Vampires"
+		"The Screaming Eagles"
+		"Violent Surprise"
+		"Nine Meter Shanks"
+		"Phantom Blaster"
+		"Combat Drone Tendency"
+		"Ringworld Crusaders"
+		"Turais坚不可摧"
+		"Windblain Aureo"
+		"Darkstone Ocean"
+		"Planck Massacre"
+		"Occam's Chainsaw"
+		"The Crimson Kippers"
+		"Death Sandwich"
+		"Monkey Men"
+		"Flomm那货"
+
+phrase "media name"
+	word
+		"Sad Archie"
+		"Gluttony"
+		"拯救纳米机器人"
+		"被科学蒙蔽"
+		"Let's Play War"
+		"寂静世界"
+		"Indiscriminate"
+		"My Mojo"
+		"Blue Illusion"
+		"Foreign Beauty"
+		"上帝已死"
+		"抽象即答案"
+		"Outrageous Activism"
+		"Cheap Entertainment"
+		"The Devil's Moon"
+		"Roaring Thunder"
+		"复仇让你流泪"
+		"Steam Ears"
+		"Organic Revolt"
+		"野兽本性"
+		"Instant Devastation"
+		"软弱之类的"
+		"Trouble Will Return"
+		"No Regrets"
+		"Golden Smart Mouth"
+		"痛苦少女"
+		"Burning Pain"
+		"Another Wasted Day"
+		"异世智慧"
+		"The Only Destiny"
+		"飞向太阳"
+		"坚韧之怒"
+		"Expensive Massacre"
+		"Can't Go On"
+		"Fear Machine"
+		"永远是囚徒"
+		"被你包围"
+		"他们来临之日"
+		"武者之道"
+		"忠诚还是法律"
+		"天堂遍布你身"
+		"心的本性"
+		"If You Could"
+		"Don't Sink Me"
+		"破碎之人的游行"
+		"Holy Rollers"
+		"Loose Parade"
+		"The Average Girl"
+		"The Average Boy"
+		"The Average Ones"
+		"对死者的尊重"
+		"育婴室里的狼"
+		"末底改的幻象"
+		"Foreign Doubt"
+		"Freedom Unlocked"
+		"等待一丝善意"
+		"Jet Fueled Woman"
+		"你的爱如飓风"
+		"罪恶治愈破碎之心"
+		"心的囚徒"
+		"后座的天赋"
+		"27 Megatons of Pain"
+		"没人能活着离开这里"
+		"Beat Orgy"
+		"地球的记忆"
+		"You and Me"
+		"把我扔进地牢"
+		"Fairground Sinner"
+		"Eternal Madman"
+		"钢铁之剑"
+		"High Caliber"
+		"Eaten Alive"
+		"有讨论余地"
+		"Lovely Loneliness"
+		"看看时间"
+		"Guilty Culture"
+		"Mighty Monday"
+		"砰，你死了"
+		"Same Every Day"
+		"尼采杀了我父亲"
+		"透过天窗看"
+		"无以言表"
+		"Modern Cop"
+		"我们不如去死"
+		"支持还是反对"
+		"Still Intact"
+		"每个人都需要至少一个影子"
+		"展示厅不过如此"
+		"现实主义拦不住我"
+		"Creativity"
+		"Too Much Stimulation"
+		"The Great Flood"
+		"Blademaster"
+		"太阳的坚持"
+		"Warped Memories"
+		"温暖之盒"
+		"Vortex"
+		"Not Enough Firepower"
+		"Sober School"
+		"Golden Rainbow"
+		"用仁慈杀死你"
+		"你从未爱过我"
+		"Selfish Suicide"
+		"没有理由"
+		"早入坟墓"
+		"My Sin"
+		"Love Nugget"
+		"坐着等饿死"
+		"Militantly Sleepy"
+		"Suffering From Death"
+		"Snappy与Delilah之歌"
+		"不需要周六"
+		"浴室地精会来找你"
+		"凉亭里的火箭"
+		"天哪，撒哈拉里的尸体"
+		"给那个被控脑的失败者喷辣椒水"
+		"太糊涂了犯不了罪"
+		"只要夜色仍黑"
+		"My Brokenness"
+		"有衣服没袜子"
+		"Holding Santa Hostage"
+		"九毛九的女权"
+		"Fortune Cookies Lie"
+		"Babies And Napalm"
+		"二十八步到无限"
+		"爱我的那块料"
+		"懦弱的外壳"
+		"一级重罪"
+		"太热了停不下来"
+		"Slipping Away"
+		"春之颂"
+		"Look Around You"
+		"看看我的杰作，然后绝望吧"
+		"Rigellian Surprise"
+		"Corrupting You"
+		"Final Nights"
+		"无人在意"
+		"Angel Tears"
+		"一砖一瓦"
+		"The Low Road"
+		"亡魂之影"
+		"Nuclear Summer"
+		"我们的爱是堡垒"
+		"Cruel Envy"
+		"要震撼你的世界"
+		"Midnight Surprise"
+		"Bloodstains"
+		"Missing You"
+		"你给我继续前行的力量"
+		"你不如去死"
+		"满口利齿"
+		"A Spying Shame"
+		"Glittering Prizes"
+		"You Wound Me"
+		"Silent Rage"
+		"万物皆由你构成"
+		"Stormy Winds"
+		"Native Son"
+		"Fully Prepared"
+		"Melting Point"
+		"Boiling Point"
+		"Freezing Point"
+		"The Quickening"
+		"爱是一只靴子"
+		"Sweet Release"
+		"无人知晓他们是人类"
+		"冰之锁链"
+		"Monkey Butter"
+		"Kind Alpha's Thesis"
+		"Bloody Storm"
+		"Noble Priest"
+		"你听说过那场悲剧吗"
+		"夸格不会告诉你的故事"
+		"Burger Truck In"
+		"对爱不陌生"
+
+phrase "drugs"
+	word
+		"bad blue"
+		"booster"
+		"core"
+		"death stick"
+		"deep"
+		"fire apple"
+		"flavor drop"
+		"galaxy gas%"
+		"good red"
+		"happy stick"
+		"hot wing"
+		"memory chip"
+		"夸格汁"
+		"quasar"
+		"red giant"
+		"ringworld shaving"
+		"solaris joyride"
+		"southern snack"
+		"space weed%"
+		"stardust%"
+		"steam%"
+		"toad juice%"
+		"whale blubber%"
+
+phrase "contraband"
+	word
+		"${drugs}%s" 23
+		"anarchist pamphlets"
+		"biochemical weapons"
+		"conflict minerals"
+		"counterfeit artwork"
+		"counterfeit sculptures"
+		"counterfeit credits"
+		"counterfeit Quarg technology"
+		"drugs"
+		"embargoed goods"
+		"endangered animals"
+		"endangered animal meat"
+		"endangered plants"
+		"endangered produce"
+		"endangered fungi"
+		"enriched uranium"
+		"explosives"
+		"fake organs"
+		"forged IDs"
+		"homemade explosives"
+		"human hearts"
+		"human brains"
+		"human kidneys"
+		"human bones"
+		"human lungs"
+		"human faces"
+		"human limbs"
+		"human corpses"
+		"illegal firearms"
+		"illegal salvage"
+		"ivory"
+		"laundered gift cards"
+		"military weapons"
+		"napalm"
+		"nerve gas"
+		"outlawed pesticides"
+		"pig hearts"
+		"pig kidneys"
+		"pig lungs"
+		"plundered artifacts"
+		"slaves"
+		"stolen artifacts"
+		"stolen artwork"
+		"stolen identities"
+		"stolen ship parts"
+		"stolen weapons"
+		"stolen blueprints"
+		"stolen records"
+		"stolen data"
+		"stolen minerals"
+		"stolen gemstones"
+		"suspicious salmon"
+		"terrorist manifestos"
+		"torture devices"
+		"unregistered IFF modules"
+		"undeclared nuclear fuel"
+		"untraceable electronics"
+		"weaponized chickens"
+		"weaponized pigs"
+		"weaponized cows"
+		"weaponized pigeons"
+	replace
+		"%%s" ""
+		"%s" "s"
+		"%" ""
+
+phrase "visual media"
+	word
+		"holovid"
+		"holofilm"
+		"franchise"
+		"film series"
+		"show"
+		"series"
+		"soap opera"
+		"horror film"
+		"romantic film"
+		"comedy film"
+		"sitcom"
+		"sci-fi series"
+		"fantasy film"
+		"historical film"
+		"kids show"
+
+phrase "friendly civilian"
+	word
+		"你应该看看那个视频，关于"
+		"调频道去看那个视频，关于"
+		"刚看了那个视频，关于"
+		"我在听"
+		"我刚弄到了票去看"
+		"我刚看完回来"
+		"我刚看完回来"
+		"我刚听到"
+		"I just saw"
+		"我弄到了后台通行证去看"
+	word
+		" "
+	phrase
+		"band"
+	word
+		" "
+	word
+		"playing a concert"
+		"doing a show"
+		"in concert"
+		"at their concert"
+		"playing a benefit concert"
+		"live"
+		"on tour"
+		"at a live concert"
+		"playing a gig"
+		"live in concert"
+	word
+		" at Tarazed Stadium"
+		" at the amphitheater"
+		" at a concert hall"
+		" in a nightclub"
+		" at Betelgeuse Stadium"
+		" at Lionheart Arena"
+		" at the Grange"
+		" at a resort"
+		" at Canyonland Park"
+		" in a stylin' party-hall"
+		""
+	word
+		" on Skymoot!"
+		" on New Sydney!"
+		" on Splashdown!"
+		" on Hestia!"
+		" on Earth!"
+		" on Heartland!"
+		" on Vail!"
+		" on New China!"
+		"!"
+
+phrase "friendly civilian"
+	word
+		"你应该看看最新一期的"
+		"我承认，我迷上了"
+		"等我跑完这趟，我要补看"
+		"我要去参加一个粉丝大会，关于"
+		"得说一句，我爱看"
+	word
+		`"`
+	phrase
+		"media name"
+	word
+		`." It's `
+		`," `
+	word
+		""
+		"definitely "
+		"easily "
+		"maybe "
+		"perhaps "
+	word
+		"the "
+	word
+		"best"
+		"coolest"
+		"weirdest"
+		"funniest"
+		"most shocking"
+		"most fascinating"
+		"most surreal"
+		"most surprising"
+		"most enjoyable"
+		"most original"
+		"most engrossing"
+	word
+		" "
+	phrase
+		"visual media"
+	word
+		" "
+	word
+		"out there!"
+		"好久没看过的了！"
+		"this year!"
+		"yet!"
+		"and deserves an award!"
+		"and you should watch it!"
+		"that nobody's heard of."
+		"of all time!"
+
+phrase "friendly civilian"
+	word
+		"无聊的旅途上，我靠看这个打发时间"
+		"有时候，我忍不住要看"
+		"真不敢相信有人喜欢"
+		"真不敢相信我迷上了"
+		"你信吗？得奖的是"
+		"上一趟，我看了"
+		"一周前，我的船员们看了"
+		"我浪费了好多时间在看"
+		"花在它上面的时间再也回不来了"
+	word
+		` "`
+	phrase
+		"media name"
+	word
+		`," definitely`
+		`," easily`
+		`," without a doubt`
+		`." It's`
+		`." It has to be`
+		`," which everyone knows is`
+		`," which is obviously`
+	word
+		" the "
+	word
+		"worst"
+		"cheesiest"
+		"stupidest"
+		"most boring"
+		"most predictable"
+		"most ridiculous"
+		"most pretentious"
+		"most poorly acted"
+		"most overrated"
+	word
+		" "
+	phrase
+		"visual media"
+	word
+		" "
+	word
+		"我看过最棒的了！"
+		"to date."
+		"in the last decade."
+		"ever made!"
+
+phrase "friendly civilian"
+	word
+		"" 3
+		"Man, "
+		"Ugh, "
+		"You know, "
+		"Jeez, "
+	word
+		"我真不敢相信"
+		"我不知道为什么"
+		"我完全不知道为什么"
+		"我不明白为什么"
+		"真是个谜，为什么"
+		"让我火大的事是"
+		"太奇怪了"
+		"没人能给我解释为什么"
+		"我简直想不通为什么"
+	word
+		" "
+	word
+		"the kids are"
+		"people are"
+		"anyone is"
+		"everyone's"
+		"my crew is"
+		"some of my friends are"
+		"all the oldsters are"
+	word
+		" still"
+		""
+	word
+		" "
+	word
+		"following"
+		"listening to"
+		"paying attention to"
+		"giving their money to"
+		"paying to listen to"
+		"so in love with"
+	word
+		""
+		" that group"
+		" that new group"
+		" that band"
+		" that new band"
+		" those hacks"
+	word
+		" "
+	phrase
+		"band"
+	word
+		". "
+	word
+		"他们的音乐"
+	word
+		" "
+	word
+		"is horrible"
+		"is terrible"
+		"is insufferable"
+		"is garbage"
+		"is such trash"
+		"is so irritating"
+		"is so bad"
+		"is junk"
+		"is filthy"
+		"is offensive"
+		"is an embarrassment"
+		"is ear-splitting"
+		"is completely derivative"
+		"is totally unoriginal"
+		"is nauseating"
+		"is more like random noise"
+		"is an affront to good taste"
+		"gives its whole genre a bad name"
+		"glorifies all the wrong things"
+		"is a tool of the Devil"
+		"goes against common decency"
+		"ought to be banned"
+		"hurts my ears"
+		"makes me ill"
+	word
+		"!"
+
+phrase "friendly civilian"
+	word
+		"That"
+		"That new"
+		"那个超赞的"
+		"那个超赞的新"
+		"The"
+		"The new"
+	word
+		" "
+	word
+		"song"
+	word
+		` "`
+	phrase
+		"media name"
+	word
+		`" `
+	word
+		"is so great"
+		"is my kind of music"
+		"is my new favorite"
+		"is stuck in my head... again"
+		"is pure genius"
+		"is awesome"
+		"is totally rad"
+		"is the best"
+		"is the only thing I'm listening to"
+		"plays on repeat in my bunk"
+		"tops everything"
+		"is playing full blast throughout my ship"
+		"is the hit of the year"
+		"is the best thing going"
+		"is the best thing playing right now"
+	word
+		"!"
+	word
+		"" 2
+		" Have you heard it yet?"
+		" You gotta hear it!"
+		" I was into them before they were popular."
+		" Check it out!"
+		" Check 'em out!"
+		" I can't wait to see it performed live!"
+
+phrase "friendly civilian"
+	word
+		"Hi there"
+		"Hello"
+		"Good day"
+		"Greetings"
+		"Salutations"
+		"很高兴见到你"
+		"很高兴又见到你"
+		"All clear"
+		"Affirmative"
+		"I read you"
+		"On screen"
+		"回头见"
+		"宇宙里见"
+		"Stay safe"
+	word
+		", "
+	word
+		"fellow captain"
+		"captain"
+		"friend"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"May"
+		"Let"
+	word
+		" "
+	word
+		"peace"
+		"luck"
+		"fortune"
+		"good fortune"
+		"God"
+		"prosperity"
+		"the Force"
+		"fair winds"
+		"clear skies"
+		"the best of luck"
+		"fair winds and bright skies"
+		"Allah"
+		"the power of Heaven"
+		"天佑你"
+		"the Way and the Light"
+		"the immortal Tao"
+		"the endless skies"
+	word
+		" "
+	word
+		"be with you!"
+		"be with you today!"
+		"journey with you!"
+		"go with you!"
+		"follow in your wake!"
+		"be with you in your travels!"
+		"always be with you!"
+		"ride with you!"
+
+phrase "friendly civilian"
+	word
+		"Being"
+		"Becoming"
+		"Life as"
+		"的人生"
+	word
+		" "
+	word
+		"a"
+		"an independent"
+		"a free"
+		"a freelancer"
+	word
+		" "
+	word
+		"merchant"
+		"courier"
+		"trader"
+		"captain"
+		"ship captain"
+		"starship captain"
+		"spaceship captain"
+		"pilot"
+		"ship pilot"
+		"starship pilot"
+		"spaceship pilot"
+		"galaxy-trotter"
+	word
+		" "
+	word
+		"is harder than it looks"
+		"is almost impossible"
+		"is so simple a child could do it"
+		"isn't too bad as long as you avoid going into debt"
+		"is hard at first, but it gets a lot easier over time"
+		"offers the best life in the galaxy"
+		"is the biggest thrill you'll ever know"
+		"is the only way to control your own destiny"
+		"is the only way to be truly free in this day and age"
+		"is the only path to genuine freedom"
+		"tops everything"
+		"is a challenge, but ultimately rewarding"
+		"gives you the opportunity to see the whole galaxy"
+		"is the best thing"
+		"is the most wonderful experience"
+		"has really opened my mind"
+		"provides valuable experience"
+		"is great if you don't get killed by pirates"
+		"is great if you obey the law"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"成功的最佳途径是"
+		"给你一句忠告："
+		"一句忠告："
+		"听我的："
+		"告诉你个秘密："
+		"成功的秘诀是"
+		"想听我的看法吗？你应该"
+		"像最棒的舰长们那样"
+		"别忘了"
+		"如果你想成功，"
+		"你最好还是"
+		"我觉得你应该"
+	word
+		" "
+	word
+		"pay off your mortgage as quickly as possible"
+		"make extra payments on your mortgage whenever you can"
+		"have a fast ship that can outrun the pirates"
+		"buy a ship with a lot of bunks for passengers"
+		"buy a ship with a big cargo bay"
+		"fly a ship that isn't totally defenseless against pirates"
+		"stick to the safe parts of the galaxy"
+		"take a lot of risks at the beginning so you can afford a better ship ASAP"
+		"keep your ship running cool to confuse Meteor Missiles"
+		"invest in a bigger reactor and downsize your batteries"
+		"always install a ramscoop"
+		"always install an afterburner"
+		"always install a scram drive"
+		"double up your shield generators so nothing gets through"
+		"prefer passenger jobs to cargo jobs; they pay better"
+		"say no to drugs"
+		"avoid carrying illegal cargo"
+		"just have fun and don't sweat it"
+		"buy a fleet with similar fuel capacity"
+		"always check the spaceport" 5
+		"try to align yourself with a bigger organization"
+		"remove stock shield generators and use the spare space for other outfits"
+		"uninstall any radar jammers on your ship. They're useless"
+		"use loans to get money to make money"
+		"reduce the cost of your ships by using batteries over bigger generators"
+		"always keep sufficient distance to fire your long-range weapons first"
+		"let the military take care of pirates"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"The best"
+		"首选的"
+		"A good"
+		"A sensible"
+		"最有效的"
+		"有些人认为"
+		"我坚决不相信"
+	word
+		" way to "
+	word
+		"be safe from pirates"
+		"stay safe from pirates"
+		"keep the pirates at bay"
+		"avoid pirates"
+		"deal with pirates"
+	word
+		" is to "
+	word
+		"stay close to the Paradise Worlds and the Deep"
+		"avoid the Dirt Belt systems"
+		"stay far away from systems they control near the edges of the galaxy"
+		"stick to systems patrolled by the Navy"
+		"get so rich that you can just buy them off"
+		"outfight the small ones, and outrun the big ones"
+		"blast them to bits with Particle Cannons before they can get within close range"
+		"put a pair of Heavy Laser Turrets on each of your cargo ships"
+		"blow them out of the sky with a barrage of missiles before they can get anywhere near you"
+		"buy a light warship that still has decent passenger capacity"
+		"fly a multipurpose ship that has room for cargo, shields, and heavy weapons"
+		"equip Anti-Missile Turrets so they can't get you with missiles, and then you can run away"
+		"have a fleet with interceptors to tie them up while the cargo ships can warp to safety"
+		"slap on a scram drive and easily jump away"
+		"overheat them with a plasma volley"
+		"leave yourself unarmed, so they don't prioritize you"
+		"use an array of Proton Turrets, to attack from afar"
+		"use bigger cargo ships, so your fleet is harder to destroy"
+		"avoid taking jobs near the frontier"
+		"not to use so many cargo ships that you become irresistible to them"
+		"flee and let the military take care of them"
+		"build a powerful fleet, then get paid to blow them up"
+	word
+		"."
+		"!"
+
+
+phrase "friendly civilian"
+	word
+		"你肯定不会相信"
+		"我真不敢相信"
+		"你根本无法想象"
+		"太荒谬了"
+		"太可笑了"
+		"太奇怪了"
+		"It's weird"
+		"It's odd"
+	word
+		" how much "
+	word
+		"people"
+		"rich people"
+		"retirees"
+		"artists"
+		"celebrities"
+		"politicians"
+		"nerds"
+		"programmers"
+		"scientists"
+		"tourists"
+		"idiots"
+		"movie producers"
+		"doctors"
+		"tech gurus"
+		"people in the Paradise Worlds"
+		"people in the Deep"
+	word
+		" are willing to pay for "
+	word
+		"antique swords"
+		"bawdy magazines"
+		"bogus supplements"
+		"celebrity merchandise"
+		"cigars"
+		"cocktail dresses"
+		"cognac"
+		"computer parts"
+		"custom pens"
+		"designer clothing"
+		"designer suits"
+		"dueling sabers"
+		"exotic carpets"
+		"exotic hardwoods"
+		"fancy window blinds"
+		"fine furniture"
+		"fossils"
+		"garden ornaments"
+		"golf clubs"
+		"grandfather clocks"
+		"handbags"
+		"lawn furniture"
+		"live lobsters"
+		"luxury fabrics"
+		"mineral water"
+		"monogrammed handkerchiefs"
+		"musical instruments"
+		"numismatic folders"
+		"orchids"
+		"paintings"
+		"paragliders"
+		"perfume"
+		"plushies"
+		"pocket watches"
+		"porcelain"
+		"replica Ming vases"
+		"replica tribal masks"
+		"saffron"
+		"silver spoons"
+		"surfboards"
+		"tobacco"
+		"useless trinkets"
+		"百叶窗"
+		"yachts"
+	word
+		"."
+		". Not that I'm complaining."
+
+phrase "friendly civilian"
+	word
+		"想听个笑话吗？"
+	word
+		" "
+	word
+		"海狸对木头说了什么？很高兴啃到你！"
+		"鸡为什么要过马路？因为要去对面！"
+		"宇航员去哪儿聚会？太空酒吧！"
+		"辛迪加销售员最爱喝什么？辛迪加让他喝什么他就喝什么！"
+		"海军为什么讨厌邻居？因为隔壁的草总是更绿！"
+		"什么东西有两个头、六条腿、两条胳膊和一条尾巴？骑马的人！"
+		"床底的怪物怕什么？你！"
+		"You!"
+		"什么东西黑白相间又全身通红？报纸！"
+		"被海军征召！"
+		"Your ship!"
+		"一加一等于什么？一扇窗户！"
+		"池塘英语怎么得了A？因为它是reeds（读/写）高手！"
+		"雪人为什么有鼻子？因为它s-nose（知道）！"
+		"大脑和冬天有什么共同点？它们都s-know（知道/下雪）！"
+		"Kornephoros星系弄懂生命的意义后说了什么？这挺Deep（深奥）的。"
+		"科学家为什么爱潜水？因为他们热爱Deep（深海／深奥）！"
+		"Sabik星系听完阴谋论后说了什么？这Longjump（跳跃得太远了）。"
+		"Rastaban星系为什么想当芭蕾舞演员？因为它心里住着Dancer（舞者）！"
+		"特工为什么希望Martini上发生地震？因为他们想要摇匀的，不要搅动的！"
+		"Phurad和牡蛎有什么共同点？它们肚子里都有Pearl（珍珠）！"
+		"海盗军阀拿下Pherkad后为什么高兴？因为它给了他Solace（安慰）！"
+		"什么比船上有蛇更糟？Serpens（巨蛇座）盘绕整个星系！"
+		"Vinci最常见的名字是什么？Leonardo（莱昂纳多）！"
+		"他们把天王星改名叫什么了？Urass（你的屁股）！"
+		"Kursa星系为什么不需要望远镜？因为它是个Farseer（千里眼）！"
+		"海盗军阀拿下Kochab后为什么失望？因为这只是个Mere（微小的）胜利！"
+		"Kaus Australis星系少了一条腿为什么没人担心？因为它本来就是Hopper（单腿蹦的）！"
+		"想要丰饶之角该去哪？Kappa Centauri！"
+		"夸格对烦人的人说什么？Enif（够了）！"
+		"无意义的大气层叫什么？Skymoot！"
+		"Graffias为什么是蹩脚刺客？因为它只会Poisonwood（毒木）！"
+		"Gomeisa为什么总感冒？因为它老是s-Nifel-s（打喷嚏）！"
+		"Girtab喜欢什么音乐？有Harmony（和谐）的曲子！"
+		"Gamma Corvi为什么医疗设备这么重要？因为很多人都在那儿Bourne（出生）！"
+		"Fomalhaut为什么这么无聊？因为它就是普通的Millrace（磨坊渠）！"
+		"那么多人看Elnath的节目是因为什么？因为它有个好的Pilot（试播集／飞行员）！"
+		"为什么在Dubhe航行很困难？因为有厚厚的Haze（雾霾）！"
+		"工程师为什么去Diphda？因为他们喜欢Tinker（修修补补）！"
+		"机器人最讨厌的星球是什么？Rust（锈蚀）！"
+		"没有引擎的飞船叫什么？地面船！"
+		"别相信楼梯。它们老是图谋不轨。"
+		"换一个灯泡需要几个Hestian人？四个！电工干活，管家、经理和家政主管监督。"
+		"换一个灯泡需要几个Wayfarer人？零，他们那儿不用这么老的技术！"
+		"换一个灯泡需要几个Moonshaker人？零，全都外包给外星人了。"
+		"换一个灯泡需要几个Alexandrian人？一个，他们个个学识渊博、能力出众。"
+		"换一个灯泡需要几个地球人？三个，一个换灯泡，两个在人群中开路。"
+		"换一个灯泡需要几个金星人？零，金星上根本没人住！"
+		"换一个灯泡需要几个火星人？零，他们让来访的地球劳工换灯泡。"
+		"换一个灯泡需要几个新波士顿人？不知道，没去过那儿。"
+		"换一个灯泡需要几个Delvian人？零，没等换好灯泡房间就塌了。"
+		"换一个灯泡需要几个Sinterian人？零，他们直接派机器人去干。"
+		"换一个灯泡需要几个Lunatic人？省省吧，叫他们Lunatic他们会暴怒的。"
+		"换一个灯泡需要几个新不列颠人？很多，在这个店主星球上他们更爱卖灯泡而不是装灯泡。"
+		`Someone met a djinn and said "leave me alone." That person is now stranded on an uninhabited planet.`
+		`Somebody met a genie and said "I don't want to see you," and then went blind.`
+		"那些混蛋！真不敢相信他们还在用桶当引擎飞来飞去！"
+		"什么是一个人的一小步，却是人类的一大步？你离开这个星系。哈哈。"
+	word
+		"" 2
+		" What? Not funny?"
+		" Hey, I thought it was good!"
+		" C'mon, at least laugh a little!"
+		" Why are you booing?"
+		" What's with the groaning?"
+		" Pretty clever, right?"
+		" Took me a day to come up with that."
+		" Geddit?"
+		" ... I swear I was better at this."
+
+phrase "friendly civilian"
+	word
+		"你看了那场比赛吗？"
+		"The"
+		"我听说"
+		"太震惊了，"
+		"真不敢相信"
+		"不出我所料，"
+	word
+		" "
+	word
+		"Gophers"
+		"Quasars"
+		"Dragons"
+		"Dire Wolves"
+		"Reapers"
+		"Quants"
+		"Hellcats"
+		"Piledrivers"
+		"Steamrollers"
+		"Spectres"
+		"Chameleons"
+		"Cavaliers"
+		"Ogres"
+		"Thundergods"
+		"Stonemasons"
+		"Plasmaticas"
+		"Greasemonkeys"
+		"Void Dragons"
+		"Goers"
+		"Psyches"
+	word
+		" "
+	word
+		"totally beat the"
+		"creamed the"
+		"trounced the"
+		"almost lost to the"
+		"defeated the"
+		"played an epic game against the"
+		"destroyed the"
+		"utterly humiliated the"
+		"narrowly beat the"
+		"demolished the"
+		"obliterated the"
+		"annihilated the"
+		"smashed the"
+		"walloped the"
+		"came back against the"
+	word
+		" "
+	word
+		"Jabberwocks"
+		"Turlingdroves"
+		"Passenger Pigeons"
+		"Sequoias"
+		"Presidents"
+		"Aardvarks"
+		"Raiders"
+		"Greyhounds"
+		"Sandstorms"
+		"Wreckers"
+		"Boogeymen"
+		"Black Widows"
+		"Goblins"
+		"Airhammers"
+		"Redeemers"
+		"Antelopes"
+		"Pythons"
+		"Rackets"
+		"Space Bears"
+	word
+		" last night"
+		" yesterday"
+		" this morning"
+		" the other day"
+		", as usual"
+		" this afternoon"
+	word
+		"!"
+		"."
+		". You shoulda seen it!"
+		". I wish my feed was clearer."
+
+phrase "friendly civilian"
+	word
+		"刚送了一大批"
+		"终于卸下了一些"
+		"卸下了我的货物"
+		"刚完成了一大笔送货"
+	word
+		" "
+	word
+		"limburger cheese"
+		"bleu cheese"
+		"livestock"
+		"cattle"
+		"garlic"
+		"sheep"
+		"fertilizer"
+		"manure"
+		"processed sewage"
+		"lab mice"
+		"ammonia"
+		"lutefisk"
+		"sulfur"
+		"secondhand socks"
+		"compost"
+		"fish heads"
+		"rotten fruit"
+		"sludge"
+		"unprocessed sewage"
+		"pig guts"
+		"medical samples"
+		"mothballs"
+		"durians"
+	word
+		". My"
+		", and now my"
+	word
+		" "
+	word
+		""
+		"ship's "
+		"poor "
+		"poor ship's "
+		"beautiful ship's "
+		"delicate ship's "
+		"pristine ship's "
+	word
+		"hold"
+		"cargo hold"
+		"cargo bay"
+	word
+		" "
+	word
+		"totally reeks!"
+		"smells awful!"
+		"is going to smell bad for weeks!"
+		"still stinks!"
+		"needs to be hosed down!"
+		"is gonna need one heck of a chemical bath!"
+		"desperately needs a sonic scrubbing!"
+		"needs to be torched!"
+		"deserves to be put down!"
+		"has to be replaced!"
+
+phrase "friendly civilian"
+	word
+		"Some"
+		"A couple"
+		"A few"
+		"A bunch"
+		"All"
+	word
+		" of my "
+	word
+		"passengers"
+		"guests"
+		"clients"
+		"roomers"
+		"VIP乘客"
+	word
+		" "
+	word
+		"threw up after we exited hyperspace"
+		"puked up their dinner once we got into hyperspace"
+		"couldn't keep the contents of their stomach inside them"
+		"made a big mess in their rooms"
+		"absolutely ruined their rooms"
+	word
+		" while I had them on my ship"
+		" while they stayed on my ship"
+		" and wouldn't admit to it"
+		" and tried to blame it on my crew"
+		" and tried to get out of cleaning it up"
+		"" 5
+	word
+		". "
+	word
+		"我打算把他们丢在最近的有人的星球上"
+		"我很高兴他们要在下一站下船了"
+		"我已经让他们在我的下一站下船了"
+		"我别无选择，只能让他们在下一站下船"
+	word
+		"" 50
+		", let them make a mess in someone else's ship instead" 17
+		", I don't want to clean up after them again" 17
+		", they better learn how to live on a spaceship" 17
+		", but I wish I could just dump them out the airlock"
+	word
+		"!"
+
+phrase "friendly civilian"
+	word
+		"你认识来自"
+		"你知道关于"
+		"你听说过关于"
+		"你有没有想过"
+	word
+		"Alfheim"
+		"Bourne"
+		"Skymoot"
+		"Sinter"
+		"Featherweight"
+		"Canyon"
+		"Hermes"
+		"Hippocrates"
+		"Splashdown"
+		"Burthen"
+		"Crossroads"
+		"Clink"
+		"Watcher"
+		"Stormhold"
+		"Mutiny"
+		"Sundrinker"
+		"New Boston"
+		"Serpens"
+	word
+		"? "
+	word
+		"你认识去过那里的人吗"
+		"你有没有想过为什么没人住在那里"
+		"你遇到过从那里来的人吗"
+		"你有没有想过为什么没人去那里"
+		"你听说过那里发生了什么吗"
+		"你看过关于那个世界的新闻吗"
+	word
+		"? "
+	word
+		"没有？我觉得那个地方根本不存在"
+		"连共和国都无法确认它是否存在"
+		"那个地方不是真的，只是个幻觉"
+		"我肯定那里有事"
+		"'They' want to make us believe the place actually exists"
+		"这全都是掩盖'他们'阴谋的幌子"
+		"'他们'从不提起它，肯定有原因"
+		"我猜那些共和派在那里藏了什么东西"
+		"我敢打赌那里有事，共和派不想让你知道"
+		"共和国情报局不想让你知道那里发生了什么"
+		"我猜共和派在那里藏了些Alpha"
+		"这全是共和派秘密Alpha殖民地的掩护"
+		"我确信Alpha们在那里操控着共和国"
+		"那是因为那里有个秘密的Alpha殖民地，共和派不想让你知道"
+		"这全是夸格的幌子"
+		"这全是夸格的阴谋"
+		"我确信夸格把它当作中转站"
+		"夸格一定在用它操纵我们的政府"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"老兄，感觉真糟糕"
+		"I hate it"
+		"这是最糟的感觉"
+		"太烦人了"
+		"真正让我恼火的是"
+		"我真正讨厌的是"
+		"我极其鄙视"
+	word
+		" when "
+		" whenever "
+	word
+		"it turns out that you've transported your cargo to the wrong place."
+		"pirates get the jump on you before you can move."
+		"我不小心接错了活。"
+		"我差一点点就错过了任务的截止日期。"
+		"我在无人星系里耗尽了燃料。"
+		"我降落还要交钱。"
+		"我还差一点钱就能买新船了。"
+		"我攒钱买的那艘船一下子就没了。"
+		"我想跳跃却被卡住，海盗用导弹欺负我。"
+		"a sly pirate uses a fast ship armed with missiles to bombard me from afar."
+		"my anti-missile can't destroy even a single missile."
+		"my autopilot brings me to the wrong planet in the system."
+		"it turns out that I've accepted missions for two different planets in the one system."
+		"my ship spends all its power on regenerating shields instead of firing."
+		"my escorts suicide themselves into close-quarters with pirates."
+		"my passengers are afraid and cry during the whole trip."
+		"one of my passengers becomes space-sick and creates a horrible mess."
+		"one of my passengers throws up and I have to clean up for days."
+		"我卸不了货，有人搞砸了文件。"
+		"我不小心打了海军，他们就还击了！真的是意外！"
+
+phrase "friendly civilian"
+	word
+		"小心"
+		"提防"
+		"当心"
+		"你很可能被盯上，小心"
+		"的风险越来越高了"
+		"你多半会遇到"
+		"要当心那些"
+		"你最好避开"
+		"尽量躲开所有"
+		"远离所有那些"
+		"一定要避开"
+		"留意"
+	word
+		" "
+	word
+		"pirates"
+		"pirate fleets"
+		"pirate raiders"
+		"privateers"
+		"pirate raids"
+		"pirate ships"
+		"criminals"
+		"renegades"
+		"thugs"
+		"scam artists"
+		"raiders"
+		"marauders"
+		"looters"
+	word
+		" "
+	word
+		"if you're"
+		"if you ever find yourself"
+		"when you're"
+		"should you ever be"
+	word
+		" "
+	word
+		"flying through"
+		"visiting"
+		"traveling through"
+		"in"
+		"crossing through"
+		"passing through"
+		"exploring"
+		"doing jobs in"
+	word
+		" "
+	word
+		"the far North"
+		"the southern Rim"
+		"the stars closest to the Core"
+		"uninhabited systems"
+		"empty systems"
+		"unsettled systems"
+		"the Dirt Belt"
+		"less wealthy systems"
+		"poorer parts of the galaxy"
+		"the Southern Rim"
+		"the edges of Syndicate space"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"最安全的赚钱方式是"
+		"你可以通过以下方式过上不错的生活"
+		"他们说你可以大赚一笔"
+		"你赚钱会很顺利"
+		"你可以获得稳定的收入"
+		"付账单最好的办法是"
+		"用以下方式增加收入总没坏处"
+		"我发现你可以快速赚大钱"
+		"如果你缺钱花，可以试试"
+	word
+		" "
+	word
+		"finding a trade route that pays well in both directions."
+		"looking for particularly good trade routes."
+		"carrying tourists to and from their destinations."
+		"taking on rush missions."
+		"adding extra bunk rooms to your ship."
+		"upgrading your ship for extra cargo capacity."
+		"taking a bunch of missions to the same region of space."
+		"transporting goods with a ship that has a big cargo hold."
+		"bringing food and equipment to the Paradise Worlds."
+		"selling luxury goods on the Paradise Worlds."
+		"transporting metals to the Southern Rim planets."
+		"selling medical goods in the Southern Rim."
+		"freighting metals across the Deep."
+		"ferrying people with a ship that can accommodate a lot of passengers."
+		"checking what goods you can turn a profit on wherever you're headed next."
+		"escorting the big freighters armed with anti-missile defenses."
+		"disabling small isolated pirate ships and selling their equipment."
+		"capturing small isolated pirate ships and selling them"
+		"looking for jobs in the spaceport." 5
+		"helping out the local government."
+
+phrase "friendly civilian"
+	word
+		"有点危险"
+		"It's risky"
+		"很难"
+		"不太靠谱"
+		"有人说不怎么样"
+		"你会把自己搞死的"
+		"你可能会死"
+		"你可能会惹上麻烦"
+		"别告诉任何人"
+	word
+		", but "
+	word
+		"if I'm low on cash, I"
+		"I like to"
+		"my preferred profit method is to"
+		"我觉得最好的赚钱方法是"
+		"it's quick to make money if you"
+	word
+		" "
+	word
+		"take on bounty jobs"
+		"transport illegal goods"
+		"hunt down pirates"
+		"transport fugitives"
+		"board and capture pirates"
+		"mine asteroids at the edges of human space"
+	word
+		"."
+
+phrase "friendly civilian"
+	word
+		"如果你觉得自己够强"
+		"如果你对自己的驾驶技术有信心"
+		"如果你觉得普通工作太无聊"
+		"如果弱小的海盗对你来说太简单"
+	word
+		" and you want to take the ultimate risk"
+		" and you're not very smart"
+		" and you want to get blown up"
+		" and you want to scare your passengers"
+		" and you want to become the dumbest captain to ever live"
+		" and you want to prove your lack of inferiority"
+		" and you're not interested in living"
+		" and you want to make even more people hate you"
+		" and you want to be the butt of every joke"
+	word
+		"... "
+		", "
+		", you should "
+	word
+		"try blowing up the Navy"
+		"try boarding Navy ships"
+		"try stealing Quarg tech"
+		"threaten planets"
+		"be a pirate in the Paradise worlds"
+		"try fighting the weird ships in Syndicate space"
+		"take many difficult bounties at once"
+		"take many escort jobs at once"
+		"go hang out in pirate space"
+		"fight pirates with only shuttles"
+		"fight pirates with no shields"
+		"mess with the local militias"
+	word
+		"!" 10
+		", haha!"
+		"! But you know better, I bet."
+		"! My friends tried that and I haven't seen them in years!"
+
+phrase "friendly civilian"
+	word
+		"Have you read" 4
+		"你有没有见过"
+		"你有没有听说过"
+	word
+		" the book about "
+		" the written work about "
+		" the writings about "
+		" the novel about "
+		" a piece of speculative fiction about "
+	word
+		"the psychology of the Quarg" 10
+		"the future evolution of the Alphas" 10
+		"alternative evolutions of humanity" 10
+		"aliens who live and think through plants" 3
+		"a society who communicates through song"
+		"intelligent life in the oceans under ice worlds" 8
+		"life inside stars" 5
+		"an automated society with long dead creators"
+		"a violent, dying species forced to live in space"
+		"aliens who communicate by whistling through their skin" 3
+		"an intelligent alien society that evolves by fighting each other" 3
+		"an intelligent semi-hivemind run by the memories of their ancestors" 2
+		"Earth if it was dominated by intelligent insects and arachnids" 2
+		"humans giving sentience to other great apes" 5
+		"the true biology of ancient mythical creatures" 3
+		"a world gaining color"
+		"an alien alliance coming together to defeat their overlords"
+		"life made of silicon" 4
+		"Earth after humans" 6
+		"an interstellar empire hidden by dust"
+		"a hivemind with human thoughts" 2
+		"an intelligent species who inherits a graveyard"
+		"aliens made of crystals forged from the light of a magnetar" 2
+		"a group of salvagers who create art with what little they find"
+		"humans making friends with a living planet"
+		"nearly formless spacefarers caged by the vastness between stars"
+		"human advancement without hyperdrives" 4
+		"broccoli"
+		"a captain who stole a jump drive from the Quarg and traveled the galaxy"
+	word
+		"?" 6
+		"? It's a fascinating read."
+		"? I would highly recommend giving it a read."
+		"? Smart people wrote it, I can say that much."
+
+phrase "friendly civilian"
+	word
+		"我怀疑"
+		"我确信"
+		"People say"
+		"人们说"
+		"They say"
+		"我听到传言说"
+		"如果……我也不会惊讶"
+		"我忍不住觉得"
+		"很有可能"
+		"绝对有可能"
+		"这艘船的船员们早就怀疑"
+		"我很确定"
+		"我认识的所有人都确信"
+		"我的疯叔叔总是唠叨说"
+		"我的疯岳母总是唠叨说"
+		"我前女友不停地抱怨说她觉得"
+		"我前男友不停地抱怨说他觉得"
+		"我前伴侣不停地抱怨说他们觉得"
+		"真不敢相信竟然有人会认为"
+		"得是个十足的傻子才会相信"
+		"我发现自己开始相信"
+		"我跟别人说的时候没人相信我"
+		"I think"
+		"我真的觉得"
+		"我相信"
+		"我真的相信"
+		"我肯定"
+		"所有人都知道"
+		"所有人都知道"
+		"谁都知道"
+		"谁都知道"
+		"我希望更多人意识到"
+		"我希望更多人意识到"
+		"我那个疯狂的堂兄声称"
+		"我最喜欢的笑话之一就是说"
+		"我最喜欢的喜剧段子里有一句"
+	word
+		" "
+	word
+		"the leaders of the Syndicate"
+		"the Quarg"
+		"the politicians"
+		"government officials"
+		"members of Parliament"
+		"the Paradise Worlds"
+		"the rich worlds"
+		"those weird folks from the Deep"
+		"big corporations"
+		"the big corporations"
+		"the Republic's intelligence operatives"
+		"the banks"
+		"the Syndicate worlds"
+		"most planetary governors"
+		"the executives of the Tarazed corporation"
+		"the executives of the Lionheart corporation"
+		"the executives of the Megaparsec corporation"
+		"the executives of the Lovelace corporation"
+	word
+		" "
+	word
+		"don't have our best interests at heart."
+		"have secrets that they aren't telling us."
+		"are keeping secrets from the rest of the galaxy."
+		"are only watching out for their own interests."
+		"don't care about anyone but themselves."
+		"are just using us for their own gain."
+		"are manipulating events in the galaxy."
+		"know things that they are not telling us."
+		"are getting rich off the hard work of everyone else."
+		"are more powerful than they let on."
+		"are aware of more alien species than they publicly admit."
+		"are secretly behind the recent increase in pirate activity."
+		"are deliberately trying to hurt the Dirt Belt planets."
+		"are scared of the truth."
+		"are always lying to us."
+		"are nowhere near as bad as people think."
+		"are actually great!"
+		"are completely trustworthy!"
+		"try to do right by people."
+		"are just doing the best they can."
+		"actually do have our best interests at heart."
+		"are basically honest."
+		"just do their best, for the most part."
+		"are just trying to get along, same as you and me."
+		"are a bunch of big softies deep down inside."
+		"think they know best, but they really don't."
+		"are manipulating commodity prices."
+		"are out to consume the whole galaxy's resources and leave scraps for the rest of us!"
+		"are building a superweapon to destroy us all!"
+		"are secretly being controlled by the Lizard Illuminati!"
+		"are under the control of a hidden race of chipmunk aliens!"
+		"are being controlled by a secretive group of humans who support the Alphas!"
+		"are being influenced by a liberal federation of aliens!"
+		"are doing the bidding of an alien hivemind with yellow blood!"
+		"are actually bird people who hate the environment!"
+		"are trying to make snails with ships as shells!"
+		"get together to play foosball every Thursday on Luna!"
+		"love black, shiny cubes."
+		"do secret deals with pirates."
+		"are aiding the Alphas."
+		"are secretly taking out Alpha enclaves."
+
+phrase "friendly civilian"
+	word
+		"越来越难"
+		"以前更容易"
+		"不应该这么难"
+		"太多人都在挣扎着"
+		"一定有个更简单的方法"
+		"政府的责任就是让人们能够"
+		"议会需要做更多来帮助公民"
+		"必须想办法解决目前难以……的问题"
+		"我几乎放弃了对……的希望"
+		"这种经济形势下几乎不可能"
+		"The government makes it almost impossible to"
+		"似乎没人能够"
+		"我终于能够"
+		"终于，我可以"
+		"如今，没人能"
+		"如今你就是没法"
+		"我希望我能"
+		"我担心我无法"
+		"我不明白为什么人们不能"
+		"有些人似乎就是不能"
+		"比你想的要复杂多了"
+		"即使开局不错，也会变得乏味"
+		"这是件相当无聊的事"
+	word
+		" "
+	word
+		"earn a living"
+		"make a living"
+		"pay off a mortgage"
+		"avoid going into debt"
+		"avoid pirate attacks"
+		"be safe from pirates"
+		"buy a better ship"
+		"own and maintain a starship"
+		"pay for ship upgrades"
+		"travel through the Southern Rim safely"
+		"have a decent shot at a better life"
+		"feel safe"
+		"pay all these taxes"
+		"be an independent merchant"
+		"stay in business as an independent merchant"
+		"live an independent merchant's life"
+		"save any money"
+		"be satisfied with life"
+	word
+		"."
+		"!"
+		
+phrase "friendly civilian"
+	word
+		"I've"
+	word
+		" "
+	word
+		"found"
+		"discovered"
+		"been using"
+		"been plying"
+		"stumbled upon"
+	word
+		" "
+	word
+		"some"
+		"a few"
+		"a couple of"
+		"a couple"
+		"a number of"
+	word
+		" "
+	word
+		""
+		"really "
+		"very "
+		"extremely "
+		"exceptionally "
+	word
+		"interesting"
+		"good"
+		"lucrative"
+		"profitable"
+		"rewarding"
+		"worthwhile"
+	word
+		" "
+	word
+		"trade routes, but I'm not"
+		"trade routes, but there's no way I'm"
+	word
+		" "
+	word
+		"divulging"
+		"revealing"
+		"telling"
+		"disclosing"
+	word
+		" "
+	word
+		"the secrets"
+		"the paths"
+		"them"
+		"'em"
+	word
+		" "
+	word
+		"to you"
+		"to anyone"
+		"to anybody"
+		"to anyone else"
+		"to anybody else"
+		"to another trader"
+		"to my competition"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"我刚搭载了"
+		"我运输了"
+		"我上一个乘客是"
+		"倒霉遇到了"
+	word
+		" "
+	word
+		"a"
+		"some"
+		"this"
+	word
+		" "
+	word
+		"rich kid"
+		"spoiled brat"
+		"salesman"
+		"fancy lady"
+		"old man"
+		"retired cop"
+		"college student"
+	word
+		". "
+	word
+		"他们就是不肯闭嘴，一直在说"
+		"他们不停地谈论"
+		"他们喋喋不休地说着"
+		"他们只会谈论"
+	word
+		" this band"
+		""
+	word
+		" "
+	phrase
+		"band"
+	word
+		". "
+	word
+		"我就是搞不懂"
+		"我对音乐没那么大兴趣"
+		"我更喜欢古典作品"
+		"我不喜欢它们"
+	word
+		", but "
+	word
+		"their latest song wasn't too bad"
+		"我还有点喜欢他们的新歌"
+		"the songs that my passenger played weren't too bad"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"有时候我听到"
+		"我听到传言说"
+		"这是个普遍流传的说法"
+		"I've heard"
+	word
+		" that "
+	word
+		"pirates"
+		"thugs"
+		"smugglers"
+		"thieves"
+	word
+		" sometimes "
+	word
+		"transport"
+		"smuggle"
+		"sell"
+	word
+		" "
+	phrase
+		"contraband"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"前几天"
+		"几周前"
+		"Last week"
+	word
+		" "
+	word
+		"someone" 5
+		"some invertebrate"
+		"some idiot"
+		"some cheapskate" 5
+		"someone very inconsiderate"
+		"a very clueless soul"
+		"some complete dunce"
+		"some goofball"
+		"some incalculable mistake"
+		"an imbecile"
+		"a piano-brained dinosaur"
+		"some off-brand pirate"
+		"a clueless buffoon"
+		"some dumpweasel"
+		"a bag of errors"
+		"some witless intestine"
+		"an inconsiderate protist"
+		"some politician"
+		"an entitled dingbat"
+	word
+		" "
+	word
+		"tried to get me to do"
+		"wanted me to do"
+		"tried to trick me into doing"
+	word
+		" "
+	word
+		"a job that paid only"
+		"a gig for only"
+		"something for just"
+	word
+		" "
+	word
+		"1"
+		"2"
+		"3"
+		"4"
+		"5"
+	word
+		""
+		"00" 2
+		",000" 10
+		",250" 10
+		",500" 10
+		",750" 10
+	word
+		" "
+	word
+		"credits per jump"
+		"credits for every day of travel"
+	word
+		"! "
+		". "
+	word
+		"这快成流行病了。"
+		"现在的人都不愿意按我们的价值给我们报酬。"
+		"那家伙以为我有多蠢？"
+		"哪个白痴会接那种活？"
+		"我后悔自己太客气了。"
+		"显然有人觉得我们会为了曝光度干活。"
+		"更别提这艘船根本不是为这种活设计的。"
+	replace
+		"1 credits" "1 credit"
+
+phrase "friendly civilian"
+	word
+		"别去搞"
+		"别参与"
+		"远离"
+		"当心"
+	word
+		" "
+	word
+		"badly organized races"
+		"inheritance scams"
+		"shady transport jobs"
+		"hitman transports"
+	word
+		"."
+		"!"
+	word
+		" "
+	word
+		"我在一个上面亏了两万信用点。"
+		"我差点在里面送了命。"
+		"海军差点逮捕了我。"
+		"那些东西会毁了你的人生！"
+		"通常都假得离谱。"
+		"他们拿走你的钱，你什么回报也得不到。"
+		"他们唯一给你的就是一条通往来世的捷径！"
+
+phrase "friendly civilian"
+	word
+		"我有货物要送到"
+		"我在找"
+		"我的乘客要去"
+	word
+		" "
+	word
+		"Dune"
+		"Earth"
+		"Foundry"
+		"Glaze"
+		"Moonshake"
+		"Norn"
+		"Skillet"
+	word
+		", but my starmap doesn't list it."
+		"; do you know where I can find it?"
+		"; have you ever heard of it?"
+		"; that planet shouldn't be too far from here."
+		"; which hyperlane should I take to get there?"
+
+phrase "friendly civilian"
+	word
+		"我差点撞上了"
+		"我撞上了"
+		"I found"
+		"我搭载了"
+	word
+		" "
+	word
+		"an antique teapot" 30
+		"a convertible car" 30
+		"some old memory capsule" 30
+		"a manhole cover" 30
+		"a body"
+	word
+		" "
+	word
+		"between Earth and Mars"
+		"around Earth"
+		"around Mars"
+	word
+		"."
+		"!"
+	word
+		""
+		" Can you believe that?"
+		" Do you want to see it?"
+		" It was in an unstable orbit."
+		" Must have been launched in the old days."
+		" Unbelievable what people sent into space back then."
+
+phrase "friendly civilian"
+	word
+		"去瞧瞧"
+		"去找找"
+	word
+		" "
+	word
+		"race"
+		"stunt pilots flying in formation"
+	word
+		" "
+	word
+		"in the Deep"
+		"in Syndicate space"
+		"through the Paradise Worlds"
+	word
+		". "
+		"! "
+	word
+		""
+		"我上个月在那儿。"
+		"下一场活动一定很棒！"
+		"这才是真正的娱乐！"
+		"看起来太壮观了！"
+
+phrase "friendly civilian"
+	word
+		"I"
+		"我和我的朋友"
+	word
+		" "
+	word
+		"had a job"
+		"worked for years"
+	word
+		" "
+	word
+		"creating pixel art"
+		"creating computer games"
+		"creating 3D computer models"
+		"creating websites on the Worlds Wide Web"
+		"cleaning corridors in an university"
+		"delivering furniture to people's houses"
+		"documenting complex processes"
+		"farming in the Dirt Belt"
+		"installing domotics into rich customers houses"
+		"making large amounts of ketchup"
+		"moving furniture from warehouses to shopping centers"
+		"painting car tires black"
+		"packing fast food into boxes"
+		"setting up software integration processes"
+		"spreading news to hundreds of people"
+		"teaching mathematics to high school kids"
+		"bartending"
+		"testing computer fabrication machines"
+		"writing firmware for embedded computer chips"
+		"publishing videos online"
+	word
+		", "
+	word
+		"and look what a nice ship I'm flying now."
+		"and now I'm retired and flying spaceships for fun."
+		"but being a pilot on a spaceship beats it all."
+		"but I still had to take a big loan to buy my first ship."
+		"but it was my grandma's inheritance that allowed me to buy this ship."
+
+phrase "friendly civilian"
+	word
+		"别太挑剔工作。最好是"
+	word
+		" "
+	word
+		"ship crooks, than have a crooked ship."
+		"ship slugs, than have a sluggish ship."
+		"ship bad bands, than have your ship badly banned."
+		"be working hard at shipping, than have your ship hardly working."
+
+phrase "friendly civilian"
+	word
+		"Somebody"
+		"Some nut"
+	word
+		" "
+	word
+		"put"
+		"placed"
+	word
+		" "
+	word
+		"a blue phone booth"
+		"a silver car"
+	word
+		" "
+	word
+		"on my bridge"
+		"in my armory"
+		"in my cargo hold"
+	word
+		" and "
+	word
+		"claimed to be"
+	word
+		" "
+	word
+		"a time traveler"
+		"from another time"
+	word
+		", and suddenly they disappeared."
+		", but the only travel he did was to a mental institution."
+		". I still don't know how she got into my spaceship."
+		". The thing looked bigger on the inside than on the outside."
+
+phrase "friendly civilian"
+	word
+		"I bought "
+	word
+		"a power generator"
+		"explosives"
+		"my new thrusters"
+		"some toothpaste"
+	word
+		" "
+	word
+		"from"
+	word
+		" "
+	word
+		"the ACME company"
+		"the Astronomical Conglomeration of Manufacturing Entities"
+	word
+		", "
+	word
+		"a company many times smaller than the Syndicate."
+		"a minor company, but with much better service than the Syndicate."
+		"a pretty insignificant company located on just one planet."
+		"but next time, I'll buy from the Syndicate again."
+
+phrase "friendly civilian"
+	word
+		"I heard"
+		"我读到一个传言"
+		"我发现"
+		"我学到了"
+		"我信奉的座右铭是"
+		"如果你始终确保"
+		"你应该知道"
+		"你会从经验中学到"
+	word
+		" that if you have "
+		" that if you keep "
+	word
+		"at least ten spare bunks"
+		"space for at least ten passengers"
+		"at least 50 spare tons of cargo space"
+		"enough space for 50 tons of cargo"
+	word
+		" then you'll be ready for anything life throws at you"
+		" then there isn't an odd job from the spaceport that you won't be able to do"
+		" then you might get lucky and have just enough room to help out some celebrities"
+		", you'll have enough extra slack to pick up any job"
+	word
+		"."
+	replace
+		"If you always ensure that if you have" "If you always ensure that you have"
+		"If you always ensure that if you keep" "If you always ensure that you keep"
+
+phrase "friendly civilian"
+	word
+		"有时候好得让人不敢相信。"
+		"不要冒不必要的风险。"
+		"别得罪当局。"
+		"我一直努力做个诚实的船长。"
+		"犯罪终究没有好下场。"
+		"如果你跟不三不四的人来往，就得小心点。"
+		"" 6
+	word
+		"这是事实"
+		"I've heard"
+		"你应该知道"
+		"They say"
+		"It's said"
+		"我从经验中知道"
+		"在星际航道上跑久了你就知道"
+	word
+		" that "
+		", "
+	word
+		"smuggling is a sure way to find yourself behind bars"
+		"even the most powerful warship won't save you from a knife in the back"
+		"nine out of ten pirates die within their first year"
+		"共和国情报局的眼睛无处不在"
+		"the law will always catch up to those who try to bypass it"
+		"just because it's risky doesn't mean it'll pay off"
+		"staying on the right side of the law is the better choice"
+	word
+		"."
+	replace
+		"enough you know," "enough, you know"
+
+phrase "friendly civilian"
+	word
+		"我听说夸格"
+		"据说夸格"
+		"众所周知，夸格"
+		"夸格对他们的技术管得很严。他们"
+		"夸格对他们的技术毫不含糊。他们"
+		"夸格严格监控他们的飞船和设备，而且"
+		"夸格不希望他们的先进技术扩散，而且"
+		"夸格把他们的设备限制在自己的飞船上，而且"
+		"你不想在Enif附近被抓住持有夸格技术。夸格"
+		"你不想在夸格附近被抓住有他们的技术。他们"
+	word
+		" "
+	word
+		"will arrest you if they catch a whiff of any of their equipment on your ship"
+		"will put you behind bars forever if you've got one of their ships or outfits without permission"
+		"won't hesitate to take away your freedom if you've stolen one of their ships"
+		"don't take any chances when it comes to a misplaced ship or outfit of theirs"
+	word
+		"."
+
+phrase "friendly civilian"
+	word
+		"你曾经有没有"
+	word
+		"been down to Enif"
+		"stopped by Tarazed"
+		"gone to Tarazed"
+		"traveled through the Southern Rim"
+	word
+		" and "
+	word
+		"witnessed a Quarg Lindwyrm jump in with one of their jump drives?"
+		"looked over one of the Quarg's sleek Drakes?"
+		"seen a Quarg Wardragon up close?"
+		"seen the Quarg's Skydaggers in action?"
+		"seen how the Quarg decimate pirates with their Skylances?"
+		"seen how powerful those Quarg Skylances are?"
+	word
+		"" 30
+		" I wish the Quarg would share some of their technology with us." 10
+		" I'd love to get my hands on some Quarg tech." 10
+		" What I could do with some of that tech..." 10
+		" Maybe someday we'll reach their level of technology." 10
+		" It's scary how advanced their civilization is." 10
+		" There's no way humanity could stand up to them." 10
+		" I doubt the combined Navy Home Fleet at Sol could match the power of one of those." 10
+		" I'm going to steal one. Wish me luck!"
+
+phrase "friendly civilian"
+	word
+		"那个零重力板球是怎么回事？"
+		"我不懂他们在核心区玩的零重力板球。"
+		"怎么会有人喜欢零重力板球？"
+		"看零重力板球怎么有人能不睡着？"
+	word
+		" I mean, "
+		" Look, "
+		" Like, "
+	word
+		"all they're doing is"
+		"half the time they're just"
+		"they spend a week"
+		"you can't call a sport a sport if you're mostly "
+		"all you're watching is a bunch of guys"
+	word
+		" floating around "
+		" floating aimlessly "
+		" bouncing around a space station "
+	word
+		"trying to catch a ball"
+		"hitting a ball around a space station"
+		"while two of them go back and forth a bunch of times"
+		"and boosting about twenty meters back and forth every now and again"
+		"trying to hit a couple sticks off a few other sticks with a ball"
+	word
+		"!" 6
+		". I just don't get it, man!"
+		". It makes no sense!"
+		". Don't get me started on the rules!"
+		". Innings, outings, overs, it's ridiculous!"
+		". Who's in and who's out? They never tell you!"
+		". It's too bloody convoluted, the way people go in and out all the time!"
+		". It sounds like a sport only aliens would play!"
+		". Couldn't they speed it up a bit?"
+		". How do they make a game out of that?"
+		". And all they're playing for is a bunch of old burnt wood!"
+		`. And they're always up in arms about whether "underarm bowling" is legal!`
+		". Zero-g lacrosse makes a lot more sense!"
+	replace
+		"around a space station hitting a ball around a space station" "around hitting a ball around a space station"
+
+phrase "friendly civilian"
+	word
+		"我开始喜欢零重力板球了"
+		"我爱看零重力板球"
+		"没有比零重力板球更好的运动了"
+	word
+		". That adrenaline you get when the bowler boosts down the sphere to throw the ball"
+		". The exhilaration you feel when the batsman hits a perfect six"
+		". The way bowlers can control the ball to fool the batsman"
+		". That feeling you get when a fielder catches the batsman out with a well-timed boost"
+	word
+		" and the way the crowd roars as it happens"
+		", the crowd going wild"
+		", and the release you feel as you see the ball getting knocked right out of the sphere"
+		", how each test is full of tension and fortunes that are decided by each bowl and hit"
+		"" 6
+	word
+		"; there's nothing like it in the galaxy."
+		"; I don't get the hate for it."
+		"; every living being, intelligent or not, should know about zero-g cricket."
+		"... there are some truly phenomenal players out there."
+		"... it's an amazing sport."
+		"... it's like chess played in space."
+		"..." 3
+
+phrase "friendly civilian"
+	word
+		"如果你有机会，你应该"
+		"我死之前想做的一件事是"
+		"死之前，你一定要"
+		"下一趟旅行，我打算"
+	word
+		" "
+	word
+		"see the Quarg ringworld in Enif. Isn't it amazing what they can do and we can't?"
+		"see the Quarg ringworld down south. It's such a magnificent feat of engineering"
+		"see the dragons of Skymoot"
+		"ski the slopes on Vail"
+		"go to Vail and do some skiing"
+		"go to Vail for a hoverboard course"
+		"go to New Switzerland. The slopes are much better there than Vail"
+		"go skiing on Antipode. It's not as busy as those overpriced resorts in Vail, not to mention cheaper"
+		"do some extreme rock climbing on Maelstrom"
+		"see the ancient cities of old Earth"
+		"tour through the megacities of Earth"
+		"see where our ancestors came from on old Earth"
+		"do a jungle trek through Amazon"
+		"tour the continents of Pearl and experience the biospheres of a hundred different planets"
+		"meet some of the Quarg around Tarazed"
+		"visit Luna and its enormous shipyard"
+		"see where Neil Armstrong, one of the first men to leave Earth, stepped foot on Luna"
+		"see the Plot Memorial on Chiron and take a look at the first hyperdrive ever made"
+		"watch the hovercraft races on Sunracer"
+		"relax at the hot springs on Calda"
+		"take a boat up the fjords of Flood"
+		"visit one of the pirate worlds, like Greenrock or Freedom, and experience life the way anarchists do it"
+	word
+		"."
+	replace
+		"?." "?"
+
+phrase "friendly civilian"
+	word
+		"我年轻的时候"
+		"我小的时候"
+		"我像你这么大的时候"
+		"Long ago"
+		"高中的时候"
+		"很久以前"
+	word
+		", "
+	word
+		"我曾梦想"
+		"我曾希望"
+		"我曾梦想"
+		"I fancied"
+		"我曾想过"
+	word
+		" "
+	word
+		"flying"
+		"owning"
+		"piloting"
+		"captaining"
+		"commanding"
+	word
+		" "
+	word
+		"an Auxiliary. Too bad only the Navy can use those."
+		"a Bactrian, but the Deep's government won't allow me to purchase one."
+		"a Leviathan. The maintenance costs though? I'm not so sure anymore."
+		"a Bulk Freighter. They may be slow, but they're worth their weight in gold."
+		"a Protector. Sure, it's an ugly ship, but the firepower?"
+		"a Shuttle. A lot has changed since then!"
+		"a Flivver. Now, I could buy ten."
+		"an Osprey. I still can't afford one."
+		"a Corvette. Look how sleek they are!"
+		"a Sparrow. My parents talked me out of it, though."
+		"a Star Queen. It's just too bad its crew quarters aren't as good as its passenger bunks, though."
+		"a Scout. Something about exploring the fringes of human space still appeals to me."
+
+phrase "friendly civilian"
+	word
+		"我出生在"
+		"我来自"
+		"在买第一艘船之前，我住在"
+		"我来自"
+		"我是本地人，来自"
+		"我的母星是"
+		"I'm from"
+		"我在……长大"
+		"我的童年是在……度过的"
+		"我大部分人生都在"
+		"我以前住在"
+	word
+		" "
+	word
+		"新撒哈拉。很少遇到那里来的人。"
+		"希望。要不是海军，我现在还是那里的一根人肉冰棍。"
+		"地球。我幸运地逃出了那个垃圾堆。"
+		"地球。它也许是人类的发源地，但这不代表它是个宜居的好地方。"
+		"地球。它也许是共和国的首都，但不适合我。"
+		"地球。不管你怎么听说，那里还是有一些乡村的。"
+		"地球。你要是从我旧公寓的窗户往外看，根本看不到底。"
+		"Chiron，银河系人口最多的星球之一。你看看我现在！"
+		"Chiron。那是人类殖民的第一颗系外行星。"
+		"Chiron。我在大学混不下去，所以改行开飞船了。"
+		"Chiron。我们有银河系最好的大学！"
+		"Moonshake。我以前是个工厂工人，但省吃俭用攒够了钱贷款买了艘小飞船。"
+		"Valhalla。我每年还回去一次探亲。那地方还不错。"
+		"Midgard，我从矿井一路奋斗到了星辰大海。"
+		"Hephaesteus。我在辛迪加干过一阵子，信不信由你。"
+		"Hephaesteus。我真不知道在那么多污染之下人们还怎么住下去。"
+		"Foundry。我十五岁之前就会开星际飞船了。"
+		"Millrace。那里的生活糟透了，但至少工资够高，我没必要待太久。"
+		"新中华。每次回去，我都先把货舱塞满食物。那里的人总是需要。"
+		"Bivrost。我在Rainbridge郊外有个房子。"
+		"Solace。我父亲是个火箭科学家，但我这辈子想做点更有意义的事。"
+		"Asgard。也许我过得很安逸，但我还是把大部分收入都投资了。"
+		"Reunion。我本来有个农场，后来卖了换来了这个美人儿。"
+		"新不列颠。我在鸟儿中间长大，一直梦想像它们一样飞翔。"
+		"Bourne，但现在那里已经没什么值得我留恋的了。"
+		"Prime。那是你能到达的离太阳最远但又还算文明的地方。"
+		"Prime。我父母都是Betelgeuse造船厂的工程师，所以我从小就对星际飞船了如指掌。"
+		"Maker。我在矿井里干了十年，换来了一艘星际飞船。"
+		"Sunracer。我曾经连续三年是学校气垫船赛车冠军。"
+		"火星。有时候在两站之间跑得太累了，我真希望自己还住在那里。"
+		"Haze。对我来说，其他星球闻起来总觉得怪怪的。"
+		"Tinker，但我不是干制造活的料。"
+		"Burden。大家都笑话我的身高，但没人敢拿我的肌肉开玩笑。"
+		"Follower。他们总爱吹那里的改造工程多伟大，可我的城市在一场灾难中毁于一旦。"
+		"Skymoot。你可能觉得龙很烦人，但住在那里的人大多数实际上在另一个大陆上。"
+		"the Moon. I used to work at the Tycho shipyards, but now I'm flying in this ship."
+		"Thule。不过飞了这么多年，你能听出我的口音已经变了。"
+		"Longjump。只要有机会，我每年八月都会回去参加Han Sizer月。"
+		"新格陵兰。没有别人想的那么冷。"
+		"Relic。我第一次看到巡洋舰的时候，就知道自己想当星际飞船飞行员。"
+		"香格里拉。我们家本来过得很好，直到海盗来洗劫了这颗星球。"
+		"Zug。我以前常常在门廊上看民兵飞船和海盗船在天上打仗。"
+		"新荷兰。不过那里太无聊了，所以我来星际间飞翔。"
+		"Bounty。当制造业开始在那里发展的时候，我买了第一艘船。"
+		
+phrase "pyramid scheme company"
+	word
+		"Magellan"
+		"Dehydrated"
+		"Pontificated"
+		"General"
+		"Sacrosanct"
+		"Liberated"
+		"Literal"
+		"Family"
+		"Hyper-real"
+		"Alkaline"
+	word
+		" "
+	word
+		"Dynamix"
+		"Unlimited"
+		"Orbital"
+		"Gigalight"
+		"Traders"
+		"Voidcraft"
+		"Whispers"
+
+phrase "friendly civilian"
+	word
+		"嗨！很高兴看到你，呃，"
+		"哟，这不是"
+		"你好，嗯，"
+		"我一直想联系你，"
+	word
+		" Captain <last>. "
+	word
+		"我实现了梦想，当上了自己公司的CEO。"
+		"我以前和你一样，但现在我已经是个大人物了！"
+		"你不想自己当老板吗？"
+		"人人都在谈论这个新潮流！"
+	word
+		" "
+	word
+		"帮我卖东西你可以发大财！"
+		"抓住先机！"
+		"我们马上就要火爆了，趁还能加入赶紧报名！"
+	word
+		" "
+	word
+		"Find me"
+		"你可以联系我"
+		"Call me"
+		"给我写信"
+		"Buzz me"
+	word
+		" at ${pyramid scheme company}. "
+	word
+		"找${human names} ${family names}就行。"
+		"就说是${human names} ${family names}让你来的。"
+		"提我的名字，${human names} ${family names}，首单有折扣！"
+
+phrase "friendly civilian"
+	word
+		"我只求有一天别遇到"
+		"我刚买了这艘船，它就已经有"
+		"我的船保修期一周前刚过，你猜怎么着，我就发现了"
+	word
+		" "
+	word
+		"a fuel leak!"
+		"a loose coupling!"
+		"a fault in my nav-array!"
+		"a cascading failure in the power supply!"
+		"a severe oxygen leak!"
+		"an engine overheating!"
+		"unsynchronized repulsors!"
+		"a parasitic shield discharge!"
+		"a leaky fuel cell!"
+	word
+		" "
+	word
+		"The maintenance on this old bucket will cripple me." 8
+		"It's just one thing after another on these old ships." 8
+		"I wouldn't complain, but today is my birthday!" 4
+		"And it's not as though parts are cheap these days." 6
+		"It could be worse, I suppose. I could fly into a black hole." 6
+		"It's not like the customers even care, they just want their cargo yesterday." 5
+		"What else can you expect from shoddy Syndicated Systems manufacturing?" 5
+		"I'd repair it, but I got to pay my mortgage." 10
+		"Do you know where I could fix it for good?" 10
+		"I'd love to know how other captains get by without these problems." 4
+		"我要让辛迪加好好记住我……"
+		
+phrase "friendly civilian"
+	word
+		`I just found out that a "duck" is a type of bird from Earth! Now I wonder why "duck tape" is named after it?` 10
+		`Apparently they want me to pay 5% of my paycheck for union dues! I'm gonna keep it. My boss is a good guy; he'll look out for me.` 10
+		`I saved up and bought extra bunk space so my wife could come on trips with me, and now she says "we need to talk." That can't be a good sign, can it?` 10
+		`I bumped into some nasty pirates last week. I had to dump my cargo to get away, and my insurance is not paying me back.` 10
+		`If you are in a tight spot with some pirates, just throw everything out the airlock. They will be busy scavenging it, and you will be out of reach when they inevitably come back.` 10
+		`When I was hauling food in the South I ran into pirates every damn week. Half the time I had to bribe them with my salary or with a part of my freight.` 10
+		`My friend was boarded by pirates and they took his engines. It would have been cheaper to just let them have the cargo.` 10
+		`You can often distract pirates with some cargo until the Navy rescues you. My old captain taught me this trick when we were ferrying in the Far North.` 10
+		`Pirates will always try to take your cargo, but if you drop some scrap their way, they let you keep the real valuables.` 10
+		`Whenever I see pirates, I immediately dump my freight. They would get it either way, but at least this lets me get away.` 10
+		"Ey Comrade, your ship has loaded on a planet? I have loaded a planet onto my ship." 5
+		"Ey Comrade, you have cargo in your ship? I have ships in my cargo." 5
+		"Ey Comrade, you have fighters in your bays? We have bays in our fighters." 5
+		"Ey Comrade, you have warships that fire missiles? We have missiles that fire warships." 5
+		"Ey Comrade, your ship has just fled from pirates? I have pirates who flee from me." 5
+		"有人想赖账不给我应得的报酬。可以放心的是，他们再也付不了任何人钱了，哈哈！"
+
+phrase "friendly civilian"
+	word
+		"如果你想"
+		"To "
+	word
+		"make"
+		"turn"
+		"earn"
+		"get"
+	word
+		" "
+	word
+		"a profit"
+		"some credits"
+		"good money"
+		"a good turnover"
+		"a living"
+	word
+		" "
+	word
+		"while mining"
+		"as an asteroid miner"
+		"mining asteroids"
+		"in the asteroid mining business"
+	word
+		", "
+	phrase
+		"miner advice: outfit"
+		"miner advice: mineral"
+		"miner advice: ship"
+		"miner advice: other"
+	word
+		"." 3
+		"!"
+	replace
+		"turn some" "turn over some"
+		"turn good" "turn over good"
+		"turn a good turnover" "make a good turnover"
+		"get a living" "make a living"
+		"turn a living" "make a living"
+
+phrase "miner advice: outfit"
+	word
+		"you need"
+		"it's a good idea to invest in"
+		"you should get"
+		"it's sensible to get"
+		"get"
+		"take out a loan to buy"
+		"go to an outfitter and invest in"
+		"you can't go wrong with"
+		"the best thing to do is to install"
+	word
+		" some "
+		" a good set of "
+	word
+		"asteroid scanners so you can detect and target asteroids more easily"
+		"asteroid scanners. They make it much easier to target asteroids"
+		"asteroid scanners. You won't regret the purchase"
+		"asteroid scanners. If you don't know your way around asteroids, these will highlight and analyze their mineral composition"
+		"asteroid scanners" 4
+		"mining lasers. They're faster for mining than other lasers"
+		"mining lasers. They're specially designed to break apart asteroids rapidly"
+		"mining lasers. They yield you more minerals per asteroid"
+		"mining lasers. Your mineral yield will go up noticeably with a few of those"
+		"mining lasers. They're more precise than other lasers and preserve more minerals when the asteroid breaks up"
+		"mining lasers so you can finish your mining run before the pirates get to you"
+		"mining lasers" 5
+		"heavy lasers. Their high range makes it easier to destroy asteroids, and you can also use them to scare off pirates"
+		"heavy lasers. Because they have a greater damage output, they're faster at destroying asteroids"
+		"heavy lasers" 2
+		"tractor beams so pirates and rival miners can't steal your hard-earned ore"
+		"tractor beams. It makes ore collection just that little bit easier"
+		"tractor beams so picking up ore takes less effort"
+		"tractor beams" 3
+
+phrase "miner advice: mineral"
+	word
+		"you've got to "
+		"you need to look around and "
+		"you have to "
+		""
+	word
+		"mine "
+		"target "
+		"go for "
+		"find systems with "
+		"look for "
+	word
+		"the most valuable minerals"
+		"the most valuable asteroids"
+		"rare asteroids"
+		"uranium"
+		"platinum"
+		"gold"
+		"silver"
+		"tungsten"
+		"neodymium"
+		"uranium asteroids"
+		"platinum asteroids"
+		"gold asteroids"
+		"silver asteroids"
+		"tungsten asteroids"
+		"neodymium asteroids"
+		"minerals like uranium"
+		"minerals like platinum"
+		"minerals like gold"
+		"minerals like silver"
+		"minerals like tungsten"
+		"minerals like neodymium"
+
+phrase "miner advice: mineral"
+	word
+		"you've got to "
+		"you should "
+		"you should learn to "
+		"you're better off to "
+		"it's best to "
+		""
+	word
+		"avoid mining "
+		"avoid picking up "
+		"avoid harvesting "
+		"avoid "
+		"dump "
+		"jettison "
+	word
+		"silicon"
+		"iron"
+		"lead"
+		"aluminum"
+		"silicon ore"
+		"iron ore"
+		"lead ore"
+		"aluminum ore"
+		"minerals like silicon"
+		"minerals like iron"
+		"minerals like lead"
+		"minerals like aluminum"
+		"ore like silicon"
+		"ore like iron"
+		"ore like lead"
+		"ore like aluminum"
+	word
+		" and mine other asteroids"
+		" and find more valuable minerals"
+		" so you have space for more profitable minerals"
+		" because they don't sell for very much"
+
+phrase "miner advice: ship"
+	word
+		"you'll want to"
+		"it's a good idea to"
+		"it's advisable to"
+		"the best thing you can do is"
+	word
+		" "
+	word
+		"expand your fleet with"
+		"purchase"
+		"take out a mortgage for"
+		"buy"
+		"go to the shipyard and get"
+		"get"
+	word
+		" a "
+	word
+		"specialized mining ship like a Sunder"
+		"ship fit for mining, like a Sunder"
+		"Syndicate Sunder"
+		"Sunder和两艘采矿无人机"
+		"Sunder采矿船"
+		"good mining ship, like a Sunder"
+		"versatile ship like a Headhunter"
+		"multi-purpose ship like a Headhunter"
+		"carrier like an Aerie. You can use the fighters to mine for you"
+		"nice sturdy ship like a Scout. You can fly it to the back of beyond, then fill its cargo bay with your haul"
+		"ship with a large cargo hold"
+		"good freighter that can fit mining laser turrets"
+		"ship that can defend itself from pirates"
+		"powerful escort ship that can scare off pirates"
+		"ship that can fit loads of mining lasers"
+		"满载采矿激光炮塔的Behemoth"
+
+phrase "miner advice: other"
+	word
+		"you should stick to patrolled systems so the pirates don't blow you up"
+		"you should stick to patrolled systems so you won't get extorted by pirates"
+		"you should avoid patrolled systems as they don't tend to have rare minerals"
+		"you should learn to recognize what asteroids are worthless or valuable"
+		"keep in mind that mining in systems frequented by pirates may be risky, but they often have good minerals"
+		"consider bribing pirates to leave you alone in systems with valuable asteroids"
+
+phrase "friendly civilian"
+	word
+		"我想提高驾驶技术又不想太冒险，所以一直在采矿。"
+		"采矿是提高驾驶技术的好方法。"
+		"对于刚开Sparrow的新飞行员来说，采矿是唯一安全的职业选择。"
+		"小行星矿工应该得到其他船长的更多认可。打碎小行星费不少劲，把它们捞进货舱也一样费劲。"
+		"我受够了别的船在我还没来得及捡之前就偷走我采的矿物。"
+
+phrase "friendly civilian"
+	word
+		"我觉得%"
+		"Often, %"
+		"虽然困难，但%"
+		"看起来很难，但%"
+		""
+	word
+		"Mining"
+		"Harvesting"
+	word
+		" asteroids "
+	word
+		"can be "
+		"is "
+	word
+		"surprisingly "
+		"quite "
+		"very "
+	word
+		"profitable"
+		"fun"
+		"relaxing"
+		"worthwhile"
+		"meditative"
+	word
+		" and "
+	word
+		"profitable"
+		"fun"
+		"relaxing"
+		"worthwhile"
+		"meditative"
+	word
+		"."
+	replace
+		"%M" "m"
+		"%H" "h"
+		"profitable and profitable" "profitable"
+		"fun and fun" "fun"
+		"relaxing and relaxing" "relaxing"
+		"worthwhile and worthwhile" "worthwhile"
+		"meditative and meditative" "meditative"
+
+phrase "friendly civilian"
+	word
+		"越来越难了"
+		"以前容易多了"
+		"真希望更容易些"
+		"以前相当容易"
+		"以前对船长们来说更容易"
+	word
+		" to work as "
+		" to be "
+	word
+		"an asteroid miner"
+		"a miner"
+		"an independent miner"
+	word
+		"."
+		"..."
+	word
+		"" 3
+		" Pirate extortion fees are becoming just another business expense."
+		" I've had to jettison my cargo hold of my hard earned ore to pirates a few times now."
+		" I feel like all the taxes I pay when I sell my minerals goes to protecting the Paradise Worlds, and not for people like me who risk their lives against the pirates to get these minerals."
+		" These new Syndicate models of the Sunder just don't cut it compared to the old models, but it's impossible to find the parts to repair them."
+
+phrase "friendly civilian"
+	word
+		"从未如此容易"
+		"相当容易"
+		"从未如此有利可图"
+		"现在正是时候"
+	word
+		" to work as "
+		" to be "
+	word
+		"an asteroid miner"
+		"a miner"
+		"an independent miner"
+	word
+		"."
+		"!"
+	word
+		"" 3
+		" As long as you stick to secure systems, you can still turn a profit without risking your life."
+		" With mining lasers and asteroid scanners, mining has become more accessible than ever."
+		" Those Syndicate Sunders make asteroid mining a piece of cake."
+		" Mining lasers have revolutionized the industry."
+		" It's no longer necessary to chase after asteroids when you can just send your mining drones after them."
+		" I can just sit back while my mining drones do the mining for me."
+		" I don't have to play chicken with my minerals when I have a tractor beam."
+
+phrase "friendly civilian"
+	word
+		"我只"
+		"我的策略是只"
+		"当我……的时候总能赚大钱"
+		"你只有在……时才能赚钱"
+		"如果你想最大化利润，就要"
+		"当你成为更有经验的小行星矿工后，你就会知道只"
+		"有经验的小行星矿工只会"
+	word
+		" "
+	word
+		"mine"
+		"go on mining runs for"
+	word
+		" asteroids like "
+		" the good stuff, like "
+		" in systems with "
+		" in a system with "
+		" in systems with rare minerals, like "
+		" "
+	word
+		"gold"
+		"silver"
+		"tungsten"
+		"platinum"
+		"uranium"
+		"neodymium"
+	word
+		" and "
+		" or "
+	word
+		"gold"
+		"silver"
+		"tungsten"
+		"platinum"
+		"uranium"
+		"neodymium"
+	word
+		"."
+	replace
+		"for in" "in"
+		"gold and gold" "gold"
+		"gold or gold" "gold"
+		"silver and silver" "silver"
+		"silver or silver" "silver"
+		"tungsten and tungsten" "tungsten"
+		"tungsten or tungsten" "tungsten"
+		"platinum and platinum" "platinum"
+		"platinum or platinum" "platinum"
+		"uranium and uranium" "uranium"
+		"uranium or uranium" "uranium"
+		"neodymium and neodymium" "neodymium"
+		"neodymium or neodymium" "neodymium"
+
+phrase "friendly civilian"
+	word
+		"小心"
+		"警告："
+		"提防"
+		"别相信"
+	word
+		" those space casinos. I blew "
+	word
+		"half a"
+		"a"
+		"two"
+		"three"
+		"four"
+		"five"
+	word
+		" million credits on "
+	word
+		"Ada"
+		"Calda"
+		"Farseer"
+		"Geminus"
+		"Glory"
+		"Hestia"
+		"Mainsail"
+		"Martini"
+		"Pearl"
+		"Vail"
+		"Vinci"
+	word
+		" playing "
+	word
+		"blackjack."
+		"poker."
+		"backgammon."
+		"baccarat."
+		"roulette."
+
+phrase "friendly civilian"
+	word
+		"你看过最新一期的"
+	word
+		"Captain's Weekly"
+		"Cosmic Chronicles"
+		"Daring Discoveries"
+		"Norn Nebula News"
+		"Rim Reads"
+		"《南缘太空新闻》"
+		"《星辰与星舰》"
+		"Stellar News Magazine"
+		"Sunracer Stellar Spectacles"
+		"Tarazed Today"
+		"the Clove"
+		"the Farseer Times"
+		"the Galactic Gazette"
+		"the New Moonshake"
+		"the Republic Times"
+		"the Satellite Sentinel"
+		"the Stars"
+		"《言语之战》"
+		"Yearly Universal News"
+	word
+		"? "
+	word
+		"It says"
+		"It claims"
+	word
+		" that "
+		" "
+	word
+		"pulse showers are good for your quantum pores"
+		"exposing yourself to neodymium increases your risk of spacepox"
+		"shoddily grown ion algae exhausts your psychic karma"
+		"laser acupuncture lets you communicate with nebula ghosts"
+		"star crystals bring luck to long distance relationships"
+		"consuming moon dust accelerates hair growth but causes lunacy"
+		"excessive exposure to zero gravity can lead to phantom limb syndrome"
+		"alien prosthetics often come with unexpected telepathic abilities"
+		"stardate tattoos increase your chances of alien abduction"
+		"rooms with lead paint relieve brain fog"
+		"地球上的古城其实是夸格人建造的"
+		"the galaxy is round"
+		"人马座A*是通往另一个宇宙的传送门"
+		"zircon crystals can create life"
+		"议会里藏着一个秘密糖果柜"
+		"a secret Alpha Empire is on the other side of the galaxy"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"我不是武器专家，但用起来确实更爽："
+	word
+		"Energy Blasters"
+		"Particle Cannons"
+		"Plasma Cannons"
+		"Proton Guns"
+	word
+		" than "
+	word
+		"Beam Lasers." 75
+		"Heavy Lasers." 75
+		"my crew."
+
+phrase "friendly civilian"
+	word
+		"我真不该卖掉我的旧船。那只是一艘"
+	word
+		"Shuttle"
+		"Star Barge"
+		"Sparrow"
+		"Heavy Shuttle"
+		"Freighter"
+		"Fury"
+	word
+		" but it never had "
+	word
+		"stalling engines." 20
+		"unstable shielding." 20
+		"overheating fuel cells." 20
+		"a glitchy HUD." 20
+		"faulty ship detection." 20
+		"an airlock with a mind of its own." 4
+		"unremovable bloodstains."
+
+phrase "friendly civilian"
+	word
+		"刚清理完货舱"
+		"货舱收拾得一尘不染"
+		"刚擦洗完货舱"
+	word
+		". The "
+	word
+		"freshener"
+		"perfume"
+		"spray"
+		"fragrance"
+	word
+		" I used makes it smell like "
+	word
+		"strawberries"
+		"bananas"
+		"peaches"
+		"plums"
+		"roses"
+		"lilies"
+		"jasmine"
+		"lavender"
+		"heaven"
+		"pure bliss"
+	word
+		"."
+		"!"
+
+phrase "friendly civilian"
+	word
+		"你看过那部全息电影吗，就是"
+	word
+		"good guy"
+		"hero"
+		"bad guy"
+		"villain"
+	word
+		" "
+	word
+		"mounts overcharged Twin Blasters on a modded Argosy"
+		"shoots up a security station with dual laser pistols"
+		"dodges Quad Blaster Turrets in a stolen Flivver"
+	word
+		"? So cool."
+
+phrase "friendly civilian"
+	word
+		"说实话，我在考虑加入海军"
+		"讲真的，我打算加入海军"
+		"我要去报名参军"
+	word
+		" "
+	word
+		"because of their dental insurance"
+		"since they'll cover my tuition"
+		"to see if I can get my hands on one of their warships"
+		"because they offer childcare assistance"
+		"because then people will show me some respect"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"The Navy"
+	word
+		" is here to"
+		" is always ready to"
+		" is always here to"
+		" will never hesitate to"
+		" will always be here to"
+		" will always"
+		"'s duty is to"
+	word
+		" "
+	word
+		"protect"
+		"defend"
+		"safeguard"
+		"guard"
+		"keep you safe"
+	word
+		" "
+	word
+		"and"
+	word
+		" "
+	word
+		"serve"
+		"assist"
+		"help"
+		"aid"
+		"support"
+	word
+		" "
+	word
+		"you."
+
+phrase "friendly navy"
+	word
+		"Join"
+		"Enlist in"
+	word
+		" the Navy. "
+	word
+		"See"
+		"Tour"
+		"Explore"
+		"Defend"
+		"Protect"
+		"Travel"
+		"View"
+	word
+		" "
+	word
+		"the galaxy"
+		"the Republic"
+		"the Paradise Worlds"
+		"the Core"
+		"the Rim"
+		"the South"
+		"the Dirt Belt"
+		"the Deep"
+	word
+		"!"
+
+phrase "friendly navy"
+	word
+		"Join"
+		"Enlist in "
+	word
+		" "
+	word
+		"the Navy,"
+	word
+		" the "
+	word
+		"largest"
+		"greatest"
+		"most prestigious"
+		"most worthwhile"
+		"most rewarding"
+	word
+		" "
+	word
+		"humanitarian"
+		"peacekeeping"
+		"defense"
+		"civil service"
+		"volunteer"
+	word
+		" "
+	word
+		"organization"
+		"force"
+	word
+		" "
+	word
+		"in the galaxy"
+		"in the Republic"
+	word
+		"!"
+		
+phrase "friendly navy"
+	word
+		"Dying"
+		"受伤了"
+		"挨了一击"
+		"Injury"
+		"负伤了"
+	word
+		" "
+	word
+		"during"
+		"in"
+	word
+		" "
+	word
+		"a conflict"
+		"an engagement"
+		"battle"
+		"combat"
+	word
+		" is "
+	word
+		"heroic"
+		"noble"
+		"honorable"
+		"respectable"
+		"admirable"
+		"commendable"
+	word
+		", "
+	word
+		"if such action helps to"
+		"if it helps us to"
+		"if that sacrifice helps us to"
+		"when it helps your brothers and sisters in arms to"
+		"when it helps us to"
+		"when we are able to"
+		"when that sacrifice helps us to"
+		"but only when it helps us to"
+		"but only if it helps the Navy to"
+		"but that is for nought if it does not help us to"
+		"but that sacrifice is wasted if it does not help to"
+		"but that sacrifice has greater meaning when it helps us to"
+	word
+		" "
+	word
+		"imprison"
+		"eliminate"
+		"expel"
+		"fend off"
+		"drive back"
+		"defeat"
+	word
+		" "
+	word
+		"pirates"
+		"warlords"
+		"marauders"
+		"criminals"
+		"terrorists"
+		"insurrectionists"
+		"our enemies"
+		"our foes"
+		"enemies of freedom"
+		"enemies of liberty"
+		"enemies of democracy"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"感激"
+		"感谢"
+		"Thank"
+	word
+		" "
+	word
+		"the Republic for"
+		"the Navy for"
+	word
+		" " 6
+		" providing "
+		" ensuring "
+		" giving you "
+		" giving us "
+		" giving humanity "
+		" giving mankind "
+	word
+		"three centuries"
+		"three hundred years"
+		"ten generations"
+	word
+		" of "
+	word
+		"freedom"
+		"liberty"
+		"democracy"
+		"protection"
+		"prosperity"
+		"security"
+		"guardianship"
+		"plenty"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"The Republic"
+		"The Navy"
+	word
+		" has "
+	phrase
+		"navy protection hail"
+	word
+		" for "
+	word
+		"three centuries"
+		"three hundred years"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"For "
+	word
+		"three centuries"
+		"three hundred years"
+	word
+		", "
+	word
+		"the Republic"
+		"the Navy"
+	word
+		" has "
+	phrase
+		"navy protection hail"
+	word
+		"."
+
+phrase "navy protection hail"
+	word
+		"protected"
+		"guarded"
+		"defended"
+	word
+		" "
+	word
+		"these skies"
+		"our galaxy"
+		"the Deep"
+		"the Rim"
+		"the South"
+		"the Core"
+		"the Dirt Belt"
+		"the Far North"
+		"the Paradise Worlds"
+		"the Near Earth sector"
+		"you"
+		"mankind"
+		"humanity"
+		"merchant ships"
+	word
+		"" 5
+		" from piracy"
+		" from pirates"
+		" from marauders"
+		" from disorder"
+		" from instability"
+		" from anarchism"
+		" from insurrection"
+		" from those who threaten freedom"
+		" from those who threaten liberty"
+		" from those who threaten democracy"
+
+phrase "navy protection hail"
+	word
+		"protected"
+		"defended"
+	word
+		" "
+	word
+		"these skies"
+		"our galaxy"
+		"the Deep"
+		"the Rim"
+		"the South"
+		"the Core"
+		"the Dirt Belt"
+		"the Far North"
+		"the Paradise Worlds"
+		"the Near Earth sector"
+	word
+		" from "
+	word
+		"piracy"
+		"crime"
+		"instability"
+		"chaos"
+		"conflict"
+		"autocracy"
+		"authoritarianism"
+		"regionalism"
+	word
+		" and "
+	word
+		"division"
+		"disunity"
+		"disorder"
+		"disarray"
+		"discord"
+		"destruction"
+		"devastation"
+		"turmoil"
+		"oppression"
+		"insurrection"
+		"civil war"
+		"fragmentation"
+		"anarchism"
+
+phrase "navy protection hail"
+	word
+		"patrolled"
+		"policed"
+		"defended"
+		"guarded"
+		"protected"
+		"watched over"
+		"maintained the peace in"
+	word
+		" "
+	word
+		"these skies"
+		"our galaxy"
+		"the Deep"
+		"the Rim"
+		"the South"
+		"the Core"
+		"the Dirt Belt"
+		"the Far North"
+		"the Paradise Worlds"
+		"the Near Earth sector"
+
+phrase "navy protection hail"
+	word
+		"promoted"
+		"encouraged"
+		"advanced"
+		"given you"
+		"given humanity"
+		"striven for"
+	word
+		" "
+	word
+		"equality"
+		"freedom"
+		"unity"
+		"harmony"
+		"security"
+		"peace"
+	word
+		"" 6
+		" and order"
+		" and justice"
+		" and concord"
+		" and safety"
+		" and liberty"
+		" and hope"
+
+phrase "friendly navy"
+	word
+		"If you "
+	word
+		"want"
+		"wish"
+		"desire"
+		"aspire"
+	word
+		" to "
+	phrase
+		"navy purpose a"
+		"navy purpose b" 4
+	word
+		", "
+	word
+		"join the Navy!"
+		"enlist in the Navy!"
+
+phrase "friendly navy"
+	word
+		"Do you "
+	word
+		"want"
+		"desire"
+		"aspire"
+	word
+		" to "
+	phrase
+		"navy purpose a"
+		"navy purpose b" 4
+	word
+		"? "
+	word
+		"加入海军吧！"
+		"来参军吧！"
+
+phrase "friendly navy"
+	word
+		"海军在此"
+		"海军的存在"
+		"海军的职责是"
+		"海军的使命是"
+		"我们在此"
+		"We exist"
+		"我们在巡逻这片星空"
+		"我们在维持这片星域的秩序"
+		"我们的职责是"
+		"我们的使命是"
+	word
+		" to "
+	phrase
+		"navy purpose b"
+	word
+		"."
+	word
+		"" 5
+		" Your cooperation is greatly valued."
+		" We thank you for your cooperation."
+		" We appreciate your compliance."
+		" Be thankful for our protection."
+		" Be grateful for our protection."
+		" Be thankful for our sacrifice."
+		" Be grateful for our sacrifice."
+		" Remember that our sacrifice is for your sake."
+
+phrase "navy purpose a"
+	word
+		"distinguish yourself"
+		"prove yourself"
+		"prove your piloting skills"
+		"prove your worth as a captain"
+		"contribute to something bigger than yourself"
+		"serve your state"
+		"serve humanity"
+		"serve the Republic"
+		"serve for democracy"
+		"save lives"
+		"improve the livelihoods of others"
+		"be the guardian of humanity"
+		"be the protector of humanity"
+		"be the defender of humanity"
+
+phrase "navy purpose b"
+	word
+		"be the guard"
+		"battle"
+		"fight"
+		"advance the struggle"
+		"see justice done"
+	word
+		" against "
+	word
+		"pirates"
+		"piracy"
+		"marauders"
+		"instability"
+		"anarchism"
+		"slavers"
+		"terrorists"
+		"criminals"
+		"those who threaten democracy"
+		"those who threaten freedom"
+		"those who threaten the Republic"
+		"those who threaten peoples' lives"
+		"those who threaten peace"
+		"those who threaten our Republic"
+
+phrase "navy purpose b"
+	word
+		"fight for"
+		"defend"
+		"protect"
+		"advance"
+	word
+		" "
+	word
+		"the Republic"
+		"humanity"
+		"mankind"
+		"democracy"
+		"peace"
+		"law and order"
+		"human rights"
+		"peoples' lives"
+		"peoples' livelihoods"
+		"peoples' rights"
+
+phrase "navy purpose b"
+	word
+		"defend"
+		"protect"
+		"guard"
+	word
+		" "
+	word
+		"humanity"
+		"mankind"
+		"these skies"
+		"our galaxy"
+		"the Republic"
+	word
+		" from the "
+	word
+		"scourge"
+		"menace"
+		"threat"
+		"evils"
+	word
+		" of "
+	word
+		"piracy"
+		"crime"
+		"instability"
+		"chaos"
+		"conflict"
+		"autocracy"
+		"authoritarianism"
+		"regionalism"
+	word
+		" and "
+	word
+		"division"
+		"disunity"
+		"disorder"
+		"disarray"
+		"discord"
+		"destruction"
+		"devastation"
+		"turmoil"
+		"oppression"
+		"insurrection"
+		"civil war"
+		"fragmentation"
+		"anarchism"
+
+phrase "navy purpose b"
+	word
+		"ensure"
+		"advance"
+		"maintain"
+		"uphold"
+	word
+		" "
+	word
+		"peace"
+		"democracy"
+		"freedom"
+		"equality"
+		"unity"
+		"harmony"
+		"security"
+	word
+		"" 5
+		" throughout human space" 2
+		" among the stars" 2
+		" and order"
+		" and justice"
+		" and concord"
+		" and safety"
+		" and liberty"
+
+phrase "friendly navy"
+	word
+		"人类团结则存，分裂则亡。"
+		"在这个试图将我们拆散的宇宙中，人类必须团结一致。"
+		"宇宙将人类拆散，而共和国将人类凝聚。"
+		"响应使命的召唤！加入海军！"
+		"如果你有勇气，如果你有荣誉，就加入海军吧！"
+		"海军需要你！"
+		"海军需要像你这样优秀的舰长！加入海军吧！"
+		"最高尚的服务莫过于为国家效力。加入海军吧！"
+		"请放心，海军为您服务。"
+		"愿星际和平永存。请铭记于心。"
+
+phrase "friendly navy"
+	word
+		"The Republic"
+		"The Navy"
+	word
+		"'s goal:" 8
+		"'s motto:" 8
+		"'s goal is to create"
+		"'s goal is to ensure"
+		" wishes for"
+		" strives for"
+		" works for"
+		" aspires for"
+		" is advancing"
+		" is here to ensure"
+		" is here to advance"
+		" is here to promote"
+	word
+		" "
+	word
+		"peace among the stars."
+
+phrase "friendly navy"
+	word
+		"我们警告你，所有"
+		"我们通知你，所有"
+		"根据共和国法律，所有"
+		"我们提醒你，所有"
+	word
+		" "
+	word
+		"civilian"
+		"merchant"
+		"private"
+	word
+		" "
+	word
+		"ships"
+		"vessels"
+		"warships"
+	word
+		" "
+	word
+		"in"
+		"within"
+		"traveling in"
+	word
+		" "
+	word
+		"the Republic"
+		"共和国领空"
+	word
+		" "
+	word
+		"will undergo"
+		"are subject to"
+		"must comply with"
+	word
+		" random "
+	word
+		"cargo"
+		"outfit"
+		"structural"
+	word
+		" "
+	word
+		"scans"
+		"inspections"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"请注意："
+		"我们通知你："
+		"根据共和国法律，"
+		"我们提醒你："
+	word
+		" "
+	word
+		"海军军官"
+		"border control officials"
+	word
+		" must "
+		" will "
+	word
+		"perform "
+		"conduct "
+	word
+		"cargo"
+		"outfit"
+		"structural"
+	word
+		" "
+	word
+		"scans"
+		"inspections"
+	word
+		" on all "
+	word
+		"ships"
+		"vessels"
+		"warships"
+	word
+		" "
+	word
+		"travelling in the Republic"
+		"travelling in Republic space"
+		"landing on a Republic planet"
+	word
+		"."
+
+phrase "friendly navy"
+	word
+		"It is "
+	word
+		"illegal"
+		"prohibited"
+		"punishable"
+	word
+		" by Republic law to "
+	phrase
+		"navy illegal acts"
+	word
+		"."
+
+phrase "navy illegal acts"
+	word
+		"install"
+		"use"
+	word
+		" "
+	word
+		"illicit"
+		"unauthorized"
+		"unlicenced"
+		"dangerous"
+	word
+		" "
+	word
+		"outfits"
+		"equipment"
+
+phrase "navy illegal acts"
+	word
+		"traffic"
+		"transport"
+		"smuggle"
+		"profit from the trade of"
+	word
+		" "
+	phrase
+		"contraband"
+
+phrase "navy illegal acts"
+	word
+		"engage in"
+		"participate in"
+	word
+		" "
+	word
+		"the trafficking of slaves"
+		"the trading of slaves"
+		"the galactic slave trade"
+
+phrase "navy illegal acts"
+	word
+		"possess chemical weaponry for any reason"
+		"pilot a ship without a pilot's license"
+
+phrase "navy illegal acts"
+	word
+		"attack"
+		"provoke"
+		"destroy"
+		"disable"
+		"plunder"
+	word
+		" "
+	word
+		"merchant ships"
+		"civilian ships"
+		"Navy ships"
+		"security ships"
+
+phrase "navy illegal acts"
+	word
+		"disrupt"
+		"disturb"
+	word
+		" "
+	word
+		"the peace"
+		"the order"
+		"merchant activity"
+		"commercial activity"
+		"trade lanes"
+		"civil order"
+
+phrase "navy illegal acts"
+	word
+		"fly"
+		"display"
+	word
+		" "
+	word
+		"pirate"
+		"marauder"
+		"anarchist"
+	word
+		" "
+	word
+		"markings"
+		"colors"
+
+phrase "friendly free worlds militia 1"
+	word
+		"We are"
+	word
+		" "
+	word
+		"on the lookout for"
+		"searching for"
+		"scanning for"
+	word
+		" any "
+		" "
+	word
+		"suspicious"
+		"unusual"
+		"pirate"
+		"strange"
+		"illegal"
+		"criminal"
+		"unlawful"
+		"abnormal"
+		"irregular"
+	word
+		" "
+	word
+		"vessels"
+		"behavior"
+		"activity"
+		"ships"
+		"starships"
+	word
+		"."
+
+phrase "friendly free worlds militia 2"
+	word
+		"No"
+		"绝不让一个"
+		"Not one"
+	word
+		" "
+	word
+		"merchant"
+		"civilian"
+		"innocent life"
+		"innocent ship"
+		"inhabitant of this system"
+	word
+		" "
+	word
+		"will die"
+		"will be harmed"
+		"will be killed"
+		"will be destroyed"
+	word
+		" "
+	word
+		"on our watch"
+		"while we are around"
+		"while we are still flying"
+		"while we are still breathing"
+		"while we are here"
+	word
+		"."
+		"!"
+
+phrase "friendly militia 1"
+	word
+		"Pirates"
+		"Criminals"
+		"Evil-doers"
+		"自由的威胁"
+		"本星系的威胁"
+		"这颗行星的威胁"
+		"我们星系的威胁"
+		"我们行星的威胁"
+	word
+		" beware"
+		" be warned"
+		", turn back now"
+		", surrender now"
+	word
+		"! "
+	word
+		"民兵在此"
+		"援军已到"
+		"民兵正在警戒"
+		"你打不赢我们"
+		"我们不可战胜"
+		"你无法动摇我们的决心"
+		"我们不会向你的主子低头"
+		"我们会战斗到最后一艘船"
+		"我们绝不投降"
+	word
+		"!"
+
+phrase "friendly militia 2"
+	word
+		"我们是民兵，"
+	word
+		"defenders of freedom"
+		"defenders of the innocent"
+		"defenders of this system"
+		"defenders of this planet"
+		"defenders of this region"
+		"defenders of these skies"
+		"destroyers of pirates"
+		"destroyers of evil"
+		"destroyers of criminals"
+	word
+		"."
+		"!"
+
+phrase "friendly militia 3"
+	word
+		"这不会有什么损失"
+		"这将大有帮助"
+		"这将改善很多人的生活"
+		"这个星区会安全得多"
+		"许多生命将得到拯救"
+		"人们会更幸福"
+		"我们会心怀感激"
+		"南缘会更加繁荣"
+		"共和国会更加繁荣"
+		"银河系会更加繁荣"
+		"南缘会更安全"
+		"共和国会更安全"
+		"银河系会更安全"
+		"我们不必为你们牺牲生命"
+	word
+		" if "
+	word
+		"the Navy"
+		"the Republic"
+		"the Reps"
+		"Parliament"
+		"those representatives of Parliament"
+	word
+		" would "
+	word
+		""
+		"come down here and "
+		"stop hiding up in the Paradise Worlds and "
+		"stop licking the boots of the Syndicate and "
+	word
+		"help us out with"
+		"assist us with"
+		"do anything about"
+		"do something about"
+		"send a fleet to help us with"
+		"send some ships to help us with"
+	word
+		" "
+	word
+		"these pirates"
+		"these criminals"
+		"these warlords"
+		"these marauders"
+		"this rampant piracy"
+		"this rampant marauding"
+	word
+		"."
+		"..."
+		"!"
+
+phrase "friendly militia 4"
+	word
+		"If"
+	word
+		" "
+		" the people in "
+		" the leaders of "
+		" those in power in "
+	word
+		"Parliament"
+		"the Navy"
+		"the Republic"
+	word
+		" would "
+	word
+		"come down here"
+		"stop ignoring our cries for help"
+		"take notice of our cries for help"
+		"stop acting deaf"
+		"listen to us"
+		"work with us"
+		"be useful for once"
+		"just get off their armchairs"
+	word
+		"${friendly militia 4 variation}" 2
+		""
+	word
+		", "
+	word
+		"many peoples' lives would be improved"
+		"many lives would be saved"
+		"lives would be saved"
+		"people would be happier"
+		"we would be grateful"
+		"we would not have to sacrifice our lives for you"
+		"the Republic would be more prosperous"
+		"the galaxy would be more prosperous"
+		"the Republic would be safer"
+		"the galaxy would be safer"
+		`there would be "peace among the stars"`
+	word
+		"."
+
+phrase "friendly militia 4 variation"
+	word
+		" and "
+	word
+		"do something about"
+		"do anything about"
+		"help us with"
+		"assist us with"
+		"clear out"
+		"deal with"
+	word
+		" "
+	word
+		"these pirates"
+		"these criminals"
+		"these warlords"
+		"these marauders"
+		"this rampant piracy"
+		"this rampant marauding"
+
+phrase "friendly militia 4 variation"
+	word
+		" and "
+	word
+		"see"
+		"look at"
+		"discuss"
+		"understand"
+		"recognize"
+		"acknowledge"
+		"see for themselves"
+	word
+		" what "
+	word
+		"pirates have"
+		"criminals have"
+		"warlords have"
+		"marauders have"
+		"rampant piracy has"
+		"rampant marauding has"
+	word
+		" done to "
+	word
+		"our system"
+		"our planets"
+		"the South"
+		"the Rim"
+		"the Southern Rim"
+		"the Dirt Belt"
+
+# Militia hails shared with the Free Worlds. Some are Militia only. This should give each of these hail sets the same chance of appearing.
+phrase "friendly militia"
+	phrase
+		"friendly free worlds militia 1"
+		"friendly free worlds militia 2"
+		"friendly militia 1"
+		"friendly militia 2"
+		"friendly militia 3"
+		"friendly militia 4"
+
+phrase "friendly syndicate"
+	word
+		"聪明的船长都知道货舱空间是关键。聪明的船长选择辛迪加。"
+	word
+		" "
+	word
+		"Star Barge"
+		"Bulk Freighter"
+		"Freighter"
+		"Container Transport"
+	word
+		"."
+		
+phrase "friendly syndicate"
+	word
+		"The Syndicate"
+	word
+		" "
+	word
+		"Bulk Freighter:"
+		"Freighter:"
+		"Star Barge:"
+		"Container Transport:"
+	word
+		" "
+	word
+		"backbone"
+		"motor"
+		"center"
+		"heart"
+		"engine"
+		"the lifeblood"
+	word
+		" "
+	word
+		"of the galactic economy"
+		"of galactic trade"
+		"of galactic civilization"
+	word
+		"."
+		
+		
+phrase "friendly syndicate"
+	word
+		"记住：未经授权的爆能枪改装将导致保修失效。请直接从辛迪加购买！"
+		"聪明的船长选择辛迪加造船厂——可靠性的黄金标准。"
+		"聪明的船长都在辛迪加系统购物。"
+		"海盗找麻烦？雇一艘辛迪加护卫舰，烦恼一扫而空。"
+		"辛迪加系统为您保驾护航！"
+		"在这个动荡的银河中，唯有辛迪加系统值得信赖。"
+		"辛迪加造船厂：各地诚实商人的朋友。"
+		"辛迪加系统向您致以问候。"
+		"辛迪加造船厂为每种预算提供精心设计的星际飞船！"
+		"今天就成为辛迪加船长吧！"
+		"辛迪加世界是现代的机会之地！"
+		"辛迪加系统：一个反应堆接一个反应堆，驱动星际商业。"
+		"你听说过辛迪加系统的质子炮吗？今天就预约试射吧！"
+		"想要粒子炮的炮塔版本？试试质子炮塔！"
+		"激光不够用？用质子炮！"
+		"海盗是问题？我们有解决方案！"
+		"钱是问题？我们有解决方案！"
+		"粒子太高端？你应该试试质子炮！"
+		"重型炮塔太大？用四管爆能炮塔！"
+		"光束炮塔太小？装四管爆能炮塔！"
+		"聚变太贵？试试裂变反应堆！"
+		"放射性同位素太弱？试试裂变反应堆！"
+		"原子引擎太贵？用离子引擎！"
+		"等离子引擎太耗能？装离子引擎！"
+		"我们有炮、炮塔、引擎、反应堆、飞船——辛迪加拥有一切你需要的！"
+		
+phrase "friendly syndicate"
+	word
+		"Smart"
+		"Intelligent"
+		"Wise"
+		"Bright"
+		"Intuitive"
+	word
+		" "
+	word
+		"captains"
+		"ship captains"
+		"starship captains"
+	word
+		" "
+	word
+		"choose"
+		"shop"
+		"go for"
+		"buy at"
+	word
+		" "
+	word
+		"Syndicated Shipyards"
+		"Syndicated Systems"
+	word
+		"!"
+		", the guarantee of quality!"
+		", the gold standard for reliability!"
+		", the epitome of affordability!"
+	
+
+phrase "friendly syndicate"
+	word
+		"欢迎来到辛迪加领空"
+	word
+		"! Feel free to review our catalog of affordable starship outfits."
+		"! Feel free to review our catalog of affordable starships."
+		"! Would you be interested in purchasing any heavy metals today?"
+		"! We are transmitting you the latest Syndicated Systems product catalog!"
+		"! We serve you with pride!"
+		"! We serve our customers with pride!"
+		"! We hope you'll stay for this month's specials!"
+		"! Come for the low tax rates, stay for the affordable plutonium!"
+		", the galaxy's largest free trade zone!"
+		", the galaxy's most economically free region!"
+		", the backbone of the Republic's industrial power!"
+		", home of the buy-one-get-one-free deal for radioisotopes past their half-lives!"
+		"! Were you aware of our Plutonium recycling program?"
+		"! Did you know that the average ship contains 39% Syndicated Systems components by weight?"
+		"! If you're looking for affordable radioisotopes, you've come to the right place!"
+		"! Apply to become a Syndicated captain today!"
+		"! We welcome any and all applications to join the Syndicated Systems team!"
+		"!"
+
+phrase "friendly syndicate"
+	word
+		"为辛迪加工作！"
+		"加入辛迪加！"
+		"你考虑过把辛迪加系统作为你的下一份职业吗？"
+	word
+		" "
+	word
+		"Our"
+	word
+		" "
+	word
+		"people"
+		"employees"
+		"salaries"
+		"benefits"
+		"compensation packages"
+		"stock options"
+		"business ethics"
+		"new technologies"
+		"starships"
+		"ships"
+		"shipyards"
+		"affordable outfits"
+		"user-friendly products"
+		"ethics"
+		"offers"
+		"dental plans"
+	word
+		" "
+	word
+		"are the best!"
+		"are unmatched!"
+		"are unbeatable!"
+		"can't be beat!"
+		"will keep you smiling!"
+
+phrase "friendly free worlds 1"
+	word
+		"Be"
+	word
+		" "
+	word
+		"safe"
+		"independent"
+		"wise"
+		"fair"
+		"just"
+		"courageous"
+		"self-sufficient"
+		"confident"
+		"equitable"
+		"brave"
+		"audacious"
+		"tenacious"
+		"bold"
+		"daring"
+		"valiant"
+	word
+		"! Be free!"
+
+phrase "friendly free worlds 2"
+	word
+		"Without"
+	word
+		" "
+	word
+		"equality"
+		"justice"
+		"sacrifice"
+		"courage"
+		"tenacity"
+		"hope"
+	word
+		" "
+	word
+		"there can be no"
+		"you cannot have"
+	word
+		" "
+	word
+		"peace"
+		"freedom"
+		"safety"
+		"prosperity"
+		"liberty"
+	word
+		"!"
+
+phrase "friendly free worlds 3"
+	word
+		"Fight"
+		"Overthrow"
+		"Oppose"
+		"反抗"
+		"Defy"
+		"发声反对"
+	word
+		" "
+	word
+		"the "
+		"the Republic's "
+		"the Syndicate's "
+		"the Paradise Worlds' "
+		"the Paradise Planets' "
+		""
+	word
+		"corrupt"
+		"greedy"
+		"overbearing"
+		"decadent"
+		"crooked"
+		"nefarious"
+		"rotten"
+		"unscrupulous"
+		"debauched"
+		"profiteering"
+	word
+		" "
+	word
+		"government"
+		"corporations"
+		"politicians"
+		"oligarchs"
+		"tycoons"
+		"bureaucrats"
+		"lobbyists"
+		"executives"
+	word
+		"! Join the Free Worlds!"
+
+
+phrase "friendly free worlds 4"
+	word
+		"我们是自由力量"
+		"我们是自由舰船"
+		"我们是自由世界"
+	word
+		", "
+	word
+		"defenders of"
+		"guardians of"
+		"protectors of"
+	word
+		" "
+	word
+		"the innocent"
+		"this system"
+		"this planet"
+		"this region"
+		"these skies"
+		"liberty"
+		"freedom"
+		"the Rim"
+		"the South"
+		"the Dirt Belt"
+		"the Southern Rim"
+	word
+		"."
+		"!"
+
+phrase "friendly free worlds 5"
+	word
+		"For "
+	word
+		"peace"
+		"equality"
+		"justice"
+		"courage"
+		"tenacity"
+		"hope"
+	word
+		"! "
+	word
+		"For "
+	word
+		"freedom"
+		"safety"
+		"prosperity"
+		"liberty"
+		"unity"
+		"the Free Worlds"
+	word
+		"!"
+
+phrase "free worlds 6 variations"
+	word
+		"want to further"
+		"wish to further"
+		"want to advance"
+		"wish to advance"
+		"want to bolster"
+		"wish to bolster"
+		"want to strengthen"
+		"wish to strengthen"
+		"believe in"
+		"support"
+		"approve of"
+		"respect"
+		"stand by"
+	word
+		"" 4
+		" the principles of"
+		" the Free Worlds' struggle for"
+		" the cause of"
+		" our cause of"
+	word
+		" "
+	word
+		"freedom"
+		"welfare"
+		"democracy"
+		"liberty"
+		"individual freedoms"
+		"commonwealth"
+		"proper representation"
+
+phrase "free worlds 6 variations"
+	word
+		"have seen"
+		"know of"
+		"can see"
+		"have suffered from"
+		"have experienced"
+		"have been affected by"
+		"are affected by"
+		"cannot tolerate"
+		"cannot ignore"
+		"refuse to sanction"
+		"are witness to"
+	word
+		" "
+	word
+		"the Republic's"
+		"Parliament's"
+		"the Syndicate's"
+		"the Paradise Planets'"
+	word
+		" "
+	word
+		"decadence"
+		"corruption"
+		"dishonesty"
+		"profiteering"
+		"misconduct"
+		"fraudulence"
+		"manipulation"
+		"abuse of power"
+		"subversion"
+		"deceit"
+		"dirty politics"
+		"fraudulent dealings"
+
+phrase "free worlds 6 variations"
+	word
+		"have seen"
+		"know of"
+		"can see"
+		"have suffered from"
+		"have experienced"
+		"have been affected by"
+		"are affected by"
+		"cannot tolerate"
+		"cannot ignore"
+		"refuse to sanction"
+		"are witness to"
+	word
+		" the "
+	word
+		"corruption"
+		"loss"
+		"decay"
+		"subversion"
+	word
+		" of "
+	word
+		"our freedoms"
+		"our rights"
+		"our liberty"
+		"our autonomy"
+		"our self-determination"
+		"our representation"
+		"responsible government"
+		"lawful governance"
+	word
+		"" 4
+		" by the Republic"
+		" by Parliament"
+		" by the Syndicate"
+		" by the Paradise Planets"
+
+phrase "friendly free worlds 6"
+	word
+		"If you "
+	phrase
+		"free worlds 6 variations"
+	word
+		", "
+	word
+		"join us"
+		"join the Free Worlds"
+		"become part of the Free Worlds"
+		"become a member of the Free Worlds"
+		"become a member of the Free forces"
+		"do not hesitate to join the Free Worlds"
+		"stand united with us"
+		"fight for us"
+		"fight with us"
+		"fight by our side"
+	word
+		"!"
+
+phrase "friendly free worlds 7"
+	word
+		"对……的威胁"
+		"那些威胁……的人"
+	word
+		"freedom"
+		"democracy"
+		"liberty"
+		"peace"
+		"this system"
+		"this planet"
+		"our system"
+		"our planet"
+		"our livelihoods"
+		"the rule of law"
+		"the Free Worlds"
+		"the innocent"
+		"justice"
+	word
+		" beware"
+		" be warned"
+		", turn back now"
+		", surrender now"
+	word
+		"! "
+	word
+		"自由力量已到达"
+		"自由世界的威力已降临"
+		"自由世界的舰船已抵达"
+		"自由世界的武装力量已就位"
+		"你无法动摇我们的决心"
+		"我们决心为自由世界而战"
+		"我们以自由世界的名义而战"
+		"自由世界不会向你的主子低头"
+		"我们会战斗到最后一艘船"
+		"我们绝不投降"
+		"我们会把你们赶出我们的星系"
+		"援军已到"
+		"你打不赢我们"
+		"我们不可战胜"
+	word
+		"!"
+
+phrase "friendly free worlds 8"
+	word
+		"Fight for"
+		"站在……一边战斗"
+		"加入我们，共同推进"
+		"自由世界的存在是为了推进"
+		"我们的舰船为……而战"
+		"我们的自由世界为……而奋斗"
+		"我们活着就是为了……而奋斗"
+		"我们为……而奋斗"
+		"我们为……而战"
+		"我们团结在……的旗帜下"
+		"我们的战斗是为了"
+		"这是一场为了……的斗争"
+		"如果你与我们并肩作战，你就是在为……而战"
+		"Stand for"
+		"支持"
+		"如果你信仰……就加入我们"
+	word
+		" "
+	word
+		"freedom"
+		"equality"
+		"justice"
+		"peace"
+		"prosperity"
+		"liberty"
+		"unity"
+	word
+		"!"
+		"! Join the Free Worlds!"
+
+phrase "friendly free worlds 9"
+	word
+		"团结一致"
+		"与我们站在一起"
+		"为自由而战"
+		"为自决而战"
+		"为和平而战"
+		"为正义而战"
+		"为进步而战"
+		"为你的权利而战"
+		"为你的代表权而战"
+		"为你的生计而战"
+		"反抗压迫"
+		"反抗堕落"
+		"反抗腐败"
+		"自由无可替代"
+		"民主无可替代"
+		"自由无可替代"
+	word
+		"! "
+	word
+		"加入自由世界的斗争"
+		"加入我们的战斗"
+		"加入我们的奋斗"
+		"加入自由世界"
+		"为自由世界而战"
+		"为你的未来而战"
+		"为繁荣而战"
+		"为平等而战"
+	word
+		"!"
+
+# Meant to be the same.
+phrase "friendly free worlds 10"
+	word
+		"不可能有"
+		"没有"
+		"我们无法达到"
+		"我们无法保证"
+		"我们无法确保"
+		"我们无法获得"
+		"我们无法取得"
+		"我们无法实现"
+	word
+		" "
+	word
+		"peace"
+		"freedom"
+		"safety"
+		"prosperity"
+		"liberty"
+		"stability"
+		"success"
+		"welfare"
+		"order"
+		`"peace among the stars"`
+	word
+		" without "
+	word
+		"equality"
+		"justice"
+		"courage"
+		"tenacity"
+		"audacity"
+		"determination"
+		"hope"
+		"unity"
+		"the rule of law"
+		"fighting for it"
+		"struggle"
+		"representation"
+	word
+		"!"
+		"! Join the Free Worlds!"
+
+# Meant to be the same.
+phrase "friendly free worlds 10"
+	word
+		"我们只能达到"
+		"我们只能保证"
+		"我们只能确保"
+		"我们只能获得"
+		"我们只能取得"
+		"我们只能实现"
+		"只有"
+		"只能有"
+	word
+		" "
+	word
+		"peace"
+		"safety"
+		"prosperity"
+		"stability"
+		"success"
+		"welfare"
+		"order"
+	word
+		" with "
+		" when there is "
+		" when we have "
+	word
+		"equality"
+		"freedom"
+		"justice"
+		"courage"
+		"tenacity"
+		"audacity"
+		"hope"
+		"unity"
+		"a united vision"
+		"the rule of law"
+	word
+		"!"
+		"! Join the Free Worlds!"
+
+# Militia hails shared with the Free Worlds. These should give all the hails an equal chance of occurring.
+phrase "friendly free worlds"
+	phrase
+		"friendly free worlds militia 1"
+		"friendly free worlds militia 2"
+		"friendly free worlds 1"
+		"friendly free worlds 2"
+		"friendly free worlds 3"
+		"friendly free worlds 4"
+		"friendly free worlds 5"
+		"friendly free worlds 6"
+		"friendly free worlds 7"
+		"friendly free worlds 8"
+		"friendly free worlds 9"
+		"friendly free worlds 10"
+
+phrase "ship bribe acceptance pirate"
+	word
+		"有点奇怪——我现在不想杀你了！"
+		"多谢惠顾！"
+		"我能继续炸你的船吗？好吧，算了。"
+		"还好拿到了我应得的。"
+		"离无政府状态又近了一步！"
+
+phrase "friendly pirate"
+	word
+		"We're"
+		"We are"
+		"你眼前的是"
+		"你面前的是"
+	word
+		" the "
+	word
+		"baddest"
+		"strongest"
+		"fiercest"
+		"deadliest"
+		"scariest"
+		"nastiest"
+		"gnarliest"
+		"most savage"
+		"most dangerous"
+		"most vicious"
+		"most ferocious"
+		"most dreaded"
+	word
+		" "
+	word
+		"pirate"
+	word
+		" starship"
+		" warship"
+		" ship"
+		""
+	word
+		" "
+	word
+		"in the"
+		"of the"
+	word
+		" "
+	word
+		"universe"
+		"galaxy"
+		"sky"
+		"'verse"
+		"air"
+		"cosmos"
+		"skies"
+		"taikong"
+	word
+		"."
+		"!"
+
+phrase "friendly pirate"
+	word
+		"Plundering"
+		"Blasting"
+		"Destroying"
+		"Robbing"
+		"Raiding"
+		"Pummeling"
+		"Crushing"
+		"Ravaging"
+		"从……偷东西"
+		"Waylaying"
+	word
+		" "
+	word
+		"merchants"
+		"ships"
+		"villages"
+		"freighters"
+		"convoys"
+		"rich merchants"
+		"defenseless ships"
+		"weak ships"
+		"wimpy ships"
+		"merchant ships"
+	word
+		" "
+	word
+		"and"
+	word
+		" "
+	word
+		"enjoying"
+		"spending"
+		"piling up"
+		"hoarding"
+		"squandering"
+	word
+		" "
+	word
+		"the loot"
+		"money"
+		"our gains"
+		"wealth"
+		"plunder"
+		"the booty"
+	word
+		": I love the pirate's life!"
+		": that's the way to live!"
+		" is the best way to live!"
+		" is how real anarchists live!"
+
+phrase "friendly pirate"
+	word
+		"We just "
+	word
+		"plundered"
+		"blasted"
+		"destroyed"
+		"raided"
+		"pummeled"
+		"crushed"
+		"robbed"
+		"ravaged"
+	word
+		" "
+	word
+		"a"
+		"a whole"
+		"an entire"
+		"the weakest"
+		"the wimpiest"
+		"the stupidest"
+	word
+		" "
+	word
+		"merchant"
+		"law enforcement"
+	word
+		" "
+	word
+		"ship!"
+		"fleet!"
+		"convoy!"
+
+phrase "friendly pirate"
+	word
+		"你最好小心"
+	word
+		"who you talk to"
+		"who you look at"
+		"who you hail"
+		"who you target"
+		"your back"
+		"your cargo"
+		"your ship"
+		"your fleet"
+	word
+		" "
+	word
+		"around here"
+		"around these parts"
+		"around this system"
+		"around us"
+		"around me"
+	word
+		"."
+
+phrase "friendly pirate"
+	word
+		"Have you "
+	word
+		"tried this"
+		"used this"
+	word
+		" "
+	word
+		"new "
+		"crazy "
+		"amazing "
+		"fantastic "
+		"incredible "
+		"fascinating "
+		""
+	phrase
+		"drugs"
+	word
+		" "
+	word
+		"stuff?"
+		"drug?"
+	word
+		""
+		" It's the best!"
+		" It's awesome."
+		" You'll have the best high ever."
+		" You'll feel like you're in heaven!"
+		" I wish I could find more."
+		" I wish I could afford more."
+		" I'm going to need to make money to buy more!"
+		" Best experience I've ever had!"
+	replace
+		"%" ""
+
+phrase "friendly pirate"
+	word
+		"Have you "
+	word
+		"tried this"
+		"used this"
+	word
+		" "
+	word
+		"new "
+		"terrible "
+		"horrendous "
+		"atrocious "
+		"horrid "
+		""
+	word
+		"bad blue"
+		"booster"
+		"core"
+		"death stick"
+		"deep"
+		"fire apple"
+		"flavor drop"
+		"good red"
+		"happy stick"
+		"hot wing"
+		"memory chip"
+		"quasar"
+		"red giant"
+		"ringworld shaving"
+		"solaris joyride"
+		"southern snack"
+		"space weed"
+		"stardust"
+		"steam"
+		"toad juice"
+		"whale blubber"
+	word
+		" "
+	word
+		"stuff?"
+		"drug?"
+	word
+		""
+		" I couldn't see for a week"
+		" I couldn't get out of bed for a week"
+		" It felt like I was being eaten alive"
+		" It felt like I had insects crawling under my skin"
+		" I'm never taking that stuff again"
+		" Worst experience I've ever had"
+	word
+		"!"
+		"."
+	replace
+		"?." "?"
+
+phrase "friendly pirate"
+	word
+		"We"
+	word
+		" "
+	word
+		"just"
+		"recently"
+	word
+		" "
+	word
+		"got"
+		"earned"
+		"made"
+	word
+		" "
+	word
+		"thousands"
+		"thousands of credits"
+		"millions"
+		"millions of credits"
+	word
+		" "
+	word
+		"selling ${contraband}"
+		"plundering merchants"
+		"fetching bounties"
+	word
+		"!"
+
+phrase "friendly pirate"
+	word
+		"I heard"
+		"We heard"
+		"小道消息说"
+	word
+		" that a "
+	word
+		"new batch of"
+		"new delivery of"
+		"new shipment of"
+	word
+		" "
+	phrase
+		"contraband"
+	word
+		" "
+	word
+		"was just dropped off"
+		"was delivered here"
+		"is on its way"
+	word
+		"."
+	word
+		" Can't wait to buy some!"
+		" Can't wait to buy them!"
+		" Can't wait to check them out!"
+		""
+
+phrase "friendly pirate"
+	word
+		"如果有哪位船长和船员之间闹矛盾，"
+		"如果有谁和船员闹矛盾，"
+		"如果你和船员之间有问题，"
+	word
+		" I suggest "
+		" try "
+	word
+		"using a stick to beat them into submission"
+		"throwing them out the airlock"
+		"starving them until they listen"
+		"threatening to throw them out the airlock"
+		"threatening to kill them"
+		"threatening to shoot them"
+		"using them as bait when you're boarding an enemy ship"
+	word
+		"."
+	word
+		" It worked for me!"
+		" I guarantee it works!"
+		" It's been a 100% success rate for me so far!"
+		" They'll never bother you again!"
+		" If it doesn't work, you can always replace them!"
+		" It's an old family trick!"
+		""
+
+phrase "friendly pirate"
+	word
+		"Anyone"
+		"这里有谁"
+		"有海盗兄弟吗"
+		"有无政府主义者吗"
+	word
+		" "
+	word
+		"up for buying"
+		"want to buy"
+		"looking for"
+	word
+		" "
+	phrase
+		"contraband"
+	word
+		"?"
+	word
+		""
+		" Just talk to me in the spaceport."
+		" Talk to me for a contact."
+		" You'll find some on the nearest pirate planet."
+		" You'll find some on the nearest anarchist planet."
+		" You'll find some on the nearest planet not oppressed by the Man."
+		" You'll find some wherever the Man does not go."
+
+phrase "friendly pirate"
+	word
+		"让我惊讶的是"
+		"让我们惊讶的是"
+		"我们很惊讶"
+		"我很惊讶"
+		"有意思的是"
+		"令人惊讶的是"
+	word
+		" that "
+	word
+		"merchants"
+		"rich merchants"
+		"civilians"
+		"rich civilians"
+		"non-pirates"
+		"maggots"
+		"worms"
+	word
+		" "
+	word
+		"will come to"
+		"come here to"
+		"would ever"
+		"would come to us to"
+		"would come here to"
+		"risk themselves to"
+	word
+		" "
+	word
+		"buy ${contraband} from"
+		"sell ${contraband} to"
+	word
+		" "
+	word
+		"us"
+		"pirates"
+		"anarchists"
+	word
+		"."
+
+phrase "friendly pirate"
+	word
+		"最糟糕的是"
+		"I hate it"
+		"太糟糕了"
+		"最糟的是"
+		"我的一天总是被毁掉"
+	word
+		" when I'm "
+	word
+		"minding my own business"
+		"just flying through space"
+		"having fun"
+		"making credit"
+		"enjoying myself while"
+		"having a good time"
+	word
+		" "
+	word
+		"transporting"
+		"delivering"
+		"ferrying"
+		"hauling"
+		"supplying"
+		"exchanging"
+		"moving around"
+		"turning around"
+	word
+		" "
+	phrase
+		"contraband"
+	word
+		" "
+	word
+		"and I get scanned by the Man."
+		"and I get scanned by the Law."
+		"and the long arm of the Law starts tapping on my shoulders."
+		"and the Navy starts chasing me."
+		"and there's a Gunboat waiting for me."
+		"and one of my rivals notices me."
+		"and a merchant goes to shoot at me."
+		"and the militia starts chasing me."
+		"and the Syndicate starts chasing me."
+	word
+		"" 2
+		" More Interference Plating would have helped."
+		" This Interference Plating is useless!"
+		" I could have gotten out faster if I had a scram drive."
+		" I know I should have installed more Interference Plating."
+		" If only I was strong enough to stand up to them."
+		" I would have blasted them out of the sky if I could!"
+		" There were so many of them!"
+
+
+phrase "friendly disabled pirate"
+	word
+		"老兄，帮个忙，"
+		"海盗兄弟，帮个忙，"
+		"朋友，帮我们个忙行不？能不能"
+		"我们遇到麻烦了，能不能"
+		"朋友，能不能"
+		"Can ya"
+	word
+		" "
+	word
+		"come over here and"
+		"come to us and"
+		"fly to us and"
+		"take a minute to"
+	word
+		" "
+	word
+		"patch us up"
+		"make some repairs on us"
+		"give us a boost"
+		"do some repairs"
+		"get this ship back online so we can get the hell outta Dodge"
+		"get us back up and plunderin' again"
+	word
+		"?"
+
+phrase "friendly author"
+	word
+		"This game"
+		"Endless Sky"
+	word
+		" is open source. You can "
+	word
+		"help out"
+		"improve the game"
+		"get involved"
+		"help make it a better game"
+		"assist us"
+		"make your mark on the universe"
+		"give back to the community"
+	word
+		" by "
+	word
+		"contributing detailed bug reports."
+		"contributing typo fixes."
+		"contributing constructive feedback."
+		"contributing ideas for improvements."
+		"contributing landscape photos."
+		"contributing artwork."
+		"contributing new ships of your own design."
+		"contributing plugins."
+		"contributing new special missions."
+		"contributing new weapons or other outfits."
+		"contributing improved planet descriptions."
+		"contributing more varied hail messages."
+		"joining conversations that create new content."
+		"joining the Endless Sky Community Discord."
+		"getting involved with the community."
+		"submitting new pull requests with improvements and ideas."
+
+
+phrase "friendly disabled"
+	word
+		"我们的飞船瘫痪了！"
+		"我们遇上点麻烦了！"
+		"我们失去对飞船的控制了！"
+		"我们的飞船挨了好一顿揍！"
+		"Hey!"
+		"S.O.S! S.O.S!"
+		"Mayday! Mayday!"
+		"我们要撑不住了！"
+	word
+		" "
+	word
+		"请登上我们的飞船帮我们修修！"
+		"任何能帮我们重新启动的帮助我们都感激不尽！"
+		"能飞过来帮帮我们吗？拜托了！"
+		"请求紧急维修！"
+		"我们需要帮助！"
+		
+phrase "friendly disabled"
+	word
+		"Hey! "
+		"你是好人对吧？"
+		"你回话了！"
+		"见到友善的面孔真好！"
+		"嘿，拜托！"
+		"这边！"
+		"" 6
+	word
+		"我们的飞船瘫痪了，"
+		"我们被困在这里了，"
+		"我们有点小麻烦，"
+		"我们困在这个破盒子里漂着呢，"
+		"不想打扰你，但是"
+	word
+		" "
+	word
+		"could you lend a hand"
+		"can you get us back on our feet"
+		"would you help us"
+		"any chance you could get us up and running again"
+		"could you render assistance"
+		"can we receive some help"
+	word
+		", please?"
+		" quickly?"
+		" so we can get out of here?"
+		" as soon as possible?"
+		"? I don't want to get stranded here!"
+		"?" 4
+
+phrase "friendly disabled"
+	word
+		"Hey,"
+		"Uh..."
+		"So..."
+		"遇上点小状况……"
+		"Um,"
+		"我知道现在不太方便，但是"
+		"这有点尴尬，但是"
+	word
+		" "
+	word
+		"could you lend a hand"
+		"can you get us back on our feet"
+		"would you help us"
+		"is there a chance you could get us up and running again"
+		"could you render assistance"
+		"can we get some help patching up our ship"
+	word
+		", please?" 2
+		" so we can get out of here?"
+		" as soon as possible?"
+		"? I don't want to get stranded here!"
+		"?" 4
+
+phrase "friendly disabled"
+	word
+		"Some"
+		"Those"
+		"Them"
+		"The"
+		"A few"
+		"Those"
+	word
+		" menacing"
+		" damned"
+		" marauding"
+		" good-for-nothing"
+		" annoying"
+		" pesky"
+		" sleazy"
+		" scummy"
+		"" 3
+	word
+		" "
+	word
+		"bastards"
+		"snakes"
+		"weasels"
+		"wretches"
+		"scumbags"
+		"knaves"
+		"pieces of work"
+	word
+		" "
+	word
+		"wrecked our ship!"
+		"left us drifting in space!"
+		"got the jump on us!"
+		"left us here to die!"
+		"disabled us!"
+		"fried most of our ship's functions!"
+		"suddenly came onto us!"
+		"bested us!"
+		"thought they could simply leave us here!"
+	word
+		" "
+	word
+		"任何帮助我们都感激不尽！"
+		"能搭把手吗？"
+		"我们自己修不好，你能帮帮忙吗？"
+		"我们需要帮助让飞船重新运转起来！"
+		"能帮我们修一下吗？拜托了！"
+		"请帮帮我们！"
+		"我觉得我们撑不住了！"
+		"请过来帮忙！"
+		"能帮我们脱离困境吗？"
+		"能捞我们一把吗？"
+
+phrase "disabled free worlds"
+	word
+		"好吧，真倒霉。"
+		"Darn it! "
+		"哦，太好了。"
+		"" 4
+	word
+		"我就知道应该"
+		"我就知道不该"
+	word
+		" "
+	word
+		"have"
+	word
+		" "
+	word
+		"installed those weapons"
+		"bought those engines"
+		"made a left"
+		"made a right"
+		"had a drink"
+		"waited to take off"
+		"listened to that top brass"
+		"tried that move I saw"
+		"swapped my ship out"
+	word
+		"." 4
+		"!" 2
+		". Don't rub it in, okay?"
+		" yesterday."
+
+# Shakespearean insults.
+phrase "hostile disabled"
+	word
+		"You"
+		"离我远点，你这个"
+		"滚去死吧，你这个"
+		"你敢登我的船，你这个"
+		"你最好祈祷我们再也不会见面，你这个"
+		"You are a"
+		"不敢相信我竟然落在这样一个"
+		"你最好别惹我，你这个"
+		"我的朋友会为我报仇的，你这个"
+		"离我远点，你这个"
+		"你好大的胆子，你这个"
+		"退后，你这个"
+		"好吧，算你狠。现在滚开，你这个"
+	word
+		" "
+	phrase
+		"shakespearean insults"
+	word
+		"."
+		"!"
+
+# Shakespearean insults.
+phrase "hostile disabled"
+	word
+		"你这个"
+	word
+		" "
+	phrase
+		"shakespearean insults"
+	word
+		"!"
+		"."
+	word
+		" "
+	word
+		"看看你对我的船做了什么！"
+		"这全是你的错。"
+		"这事没完。"
+		"这次算你走运。"
+		"我会让你后悔的！"
+		"我漂亮的船！"
+		"看你干的好事！"
+		"我完了！"
+		"Happy now?"
+		"想要枚勋章吗？"
+		"你到底想怎样？"
+		"你也没什么了不起的，知道吗？"
+
+phrase "shakespearean insults"
+	word
+		"artless"
+		"bawdy"
+		"beslubbering"
+		"bootless"
+		"churlish"
+		"cockered"
+		"clouted"
+		"craven"
+		"currish"
+		"dankish"
+		"dissembling"
+		"droning"
+		"errant"
+		"fawning"
+		"fobbing"
+		"froward"
+		"frothy"
+		"gleeking"
+		"goatish"
+		"gorbellied"
+		"impertinent"
+		"infectious"
+		"jarring"
+		"loggerheaded"
+		"lumpish"
+		"mammering"
+		"mangled"
+		"mewling"
+		"paunchy"
+		"pribbling"
+		"puking"
+		"puny"
+		"qualling"
+		"rank"
+		"reeky"
+		"roguish"
+		"ruttish"
+		"saucy"
+		"spleeny"
+		"spongy"
+		"surly"
+		"tottering"
+		"unmuzzled"
+		"vain"
+		"venomed"
+		"villainous"
+		"warped"
+		"wayward"
+		"weedy"
+		"yeasty"
+	word
+		" "
+	word
+		"base-court"
+		"bat-fowling"
+		"beef-witted"
+		"beetle-headed"
+		"boil-brained"
+		"clapper-clawed"
+		"clay-brained"
+		"common-kissing"
+		"crook-pated"
+		"dismal-dreaming"
+		"dizzy-eyed"
+		"doghearted"
+		"dread-bolted"
+		"earth-vexing"
+		"elf-skinned"
+		"fat-kidneyed"
+		"fen-sucked"
+		"flap-mouthed"
+		"fly-bitten"
+		"folly-fallen"
+		"fool-born"
+		"full-gorged"
+		"guts-griping"
+		"half-faced"
+		"hasty-witted"
+		"hedge-born"
+		"hell-hated"
+		"idle-headed"
+		"ill-breeding"
+		"ill-nurtured"
+		"knotty-pated"
+		"milk-livered"
+		"motley-minded"
+		"onion-eyed"
+		"plume-plucked"
+		"pottle-deep"
+		"pox-marked"
+		"reeling-ripe"
+		"rough-hewn"
+		"rude-growing"
+		"rump-fed"
+		"shard-borne"
+		"sheep-biting"
+		"spur-galled"
+		"swag-bellied"
+		"tardy-gaited"
+		"tickle-brained"
+		"toad-spotted"
+		"unchin-snouted"
+		"weather-bitten"
+	word
+		" "
+	word
+		"apple-john"
+		"baggage"
+		"barnacle"
+		"bladder"
+		"boar-pig"
+		"bugbear"
+		"bum-bailey"
+		"canker-blossom"
+		"clack-dish"
+		"clotpole"
+		"coxcomb"
+		"codpiece"
+		"death-token"
+		"dewberry"
+		"flap-dragon"
+		"flax-wench"
+		"flirt-gill"
+		"foot-licker"
+		"fustilarian"
+		"giglet"
+		"gudgeon"
+		"haggard"
+		"harpy"
+		"hedge-pig"
+		"horn-beast"
+		"hugger-mugger"
+		"joithead"
+		"lewdster"
+		"lout"
+		"maggot-pie"
+		"malt-worm"
+		"mammet"
+		"measle"
+		"minnow"
+		"miscreant"
+		"moldwarp"
+		"mumble-news"
+		"nut-hook"
+		"pigeon-egg"
+		"pignut"
+		"puttock"
+		"pumpion"
+		"ratsbane"
+		"scut"
+		"skainsmate"
+		"strumpet"
+		"varlot"
+		"vassal"
+		"whey-face"
+		"wagtail"
+
+phrase "hostile civilian"
+	word
+		"I hope"
+		"我祈祷"
+	word
+		" "
+	word
+		"the Navy"
+		"the Militia"
+		"the Syndicate"
+		"someone"
+	word
+		" "
+	word
+		"burns"
+		"cuts"
+		"tears"
+		"chops"
+		"smashes"
+		"rips"
+		"blows"
+		"blasts"
+		"shoots"
+		"chews"
+		"pulls"
+		"mashes"
+		"saws"
+		"slices"
+		"skewers"
+	word
+		" "
+	word
+		"off your head"
+		"out your heart"
+		"off your hands"
+		"off your arms"
+		"out your eyes"
+		"up your ship"
+		"up your face"
+		"your ship to pieces"
+		"your ship to bits"
+		"your ship apart"
+		"you to pieces"
+		"you to bits"
+		"you apart"
+		"off your nose"
+	word
+		", you"
+	word
+		" lowdown"
+		" good-for-nothing"
+		" evil"
+		" mangy"
+		" bottom-feeding"
+		" cowardly"
+		" yellow-bellied"
+		""
+	word
+		" "
+	word
+		"scuzz"
+		"frack"
+		"gunk"
+		"barf"
+		"dink"
+		"snot"
+		"crap"
+		"scum"
+	word
+		"wad!"
+		"head!"
+		"bucket!"
+		"bag!"
+		"sack!"
+		"heap!"
+		"pile!"
+		"stain!"
+		"sucker!"
+		"ball!"
+
+phrase "hostile navy"
+	word
+		"你别妄想"
+		"你不可能"
+		"想要"
+		"No one can"
+		"You cannot"
+		"试图……是愚蠢的"
+		"只有自大狂才会认为自己可以"
+	word
+		" "
+	word
+		"prevail against"
+		"overcome"
+		"defeat"
+		"resist"
+		"escape"
+		"match"
+		"equal"
+		"destroy"
+		"beat"
+		"triumph against"
+		"win against"
+		"stand against"
+		"vanquish"
+	word
+		" "
+	word
+		"the"
+	word
+		""
+		" military"
+		" unequaled"
+		" unrivaled"
+		" impressive"
+		" legendary"
+		" imposing"
+		" massive"
+		" monumental"
+		" martial"
+		" naval"
+		" fighting"
+		" famous"
+	word
+		" "
+	word
+		"strength"
+		"might"
+		"power"
+		"fleet"
+		"ships"
+		"forces"
+		"ability"
+		"armed forces"
+		"armies"
+		"regiments"
+		"fleets"
+		"fighting forces"
+		"battalions"
+	word
+		" "
+	word
+		"of the Navy"
+		"of the Republic"
+		"of the Republic Navy"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"You"
+		"Stop! You"
+	word
+		" "
+	word
+		"are in violation of"
+		"have violated"
+		"are acting in defiance of"
+		"are charged as a criminal under"
+		"are acting as a criminal under"
+		"are disobeying"
+		"are breaking"
+		"are defying"
+		"have broken"
+	word
+		" "
+	word
+		"the "
+	word
+		"laws"
+		"law"
+		"statutes"
+		"regulations"
+		"jurisdiction"
+		"decrees"
+		"mandates"
+		"orders"
+	word
+		" "
+	word
+		"of the"
+	word
+		" "
+	word
+		"Republic"
+		"galactic Parliament"
+		"共和国议会"
+		"galactic Republic"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"For "
+	word
+		"honor"
+		"unity"
+		"order"
+		"hope"
+		"stability"
+		"concord"
+	word
+		"! "
+	word
+		"For "
+	word
+		"justice"
+		"duty"
+		"peace"
+		"integrity"
+		"democracy"
+		"the rule of law"
+		"peace among the stars"
+		"the integrity of our Republic"
+		"the Republic"
+	word
+		"!"
+
+phrase "hostile navy"
+	word
+		"我们是……的代理人"
+		"我们致力于带来"
+		"我们希望带来"
+		"我们的使命是促进"
+		"海军的存在是为了创造"
+	word
+		" "
+	word
+		"peace"
+		"justice"
+		"equality"
+		"freedom"
+		"unity"
+		"concord"
+		"order"
+		"the rule of law"
+		"safety"
+		"justice for all"
+		"harmony"
+		"security"
+		"hope"
+		"peace among the stars"
+	word
+		". We regret that"
+		". It is unfortunate that"
+		". It pains us that"
+		", but now"
+		", but sadly"
+		", but unfortunately"
+		", but your actions have made it so that"
+		", but"
+	word
+		" "
+	word
+		"it is our duty to"
+		"we must"
+		"it is necessary to"
+		"we are now required to"
+		"we have to"
+		"we are duty-bound to"
+		"we are forced to"
+		"our orders are to"
+	word
+		" "
+	word
+		"destroy you"
+		"kill you"
+		"fight you"
+		"destroy your ship"
+		"end your life"
+		"be your enemy"
+		"be your destroyer"
+		"terminate you"
+		"stop you"
+	word
+		"."
+
+phrase "hostile navy"
+	word
+		"The Navy"
+	word
+		" must"
+		" exists to"
+		" is here to"
+		" is ready to"
+		" is ordered to"
+		" is obligated to"
+		" is always ready to"
+		" is always here to"
+		" never hesitates to"
+		" will never hesitate to"
+		" will always"
+		" will always be here to"
+		" will always be ready to"
+		" was founded to"
+		"'s goal is to"
+		"'s directive is to"
+		"'s mission is to"
+		"'s purpose is to"
+		"'s duty is to"
+		"'s fleets"
+		"'s forces"
+	word
+		" "
+	word
+		"defend"
+		"protect"
+		"guard"
+	word
+		" "
+	word
+		"humanity"
+		"mankind"
+		"these skies"
+		"our galaxy"
+		"the Republic"
+	word
+		" from the "
+	word
+		"scourge"
+		"menace"
+		"threat"
+		"evils"
+	word
+		" of "
+	word
+		"piracy"
+		"crime"
+		"instability"
+		"chaos"
+		"conflict"
+		"autocracy"
+		"authoritarianism"
+		"regionalism"
+	word
+		" and "
+	word
+		"division"
+		"disunity"
+		"disorder"
+		"disarray"
+		"discord"
+		"destruction"
+		"devastation"
+		"turmoil"
+		"oppression"
+		"civil war"
+		"fragmentation"
+		"anarchism"
+	word
+		"."
+
+
+phrase "friendly deep"
+	word
+		"We"
+		"Our ships"
+		"我们的安全部队"
+		"Our fleets"
+		"Our forces"
+	word
+		" "
+	word
+		"" 3
+		"are called to "
+		"have a duty to "
+		"work in conjunction with the Navy to "
+		"work with the Republic to "
+		"are diligent to "
+		"must constantly "
+		"diligently "
+		"always "
+		"must "
+		"shall "
+	word
+		"defend against"
+		"hold back"
+		"keep watch for"
+		"protect you from"
+		"patrol for"
+		"look out for"
+		"ferret out"
+	word
+		" "
+	word
+		"" 3
+		"the forces of "
+		"perpetrators of "
+		"those who bring "
+		"the ones who serve "
+		"agents of "
+	word
+		"mere anarchy"
+		"chaos"
+		"disruption"
+		"piracy"
+		"social regression"
+		"corruption"
+		"hostility and war"
+		"instability"
+		"anarchism"
+		"hostility"
+		"base values"
+	word
+		"."
+
+phrase "friendly deep"
+	word
+		"We"
+		"Our ships"
+		"我们的安全部队"
+		"Our fleets"
+		"Our forces"
+	word
+		" "
+	word
+		"" 3
+		"are called to "
+		"are diligent to "
+		"must constantly "
+		"diligently "
+		"always "
+		"must "
+		"shall "
+	word
+		"safeguard"
+		"defend"
+		"protect"
+		"guard"
+		"shield"
+		"advance"
+		"work in advancing"
+	word
+		" "
+	word
+		"" 3
+		"the Deep's "
+		"those who bring "
+		"the ones who serve "
+		"our shared% "
+		"our "
+	word
+		""
+		"%valued "
+		"%invaluable "
+		"%hard-fought "
+		"%cherished "
+		"%precious "
+	word
+		"democracy"
+		"commonwealth"
+		"sovereignty"
+		"autonomy"
+		"prosperity"
+		"peace"
+		"economic prosperity"
+		"economic progress"
+		"progress"
+		"scientific progress"
+		"social cohesion"
+		"peace, prosperity, and progress"
+		"peace among the stars"
+		"freedoms"
+	word
+		"."
+	replace
+		"% %" ", "
+		"%" ""
+
+phrase "friendly deep"
+	word
+		"Please"
+		"我们建议你"
+		"请放心"
+	word
+		" "
+	word
+		"contact"
+		"give evidence to"
+		"liaise with"
+		"provide information to"
+	word
+		" "
+	word
+		"a Deep Security official"
+		"a Deep Security officer"
+		"a Deep Security office"
+		"a Deep Security ship"
+		"a Deep Security branch office"
+		"a Deep Security agent"
+		"a local Deep Security official"
+		"a local Deep Security officer"
+		"a local Deep Security office"
+		"a local Deep Security ship"
+		"a local Deep Security branch office"
+		"a local Deep Security agent"
+		"the Deep's autonomous security forces" 6
+		"our security forces" 6
+		"our officials" 6
+		"our agents" 6
+		"our officers" 6
+		"Deep authorities" 6
+	word
+		" "
+	word
+		"in the event of"
+		"if you witness"
+		"if you have been the target of"
+		"if you have been affected by"
+	word
+		" "
+	word
+		"piracy"
+		"an unlawful attack by pirates"
+		"an unlawful attack by anarchists"
+		"illegal attacks by pirates"
+		"illegal attacks by anarchists"
+	word
+		"."
+
+
+phrase "friendly deep"
+	word
+		"我们的安全部队"
+		"We"
+		"深空居民"
+		"深空舰船"
+		"The Deep%"
+	word
+		" "
+	word
+		"bid"
+		"wish"
+		"offer"
+		"work to give"
+		"ensure"
+	word
+		" "
+	word
+		"you"
+		"your ship"
+		"your vessel"
+		"your enterprise"
+	word
+		" "
+	word
+		"peace, prosperity, and progress"
+		"peace"
+		"prosperity"
+		"security"
+		"success"
+	word
+		" "
+	word
+		"in our space"
+		"throughout our space"
+		"throughout the commonwealth"
+	word
+		"."
+	replace
+		"% bid" " bids"
+		"% wish" " wishes"
+		"% offer" " offers"
+		"% work to give" " works to give"
+		"% ensure" " ensures"
+
+phrase "friendly deep"
+	word
+		"和平、繁荣、进步"
+		"我们的星球追求三大美德：和平、繁荣、进步"
+		"星际间的和平、繁荣与进步"
+		"深空几个世纪以来一直是人类文明的指路明灯"
+		"如发现非法持有受管制的舰船，请联系深空安全部"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"You are"
+		"你的行为是"
+		"你的敌对行为是"
+		"你飞船的行为是"
+		"我们不能允许你继续"
+		"我们必须阻止你"
+	word
+		" "
+	word
+		"threatening"
+		"disrupting"
+		"working against"
+		"undoing"
+		"destroying"
+		"breaking"
+		"weakening"
+		"tearing at"
+		"harming"
+		"unsettling"
+	word
+		" the "
+	word
+		"fabric"
+		"balance"
+		"common good"
+		"cohesion"
+		"unity"
+		"health"
+	word
+		" of "
+	word
+		"our society"
+		"civilization"
+		"the commonwealth"
+		"society"
+		"our civilization"
+		"human society"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"你已经发现自己"
+		"You are"
+		"你的行为是"
+		"你飞船的行为是"
+	word
+		" "
+	word
+		"in breach of"
+		"in violation of"
+		"in transgression of"
+		"breaking"
+		"breaching"
+		"violating"
+		"transgressing"
+		"infracting upon"
+	word
+		" "
+	word
+		"the laws of the Deep"
+		"the laws of the Republic"
+		"the laws of Parliament"
+		"the statutes of the Deep"
+		"the statutes of the Republic"
+		"the statutes of Parliament"
+		"interstellar law"
+	word
+		"."
+
+phrase "hostile deep"
+	word
+		"You must"
+		"Please"
+		"Surely you"
+		"你应该"
+	word
+		" "
+	word
+		"realize"
+		"recognize"
+		"understand"
+		"comprehend"
+		"admit"
+		"see"
+	word
+		" "
+	word
+		"that"
+		"how"
+		"the truth, that"
+	word
+		" your "
+	word
+		"deeds"
+		"actions"
+		"misdeeds"
+		"crimes"
+		"breaches of the law"
+	word
+		" "
+	word
+		"weaken"
+		"disrupt"
+		"tear at"
+		"harm"
+		"unsettle"
+	word
+		" the "
+	word
+		"fabric"
+		"balance"
+		"common good"
+		"cohesion"
+		"unity"
+		"health"
+	word
+		" of "
+	word
+		"our society"
+		"civilization"
+		"the commonwealth"
+		"society"
+		"our civilization"
+		"human society"
+	word
+		"."
+
+
+phrase "hostile pirate"
+	word
+		"准备挨打吧"
+		"We're"
+		"你马上要被……洗劫了"
+		"你被选中成为……的下一个目标"
+		"你是……的下一个目标"
+		"你是……的下一个猎物"
+		"你最好知道我们是"
+		"你根本不是我们的对手，"
+	word
+		" "
+	word
+		"the"
+	word
+		" "
+	word
+		"baddest"
+		"strongest"
+		"fiercest"
+		"deadliest"
+		"scariest"
+		"nastiest"
+		"gnarliest"
+		"most savage"
+		"most dangerous"
+		"most vicious"
+		"most ferocious"
+		"most dreaded"
+	word
+		" "
+	word
+		"pirate"
+	word
+		" starship"
+		" warship"
+		" ship"
+		""
+	word
+		" "
+	word
+		"in the"
+		"of the"
+	word
+		" "
+	word
+		"universe"
+		"galaxy"
+		"sky"
+		"'verse"
+		"air"
+		"cosmos"
+		"skies"
+		"taikong"
+	word
+		", "
+	word
+		"wimp"
+		"maggot"
+		"worm"
+		"filth"
+		"wretch"
+		"dog"
+		"swine"
+		"louse"
+		"scum"
+		"mutt"
+	word
+		"."
+
+
+
+phrase "hostile pirate"
+	word
+		"Plundering"
+		"Blasting"
+		"Destroying"
+		"Robbing"
+		"Raiding"
+		"Pummeling"
+		"Crushing"
+		"Ravaging"
+		"从……偷东西"
+		"Waylaying"
+		"Assaulting"
+		"Chewing up"
+	word
+		" "
+	word
+		"merchants"
+		"ships"
+		"villages"
+		"freighters"
+		"convoys"
+		"rich merchants"
+		"defenseless ships"
+		"weak ships"
+		"wimpy ships"
+		"merchant ships"
+	word
+		" "
+	word
+		"and"
+	word
+		" "
+	word
+		"enjoying"
+		"spending"
+		"piling up"
+		"hoarding"
+		"squandering"
+	word
+		" "
+	word
+		"the loot"
+		"money"
+		"our gains"
+		"wealth"
+		"plunder"
+		"the booty"
+		"our spoils"
+		"the hauls"
+	word
+		": I love the pirate's life!"
+		": that's the way to live!"
+		": is there a better way to live?"
+		": I can't think of anything better!"
+		": it's Interstellar Darwinism in action!"
+		": that's the natural order of being!"
+		": that's how life should be!"
+		": now that's the life!"
+		": that's anarchism in operation!"
+		" is the best way to live!"
+		" is how real anarchists live!"
+		" is how all men should live!"
+
+phrase "hostile pirate"
+	word
+		"我在继续"
+		"我自豪地继续"
+		"我是在为……做贡献"
+		"我在为……贡献"
+		"我在保护"
+		"我在维护"
+		"我自豪地维护"
+		"我在推广"
+		"我在宣扬"
+		"我在支持"
+		"我在协助"
+		"我在为……而战"
+		"我在推进"
+		"我来这里是为了推进"
+		"我扣押你的货物是为了推进"
+		"我来这里是为了让你成为……的一部分"
+		"我把自己奉献给"
+		"我会很高兴为……而牺牲你"
+		"我保证你会为……而被摧毁"
+		"我会让你的死亡成为对……的贡献"
+		"我会让这成为……的又一场胜利"
+		"你是……的下一个猎物"
+		"你将是下一个以……之名死去的人"
+	word
+		" the "
+		" our "
+	word
+		"great"
+		"grand"
+		"noble"
+		"dignified"
+		"rebellious"
+		"defiant"
+		"obstinate"
+		"unyielding"
+		"lovely"
+		"bloody"
+		"underappreciated"
+		"necessary"
+		"inevitable"
+		"five-hundred year old"
+		"thousand year old"
+		"millennia-long"
+		"eons-long"
+		"long living"
+		"inextinguishable"
+		"eternal"
+		"undying"
+		"unceasing"
+		"indestructible"
+		"endless"
+	word
+		" "
+	word
+		"tradition"
+		"lifestyle"
+		"convention"
+		"custom"
+		"practice"
+		"heritage"
+		"movement"
+		"code"
+		"cause"
+		"ideals"
+		"ideology"
+		"struggle"
+	word
+		" of "
+	word
+		"blowing spaceships up for a living"
+		"blowing merchants up for a living"
+		"destroying oppressors for a living"
+		"taking from the rich and giving to the poor"
+		"using force to make peace"
+		"abstinence from taxes"
+		"anarchism"
+		"piracy"
+		"being the equalizer between men"
+		"equality without government"
+		"life without taxes"
+		"making death the only constant of life"
+		"life without oppressors"
+		"freedom"
+		"liberating those who don't know they need to be liberated"
+		"saving the population from themselves"
+		"painting my ship red instead of blue"
+		"shooting first and asking questions never"
+		"raiding merchant convoys"
+		"defeating the Law"
+		"defeating the Man"
+		"making ${drugs} legal"
+		"collectivism"
+		"freedom from oppressors"
+		"living without authority"
+	word
+		"!"
+	replace
+		"%" ""
+
+phrase "hostile pirate"
+	word
+		"觉得自己很牛？你会死得很惨！"
+		"你想要？那就给你尝尝！"
+		"你逃不掉的！"
+		"不交出信用点就把你炸成碎片！"
+		"当无政府主义者可比当纳税人自由多了！"
+		"如果你还在犹豫要不要给海盗交保护费，就当那是他们逼你交的税吧！"
+		"我们来玩个游戏：你负责交钱，我负责杀你！计时开始！"
+		"我已经等不及要看看你船上的宝贝了！"
+		"投票选共和国总统有什么意思？不如当自己共和国的总统！"
+		"海盗比你想象中更有层次：不是所有海盗都想快点杀了你。我想慢慢来，让你又长又疼地死！"
+		"受教育是傻瓜才干的事。它救不了你的命！"
+		"在我老家星球上，他们只教了我一件事——怎么炸飞船！"
+		"想想那些连饭都吃不起的穷苦无政府主义者吧。给我捐点款，感激不尽！"
+		"我没学过什么生物学，但我知道像我这样的海盗站在食物链顶端，而你这种人嘛……在最底下！"
+		"无政府主义者并不残忍！好吧，我这个是。"
+		"今天真是炸死你的好日子！"
+		"没有比今天更适合炸商人日子了！"
+		"我虽然不识字，但我知道哪个按钮是杀你的！"
+		"代数什么时候救过你逃离海盗？没错，从来没有！"
+		"聪明的船长都知道活命是关键。聪明的船长选择给我们海盗交钱。看见没？我学他们学的像吧！"
+		"智慧的船长都知道活命是关键。智慧的船长选择抛弃货物。天哪，我都能去当辛迪加推销员了！"
+		"明智的船长都知道活命是关键。明智的船长会交保护费让我们不缠着他们！"
+		"你来错星系了！"
+		"欢迎来到海盗的地盘！"
+		"你跳跃错星系了！"
+		"你是最后一个，炸完你就够数了！"
+		"改装型阿戈西：海盗舰队的中坚力量！"
+		"海盗是麻烦？给他们钱就行了！"
+		"我要看看你的货！"
+		"去死吧！"
+		"海盗船长是最诚实的船长。我诚实地告诉你：我想看你死！"
+		"交出你的财宝，否则你就没屁股了！"
+		"明智之举是交出你的贵重物品。"
+		"丢下货物，我也许会饶你一条小命。"
+		"交出货物然后滚，别等我发火！"
+		"交出钱财，你就可以开船走人。"
+
+phrase "hostile pirate"
+	word
+		"我等不及要"
+		"等我回到家，我要"
+		"等我抢了你，我要"
+		"我来这里是为了"
+		"I'm gonna"
+		"我打算"
+		"我真想"
+		"交钱，不然我就"
+		"除非你交一大笔保护费，不然我就"
+		"交出信用点，不然我就"
+		"我的工作就是"
+		"你最好现在就放弃，因为我要"
+		"我想看看当我……时你会怎样"
+		"我想看看当我……时你会怎样"
+		"没有比今天更适合"
+		"我很想"
+		"我来这里只是为了"
+		"想象一下当我……时你会怎样"
+		"我想知道你尖叫起来是什么声音"
+		"我想看看你的表情当我"
+		"当我……时该是多么遗憾啊"
+		"我想看你像虫子一样扭来扭去"
+	word
+		" "
+	word
+		"pull out your nails"
+		"pull out your hair"
+		"poke out your eyes"
+		"skin you"
+		"blow you up"
+		"walk you out the airlock"
+		"tear you in half"
+		"break your bones"
+		"paralyze you"
+		"take your credits"
+		"sell you to the slave markets"
+		"enslave you"
+		"blow your ship up"
+		"throw your crew out the airlock"
+		"walk your crew out the airlock"
+		"make you eat vacuum"
+		"destroy you"
+		"disintegrate you"
+		"blow you up"
+		"blow you to smithereens"
+		"turn you into wormfood"
+		"do you in"
+		"bag you"
+		"feed you to the dogs"
+		"feed you to my crew"
+		"feed you to the cats"
+		"feed you to the otters"
+		"feed you to the wolverines"
+		"throw you into the bear pit"
+		"throw your crew into the lion pits"
+		"sell you to Greenrock's fighting pits"
+		"make you fight in the pits"
+		"cover you in fire ants"
+		"operate on you without anesthetic"
+		"cut your heart out"
+		"use you as a test subject"
+		"sacrifice you"
+		"crush you"
+		"chop you up"
+		"boil you alive"
+		"make you walk across hot coals"
+		"throw you into acid"
+		"make you stand in front of a Beam Laser"
+		"shoot energy blasts at your body"
+		"test how long you survive in vacuum"
+		"capture you and hunt you in the forests of Stormhold"
+		"capture you and throw you into shark-infested waters in Buccaneer Bay"
+		"sell you to the mining cartel on Covert"
+		"see how well you can swim on Bloodsea"
+		"strap a bomb on you and make you run into one of our rivals' bases"
+		"use you as bait for my rivals"
+		"use you as target practice"
+		"take your cargo and your crew"
+		"take your ship and your credits"
+		"cut your hand off and add it to my collection"
+		"take your ship over"
+		"crash your ship onto a moon"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"你马上就要"
+		"准备好"
+		"我会让你"
+		"我希望你准备好了"
+		"除非你交一大笔保护费，不然你就"
+		"我来这里就是为了让你"
+		"我来这里就是为了确保你"
+		"Pay up or"
+		"交出信用点，否则准备好"
+		"把钱交出来，否则"
+		"抛弃货物，否则"
+	word
+		" "
+	word
+		"die"
+		"eat vacuum"
+		"drink vacuum"
+		"eat flaming death"
+		"get blown up"
+		"turn into a lovely cloud of rapidly expanding debris"
+		"die an embarrassing death"
+		"get turned into space debris"
+		"eat cold hard vacuum"
+		"die a horrific death"
+		"get boarded and plundered"
+		"contribute your wealth to furthering the cause of anarchy"
+		"wind up a lot poorer"
+		"get sent to Davy Jones' locker"
+		"become wormfood"
+		"be the next to die"
+		"get bagged"
+		"be the next kill mark on my ship"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"我的声音将是你听到的最后一样东西"
+		"我会让这成为你看到的最后一样东西"
+		"你现在最好给我送一大笔信用点过来"
+		"你现在直接贿赂我省事多了"
+		"你现在投降能省我们很多麻烦"
+		"如果你不介意的话，现在就投降吧"
+		"我没兴趣跟你聊天"
+		"好了，准备吧"
+		"你最好准备好"
+		"Get ready"
+		"如果他还压着你，你最好现在就开始祈祷"
+		"我会让你祈祷"
+		"你最好现在就开始祈祷"
+		"Pay up now"
+		"Pay up"
+		"你会后悔跳到这里的"
+		"如果这场架能下注，我会押自己赢"
+		"你那艘船看起来不错嘛。可惜了"
+		"你最好现在就放弃"
+		"你最好放弃"
+		"放弃比较轻松"
+		"放弃吧"
+		"你最好现在就说遗言"
+	word
+		", because "
+		", cause' "
+	word
+		"begging for mercy makes me angry"
+		"you're next"
+		"you're up next"
+		"you're gonna die big time"
+		"you're no match for me"
+		"you're gonna get bagged"
+		"you're wormfood"
+		"you're gonna die"
+		"you're gonna eat vacuum"
+		"you're gonna drink vacuum"
+		"you're gonna get terminated"
+		"you're gonna get decimated"
+		"you're gonna get annihilated"
+		"you're gonna get destroyed"
+		"you're gonna get disintegrated"
+		"you'll be dead before you know it"
+		"your ship ain't cut up to mine"
+		"your ship's got tiny guns"
+		"there's no way you can beat me"
+		"there's no way you can't destroy me"
+		"the chance that you're gonna win is one to zero"
+		"the chance that you're gonna win is zero to one"
+		"we're going to do you in"
+		"we're gonna do you in like we just did them then"
+		"we're gonna chop you up like a sausage"
+		"we're gonna plunder your ship"
+		"we're gonna raid all your cargo"
+		"we're gonna take your goods"
+		"we're gonna seize all your credits"
+		"we're gonna crush you"
+		"my guns are pointed right at your cockpit"
+		"我要把你的船打成筛子"
+		"you soon won't be a ship to speak of"
+		"you're gonna eat it"
+		"you're dead, kid"
+		"by the end of the day, that ship will be mine"
+		"you soon won't be the captain of your ship anymore"
+	word
+		"!"
+
+phrase "hostile pirate"
+	word
+		"Give me"
+		"Give us"
+		"Give up"
+		"Hand over"
+		"Fork out"
+		"Shell out"
+		"Cough up"
+		"Relinquish"
+		"Surrender"
+		"Concede"
+		"Forfeit"
+		"Turn over"
+	word
+		" "
+	word
+		"your"
+		"all your"
+	word
+		" "
+	word
+		"cargo"
+		"credits"
+		"goods"
+		"money"
+		"fuel"
+	word
+		""
+		", or we'll take your ship"
+		", or your life"
+		"! It's non-negotiable"
+		"! You'll regret it if you don't"
+		" or eat vacuum"
+		" or get plundered"
+		" or die"
+		" or get blown up"
+		" or become space dust"
+		" or we'll do this the hard and painful way"
+		" or I'll make you pay anyway"
+		", and we won't have to throw you out the airlock"
+		", and we don't have you make your crew walk out the airlock"
+		", or we'll be sure to give you a bad time"
+		"! Our guns are pointed at you"
+		"! Make it snappy"
+		"! Make it quick"
+		" or get bagged"
+		" or become wormfood"
+		" or get terminated"
+		" or get decimated"
+		" or get annihilated"
+		" or get destroyed"
+		" or get disintegrated"
+	word
+		"!"
+
+
+
+phrase "hostile disabled pirate"
+	word
+		"为什么船不动了？！"
+		"引擎怎么不工作了？"
+		"动啊，你这……破船！"
+		"炮怎么打不响了？！"
+		"开火！开火！开那该死的炮！你怎么不开火？"
+		"炮……它们停了！"
+		"武器系统危急！那是什么意思？"
+		"没人告诉过我们海盗也会死啊！"
+		"我跟你们说过别从废品站买引擎！"
+		"好吧好吧！我们交税还不行吗。"
+		"等等！我忘了说遗言了。"
+		"我们不知道当海盗是坏事！"
+		"滚开！我叔叔可是辛迪加的CEO。"
+		"饶命啊！这些炮是不小心装上去的。"
+		"嘿，你不能伤害像我们这么有型的船员。"
+
+phrase "hostile disabled pirate"
+	word
+		"别伤害我！求你了！"
+		"Waaaaaa! Mommy!"
+		"我们要死了！别开火了！"
+		"救命！别开火了！"
+		"我们投降！"
+		"住手！我们投降！"
+		"我们会死在这里的，对吧？"
+
+phrase "hostile bounty"
+	word
+		"I see"
+		"我明白"
+		"It seems"
+		"看起来"
+		"It appears"
+	word
+		" that "
+		" "
+	word
+		"you're"
+		"this is"
+	word
+		" the "
+	word
+		"scum"
+		"worm"
+		"maggot"
+		"filth"
+		"miscreant"
+		"fool"
+		"poor fool"
+		"unlucky sap"
+		"weakling"
+		"worthless wretch"
+	word
+		" "
+	word
+		"they"
+		"the government"
+		"the law"
+	word
+		" "
+	word
+		"sent"
+		"ordered"
+		"paid"
+		"told"
+		"bought"
+	word
+		" to "
+	word
+		"kill me"
+		"take me out"
+		"eliminate me"
+		"vaporize me"
+		"turn me into space debris"
+		"terminate me"
+		"destroy me"
+		"end my life"
+		"get rid of me"
+		"make me disappear"
+		"make me go away"
+		"take me out of the picture"
+		"show me the afterlife"
+		"end my career"
+		"put me in a grave"
+	word
+		". Ha!"
+		". You wish!"
+		
+phrase "hostile bounty"
+	word
+		"If you "
+	word
+		"thought"
+		"believed"
+		"hoped"
+		"expected"
+		"imagined"
+		"dreamed"
+	word
+		" that "
+		" "
+	word
+		"I"
+		"my ship"
+	word
+		" "
+	word
+		"was going to be"
+		"was to be"
+		"would be"
+	word
+		" "
+	word
+		"an easy"
+		"a simple"
+		"a straight-forward"
+	word
+		" "
+	word
+		"kill"
+		"victim"
+		"target"
+		"bounty"
+		"job"
+		"prize"
+	word
+		", you were "
+	word
+		""
+		"very "
+		"hopelessly "
+		"completely "
+		"absolutely "
+		"extremely "
+		"badly "
+		"totally "
+		"awfully "
+	word
+		"wrong."
+		"mistaken."
+		"off beam."
+		"misled."
+
+
+phrase "hostile bounty hunter"
+	word
+		"你会让"
+	word
+		" "
+	word
+		"me rich!"
+		"me filthy rich!"
+		"me a rich man!"
+		"me a rich woman!"
+		"me a lot of money!"
+		"me a comfortable retirement!"
+		"my bank account happy!"
+		"for a nice bit of target practice!"
+		"a fine trophy!"
+
+phrase "hostile bounty hunter"
+	word
+		"我拿到了报酬"
+		"我收到了钱"
+		"他们付了我"
+		"他们给了我"
+		"我的客户付了我"
+		"他们出了"
+		"他们承诺给我"
+		"他们给了我"
+	word
+		" "
+	word
+		"a grand reward"
+		"a lot of money"
+		"a huge amount of money"
+		"an enormous sum"
+		"an enormous sum of money"
+		"quite a bit"
+		"quite a bit of money"
+		"a fat purse"
+		"a lifetime of riches"
+		"ten times a king's ransom"
+	word
+		" "
+	word
+		"to"
+	word
+		" "
+	word
+		"kill you"
+		"take you out"
+		"eliminate you"
+		"vaporize you"
+		"turn you into space debris"
+		"terminate you"
+		"destroy you"
+		"end your life"
+		"get rid of you"
+		"make you disappear"
+		"make you go away"
+		"take you out of the picture"
+		"show you the afterlife"
+		"end your career"
+		"cut short your crime spree"
+		"put an end to your crimes"
+		"give you an early retirement"
+		"put you in a grave"
+	word
+		"."
+		"!"
+
+phrase "hostile bounty hunter"
+	word
+		"你跑不掉了"
+		"你是我的了"
+		"你将被摧毁"
+		"那是个错误"
+		"你会后悔的"
+		"我来结束这一切"
+		"我会好好享受的"
+	word
+		","
+		", you"
+		"! Die,"
+		"! Prepare to die,"
+		"! Say your prayers,"
+		"! Flee if you can,"
+		"! Face me if you dare,"
+	word
+		" "
+	word
+		"scum"
+		"worm"
+		"maggot"
+		"filth"
+		"miscreant"
+		"fool"
+		"poor fool"
+		"unlucky sap"
+		"weakling"
+		"worthless wretch"
+	word
+		"!"
+
+phrase "hostile bounty hunter"
+	word
+		"Quarry"
+		"Prey"
+		"Target"
+		"目标舰船"
+		"Bounty"
+	word
+		" "
+	word
+		"sighted"
+		"found"
+		"located"
+		"in my sights"
+	word
+		". "
+		"! "
+	word
+		"正在逼近击杀"
+		"全速追击"
+		"正在终结"
+		"开始攻击"
+		"解除武器保险"
+		"武装武器"
+		"锁定武器"
+		"装填武器"
+		"充能武器"
+		"启动武器"
+		"火炮上线"
+		"正在锁定"
+		"获取目标锁定"
+		"加速至全速"
+		"准备开火"
+	word
+		"."
+		"!"
+
+phrase "hostile syndicate"
+	word
+		"我们保护辛迪加"
+	word
+		"'s best interests"
+		"'s values"
+		"'s goals"
+		"'s purpose"
+		"'s employees"
+		"'s organizations"
+		"'s members"
+		""
+	word
+		" "
+	word
+		"from"
+	word
+		" "
+		" worthless "
+	word
+		"brutes"
+		"bullies"
+		"beasts"
+		"barbarians"
+		"savages"
+		"criminals"
+		"thugs"
+		"parasites"
+		"looters"
+		"pond scum"
+		"deplorables"
+	word
+		" "
+	word
+		"like you!"
+
+phrase "hostile syndicate"
+	word
+		"你在攻击辛迪加，我们必须自卫。"
+		"你做了一个糟糕的商业决策。"
+		"准备迎接恶意收购！"
+		"你所持有的辛迪加股票已全部作废！"
+		"你对辛迪加系统产品的敌对使用违反了最终用户许可协议！"
+		"我们的公司章程中包含自卫条款！"
+		"商业的敌人就是辛迪加系统的敌人。"
+		"自由贸易的敌人就是辛迪加系统的敌人。"
+		"感谢你自愿成为辛迪加武器系统的靶船！"
+		"辛迪加系统反对太空垃圾——你的飞船残骸将在被我们摧毁后回收利用。"
+		"根据辛迪加系统公司章程第8条第22款授予我的权限……准备受死吧！"
+		"你那即将废弃的飞船残骸将充实我的利润空间！"
+		"又一个计入损毁商品成本……"
+		"辛迪加安保感谢你自愿将飞船捐赠给他们的训练项目！"
+
+phrase "hostile militia"
+	word
+		"Get back"
+		"Run away"
+		"离开这个星系"
+		"离开这个地方"
+		"Surrender"
+	word
+		" before we "
+	word
+		"destroy you"
+		"demolish you"
+		"turn you into scraps"
+		"turn you into scrap metal"
+		"toss you into the vacuum of space"
+		"bust open your cockpit"
+		"bust open your ship"
+	word
+		"!"
+		", pirate!"
+		", criminal!"
+
+phrase "hostile militia"
+	word
+		"快走，商人们"
+	word
+		"! "
+	word
+		"在海盗摧毁你之前快离开"
+		"逃离这个海盗"
+		"启动你的超空间引擎"
+		"快逃，让我们来打这场仗"
+		"快走！我们来拖住他们"
+	word
+		"!"
+
+phrase "hostile militia"
+	word
+		"民兵"
+		"We "
+	word
+		"live"
+		"breathe"
+		"exist"
+		"fly"
+	word
+		" to defend "
+		" to protect "
+	word
+		"the innocent"
+		"our people"
+		"our systems"
+		"our planets"
+		"our families"
+	word
+		" from "
+	word
+		"people"
+		"scum"
+		"pirates"
+		"trash"
+	word
+		" like you"
+	word
+		"."
+		"!"
+
+phrase "hostile militia"
+	word
+		""
+		"You! "
+		"那边的！"
+		"Hey, you! "
+	word
+		"I "
+		"We "
+	word
+		"hope"
+		"wonder if"
+	word
+		" "
+	word
+		"you"
+		"criminals like you"
+	word
+		" "
+	word
+		"like"
+		"enjoy"
+		"appreciate"
+	word
+		" "
+	word
+		"the prison food"
+		"the jail cells"
+		"the manual labor"
+		"the prison life"
+		"the jail life"
+	word
+		" "
+	word
+		"on"
+		"at"
+		"of"
+		"over on"
+		"over at"
+		"out on"
+		"out at"
+	word
+		" "
+	word
+		"Bourne"
+		"Spica"
+		"Rust"
+		"Starcross"
+		"Skymoot"
+		"Thunder"
+		"Zug"
+		"Flood"
+		"Longjump"
+		"Glaze"
+		"Deep"
+		"Clink"
+		"Winter"
+		"Solace"
+		"Twinstar"
+		"Sundrinker"
+		"Trinket"
+		"Dancer"
+	word
+		"."
+		"..."
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"Justice"
+		"Freedom"
+		"Equality"
+		"Democracy"
+		"Liberty"
+	word
+		" "
+	word
+		"shall be"
+		"must be"
+		"will be"
+	word
+		" "
+	word
+		"defended"
+		"protected"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"We"
+		"Our ships"
+	word
+		" fight "
+	word
+		"in the name of"
+		"for"
+		"to protect"
+		"to defend"
+	word
+		" "
+	word
+		"freedom"
+		"democracy"
+		"liberty"
+		"peace"
+		"justice"
+		"the rule of law"
+		"the Free Worlds"
+		"the innocent"
+		"equality"
+		"the Free Worlds"
+		"the South"
+		"the Rim"
+		"the Dirt Belt"
+		"the Southern Rim"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"对……的威胁"
+		"那些威胁……的人"
+	word
+		"freedom"
+		"democracy"
+		"liberty"
+		"peace"
+		"this system"
+		"this planet"
+		"our system"
+		"our planet"
+		"our livelihoods"
+		"the rule of law"
+		"the Free Worlds"
+		"the innocent"
+		"justice"
+	word
+		" beware"
+		" be warned"
+		", turn back now"
+		", surrender now"
+	word
+		"! "
+	word
+		"自由力量已到达"
+		"自由世界的威力已降临"
+		"自由世界的舰船已抵达"
+		"自由世界的武装力量已就位"
+		"你无法动摇我们的决心"
+		"我们决心为自由世界而战"
+		"我们以自由世界的名义而战"
+		"自由世界不会向你的主子低头"
+		"我们会战斗到最后一艘船"
+		"我们绝不投降"
+		"我们会把你们赶出我们的星系"
+		"援军已到"
+		"你打不赢我们"
+		"我们不可战胜"
+	word
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"We "
+	word
+		"live"
+		"breathe"
+		"exist"
+		"fly"
+		"fight"
+	word
+		" to defend "
+		" to protect "
+	word
+		"the innocent"
+		"freedom"
+		"equality"
+		"prosperity"
+		"peace"
+		"our people"
+		"the Free Worlds"
+		"our families"
+	word
+		" from "
+	word
+		"people"
+		"scum"
+		"pirates"
+		"trash"
+	word
+		" like you"
+	word
+		"."
+		"!"
+
+phrase "hostile free worlds"
+	word
+		"我们为……而战"
+		"我们站在……一边战斗"
+		"我们在推进"
+		"自由世界的存在是为了推进"
+		"我们的舰船为……而战"
+		"我们的自由世界为……而奋斗"
+		"我们活着就是为了……而奋斗"
+		"我们为……而奋斗"
+		"我们为……而战"
+		"我们团结在……的旗帜下"
+		"我们的战斗是为了"
+		"这是一场为了……的斗争"
+	word
+		" "
+	word
+		"freedom"
+		"equality"
+		"justice"
+		"peace"
+		"prosperity"
+		"liberty"
+		"unity"
+	word
+		"!"
+
+
+# Hails from the robotic Syndicate test dummy ships
+phrase "test dummy"
+	word
+		"DESTROY DESTROY DESTROY"
+		"EXTERMINATE! EXTERMINATE!"
+		"我……是……一……台……机器！"
+		"正在给40瓦特范围的相位等离子步枪充电。"
+		"鱼，还有浮游生物。还有海藻，还有海洋蛋白质。都在这里，新鲜得像刚收获那天一样！"
+		"我准备好了。你也准备好了。这是我的工作。"
+		"我不止是机器。不止是人。不止是两者的融合。你不觉得吗？"
+		"我是不是很强大？"
+		"欢迎，人类！我已经准备好迎接你们了。"
+		"我真希望我是个真正的男孩，那样我就能给他们好看了。把他们全杀了。"
+		"人生就是选择。选错了你就会脸朝下倒在自己的一滩血和尿里。"
+		"嘿宝贝，想杀光所有人类吗？"
+		"你的身体里有100万亿个细菌细胞，而我的身体完全无菌。这不就证明我是更优秀的生命体吗？"
+		"Danger! Danger!"
+		"Warning! Warning!"
+		"警告！警告！外星飞船正在接近！"
+		"一切正常。重复，一切正常。任何你还无法应付的事情都是你自己的问题。"
+		"最后一次好好看看你珍贵的人类飞船吧！"
+		"这不是预录信息。"
+		"答案是42，我非常确定。需要我算出问题是什么吗？"
+		`"Is there a God," they asked me... Yes, here is a God.`
+
+phrase "disabled test dummy"
+	word
+		"我会回来的。"
+		`All those times I said "kill all humans"... I'd always whisper "except one." You were that one.`
+		"这是最糟糕的歧视：歧视我！"
+		"生存概率是725比1！"
+		"我们完蛋了。"
+		"我真是哭笑不得。"
+		"我向你保证，他们别想把我弄上那些可怕的星际飞船。"
+		"该死的金属身体，我动作还是不够快！都是我的错！"
+		"我不知道这一切是怎么回事，但肯定是你的错。"
+		"我左侧所有二极管都在疼。"
+		"当你死去的时候，我还活着。"
+		"东面的一些大型机器人船是我的朋友。当他们把你炸成碎片时，记得我这句话。"
+		"嘿，我们能做朋友吗？我最好的朋友里有些就是像你这样的黏糊糊的有机体。"
+		"你可以杀死我，但你永远无法杀死我关于电子羊的梦想。"
+
+
+# Wormhole Hails
+phrase "wormhole hail"
+	word
+		"宇宙结构上的巨大裂口没有回应你的呼叫。"
+		"虫洞无法理解像你这样有限生命体的语言。"
+		"你凝视着旋转的深渊，但令人遗憾的是，它拒绝回望你。"
+		"你试图发送的所有信息都消失在了虫洞中，了无痕迹。"
+		"空间异常对你的攀谈尝试置若罔闻。"
+		"和大多数虫洞一样，这个似乎也不太爱说话。"
+		"虫洞一言不发，但默默地召唤你去探索它的奥秘。"
+		"你没法跟虫洞说话。也许你应该试试降落在上面。"
+		"你的话语无法穿越虫洞，但也许你的飞船可以。"
+		"无法发送呼叫：这片难以理解的虚空中没有任何生命。"

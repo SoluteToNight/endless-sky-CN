@@ -1,0 +1,15 @@
+mission "Han Sizer Month [0]"
+	name `韩·赛泽庆典`
+	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`
+
+mission "Han Sizer Month [1]"
+	name `韩·赛泽庆典`
+	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`
+
+mission "Han Sizer Month [2]"
+	name `韩·赛泽庆典`
+	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`
+
+mission "Han Sizer Month [3]"
+	name `韩·赛泽庆典`
+	description `为庆祝韩·赛泽月，将<fare>带到所有标记的星系，然后返回<destination>领取<payment>。`

@@ -1,0 +1,15 @@
+mission "FW Bounty 1"
+	name "Free Worlds Bounty Hunting"
+	description `追捕并消灭"老鼠帮"——一伙由一艘名叫"Cluny"的旗舰领导的海盗船，他们一直在自由世界空间骚扰商船。最近一次被发现是在Kornephoros的东北方向。击败他们后，返回<destination>。`
+
+mission "FW Bounty 2"
+	name "Free Worlds Bounty Hunting"
+	description `一位来自<destination>的自由世界民兵军官请你追捕<npc>，一艘在前往Tarazed的航线上劫掠的海盗船。民兵军官建议试着从远处攻击这艘船。`
+
+mission "FW Bounty 3"
+	name "Free Worlds Bounty Hunting"
+	description `一位来自<destination>的自由世界民兵军官请你追捕<npc>，一艘强大的海盗船，最后一次被发现在Shaula星系。`
+
+mission "FW Katya 3"
+	name "Drone Hunting"
+	description `瘫痪一架监视无人机（最好是在没有巡洋舰看着的时候），登上去，"打捞"其监视设备，然后返回<destination>。（在你离开瘫痪无人机所在星系之前，其他共和国舰船可能会攻击你。）`

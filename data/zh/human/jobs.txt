@@ -1,0 +1,11 @@
+mission "Stranded Field Trip"
+	name "Stranded field trip to <planet>"
+	description `这<bunks>名学生因预定交通公司意外破产而滞留在实地考察途中。将他们及其<tons>行李送回<destination>的家中，可获得<payment>的报酬。`
+
+mission "FW Cold Aid [1]"
+	name "Cold relief to <planet>"
+	description `<destination>发生了一场严重的<problem>，星球上的多个定居点都受到了影响。请在<date>之前运送<cargo>到<planet>以协助恢复工作。报酬为<payment>。`
+
+mission "FW Cold Aid [2]"
+	name "Cold relief to <planet>"
+	description `<destination>发生了一场严重的<problem>，星球上的多个定居点都受到了影响。请在<date>之前运送<cargo>到<planet>以协助恢复工作。报酬为<payment>。`

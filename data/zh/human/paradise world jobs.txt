@@ -1,0 +1,19 @@
+mission "Paradise Job: Parolees"
+	name "Parolees to <planet>"
+	description `这 <bunks> 名非暴力惯犯接受了更长的社区服务刑期，以换取在乐园世界 <destination> 服刑。他们需要用配有禁闭设施的船只运送。报酬为 <payment>。`
+
+mission "Paradise Job: Debtors"
+	name "Debtors to <planet>"
+	description `这 <bunks> 个可怜人因为生活奢靡入不敷出而破产了。作为处理方式，当地政府将支付你 <payment>，把他们用安保船只运到 <destination> 去"发挥余热"。`
+
+mission "Paradise Job: Pirate Retirees (Illegal)"
+	name "Wealthy retirees to <planet>"
+	description `这一小群 <bunks> 位富有的"退休人士"愿意支付 <payment>，以求有格调、不问缘由地将他们及 <tons> 最珍爱的物品送往 <destination>。`
+
+mission "Paradise Job: Pirate Retirees (Legal)"
+	name "Wealthy retirees to <planet>"
+	description `这一小群 <bunks> 位富有的"退休人士"愿意支付 <payment>，以求有格调、不问缘由地将他们及 <tons> 最珍爱的物品送往 <destination>。`
+
+mission "Paradise Job: Wilderness Retreat"
+	name "Wilderness Retreat to <planet>"
+	description `将 <bunks> 名伪名流和富有的游客带到狂野未驯的星球 <destination>，参加一场"荒野疗养"。他们只会在你能确保舒适旅程的前提下才考虑你的船。报酬为 <payment>。`

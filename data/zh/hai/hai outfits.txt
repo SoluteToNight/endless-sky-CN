@@ -1,0 +1,140 @@
+outfit "Phantom Pallet"
+	description `海族全息装备由一组独立的"全息垫"组成，它们协同工作以创造更大的场景。幻影集装器是这些全息垫的解缚者变体，足够坚固以在交火中幸存，并且可以轻松隐藏在地板下、墙壁内或天花板中而保持不被发现。一个有事业心的私掠者可以在货舱中填充这些，将假货物投射为传感器幻影，使扫描器被迷惑而扫描空荡荡的空间而非违禁品；那段额外的时间有时就是被扣押货物与成功送达急需补给之间的区别。`
+
+outfit "Holovid Zone"
+	description "	可能性是无穷的……尤其对于一个滥用该设备的狡猾船长来说。如果当局搜查违禁品或非法装备，全息影院区或许能欺骗他们足够长的时间让走私者逃脱。在装满五十吨全息稻草的船上，死亡棒是很难找到的。"
+
+outfit "Pulse Cannon"
+	description `与你见过的多数海族工程范例一样，脉冲炮并不是一项特别先进或优雅的技术，但它以高效、可靠和均衡而闻名。`
+
+outfit "Pulse Turret"
+	description `脉冲炮是海族舰船上的主要攻击性武器。这个炮塔并排安装了两门脉冲炮，使它们能够追踪甚至是最快的目标。`
+
+outfit "Tripulse Shredder"
+	description `三脉冲撕碎者是研发更佳、更快武器以与漫游者抗衡的早期阶段产物，它由三门脉冲炮安装在同一外壳中。冷却技术的进步降低了每发射击的热量，代价是消耗稍多的能量。此外，共享的外壳导致了不太稳定的射击模式，使其限定为爆发式射击。这些因素使三脉冲撕碎者成为解缚者中流行的打带跑武器。`
+
+outfit "Ion Cannon"
+	description `离子炮造成的伤害不如某些其他武器，但它会干扰任何被击中舰船的电气系统，耗尽能量并导致其武器卡壳。如果一艘舰船拥有可观的电池储备，这可能影响甚微，但对于运行接近其能量发电容量的舰船来说，一次离子打击可能使其退出战斗几秒钟以恢复能量，或使其难以开火。`
+
+outfit "Ionic Blaster Prototype"
+	description `解缚者与其他海族的冲突给他们施加了压力，迫使他们尽管资源有限也要取得技术优势。离子爆能炮就是这种压力的结果。它比历史悠久的离子炮小得多，同时在同体积下造成更多直接伤害。它仍然能够施加一些相同的能量耗散效果，但解缚者科学家已将其推向相对更高地侧重于干扰敌方武器。`
+
+outfit "Ionic Turret Prototype"
+	description "	该设计尚无法大规模生产，但已生产出来的那些则被少数幸运拥有者珍视。"
+
+outfit "Railgun Slug"
+	description `船长轨道炮弹丸内置了能量释放电容器，可以对其目标造成少量离子伤害。尽管伤害不是特别大，但这种离子伤害再加上每次射击产生的显著后坐力，使跳蚤无人机成为有效的远程支援舰船。`
+
+outfit "Railgun Slug Rack"
+	description `这个轨道炮弹丸架用于储存和装载额外的船长轨道炮弹药。`
+
+outfit "Railgun"
+	description "	这种武器的弹药可以在任何装备商处补货。"
+
+outfit "Tracker Storage Pod"
+	description `追踪者存储舱用于储存追踪者吊舱的额外弹药。`
+
+outfit "Hai Tracker Pod"
+	description "	这种武器的弹药可以在任何装备商处补货。"
+
+outfit "Bullfrog Anti-Missile"
+	description `几个世纪前，海族使用更粗糙版本的追踪者作战，而这个就是当时对抗它们的主要防御武器。尽管设计过时，它仍然有效对抗少量最新的导弹武器。`
+
+outfit "Chameleon Anti-Missile"
+	description `变色龙反导弹炮塔比牛蛙具有更远的射程、更高的威力和更短的装填时间。`
+
+outfit "Hai Cuttlefish Jammer"
+	description `当海族之间开始相互战斗时，对追踪者对抗手段的需求迅速显现。墨鱼干扰器可以通过向其呈现一个看似更好但实为虚幻的目标，显著干扰追踪者对舰船的锁定。这种干扰器对于无法部署足够反导弹以有效对抗来自各个方向导弹的大型舰船最为有效。`
+
+outfit "Hai Octopus Jammer"
+	description `章鱼干扰器是墨鱼干扰器更激进的后代，专为解缚者的短途突袭而设计。在绕过几个安全电路的情况下，它能够更有效地欺骗来袭的追踪者，但随之而来更高的能量消耗使得携带此装备的舰船更容易受到离子武器的攻击。`
+
+outfit "Hai Corundum Regenerator"
+	description `海族护盾再生器通过微妙地改变护盾矩阵的几何结构和谐波来工作，使护盾更具可塑性，从而更容易充能。不幸的是，该系统需要持续的能源供应，并且在再生过程中会产生相当的热量。`
+
+outfit "Hai Diamond Regenerator"
+	description `海族钻石护盾再生器是一种先进的护盾充能技术。不幸的是，它的功率需求相当高，而且它对护盾矩阵的调整会在充能时使再生器产生强烈的热量。海族通常在配合疾风冷却器使用时安装此再生器。`
+
+outfit "Hai Williwaw Cooling"
+	description `虽然海族技术相当热效率，但偶尔他们也会为其舰船装备使得它们间歇性过热而停机。当这种情况发生时，他们就会安装这些。`
+
+outfit "Quantum Keystone"
+	description "	这块基石随附一套包含全息膜真品证书（证明其源自海族母星）、装饰性但坚固的框架以及印有基石标志和销售编号的小铭牌的包装。包装建议将装裱好的证书安装在一个靠近主气闸或公共公共区域的显眼位置。"
+
+outfit "Value Detector"
+	description `解缚者开发了这种扫描器以确定哪些舰船值得掠夺，哪些缺乏承受其离子武器的能力。有些海族认为它相当简陋，但它足以从远处识别舰船上的货物，并提供更详细的关于敌方舰船战术状况的信息。这种双重功能在部署实验性武器时很有用。`
+
+outfit "Hai Chasm Batteries"
+	description `海族电力储存技术已有数千年历史，但极为简洁和坚固。这是海族最小的电池组。`
+
+outfit "Hai Fissure Batteries"
+	description `这个电池组的能量容量是海族深峡电池的三倍以上，使海族舰船在能量耗尽前可以进行更长时间的战斗。`
+
+outfit "Hai Gorge Batteries"
+	description `这种中型电池组适合大多数海族的电力需求，可支持中等时长的战斗，但也可用于以小型发电机和超大引擎保持舰船的低碳足迹。`
+
+outfit "Hai Ravine Batteries"
+	description `这种大型电池组比更小的型号具有更高的能量密度，有助于舰船在承受数次离子炮打击后仍能继续战斗。`
+
+outfit "Hai Valley Batteries"
+	description `虽然大多数海族舰船不使用其最大的电池型号，但一些极为强大的战舰偶尔会配备一台，以保持其低碳足迹，并使其在对抗携带离子炮的敌人时能存活更长时间。`
+
+outfit "Boulder Reactor"
+	description `海族在其领土遭到科拉特人劫掠的时期设计了这些小型化聚变反应堆。在如今这相对和平的时代，他们认为没有必要更新设计。`
+
+outfit "Geode Reactor"
+	description `裂变反应堆在星际物种之间被认为是一种基础技术。尽管如此，它仍然是一种经过验证且安全的技术，即使海族也相当频繁地使用。`
+
+outfit "Pebble Core"
+	description `卵石核心是一个小型化核反应堆，小到可以安装在大于战斗机的任何舰船中。海族为其较小的舰船开发了这一型号。`
+
+outfit "Sand Cell"
+	description `沙粒电池是海族最小的发电机。它为那些不需要或无法携带核反应堆的舰船设计，明显类似于人类的燃料电池。`
+
+outfit `"Baellie" Atomic Engines`
+	description `海族在设计跳蚤时，很快便发现即使是"巴斯雷姆"引擎组对于这一用途也过于庞大。因此，一套整合了推进器和转向器的引擎组被创造出来："百烈。"`
+
+outfit `"Basrem" Atomic Thruster`
+	description `深渊的科学家们不知道的是，海族已使用原子引擎技术数千年。海族原子引擎仍然比其他引擎更加耗能，但比人类同类表现出更高的效率。`
+
+outfit `"Benga" Atomic Thruster`
+	description `与人类空间不同——那里的原子引擎既是罕见的景象也是奢侈的配置——多年被限制在银河系相对较小区域内意味着所有海族舰船都可以配备原子引擎。`
+
+outfit `"Biroo" Atomic Thruster`
+	description `这种推进器是大多数海族轻型战舰上的标准推进器，提供足够的推力使它们在战斗中可用，但对于像海族盾甲虫这样大的舰船则略嫌不足。`
+
+outfit `"Bondir" Atomic Thruster`
+	description `在深渊正在研发战斗型原子引擎之时，海族正致力于使其引擎更加出色。因此，海族原子引擎比人类变体具有极高效率，启动需要更少能量，过程中产生更少热量。`
+
+outfit `"Bufaer" Atomic Thruster`
+	description `这些推进器是海族原子推进器中最大的，也是已知空间中最强大的推进器之一。仅被最大型的人类原子推进器超越，这些巨型引擎提供了足够的推力，使得即使是最大的舰船也能像战斗机一样被推动。`
+
+outfit `"Basrem" Reverse Thruster`
+	description `微小的"巴斯雷姆"反向推进器使即使是最小的海族舰船也能在正常转向之外获得额外的机动性。许多年轻的海族在最初独自出发时发现这些是不可或缺的投资。`
+
+outfit `"Benga" Reverse Thruster`
+	description `考虑到陡峭的成本物有所值，许多海族货船飞行员安装这些反向推进器以补充大型海族舰船上通常较差的转向能力。`
+
+outfit `"Biroo" Reverse Thruster`
+	description `由于飞行员一般在真正需要敏捷性时倾向于专注转向，这些是海族提供的最大型反向推进器。它们仍然以其体积展现出令人印象深刻的功率，使即使是最大的海族舰船在需要时也能迅速停下来。`
+
+outfit `"Basrem" Atomic Steering`
+	description `海族原子引擎对大多数人类来说过于昂贵而无法购买。即便是最小的引擎，其价值也超过了人类空间中许多最常见的舰船。`
+
+outfit `"Benga" Atomic Steering`
+	description `海族原子引擎因其尺寸和效率，使得已知空间中最可定制的一些舰船成为可能。少数能够攒够钱购买一套海族引擎的人类，通常以其舰船的效率令人类空间中的其他人震惊。`
+
+outfit `"Biroo" Atomic Steering`
+	description `拥有如此强大的引擎对海族来说是一把双刃剑，因为解缚者海族也拥有这些强大的奇物。这些引擎使大多数海族舰船能够以惊人的速度转向，使其在战斗中极具致命性。`
+
+outfit `"Bondir" Atomic Steering`
+	description `这些引擎仅供海族舰船中的极少数特殊用途使用，是你能买到的最昂贵的装备之一。海族原子引擎比同等尺寸的任何其他引擎显著更高效，对于任何需要高转向速度的人来说都是首选。`
+
+outfit `"Bufaer" Atomic Steering`
+	description `在海族空间接受采访的人类船长中，十分之九表示他们任何时候都会选择海族原子引擎而非深渊的产品……也就是说，如果能买得起如此昂贵的引擎的话。`
+
+outfit "Pulse Rifle"
+	description `脉冲步枪最初由海族开发，用于在科拉特人劫掠期间帮助保护其舰船免受登船者的攻击。虽然之后它已被改造以更有效地使目标失能，但如果数发能量弹快速连续命中，累积的电荷会对大多数物种的神经系统产生致命影响。`
+
+outfit "Shield Beetle Pendant"
+	description "	它配备了一个精心制作的发光展示盒，以便骄傲地安装和展示。三重安装支架——量子基石上所用支架的缩微版——提供了牢固的锚定以保证吊坠安全。"

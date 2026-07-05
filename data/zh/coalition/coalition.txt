@@ -1,0 +1,1857 @@
+# Copyright (c) 2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+fleet "Heliarch"
+	government "Heliarch"
+	names "heliarch"
+	fighters
+		names "heliarch fighter"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 40
+		"Heliarch Neutralizer"
+	variant 30
+		"Heliarch Judicator"
+		"Heliarch Pursuer" 2
+		"Heliarch Rover" 2
+		"Heliarch Stalker" 2
+	variant 20
+		"Heliarch Breacher"
+	variant 20
+		"Heliarch Interdictor"
+	variant 15
+		"Heliarch Hunter"
+	variant 10
+		"Heliarch Punisher"
+	variant 4
+		"Heliarch Neutralizer (Missile)"
+	variant 4
+		"Heliarch Neutralizer (Nimble)"
+	variant 4
+		"Heliarch Neutralizer (Scrappy)"
+	variant 8
+		"Heliarch Judicator (Attractor)"
+		"Heliarch Stalker" 6
+		"Heliarch Judicator (Repulsor)"
+		"Heliarch Pursuer (Scrappy)" 3
+		"Heliarch Rover" 3
+	variant 2
+		"Heliarch Judicator (Ions)"
+		"Heliarch Pursuer" 2
+		"Heliarch Rover (Ions)" 2
+		"Heliarch Stalker" 2
+	variant 2
+		"Heliarch Judicator (Missile)"
+		"Heliarch Stalker (Scrappy)" 6
+	variant 1
+		"Heliarch Judicator (Scrappy)"
+		"Heliarch Rover" 3
+		"Heliarch Stalker (Scrappy)" 3
+	variant 1
+		"Heliarch Breacher (Ions)"
+	variant 1
+		"Heliarch Breacher (Missile)"
+	variant 1
+		"Heliarch Breacher (Scrappy)"
+	variant 2
+		"Heliarch Interdictor (Bombardment)"
+	variant 12
+		"Heliarch 拦截者（连射）"
+	variant 8
+		"Heliarch Interdictor (Ions)"
+	variant 1
+		"Heliarch Interdictor (Missile)"
+	variant 1
+		"Heliarch Interdictor (Scrappy)"
+	variant 10
+		"Heliarch 猎手（连射）"
+	variant 2
+		"Heliarch Hunter (Interdicting)"
+	variant 2
+		"Heliarch Hunter (Ions)"
+	variant 1
+		"Heliarch Hunter (Missile)"
+	variant 4
+		"Heliarch Hunter (Scrappy)"
+	variant 10
+		"Heliarch 惩罚者（连射）"
+	variant 1
+		"Heliarch Punisher (Interdicting)"
+	variant 7
+		"Heliarch Punisher (Ions)"
+	variant 1
+		"Heliarch Punisher (Missile)"
+	variant 1
+		"Heliarch 惩罚者（纯终结者）"
+	variant 1
+		"Heliarch Punisher (Scrappy)"
+
+fleet "Small Arach"
+	government "Coalition"
+	names "arach"
+	cargo 3
+	personality
+		timid
+	variant 20
+		"Arach Transport"
+		"Arach Courier"
+	variant 20
+		"Arach Freighter"
+		"Arach Courier"
+	variant 30
+		"Arach Courier" 2
+	variant 20
+		"Arach Courier"
+	variant 10
+		"Arach Freighter" 2
+	variant 5
+		"Arach Freighter"
+		"Kimek Thorn" 2
+	variant 5
+		"Arach Transport"
+		"Saryd Runabout"
+	variant 5
+		"Arach Courier"
+		"Saryd Runabout"
+
+fleet "Large Arach"
+	government "Coalition"
+	names "arach"
+	cargo 3
+	personality
+		timid
+	variant 30
+		"Arach Hulk"
+	variant 20
+		"Arach Spindle"
+	variant 40
+		"Arach Freighter"
+		"Arach Transport"
+		"Arach Courier" 2
+	variant 10
+		"Arach Hulk"
+		"Arach Spindle"
+	variant 10
+		"Arach Spindle"
+		"Arach Freighter"
+	variant 5
+		"Arach Freighter"
+		"Arach Transport"
+		"Kimek Thistle"
+	variant 5
+		"Arach Spindle"
+		"Kimek Briar"
+		"Saryd Visitor"
+
+fleet "Small Kimek"
+	government "Coalition"
+	names "kimek"
+	cargo 3
+	personality
+		timid
+	variant 40
+		"Kimek Thorn"
+	variant 30
+		"Kimek Thorn" 2
+	variant 20
+		"Kimek Thorn" 3
+	variant 20
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Thistle"
+	variant 10
+		"Kimek Thistle"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Briar" 2
+	variant 5
+		"Kimek Briar"
+		"Saryd Runabout"
+	variant 5
+		"Kimek Thistle"
+		"Arach Courier"
+
+fleet "Large Kimek"
+	government "Coalition"
+	names "kimek"
+	cargo 3
+	personality
+		timid
+	variant 40
+		"Kimek Spire"
+	variant 30
+		"Kimek Spire"
+		"Kimek Thorn" 2
+	variant 20
+		"Kimek Thistle"
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 10
+		"Kimek Thistle" 3
+	variant 10
+		"Kimek Spire"
+		"Kimek Thistle"
+		"Kimek Briar"
+		"Kimek Thorn"
+	variant 5
+		"Kimek Spire" 2
+	variant 5
+		"Kimek Spire"
+		"Saryd Traveler"
+	variant 5
+		"Kimek Thistle"
+		"Kimek Thorn" 2
+		"Saryd Visitor"
+
+fleet "Small Saryd"
+	government "Coalition"
+	names "saryd"
+	cargo 3
+	personality
+		timid
+	variant 60
+		"Saryd Runabout"
+	variant 40
+		"Saryd Visitor"
+	variant 20
+		"Saryd Runabout" 2
+	variant 20
+		"Saryd Visitor"
+		"Saryd Runabout"
+	variant 10
+		"Saryd Visitor"
+		"Saryd Runabout" 2
+	variant 5
+		"Saryd Visitor"
+		"Kimek Thorn" 2
+	variant 5
+		"Saryd Visitor"
+		"Arach Courier"
+
+fleet "Large Saryd"
+	government "Coalition"
+	names "saryd"
+	cargo 3
+	personality
+		timid
+	variant 60
+		"Saryd Traveler"
+	variant 40
+		"Saryd Sojourner"
+	variant 30
+		"Saryd Traveler"
+		"Saryd Visitor"
+	variant 20
+		"Saryd Traveler"
+		"Saryd Visitor"
+		"Saryd Runabout"
+	variant 10
+		"Saryd Visitor" 3
+	variant 10
+		"Saryd Sojourner"
+		"Saryd Traveler"
+	variant 10
+		"Saryd Sojourner"
+		"Saryd Visitor" 2
+	variant 5
+		"Saryd Sojourner"
+		"Kimek Thorn" 4
+	variant 5
+		"Saryd Traveler"
+		"Arach Courier" 2
+		"Kimek Briar"
+
+fleet "Arach Miners"
+	government "Coalition"
+	names "arach"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 5
+		"Arach Courier (Miner)"
+	variant 2
+		"Arach Freighter (Miner)"
+	variant 2
+		"Arach Transport (Miner)"
+	variant 1
+		"Kimek Thorn (Miner)"
+	variant 1
+		"Saryd Runabout (Miner)"
+	variant 1
+		"Arach Spindle (Miner)"
+	variant 1
+		"Arach Hulk (Miner)"
+
+fleet "Kimek Miners"
+	government "Coalition"
+	names "kimek"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 5
+		"Kimek Thorn (Miner)"
+	variant 3
+		"Kimek Briar (Miner)"
+	variant 2
+		"Kimek Thistle (Miner)"
+	variant 1
+		"Arach Courier (Miner)"
+	variant 1
+		"Saryd Runabout (Miner)"
+	variant 1
+		"Kimek Spire (Miner)"
+
+fleet "Saryd Miners"
+	government "Coalition"
+	names "saryd"
+	cargo 0
+	personality
+		confusion 20
+		pacifist timid mining harvests
+	variant 4
+		"Saryd Runabout (Miner)"
+	variant 3
+		"Saryd Visitor (Miner)"
+	variant 3
+		"Saryd Traveler (Miner)"
+	variant 1
+		"Arach Courier (Miner)"
+	variant 1
+		"Kimek Thorn (Miner)"
+	variant 1
+		"Saryd Sojourner (Miner)"
+
+
+outfitter "Coalition Basics"
+	"Small Collector Module"
+	"Small Cogeneration Module"
+	"Small Battery Module"
+	"Small Shield Module"
+	"Small Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Small Reverse Module"
+	"Small Steering Module"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Module"
+	"Hyperdrive"
+	"Local Map"
+
+outfitter "Coalition Advanced"
+	"MCS Extractor"
+	"Small Collector Module"
+	"Large Collector Module"
+	"Small Cogeneration Module"
+	"Large Cogeneration Module"
+	"Small Battery Module"
+	"Large Battery Module"
+	"Small Shield Module"
+	"Large Shield Module"
+	"Small Repair Module"
+	"Large Repair Module"
+	"Cooling Module"
+	"Small Thrust Module"
+	"Large Thrust Module"
+	"Small Reverse Module"
+	"Large Reverse Module"
+	"Small Steering Module"
+	"Large Steering Module"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Luxury Accommodations"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Fuel Module"
+	"Hyperdrive"
+	"Local Map"
+
+outfitter "Heliarch"
+	"Small Reactor Module"
+	"Large Reactor Module"
+	"Scanning Module"
+	"Bombardment Cannon"
+	"Bombardment Turret"
+	"Finisher Pod"
+	"Finisher Torpedo"
+	"Heliarch Attractor"
+	"Heliarch Repulsor"
+	"Ion Rain Gun"
+	"Scram Drive"
+	"Local Map"
+
+outfitter "Heliarch Basics"
+	"Ion Rain Gun"
+	"Ion Hail Turret"
+	"Brig"
+	"Scanning Module"
+	"Enforcer Confrontation Gear"
+	"Enforcer Riot Staff"
+	"Guardian Turret"
+	"Scram Drive"
+	"Local Map"
+
+outfitter "Lunarium Basics"
+	"Refueling Module"
+	"Decoy Plating"
+	"Shield Refactor Module"
+	"Small Recovery Module"
+	"Anti-Materiel Gun"
+	"Local Map"
+
+shipyard "Arach"
+	"Arach Courier"
+	"Arach Freighter"
+	"Arach Hulk"
+	"Arach Spindle"
+	"Arach Transport"
+
+shipyard "Kimek"
+	"Kimek Briar"
+	"Kimek Spire"
+	"Kimek Thistle"
+	"Kimek Thorn"
+
+shipyard "Saryd"
+	"Saryd Runabout"
+	"Saryd Sojourner"
+	"Saryd Traveler"
+	"Saryd Visitor"
+
+shipyard "Coalition Basics"
+	"Arach Courier"
+	"Kimek Thorn"
+	"Saryd Runabout"
+
+
+phrase "arach start"
+	word
+		"Mug"
+		"Glub"
+		"Blog"
+		"Blop"
+		"Blub"
+		"Mog"
+		"Mob"
+		"Dub"
+		"Drub"
+		"Lub"
+		"Log"
+		"Lug"
+		"Bloog"
+		"Loob"
+		"Bloob"
+		"Moog"
+		"Mup"
+		"Plug"
+		"Ploog"
+		"Plort"
+		"Pot"
+		"Put"
+		"Plub"
+		"Ploot"
+		"Toop"
+		"Tup"
+		"Tug"
+		"Tum"
+		"Flug"
+		"Floot"
+		"Flut"
+		"Flop"
+phrase "arach middle"
+	word
+		"alug"
+		"abug"
+		"glug"
+		"glop"
+		"alop"
+		"ploot"
+		"plug"
+		"glub"
+		"blug"
+		"mug"
+		"mog"
+		"amug"
+		"amog"
+		"ap"
+		"ug"
+		"at"
+		"oot"
+		"up"
+		"ub"
+		"moog"
+		"goom"
+		"goot"
+		"poot"
+		"put"
+		"blut"
+		"glob"
+		"blag"
+		"talug"
+		"atug"
+		"tup"
+		"ptup"
+		"blot"
+		"arub"
+		"oob"
+		"root"
+		"rup"
+		"rub"
+phrase "arach next"
+	word
+		" "
+	phrase
+		"arach start"
+phrase "arach empty"
+	word
+		""
+phrase "arach"
+	phrase
+		"arach start"
+	phrase
+		"arach middle"
+	phrase
+		"arach middle"
+		"arach empty"
+		"arach next"
+	phrase
+		"arach middle"
+		"arach empty"
+		
+phrase "kimek start"
+	word
+		"I"
+		"Ie"
+		"Ee"
+		"A"
+		"Ka"
+		"Ki"
+		"Chi"
+		"Ky"
+		"Ri"
+		"Ry"
+		"Ree"
+		"Pai"
+		"Pa"
+		"Pi"
+phrase "kimek middle"
+	word
+		"ka"
+		"cha"
+		"pa"
+		"rra"
+		"ki"
+		"chi"
+		"pri"
+		"rri"
+		"ry"
+		"kee"
+		"chee"
+		"ree"
+		"kie"
+		"rrie"
+		"'a"
+		"'i"
+		"'ee"
+		"'ie"
+		"yee"
+		"ya"
+		"yi"
+phrase "kimek next"
+	word
+		" "
+	phrase
+		"kimek start"
+phrase "kimek"
+	phrase
+		"kimek start"
+	phrase
+		"kimek middle"
+	phrase
+		"kimek next"
+		"kimek middle"
+	phrase
+		"kimek next"
+		"kimek middle"
+	phrase
+		"kimek middle"
+		
+phrase "saryd start"
+	word
+		"Lo"
+		"Ip"
+		"Do"
+		"Sit"
+		"A"
+		"Con"
+		"Ad"
+		"El"
+		"Sed"
+		"Eius"
+		"Tem"
+		"In"
+		"Ut"
+		"Lab"
+		"Et"
+		"Mag"
+		"Ali"
+		"En"
+		"Mi"
+		"Ve"
+		"Quis"
+		"Nos"
+		"Exer"
+		"Ul"
+		"Nisi"
+		"Ex"
+		"Com"
+		"Au"
+		"I"
+		"Rep"
+phrase "saryd middle"
+	word
+		"rem"
+		"sum"
+		"lor"
+		"met"
+		"sec"
+		"tu"
+		"e"
+		"tur"
+		"lit"
+		"mod"
+		"por"
+		"cid"
+		"bor"
+		"na"
+		"qua"
+		"lam"
+		"mod"
+		"red"
+		"lup"
+		"tat"
+		"la"
+		"par"
+		"pi"
+		"dat"
+		"fic"
+		"ser"
+		"lit"
+phrase "saryd middle"
+	word
+		""
+phrase "saryd end"
+	word
+		"um"
+		"i"
+		"o"
+		"orum"
+		"is"
+		"as"
+		"a"
+		"ae"
+		"am"
+		"arum"
+		"o"
+		"est"
+		"et"
+		"umus"
+		"unt"
+		"ibus"
+		"us"
+		"um"
+		"u"
+		"ui"
+		"es"
+		"em"
+		"e"
+		"ebus"
+		"erum"
+		"or"
+		"aris"
+		"atur"
+		"amur"
+		"ar"
+		"aris"
+		"atur"
+phrase "saryd"
+	phrase
+		"saryd start"
+	phrase
+		"saryd middle"
+	phrase
+		"saryd end"
+	word
+		" "
+	phrase
+		"saryd start"
+	phrase
+		"saryd middle"
+	phrase
+		"saryd end"
+
+phrase "heliarch"
+	word
+		"Watchful"
+		"Patient"
+		"Kind"
+		"Helpful"
+		"Friendly"
+		"Pragmatic"
+		"Careful"
+		"Cautious"
+		"Attentive"
+		"Observant"
+		"Wary"
+		"Vigilant"
+		"Heedful"
+		"Wakeful"
+		"Judicious"
+		"Mindful"
+		"Prudent"
+		"Alert"
+		"Thoughtful"
+		"Rigorous"
+		"Fastidious"
+		"Assiduous"
+		"Shielding"
+		"Sheltering"
+		"Strong"
+		"Able"
+		"Capable"
+		"Durable"
+		"Forceful"
+		"Steady"
+		"Tenacious"
+		"Hardy"
+		"Mighty"
+		"Rugged"
+		"Stalwart"
+		"Staunch"
+		"Stout"
+		"Sturdy"
+		"Unyielding"
+		"Adamant"
+		"Implacable"
+		"Relentless"
+		"Unwavering"
+		"Obdurate"
+		"Unbending"
+		"Resolute"
+		"Steadfast"
+		"Ardent"
+		"Undefeated"
+		"Enduring"
+		"Impervious"
+		"Honorable"
+		"Brave"
+		"Skilled"
+		"Stoic"
+		"Resilient"
+		"Devout"
+		"Devoted"
+		"Disciplined"
+		"Determined"
+		"Zealous"
+		"Diligent"
+	word
+		" "
+	word
+		"Guardian"
+		"Protector"
+		"Friend"
+		"Interpreter"
+		"Agent"
+		"Advocate"
+		"Ally"
+		"Guard"
+		"Custodian"
+		"Shield"
+		"Defender"
+		"Helper"
+		"Seeker"
+		"Escort"
+		"Warden"
+		"Sentinel"
+		"Sentry"
+		"Ward"
+		"Watcher"
+		"Curator"
+		"Governor"
+		"Officer"
+		"Overseer"
+		"Ranger"
+		"Shepherd"
+		"Champion"
+		"Chief"
+		"Superior"
+		"Director"
+		"Inspector"
+		"Judge"
+		"Manager"
+		"Preserver"
+		"Keeper"
+		"Bulwark"
+		"Bastion"
+		"Mandator"
+		"Convener"
+		"Cooperator"
+		"Arbiter"
+		"Exponent"
+		"Guide"
+		"Leader"
+		"Moderator"
+		"Veteran"
+		"Regulator"
+		"Attendant"
+		"Minister"
+
+
+phrase "heliarch fighter"
+	word
+		"Aspiring"
+		"Eager"
+		"Ambitious"
+		"Striving"
+		"Wishful"
+		"Longing"
+		"Loyal"
+		"Dutiful"
+		"Trustworthy"
+		"Patriotic"
+		"Attached"
+		"Trusty"
+		"Cherished"
+		"Honest"
+		"Reliable"
+		"Dependable"
+		"Responsible"
+		"Virtuous"
+		"Noble"
+		"Fair"
+		"Willing"
+		"Intrepid"
+	word
+		" "
+	word
+		"Comrade"
+		"Confederate"
+		"Backup"
+		"Assistant"
+		"Minder"
+		"Squire"
+		"Companion"
+		"Cadet"
+		"Recruit"
+		"Apprentice"
+		"Student"
+		"Pupil"
+		"Scout"
+		"Patrol"
+		"Accomplice"
+		"Support"
+		"Collaborator"
+		"Novice"
+		"Junior"
+		"Learner"
+
+
+phrase "friendly heliarch"
+	word
+		"所有有感知的生命"
+		"有感知的生命"
+		"所有有感知的种族"
+		"有感知的种族"
+		"All of us"
+		"We all"
+		"每一个种族"
+		"每一个有感知的种族"
+		"每一个智慧的种族"
+		"每一个有思想的种族"
+		"我们的每一个种族"
+		"我们所有的种族"
+	word
+		" "
+	word
+		"to live together"
+		"to coexist"
+		"to work together"
+		"to join together"
+		"to unite together"
+		"to form an alliance"
+		"to form a coalition"
+		"to stand together"
+		"to stand as one people"
+		"to be unified"
+		"to join our Coalition"
+		"to join us"
+		"for living"
+		"for coexisting"
+		"for joining"
+		"for standing together"
+		"for uniting"
+	word
+		" "
+	word
+		"in peace"
+		"in friendship"
+		"in goodwill"
+		"for a common cause"
+		"to create a just society"
+		"to create a prosperous society"
+		"in equal partnership"
+		"for each other's good"
+		"throughout the galaxy"
+		"to drive out the oppressors"
+		"to take control of our own fate"
+		"for the betterment of all"
+		"in prosperity"
+		"in harmony"
+	word
+		" "
+	word
+		"are able"
+		"can aspire"
+		"can try"
+		"should seek"
+		"should choose"
+		"can learn"
+		"the capacity have"
+		"to be able ought to be"
+		"should try"
+		"can labor"
+		"can serve"
+		"are called"
+		"are capable"
+	word
+		"."
+
+phrase "friendly heliarch"
+	word
+		"To protect"
+		"为了保护他人"
+		"为了防护"
+		"为了庇护弱者"
+		"为了他人的缘故"
+		"为了保护 Coalition"
+		"为了抵御压迫"
+		"愿你们全体得自由"
+		"为了正义的事业"
+		"为了更伟大的利益"
+		"为了履行我们的职责"
+	word
+		" "
+	word
+		"and not"
+		"rather than"
+		"instead of"
+		"above any need"
+		"without desire"
+		"and never"
+		"and not ever"
+	word
+		" "
+	word
+		"to enrich ourselves"
+		"for our own well-being"
+		"for our own benefit"
+		"for our own glory"
+		"for glory or power"
+		"to win honor"
+		"to please ourselves"
+		"to misuse our power"
+		"for the sake of your praise"
+		"for recognition or reward"
+	word
+		" "
+	word
+		"we serve"
+		"you we serve"
+		"we vow"
+		"we are called"
+		"we have vowed"
+		"we have committed"
+		"we do serve"
+		"we do vow"
+	word
+		"."
+
+phrase "friendly disabled heliarch"
+	word
+		"修理，我们需要"
+		"瘫痪，我们的飞船已"
+		"瘫痪，我们的飞船已"
+	word
+		". "
+	word
+		"登我们的船，你必须"
+		"帮助，你必须"
+		"感激，协助将受到"
+	word
+		"."
+
+phrase "hostile heliarch phrase 1 (the+our)"
+	word
+		"the"
+		"our"
+	word
+		" "
+	word
+		"Coalition"
+		"alliance"
+		"union"
+		"friendship of sentient species"
+		"citizens of the Coalition"
+		"citizens"
+		"Coalition"
+		"alliance"
+		"union"
+
+phrase "hostile heliarch phrase 1 (our only)"
+	word
+		"our"
+	word
+		" "
+	word
+		"friendship"
+		"just government"
+		"just meritocracy"
+		"just government of merit"
+		"society"
+
+phrase "hostile heliarch"
+	word
+		"Destroying"
+		"Betraying"
+		"Dishonoring"
+		"Ruining"
+		"Invading"
+		"Attacking"
+		"Conquering"
+		"Oppressing"
+		"Backstabbing"
+	word
+		" "
+	phrase
+		"hostile heliarch phrase 1 (the+our)"
+		"hostile heliarch phrase 1 (our only)"
+	word
+		" "
+	word
+		"you will"
+		"you shall"
+	word
+		" "
+	word
+		"not"
+		"never"
+	word
+		" "
+	word
+		"succeed"
+	word
+		"."
+		"!"
+
+phrase "hostile heliarch"
+	word
+		"Impossible"
+		"No chance"
+		"机会渺茫"
+		"非常困难"
+		"Very hard"
+		"不可能"
+	word
+		" "
+	word
+		"it is "
+	word
+		"to defeat"
+		"to destroy"
+		"to demoralize"
+		"to outpower"
+		"to be stronger than"
+		"to be greater than"
+	word
+		" "
+	word
+		"the"
+		"our"
+	word
+		" "
+	word
+		"indestructible"
+		"committed"
+		"advanced"
+		"disciplined"
+		"oathkeeping"
+		"peacekeeping"
+		"powerful"
+		"everlasting"
+		"legendary"
+	word
+		" "
+	word
+		"Heliarch"
+	word
+		" "
+	word
+		"military"
+		"law-enforcers"
+		"navy"
+	word
+		"."
+
+phrase "hostile heliarch phrase 2 (the+our)"
+	word
+		"the"
+		"our"
+	word
+		" "
+	word
+		"Coalition"
+		"friendship"
+		"friendship of sentient species"
+		"union"
+		"alliance"
+
+phrase "hostile heliarch phrase 2 (the only)"
+	word
+		"the"
+	word
+		" "
+	word
+		"anti-oppressors"
+
+phrase "hostile heliarch phrase 2 (our only)"
+	word
+		"our"
+	word
+		" "
+	word
+		"society"
+		"ideals"
+
+phrase "hostile heliarch"
+	word
+		"Forever"
+		"直到时间的尽头"
+		"直到生命的尽头"
+	word
+		" "
+	phrase
+		"hostile heliarch phrase 2 (the+our)"
+		"hostile heliarch phrase 2 (the only)"
+		"hostile heliarch phrase 2 (our only)"
+	word
+		" "
+	word
+		"will"
+		"shall"
+	word
+		" "
+	word
+		"live on"
+		"not be destroyed"
+		"not be history"
+		"not die"
+		"not be extinct"
+	word
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"You"
+		"独自留下我，你必须离开，你"
+		"再见到我，你最好希望永远别发生，你"
+		"与我为敌，你最好别，你"
+		"为我复仇，我的朋友们会，你"
+		"远离我，你必须保持，你"
+		"登我的船，我谅你不敢"
+	word
+		" "
+	phrase
+		"shakespearean insults"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"A "
+	phrase
+		"shakespearean insults"
+	word
+		" "
+	word
+		", you are"
+		"at the mercy of, I cannot believe I am"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled heliarch"
+	word
+		"("
+	word
+		"那艘 Heliarch 飞船向你发出呼叫，说着一种你听不懂的语言。"
+		"Heliarch 们用一种外星语言对你大喊大叫。"
+	word
+		" "
+	word
+		"他们的翻译设备一定坏了"
+		"你只能猜测他们在说什么"
+	word
+		".)"
+
+phrase "heliarch test dummy"
+	word
+		"祝你好运，我祝你在战斗中好运。"
+		"专注于战斗你必须，船长。"
+		"在战斗中分散我的注意力，你绝不能。"
+		"帮助我学习，你独特的战斗风格正在。"
+		"对你的外星武器很陌生，我是。"
+		"对未来战斗有用，这次经验是。"
+
+phrase "disabled heliarch test dummy"
+	word
+		"击败了我们，你已经。"
+		"打败了我，你已经。"
+		"一场好战斗，那是。"
+		"一个顽强的对手，你是。"
+	word
+		" "
+	word
+		"令人印象深刻，你的战斗技巧真是。"
+		"改进我的战术，我必须。"
+		"恭喜，船长！"
+		"进一步攻击我，你不应该。成为 Heliarch 们的敌人，摧毁我会让你。"
+		"作为 Heliarch 得到善用，你的战斗技巧将会。"
+
+phrase "friendly coalition"
+	word
+		"The Coalition Games"
+		"一个长角牧场"
+		"Gentle Rain 的雨林"
+		"Saros 的卫星"
+		"Belugt 的避难所"
+		"Cold Horizon"
+		"Second Cerulean"
+		"Deep Treasure 的珊瑚礁"
+		"Celestial Third 的农场"
+		"Second Viridian 的生态穹顶"
+	word
+		", "
+	word
+		"last year I did"
+		"我想"
+		"one day I will"
+	word
+		" "
+	word
+		"visit"
+		"travel to"
+		"see"
+		"spectate"
+		"watch"
+		"observe"
+	word
+		"."
+
+phrase "friendly coalition"
+	word
+		"由……赞助"
+		"由……提供"
+		"来自……的礼物"
+		"Funded by"
+		"由……资助"
+	word
+		" "
+	word
+		"House Mallob"
+		"House Ablomab"
+		"House Debdo"
+		"House Idriss"
+		"House Garbarag"
+		"House Chamgar"
+		"House Bebliss"
+	word
+		", "
+	word
+		"my ship is"
+		"my fleet is"
+		"this vessel is"
+		"my last ship was"
+		"my first ship was"
+		"my brother's ship is"
+		"my sister's ship is"
+	word
+		"."
+
+phrase "friendly coalition"
+	word
+		"在一个长角牧场"
+		"在环世界建造中"
+		"在空间站维护中"
+		"在一个 Kimek 农场"
+		"在一个 Arach 矿场"
+		"在一个 Saryd 实验室"
+		"在 Kimek 饥饿塔"
+		"在一个 Saryd 养老院"
+		"在一个 Arach 度假村"
+	word
+		", "
+	word
+		"我曾经工作"
+		"my family works"
+		"my parents worked"
+		"my co-pilot worked"
+	word
+		"."
+
+phrase "hostile coalition"
+	word
+		"后悔此事"
+		"为此付出代价"
+		"为此受到谴责"
+		"希望你从未做过那事"
+	word
+		", "
+	word
+		"you will"
+	word
+		", "
+	word
+		""
+		"you "
+	word
+		"pitiful"
+		"foolish"
+		"detestable"
+		"despicable"
+		"lousy"
+		"deplorable"
+	word
+		" "
+	word
+		"human"
+		"outsider"
+		"raider"
+		"pirate"
+		"criminal"
+		"lowlife"
+		"bully"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled coalition"
+	word
+		"("
+	word
+		"那艘 Coalition 飞船向你发出呼叫，说着一种你听不懂的语言。"
+		"飞船的船长用一种外星语言对你大喊大叫。"
+	word
+		" "
+	word
+		"你只能猜测他们在说什么"
+	word
+		".)"
+
+phrase "friendly lunarium"
+	word
+		"To"
+	word
+		" "
+	word
+		"free"
+		"liberate"
+		"unchain"
+		"emancipate"
+		"release"
+		"rescue"
+		"save"
+		"unshackle"
+	word
+		" "
+	word
+		"our"
+	word
+		" "
+	word
+		"great"
+		"noble"
+		"good"
+		"grand"
+		"honorable"
+		"righteous"
+	word
+		" "
+	word
+		"Coalition"
+		"union"
+	word
+		", "
+	word
+		"we"
+	word
+		" "
+	word
+		"fight for"
+		"must"
+		"strive for"
+	word
+		"."
+		"!"
+
+phrase "friendly lunarium"
+	word
+		"To"
+	word
+		" "
+	word
+		"overthrow"
+		"defeat"
+		"eliminate"
+		"destroy"
+		"topple"
+		"depose"
+		"unseat"
+	word
+		" "
+	word
+		"the"
+	word
+		" "
+	word
+		"oppressors"
+		"Heliarchs"
+		"unjust rulers"
+		"Tyrant House"
+		"overlords"
+	word
+		" "
+	word
+		"we"
+	word
+		" "
+	word
+		"fight for"
+		"must"
+		"strive for"
+		"struggle for"
+	word
+		"."
+		"!"
+
+phrase "friendly disabled lunarium"
+	word
+		"修理，我们需要"
+		"瘫痪，我们的飞船已变成"
+		"瘫痪，我们的飞船是"
+	word
+		". "
+	word
+		"登我们的船，你必须"
+		"帮助，你必须"
+		"感激，协助将受到"
+	word
+		"."
+
+phrase "hostile lunarium"
+	word
+		"Attacked"
+		"Opposed"
+		"Betrayed"
+		"Countered"
+		"Violated"
+	word
+		" "
+	word
+		"the"
+	word
+		" "
+	word
+		"Coalition 的自由"
+		"freedom of the Coalition"
+		"hope of the Coalition"
+		"good of the Coalition"
+		"Coalition 的希望"
+	word
+		", "
+	word
+		"you have"
+	word
+		"."
+		"!"
+	word
+		" "
+	word
+		"Fight"
+		"Battle"
+		"Struggle"
+		"Clash"
+		"Duel"
+	word
+		"to the end"
+		"to the last"
+		"until our deaths"
+		"until our ends"
+	word
+		", "
+	word
+		"we will"
+		"we must"
+	word
+		"."
+		"!"
+
+phrase "hostile lunarium"
+	word
+		"Sided with"
+		"与……结盟"
+		"与……联合"
+	word
+		" "
+	word
+		"injustice"
+		"oppression"
+		"the oppressors"
+		"unjust rulers"
+		"the Tyrant House"
+		"the Heliarchs"
+	word
+		", "
+	word
+		"you have"
+	word
+		". "
+	word
+		"For"
+		"为了保护"
+		"To ensure"
+	word
+		" "
+	word
+		"the good of"
+		"the future of"
+		"the freedom of"
+	word
+		" "
+	word
+		"the Coalition"
+		"our Coalition"
+		"our society"
+		"our people"
+	word
+		", "
+	word
+		"oppose"
+		"fight"
+		"defeat"
+		"destroy"
+	word
+		" "
+	word
+		"you"
+	word
+		", "
+	word
+		"I"
+		"we"
+	word
+		" "
+	word
+		"must"
+		"shall"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled lunarium"
+	word
+		"("
+	word
+		"那艘 Lunarium 飞船向你发出呼叫，说着一种你听不懂的语言。"
+		"Lunarium 们用一种外星语言对你大喊大叫。"
+	word
+		" "
+	word
+		"他们的翻译设备一定坏了"
+		"你只能猜测他们在说什么"
+	word
+		".)"
+
+phrase "hostile disabled lunarium"
+	word
+		"Live on"
+		"Continue"
+		"Persist"
+		"Carry on"
+		"Cling on"
+	word
+		", "
+	word
+		"our"
+	word
+		" "
+	word
+		"fight"
+		"struggle"
+		"battle"
+		"cause"
+	word
+		" "
+	word
+		"will"
+		"shall"
+	word
+		", "
+	word
+		"even after"
+	word
+		" "
+	word
+		"gone"
+		"destroyed"
+		"dead"
+		"eliminated"
+	word
+		" "
+	word
+		"I am"
+		"we are"
+	word
+		"."
+		"!"
+
+phrase "hostile disabled lunarium"
+	word
+		"To"
+	word
+		" "
+	word
+		"know that"
+		"understand that"
+	word
+		" "
+	word
+		"you"
+		"the Heliarchs"
+		"the oppressors"
+		"the tyrants"
+		"the Tyrant House"
+		"your hunger for power"
+	word
+		" "
+	word
+		"will"
+	word
+		" "
+	word
+		"inevitably"
+		"necessarily"
+		"unavoidably"
+		"surely"
+	word
+		" "
+	word
+		"fall"
+		"be defeated"
+		"be overthrown"
+	word
+		", "
+	word
+		"my"
+		"our"
+	word
+		" "
+	word
+		"only"
+		"final"
+	word
+		" "
+	word
+		"solace"
+		"hope"
+		"comfort"
+		"consolation"
+		"relief"
+	word
+		"is"
+	word
+		"."
+		"!"
+
+trade
+	commodity "coalition cargo"
+		"anodized titanium horseshoes"
+		"Arachi 手风琴"
+		"Arachi 盔甲复制品"
+		"arcology miniatures"
+		"blankets"
+		"blue charity worker uniforms"
+		"carapace polish"
+		"charity goods"
+		"chitin polish paste"
+		"cogeneration module parts"
+		"collector panels"
+		"energy drinks"
+		"foldable chairs"
+		"hedgelion quills"
+		"Ablomab 家族文物"
+		"Bebliss 家族文物"
+		"Plumtab 家族文物"
+		"Kimek 农产品"
+		"longcow bells"
+		"longcow hide tapestries"
+		"longcow hides"
+		"longcow steaks"
+		"longcowboy hats"
+		"longcow sausage"
+		"mandible polish"
+		"multipurpose gardening tools"
+		"outdated electronics"
+		"维和者头盔"
+		"维和者制服"
+		"processed frass fertilizer"
+		"ringworld keychains"
+		"Saryd 蛋糕"
+		"Saryd 攀岩装备"
+		"school supplies"
+		"scratch-resistant chitin polish paste"
+		"silk wrap formalwear"
+		"sports goods"
+		"stainless steel horseshoes"
+		"toys"
+		"translation boxes"
+		"trinkets"
+		"unprocessed frass fertilizer"
+		"winter supplies"
+		"aluminized steel"
+		"aluminum"
+		"beryllium"
+		"beryllium copper"
+		"brass fittings"
+		"bulk metallic glasses"
+		"cadmium"
+		"cadmium telluride"
+		"cast iron"
+		"chromium"
+		"copper pipes"
+		"copper wire"
+		"copper"
+		"cupronickel"
+		"ductile iron"
+		"gallium"
+		"gallium arsenide"
+		"galvanized steel"
+		"indium"
+		"indium tin oxide"
+		"iron"
+		"manganese"
+		"metallic foam"
+		"magnesium"
+		"molybdenum"
+		"monel"
+		"nickel"
+		"niobium"
+		"ore"
+		"osmium"
+		"pig iron"
+		"platinum wool"
+		"platinum"
+		"rebar"
+		"rusted iron"
+		"scandium"
+		"sheet metal"
+		"silicon bronze"
+		"silver ingots"
+		"silver"
+		"sintered bronze"
+		"stainless steel"
+		"steel bars"
+		"steel cable"
+		"steel girders"
+		"steel plating"
+		"tin"
+		"titanium"
+		"tool steel blanks"
+		"vanadium"
+		"zinc"
+		"acetone"
+		"asphalt"
+		"bakelite"
+		"barrels"
+		"carbon nanotubing"
+		"crude oil"
+		"dacron"
+		"diesel oil"
+		"epoxy resin"
+		"filament"
+		"gasoline"
+		"high-tensile fibers"
+		"jet fuel"
+		"lacquer"
+		"lacquer thinner"
+		"methanal formaldehyde"
+		"mylar"
+		"nylon fiber"
+		"organic polymers"
+		"paint"
+		"petrochemicals"
+		"petroleum"
+		"plastics"
+		"plastic pellets"
+		"plastic welding rods"
+		"plastic wrap"
+		"plumber's pipes"
+		"polyethylene"
+		"polymerizing agents"
+		"polystyrene foam"
+		"recycled plastic"
+		"resin"
+		"resorcinol glue"
+		"rubber"
+		"storage tanks"
+		"styrene monomers"
+		"unplasticized PVC"
+		"vinylesters"
+		"xylene"
+		"actinide metals"
+		"barium"
+		"bismuth"
+		"depleted uranium"
+		"fuel rods"
+		"gold sheets"
+		"gold wire"
+		"gold"
+		"lanthanide metals"
+		"lead"
+		"mercury"
+		"neodymium"
+		"neptunium"
+		"platinum"
+		"plutonium"
+		"polonium"
+		"raw pitchblende"
+		"reactor-grade plutonium"
+		"reactor-grade uranium"
+		"thorium"
+		"tungsten"

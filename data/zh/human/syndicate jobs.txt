@@ -1,0 +1,31 @@
+mission "Syndicate Prisoner Transport [0]"
+	name "Transport executive to house arrest"
+	description `运送一名被起诉的白领罪犯及其助理、律师团和收藏的<cargo>前往<planet>，他将在那里以"软禁"形式候审。他需要一艘足够舒适的飞船来完成这趟旅程。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [1]"
+	name "Transport convicted saboteur"
+	description `运送一名已被定罪的工业破坏分子前往<planet>服刑。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [2]"
+	name "Transport convicted corporate spies"
+	description `运送一批共<bunks>名已被定罪的商业间谍前往<planet>服刑。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [3]"
+	name "Transport detained protesters"
+	description `运送一批共<bunks>名被拘留的抗议者前往<planet>，他们将在那里以煽动暴乱的罪名候审。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Syndicate Prisoner Transport [4]"
+	name "Transport detained labor organizers"
+	description `运送一批共<bunks>名被拘留的劳工组织者前往<planet>，作为疑似恐怖分子接受"处理"。必须将其关押在专门用于押送罪犯的合适设施中。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [0]"
+	name "Return executive back from house arrest"
+	description `运送一名被判无罪的白领罪犯及其助理、律师团和收藏的<cargo>返回<planet>的家中。他需要一艘足够舒适的飞船来完成这趟旅程。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [1]"
+	name "Return detained protesters home"
+	description `运送一批共<bunks>名抗议者离开<origin>的拘留所，返回<planet>的家中。报酬为<payment>。`
+
+mission "Return Syndicate Prisoners [2]"
+	name "Return detained labor organizers home"
+	description `运送一批共<bunks>名劳工组织者离开<origin>的监狱，返回<planet>的家中。报酬为<payment>。`

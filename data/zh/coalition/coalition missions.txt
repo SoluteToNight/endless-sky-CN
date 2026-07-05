@@ -1,0 +1,220 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Coalition: First Contact"
+	name "向Heliarch登记"
+
+mission "Coalition: Contributor"
+	name "返回the <planet>"
+
+mission "Coalition: Lost: Marker"
+	name "对外援助"
+
+mission "Coalition: Lost: Offer"
+	name "跳跃引擎借贷"
+
+mission "Coalition Yottrite 1"
+	name "更多Yottrite"
+
+mission "Coalition Yottrite 2"
+	name "更多Yottrite"
+
+mission "Coalition Yottrite 3"
+	name "邻居的信箱"
+
+mission "Coalition Yottrite 4"
+	name "Yottrite研究"
+
+mission "Coalition Yottrite 5"
+	name "Saryd专家"
+
+mission "Coalition Yottrite 6"
+	name "造船大师"
+
+mission "Coalition Yottrite 7"
+	name "造船大师"
+
+mission "Coalition Yottrite 8"
+	name "最后一个样本"
+
+mission "Coalition Yottrite 9"
+	name "Yottrite展示"
+
+mission "Kimek Student 1"
+	name "运送Chikee"
+
+mission "Kimek Student 2"
+	name "运送Chikee"
+
+mission "Kimek Student 3"
+	name "运送Chikee"
+
+mission "Kimek Student 4"
+	name "运送Chikee"
+
+mission "Coalition Outbreak 1"
+	name "运送医生"
+
+mission "Coalition Outbreak 2"
+	name "收集疫苗"
+
+mission "Coalition Outbreak 3"
+	name "分发疫苗"
+
+mission "Kimek Gift"
+	name "一分钟不差"
+
+mission "Saryd Students 1"
+	name "获取Arach朗姆酒"
+
+mission "Saryd Students 2"
+	name "运送Arach Rum"
+
+mission "Saryd Census 1"
+	name "Saryd人口普查"
+
+mission "Saryd Census 2"
+	name "Saryd人口普查"
+
+mission "Saryd Couple 1"
+	name "筹集资金"
+
+mission "Saryd Couple 2"
+	name "甜蜜的家园"
+
+mission "Saryd Couple 3"
+	name "颠倒的屋蛛"
+
+mission "Saryd Couple 4"
+	name "试驾，最终驱动"
+
+mission "Longcow Antibiotics 1"
+	name "长牛抗生素"
+
+mission "Longcow Antibiotics 2"
+	name "长牛抗生素"
+
+mission "Arachi Orphans"
+	name "Arach孤儿"
+
+mission "Arachi Cartoonist 1"
+	name "新设计"
+
+mission "Arachi Cartoonist 2"
+	name "新设计"
+
+mission "Saryd University Lecture"
+	name "运送Saryd科学家"
+
+mission "Coalition: Pilgrimage 1"
+	name "世界塑造者神殿"
+
+mission "Coalition: Pilgrimage 2"
+	name "守护者的祝福"
+
+mission "Coalition: Pilgrimage 3"
+	name "访问the Witch of Dusk"
+
+mission "Coalition: Pilgrimage 4"
+	name "狩猎大师之路"
+
+mission "Coalition: Pilgrimage 5"
+	name "林地之物"
+
+mission "Coalition: Pilgrimage 6"
+	name "朝圣终点"
+
+mission "Coalition: Council of Ahr"
+	name "Ahr议会"
+
+mission "Coalition: Submarines 1"
+	name "运送Underwater"
+
+mission "Coalition: Submarines 2"
+	name "加压压力测试"
+
+mission "Coalition: Submarines 3"
+	name "构造压力测试"
+
+mission "Coalition: Submarines 4"
+	name "运送潜艇"
+
+mission "Coalition: Expeditions Past 1"
+	name "侦察许可"
+
+mission "Coalition: Expeditions Past 2"
+	name "中继塔"
+
+mission "Coalition: Expeditions Past 3"
+	name "尘埃秘密投放点"
+
+mission "Coalition: Expeditions Past 4"
+	name "报告：Distant Home"
+
+mission "Coalition: Expeditions Past 5"
+	name "报告：Ancient Light"
+
+mission "Coalition: Expeditions Past 6"
+	name "报告：Summit"
+
+mission "Coalition: Expeditions Past 7"
+	name "好奇的红云"
+
+mission "Coalition: Expeditions Past 8"
+	name "失去的检查点"
+
+mission "Coalition: Expeditions Past 9"
+	name "逃跑路线"
+
+mission "Coalition: Expeditions Past 10"
+	name "过去的远征"
+
+mission "Coalition: Long Lost Property 1"
+	name "久失的财产"
+
+mission "Coalition: Long Lost Property 2"
+	name "失物招领"
+
+mission "Coalition: Long Lost Property 3"
+	name "回收探测器"
+
+mission "Coalition: Long Lost Property 4"
+	name "比较二进制"
+
+mission "Coalition: Struggling Author - Human Media 1"
+	name "获取Kachachee文化信息"
+
+mission "Coalition: Struggling Author - Book Discovered"
+	name "寻找Anna Fangvin"
+
+mission "Coalition: Struggling Author 1"
+	name "将Take Anna运往Coalition Space"
+
+mission "Coalition: Struggling Author 2"
+	name "帮助Anna在Heliarchy注册"
+
+mission "Coalition: Struggling Author 3"
+	name "回到<planet>"
+
+mission "Coalition: Struggling Author 4"
+	name "Kimek出版公司"
+
+mission "Coalition: Struggling Author 5A"
+	name "访问Anna"
+
+mission "Coalition: Struggling Author 5B"
+	name "访问Anna"

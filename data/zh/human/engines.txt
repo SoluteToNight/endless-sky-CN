@@ -1,0 +1,110 @@
+outfit "Volcano Afterburner"
+	description "加力燃烧器通过将超空间燃料倾入引擎并点燃来工作，产生大量推力。这在躲避导弹或短暂逃离更快的对手时非常有用，但必须小心避免消耗过多燃料，以致于没有足够的燃料用于超空间旅行。"
+
+outfit "Caldera Afterburner"
+	description "火山口加力燃烧器专为重型战舰设计，使本来缓慢的飞船能够获得一阵爆发性速度，追赶更快的目标或逃离战斗的炽热战场。"
+
+outfit "Ionic Afterburner"
+	description "离子加力燃烧器由辛迪加设计，以弥补普通加力燃烧器的主要弱点：即它以极快的速度消耗超空间燃料。离子加力燃烧器改用少量燃料结合飞船电池的大量能量爆发来达到同样的效果。"
+
+outfit "X1050 Ion Engines"
+	description `在设计 Barb 时，辛迪加抓住机会整合了他们最小的推进器型号，以创造一个更紧凑的转向和推进引擎。结果除了在战斗机上外没什么用，而且在这个角色中也只是"尚可"。不过，如果引擎空间非常宝贵，这是最小的引擎组合，仍然可以（最终）把你送到目的地。`
+
+outfit "X1700 Ion Thruster"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X2700 Ion Thruster"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X3700 Ion Thruster"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X4700 Ion Thruster"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X5700 Ion Thruster"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X1200 Ion Steering"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X2200 Ion Steering"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X3200 Ion Steering"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X4200 Ion Steering"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X5200 Ion Steering"
+	description "	离子引擎消耗的能量比等离子引擎少，产生的热量也更少，但同样的推力下它们也占用更多的空间。"
+
+outfit "X1100 Ion Reverse Thruster"
+	description "	由于反向推进器必须面向前方，因此必须安装在飞船的武器区而非引擎区。"
+
+outfit "Chipmunk Plasma Thruster"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Greyhound Plasma Thruster"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Impala Plasma Thruster"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Orca Plasma Thruster"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Tyrant Plasma Thruster"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Chipmunk Plasma Steering"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Greyhound Plasma Steering"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Impala Plasma Steering"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Orca Plasma Steering"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Tyrant Plasma Steering"
+	description "	等离子引擎比同等大小的离子引擎稍强一些，但能源效率较低且产生更多热量。"
+
+outfit "Capybara Reverse Thruster"
+	description "	由于反向推进器必须面向前方，因此必须安装在飞船的武器区而非引擎区。"
+
+outfit "A120 Atomic Thruster"
+	description "如果你正在寻找能够安装到飞船中的最强大引擎，并且有足够的钱可烧，深渊的原子推进器就是你的答案。当然，它们所需的额外能量和冷却能力很容易抵消其小尺寸带来的好处。"
+
+outfit "A250 Atomic Thruster"
+	description "深渊的原子推进器已经生产了几个世纪，但由于其高昂的价格和较高的能量需求，仍然是一种小众产品。"
+
+outfit "A370 Atomic Thruster"
+	description "这种推进器小到足以安装在轻型战舰或货船中，但强大到足以驱动除最大飞船外的任何飞船。自然，如此性能的价格也是令人咋舌的。"
+
+outfit "A520 Atomic Thruster"
+	description "如果你的飞船装备了一套深渊的原子引擎，你将成为银河系中每个飞行员的羡慕对象。人类发现的任何其他推进方式都不能从如此小的引擎中产生如此多的推力。"
+
+outfit "A860 Atomic Thruster"
+	description "A860 原子推进器是人类星域中出售的最强大的引擎，并且比任何替代方案都紧凑得多。但你可能需要升级飞船的电源和冷却系统才能驾驭它。"
+
+outfit "A125 Atomic Steering"
+	description "深渊的原子推进器是高端星舰的热门选择。一套原子引擎的价格高于安装它们的飞船本身的情况并不少见。"
+
+outfit "A255 Atomic Steering"
+	description "如果你已经用尽了所有其他让飞船更灵活的选择，也许是时候投资一套原子引擎了。"
+
+outfit "A375 Atomic Steering"
+	description "赏金猎人和其他需要在追逐速度上获得优势的船长经常梦想着有朝一日能攒够钱买一套原子引擎。"
+
+outfit "A525 Atomic Steering"
+	description "这套来自深渊的机动推进器将使小型战舰能够像战斗机一样快速转向。对于较大的飞船，用一套原子引擎替换现有引擎可以释放出大量空间用于其他装备或武器。"
+
+outfit "A865 Atomic Steering"
+	description "原子引擎被许多人视为深渊的最高成就。虽然它们价格昂贵到只有相对少数人在使用，但很少有船长不梦想有一天能装上一套。"
+
+outfit "AR120 Reverse Thruster"
+	description "	由于反向推进器必须面向前方，因此必须安装在飞船的武器区而非引擎区。"

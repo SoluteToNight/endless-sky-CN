@@ -1,0 +1,34 @@
+# Copyright (c) 2025 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Disabled Aberrant"
+	boarding
+	invisible
+	source
+		government "Aberrant"
+	destination "Earth"
+	on offer
+		conversation
+			branch "boarded ka'het"
+				has "Disabled Ka'het: offered"
+			action
+				log `成功登上了一艘 Aberrant。在调查过程中，似乎有一种奇怪的存在在注视着你，带来一种不祥的预感。它似乎是一个单一的、飞船大小的有机体，靠着特殊的外骨骼在太空中旅行。`
+			`你将 <flagship> 驶近这个奇怪的实体，尽管它一动不动，却似乎散发着一种不祥的气息。当你接近其船体脆弱部分的一个洞口时，感觉有些根本性的不对劲——那似乎是一个外壳，包裹着一只巨大的蛞蝓状生物。暴露在武器火力之下，这只生物似乎已经死亡，但你几乎觉得有什么东西在看着你。`
+			`	You have no trouble docking with what seems to be its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`
+				decline
+			label "boarded ka'het"
+			action
+				log `成功登上了一艘 Aberrant。它看起来与 Ka'het 极为相似，但已被扭曲成了一种新的形态，一种感觉根本不对劲的形态。`
+			`你将 <flagship> 驶近这个奇怪却又似曾相识的实体，尽管它一动不动，却似乎散发着一种不祥的气息。这艘飞船让你感觉根本不对劲，表面上与 Ka'het 相似，但显然不是——也许是远亲，或是被某种东西不可逆转地改变了的 Ka'het。你接近其船体脆弱部分的一个洞口，一只 'het 蛞蝓似乎已经死亡，但你几乎觉得它仍在注视着你。`
+			`	You have no trouble docking with its "exoskeleton," trying to decide what to do next. While the Aberrant is too different from a normal ship for you to command it, it's safe to say that you can now loot some of its outfits. The rest appear to be embedded in some kind of hard, glassy tissue; perhaps destroying the ship could release them.`

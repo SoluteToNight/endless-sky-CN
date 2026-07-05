@@ -1,0 +1,384 @@
+# Copyright (c) 2020 by Zitchas
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+
+phrase "00-07"
+	word
+		"00"
+		"01"
+		"02"
+		"03"
+		"04"
+		"05"
+		"06"
+		"07"
+
+
+
+phrase "0-F"
+	word
+		"0"
+		"1"
+		"2"
+		"3"
+		"4"
+		"5"
+		"6"
+		"7"
+		"8"
+		"9"
+		"A"
+		"B"
+		"C"
+		"D"
+		"E"
+		"F"
+
+
+
+phrase "00-1F"
+	word
+		"0"
+		"1"
+	phrase
+		"0-F"
+
+
+
+phrase "A group of"
+	word
+		"A "
+	word
+		"pair"
+		"couple"
+		"pack"
+		"squad"
+		"team"
+		"family"
+		"group"
+		"聚集"
+		"小组"
+		"中组"
+		"大组"
+	word
+		" of "
+
+
+
+phrase "Indeterminate"
+	word
+		"A few"
+		"Several"
+		"Some"
+		"Lots of"
+		"Many"
+	word
+		" "
+
+
+
+phrase "Amount of Remnant"
+	phrase
+		"一群"
+		"不确定"
+	word
+		"Remnant"
+
+
+news "remnant security advisory"
+	location
+		government "Remnant"
+	name
+		word
+			"星系安全部"
+			"Local"
+			"System"
+			"Defense"
+		word
+			" "
+		word
+			"Advisory"
+			"Status"
+			"Threats"
+	message
+		word
+			`"`
+		word
+			"即将抵达的 Korath 舰队："
+		word
+			"${00-07} 天"
+		word
+			" "
+		phrase
+			"00-1F"
+		word
+			" 小时。威胁等级 Sierra-"
+		word
+			"2"
+			"3"
+		phrase
+			"0-F"
+		word
+			"."
+		word
+			`"`
+	message
+		word
+			`"`
+		word
+			"即将抵达的 Korath 飞船："
+		word
+			"${00-07} 天"
+		word
+			" "
+		phrase
+			"00-1F"
+		word
+			" 小时。威胁等级 Sierra-"
+		word
+			"4"
+			"5"
+		phrase
+			"0-F"
+		word
+			"."
+		word
+			`"`
+	message
+		word
+			`"`
+		word
+			"Patrol"
+			"Salvage"
+			"Sentry"
+			"Attack"
+			"Reconnaissance"
+			"Escort"
+			"Decoy"
+		word
+			" "
+		word
+			"Flight"
+			"Talon"
+			"Wing"
+		word
+			" "
+		phrase
+			"0-F"
+		phrase
+			"0-F"
+		phrase
+			"0-F"
+		word
+			" "
+		word
+			"准备"
+			"就绪"
+			"待命"
+			"等待"
+		word
+			" "
+		word
+			"departure"
+			"launch"
+			"combat"
+		word
+			"."
+		word
+			`"`
+	message
+		word
+			`"`
+		word
+			"打捞船请报告轨道位置，迎接即将抵达的 Korath 飞船。"
+			"当前威胁等级无变化。"
+			"保持正常安全状态。"
+			"建议所有离港飞船保持武器系统就绪。"
+			"建议所有离港飞船注意附近可能出现敌对目标。"
+			"提醒：请更新您的 IFF 设置并验证密钥。"
+			"提醒：每次启动时请验证选择性 IFF 广播功能是否正常。"
+		word
+			`"`
+
+
+
+news "remnant incomprehensible"
+	location
+		government "Remnant"
+	name
+		word
+			"Spaceport"
+			"装卸码头"
+			"Cafeteria"
+			"着陆坪"
+			"着陆码头"
+			"太空港小巷"
+			"太空港走廊"
+	message
+		phrase
+			"Remnant 数量"
+		word
+			" sign "
+			" 手势 "
+		word
+			"quickly"
+			"calmly"
+			"leisurely"
+			"slowly"
+			"deliberately"
+			"carefully"
+			"precisely"
+			"sharply"
+			"briskly"
+			"sweepingly"
+			"intensively"
+			"meticulously"
+			"详细地"
+			"vaguely"
+			"briskly"
+			"hurriedly"
+			"hastily"
+			"abruptly"
+			"spontaneously"
+		word
+			" to "
+		word
+			"彼此"
+			"另一个 Remnant"
+			"其他 Remnant"
+			"咨询台前的 Remnant"
+			"一个码头工人"
+			"你无法看清的某物或某人"
+		word
+			". "
+		word
+			"你无法"
+		word
+			"辨认出"
+			"弄清楚"
+			"understand"
+			"comprehend"
+		word
+			" 他们是什么"
+		word
+			"saying"
+			"communicating"
+			"conveying"
+			"discussing"
+		word
+			"."
+
+
+
+news "remnant cafeteria"
+	location
+		government "Remnant"
+	name
+		word
+			"Spaceport"
+			"Cafeteria"
+			"餐厅"
+			"Buffet"
+			"Mess"
+			"Canteen"
+			"Kitchen"
+		
+	message
+		phrase
+			"Remnant 数量"
+		word
+			" "
+		word
+			"从厨房窗口取走装满食物的托盘"
+			"似乎在共同享用一顿大餐"
+			"正在大餐的残羹旁休息"
+			"正一边用餐一边用手语交谈"
+			"正一边用餐一边阅读报告"
+			"正一边用餐一边审视全息投影"
+		word
+			"."
+
+
+
+news "remnant comprehensible"
+	location
+		government "Remnant"
+	to show
+		has "remnant: sign studies complete"
+	name
+		word
+			"Spaceport"
+			"装卸码头"
+			"Cafeteria"
+			"着陆坪"
+			"着陆码头"
+			"太空港小巷"
+			"太空港走廊"
+	message
+		phrase
+			"Remnant 数量"
+		word
+			" sign "
+			" 手势 "
+		word
+			"quickly"
+			"calmly"
+			"leisurely"
+			"slowly"
+			"deliberately"
+			"carefully"
+			"precisely"
+			"sharply"
+			"briskly"
+			"sweepingly"
+			"intensively"
+			"meticulously"
+			"详细地"
+			"vaguely"
+			"briskly"
+			"hurriedly"
+			"hastily"
+			"abruptly"
+			"spontaneously"
+		word
+			" to "
+		word
+			"彼此"
+			"另一个 Remnant"
+			"其他 Remnant"
+			"咨询台前的 Remnant"
+			"一个码头工人"
+			"你无法看清的某物或某人"
+		word
+			". "
+		word
+			"从这个角度看，"
+			"如果他们不面向你，"
+		word
+			"你只能"
+			"你能"
+		word
+			"辨认出"
+			"catch"
+			"see"
+			"discern"
+		word
+			" 的是他们在"
+		word
+			"讨论最近的一次打捞行动"
+			"制定午餐计划"
+			"争论引擎效率问题"
+			"八卦一位来自 Ember Waste 之外的访客"
+		word
+			"."

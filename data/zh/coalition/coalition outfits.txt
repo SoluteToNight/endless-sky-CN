@@ -1,0 +1,104 @@
+outfit "Small Collector Module"
+	description "太阳能是联盟商船队的主要能源。这些面板的设计经过数千年的打磨，效率不断提高。"
+
+outfit "Large Collector Module"
+	description "一块这样的太阳能面板就足以满足一艘中型联盟民用舰船的能源需求，特别是考虑到联盟引擎的能源效率，以及联盟法律只允许太阳执政官舰船携带武器的事实。"
+
+outfit "Small Reactor Module"
+	description "	一束反质子触发注入的微小燃料颗粒中的聚变反应，使得燃耗比常规方式远为彻底高效。"
+
+outfit "Large Reactor Module"
+	description "	这种先进的聚变反应堆是为最强大的太阳执政官军舰设计的。自与夸克族首次交战以来，其结构在数千年间没有显著变化，但每一代反应堆的效率都比上一代略高。"
+
+outfit "Small Cogeneration Module"
+	description "	这种紧凑的设计回收了大部分原本会被浪费的废热，使其成为一种非常高效的燃料电池。"
+
+outfit "Large Cogeneration Module"
+	description "和平时期没有太多令人兴奋的工作可做，许多联盟工程师便以改进现有设备、提高其效率为乐。"
+
+outfit "Small Battery Module"
+	description "由于联盟舰船依赖太阳能，它们还必须能够储存大量能量。这种小型电池组比同类的人类科技高效得多。"
+
+outfit "Large Battery Module"
+	description "这种电池组储存的能量足以让一艘联盟舰船在太阳能板仅产出峰值一小部分时仍能继续机动。"
+
+outfit "Small Shield Module"
+	description "尽管联盟空间中几乎闻所未闻战斗，但几乎所有的联盟舰船都能在必要时给自己的护盾充能。"
+
+outfit "Large Shield Module"
+	description "联盟为其舰船制造重型护盾发生器，以防有一天面对来自夸克族或另一个物种的侵略。"
+
+outfit "Overcharged Shield Module"
+	description "这些模块化护盾发生器是联盟空间中生产的最强大发射器，因此受到太阳执政官的严格管控和专用。对大型护盾模块进行的增改使其护盾生成能力提高三倍以上，但代价是需要持续供应能量来稳定它。"
+
+outfit "Small Repair Module"
+	description "阿拉奇舰船更依赖坚固的船体而非能量护盾，它们通常携带一台这样的维修模块，以便在飞行中对受损的船体装甲进行修补。"
+
+outfit "Large Repair Module"
+	description "这个中枢容纳了一小队维修机器人，它们可以攀爬在飞船船体上并修复损伤，即使是在战斗中也能做到。"
+
+outfit "Overclocked Repair Module"
+	description "这些先进的维修模块配发给太阳执政官舰船，提供了整个联盟空间中无与伦比的船体维修能力。大量的小型维修无人机配有它们用来在船体上快速移动的广泛通道，因此该装置可能会干扰舰船的散热系统。"
+
+outfit "Cooling Module"
+	description "这种散热模块消耗能量。为了节约电力，它不会全速运转，除非舰船非常接近过热状态。"
+
+outfit "Fuel Module"
+	description "	如今，联盟中几乎每个星系都有加油设施，但一些船长仍然觉得这些模块提供的额外跳跃次数很有用。"
+
+outfit "Decoy Plating"
+	description "	出于保护自己免受破坏性太阳执政官鱼雷攻击的需要，月神会在每块装甲板中集成了小型独立雷达干扰系统，至少作为最后一道防线。"
+
+outfit "Refueling Module"
+	description "	该装置的机制需要预留一部分燃料以便其正常工作，因此一艘船只能安装有限数量，否则将无法跳跃到另一个星系。"
+
+outfit "Shield Refactor Module"
+	description "	月神会高度重视这种昂贵装置的生产，因为它提供了对抗太阳执政官鱼雷对船体装甲毁灭性效果的急需优势，胜过其他护盾发生器。"
+
+outfit "Small Recovery Module"
+	description "通过将联盟的护盾生成和船体维修技术结合到一个装备中，月神会提高了二者的效能，从而提供了对太阳执政官武器更好的防御。"
+
+outfit "Scanning Module"
+	description "这个系统使太阳执政官能够扫描附近的舰船，从而检测武器或非法货物。"
+
+outfit "Outskirts Gauger"
+	description "	计量仪不断对在其令人印象深刻的范围内探测到的每一件小事进行计算，需要稳定的能量供应才能运作。"
+
+outfit "Small Thrust Module"
+	description "这种微型推进器能产生相当大的推力……但也会产生相当大的热量。"
+
+outfit "Large Thrust Module"
+	description "联盟工程师更喜欢专注于完善少数通用设计，而非生产多种多样。这种推进器相当高效，但大型舰船需要将多个堆叠在一起才能产生足够的推力。"
+
+outfit "Small Reverse Module"
+	description "	由于反向推进器必须面向前方，它必须安装在舰船的武器槽位而非引擎槽位。"
+
+outfit "Large Reverse Module"
+	description "	由于反向推进器必须面向前方，它必须安装在舰船的武器槽位而非引擎槽位。"
+
+outfit "Small Steering Module"
+	description "尽管效率很高，这种模块对最小的舰船来说还不够。相反，这些模块的设计初衷是让舰船可以同时使用两到三个来协同工作。"
+
+outfit "Large Steering Module"
+	description "通过专注于小型模块化引擎而非大多数其他物种开发的大型主力舰驱动器，联盟放弃了一些超大舰船的潜在效率，但获得了相当大的灵活性。"
+
+outfit "Enforcer Confrontation Gear"
+	description "太阳执政官战斗工程的巅峰之作，这种武器使用凝聚的能量冲击波来处理任何敢于威胁联盟安全的人。"
+
+outfit "Enforcer Riot Staff"
+	description "为以非致命方式处理联盟空间偶尔出现的异议分子而制造，这些武器在舰船战斗中几乎用不到，但为了防止异议分子登上舰船还是会携带。"
+
+outfit "Guardian Turret"
+	description "	唯一的缺点是向炮塔系统注册全体船员的过程相对繁琐，这样它才能识别和避免在登船战斗中向友军开火。"
+
+outfit "Anti-Materiel Gun"
+	description "易于使用且制造成本相对低廉，这些武器是通过改装太阳执政官偏爱的武器而诞生的，新的枪管将能量塑造成致命的冲击波，能迅速撕碎最坚固的护甲。"
+
+outfit "Coalition License"
+	description "	这份许可证有一段争议历史，因为在数千年间，若干太阳执政官法律反复规定获取许可证所需的条件。这一争议始于独立战争仅仅几十年后通过的第三项《民品与票价法案》，一直延续到两百年前通过的对《商业交通第九修正案》第二条的较近期的第二十六次增补，该增补大大放宽了获取要求。"
+
+outfit "Heliarch License"
+	description "一个由金和铂金制成的华丽头环，既是军衔的象征，也是进入太阳执政官专属设施的许可。专为适合人类头部定制制作，佩戴起来出奇地轻盈舒适。"
+
+outfit "Beyond the Hyperdrive"
+	description "	故事讲述了一位人类船长从夸克族那里偷得跳跃引擎并穿越超空间航道，了解到星系中外星生物的新知。"
