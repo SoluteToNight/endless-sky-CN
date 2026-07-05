@@ -1,0 +1,1054 @@
+# Copyright (c) 2021 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "Sad Gamblers - Republic"
+	minor
+	source
+		government "Republic"
+		attributes "near earth"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`经过太空港时，你看到一大群人在等待彩票开奖。你听到一声胜利的欢呼，你的注意力被吸引过去，其中一人中了12等奖，赢得了一笔中等金额。这大约是一两天的标准工资。`
+			`	It's difficult not to pity them as they immediately buy more tickets with the whole value.`
+				decline
+
+mission "Sad Gamblers - Syndicate"
+	minor
+	source
+		government "Syndicate"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`经过太空港时，你看到一大群人在等待彩票开奖。你听到一声胜利的欢呼，你的注意力被吸引过去，其中一人中了12等奖，赢得了一笔中等金额。这大约是一两天的标准工资。`
+			`	It's difficult not to pity them as they immediately buy more tickets with the whole value.`
+				decline
+
+
+
+mission "Foiled Kidnapping Witnessed"
+	minor
+	source
+		government "Syndicate"
+		not attributes "station" "frontier" "urban"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`一个路障挡住了你前往城市的道路，迫使你在经过时减速，从而能看到发生了什么骚动。警察挥手让从另一个方向来的一辆辆车经过，查看车内情况，直到有一辆车被拦到路边，警察短暂地停止了所有的交通。司机看起来很苦恼，即使在被拘留时也拒绝打开后备箱；当发现里面有一个小女孩时，他的脸变得苍白。`
+			`	You're not sure how to feel about this when the police wave you off, blocking your view from the scene.`
+				decline
+
+
+
+mission "Gift Store Interaction"
+	minor
+	source
+		government "Republic"
+		attributes "deep"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`当你拿着零食在太空港闲逛，等待飞船加油时，你经过一家当地纪念品店，探头进去消磨一点时间。你看到一个不错的杯子，上面印着Deep航线的徽章，下方写着"和平、繁荣、进步"的文字，你拿起来感受一下。把手很结实，对你的手指来说不会太小，杯口的形状看起来喝起来会很舒服。`
+			`	Two young adults wander into the aisle just a couple of meters away, conversing in a language that you don't understand, one that is perhaps local to the Deep. They're cooing over an item they've found, but when one flips it over to look at the price tag, there is an immediate exchange of looks and expressions that does not require translation. The item ends up back on the shelf with a giggle and a headshake.`
+			branch broke
+				credits < 50
+			`	Curious, you turn over your own mug and see that it is indeed at least five times what you would expect to pay for a mug, even a good one: 50 credits. Still, it is certainly a novelty...`
+			choice
+				`	(Buy the mug.)`
+					goto buy
+				`	(Put it back.)`
+			`	You roll your eyes and put it back. Some experiences really are universal.`
+				decline
+			
+			label buy
+			action
+				payment -50
+				outfit "Mug"
+			`	You purchase the mug on an impulse. At least you can ditch your other one with a chip in it.`
+				decline
+			
+			label broke
+			`	Curious, you turn over your own mug, and when you spot the 50 credit price tag your heart sinks. You could never afford such an expensive mug. You put it back and walk away while pondering your financial situation.`
+				decline
+
+
+
+mission "New China Mourners"
+	minor
+	source "New China"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`天空向下方世界倾泻着雨水，与人群一同哭泣，一口朴素而庄重的棺材从空层大厅缓缓抬出。有节奏的哀号与沙沙的雨声交织在一起，充满空气，棺材后面紧跟着一列看起来是庞大家族聚会的送葬队伍。即使棺材被放入货车时，他们也没有离开逝者，许多人的手放在棺材上，仿佛在推动这个人走向最终的安息之地。最前面的两位送葬者，一位女性和一位年轻男子，爬进去在棺材旁坐下。附近的某个地方，音乐开始响起，车辆缓缓驶离。`
+			`	You wonder how well known the person was before they died as those remaining finally turn away from the van receding into the distance and begin to file past some discreet attendants you hadn't noticed at first, accepting slippers for their bare feet before boarding the buses waiting to take them after the van.`
+				decline
+
+
+
+mission "New Holland Foibles"
+	minor
+	source "New Holland"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`燃烧金属的气味弥漫在空气中，你沿着太空港附近工厂城镇人流稀疏的街道行走，避开了直接通往港口及其机库的主干补给路线。`
+			`	Despite the distance and absent traffic though, it is far from quiet. Several factory buildings make discernible thrumming noises, and grinders echo amidst the silence as you investigate. Turning a corner, you come across an alley running along a lengthy chain link fence line. Beyond it, you can see a throng of men cutting away at a spaceship. Parts regularly fall to the floor, the workers apparently heedless of those below.`
+			`	Even as you watch you see a hull plate swinging dangerously above a workers head.`
+			choice
+				`	(Call out a warning.)`
+				`	(Leave them be.)`
+					goto leave
+			`	You call out a warning and most of the men pause to look at you, the hull plate swinging gently as the holder of the offending grinder squints in your direction. One of the older men, who you now realize was at least somewhat overseeing the activity, steps forward and flicks his hands at you in a shooing motion. "Oi you, piss off. We've got our safety supervisor, we don't need your nose in our business."`
+			choice
+				`	(Challenge the claim.)`
+				`	(Leave them be.)`
+					goto leave
+			`	You point out that what you were seeing did not look at all safe, supervised or not, and the man glances around briefly before huffily making his way over to stand opposite you behind the fence. "Look stranger," he says, "work here is hard to find. For those working here, we don't have the time to spare. But the pay is good and we can at least feed our kids. Sure, some people get a few scrapes and bruises, but no one has died on my watch, and Rik only lost his smallest finger. If you feel the need to watch then fine, stand around, but leave us be, okay? There ain't no one around here that'll care what you have to say anyway."`
+			`	He looks you dead in the eyes, and once he is sure you understand his message he stomps back over to his crew, who continue their work. You watch them cut the dead ship apart until its pieces completely fill the trailer they have with them, before they proceed to haul the parts away to a factory in the distance.`
+				decline
+			label leave
+			`	You turn and depart. A moment later you hear a clatter and a shout, but when you look back no one appears to have been injured.`
+				decline
+
+
+
+mission "Trash Fire Crops"
+	minor
+	source
+		government "Republic"
+		attributes "dirt belt"
+		attributes "farming"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		"bumper crop year" = "year"
+		conversation
+			`在太空港里走动时，你无法避开那股可怕的气味。闻起来像垃圾焚烧，但你看不到任何烟雾。`
+			choice
+				`	(Ignore it.)`
+					goto ignore
+				`	(Ask around.)`
+			`	You ask one of the locals who doesn't look too busy. They sadly inform you that there's been a bumper banana crop, but unfortunately other wealthier worlds had a bumper crop at the same time, and there's nowhere to either sell or store a significant excess. Distressed farmers are burning the excess fruit to make fertilizer for the next season, the wind has carried the smell all over town.`
+				decline
+			label ignore
+			`	You leave the mysterious smell to the locals and continue on your business.`
+				decline
+
+
+
+mission "Worker's Occasion"
+	minor
+	source
+		government "Republic"
+		attributes "dirt belt"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`停下脚步考虑晚餐去哪家餐厅时，你注意到一名当地工人正攥着少量 credits，急切地看着菜单。他的衣服虽然旧但整洁，看起来刚刷过，但无法忽视那些洗不掉的污渍和痕迹。这个男人显然很紧张，他看着正式的餐厅布局，明显缺乏熟悉感。你自己看了看菜单，发现虽然这些价格对你来说很便宜，但在你转行之前，这些价格是遥不可及的。`
+			choice
+				`	(Offer to pay for the man's dinner.)`
+					goto aid
+				`	(Silently pity the man.)`
+					goto pity
+				`	(Smile at the man.)`
+			`	You smile at the man and reflect on the value of small achievements. He catches your smile out of the corner of his eye and gives you a hesitant but friendly wave back before you go about your business.`
+				decline
+			label aid
+			`	You enter the restaurant and catch the man's attention, offering to pay for his meal.`
+			`	He recognizes you as a pilot and frowns, before telling you where you can stick that offer in colorful terms. As you walk away, you think about what your reaction would be if a much wealthier individual pitied you by paying for your dinner.`
+				decline
+			label pity
+			`	You pity the man who has to work a full month to afford this and continue on your way.`
+				decline
+
+
+
+mission "Paradise Cleaner Incident"
+	minor
+	source
+		government "Republic"
+		attributes "paradise"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`对于外地人来说，参观 Paradise 的太空港总是一种有趣的体验。没有哪个地方像这里一样，阶级已经成为日常生活中根深蒂固的一部分。你注意到有些人似乎对大多数匆忙行走的人来说是隐形的，但他们从未与你的目光相接。他们似乎总是竭尽全力避免被注意。`
+			`	You haven't noticed children that look poor here in the past, but on this occasion you spot one as he knocks over a mop and bucket... right in front of a businessman and his family rolling their bags through the spaceport. You've never seen someone go so deathly pale as the cleaner, the boy's mother, who scurries to fix things before the man even draws a breath.`
+			`	A pair of security officers appear almost immediately, before you could intercede one way or the other, as the man and his family begin to complain. One officer provides assurances as the other supervises the cleaner, who quickly hurries her child out of harm's way.`
+				decline
+
+
+
+mission "Curious Waiter"
+	minor
+	source
+		government "Syndicate"
+		attributes "factory"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`一时兴起，你决定在一家远离繁忙太空港的餐厅用餐。你很快拿着一份实体菜单查找美食列表，人们从你卡座旁的窗外川流而过，每个人都因漫长的工作日而显得疲惫不堪。餐点很快点好了，你继续观察人群直到它上桌——一份当地版本的炸猪排盖饭，然后你大快朵颐。`
+			`	The place is quiet, perhaps a little early for the dinner rush yet, and you are halfway through your meal when a waiter stops beside you, coughing to catch your attention.`
+			choice
+				`	"May I help you?"`
+				`	"Yes?"`
+				`	"What do you want?"`
+			`	"Sorry," he says, grabbing the edges of his shirt. "But... may I ask... what's it like to see the stars? To visit other worlds?"`
+			choice
+				`	"Most worlds are the same or worse than here."`
+				`	"The stars are prettier under an atmosphere."`
+				`	"It's an adventure, but not for the faint of heart."`
+			`	"Oh... I've never seen any pilots, so I never got to ask," he says, slightly dejected. "Thank you very much for telling me though!"`
+			`	He goes back to his work, with a thoughtful expression of neutral satisfaction on his face.`
+				decline
+
+
+
+mission "Syndicated Security Troops"
+	minor
+	source
+		government "Syndicate"
+		attributes "urban"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`"通纳"重型卡车低沉轰鸣着驶过街道——这些用于运输部队和补给的笨重车辆缓缓停下，引得众人纷纷转头看向这些棱角分明的威猛车辆。最前方车辆的司机和指挥官紧盯着路面，留意任何可能对车辆或随行支援构成危险的交通隐患。`
+			`	The troops within the back of each tonner, on the other hand, are making small talk, the camo on their face smearing off in the heat. One of them points at you, saying something that garners him a groan from his peers, and you decided that you probably don't want to know what he said.`
+				decline
+
+
+
+mission "Class Trip to Port"
+	minor
+	source
+		attributes "south"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`一群孩子在你走下飞船时朝你挥手，他们惊叹于眼前展示的星舰，老师们试图吸引他们的注意力却徒劳无功。他们的校服颜色在远处已经褪色，但当这群人走过时，没有一个人露出丝毫不悦。当你走向太空港时，你不禁想知道他们中有多少人最终能拥有自己的飞船，飞翔在星辰之间。`
+				decline
+
+
+
+mission "Old Defense Turrets"
+	minor
+	source
+		attributes "south"
+		not attributes "station" "frontier"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`令人恼火的长途停留促使你做点探索，你租了一辆车在附近短暂兜风。后来，当你把车开回指定停车场时，巨大的液压马达声意外地吸引了你的注意。你看到一个巨大的炮塔从附近的掩体后方升起，转向天空，单管火炮瞄准着似乎空无一物的方向。`
+			`	Looking around for some form of explanation you find a plaque placed conveniently nearby dedicating the turret, and five others like it, offering protection and discouraging piracy until relatively recent years. You can't help but wonder how well the turrets would do if they were to be actually used again.`
+				decline
+
+
+
+mission "Blind Landing"
+	minor
+	landing
+	source
+		government "Free Worlds"
+		attributes "farming"
+		not attributes "station" "frontier"
+	"offer precedence" 5
+	to offer
+		"year" > "bumper crop year" + 2
+		random < 1
+		has "Trash Fire Crops: declined"
+	on offer
+		conversation
+			`降落时，烟雾弥漫了你的挡风玻璃，你试图看清前方几米外的任何东西，但徒劳无功。不过，自动驾驶系统所有指示灯都显示稳定的绿色，交通管制也已确认锁定。`
+			choice
+				`	(Land on autopilot.)`
+				`	(Return to orbit.)`
+					goto orbit
+			`	You let the craft perform the landing, staring blankly at the haze until it clears.`
+			`	On the ground, you see the cause, fields upon fields of plantations burning. You see a crowd of mostly farmers blocking off a smaller group of firefighters, arguing and trying to stop them from putting out the flames as planes fly overhead, dropping water and retardants wherever necessary.`
+			`	You recall seeing something like this years ago, of farmers burning their crops to make the land fertile, and how bad the air was for months.`
+				decline
+			label orbit
+			`	Unwilling to trust landing blind into an unknown situation, you return to orbit and rejoin the spaceport processing queue. One day of delay is a worthwhile price to pay for surety.`
+				flee
+
+
+
+mission "Forest Fire"
+	minor
+	source
+		government "Free Worlds"
+		attributes "frontier"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`走下飞船时，燃烧的烟雾气味弥漫在空气中，你连忙冲往最近的避难所，一路咳嗽不止。到达后，你发现人们在大喊大叫，匆忙地往窗户上贴胶带。似乎没有人注意到你的到来，也没有人给出任何解释。`
+			choice
+				`	"Hey! What's happening? I can help!"`
+					goto help
+				`	(Look for someone not in motion.)`
+			`	You seek out a pregnant lady sitting on a chair, a mask worn as she explains: "A large fire has sprung up nearby, and the wind is fanning it towards the spaceport. Might have been some fool playing with fire, or some pirate sending a message to a local. We don't know, could be anything around here really. We're hunkering down and hoping it'll burn out before it does too much damage."`
+			choice
+				`	"I have a ship out there. Let me help."`
+			`	Her eyes widen and she looks around, sharply catching the attention of one of the many people hurrying about.`
+				goto fight
+			label help
+			`	A young man who looks suspiciously like he might've been air traffic control twenty minutes ago glances at you and skids to a stop. "Oh, you're a pilot! Can your ship help?"`
+			choice
+				`	"Yes."`
+			label fight
+			`	The dock-hands scramble to get the firefighting equipment onto your ship after your proclamation, instructing you to drop the retardants onto the perimeter of the fire. You barely manage to remember what every button does before the Air Traffic Controller clears you to depart, navigating your craft towards the fire.`
+			`	The raging fire flares like an inferno, throwing up black smoke in deep billowing waves as you approach. As you drop the retardants, making sure to keep your speed low, animals scramble towards safer grounds. You try to make sure you've not emptied right on top of them each time as you go back for another batch.`
+			`	Hours later, you look at your handiwork, a long line of red keeping back the flames as the fire starts to smother out. You radio your progress and receive a cheery response, thanking you for your help.`
+				decline
+
+
+
+mission "Local Politics"
+	minor
+	source
+		attributes "frontier"
+		attributes "south"
+		not attributes "station" "urban" "ex-pirate"
+	"offer precedence" 5
+	to offer
+		or
+			and
+				random < 5
+				or
+					has "flagship planet attribute: south pirate"
+					not "event: war begins"
+			and
+				random < 1
+				has "event: war begins"
+				not "event: fw suppressed Greenrock"
+	on offer
+		conversation
+			`降落在停机坪上时，你注意到太空港周围明显缺乏人气。没有人冲过来给飞船接线，也没有人理会你的到来。相反，当你离开飞船时，你在太空港里只找到一张纸条，详细说明了他们的"霸主"可以在哪里找到每年的贡品。`
+			`	You decide against finding out where the inhabitants went.`
+				decline
+
+
+
+mission "Military Response Test"
+	landing
+	minor
+	source
+		government "Free Worlds"
+		not attributes "station" "urban" "frontier"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`根据一套奇怪的指令，空中交通管制员让你输入一组坐标，带着你靠近一个巨大的军事基地，然后才前往降落区。你让自动驾驶接管操作，一边观察驾驶舱窗外的景色，一边祈祷基地里的炮塔不会把你从天上打下来。`
+			`	From where you are watching, you see a single woman standing within the parade square, a hand raised like she's looking at her watch. Seconds pass before she raises her other hand and gives a thumbs up to whoever's looking at her. Suddenly, a loud siren sounds out across the base that is audible even in your ship as it passes by at reasonable height. You watch as soldiers drop everything they're doing, some rushing into buildings while others run toward armored vehicles. Within minutes, the base's vehicles are rolling towards the parade square whilst soldiers in full gear run to assemble within the square in neat rows.`
+			`	You aren't sure whether what they were doing was scheduled, or if it was in response to your flight.`
+				decline
+
+
+
+mission "Missed Mugging"
+	minor
+	source
+		government "Free Worlds"
+		not attributes "station" "frontier"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`走出太空港时，太阳已经落山了，你试图在附近找一家餐厅尝尝他们的手艺。环顾四周，唯一的光源来自你刚刚走出的那座建筑——黑暗海洋中的一座灯塔。`
+			`	Choosing a random direction, you decide to walk down the quiet street, taking in the sights. You are interrupted as two men rush from an alley, pushing past you as they go. Before you can respond, you see a woman run out, clothes in disarray as she gives chase to the two men to no avail. Belatedly, you realize that they were holding a purse, long after they've disappeared, melting into the blackness beyond.`
+				decline
+
+
+
+mission "Sojourn Sunday Sales"
+	minor
+	source
+		government "Free Worlds"
+		attributes "urban"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`你走进太空港时惊讶地眨了眨眼，看着人群挤过商业区蜿蜒的排队人链。你扫视四周，注意到到处都是度假胜地的广告，全都以荒谬的高折扣出售。然而尽管价格大幅降低，这些广告中的假期仍然花费巨大，年轻时的你根本无法为这样的开销辩解。`
+				decline
+
+
+
+mission "Tarazed Ship Christening"
+	minor
+	source "Wayfarer"
+	to offer
+		random < 10
+		has "main plot completed"
+	"offer precedence" 5
+	on offer
+		conversation
+			`当你走过太空港中忙碌工作的船只和船员时，一艘 Shuttle 前的小型聚会引起了你的注意。一位身穿相当俗气飞行员制服的年轻女子正被一小群人围绕着一起庆祝。当你经过时，一名站在梯子顶端的男子将一瓶香槟砸在（显然不是新的）船体上。人群中爆发出响亮的欢呼声，年轻女子尴尬地脸红了。`
+			choice
+				`	(Take a closer look.)`
+					goto investigate
+				`	(Shout well wishes as I pass by.)`
+					goto "pass by"
+				`	(Ignore them, I have more important things to do.)`
+			`	You hurry past the rowdy group, annoyed by the disturbance.`
+				decline
+			label "pass by"
+			`	You hurry past the group as they quiet down. Taking advantage of the momentary lull, you shout "Good luck! You've got this!" toward them. They let out another cheer in response, with the exception of the young woman who buries her face in her hands.`
+				decline
+			label investigate
+			`	You approach the group as they quiet down, noticing a hint of anxiety in the air.`
+			`	"Nothing quite like buying your very first starship," you say over their chatter. The celebration goes quiet as they turn to see who interrupted their little party.`
+			`	"It's certainly been an... experience," the young woman replies once you are in comfortable talking distance.`
+			choice
+				`	"Have you got any big plans with it?"`
+					goto plans
+				`	(Give some advice.)`
+					goto advice
+				`	"So, who's the lucky pilot?"`
+			`	You gesture to the Shuttle and look around as if it should be anyone else.`
+			`	"Uhh... that would be me," the woman says, glancing around awkwardly.`
+			choice
+				`	(Try to salvage the awkward situation.)`
+				`	(Get out while I can.)`
+					goto "get out"
+			`	"I'm just messing with you, my psychiatrist doesn't think it's very funny when I do it to him either."`
+			`	"Oh," the woman says quietly, "that's... nice, I guess."`
+			label "get out"
+			`	You realize that you have made this random young lady quite uncomfortable by barging in with your input.`
+			`	"Well, good luck!" you say with a wave as you hurry away. You barely hear the quiet "thank you" over the burning in your ears.`
+				decline
+			label plans
+			`	"Right now," she says with a sigh, "the only plan I have is to get rid of the massive debt that I'm in because of it."`
+			label advice
+			`	"The mortgage isn't so bad as long as you're willing to work hard," you say with a smile, "and there is no shortage of people in need of a ship and a good pilot."`
+			`	"I knew you could make a decent living with one, but is it really that easy?" she asks.`
+			`	"The work isn't easy, but finding a job is the least of your worries. I'm sure that you'll have this ship paid off in no time."`
+			`	You stay around and talk with the aspiring pilot for a few minutes, giving her tips and advice before stating that you have work to do. As you turn to leave, an older man places his hand on your arm, stopping you.`
+			`	"Before you go," the man says, "we weren't very sure about this whole 'pilot' thing at first, but it's good to hear that my little girl has made the right decision. Thank you for that."`
+			`	"It's the least I could do," you say before walking away.`
+				decline
+
+
+
+mission "Masquerade Hanging"
+	minor
+	source
+		government "Pirate"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`进入城镇广场时，空气中弥漫着燃烧的火药味，你看着一具尸体从高台上被滚落下来。当一名蒙面男子将一名女士拖过平台拖到中央台座上，用一把老式手枪抵着她的头，问了她一些你听不清的问题时，哭喊声和尖叫声响彻天空。幸好，那名男子没有开枪，把枪从她太阳穴上移开，然后用武器把她打晕了。`
+			`	Moments later the small crowd allows him to depart opposite your viewpoint, without incident and without explanation. You aren't quite sure what to make of this scene as the bodies are swiftly dragged away.`
+				decline
+
+mission "News Reporter - Paradise"
+	minor
+	source
+		government "Republic"
+		attributes "paradise"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 8
+		has "event: war begins"
+		not "event: joined the free worlds"
+	on offer
+		conversation
+			`你正穿过太空港时，看到一名年轻女子朝你的方向走来。她身后跟着成群结队的摄像无人机，每一台都标有一个由两条向内弯曲的弧线组成的标志。`
+			choice
+				`	(Wait for her to approach.)`
+					goto walk
+				`	(Hope she doesn't notice me.)`
+					goto notice
+				`	(Try to avoid her.)`
+			`	You take a hallway off to the side to evade her. Just as you think you've gotten out of sight, you hear a voice. "Excuse me!" You turn to see the reporter following you.`
+				goto walk
+			label notice
+			`	As you continue walking, you hear her call out, "Excuse me!" Suppressing a sigh, you turn to face the reporter.`
+			label walk
+			`	As she gets closer to you, she smiles. "Hello Captain! Would you be willing to answer a few questions for our viewers?"`
+			choice
+				`	"Sure, I wouldn't mind."`
+					goto questions
+				`	"No, I'd rather not."`
+					decline
+			label questions
+			`	The camera drones circle around you as she prepares for the interview. After a few seconds, she smiles at one of the drones and begins.`
+			`	"Welcome back. I'm here on <origin> reporting on the situation with the Free Worlds. I'm joined by a merchant captain currently between trips. Captain, what do you think of the ultimatum sent to Parliament?"`
+			choice
+				`	"I think Parliament should reconsider and give the situation some thought."`
+				`	"Parliament made the right decision by refusing the demands."`
+					goto right
+			`	The reporter frowns. "Can you explain your answer for our viewers?"`
+			choice
+				`	"The interests of every world should be considered, whether we agree or not."`
+				`	"The Free Worlds aren't represented well enough to gain traction through normal channels."`
+				`	"The Navy is hardly defending that territory, so taxes shouldn't be as much."`
+				`	"I would prefer to not answer."`
+			`	"I'm not sure that Parliament would agree with you, but I want to thank you for your answers, and for taking the time to do this interview!" she says.`
+			`	The drones dart back to follow her as she continues through the spaceport.`
+				decline
+			label right
+			`	The reporter smiles. "Can you explain that answer for our viewers?"`
+			choice
+				`	"There are proper channels for presenting grievances, and this isn't one of them."`
+				`	"It's a very ungrateful thing to do when Parliament is the one protecting them."`
+				`	"I would prefer to not answer."`
+			`	"We are fortunate that many people feel this way! Thank you for your answers, and for taking the time to do this interview!" she says.`
+			`	The drones dart back to follow her as she continues through the spaceport.`
+				decline
+
+mission "Scientists at the Pub after a Conference"
+	minor
+	source
+		government "Republic"
+		attributes "urban"
+		not attributes "station"
+	"offer precedence" 5
+	to offer
+		random < 1
+	on offer
+		conversation
+			`在长途跋涉和感觉更漫长的降落程序后休息时，你注意到一群人进入了你所在的酒吧，他们从街对面的会议中心蜂拥而来。他们的年龄、穿着和口音各不相同，但大多数人脖子上都挂着一个相同的挂绳徽章。你注意到一个掉在地上的徽章，上面写着"参会者——第35届泛银河系星际微生物基因组学与种群动力学会议"。这群人在你附近的一张长桌旁坐下。`
+			choice
+				`	(Order a meal and listen in to their conversation.)`
+					goto "overheard scientists 1"
+				`	(Find somewhere quieter to relax.)`
+					decline
+			label "overheard scientists 1"
+			`	Fragments of conversation make their way to you through the din of the pub.`
+			``
+			`	Two of the younger attendees are looking a bit nervous. "I'm so glad to have my presentation over with. I was so worried about having to present on the first day, but now I can finally just relax and actually listen to the other talks!"`
+			`	"Oh definitely! I probably shouldn't even be here - I should really be rehearsing... Oh! Waiter, another beer, please!"`
+			`	"Got your slide deck ready for tomorrow?"`
+			`	"Yeah, but I'm still terrified. I hate public speaking."`
+			`	"Don't worry, you know more about your particular area of expertise than they do. You'll be fine once you're on stage! And besides, graduate school is one giant exercise in public speaking. Comfort comes with practice."`
+			``
+			`	Another scientist is rolling his eyes after a post-mortem of the day's events. "Is there some law I don't know about that requires every 'question' to start with 'I guess this isn't so much a question as a comment...'?"`
+			``
+			`	An exasperated academic is speaking emphatically to her friend about what you infer to be a presentation they both heard earlier. "I don't think the nucleotide evidence supports their hypothesis at all! Like, I know the proteomic data could be used to support their conclusion, but they're ignoring synonymous mutations!"`
+			choice
+				`	(Order another beverage and continue listening.)`
+					goto "overheard scientists 2"
+				`	(Finish my meal and leave.)`
+					decline
+			label "overheard scientists 2"
+			`	The group's conversation grows louder by virtue of both passion for the subject as well as the influence of a few drinks.`
+			`	"Look, the analysis might be fine, but if they can't even be bothered to provide the version numbers for their analytical software, then it isn't reproducible and that's an automatic 'reject' from me."`
+			``
+			`	One person is looking slightly shell-shocked after considering what might have been. "Can you believe my computer crashed right before I had to present? Good thing I had backups. Two is one and one is none."`
+			``
+			`	A group seem to be discussing some other colleagues in the field who are, presumably, not present this evening. "Singh and Esterhazy are such arrogant jerks. Their work is okay, I guess, but not enough to justify their wannabe rockstar personalities!"`
+			`	"Sure, but they aren't just arrogant jerks, they're charismatic arrogant jerks. Charisma attracts good grad students to their lab, who produce good papers, who they put their name on. It's a positive feedback loop."`
+			``
+			`	Grant applications seem to be a common subject. "The Republic Medical Research Agency said my work is too theoretical, but the University of Chiron Department of Microbiology says it's too applied!"`
+			`	"That's a conundrum, alright. Maybe you could find some funding from industry? The Syndicate might be interested in your work."`
+			`	"Yeah, but I'm not sure yet if I'm willing to give up my academic freedom."`
+			choice
+				`	(Finish up at my own pace.)`
+					goto "overheard scientists 3"
+				`	(Settle my bill as quickly as possible and leave.)`
+					decline
+			label "overheard scientists 3"
+			`	Two attendees compare gripes about job demands. "Teaching sucks. Between class hours, office hours, and preparing lectures, there's hardly any time left for research."`
+			`	"That's funny! Teaching undergrads is my one respite from grant-writing!"`
+			``
+			`	A sociable but exhausted-looking man is sitting back in his chair. "These conferences only last three or four days, but it always feels like it ages you a year."`
+			`	You leave after finishing your meal, reflecting on having overheard a slice of a life very different from your own.`
+				decline
+
+
+mission "Sol-Bound Shuttle"
+	minor
+	source
+		system "Sol"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`	Upon entering the sprawling spaceport, you notice that a group of factory workers are talking to a captain. As you get closer, you see that the captain's flagship, a Shuttle that has seen better days, lacks a hyperdrive.`
+			choice
+				`	"Where's your hyperdrive?"`
+				`	"How are you going to travel anywhere with that ship?"`
+				`	(Go back to my ship.)`
+					decline
+			`	The captain laughs. "Most pilots are the adventurous type. Not me. I make a pretty decent haul just flying people from Earth to Mars and back. Occasionally I do trips to the Moon for tourists." You notice that she uses the archaic term for Luna. Must be a local expression.`
+			choice
+				`	"Doesn't that get boring?"`
+					goto boring
+				`	"Is there really enough travel within Sol that you can make a living off of it?"`
+			`	"You'd be surprised. There's a lot of people in this system after all, and a lot of those people have enough money to leave Earth but not enough to leave Sol. It's a nice niche I've carved out for myself."`
+				goto end
+			label boring
+			`	"For you, maybe. I can tell by your accent that you've done a bit of travelling from your home planet. I like staying closer to home, though. With all the instability in the galaxy - pirates, aliens, and who knows what else - staying in Sol keeps me safe. Call me paranoid, but being in a place where I don't have to worry about that is something I value." She eyes a ship to the side that's having its hull repaired. The damage appears to have been inflicted by a beam weapon.`
+			label end
+			`	You say your goodbyes as you board your ships. Although you are both captains, the trajectory of your lives have taken very different courses.`
+				decline
+
+# Note about Earth Day and Earth Hour:
+# Earth Day (in 2023) is a day of awareness about climate change and occurs every 22nd of April. Earth Hour is an hour
+# of blackout around cities worldwide, also to bring awareness to climate change, and it's observed on the last Saturday
+# of March.
+
+# Since Earth Day has become a quasi-'national day' for Earthlings in Endless Sky, it would be interesting to have Earth
+# Hour be conflated with Earth Day as well, to demonstrate how people in a thousand years' time observe what we observe
+# today and how its meaning has changed.
+mission "Earth Day Blackout"
+	minor
+	landing
+	source "Earth"
+	"offer precedence" 5
+	to offer
+		day == 22
+		month == 4
+	on offer
+		conversation
+			`当你跟随追踪信标飞向地球中央太空港时，你意识到有些非常不对劲。曾经繁华的太空港城市现在完全静止，虽然已近午夜，但那些超高层建筑和摩天大楼却异常黑暗——数公里内没有一盏灯亮着。`
+			`	Despite this, the spaceport seems to still be operational, because the automated procedures of signing landing documents, refueling, and checking your ship's spaceworthiness are completed as you land. In the spaceport terminal, there are wax candles spaced out to bring some light into the now dark corridors. It's a strange sight for the most populated planet in human space.`
+			choice
+				`	(Find someone and ask.)`
+				`	(The blackout will probably pass.)`
+					goto pass
+			branch attendant tourist
+				random > 50
+
+			label attendant
+			`	You approach an information desk in the terminal's atrium that, given the situation, doesn't seem to be as busy as expected. After a moment you get to the attendant behind the counter.`
+			choice
+				`	"What's with the blackout?"`
+				`	"When is the blackout going to be fixed?"`
+			`	The attendant chuckles to himself. "I should've expected that question from your accent. Today's Earth Day, when all the cities of Earth - and I mean all of them - participate in a total blackout. Even the Parliament building was out today. It makes us think about our origins; that we once lived on the soil without electricity, all confined to just this one planet here, divided and uncertain. Of course, people like me still have to keep working, but for other people it's a day off to enjoy what little wildlife and Earth us Earthlings have left, ironically. Do you have any other questions?`
+			choice
+				`	"When did this tradition start?"`
+				`	"Thank you for telling me."`
+					goto pass
+			`	"Well, my old history class tells me that the first Earth Day was around the 20th century, a few years after we landed on the Moon for the first time. Back then, there were a bunch of conflicts and disputes over resources and how we were fighting all over and digging it all up to power all those dirty, primitive cars, power plants, and factories we had back then. So as a show of unity against that people started celebrating Earth's natural beauty by bringing us back to our past."`
+			`	As he finishes, the ceiling lights flash back on. "Ah, well, there you go. Too bad I missed the celebrations, but that's the end of Earth Day and my night shift. I hope you had a good Earth Day, and have a good night!"`
+				decline
+
+			label tourist
+			`	You approach a woman with a bunch of oversized bags clustered around her seat. She's tapping rapidly on her datapad, but nonetheless she looks up when you approach. "Excuse me, Captain, I was just trying to figure out when the metro starts up again. Do you know?"`
+			choice
+				`	"I know just as much as you, sorry."`
+				`	"Maybe it's to do with the blackout?"`
+					goto "way in"
+			`	"Ha, they shut everything down for Earth Day and then assume all us offworlders get the idea. What do you know..."`
+			choice
+				`	"Earth Day?"`
+				`	"Shut everything down?"`
+			`	"Didn't you see what was happening outside on your way in? It's something to do with Earth Day. Back in those old days before humans were able to get off this planet, they were stuck in a chain of issues and disputes over energy. You know, they didn't have fusion reactors back then. Awfully primitive times.`
+				goto decided
+
+			label "way in"
+			`	"Yes, I suppose you must have seen what's happening outside on your way in. It's something to do with Earth Day. Back in those old days before humans were able to get off this planet, they were stuck in a chain of issues and disputes over energy. You know, they didn't have fusion reactors back then. Awfully primitive times.`
+
+			label decided
+			`	"So they decided that, on the 22nd of April each year, all of Earth would go into total blackout to symbolize that they didn't have enough energy to sustain themselves, and to remind them that the only way to advance was to keep pushing themselves forward, find new pathways to power, lest those blackouts became longer and more frequent. Fascinating, huh?"`
+			choice
+				`	"It seems a bit backwards."`
+				`	"It is fascinating, thanks."`
+					goto pass
+			`	"Well, perhaps. But Earth is like that sometimes. It's survived through so much, and without Earth Day to remind our ancestors that we must keep looking forward, maybe you wouldn't be in your fancy little spaceship, would you?"`
+			`	The lights in the spaceport turn back on as she says that, and she turns to look at her data pad again. "Oh, it's twelve o'clock. I've got to see if the metro's opened so I can get to my accommodation. Safe travels!"`
+				decline
+
+			label pass
+			`	After the clock passes midnight, the lights in the spaceport come back on, followed by the signage and lights of the city surrounding it. A few workers come and snuff out the candles before putting them away in unseen closets.`
+				decline
+
+mission "Burthen Triathlon"
+	minor
+	source
+		planet "Burthen"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`由于重力较高，Burthen 并不是一个常见的目的地，但今天太空港似乎有很多访客。通常空旷的停机坪很多都被占用了，当你走出太空港那相当干净的停机坪时，你注意到边缘有相当多的人群。人群中有些成员显然来自外星球——从他们的身高就能判断出来——甚至还有几家媒体在场，不过他们的摄像无人机似乎在 Burthen 的重力下挣扎。`
+			choice
+				`	(See what's going on.)`
+				`	(Avoid the commotion and tend to my own business.)`
+					decline
+			`	Each step takes significantly more effort than you're used to, but you eventually reach the crowd. From the signs that have been put up on the way, it looks like the "Burthen Triathlon" is taking place today, and the spaceport has been designated the finishing point. A couple of especially sturdy-looking marquees have been set up; the smaller one appears to be the administration tent, currently only accessible to event staff, while the other one is far larger and is catering food and drinks for the crowd nearby.`
+			choice
+				`	(Walk over to the catering tent.)`
+				`	(Stay outside.)`
+					goto outside
+				`	(Return to my ship.)`
+					decline
+
+			`	Thankfully, the walk to the catering tent is far shorter than the walk from your ship, but nevertheless you're exhausted by the time you drag your feet inside. A lot of effort has been put into this tent: the metal chairs are all sturdily-built to allow offworlders to pull themselves up, but cushioned as to not make it uncomfortable to sit in. A small firepit has been built in the middle of the tent, along with a couple fire extinguishers placed nearby, and the whole place is brightly lit in contrast to Burthen's typically chilly weather. Quite a few people, both Burthenians and offworlders, are mingling about here.`
+			`	There's a counter in the corner with two levels, apparently so that the Burthenian attending it can serve both offworlders and locals. Alongside the typical drinks you've seen in spaceport bars and some local to the southern Core, the counter also offers a local drink called the "Antigrav" that claims to "ease visitors from Burthen's natural pull," and comes in a specially made glass, all for 30 credits.`
+			branch "no credits"
+				credits < 2
+			choice
+				`	(Order a regular drink from the counter.)`
+				`	(Order the Antigrav from the counter.)`
+					goto antigrav
+					to display
+						credits >= 30
+				`	(Don't order anything and leave the tent.)`
+					goto "leave tent"
+
+			action
+				payment -2
+			`	You hand over a couple credits for the drink and leave the tent, sipping with some difficulty as you go. The Burthenian at the counter advises you not to drink too much of it at once, and not to drop the cup "unless you want a munted foot for a few weeks."`
+				goto "leave tent"
+
+			label antigrav
+			action
+				payment -30
+				outfit "Antigrav Glass"
+			`	It turns out the glass the Antigrav comes with has a miniature repulsor installed so that you don't need to hold it while drinking it. The drink itself is a highly carbonated soda that tastes like something in between lingonberry and raspberry, made from the native berries found in Westland, the district the spaceport is located in. The Burthenian at the counter advises you not to drink too much of it at once and to not turn it off while it's levitating, "lest it falls on your foot and we have to treat your bone fractures."`
+				goto "leave tent"
+
+			label "no credits"
+			`	Unfortunately, it looks like all the drinks are too pricy for you.`
+			choice
+				`	(Leave the tent.)`
+
+			label "leave tent"
+			`	The crowd is a bit more active when you return outside, and over the heads of the locals you see on a large, portable screen that the leading triathlete is a particularly stocky Burthenian, wearing a white helmet and tight, dark sportswear.`
+				goto "after tent"
+
+			label outside
+			`	Staying outside in the oppressive gravity and the chilly temperature, you move over to the sidelines and watch the large, portable screen that is broadcasting the leading competitors from above. It appears that competitors are divided into Burthenians and offworlders, with Burthenians wearing white helmets and offworlders wearing red helmets. It's nearing the end of the whole event; the competitor in front is named Abernathy, a stocky Burthenian apparently doing his eleventh Burthen Triathlon. Meanwhile, the leading offworlder is five hundred meters behind him, a competitor from Martini named Caldarone. Apparently, they've been at it for over 11 hours, beginning with a 1.5 kilometer swim, then a 40 kilometer bicycle ride, and finally a 10 kilometer run.`
+			`	After a couple minutes, Abernathy emerges from behind a bend, camera drones chasing him. Cheers, whoops, and rather overly enthusiastic hollers erupt from the crowd, raising enormously as he dashes through the finishing straight, the drones now circling around him. Just over the crowd a loudspeaker announces, "And here comes the winner of the Syndicate Athletics Burthen Triathlon, the world triathlete champion, competitor number fifty-eight: Samuel Abernathy!"`
+				goto end
+
+			label "after tent"
+			`	As he nears the finish line the Burthenians' enthusiastic cheers, whoops, and hollers erupt from the crowd, and the camera drones, their repulsors now calibrated for Burthen's gravity, circle around the finishing straight. Just over the crowd a loudspeaker announces, "And here comes the winner of the Syndicate Athletics Burthen Triathlon, the world triathlete champion, competitor number fifty-eight: Samuel Abernathy!"`
+
+			label "end"
+			`	Abernathy doesn't slow down until he's within an arm's length of the finishing line; as he crosses it he seizes the tape, making a yelp of simultaneous joy and relief. He holds the tape up before everybody in the crowd and at the cameras pointed at him, taking in the attention (and catching his breath) before accepting a bottle of water from someone on the sidelines.`
+				decline
+
+mission "CCOR Guerrilla Standoff"
+	minor
+	source "Gagarin"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`人类空间的每一张地图都将 Gagarin 列在肮脏、风险自负的海盗港口名单中，会让人联想到 Greenrock 的搏击坑和 Freedom 的装备市场。尽管如此，它看起来就像任何其他老旧、略显破败的南方太空港一样，只不过规模要大得多。作为这个星球庞大交通系统的中心，在这个太空港的每个中庭和走廊里，你仿佛都在成千上万的 Gagarian 人和外星人中穿行，而他们也在做着同样的事情，赶着前往星球内外各地的中转。`
+			`	But as you make your way into the central hall, you notice that, where you'd expect the greatest activity, everything has stopped. Even the ever-roving antigrav trolleys of cargo and supplies are backed up and motionless, and everybody's attention is directed at some sort of commotion in the very center of the spaceport.`
+			choice
+				`	(Take a look.)`
+				`	(Go back to my ship.)`
+					decline
+			`	Stepping through the gaps within the established crowd you end up next to a spaceport gendarme. He appears as if he's meant to be on patrol duty but is too busy watching the distraction to do his job right now. Looking over the banisters beside him, you see first the enormous and oddly empty space in the middle of the hall, then a team of overalls-wearing men armed with drills and brushes. Surrounding them is a cordon of guerrillas in their rosy CCOR uniforms, sizing up the public and the spaceport security around them with their rifles and pistols.`
+			`	The painting guerrillas are busily finishing off the touches of what appears to be a statue of the burgundy and white emblem of the Confederated Councils, while a pile of rubble beside it suggests that a symbol of the local government once stood in its place. As they step away from the statue, a lone man in a much better-kept uniform than the others steps forward in front of their work. You can feel the air chilling as he raises his head to speak.`
+			choice
+				`	(Listen in.)`
+				`	(Step away before he makes his speech.)`
+					decline
+			`	You don't see any amplification equipment, yet his voice fills the room without effort.`
+			`	"Gagarians and offworlders. Captains and travellers. Servicemen and farmers.`
+			`	"The worlds of the Outer Rim, and indeed, those of the Republic and the entirety of humanity, have and continue to be despoiled and devastated by ruthless profiteering.`
+			`	"The executives of the Syndicate and the landed gentry of the Paradise Worlds steal the efforts of tens of billions of men, women, and children, from Prime to Foundry; from Valhalla to Earth; from Bourne to Hestia, and beyond. And for near a century they have colluded to impose their designs on our worlds! The corporate insurrection in Novo Minho and the gang wars in the northern Outer Rim are an obvious extension of the arm of people like Alastair Korban, only leading to further suffering and bitter destruction in our region!`
+			`	"But there is still hope. We can bring about the independence of Gagarin and unify this world that has been lost to the Syndicate-sponsored oligarchs and their cronies and puppet officials. We can reunite the Outer Rim and restore the prosperity stolen from us. We can form a new Confederated Councils and once again shine the light of Belenos across the entire galaxy!"`
+			`	The gendarmes look around and consider the response of the crowd around them as the man finishes his speech to scattered applause. The speaker steps down and orders his guerrillas into formation before marching them out of the still crowd and into the back of a dusty, burgundy army van you hadn't noticed before, leaving the remains of the old statue scattered around the empty space.`
+			`	You turn around and see the gendarme you ended up next to. He meets your eyes and recognizes your off-world air.`
+			`	"Just an everyday interruption, Captain," he says. "Only nostalgists for the old cause. We get a dozen of these incidents a month." He seems to be interrupted by a buzz from the radio receiver at his hip and strides off into the crowd, leaving you on the ledge.`
+			`	Slowly but surely, the spaceport snaps out of its shock and picks up its previous momentum, although as you turn around you pass two government-branded trucks mounted with cranes, almost certainly there to carry off the newly installed statue and to clean up the mess left behind by the guerrillas.`
+
+mission "Raider returning to Mordente-Bridi"
+	source "Mordente-Bridi"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`在 Mordente Cylinder 的一家酒吧里观察太空港的微重力区域时，你看到一艘带有海盗标记的 Bastion 以近乎危险的速度接近空间站，它的船体上布满了看起来像是等离子炮击造成的裂口和灼痕。`
+			`	As it comes to a stop in a maintenance bay, the spaceport's engineering shuttles appear from all over and begin buzzing around the Bastion, assessing the damage and beginning the work on repairs. Meanwhile, its crew disperse from the ship and immediately begin unloading a multitude of busted-up crates and containers from the hold, probably raided from a civilian transport. It looks like their haul was worth the damage.`
+			`	Within the hour the work shuttles scatter from the ship as they finish patching up its battered hull, and the Bastion maneuvers out of the bay almost as haphazardly as it did when it entered.`
+
+mission "Militia returning to Solace"
+	source "Solace"
+	"offer precedence" 5
+	to offer
+		random < 10
+	on offer
+		conversation
+			`在 Solace 的主太空港闲逛时，你注意到 Delta V 公司办公室旁边有几排崭新的停机坪。一条巨大的横幅宣布你正在目睹 Delta V 新私人太空港的盛大开幕，一群感兴趣的围观者已经聚集在围栏附近。`
+			`	Suddenly an Argosy comes streaking out of the sky, almost crashing into several smaller ships in the main spaceport before swerving out of sight behind a hangar in the direction of the new landing pads. There are shouts from the throng of onlookers, who all seem to think this was a stunt. Your more practiced eye, however, tells you that there are bullet marks on the Argosy's hull from a Gatling Gun. It was probably a miscalculation by the pilot's computer that almost caused the collision.`
+			`	Soon afterwards, an announcement is made from a large speaker, telling bystanders that nothing bad happened and that they can go home now. After staying for a while out of curiosity, the crowd finally disperses. However, you stick around and notice the Argosy flying back into view to land in the main spaceport.`
+
+mission "Republic 300 Year Anniversary"
+	landing
+	source
+		government "Republic"
+		not attributes "uninhabited"
+	"offer precedence" 5
+	to offer
+		year == 3030
+	on offer
+		conversation
+			`当你降落在 <origin> 上时，新闻头条轰炸了你的通讯器——今天是共和国成立三百周年纪念日。人群聚集在当地的太空港以某种庆祝的方式收看人类空间各地主要新闻台、网站和博客对这重大一天的评论。然而，你注意到许多路人对庆祝活动带着不屑的神情，只想尽快在这里办完事，并对今天当地设施不可避免的缓慢感到恼火。`
+			`	Originally formed by Earth and planets close to it, the Rim, and a few Dirt Belt worlds, the Republic went on to gradually expand and incorporate the Syndicate, Paradise Worlds, and the Deep. For three hundred years now, most of humanity has existed under its flag, and through protests and the space renaissance, waves of colonization, expansion, and battles against remnants of the Alphas, that flag remains flying over most human worlds today.`
+			branch "war over"
+				has "main plot completed"
+			branch "war ongoing"
+				has "chosen sides"
+				not "main plot completed"
+			`	Not all is well, of course, as the bombing of Geminus and Martini appears to have set the Republic on the precipice of war with the Free Worlds, in the southern portion of human space. You can't help but feel that much of the cheerfulness about this date has more to do with the national holiday than with a deep-rooted appreciation for the Republic's history and what it stands for.`
+				goto end
+			label "war ongoing"
+			`	The ongoing war with the Free Worlds has greatly diminished what the Republic Department of Arts and Culture no doubt hoped to turn into the public event of the year. Local workers and merchant captains alike whisper among themselves, Navy personnel march to and from warships that come and go at an alarming rate, seemingly unfazed by the historical date, and some bar fights break out between likely inebriated local patriots and those reckless enough to voice their support for the Free Worlds here.`
+				goto end
+			label "war over"
+			`	The recent Free Worlds war seemed to threaten this long history of stability, as battles raged over the skies of dozens of planets, and the threat of an open nuclear war loomed closer as the conflict escalated. The indiscriminate disappearance of many systems close to Earth, followed by the unified human front against the Pug invaders, seems to have knit together the sentiments of many throughout the Republic - for the time being, at least.`
+			branch "zenith bombed"
+				has "Wanderers: Sestor: Return to Wanderers: done"
+			branch "sestor beaten at farpoint" end
+				has "Wanderers: Sestor Alt: Return to Wanderers: done"
+			label "zenith bombed"
+			`	Dimming the mood of the otherwise mostly positive news titles are the comments about a mysterious armada of robotic warships invading the Far North. Having crushed the Navy forces over Farpoint, the fleet was only partially beaten after the detonation of a terrible bomb on Zenith, which wrecked much of the planet. Indeed, it was weeks still before the scattered ships were fully destroyed, and confidence in the Navy's - and, by extension, the Republic's - ability to keep humanity safe seems to have been affected significantly...`
+				goto end
+			label "sestor beaten at farpoint"
+			`	Web comments and news anchors seem to be particularly excited to comment on the recent victory of the Navy over the mysterious armada of robotic warships that invaded the Far North. Though at a great cost to the northern fleet garrisons, the invading fleets were successfully stopped at the Farpoint base, preventing the ships from causing any further harm. Veterans of the Farpoint battle seem to be hoarding the spotlight, giving emotional reports of their memory of the fight, and of the sacrifices they went through to achieve victory.`
+			label end
+			choice
+				`	(Join the celebration of the Republic's 300th anniversary.)`
+					goto celebrate
+				`	(Go on about my day as usual.)`
+			`	You switch your media channels off from the celebrations, and get to your ship's system checks. Once you're done, you prepare for just another day.`
+				decline
+			label celebrate
+			`	You take an hour or two to join in on the festivities, because after all, it's not everyone who can claim to have witnessed a centenary anniversary of a nation. Stepping off the <ship>, you head to the spaceport, have a couple of drinks, speak to some of the locals, and party with a few revelers. Once it's getting late, you head back to your ship and reflect on the meaning of this day throughout human space.`
+				decline
+
+mission "Exotic Life: Buccaneer Bay"
+	minor
+	source "Buccaneer Bay"
+	"offer precedence" 5
+	to offer
+		random < 10
+		credits > 379
+	on offer
+		conversation
+			`你在星球那被阳光漂白的木板路上漫步，经过几十家弥漫着朗姆酒气味的酒吧。最终，你看到一家狭窄的餐厅挤在一家已经关门的纪念品商店和又一家酒吧之间。建筑是珊瑚色的，带着破旧的锡制遮阳篷，门口上方挂着一块手写的牌子，写着"鲜味佳肴鱼坊"。`
+			`	A lanky waiter with a braided silver beard and cybernetic left eye aggressively waves you in and gives a practiced yell: "Best Dish Fish in town! Once-in-a-lifetime experience, plus a worlds-renowned souvenir! Try the Dish Fish - the fish that's a dish!"`
+			choice
+				`	"What?"`
+				`	"How much?"`
+					goto price
+				`	"No thanks."`
+					decline
+			`	"Dish Fish! It's a fish that's a dish. Buccaneer Bay's famous for 'em." The waiter glares at you in mild annoyance. "It's a flat fish with a big head. The skull's flat and has three horns so it stands on its own as a plate, and we cook the rest of the fish to serve on it. You can keep the skull as a plate after. Dish. Fish."`
+			label price
+			`	The waiter puts a hand on your shoulder. "Only 99 credits, what a deal! The skull alone'll cost ya 200 credits anywhere else. What'ya say, want the meal of a lifetime?"`
+			choice
+				`	"Sure."`
+				`	"No thanks."`
+					decline
+			action
+				payment -379
+			`	"Great! Service fee's included." The waiter snatches your credits, slaps a laminated menu and receipt into your hands, and shoves you into a cramped booth before hurrying away towards the kitchen. You look at the receipt to find that you've been charged 20 credits for a 'seating fee,' 30 credits for a 'convenience fee,' 50 credits for 'fish cleaning,' 80 credits for 'dish assembly,' and 100 credits for a 'service charge' - a total of 379 credits.`
+			`	Seated inside, the restaurant is even tighter than it looked from outdoors. There's a single row of tiny tables, a low ceiling, and a handful of other patrons who look like clueless tourists. The menu itself covers seafood and sea-adjacent food like Nine-Eye Pie, Hand-Mashed Helmet, Hydrozoan Lasanga, and a suspiciously named 'Captain's Catch.' The top of the menu has a headline dish written in sloppy cursive with a prominent infobox beneath taking up a full third of the menu:`
+			``
+			`		Dish Fish: Natural Wonder and Souvenir - 99 credits`
+			`		(additional fees not included)`
+			`			- The oceans of Buccaneer Bay are full of jawless, fish-like creatures commonly known as Buccaneer Bay Boneheads that have a single, bone-like plate over their head and body, an oversized skull!`
+			`			- Ecologically, they are commonly filter feeders, deposit feeders, and grazers, consuming tiny organisms or detritus from the water, sediment, or ocean floor.`
+			`			- Dish Fish differ from other Buccaneer Bay Boneheads: they have a nearly perfectly circular head-plate, three small horns to fend off predators, and no eyes because they live on deep, low-light ocean floors.`
+			`			- These traits make a Dish Fish head-plate the perfect souvenir dish: round, sealed, with a built-in tripod. Get yours today!`
+			`	The waiter returns, and the plate is distinctive. He brings out a sizable ivory disc, the bone smooth and polished, balanced by three tapering horns on the table. On the plate itself sits a single charred tail, skewered and grilled until the skin crackles. It looks both impressive and appetizing.`
+			choice
+				`	(Take a bite.)`
+				`	(Thank the waiter and leave.)`
+					goto thanks
+			`	You take a bite. The meat is... an awful attempt at food. There's a musty, sulfurous note at the beginning, like wet compost, while beneath it is an almost-rotten tang that belies the visual freshness of the fish. The closest thing to a redeeming flavor is a faint, earthy aftertaste of salty mud.`
+			label thanks
+			`	The waiter comes to flick the Dish Fish clean with a rag, thanks you for patronizing the establishment, and jerks a thumb towards the door - a punctuated close to your 'meal of a lifetime.'`
+				decline
+
+mission "Exotic Life: New Greenland"
+	minor
+	source "New Greenland"
+	to offer
+		random < 10
+	on offer
+		conversation
+			`你走下停机坪，呼出的气息形成了白色的雾环。太空港异常多雾，刺骨的寒风让你不禁打了个寒颤。`
+			`	A grizzled man emerges from the fog with an easy, unhurried gait, a laser rifle slung over one shoulder. A hulking beast lumbers at his side: a horse-sized hound cloaked in heavy, wooly fur rimmed with frost. Two enormous tusks thrust from its muzzle like pale sabers. Steam billows from its flared nostrils as it turns its head almost lazily toward you. Its eyes carry a grim patience.`
+			`	The man sees you and grunts, "Don't stare at a Mammoth Mastiff."`
+			choice
+				`	"What's a Mammoth Mastiff?"`
+				`	"Don't tell me what to do!"`
+					goto ending
+				`	(Avert my gaze and get back to my ship.)`
+					decline
+			`	"A phantom from harsher times, bred on Hestia when it was still lifeless ice. Now nothing more than a tool of the trade." He pats the creature and it lets out a low rumble.`
+			label ending
+			`	The man bellows a deep laugh as the fog thickens. The creature's eyes are the last things to pierce the haze before man and mastiff alike fade away. You find yourself alone once more.`
+				decline
+
+mission "Exotic Life: Mainsail"
+	minor
+	source Mainsail
+	to offer
+		random < 10
+	on offer
+		conversation
+			`你在浮动城市飞船上稳住身形，这串由驳船、码头和吊架组成的项链在 Mainsail 无尽的海洋波涛中吱呀作响、摇摆不定。当你走向环形区时，咸涩的浪花刺痛了你的脸。一艘驳船在附近摇晃，甲板上满是滑溜溜的藻类，而一名当地人无畏地牵着一条四足的鲸状生物——那是一只海豹大小的紧凑肌肉团，覆盖着石板色的皮毛，有蹼的爪子踩在木板上咔嗒作响，长长的胡须状鼻子竖立着针状的牙齿，宽阔扁平的尾巴摇摆着充满期待。`
+			`	The local catches you gawking, flashes a salt-creased grin and calls, "Never seen a seadog before?`
+			choice
+				`	"Can't say I have!"`
+				`	"What is that thing?"`
+				`	"Of course I've seen a seadog before!"`
+					goto seen
+				`	(Avert my gaze and get back to my ship.)`
+					decline
+			action
+				set "exotic animals: mainsail seadog known"
+			`	"Ah, that, my friend, is a Mainsail Seadog, the premier water-sporting hound of the Paradise Planets. Bred some four centuries ago in the ateliers of this very planet, they marry old water-dog stock with dolphin and otter blood, with a touch of beaver for the tail, crocodile for the jaws, and barracuda for the strike," he says with a wink. "They'll nose out a school, haul in the finest fish, and lay a damp, grateful head upon your boots - a prized rarity since the Republic put a lid on the gene labs."`
+				goto ending
+			label seen
+			`	"Glad to hear that, my friend! Too few have seen the prized rarity of a Mainsail Seadog nowadays, since the Republic put a lid on the labs."`
+			label ending
+			`	With a practiced motion he hops from the barge into a sleek, unpowered skiff. The seadog slips from the barge like a ribbon, dives cleanly into the sea, and sets its broad tail to the waves. In a spray of salt the steely creature hauls them off, and the boat recedes like a chariot of Poseidon into the harbor haze.`
+				decline
+
+mission "Struggling Author Gone Missing"
+	minor
+	landing
+	source "Zug"
+	to offer
+		random < 88
+		has "event: beyond the hyperdrive is published"
+	on offer
+		conversation
+			`当你的飞船降落在 A5B 停机坪上时，两名年轻人走了过来。其中一个开口说道："你好，船长。你有没有在附近见过一个叫 Anna Fangvin 的女人？她最后一次出现是在太空港，一定是上了某人的飞船离开了。"`
+			`	Around the spaceport you see a few other groups doing the same thing. Anna may have been more popular than she thought.`
+			choice
+				`	"She went to another star system a long ways from here. You won't be able to get to her."`
+				`	"No, I don't know. Sorry."`
+					goto continue
+			`	"If you ever see her again, tell her that the Coalition of Book Enjoyers appreciates her work. It wouldn't be possible for you to bring us to her location?" You respond in the negative, and the two go off to the other groups to spread the news.`
+			label continue
+			`	Posters hang on many of the spaceport's walls - here too, Anna's books must have been famous. The posters read:`
+			`	MISSING:`
+			`		Anna Fangvin, a young author whose books have been shared throughout the planet. Please report any news to the Coalition of Book Enjoyers, address 5662 Myrtle Lane, Sizertown, Zug.`
+				decline
+
+mission "Exotic Life: Bloodsea"
+	minor
+	source Bloodsea
+	to offer
+		random < 10
+	on offer
+		conversation
+			branch formerpirates
+				or
+					has "event: bloodsea independent"
+					has "event: bloodsea joins free worlds"
+			`你慢慢穿过肮脏的临时太空港。这里挤满了摊贩和海盗，在为非法商品讨价还价。远处，太阳正在血红色的海洋上落下，这片海洋赋予了 Bloodsea 其名。`
+			`	In the shadow behind a run-down shack, over which a sign advertises "the cheapest nerve gas this side o' Sol," you see a man coughing. He hacks and splutters for a while, and when he finally recovers, you notice his lips are stained with blood. As you turn away, you catch the eye of a wizened old man in the next stall.`
+				goto restofhello
+			label formerpirates
+			`你慢慢穿过肮脏的太空港。这里挤满了摊贩和可疑人物，在为来路不明的商品讨价还价。远处，太阳正在血红色的海洋上落下，这片海洋赋予了 Bloodsea 其名。`
+			`	In the shadow behind a run-down shack, over which a sign advertises "the cheapest 'nades this side o' Sol," you see a man coughing. He hacks and splutters for a while, and when he finally recovers, you notice his lips are stained with blood. As you turn away, you catch the eye of a wizened old man in the next stall.`
+			label restofhello
+			`	"He's got the Bloom," the old man pronounces solemnly. "He'll be dead in a few weeks. It's the blood tide that does it, the fools."`
+			choice
+				`	"What is it?"`
+				`	"Is it contagious?"`
+					goto contagious
+				`	(Walk away.)`
+					decline
+			`	He laughs scornfully. "The sea sprays poison. No one goes there except spacers and fools. Bloody sea and bloody fools.`
+				goto next
+			label contagious
+			`	"Yes," he says simply. You automatically recoil from the coughing man.`
+			label next
+			`	"First your eyes itch, then your throat, then your lungs. By then it's too late, too late. But there are always those who never learn."`
+			`	He grins with derision. "Well, I'll chop you up and throw you to the Bloom if you don't buy some fish from me. Three barrels." He reaches in and pulls a fish out. "Still fresh. 1000 credits each."`
+			choice
+				`	(Buy three barrels of fish from him.)`
+					to display
+						credits >= 3000
+					goto three
+				`	(Buy two barrels of fish from him.)`
+					to display
+						credits >= 2000
+					goto two
+				`	(Buy one barrel of fish from him.)`
+					to display
+						credits >= 1000
+					goto one
+				`	(Make a run for it.)`
+			`	You whirl around and walk quickly the other way. You can still hear the cursing in your ears when you get to your ship.`
+				decline
+			label three
+			action
+				payment -900
+			`	You fish out the money for three barrels and hand it to him. He feels it suspiciously. Once he's satisfied, you roll the barrels back to the spaceport. After an exhausting few hours of one price dispute after another, you manage to sell them at the spaceport trading panel for 2100 credits.`
+				decline
+			label two
+			action
+				payment -600
+			`	You fish out the money for two barrels and hand it to him. He feels it suspiciously, and grumbles something about the one remaining barrel. You roll the barrels back to the spaceport and, after an hour of hard work, manage to sell them at the spaceport trading panel for 1400 credits.`
+				decline
+			label one
+			action
+				payment -294
+			`	You fish out the money and hand it to him. He rubs it, then explodes in rage. "Get out!" he shouts, throwing the credit chips at your face. You make a run for it, and by the time you get to your ship, you realize that you left 294 credits with the old man in your hurry to escape.`
+				decline

@@ -1,0 +1,172 @@
+# Copyright (c) 2019 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+phrase "generic arrived-without-npc dialog"
+	word
+		`你已到达<planet>，但你把<npc>抛在后面了！最好离开并在该星系等待他们到达。`
+phrase "generic safe escort completion dialog"
+	word
+		`<npc>的船长感谢你安全护送他们，并付给你<payment>。`
+
+phrase "generic pirate attack payment dialog"
+	word
+		`<planet>政府`
+	word
+		` `
+		` 感激地 `
+	word
+		`付给你<payment>，以感谢你帮助`
+	word
+		` 击退 `
+		` 击败 `
+	word
+		`the `
+	word
+		`海盗。`
+		`袭击者。`
+		`攻击者。`
+
+phrase "generic cargo delivery payment"
+	word
+		`你卸下<commodity>货物并收取了<payment>报酬。`
+phrase "generic cargo on visit"
+	word
+		`你已到达<planet>，但并非所有货物都在星系内！最好离开并等待你的护航队到达该星系。`
+
+phrase "generic passenger dropoff payment"
+	word
+		`你祝愿你的<passengers>在<planet>上好运，并收取了<payment>报酬。`
+		`你在<planet>上与你的<passengers>告别，并收取了<payment>报酬。`
+phrase "generic passenger on visit"
+	word
+		`你已到达<planet>，但并非所有乘客都在星系内！最好离开并等待你的护航队到达该星系。`
+
+phrase "generic cargo and passenger on visit"
+	word
+		`你已到达<planet>，但并非所有货物和乘客都在星系内！最好离开并等待你的护航队到达该星系。`
+
+phrase "generic mineral delivery payment"
+	word
+		`你卸下<amount>吨<mineral>并收取了<payment>报酬。`
+
+phrase "generic mineral on visit"
+	word
+		`你已返回<origin>，但你的货舱中没有携带<amount>吨<mineral>。`
+
+phrase "generic missing stopover or cargo and passengers"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没去过<stopovers>，要么并非所有货物和乘客都在星系内。`
+phrase "generic missing stopover or passengers"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没去过<stopovers>，要么并非所有乘客都在星系内。`
+phrase "generic missing stopover or cargo"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没去过<stopovers>，要么并非所有货物都在星系内。`
+phrase "generic missing stopover or escort"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没去过<stopovers>，要么你把<npc>抛在后面了。`
+phrase "generic missing waypoint or cargo and passengers"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没经过<waypoints>，要么并非所有货物和乘客都在星系内。`
+phrase "generic missing waypoint or passengers"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没经过<waypoints>，要么并非所有乘客都在星系内。`
+phrase "generic missing waypoint or cargo"
+	word
+		`你已到达<planet>，但你缺少一些东西！要么你还没经过<waypoints>，要么并非所有货物都在星系内。`
+
+phrase "generic stopover on visit"
+	word
+		`你已到达<planet>，但你还没有访问所有星球！最好离开并确保你访问了<stopovers>。`
+phrase "generic waypoint on visit"
+	word
+		`你已到达<planet>，但你还没有访问所有星系！最好离开并确保你访问了<waypoints>。`
+
+
+phrase "generic hunted bounty eliminated and payment dialog"
+	word
+		`<npc>已被消灭。不久之后，<planet>政府向你支付了<payment>并附上感谢信。`
+
+phrase "generic hunted bounty eliminated dialog"
+	word
+		`<npc>已被消灭。你可以返回<destination>领取赏金。`
+phrase "generic bounty hunting payment dialog"
+	word
+		`<planet>政府感激地付给你<payment>，以表彰你消灭了<npc>。`
+phrase "generic bounty hunting on visit"
+	word
+		`你已降落在<planet>上，但<npc>尚未被消灭。在返回之前找到并摧毁它。`
+phrase "generic bounty hunting boarding on visit"
+	word
+		`你已降落在<planet>上，但你还没有登上<npc>。在返回之前找到并登上它。`
+
+phrase "generic hunted bounty fleet eliminated and payment dialog"
+	word
+		`<npc>及其舰队已被消灭。不久之后，<planet>政府向你支付了<payment>并附上感谢信。`
+
+phrase "generic hunted bounty fleet eliminated dialog"
+	word
+		`<npc>及其舰队已被消灭。你可以返回<destination>领取赏金。`
+phrase "generic fleet bounty hunting payment dialog"
+	word
+		`<planet>政府感激地付给你<payment>，以表彰你消灭了<npc>及其舰队。`
+phrase "generic fleet bounty hunting on visit"
+	word
+		`你已降落在<planet>上，但<npc>及其舰队尚未被消灭。在返回之前找到并摧毁它。`
+
+phrase "generic pirate fleet battle on visit"
+	word
+		`你已降落在<planet>上，但仍有海盗在头顶盘旋。你应该起飞帮助解决他们。`
+
+phrase "generic completed pirate cargo mission"
+	word
+		`你在太空港边缘找到了联系人。<commodity>货物已从你的船上卸下，你收取了<payment>报酬。`
+
+phrase "generic completed highly illegal pirate cargo mission"
+	word
+		`你在主城外面找到了联系人。<commodity>货物已从你的船上卸下，你收取了<payment>报酬。`
+
+phrase "generic aborted pirate passenger mission"
+	word
+		`你的乘客从未到达<destination>。这对建立你作为可靠、不问问题的运输者的声誉没有帮助。`
+
+phrase "generic aborted pirate cargo mission"
+	word
+		`你的<commodity>货物从未到达目的地。海盗们听到这个消息不会高兴的。`
+
+phrase "generic completed pirate slave mission"
+	word
+		`降落在<planet>后，海盗从你的船上搬走了<bunks>名奴隶，并付给你<payment>。`
+
+phrase "generic aborted pirate slave mission"
+	word
+		`你的奴隶从未到达<destination>。这对建立你作为可靠、不问问题的运输者的声誉没有帮助。`
+
+phrase "free worlds failed"
+	word
+		`你失败或放弃了一个必不可少的自由世界任务。如果你想继续剧情线，请恢复到自动存档或更早的飞行员快照。`
+
+phrase "free worlds declined"
+	word
+		`你拒绝了一个必不可少的自由世界任务。如果你想继续剧情线，请恢复到自动存档或更早的飞行员快照。`
+
+phrase "tribute pacifist undefined"
+	word
+		`这个星系太小了，容不下战争和暴力。`
+		`你为何要参与无谓的流血？`
+		`我们不会战斗。请加入我们，和平相处。`
+		`我们不能与你战斗，也不愿选择战斗。愿和平与你同在。`
+		`愿和平与你同在，船长。没有必要用你的枪炮撕裂天空。`
+		`我们不会与你战斗。我们不会杀你。但我们也不会付给你一个信用点的贡金。`
+		`当这样做会造成如此多的死亡和恐怖时，我们为什么要为一点小钱而战？`
+		`我们恳求你重新考虑这个草率的决定。`

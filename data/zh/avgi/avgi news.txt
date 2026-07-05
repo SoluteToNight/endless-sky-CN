@@ -1,0 +1,507 @@
+# Copyright (c) 2023 by Azure
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+news "avgi siege civilian"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi"
+		attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+		word
+			" civilian"
+			" citizen"
+			" bystander"
+			" onlooker"
+			""
+	message
+		word
+			`"沮丧。曾经这个星系属于我们，但现在我们只拥有翅膀下的土地。"`
+			`"拒绝。谐律声称代表 Avgi 发声，但我们被占领星系中没有人投票支持他们的统治。"`
+			`"回忆。战争初期异变体试图轰炸我们的城市，但我们的防御系统击落了它们的大部分投射物。"`
+			`"回忆。当异变体摧毁我们的圆柱栖息地时，我的大部分家人都丧生了。在 Anax 星系，只有 Nisos 圆柱幸存了下来。"`
+			`"愧疚。每个圆柱栖息地上生活着一千二百万 Avgi。活下来的不到六分之一。"`
+			`"担忧。如果不是我们的地对轨激光炮台，异变体肯定早就入侵地表了。"`
+			`"悲伤。用肉眼就能看到轨道上破碎的天钩残骸。"`
+			`"愤怒。谐律为什么要放弃我们的空间？我们核心行星的表面本可以为我们的舰队提供庇护，但他们却只顾自己逃跑。"`
+			`"好奇。我从未去过缠结纱幕，但我听说那里是远离异变体的安全之地。"`
+			`"满意。每次异变体靠得太近，我们就用半打地对轨核导弹招呼它。"`
+			`"乐观。尽管我们的星系被围困，但我们有人居住的行星表面仍然相当安全，免受攻击。"`
+
+
+news "avgi siege merchant"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi"
+		attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+		word
+			" "
+		word
+			"smuggler"
+			"merchant" 3
+			"merchant captain" 3
+	message
+		word
+			`"解脱。你无法相信冲破那些异变体的封锁有多难！"`
+			`"沮丧。如果南边缠结纱幕有地方安置他们，我们本可以走私更多人到那里。"`
+			`"安抚。我们不能带你们所有人走，只有议会给我们的名单上的这些人。"`
+			`"恼怒。没人明白我们不能带所有人走；纱幕后面根本没有足够的栖息地。谐律设定撤离配额是有原因的！"`
+			`"沮丧。我们总被要求从母星尝试取回先进设备，但要把它们运回纱幕实在太难了。"`
+
+
+news "avgi siege hatchling"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi"
+		attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+		word
+			" "
+		word
+			"hatchling"
+			"youngling"
+			"youth"
+	message
+		word
+			`"惊叹。我听说我们曾经能遨游星辰。你觉得我们还能回去吗？"`
+			`"困惑。为什么其他星系有 Avgi，而我们从这个星球发射任何东西都会被摧毁？"`
+			`"悲伤。我不知道还能不能去另一个星球看看。"`
+			`"痛苦。为什么外星人要攻击我们？我们从未做过任何伤害他们的事。"`
+			`"失落。我出生在空间站上，但现在被困在了行星上，被地面本身压得喘不过气。"`
+			`"绝望。一年前我的家人在一次异变体袭击中丧生。一切再也回不去了。"`
+
+
+news "avgi merchant"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi" "Avgi (Consonance)" "Avgi (Dissonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Commercial"
+			"Independent"
+			"Merchant"
+			"Spacecraft"
+			"Starship"
+		word
+			" "
+		word
+			"captain"
+			"pilot"
+			"skipper"
+	message
+		word
+			`"沮丧。反应堆燃料的价格每天都在上涨。"`
+			`"解脱。我的船勉强赶在一大群异变体之前到达了港口！"`
+			`"秘密。谐律征收的税收在某些港口是可以规避的，只要你知道该去哪里。"`
+			`"反抗。我可能名下一分钱都没有，但只要我还活着，就没人能夺走我的船。"`
+			`"怀疑。如果异变体能进入缠结纱幕找到我们，它们早就这么做了。我不明白为什么需要新税收。"`
+			`"讽刺。如今每艘货轮没有实现自动化的唯一原因就是海盗。谢谢你，海盗们！"`
+			`"兴趣。你听说穿过缠结纱幕的新贸易航线了吗？我闻到了利润的味道！"`
+			`"骄傲。我的航运公司在 Stilacrest 的天钩断裂之前帮助一千多名 Avgi 逃离。直到今天，我还能收到感谢信！"`
+			`"满意。我的运输业务在入侵中几乎全部舰船完好无损地逃了出来。现在我是银河系最富有的 Avgi 之一！"`
+			`"悲伤。可惜我们几乎每周都有一支船队葬送在异变体手中。"`
+
+
+news "avgi politician"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+		word
+			" "
+		word
+			"politician"
+			"bureaucrat"
+			"economist"
+			"planner"
+			"commissioner"
+			"manager"
+			"political aide"
+			"political staffer"
+			"political assistant"
+	message
+		word
+			`"恼怒。议会里所有人都知道税收和配额不得民心，但没有其他办法来打这场对抗异变体的战争。"`
+			`"骄傲。在入侵之前，Avgi 中有超过一千个公认的独立政体。现在，谐律准备团结我们的种族。"`
+			`"嘲讽。哦当然，我之前从未想过我们应该造更多船来击败异变体。你考虑过向议会上书你的想法吗？"`
+			`"幽默。在数百个独立政体之间达成共识比打一场种族存亡之战还要困难。而且还没那么刺激。"`
+			`"保留。虽然我们这些懂政策的人接受战时经济是必要的，但人民开始对它所强加的长期经济紧缩感到不满。需要做更多工作来告知普通民众，以免我们在战线后方输掉战争。"`
+			`"保证。当前的债务在战争结束后肯定不会强制执行。就算执行了，收债的也是我们。"`
+			"An Avgi clothed in dark tassels flits overhead, tailed by half a dozen journalists buzzing with questions and demands for answers."
+
+
+news "avgi military"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+		word
+			" "
+		word
+			"Twilight Guard" 9
+			"Twilight Officer" 6
+			"Twilight Captain" 3
+			"Twilight Admiral"
+	message
+		word
+			`"你有关于纱幕中出现异变体的报告吗？"`
+			`"沉思。有时我会思考我们种族的未来，以及我们是否能够承担起保卫它的重任。"`
+			`"决心。卫队是我们人民和异变体之间的唯一屏障，我打算履行职责，要么战死沙场。"`
+			`"骄傲。曾经我只是快递船上一个小小的信使，在各个星系之间运送一叠叠存储片。看看现在的我！"`
+
+
+news "avgi safety advisory"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Safety Advisory"
+			"Safety Bulletin"
+			"Broadcast Alert"
+			"Public Service Announcement"
+	message
+		word
+			`"警告。`
+			`"提醒。`
+			`"建议。`
+			`"勤勉。`
+			`"警惕。`
+			`"警戒。`
+		word
+			`据报道，大量异变体群已进入缠结纱幕。"`
+			`据报道，一支船队失踪；疑似在缠结纱幕中失联。"`
+			`据报道，一支船队失踪；疑似在缠结纱幕中遇难。"`
+			`据报道，一支舰队失踪；疑似在缠结纱幕中失联。"`
+			`据报道，一支舰队失踪；疑似在缠结纱幕中遇难。"`
+			`Arche 的防御封锁线并非坚不可摧。保持警惕。"`
+			`一发现异变体，请立即报告。"`
+	message
+		word
+			"The message board chirps in an Avgi language your translator does not appear to be compatible with."
+
+
+news "avgi missing advisory"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Safety Advisory"
+			"Broadcast Alert"
+			"Public Service Announcement"
+			"Missing Persons Report"
+	message
+		word
+			`"`
+		word
+			"Caution."
+			"Warning."
+			"Alert."
+		word
+			" "
+		word
+			"Convoy"
+			"Fleet"
+			"Patrol"
+			"Independent ship"
+			"Scout"
+		word
+			" "
+		word
+			"reported lost"
+			"reported missing"
+			"reported absent"
+			"failed check-in"
+			"missed check-in"
+		word
+			", "
+		word
+			"last sighted"
+			"last spotted"
+			"last reported"
+			"last determined"
+		word
+			" "
+		word
+			"leaving"
+			"entering"
+			"transiting"
+		word
+			" "
+		word
+			"the Ensemble system"
+			"the Interlude system"
+			"the Prelude system"
+			"the Demilude system"
+			"the Concerto system"
+			"the Ballad system"
+			"the Arche system"
+			"Peripheria"
+			"Weledos"
+			"Outpost Enka"
+			"Outpost Tekis"
+			"Outpost Leto"
+		word
+			`.`
+
+news "avgi student happy"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+			"Carefree"
+			"Successful"
+			"Bright"
+		word
+			" "
+		word
+			"student" 3
+			"researcher"
+	message
+		word
+			`"快乐。我即将获得物理学硕士学位！"`
+			`"快乐。我即将获得经济学硕士学位！"`
+			`"快乐。我即将获得工程学硕士学位！"`
+			`"快乐。我即将获得纳米技术硕士学位！"`
+			`"快乐。我即将获得遗传学硕士学位！"`
+			`"快乐。我即将获得空气动力学硕士学位！"`
+			`"热情。我迫不及待想在毕业后进入学术界！我已经安排好职位了，万事俱备！"`
+			`"感激。那些人类的出现让我获得了完成外星学硕士所需的资金。谢谢你，人类！"`
+			`"喜悦。期中考试终于结束了！"`
+			`"你看到我的作业了吗？"`
+			`"当我说作业被异变体吃了的时候，我的教授拒绝相信我。有趣。"`
+			`"恼火。这里的教育质量跟 Aviskir 老家完全没法比。"`
+			`"恼火。这里的教育质量跟 Livloua 老家完全没法比。"`
+
+
+news "avgi student frustrated"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+			"Struggling"
+			"Frustrated"
+
+		word
+			" "
+		word
+			"student" 3
+			"researcher"
+	message
+		word
+			`"沮丧。我想学政治学，但这里只教'实用'科目。难怪议会里全是无能之辈……"`
+			`"沮丧。我本来要学语言学的，但大学让我转学了工程。我们已经有足够多的工程师了，这里需要的是文化！"`
+			`"愤怒。我想学艺术，但被嘲笑并被指责为社会累赘。哼，没有艺术的社会根本不叫社会！"`
+			`"愤怒。我想学社会学，但这显然对'战争'没什么用。一群傻瓜！"`
+			`"担忧。我希望毕业后能找到好工作，但恐怕不得不在船坞工作几年。"`
+			`"担忧。我觉得上次考试考得不太好。"`
+			`"你看到我的作业了吗？"`
+			`"当我说作业被异变体吃了的时候，我的教授拒绝相信我。沮丧。"`
+			`"恼火。这里的教育质量跟 Aviskir 老家完全没法比。"`
+			`"恼火。这里的教育质量跟 Livloua 老家完全没法比。"`
+
+
+news "avgi physicist"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi"
+			"Respected"
+			"Accredited"
+			"Energistics"
+			"Gravitational"
+			"Theoretics"
+		word
+			" "
+		word
+			"scientist"
+			"researcher"
+			"physicist"
+	message
+		word
+			`"感激。幸好我们的知识总和得到了保存，即使是在最偏远的深空角落。"`
+			`"沮丧。能量护盾不应该以现在这种方式工作。完全说不通！"`
+			`"沮丧。即使在发明超光速推进器几十年后的今天，也只有一小群专家能真正声称理解它的工作原理。"`
+			`"骄傲。我的论文是关于一种新型太阳能电池结的。现在我在天上半数飞船上都能看到它！"`
+			`"有趣。你总能看到那些聪明有为的学生声称发明了新的超光速引擎。八十年前，其中一个还真成功了！"`
+			`"好奇。真奇妙，曾经虫洞被认为是超光速旅行的最可能选项。我想知道超光速推进器是怎么先被发明出来的？"`
+			`"信息。我们的工程师发明了一种涂层，可以通过使脱落涡流相互抵消来大幅减少飞船的大气阻力。"`
+			`"惊叹。模拟显示，记忆钻石可以在稳定条件下保存数百万年的信息。这可能会比我们整个文明还长寿！"`
+
+
+news "avgi astronomer"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi "
+		word
+			"Astronomer"
+			"Astrophysicist"
+			"Cosmologist"
+	message
+		word
+			`"教导。暮色星云是一个近一千光年宽的反射星云。由相对年轻的中子星照亮，它是数百万年前多次超新星爆发的遗迹。"`
+			`"好奇。值得注意的是，Stream 东南方的星团主要由年轻炽热的恒星组成。暮色星云的那部分曾经可能是一片致密的分子云，密度足以在数百万年前坍缩成巨星。"`
+			`"指导。暮色星云并不处于流体静力平衡状态。它在冷却过程中缓慢收缩，是一个规模宏大的恒星育婴室。"`
+			`"沮丧。银河系是三维的，但从每个人画地图的方式根本看不出来！"`
+			`"恼火。用'北'和'西'这样的基本方向来描述银河系中的位置应该被定为犯罪！用极坐标表示'顺向'和'沿边方向'要好得多。"`
+			`"好奇。直到今天，仍无法解释为什么有些星系由星路连接而另一些却没有。"`
+
+
+news "avgi engineer"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)" "Avgi (Dissonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi "
+		word
+			"engineer"
+			"mechanical engineer"
+			"aerospace engineer"
+			"mechanic"
+	message
+		word
+			`"着迷。你会惊讶于护盾能解决多少问题，即使是弱护盾。它们不仅仅用于抵御武器火力！"`
+			`"好奇。我被告知我们目前的材料科学已经接近原子键强度的极限，但异变体的船体比我们的要强那么多。这怎么可能？"`
+			`"有趣。我们曾以为材料科学已经达到了原子物质所能达到的极限。然后我们遇到了异变体。我们还有什么要学习的呢？"`
+			`"感激。大多数人都没有意识到在超光速推进器发明之前星际旅行有多困难。"`
+			`"建议。如果你不妥善维护，聚变火炬引擎的损耗速度会快得惊人。辐射可不是闹着玩的！"`
+			`"感激。在人类给我们带来能量护盾之前，火炬船在引擎指向方面可得小心得多！"`
+			`"恼火。每个人一生中至少应该在机械车间工作一次，然后再说出螺栓的纳米公差是'合理的'这种话！"`
+
+
+news "avgi artist"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi" 6
+			"Renowned"
+			"Talented" 3
+			"Fledgling" 6
+			"Struggling" 6
+		word
+			" "
+		word
+			"artist"
+			"painter"
+			"sculptor"
+			"engraver"
+			"enameler"
+			"gilder"
+			"writer"
+	message
+		word
+			`"骄傲。就在前几天我完成了一件新作品。"`
+			`"沮丧。如今市场上没人买艺术品了。"`
+			`"不要相信那些说艺术是浪费的人。强调一下。这又不是从战争努力中拿走资源。"`
+
+
+news "avgi performer"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi" 6
+			"Renowned"
+			"Talented" 3
+			"Fledgling" 6
+			"Struggling" 6
+		word
+			" "
+		word
+			"musician"
+			"performer"
+			"stage actor"
+	message
+		word
+			`"骄傲。就在前几天我在整个议会面前表演了一个作品。我相信他们一定很喜欢！"`
+			`"骄傲。暮光卫队喜欢邀请我为从前线回来的卫兵们表演。知道我在尽一份力，感觉真好。"`
+			`"满意。你永远不知道那些买通关系逃出包围的人什么时候需要娱乐，但报酬让一切都值得。"`
+
+
+news "avgi doctor"
+	to show
+		has "language: Avgi"
+	location
+		government "Avgi (Consonance)" "Avgi (Dissonance)"
+		not attributes "aberrant siege"
+	name
+		word
+			"Avgi "
+		word
+			"doctor"
+			"healer"
+			"biomedic"
+			"surgeon"
+			"medic"
+	message
+		word
+			`"感激。Avgi 的自然寿命平均约六十年，之后基因工程和纳米医学将其延长了一倍多。"`
+			`"有趣。每次新版本发布时，认为医用细胞能治愈任何疾病或治愈任何状况的人数都会增长。要是它们真的能那么简单有效就好了……"`
+			`"着迷。Avgi 有泪滴形的透明石英大脑。那种雾蒙蒙的颜色实际上来自嵌入晶体中的有机组织！"`
+			`"兴趣。有些人曾经认为我们的大脑在死亡后可以复活，因为构成大脑的晶体保持完整。遗憾的是，操纵晶体基质形成记忆的有机组织在死亡后不久就会腐烂。"`
+			`"深思。尽管我们有光学神经系统，但有机神经组织仍然用于在神经接口处调节光信号到电化学信号的转换。"`
+			`"深思。由于 Anax（我们母星的恒星）产生大量紫外线，Aviskir 上的生命进化出了更强的抗辐射损伤能力。"`
+			`"回忆。我曾经在一艘货轮火炬船上工作，运送奢侈品并进行加急递送。我非常擅长处理辐射病！"`
+			`"回忆。我曾经在一座小行星工厂工作，将小行星镍钢拉制成圆柱栖息地。我们连续四年没有发生过一次严重的工业事故！"`

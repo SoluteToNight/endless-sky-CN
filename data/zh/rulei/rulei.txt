@@ -1,0 +1,170 @@
+# Copyright (c) 2022 by Saugia
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# Previous iterations of first two missions are failed on offer to ensure save compatibility.
+mission "Relic of Pasts"
+	invisible
+	non-blocking
+	transition
+	source
+		system "Kanguwa"
+	destination "Earth"
+	to complete
+		never
+	npc save
+		government "Rulei"
+		personality heroic vindictive staying mute unconstrained frugal
+		system "Kanguwa"
+		ship "vyu-Ir" "Solemnity"
+
+mission "First Contact: Rulei"
+	invisible
+	entering
+	source
+		system "Kanguwa"
+	destination "Earth"
+	on offer
+		log "Factions" "Rulei" `Rulei 很可能是一个古老而技术先进的远古文明，但留给他们的只有一艘奇怪的飞船和两颗伤痕累累的行星。`
+			`他们通过某种侵入性的灵能进行交流，用上千种声音同时说话。长期接触似乎对健康不利。`
+		conversation
+			`进入这个星系的片刻之后，你被一种强烈的虚无感淹没。当你试图理解这种感觉时，你开始听到来自后方的低语声。`
+			choice
+				`	(Turn around slowly.)`
+				`	(Pull out my sidearm and turn quickly.)`
+			`	You turn around, but nothing is there besides the familiar internals of your ship. The whispers remain behind your head, like an itch that can't be reached. The whispers are in a completely foreign language that you can't even begin to understand. As you keep looking around, you begin hearing more and more murmuring. There feels to be hundreds of distinct voices tugging your mind in every direction at once now, overloading your senses. Just as you think you can't take anymore, everything falls completely silent.`
+			choice
+				`	"Hello?"`
+				`	"Is there someone there?"`
+				`	"Show yourself!"`
+			scene "scene/rulei"
+			`	"Human."`
+			`	An image suddenly flashes in your head as you feel millions of eyes staring at you from beyond the boundaries of space. Looking around again, you see a strange-looking spacecraft a bit off into the distance in front of you facing your direction. The voices continue to surround your mind with only slightly reduced intensity.`
+			choice
+				`	"Who are you?"`
+				`	"Where am I?"`
+					goto where
+			`	Numerous voices start up, but rather than becoming louder, they go back and forth in your head, as though they are having a discussion. After a few seconds, they fall silent, then speak a single word in a cacophonous unison.`
+			`	"Precursors."`
+			choice
+				`	"What is this place?"`
+				`	"Precursors of what?"`
+			label where
+			`	The whispers start to pick up with renewed strength. The swirl of endless vocals assaults your head, each moment more agonizing than the last. Finally, they cease, and you are left in silence.`
+			`	"An End."`
+			choice
+				`	"An end to what?"`
+				`	"What do you mean by that?"`
+			`	The voices resume, but you sense a newfound dreariness in their tone. You try once again to communicate with the ship, but despite constant whispering in the background, it no longer answers.`
+			`	Taking another look at the vessel, it seems to have some sort of advanced origin. Eerie star-like patterns flow on its surface, and it doesn't visibly have any standard means of propulsion. At the rear end is some type of floating ring of objects that rotate in a peculiar manner.`
+			`	The planets in this system seem to have an abnormal appearance similar to that of the starship, but for some reason even looking at them gives you a headache. Something unusual must have happened here a long time ago.`
+				decline
+
+# Fail the old versions of the above two missions.
+mission "Rulei Patch"
+	invisible
+	landing
+	to offer
+		or
+			has "Ira Contact: active"
+			has "Relic of the Past: active"
+	on offer
+		fail "Relic of the Past"
+		fail "Ira Contact"
+		fail
+
+mission "Rulei Planet"
+	invisible
+	landing
+	source
+		attributes "rulei"
+	on offer
+		conversation
+			`访问这个世界时，感觉你的心智被压上了巨大的重量。那种自上方的外星飞船而来的紫色星光色调，也出现在大地上各种奇异的构造中。与之前的低语不同，这里的噪音痛苦得难以忍受，尤其是越靠近地表。`
+			`	You can barely hear yourself think.`
+			`											It's enough to drive any living thing mad.`
+			`	The most ominous sensation here is a persistent feeling of your consciousness being pulled at from beneath you.`
+			`	Like something is attempting to drag`
+			`																					your`
+			`																							mind into the planet below.`
+			``
+			``
+			``
+			`	It's best you don't remain here for too long.`
+				decline
+
+mission "Rulei: You Are (Not) Alone: L-118"
+	invisible
+	entering
+	source
+		system "L-118"
+	destination "Earth"
+	# Don't offer if the old version of this mission from prior to v0.11.0 was already offered.
+	to offer
+		not "Rulei: You Are (Not) Alone: offered"
+	on offer
+		log `在核心星区以东发现了一片虚无区域，那里的星系笼罩在广阔而 eerie 的黑暗中。除了暗淡的星辰和少数行星，什么都不存在。`
+		conversation
+			`到达这个星系后，你注意到一层奇怪的朦胧遮蔽了远方的星辰，你的扫描仪难以解析它。少数存在的恒星物体被一片广阔而模糊的暗影诡异地遮蔽了。除了它们之外，仿佛这里什么都没有。就连那暗影本身也只是空间的虚无，而整个空间里，没有人。没有东西。`
+				decline
+
+mission "Rulei: You Are (Not) Alone: L-6181"
+	invisible
+	transition
+	source
+		system "L-6181"
+	destination "Earth"
+	# Don't offer if the old version of this mission from prior to v0.11.0 was already offered.
+	to offer
+		not "Rulei: You Are (Not) Alone: offered"
+	on enter
+		conversation
+			`当你继续穿过这片空无一物的空间时，你只遇到了暗淡的星辰和沉默的行星。然而，进入这个星系后，你遇到了某种看起来像是生物的东西。奇怪的是，你的扫描仪并不将其识别为任何形态的生命体，只将其归类为单纯的物质"集合"。它与空间本身融为一体，仿佛只是远方黑暗的一个倒影。`
+				decline
+	npc
+		government "Indigenous Lifeform (Acheron)"
+		personality mute timid unconstrained uninterested
+		system "L-6181"
+		ship "Jje" ""
+
+mission "Rulei: Umbral Reach"
+	invisible
+	entering
+	source
+		system "Kanguwa"
+	destination "Earth"
+	to offer
+		has "First Contact: Rulei: offered"
+		has "visited system: L-118"
+	on offer
+		event "umbral reach label"
+		log "Factions" "Rulei" `Rulei 似乎承认核心星区以东的虚空星系为"暗影边界"，并且似乎与该地区有某种情感上的联系。除了告诫要"当心"该区域之外，他们不愿进一步评论。`
+		conversation
+			`突然，Rulei 的神秘低语再次渗入你的脑海。它们起初缓慢地呢喃，但越来越快、越来越响，从那艘古老飞船的方向传来，最终凝聚成一句说出的话语。`
+			`	"Beware..."`
+			`	"...Umbral Reach..."`
+			`	You feel tremendous weight behind the expression, as if it shook your mind itself. It's as though every emotion has flooded into your head at once - sadness, anger, joy, disgust, even some you can't seem to understand. Before you can respond to them, the voices quickly dissipate, and you're left alone in an uncomfortable silence.`
+			`	The only thing you can think of is the nearby void of desolate systems. Considering your previous experience with the Rulei, they could have somehow psionically connected to the memories of your visit. However, much like those systems, they continue with their unabated silence.`
+				decline
+
+event "umbral reach label"
+	galaxy "label umbral"
+		sprite "label/umbral"
+
+
+phrase "rulei hostile"
+	word
+		"Concede."
+		"End."
+		"Join."
+		"Fall."
