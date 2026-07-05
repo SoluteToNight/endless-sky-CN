@@ -1,0 +1,133 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Remnant: Cognizance 1"
+	name "后续观测"
+
+mission "Remnant: Cognizance 2"
+	name "消灭Korath Ship"
+
+mission "Remnant: Cognizance 3"
+	name "将Go运往<planet>"
+
+mission "Remnant: Cognizance 4"
+	name "搜索the Korath"
+
+mission "Remnant: Cognizance 5"
+	name "摧毁Korath"
+
+mission "Remnant: Cognizance 6"
+	name "运送Plume"
+
+mission "Remnant: Cognizance 7"
+	name "将Take Plume运往<planet>"
+
+mission "Remnant: Cognizance 8"
+	name "将Plume送回<planet>"
+
+mission "Remnant: Cognizance 9"
+	name "将engineer运往<planet>"
+
+mission "Remnant: Cognizance 10"
+	name "技术人员和物资至<planet>"
+
+mission "Remnant: Cognizance 11"
+	name "运送Remnant Data"
+
+mission "Remnant: Cognizance 12"
+	name "会见escorts"
+
+mission "Remnant: Cognizance 13"
+	name "返回<planet>"
+
+mission "Remnant: Cognizance 14"
+	name "调查strange sensor readings"
+
+mission "Remnant: Cognizance 16"
+	name "跟随the Creature"
+
+mission "Remnant: Cognizance 17"
+	name "向<planet>回报"
+
+mission "Remnant: Cognizance 18"
+	name "收集虚空精灵"
+
+mission "Remnant: Cognizance 19"
+	name "运送导航数据"
+
+mission "Remnant: Cognizance 20"
+	name "远征准备"
+
+mission "Remnant: Cognizance 21"
+	name "Ssil Vida远征"
+
+mission "Remnant: Cognizance 22"
+	name "为Taely运送数据备份"
+
+mission "Remnant: Cognizance 23"
+	name "首飞"
+
+mission "Remnant: Cognizance 24"
+	name "装备至Ssil Vida"
+
+mission "Remnant: Cognizance 25"
+	name "巡逻Postverta附近星系"
+
+mission "Remnant: Cognizance 26"
+	name "将Bring an Aeon Cell运往Ssil Vida"
+
+mission "Remnant: Cognizance 27"
+	name "向Torza on <planet>报到"
+
+mission "Remnant: Cognizance 28"
+	name "从Baianus运输Recover equipment"
+
+mission "Remnant: Cognizance 29"
+	name "从Baianus运输Recover equipment"
+
+mission "Remnant: Cognizance 30"
+	name "将team运往<planet>"
+
+mission "Remnant: Cognizance 31"
+	name "运送data crystal to <planet>"
+
+mission "Remnant: Cognizance 32"
+	name "接载Refined Fuel"
+
+mission "Remnant: Cognizance 33"
+	name "卸载精炼燃料"
+
+mission "Remnant: Cognizance 34"
+	name "观测Postverta的变化"
+
+mission "Remnant: Cognizance 35"
+	name "Postverta星系清扫"
+
+mission "Remnant: Cognizance 36"
+	name "关闭Ssil Vida能源"
+
+mission "Remnant: Cognizance 36 Patir 3"
+	name "关闭Ssil Vida能源"
+
+mission "Remnant: Cognizance 37"
+	name "激活Ssil Vida能源"
+
+mission "Remnant: Cognizance 37 Patir 3"
+	name "激活Ssil Vida能源"
+
+mission "Remnant: Cognizance 38"
+	name "将Take data运往<planet>"

@@ -1,0 +1,79 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Remnant: Bounty"
+	name "Crippled <npc model>悬赏"
+
+mission "Remnant: Bounty 2"
+	name "Troublesome <npc model>悬赏"
+
+mission "Remnant: Broken Jump Drive job"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Expanded Horizons Astral job"
+	name "将Research Expedition运往<waypoints>"
+
+mission "Remnant: Expanded Horizons Astral job late"
+	name "将Research Expedition运往<waypoints>"
+
+mission "Remnant: Bounty 3"
+	name "Damaged Rano'erek悬赏"
+
+mission "Remnant: Bounty 4"
+	name "Marauding Rano'erek悬赏"
+
+mission "Remnant: Bounty 5"
+	name "摧毁Ground Assault Bounty"
+
+mission "Remnant: Logistics Civil Engineering"
+	name "民用运送至<planet>"
+
+mission "Remnant: Logistics Industrial Delivery"
+	name "工业运送至<planet>"
+
+mission "Remnant: Logistics Outfitter Delivery"
+	name "零件运送至<planet>"
+
+mission "Remnant: Logistics Salvage Delivery"
+	name " salvag运送至<planet>"
+
+mission "Remnant: Rescue"
+	name "搜索与营救：Scout"
+
+mission "Remnant: Rescue 1B"
+	name "搜索与营救：Scout"
+
+mission "Remnant: Rescue 2"
+	name "搜索与营救：Retrieval"
+
+mission "Remnant: Rescue 2B"
+	name "搜索与营救：Retrieval"
+
+mission "Remnant: Rescue 3"
+	name "搜索与营救：Supply Ship"
+
+mission "Remnant: Rescue 3B"
+	name "搜索与营救：Supply Ship"
+
+mission "Remnant: Rescue 4"
+	name "求救信号：Graveyard"
+
+mission "Remnant: Rescue 5"
+	name "搜索与营救：Terminus"
+
+mission "Remnant: Disable 1"
+	name "瘫痪Damaged Dathnak A'awoj"

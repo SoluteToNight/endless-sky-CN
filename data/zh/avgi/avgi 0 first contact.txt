@@ -1,0 +1,49 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Avgi: First Contact"
+	name "外星遭遇"
+
+mission "Avgi: Humans From the Deep"
+	name "Avgi中的人类"
+
+mission "Avgi: Defend Ensemble 1"
+	name "Avgi突击部队"
+
+mission "Avgi: Defend Ensemble 2"
+	name "协和防御"
+
+mission "Avgi: Scout Rescue"
+	name "搜索与营救"
+
+mission "Avgi: Frontline Combat"
+	name "追捕the Aberrant"
+
+mission "Avgi: Dissonance Outreach 0.5"
+	name "返回Peripheria"
+
+mission "Avgi: Dissonance Outreach"
+	name "纷争外展"
+
+mission "Avgi: Twilight Escape 1"
+	name "逃离暮光"
+
+mission "Avgi: Twilight Escape 2"
+	name "Sora归来"
+
+mission "Avgi: Twilight Escape 3"
+	name "Darius归来"

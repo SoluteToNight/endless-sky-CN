@@ -1,0 +1,199 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Wanderers: Surveying 1"
+	name "漫游者勘测"
+
+mission "Wanderers: Surveying 2"
+	name "漫游者勘测"
+
+mission "Wanderers: Nova Remnants"
+	name "新星残骸"
+
+mission "Wanderers: Mereti Controller"
+	name "Kor Mereti控制器"
+
+mission "Wanderers: Sestor Controller"
+	name "Kor Sestor控制器"
+
+mission "Wanderers: First Mereti Attack"
+	name "保卫<planet>"
+
+mission "Wanderers: Rek To Kor Efret"
+	name "将Bring Rek运往<planet>"
+
+mission "Wanderers: Quarg Assistance 1"
+	name "Quarg援助"
+
+mission "Wanderers: Quarg Assistance 2"
+	name "Quarg援助"
+
+mission "Wanderers: Pug Assistance 1"
+	name "Pug援助"
+
+mission "Wanderers: Pug Assistance 2"
+	name "返回<planet>"
+
+mission "Wanderers: Mereti Observation"
+	name "Mereti观测"
+
+mission "Wanderers: Kor Efret 1"
+	name "访问<planet>"
+
+mission "Wanderers: Kor Efret 2"
+	name "Korath工程师"
+
+mission "Wanderers: Kor Efret 3"
+	name "保卫<planet>"
+
+mission "Wanderers: Kor Efret 4"
+	name "返回<planet>"
+
+mission "Wanderers: Kor Efret 5"
+	name "返回<planet>"
+
+mission "Wanderers: Kor Mereti Hacking"
+	name "入侵Kor Mereti"
+
+mission "Wanderers: Mind 1"
+	name "将vel运往<planet>"
+
+mission "Wanderers: Mind 2"
+	name "返回<planet>"
+
+mission "Wanderers: Mind 3"
+	name "召集护航队"
+
+mission "Wanderers: Mind 4"
+	name "返回<planet>"
+
+mission "Wanderers: Mind 5"
+	name "安装意识"
+
+mission "Wanderers: Mind 6"
+	name "保卫the Mind"
+
+mission "Wanderers: Mind 7"
+	name "调查<planet>"
+
+mission "Wanderers: Mind 8"
+	name "调查<origin>"
+
+mission "Wanderers: Mentors 1"
+	name "访问<planet>"
+
+mission "Wanderers: Mentors 2"
+	name "漫游者至<planet>"
+
+mission "Wanderers: Mentors 3"
+	name "返回<planet>"
+
+mission "Wanderers: Tour 1"
+	name "Kor Efret外交"
+
+mission "Wanderers: Tour 2"
+	name "Kor Efret外交"
+
+mission "Wanderers: Tour 3"
+	name "Kor Efret之旅"
+
+mission "Wanderers: Tour 4"
+	name "Kor Efret之旅"
+
+mission "Wanderers: Tour 5"
+	name "Kor Efret之旅"
+
+mission "Wanderers: Tour 6"
+	name "Kor Efret之旅"
+
+mission "Wanderers: Tour 7"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor Scanning"
+	name "扫描Sestor Planets"
+
+mission "Wanderers: Sestor Attack"
+	name "保卫<planet>"
+
+mission "Wanderers: Sestor Search"
+	name "找到the Sestor fleet"
+
+mission "Wanderers: Sestor Search: Human Hint"
+	name "警告Danforth上将"
+
+mission "Wanderers: Sestor Search: Wanderer Hint"
+	name "警告Danforth上将"
+
+mission "Wanderers: Sestor: Farpoint Attack 1"
+	name "保卫Farpoint"
+
+mission "Wanderers: Sestor: Quarg Help 1"
+	name "向Quarg求助"
+
+mission "Wanderers: Sestor: Quarg Help 2"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor: Bomb Zenith 1"
+	name "运送device to Zenith"
+
+mission "Wanderers: Sestor: Bomb Zenith 2"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor: Kill Southern Remnant"
+	name "摧毁Kor Sestor drones"
+
+mission "Wanderers: Sestor: Drones in Alnilam Waypoint"
+	name "Alnilam中的无人机"
+
+mission "Wanderers: Sestor: Return to Wanderers"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor Alt: Alnilam 1"
+	name "摧毁remaining drones"
+
+mission "Wanderers: Sestor Alt: Alnilam 2"
+	name "攻击Alpha base"
+
+mission "Wanderers: Sestor Alt: Alnilam 3"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor Alt: Return to Wanderers"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor: Scan Drones"
+	name "扫描remaining drones"
+
+mission "Wanderers: Sestor: Exiles 1"
+	name "接载Rek"
+
+mission "Wanderers: Sestor: Exiles 2"
+	name "联系流放者"
+
+mission "Wanderers: Sestor: Exiles 3"
+	name "与流放者外交"
+
+mission "Wanderers: Sestor: Factory 1"
+	name "关闭工厂"
+
+mission "Wanderers: Sestor: Factory 2"
+	name "保卫<planet>"
+
+mission "Wanderers: Sestor: Factory 3"
+	name "返回<planet>"
+
+mission "Wanderers: Sestor: Final: Patched"
+	name "调查the exiles"

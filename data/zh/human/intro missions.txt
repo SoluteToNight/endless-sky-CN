@@ -1,0 +1,166 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Intro [0]"
+	name "乘客至<planet>"
+
+mission "Intro [1 Transport]"
+	name "将family运往<planet>"
+
+mission "Intro [2 Transport]"
+	name "将Tourists运往<planet>"
+
+mission "Intro [3 Transport]"
+	name "将Bring James运往<planet>"
+
+mission "Intro [1 Freighter]"
+	name "运送至<planet>"
+
+mission "Intro [2 Freighter]"
+	name "将Rush delivery运往<planet>"
+
+mission "Intro [3 Freighter]"
+	name "将Bring James运往<planet>"
+
+mission "Intro [1 Interceptor]"
+	name "护送车队至<planet>"
+
+mission "Intro [2 Interceptor]"
+	name "运送至<planet>"
+
+mission "Intro [2.1 Interceptor]"
+	name "在<system>开采小行星"
+
+mission "Intro [3 Interceptor]"
+	name "将Bring James运往<planet>"
+
+mission "Midgard Intro [0]"
+	name "乘客至<planet>"
+
+mission "Midgard Intro [1 Transport]"
+	name "将scientists运往<planet>"
+
+mission "Midgard Intro [2 Transport]"
+	name "将Tourists运往<planet>"
+
+mission "Midgard Intro [3 Transport]"
+	name "将Bring James运往<planet>"
+
+mission "Midgard Intro [1 Transport Alt]"
+	name "将family运往<planet>"
+
+mission "Midgard Intro [2 Transport Alt]"
+	name "游客至<planet>"
+
+mission "Midgard Intro [3 Transport Alt]"
+	name "将Bring James运往<planet>"
+
+mission "Midgard Intro [1 Freighter]"
+	name "运送至<planet>"
+
+mission "Midgard Intro [2 Freighter]"
+	name "将Rush delivery运往<planet>"
+
+mission "Midgard Intro [3 Freighter]"
+	name "将Bring James运往<planet>"
+
+mission "Midgard Intro [1 Interceptor]"
+	name "运送至<planet>"
+
+mission "Midgard Intro [2 Interceptor]"
+	name "护送车队至<planet>"
+
+mission "Midgard Intro [2.1 Interceptor]"
+	name "在<system>开采小行星"
+
+mission "Midgard Intro [3 Interceptor]"
+	name "将Bring James运往<planet>"
+
+mission "Mainsail Intro [0]"
+	name "乘客至<planet>"
+
+mission "Mainsail Intro [1 Transport]"
+	name "将family运往<planet>"
+
+mission "Mainsail Intro [2 Transport]"
+	name "将Tourists运往<planet>"
+
+mission "Mainsail Intro [3 Transport]"
+	name "将Bring James运往<planet>"
+
+mission "Mainsail Intro [1 Transport Alt]"
+	name "将family运往<planet>"
+
+mission "Mainsail Intro [2 Transport Alt]"
+	name "游客至<planet>"
+
+mission "Mainsail Intro [3 Transport Alt]"
+	name "将Bring James运往<planet>"
+
+mission "Mainsail Intro [1 Freighter]"
+	name "运送至<planet>"
+
+mission "Mainsail Intro [2 Freighter]"
+	name "将Rush delivery运往<planet>"
+
+mission "Mainsail Intro [3 Freighter]"
+	name "将Bring James运往<planet>"
+
+mission "Mainsail Intro [0.1 Interceptor]"
+	name "在<system>开采小行星"
+
+mission "Mainsail Intro [1 Interceptor]"
+	name "护送车队至<planet>"
+
+mission "Mainsail Intro [2 Interceptor]"
+	name "运输至<planet>"
+
+mission "Mainsail Intro [3 Interceptor]"
+	name "将Bring James运往<planet>"
+
+mission "Delve Intro [0]"
+	name "乘客至<planet>"
+
+mission "Delve Intro [1 Transport]"
+	name "将family运往<planet>"
+
+mission "Delve Intro [2 Transport]"
+	name "将Tourists运往<planet>"
+
+mission "Delve Intro [3 Transport]"
+	name "将Bring James运往<planet>"
+
+mission "Delve Intro [1 Freighter]"
+	name "运送至<planet>"
+
+mission "Delve Intro [2 Freighter]"
+	name "将Rush delivery运往<planet>"
+
+mission "Delve Intro [3 Freighter]"
+	name "将Bring James运往<planet>"
+
+mission "Delve Intro [1 Interceptor]"
+	name "护送车队至<planet>"
+
+mission "Delve Intro [2 Interceptor]"
+	name "运送至<planet>"
+
+mission "Delve Intro [2.1 Interceptor]"
+	name "在Procyon开采小行星"
+
+mission "Delve Intro [3 Interceptor]"
+	name "将Bring James运往<planet>"

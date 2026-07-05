@@ -1,0 +1,124 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Wanderer Workers [0]"
+	name "将Wanderer workers运往<planet>"
+
+mission "Wanderer Workers [1]"
+	name "将Wanderer workers运往<planet>"
+
+mission "Wanderer Farmers [0]"
+	name "将Wanderer farmers运往<planet>"
+
+mission "Wanderer Farmers [1]"
+	name "将Wanderer farmers运往<planet>"
+
+mission "Wanderer Younglings [0]"
+	name "将Wanderer younglings运往<planet>"
+
+mission "Wanderer Younglings [1]"
+	name "将Wanderer younglings运往<planet>"
+
+mission "Wanderer Scientists (Pollution) [0]"
+	name "<planet>的污染激增"
+
+mission "Wanderer Scientists (Pollution) [1]"
+	name "<planet>的污染激增"
+
+mission "Wanderer Scientists (Phenomenon) [0]"
+	name "<planet>的自然现象"
+
+mission "Wanderer Scientists (Phenomenon) [1]"
+	name "<planet>的自然现象"
+
+mission "Wanderer Biologists [0]"
+	name "<planet>发现新动物"
+
+mission "Wanderer Biologists [1]"
+	name "<planet>发现新动物"
+
+mission "Wanderer Botanists [0]"
+	name "<planet>发现新植物"
+
+mission "Wanderer Botanists [1]"
+	name "<planet>发现新植物"
+
+mission "Wanderer Harvest [0]"
+	name "<planet>的食物收获"
+
+mission "Wanderer Harvest [1]"
+	name "<planet>的食物收获"
+
+mission "Wanderer Invasive Species [0]"
+	name "隔离入侵物种"
+
+mission "Wanderer Invasive Species [1]"
+	name "隔离入侵物种"
+
+mission "Wanderer Cargo [0]"
+	name "运送至<planet>"
+
+mission "Wanderer Cargo [1]"
+	name "运送至<planet>"
+
+mission "Wanderer Cargo [2]"
+	name "运送至<planet>"
+
+mission "Wanderer Cargo [3]"
+	name "运送至<planet>"
+
+mission "Wanderer Cargo [4]"
+	name "运送至<planet>"
+
+mission "Wanderer Rush Delivery [0]"
+	name "将Rush delivery运往<planet>"
+
+mission "Wanderer Rush Delivery [1]"
+	name "将Rush delivery运往<planet>"
+
+mission "Wanderer Rush Delivery [2]"
+	name "将Rush delivery运往<planet>"
+
+mission "Wanderer Rush Delivery [3]"
+	name "将Rush delivery运往<planet>"
+
+mission "Wanderer Bulk Delivery [0]"
+	name "批量运送至<planet>"
+
+mission "Wanderer Bulk Delivery [1]"
+	name "批量运送至<planet>"
+
+mission "Wanderer Bulk Delivery [2]"
+	name "批量运送至<planet>"
+
+mission "Wanderer Captured Unfettered"
+	name "被俘无羁者至<planet>"
+
+mission "Wanderer Governor Transport"
+	name "总督至<planet>"
+
+mission "Wanderer Kor Efreti: Equipment"
+	name "运送至<planet>"
+
+mission "Wanderer Kor Efreti: Cargo [0]"
+	name "运送至<planet>"
+
+mission "Wanderer Kor Efreti: Cargo [1]"
+	name "运送至<planet>"
+
+mission "Wanderers to Kor Efreti"
+	name "调查Kor Efreti世界"

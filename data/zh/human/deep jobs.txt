@@ -1,0 +1,106 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Mystery Cube Delivery Job Safe [0]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job Safe [1]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job [0]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job [1]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job [2]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job [3]"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Delivery Job Station"
+	name "神秘运送至<planet>"
+
+mission "Mystery Cube Retrieval Job"
+	name "从<planet stopovers>的神秘取回"
+
+mission "Secure Transport Job (Secret) [0]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Secret) [1]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Secret) [2]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Secret) [3]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Secret) [4]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Basic) [0]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Basic) [1]"
+	name "安全运送至<planet>"
+
+mission "Secure Transport Job (Deep Security) [0]"
+	name "深空安全运送至<planet>"
+
+mission "Secure Transport Job (Deep Security) [1]"
+	name "深空安全运送至<planet>"
+
+mission "Deep Consultants"
+	name "将consultants运往<planet>"
+
+mission "Transport Consultants (Deep Security) [0]"
+	name "运送深空安全顾问"
+
+mission "Transport Consultants (Deep Security) [1]"
+	name "运送深空安全顾问"
+
+mission "Urgent Deep Sec Package"
+	name "运送Rush Deep Security"
+
+mission "Urgent Deep Sec Consultants [0]"
+	name "加急深空安全顾问"
+
+mission "Urgent Deep Sec Consultants [1]"
+	name "加急深空安全顾问"
+
+mission "Lionheart Shipment [0]"
+	name "将Shipment运往<planet>"
+
+mission "Lionheart Shipment [1]"
+	name "将Shipment运往<planet>"
+
+mission "Lionheart Shipment [2]"
+	name "将Shipment运往<planet>"
+
+mission "Deep Sky Shipment [0]"
+	name "将Shipment运往<planet>"
+
+mission "Deep Sky Shipment [1]"
+	name "将Shipment运往<planet>"
+
+mission "Deep Hovercraft Racer Transport"
+	name "将racer运往<planet>"
+
+mission "Deep Hovercraft Large Racer Transport"
+	name "将team运往<planet>"

@@ -1,0 +1,112 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "FW Prisoner Parole"
+	name "囚犯假释"
+
+mission "FW Prisoner Parole 2"
+	name "囚犯假释"
+
+mission "FW Syndicate Diplomacy 1"
+	name "辛迪加外交"
+
+mission "FW Syndicate Diplomacy 1B"
+	name "Tarazed外交"
+
+mission "FW Syndicate Diplomacy 1C"
+	name "Poisonwood外交"
+
+mission "FW Syndicate Diplomacy 1D"
+	name "返回<planet>"
+
+mission "FW Hope Recon 1"
+	name "预警系统"
+
+mission "FW Hope Recon 1B"
+	name "预警系统"
+
+mission "FW Hope Recon 1D"
+	name "摧毁Sensors"
+
+mission "FW Plasma Testing 1"
+	name "武器测试"
+
+mission "FW Plasma Testing 1B"
+	name "武器测试"
+
+mission "FW Supply Convoy 1"
+	name "护送Supply Convoy"
+
+mission "FW Pirates 1"
+	name "海盗侦察"
+
+mission "FW Senate 1"
+	name "Huygens参议员"
+
+mission "FW Senate 1B"
+	name "Huygens参议员"
+
+mission "FW Pirates 2"
+	name "南部巡逻"
+
+mission "FW Pirates Patch"
+	name "返回<planet>"
+
+mission "FW Pirates: Attack 1"
+	name "攻击Greenrock"
+
+mission "FW Pirates: Attack 2"
+	name "攻击Greenrock"
+
+mission "FW Pirates: Attack 3"
+	name "预警"
+
+mission "FW Pirates: Diplomacy 1"
+	name "海盗外交"
+
+mission "FW Pirates: Diplomacy 2"
+	name "保卫Thule"
+
+mission "FW Pirates: Diplomacy 3"
+	name "返回Longjump"
+
+mission "FW Pirates: Diplomacy 4"
+	name "预警"
+
+mission "FW Early Warning 1"
+	name "预警"
+
+mission "FW Early Warning 2"
+	name "寻求和谐"
+
+mission "FW Early Warning 3"
+	name "失去和谐"
+
+mission "FW Early Warning 4"
+	name "先发制人"
+
+mission "FW Early Warning 5"
+	name "返回<planet>"
+
+mission "FW Senate Hearing"
+	name "参议院听证会"
+
+mission "FW Refinery 1"
+	name "走私者巢穴修理"
+
+mission "FW Refinery 1A"
+	name "<planet>修理"

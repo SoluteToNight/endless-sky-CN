@@ -1,0 +1,193 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Ka'het: Death in the Graveyard 1"
+	name "奇怪的Ka\'het"
+
+mission "Ka'het: Death in the Graveyard 3"
+	name "愤怒的Ka\'het"
+
+mission "Ka'het: Death in the Graveyard 4A"
+	name "拆解的Ka\'het"
+
+mission "Ka'het: Another Death in the Graveyard 1A"
+	name "又一个奇怪的Ka\'het"
+
+mission "Ka'het: Patir Mystery 1"
+	name "访问<waypoints>"
+
+mission "Ka'het: Patir Mystery 2"
+	name "<system>中的扫描器"
+
+mission "Ka'het: Patir Mystery 3"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 4"
+	name "访问the asteroid"
+
+mission "Ka'het: Patir Mystery 5"
+	name "首次接触"
+
+mission "Ka'het: Patir Mystery 6"
+	name "第二次接触"
+
+mission "Ka'het: Patir Mystery 7"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 8A"
+	name "拿下实验室"
+
+mission "Ka'het: Patir Mystery 8B"
+	name "部署实验室"
+
+mission "Ka'het: Patir Mystery 9"
+	name "探索邻近区域"
+
+mission "Ka'het: Patir Mystery 10"
+	name "收集数据"
+
+mission "Ka'het: Patir Mystery 11"
+	name "收集更多数据"
+
+mission "Ka'het: Patir Mystery 12.1A"
+	name "<system>空间站"
+
+mission "Ka'het: Patir Mystery 12.1B"
+	name "返回<system>"
+
+mission "Ka'het: Patir Mystery 12.2A"
+	name "部署卫星"
+
+mission "Ka'het: Patir Mystery 12.2B"
+	name "入侵Ka\'sei"
+
+mission "Ka'het: Patir Mystery 13.1"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 13.2"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 14"
+	name "重新行动"
+
+mission "Ka'het: Patir Mystery 15"
+	name "遗民科学家"
+
+mission "Ka'het: Patir Mystery 16"
+	name "在<planet>停留"
+
+mission "Ka'het: Patir Mystery 17"
+	name "返回<system>"
+
+mission "Ka'het: Patir Mystery 18"
+	name "失控的Ka\'sei"
+
+mission "Ka'het: Patir Mystery 19"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 20"
+	name "再次探索<system>"
+
+mission "Ka'het: Patir Mystery 21"
+	name "逃亡中的救生舱"
+
+mission "Ka'het: Patir Mystery 22"
+	name "测试结束"
+
+mission "Ka'het: Patir Mystery 23"
+	name "返回<planet>"
+
+mission "Ka'het: Patir Mystery 24"
+	name "再次前往<system>以外"
+
+mission "Ka'het: Patir Mystery 25"
+	name "<planet>探索"
+
+mission "Ka'het: Patir Mystery 26A"
+	name "将the samples送回<system>"
+
+mission "Ka'het: Patir Mystery 26B"
+	name "将the samples送回<system>"
+
+mission "Ka'het: Patir Mystery 27"
+	name "又一颗小行星"
+
+mission "Ka'het: Patir Mystery 28"
+	name "油轮舰队"
+
+mission "Ka'het: Patir Mystery 29"
+	name "Korath之外"
+
+mission "Ka'het: Patir Mystery 30"
+	name "Taely至<planet>"
+
+mission "Ka'het: Patir Mystery 31"
+	name "Patir准备"
+
+mission "Ka'het: Patir Mystery 32"
+	name "首次接触的后勤"
+
+mission "Ka'het: Patir Mystery 33"
+	name "首次接触"
+
+mission "Ka'het: Patir Mystery 34"
+	name "糟糕的接触"
+
+mission "Ka'het: Patir Mystery 35"
+	name "航程结束"
+
+mission "Ka'het: Patir Mystery 37A"
+	name "移动Patir（中等续航）"
+
+mission "Ka'het: Patir Mystery 37B"
+	name "Patir归来"
+
+mission "Ka'het: Patir Mystery 38A"
+	name "移动Patir（长续航）"
+
+mission "Ka'het: Patir Mystery 38B"
+	name "Patir归来"
+
+mission "Ka'het: Patir Mystery Safety Net Early"
+	name "安全网"
+
+mission "Ka'het: Patir Mystery Safety Net Dusk"
+	name "安全网"
+
+mission "Ka'het: Patir Mystery Safety Net Permanent"
+	name "安全网"
+
+mission "Ka'het: Patir Mystery Crew job"
+	name "前往<waypoints>的新远征"
+
+mission "Ka'het: Voice From The Past 1"
+	name "Builder信号"
+
+mission "Ka'het: Voice From The Past 2"
+	name "Kumkapi前哨站"
+
+mission "Ka'het: Voice From The Past 3"
+	name "Builder卫星"
+
+mission "Ka'het: Voice From The Past 4"
+	name "送回Gavriil"
+
+mission "Ka'het: Voice From The Past 5"
+	name "返回<planet>"
+
+mission "Ka'het: Voice From The Past 6"
+	name "探索<stopovers>"

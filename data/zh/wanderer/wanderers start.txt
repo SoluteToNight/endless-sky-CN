@@ -1,0 +1,175 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "First Contact: Wanderer"
+	name "Hai翻译？"
+
+mission "Wanderers: Hai Diplomat"
+	name "Hai外交官"
+
+mission "Wanderers: Diplomacy"
+	name "漫游者外交"
+
+mission "Wanderers: Translation Machine"
+	name "翻译机"
+
+mission "Wanderers: Defend Vara Ke'sok Hint"
+	name "将Wanderer supplies运往<planet>"
+
+mission "Wanderers: Defend Vara Ke'sok"
+	name "保卫<planet>"
+
+mission "Wanderers: Defended Vara Ke'sok"
+	name "向<planet>报告"
+
+mission "Wanderers: Unfettered Diplomacy 1"
+	name "与无羁者外交"
+
+mission "Wanderers: Unfettered Diplomacy 1A"
+	name "与无羁者外交"
+
+mission "Wanderers: Unfettered Diplomacy 1B"
+	name "与无羁者外交"
+
+mission "Wanderers: Unfettered Diplomacy 1C"
+	name "与无羁者外交"
+
+mission "Wanderers: Truce Check"
+	name "询问Iktat Rek?"
+
+mission "Wanderers: Jump Drive Source"
+	name "跳跃引擎来源？"
+
+mission "Wanderers: Alpha Surveillance A"
+	name "Alpha监视"
+
+mission "Wanderers: Alpha Surveillance B"
+	name "Alpha监视"
+
+mission "Wanderers: Alpha Surveillance C"
+	name "Alpha监视"
+
+mission "Wanderers: Alpha Surveillance C (Naughty)"
+	name "Alpha监视"
+
+ship "Carrier" "Carrier (Alpha)"
+	display name "改装航母"
+
+mission "Wanderers: Alpha Surveillance D"
+	name "找到the Alphas"
+
+mission "Wanderers: Alpha Surveillance E"
+	name "访问Danforth"
+
+mission "Wanderers: Alpha Surveillance F"
+	name "入侵Avalon"
+
+mission "Wanderers: Alpha Surveillance G"
+	name "返回<planet>"
+
+mission "Wanderers: Alpha Surveillance H"
+	name "会合Danforth"
+
+mission "Wanderers: Alpha Surveillance I"
+	name "将Elias送回<planet>"
+
+mission "Wanderers: Alpha Surveillance J"
+	name "返回Iktat Rek on <planet>"
+
+mission "Wanderers Invaded 0"
+	name "无羁者入侵"
+
+mission "Wanderers Invaded 1"
+	name "从<planet>撤离"
+
+mission "Wanderers Invaded 1B"
+	name "从<origin>撤离"
+
+mission "Wanderers Invaded 2"
+	name "保卫<planet>"
+
+mission "Wanderers Invaded 3"
+	name "从<origin>撤离"
+
+mission "Wanderers Invaded 3B"
+	name "漫游者会议"
+
+mission "Wanderers Invaded 3C"
+	name "等待之眼"
+
+mission "Wanderers Hai Assistance 1"
+	name "Hai援助"
+
+mission "Wanderers Hai Assistance 2"
+	name "与无羁者谈判"
+
+mission "Wanderers Hai Assistance 3"
+	name "返回<planet>"
+
+mission "Wanderers Solifuge Recon 1"
+	name "向<planet>报告"
+
+mission "Wanderers Solifuge Recon 2"
+	name "新无羁者飞船"
+
+mission "Wanderers Solifuge Recon 3"
+	name "新无羁者飞船"
+
+mission "Wanderers Solifuge Recon 4"
+	name "返回<planet>"
+
+mission "Wanderers Evacuation 1"
+	name "从<planet>撤离"
+
+mission "Wanderers Evacuation 1B"
+	name "将Refugees运往<planet>"
+
+mission "Wanderers Evacuation 1C"
+	name "护送to <planet>"
+
+mission "Wanderers Defend Sich'ka'ara"
+	name "保卫<planet>"
+
+mission "Wanderers Rescue 1"
+	name "漫游者营救"
+
+mission "Wanderers Rescue 1B"
+	name "漫游者营救"
+
+mission "Wanderers Rescue 1C"
+	name "访问Iktat Rek"
+
+mission "Wanderers Rek 0"
+	name "将Bring Rek运往<planet>"
+
+mission "Wanderers Rek 1"
+	name "访问Sko'karak"
+
+mission "Wanderers Rek 2"
+	name "访问Sko'karak again"
+
+mission "Wanderers Rek 3"
+	name "访问Sko'karak"
+
+mission "Wanderers Ap'arak 1"
+	name "帮助保卫<planet>"
+
+mission "Wanderers Ap'arak 2"
+	name "帮助保卫<planet>"
+
+mission "Wanderers Ap'arak 3"
+	name "向<planet>报告"

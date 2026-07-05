@@ -1,0 +1,109 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Heliarch Investigation 1"
+	name "运送Heliarch特工"
+
+mission "Heliarch Investigation 2"
+	name "Heliarch调查"
+
+mission "Heliarch Investigation 2 - Mebla's Portion"
+	name "调查<planet>"
+
+mission "Heliarch Investigation 2 - Stronghold of Flugbu"
+	name "调查<planet>"
+
+mission "Heliarch Investigation 2 - Shifting Sand"
+	name "调查<planet>"
+
+mission "Heliarch Investigation 2 - Fourth Shadow"
+	name "调查<planet>"
+
+mission "Heliarch Investigation 2 - Into White"
+	name "调查<planet>"
+
+mission "Heliarch Investigation 2 - Remote Blue"
+	name "调查<planet>"
+
+mission "Heliarch Recon 1"
+	name "Heliarch侦察"
+
+mission "Heliarch Recon 2-A"
+	name "扫描准备"
+
+mission "Heliarch Recon 2-B"
+	name "静默扫描"
+
+mission "Heliarch Recon 3-A"
+	name "扫描准备"
+
+mission "Heliarch Recon 3-B"
+	name "不那么静默的扫描"
+
+mission "Heliarch Recon 3-C"
+	name "不那么静默的扫描"
+
+mission "Heliarch Expedition 1"
+	name "域外侦察"
+
+mission "Heliarch Expedition 2"
+	name "已接触"
+
+mission "Heliarch Expedition 3"
+	name "域外冒险"
+
+mission "Heliarch Expedition 4"
+	name "域外冒险"
+
+mission "Heliarch Expedition 5"
+	name "会见Aulori"
+
+mission "Heliarch Containment 1"
+	name "运送Heliarch士兵"
+
+mission "Heliarch Containment 2"
+	name "接载Injured Soldiers"
+
+mission "Heliarch Containment 3"
+	name "信息医药"
+
+mission "Heliarch Containment 4-A"
+	name "秘密运输"
+
+mission "Heliarch Containment 4-B"
+	name "会见Plortub"
+
+mission "Heliarch Containment 5"
+	name "拦截逃逸飞船"
+
+mission "Heliarch Drills 1"
+	name "加油演习"
+
+mission "Heliarch Drills 2-A"
+	name "追击演习"
+
+mission "Heliarch Drills 2-B"
+	name "追击演习"
+
+mission "Heliarch Drills 2-C"
+	name "追击演习"
+
+mission "Heliarch Drills 3"
+	name "战斗演习"
+
+mission "Heliarch License 1"
+	name "会见执政官"

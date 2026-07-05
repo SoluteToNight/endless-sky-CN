@@ -1,0 +1,172 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Remnant: Defense 1"
+	name "保卫<planet>"
+
+mission "Remnant: Defense 2"
+	name "遗民悬赏"
+
+mission "Remnant: Defense 3"
+	name "遗民监视"
+
+mission "Remnant: Key Stones (Pre-Hai) 1"
+	name "关键之石"
+
+mission "Remnant: Key Stones (Pre-Hai) 2"
+	name "关键之石"
+
+mission "Remnant: Key Stones"
+	name "关键之石"
+
+mission "Remnant: Void Sprites 1"
+	name "太空生物"
+
+mission "Remnant: Void Sprites 2"
+	name "扫描the void sprites"
+
+mission "Remnant: Void Sprites 3"
+	name "访问void sprite planets"
+
+mission "Remnant: Technology Available"
+	name "执照培训"
+
+mission "Remnant: Learn Sign 1"
+	name "学习遗民手语"
+
+mission "Remnant: Learn Sign 2"
+	name "学习遗民手语"
+
+mission "Remnant: Deep Surveillance"
+	name "调查Ivan"
+
+mission "Remnant: Tech Retrieval"
+	name "遗民人类科技回收"
+
+mission "Remnant: Heavy Laser"
+	name "取回Heavy Lasers"
+
+mission "Remnant: Plasma Cannon"
+	name "取回Plasma Cannons"
+
+mission "Remnant: Catalytic Ramscoop"
+	name "取回Catalytic Ramscoops"
+
+mission "Remnant: Electron Beam"
+	name "取回Electron Beams for the Remnant"
+
+mission "Remnant: D94-YV Shield Generator"
+	name "取回D94-YV Shield Generators"
+
+mission "Remnant: S-970 Regenerator"
+	name "取回S-970 Regenerators"
+
+mission "Remnant: Return the Samples"
+	name "送回样本"
+
+mission "Remnant: Return the Samples 2"
+	name "送回样本"
+
+mission "Remnant: Salvage 1"
+	name "遗民历史更新"
+
+mission "Remnant: Salvage 1B"
+	name "遗民历史更新"
+
+mission "Remnant: Salvage 2"
+	name "保卫<planet>"
+
+mission "Remnant: Salvage 3"
+	name "运送受伤遗民"
+
+mission "Remnant: Salvage 4"
+	name "追踪<npc>"
+
+mission "Remnant: Salvage 5"
+	name "运送Salvage"
+
+mission "Remnant: Salvage 6"
+	name "将outfits运往Taely"
+
+mission "Remnant: Scanning Tolerances"
+	name "运送Data to <planet>"
+
+mission "Remnant: Expanded Horizons Quarg 1"
+	name "拜访Quarg"
+
+mission "Remnant: Expanded Horizons Quarg 2"
+	name "Quarg扫描"
+
+mission "Remnant: Expanded Horizons Quarg 3"
+	name "拓展视野归来"
+
+mission "Remnant: Broken Jump Drive 1"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Broken Jump Drive 2"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Broken Jump Drive 3"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Broken Jump Drive 4"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Broken Jump Drive 5"
+	name "运送Broken Jump Drive"
+
+mission "Remnant: Face to Maw 1"
+	name "与Plume about the void sprites谈话"
+
+mission "Remnant: Face to Maw 2"
+	name "将Bring slime运往<planet>"
+
+mission "Remnant: Face to Maw 2B"
+	name "将Bring tentacle运往<planet>"
+
+mission "Remnant: Keystone Research 1"
+	name "取回more keystones"
+
+mission "Remnant: Keystone Research 2"
+	name "取回more keystones"
+
+mission "Remnant: Keystone Research 3"
+	name "取回more keystones"
+
+mission "Remnant: Keystone Research 4"
+	name "取回more keystones"
+
+mission "Remnant: Keystone Research 5"
+	name "扫描the <npc>"
+
+mission "Remnant: Keystone Research 6"
+	name "扫描the <npc>"
+
+mission "Remnant: Keystone Research 7"
+	name "运送Data to <planet>"
+
+mission "Remnant: Expanded Horizons Astral 1"
+	name "远征准备"
+
+mission "Remnant: Expanded Horizons Astral 2"
+	name "前往人马座A*的研究远征"
+
+mission "Remnant: Expanded Horizons Storms 1"
+	name "余烬荒原风暴扫描"
+
+mission "Remnant: Logistics 1"
+	name "将Rush delivery运往<planet>"

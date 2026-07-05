@@ -1,0 +1,223 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Coalition: Ringworld Workers 1"
+	name "将Workers运往the <planet>"
+
+mission "Coalition: Ringworld Workers 2"
+	name "将Workers运往the <planet>"
+
+mission "Coalition: Ringworld Workers 3"
+	name "将Workers运往the <planet>"
+
+mission "Coalition: Ringworld Volunteers 1"
+	name "将Volunteers运往the <planet>"
+
+mission "Coalition: Ringworld Volunteers 2"
+	name "将Volunteers运往the <planet>"
+
+mission "Coalition: Ringworld Volunteers 3"
+	name "将Volunteers运往the <planet>"
+
+mission "Coalition: Ringworld Materials 1"
+	name "将Materials运往the <planet>"
+
+mission "Coalition: Ringworld Materials 2"
+	name "将Materials运往the <planet>"
+
+mission "Coalition: Ringworld Materials 3"
+	name "将Materials运往the <planet>"
+
+mission "Coalition: Ringworld Supplies 1"
+	name "物资至the <planet>"
+
+mission "Coalition: Ringworld Supplies 2"
+	name "物资至the <planet>"
+
+mission "Coalition: Ringworld Supplies 3"
+	name "物资至the <planet>"
+
+mission "Coalition: Heliarch Candidate"
+	name "将Candidate运往the <planet>"
+
+mission "Coalition: Interpreters 1"
+	name "将Interpreters运往<planet>"
+
+mission "Coalition: Interpreters 2"
+	name "将Interpreters运往<planet>"
+
+mission "Coalition: Interpreters 3"
+	name "将Interpreters运往<planet>"
+
+mission "Coalition: Peacekeepers 1"
+	name "将Peacekeepers运往<planet>"
+
+mission "Coalition: Peacekeepers 2"
+	name "将Peacekeepers运往<planet>"
+
+mission "Coalition: Saryd Interspecies 1"
+	name "将Saryds运往<planet>"
+
+mission "Coalition: Saryd Interspecies 2"
+	name "将Saryds运往<planet>"
+
+mission "Coalition: Kimek Interspecies 1"
+	name "将Kimek运往<planet>"
+
+mission "Coalition: Kimek Interspecies 2"
+	name "将Kimek运往<planet>"
+
+mission "Coalition: Arach Interspecies 1"
+	name "将Arachi运往<planet>"
+
+mission "Coalition: Arach Interspecies 2"
+	name "将Arachi运往<planet>"
+
+mission "Coalition: Transfer 1"
+	name "将nsfer运往<planet>"
+
+mission "Coalition: Transfer 2"
+	name "将nsfer运往<planet>"
+
+mission "Coalition: Transfer 3"
+	name "将nsfer运往<planet>"
+
+mission "Coalition: Tourists Out 1"
+	name "度假者至<planet>"
+
+mission "Coalition: Tourists Out 2"
+	name "度假者至<planet>"
+
+mission "Coalition: Tourists Out 3"
+	name "度假者至<planet>"
+
+mission "Coalition: Tourists Home 1"
+	name "度假者至<planet>"
+
+mission "Coalition: Tourists Home 2"
+	name "度假者至<planet>"
+
+mission "Coalition: Tourists Home 3"
+	name "度假者至<planet>"
+
+mission "Coalition: Fast Courier 1"
+	name "将Fast courier运往<planet>"
+
+mission "Coalition: Fast Courier 2"
+	name "将Fast courier运往<planet>"
+
+mission "Coalition: Fast Courier 3"
+	name "将Fast courier运往<planet>"
+
+mission "Coalition: Cargo 1"
+	name "将Cargo运往<planet>"
+
+mission "Coalition: Cargo 2"
+	name "将Cargo运往<planet>"
+
+mission "Coalition: Cargo 3"
+	name "将Cargo运往<planet>"
+
+mission "Coalition: Cargo 4"
+	name "将Cargo运往<planet>"
+
+mission "Coalition: Bulk 1"
+	name "将Bulk cargo运往<planet>"
+
+mission "Coalition: Bulk 2"
+	name "将Bulk cargo运往<planet>"
+
+mission "Coalition: Bulk 3"
+	name "将Bulk cargo运往<planet>"
+
+mission "Coalition: Bulk 4"
+	name "将Bulk cargo运往<planet>"
+
+mission "Coalition: Rush 1"
+	name "将Rush Delivery运往<planet>"
+
+mission "Coalition: Rush 2"
+	name "将Rush Delivery运往<planet>"
+
+mission "Coalition: Rush 3"
+	name "将Rush Delivery运往<planet>"
+
+mission "Coalition: Doctors"
+	name "将Doctors运往<planet>"
+
+mission "Coalition: Cadets 1"
+	name "将Cadets运往<planet>"
+
+mission "Coalition: Cadets 2"
+	name "将Cadets运往<planet>"
+
+mission "Coalition: To Games 1"
+	name "观众至<planet>"
+
+mission "Coalition: To Games 2"
+	name "观众至<planet>"
+
+mission "Coalition: To Games 3"
+	name "观众至<planet>"
+
+mission "Coalition: From Games 1"
+	name "将Passengers运往<planet>"
+
+mission "Coalition: From Games 2"
+	name "将Passengers运往<planet>"
+
+mission "Coalition: From Games 3"
+	name "将Passengers运往<planet>"
+
+mission "Heliarchs Buy Jump Drive Job 1"
+	name "出售跳跃引擎"
+
+mission "Heliarchs Buy Jump Drive Job 2"
+	name "出售跳跃引擎"
+
+mission "Evacuate Lunarium True"
+	name "营救月盟成员"
+
+mission "Evacuate Lunarium Fail"
+	name "营救月盟成员"
+
+mission "Lunarium: Armageddon Core Delivery"
+	name "运送Armageddon Core"
+
+mission "Lunarium: Fusion Reactor Delivery"
+	name "运送Fusion Reactor"
+
+mission "Lunarium: Breeder Reactor Delivery"
+	name "运送Breeder Reactor"
+
+mission "Lunarium: Torpedo Delivery"
+	name "运送Torpedo"
+
+mission "Lunarium: Typhoon Delivery"
+	name "运送Typhoon"
+
+mission "Lunarium: Plasma Delivery"
+	name "运送Plasma Turret"
+
+mission "Lunarium: Flamethrower Delivery"
+	name "运送Flamethrower"
+
+mission "Lunarium: Grenade Delivery"
+	name "运送Grenade"
+
+mission "Lunarium: Anti-Missile Delivery"
+	name "运送Anti-Missile"

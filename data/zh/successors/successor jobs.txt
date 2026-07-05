@@ -1,0 +1,88 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Successors: Tourists Out 1"
+	name "度假者至<planet>"
+
+mission "Successors: Tourists Out 2"
+	name "度假者至<planet>"
+
+mission "Successors: Bold Tourists Round Trip"
+	name "<planet stopovers>极限观光"
+
+mission "Successors: Tourist Expedition"
+	name "观光远征"
+
+mission "Successors: Students Out"
+	name "放假学生至<planet>"
+
+mission "Successors: Students In"
+	name "返校学生至<planet>"
+
+mission "Successors: Workers Out 1"
+	name "将Successor workers运往<planet>"
+
+mission "Successors: Workers Out 2"
+	name "将Successor workers运往<planet>"
+
+mission "Successors: Delivery Out 1"
+	name "将Shipment运往<planet>"
+
+mission "Successors: Delivery Out 2"
+	name "将Shipment运往<planet>"
+
+mission "Successors: High Value Delivery Out"
+	name "贵重物品至<planet>"
+
+mission "Successors: Aid Delivery Out 1"
+	name "援助物资至<planet>"
+
+mission "Successors: Large Delivery Out 1"
+	name "批量货物至<planet>"
+
+mission "Successors: Large Delivery Out 2"
+	name "批量货物至<planet>"
+
+mission "Successors: Rush Delivery Out 1"
+	name "加急货物至<planet>"
+
+mission "Successors: Large Rush Delivery Out 1"
+	name "大批加急货物至<planet>"
+
+mission "Successors: Seismic Stabilizers"
+	name "地震稳定器至<planet>"
+
+mission "Successors: Data Courier 1"
+	name "数据信使至<planet>"
+
+mission "Successors: Researchers Out 1"
+	name "将Researchers运往<planet stopovers>"
+
+mission "Successors: Large Researchers Out 1"
+	name "将Researchers运往<planet stopovers>"
+
+mission "Successors: Home Researchers Out 1"
+	name "将Researchers运往<planet stopovers>"
+
+mission "Successors: Researchers Transfer"
+	name "<planet>研讨会"
+
+mission "Successors: Old Houses Rush Delivery"
+	name "旧议院信使至<planet>"
+
+mission "Successors: New Houses Rush Delivery"
+	name "新议院信使至<planet>"

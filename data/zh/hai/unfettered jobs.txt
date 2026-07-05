@@ -1,0 +1,52 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Unfettered Tribute 1"
+	name "来自<planet stopovers>的Hai贡品"
+
+mission "Unfettered Tribute 2"
+	name "来自<planet stopovers>的Hai贡品"
+
+mission "Unfettered Tribute 3"
+	name "来自<planet stopovers>的Hai贡品"
+
+mission "Unfettered Jump Drive 4"
+	name "出售跳跃引擎"
+
+mission "Unfettered Silicon Asteroid Mining"
+	name "从asteroids运输Gather Silicon"
+
+mission "Unfettered Silicon Asteroid Mining 2"
+	name "从asteroids运输Gather Silicon"
+
+mission "Unfettered Silver Asteroid Mining"
+	name "从asteroids运输Gather Silver"
+
+mission "Unfettered Silver Asteroid Mining 2"
+	name "从asteroids运输Gather Silver"
+
+mission "Unfettered Lead Asteroid Mining"
+	name "从asteroids运输Gather Lead"
+
+mission "Unfettered Lead Asteroid Mining 2"
+	name "从asteroids运输Gather Lead"
+
+mission "Unfettered Small Medicals Rush"
+	name "来自<planet stopovers>的紧急医疗物资"
+
+mission "Unfettered Big Medicals Rush"
+	name "来自<planet stopovers>的医疗用品"

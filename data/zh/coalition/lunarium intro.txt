@@ -1,0 +1,115 @@
+# Chinese translation overlay
+# Auto-generated
+
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+mission "Lunarium: Smuggling: Charity 1"
+	name "运送Charity"
+
+mission "Lunarium: Smuggling: Charity 2"
+	name "运送Charity"
+
+mission "Lunarium: Smuggling: Charity 3"
+	name "运送Charity"
+
+mission "Lunarium: Smuggling: Grenades"
+	name "走私Grenade"
+
+mission "Lunarium: Smuggling: AM"
+	name "走私Anti-Missile"
+
+mission "Lunarium: Smuggling: Torpedoes"
+	name "走私Torpedo"
+
+mission "Lunarium: Smuggling: Heat"
+	name "走私Heated"
+
+mission "Lunarium: Smuggling: Reactors"
+	name "走私Reactor"
+
+mission "House Bebliss 1-A"
+	name "会见House Bebliss"
+
+mission "House Bebliss 1-B"
+	name "会见House Bebliss"
+
+mission "House Bebliss 2-FW"
+	name "找到Freya"
+
+mission "House Bebliss 3-FW"
+	name "告诉自由世界关于联盟的事"
+
+mission "House Bebliss 4-FW"
+	name "给Bebliss家族的答复"
+
+mission "House Bebliss 5-FW"
+	name "跳跃蜘蛛"
+
+mission "House Bebliss 6-FW"
+	name "护送House Bebliss"
+
+mission "House Bebliss 7-FW"
+	name "庄家永远赢"
+
+mission "Lunarium: Evacuation 1"
+	name "接载Students"
+
+mission "Lunarium: Evacuation 2"
+	name "运送学生"
+
+mission "Lunarium: Evacuation 3"
+	name "接载Desert Ranchers"
+
+mission "Lunarium: Evacuation 4"
+	name "运送牧场主"
+
+mission "Lunarium: Evacuation 5"
+	name "接载Immigrants"
+
+mission "Lunarium: Evacuation 6"
+	name "运送移民"
+
+mission "Lunarium: Propaganda 1"
+	name "推广文化"
+
+mission "Lunarium: Propaganda 2"
+	name "推广文化"
+
+mission "Lunarium: Propaganda 3"
+	name "推广文化"
+
+mission "Lunarium: Propaganda 4"
+	name "推广文化"
+
+mission "Lunarium: Combat Training 1"
+	name "新兵训练"
+
+mission "Lunarium: Combat Training 2"
+	name "战斗测试"
+
+mission "Lunarium: Combat Training 3"
+	name "接载Pyakri"
+
+mission "Lunarium: Combat Training 4"
+	name "归乡"
+
+mission "Lunarium: Questions"
+	name "月盟会议"
+
+mission "Lunarium: Quarg Interview"
+	name "面谈"
+
+mission "Lunarium: Join"
+	name "回报"
