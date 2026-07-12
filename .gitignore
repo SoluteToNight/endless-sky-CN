@@ -72,6 +72,9 @@ ipch/
 compile_commands.json
 CMakeUserPresets.json
 .gitmodules
+/scripts/.injected_files
+/scripts/.injected_state.json
+/scripts/.injected_state.tmp
 
 # static code analysis
 /.scannerwork
