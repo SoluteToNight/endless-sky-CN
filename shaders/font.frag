@@ -25,7 +25,7 @@ in vec2 texCoord;
 // Output color.
 out vec4 finalColor;
 
-// Multiply the texture by the user-specified color (including alpha).
+// Multiply the premultiplied color by the glyph coverage.
 void main() {
-	finalColor = vec4(color.rgb, color.a * texture(tex, texCoord).r);
+	finalColor = color * texture(tex, texCoord).r;
 }
