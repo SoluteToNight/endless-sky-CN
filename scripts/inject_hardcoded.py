@@ -7,6 +7,7 @@
     python scripts/inject_hardcoded.py                  # 注入中文
     python scripts/inject_hardcoded.py --restore         # 还原英文
     python scripts/inject_hardcoded.py --check           # 检查映射表匹配
+    python scripts/inject_hardcoded.py --dry-run         # 同 --check，不修改源码
 """
 
 import argparse
@@ -240,6 +241,7 @@ def check():
     for entry in entries:
         file_path = entry["file"]
         en = entry["en"]
+        context = entry.get("context")
         full_path = REPO_ROOT / file_path
 
         if not full_path.exists():
@@ -250,7 +252,7 @@ def check():
         lines = full_path.read_text(encoding="utf-8").splitlines()
         found = False
         for line in lines:
-            if find_string_literal(line, en):
+            if find_string_literal(line, en) and (not context or context in line):
                 found = True
                 break
 
@@ -261,13 +263,14 @@ def check():
             fail_count += 1
 
     print(f"检查完成: {ok_count} 通过, {fail_count} 失败")
+    return 1 if fail_count else 0
 
 
 def main():
     parser = argparse.ArgumentParser(description="硬编码 C++ 文本汉化注入")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--restore", action="store_true", help="还原英文源码")
-    group.add_argument("--check", action="store_true", help="检查映射表匹配")
+    group.add_argument("--check", "--dry-run", action="store_true", help="检查映射表匹配，不修改源码")
     group.add_argument(
         "--recover-unrecorded",
         action="store_true",
@@ -280,7 +283,7 @@ def main():
     elif args.recover_unrecorded:
         recover_unrecorded()
     elif args.check:
-        check()
+        raise SystemExit(check())
     else:
         inject()
 
