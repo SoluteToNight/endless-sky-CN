@@ -157,7 +157,13 @@ try {
 		throw "找不到 Windows OpenSSH: $windowsSsh"
 	}
 	$env:GIT_SSH_COMMAND = $windowsSsh.Replace("\", "/")
-	$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"
+	# vcpkg's MinGW toolchain locates the compiler via find_program() on
+	# "x86_64-w64-mingw32-gcc", so the prefixed variant has to be reachable.
+	$ucrtBin = "D:\DevEnvs\msys64\ucrt64\bin"
+	if (-not (Test-Path -LiteralPath (Join-Path $ucrtBin "x86_64-w64-mingw32-g++.exe"))) {
+		throw "找不到 MSYS2 ucrt64 工具链: $ucrtBin"
+	}
+	$env:PATH = "$ucrtBin;$env:PATH"
 	$script:pythonPath = Resolve-Python
 	Write-Host "Python 解释器: $script:pythonPath" -ForegroundColor DarkGray
 
