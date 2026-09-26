@@ -23,7 +23,7 @@ Agent 自动执行：
 5. `git switch feature/cjk-localization && git rebase master`
 6. 无冲突时由脚本继续；发生冲突时保持 rebase 现场并交给 Agent
 7. Agent 逐项解决冲突、执行 `git rebase --continue`，直到 rebase 完成
-8. 构建验证；无论成功或失败都安全恢复临时注入的中文源码
+8. 构建验证 + 安装资源；无论成功或失败都安全恢复临时注入的中文源码
 9. 验证通过后，原子推送 master 和汉化分支
 10. 向用户报告上游更新摘要、冲突处理和验证结果
 
@@ -137,11 +137,14 @@ cmake --install build/mingw --config Release
 
 产物输出到 `install/mingw/`，包含：exe、DLLs、data、images、shaders、sounds 及根目录文本文件。可直接打包分发。
 
+> `sync-upstream.ps1` 的 `-Finish` 阶段会在编译之后自动执行这一步，产出资源齐全的可分发版本。安装失败会直接抛错并跳过原子推送，因此“同步完成”意味着 `install/mingw/` 一定是完整可分发的。安装步骤位于注入还原的 `try/finally` 之内，构建或安装中途失败时临时中文仍会被安全还原。
+
 ### 验证清单
 
 每次同步后：
 
 - [ ] Agent 自动验证：`cmake --build build/mingw --config Release` 编译通过
+- [ ] Agent 自动验证：`cmake --install build/mingw --config Release` 通过，`install/mingw/` 资源齐全
 - [ ] Agent 自动验证：临时中文注入已恢复，工作树重新保持干净
 - [ ] Agent 自动验证：同步报告中列出上游本次更新内容摘要
 - [ ] 用户手动验证：启动游戏，确认中文 UI 显示正常

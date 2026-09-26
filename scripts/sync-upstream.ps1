@@ -7,6 +7,7 @@ Set-StrictMode -Version Latest
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $featureBranch = "feature/cjk-localization"
+$installDir = Join-Path $repoRoot "install/mingw"
 $originalLocation = Get-Location
 $injectionActive = $false
 
@@ -57,6 +58,10 @@ function Invoke-BuildValidation {
 		Assert-LastExitCode "注入中文"
 		& cmake --build build/mingw --config Release
 		Assert-LastExitCode "构建验证"
+		& cmake --install build/mingw --config Release
+		Assert-LastExitCode "安装资源"
+		$installed = @(Get-ChildItem -LiteralPath $installDir -Recurse -File)
+		Write-Host "已生成可分发版本: $installDir ($($installed.Count) 个文件)" -ForegroundColor Green
 	}
 	finally {
 		if ($script:injectionActive) {
@@ -103,6 +108,7 @@ function Finish-Sync {
 
 	Remove-Item -LiteralPath $StateFile
 	Write-Host "=== 同步完成 ===" -ForegroundColor Green
+	Write-Host "可分发版本: $installDir"
 	Write-Host "上游更新摘要:"
 	& git log --oneline "$oldMaster..master"
 	Assert-LastExitCode "生成上游更新摘要"
