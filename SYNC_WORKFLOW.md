@@ -101,24 +101,24 @@ git push origin v0.10.16-cn
 
 ### 环境要求
 
-- MSYS2 ucrt64 工具链（`D:\msys\ucrt64\bin`），需包含 `g++`、`windres`、`objdump`
+- MSYS2 ucrt64 工具链（`D:\DevEnvs\msys64\ucrt64\bin`），需包含 `g++`、`windres`、`objdump`
 - Python 3（`scripts/inject_hardcoded.py` 依赖，仅用标准库）。`sync-upstream.ps1` 会在
   `D:\DevEnvs\miniconda3\python.exe` 与 PATH 上的 `python`/`python3`/`py` 中逐个自检，
   取第一个真正能运行的解释器 —— Windows 应用商店的 `python` 占位符在未装解释器时
   退出码为 9009，会被自动跳过
-- 每次构建前确保 PATH 包含 ucrt64：`$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"`
+- 每次构建前确保 PATH 包含 ucrt64：`$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"`
 
 ### 首次配置（仅需一次）
 
 ```powershell
-$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"
+$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
 cmake --preset mingw
 ```
 
 ### 编译
 
 ```powershell
-$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"
+$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
 
 # 1. 临时注入中文，并保存注入前的精确文件快照
 python scripts/inject_hardcoded.py
@@ -135,7 +135,7 @@ python scripts/inject_hardcoded.py --restore
 ### 打包安装
 
 ```powershell
-$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"
+$env:PATH = "D:\DevEnvs\msys64\ucrt64\bin;$env:PATH"
 cmake --install build/mingw --config Release
 ```
 
