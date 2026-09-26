@@ -50,11 +50,46 @@ function Assert-CleanTrackedTree {
 	}
 }
 
+function Resolve-Python {
+	# The Microsoft Store "python" alias on PATH exits with 9009 when no
+	# interpreter is installed behind it, so a candidate is only accepted once
+	# it has actually run. The known-good interpreter is tried first to avoid
+	# poking the broken alias at all.
+	$candidates = @(
+		"D:\DevEnvs\miniconda3\python.exe",
+		"python",
+		"python3",
+		"py"
+	)
+	foreach($candidate in $candidates)
+	{
+		if(Test-Path -LiteralPath $candidate)
+		{
+			$path = $candidate
+		}
+		else
+		{
+			$resolved = Get-Command $candidate -ErrorAction SilentlyContinue
+			if(-not $resolved)
+			{
+				continue
+			}
+			$path = $resolved.Source
+		}
+		& $path -c "import sys" 2>$null
+		if($LASTEXITCODE -eq 0)
+		{
+			return $path
+		}
+	}
+	throw "找不到可用的 Python 解释器；请安装 Python 或修改 Resolve-Python 中的候选路径。"
+}
+
 function Invoke-BuildValidation {
 	$script:injectionActive = $true
 	$restoreFailed = $false
 	try {
-		& python scripts/inject_hardcoded.py
+		& $script:pythonPath scripts/inject_hardcoded.py
 		Assert-LastExitCode "注入中文"
 		& cmake --build build/mingw --config Release
 		Assert-LastExitCode "构建验证"
@@ -65,7 +100,7 @@ function Invoke-BuildValidation {
 	}
 	finally {
 		if ($script:injectionActive) {
-			& python scripts/inject_hardcoded.py --restore
+			& $script:pythonPath scripts/inject_hardcoded.py --restore
 			$restoreFailed = $LASTEXITCODE -ne 0
 			$script:injectionActive = $false
 		}
@@ -123,6 +158,8 @@ try {
 	}
 	$env:GIT_SSH_COMMAND = $windowsSsh.Replace("\", "/")
 	$env:PATH = "D:\msys\ucrt64\bin;$env:PATH"
+	$script:pythonPath = Resolve-Python
+	Write-Host "Python 解释器: $script:pythonPath" -ForegroundColor DarkGray
 
 	if ($Finish) {
 		Finish-Sync $stateFile
