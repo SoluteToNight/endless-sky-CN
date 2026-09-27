@@ -3,10 +3,14 @@
 硬编码 C++ 文本汉化注入脚本
 构建前注入中文，构建后还原英文。
 
+映射表按**整行**匹配：每条目的 `line` 与 `zh` 都是完整源码行，注入时整行替换。
+因此只有被显式列出的那一行会被改动，查找键（Get/Has/== 等）所在的行只要不入表
+就绝不会被翻译，从结构上排除了"同一个字符串既是显示文本又是查找键"的误译。
+
 用法：
     python scripts/inject_hardcoded.py                  # 注入中文
     python scripts/inject_hardcoded.py --restore         # 还原英文
-    python scripts/inject_hardcoded.py --check           # 检查映射表匹配
+    python scripts/inject_hardcoded.py --check           # 检查每行是否恰好匹配
     python scripts/inject_hardcoded.py --dry-run         # 同 --check，不修改源码
 """
 
@@ -49,23 +53,6 @@ def write_source(path: Path, content: str) -> None:
         temporary_path.unlink(missing_ok=True)
 
 
-def find_string_literal(line: str, target: str) -> list[tuple[int, int]]:
-    """Find occurrences of a complete string literal whose content equals target.
-
-    Returns list of (start, end) positions of the quote-delimited literal in the line.
-    Only matches full string literals, not substrings.
-    Handles C++ escape sequences (e.g. \" in source becomes " in content).
-    """
-    results = []
-    for m in re.finditer(r'"((?:[^"\\]|\\.)*)"', line):
-        raw = m.group(1)
-        # Unescape C++ sequences for comparison
-        unescaped = raw.replace('\\"', '"').replace('\\\\', '\\').replace('\\n', '\n').replace('\\t', '\t')
-        if raw == target or unescaped == target:
-            results.append((m.start(), m.end()))
-    return results
-
-
 def load_mapping() -> dict:
     with open(MAPPING_FILE, encoding="utf-8") as f:
         return json.load(f)
@@ -94,46 +81,40 @@ def inject():
 
         original_content = read_source(full_path)
         lines = original_content.splitlines(keepends=True)
-        changed = False
 
+        # Resolve every entry against the *original* lines first, so that a
+        # replacement can never be matched again by a later entry.
+        planned: dict[int, str] = {}
         for entry in file_entries:
-            en = entry["en"]
-            zh = entry["zh"]
-            context = entry.get("context")
+            target = entry["line"]
+            replacement = entry["zh"]
+            expected = entry.get("count", 1)
 
-            # Escape for C++ string literal: actual newlines -> \n, tabs -> \t, etc.
-            zh_escaped = (zh
-                .replace("\\", "\\\\")  # backslash first
-                .replace("\n", "\\n")   # newline
-                .replace("\t", "\\t")   # tab
-                .replace("\r", "\\r")   # carriage return
-                .replace('"', '\\"'))   # quotes
+            indices = [
+                i for i, line in enumerate(lines)
+                if line.rstrip("\r\n") == target
+            ]
+            if len(indices) != expected:
+                warnings.append(
+                    f"匹配数不符(期望{expected},实际{len(indices)}): "
+                    f"[{file_path}] {target.strip()[:70]}"
+                )
+                continue
+            for i in indices:
+                # Preserve this line's own line ending.
+                ending = lines[i][len(lines[i].rstrip("\r\n")):]
+                planned[i] = replacement + ending
 
-            found_count = 0
-            for i, line in enumerate(lines):
-                matches = find_string_literal(line, en)
-                if not matches:
-                    continue
+        if not planned:
+            continue
 
-                if context and context not in line:
-                    continue
+        for i, replacement in planned.items():
+            lines[i] = replacement
 
-                for start, end in matches:
-                    lines[i] = line[:start + 1] + zh_escaped + line[end - 1:]
-                    line = lines[i]
-                    found_count += 1
-                    changed = True
-
-            if found_count == 0:
-                warnings.append(f"未匹配: [{file_path}] \"{en}\"")
-            elif found_count > 1 and not context:
-                warnings.append(f"多处匹配({found_count}): [{file_path}] \"{en}\"")
-
-        if changed:
-            modified_files[file_path] = {
-                "original": original_content,
-                "injected": "".join(lines),
-            }
+        modified_files[file_path] = {
+            "original": original_content,
+            "injected": "".join(lines),
+        }
 
     if modified_files:
         state = {"version": 1, "files": modified_files}
@@ -238,29 +219,31 @@ def check():
     ok_count = 0
     fail_count = 0
 
+    by_file: dict[str, list] = {}
     for entry in entries:
-        file_path = entry["file"]
-        en = entry["en"]
-        context = entry.get("context")
-        full_path = REPO_ROOT / file_path
+        by_file.setdefault(entry["file"], []).append(entry)
 
+    for file_path, file_entries in by_file.items():
+        full_path = REPO_ROOT / file_path
         if not full_path.exists():
-            print(f"  FAIL 文件不存在: [{file_path}] \"{en}\"")
-            fail_count += 1
+            print(f"  FAIL 文件不存在: [{file_path}]")
+            fail_count += len(file_entries)
             continue
 
         lines = full_path.read_text(encoding="utf-8").splitlines()
-        found = False
-        for line in lines:
-            if find_string_literal(line, en) and (not context or context in line):
-                found = True
-                break
+        for entry in file_entries:
+            target = entry["line"]
+            expected = entry.get("count", 1)
+            found = sum(1 for line in lines if line == target)
 
-        if found:
-            ok_count += 1
-        else:
-            print(f"  FAIL 未找到: [{file_path}] \"{en}\"")
-            fail_count += 1
+            if found == expected:
+                ok_count += 1
+            else:
+                print(
+                    f"  FAIL 匹配数不符(期望{expected},实际{found}): "
+                    f"[{file_path}] {target.strip()[:70]}"
+                )
+                fail_count += 1
 
     print(f"检查完成: {ok_count} 通过, {fail_count} 失败")
     return 1 if fail_count else 0

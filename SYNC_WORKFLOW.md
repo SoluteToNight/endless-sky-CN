@@ -132,6 +132,38 @@ python scripts/inject_hardcoded.py --restore
 
 > 临时硬编码中文是发布构建的一部分，但不得提交到 Git。注入器将原始内容和注入后内容记录到 `.injected_state.json`：恢复时仅处理仍与注入版本完全一致的文件，因此能够保留注入前已有的修改；如果构建期间文件再次变化，恢复会停止且不覆盖文件，交由 Agent 合并。同步脚本通过退出 trap 保证构建失败时也会执行恢复。
 
+### 汉化映射表格式
+
+映射表位于仓库之外：`../es_translation/hardcoded_zh.json`，**不受 git 管理**，需手工维护。
+它按**整行**匹配，每条的 `line` 与 `zh` 都是完整源码行，注入时整行替换：
+
+```json
+{
+  "file": "source/BankPanel.cpp",
+  "line": "\t\t\ttable.Draw(\"Other\");",
+  "zh":   "\t\t\ttable.Draw(\"其他\");"
+}
+```
+
+`count` 字段表示该行在文件中出现的次数（默认 1，用于合并内容完全相同的重复行）。
+
+这样设计的原因：同一个字符串常常**既是显示文本、又是查找键**，例如
+
+```cpp
+font.Draw("Uninhabited", pos + textOff, dim);                          // 显示，需翻译
+return GovernmentColor(GameData::Governments().Get("Uninhabited"));     // 查找键，不能翻译
+```
+
+按字面量替换会无差别改写两处，导致游戏找不到名为「无人居住」的政府，甚至把错误名字写进玩家存档。
+改为整行匹配后，**查找键所在的那一行只要不入表就绝不会被改动**，歧义在数据结构层面被消除。
+
+维护规则：
+
+- 只把**显示行**列入表中；`Get(` / `Has(` / `==` / `out.Write(` / `[` 所在的查找与持久化行一律不列
+- `//` 开头的注释不翻译，保持与上游一致，便于阅读与 diff
+- 上游改动某一行后，`--check` 会报「匹配数不符」并指出该行，只需照新行更新 `line` 字段
+- 提交前务必确认 `git diff` 为空——注入内容不得留在工作树
+
 ### 打包安装
 
 ```powershell
